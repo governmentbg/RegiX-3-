@@ -1,0 +1,66 @@
+resources:
+- repo: self
+queue:
+  name: RegiX
+steps:
+- powershell: |
+    # Matches ###PAT### string.
+    $regex = "(##PAT##)"
+    # File contents to be replaced
+    $fileName = "$(Build.Repository.LocalPath)\RegiXAdmin\.npmrc"
+    # Iterates through all the file's lines
+    $tmp = Get-Content $fileName | `
+    foreach `
+    { `
+        [regex]::replace($_,$regex, "$(npmrc.pat_regix)") `
+    }
+    # Update the .npmrc PAT token
+    Set-Content $fileName $tmp
+  displayName: 'Replace PAT in .npmrc'
+# - task: PowerShell@2
+#   inputs:
+#     targetType: 'inline'
+#     script: 'Set-Content -Path "$(Build.Repository.LocalPath)\RegiXAdmin\src\assets\config.properties.json" -Value "{ ""serviceUrl"": ""https://172.16.69.13:8091/RegiX.Admin.API"" }"'    
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      cd RegiXAdmin
+      npm version 1.$(Build.BuildNumber)
+- task: Npm@1
+  displayName: 'npm install'
+  inputs:
+    workingDir: '$(Build.Repository.LocalPath)\RegiXAdmin'
+    command: 'install'
+- task: Npm@1
+  displayName: 'npm set version'
+  inputs:
+    workingDir: '$(Build.Repository.LocalPath)\RegiXAdmin'
+    command: 'custom'
+    customCommand: 'version 1.$(Build.BuildNumber) --allow-same-version'
+- task: Npm@1
+  displayName: 'npm build'
+  inputs:
+    workingDir: '$(Build.Repository.LocalPath)\RegiXAdmin'
+    command: 'custom'
+    customCommand: 'run-script $(environment)'
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      Remove-Item $(Build.Repository.LocalPath)\RegiXAdmin\dist\RegiXAdmin\*.ver
+      New-Item -Path $(Build.Repository.LocalPath)\RegiXAdmin\dist\RegiXAdmin -Name "1.$(Build.BuildNumber).ver"
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
+  inputs:
+    artifactName: 'RegiX.Admin.Angular'
+    PathtoPublish: '$(Build.Repository.LocalPath)\RegiXAdmin\dist\RegiXAdmin'
+#- task: WindowsMachineFileCopy@2
+#  inputs:
+#    sourcePath: '$(Build.Repository.LocalPath)\RegiXAdmin\dist\RegiXAdmin'
+#    machineNames: '172.16.69.13'
+#    adminUserName: '$(RegiX.Adapters.AdminUserName)'
+#    adminPassword: '$(RegiX.Adapters.AdminUserPassword)'
+#    targetPath: 'C:\RegiX3\RegiX.Admin.Angular'
+#    cleanTargetBeforeCopy: true
+#    copyFilesInParallel: true

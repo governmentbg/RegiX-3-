@@ -1,0 +1,145 @@
+<div class="filter-holder">
+  <div class="input-holder input-wrapper">
+    <igx-select
+      #select
+      name="agencies"
+      class="agency-select"
+      [(ngModel)]="agencySelected"
+      (onSelection)="onAgencyChange($event)"
+      [overlaySettings]="customOverlaySettings"
+    >
+      <igx-prefix><b class="input-label">Администрация:</b></igx-prefix>
+      <igx-select-item *ngFor="let agency of agencies" [value]="agency">
+        {{ agency.acronym + ' - ' + agency.name }}
+      </igx-select-item>
+    </igx-select>
+  </div>
+</div>
+<div class="registers-wrapper">
+  <div *ngIf="!agencyModel?.registers">
+    <igx-circular-bar
+      *ngIf="isAgencyDataLoading"
+      [animate]="true"
+      [indeterminate]="true"
+      [textVisibility]="true"
+    ></igx-circular-bar>
+    <span *ngIf="!isAgencyDataLoading"> </span>
+    Няма намерени регистри
+  </div>
+  <div *ngIf="agencyModel?.registers && errorMessage === ''">
+    <igx-card *ngFor="let register of agencyModel.registers" class="card">
+      <igx-navbar title="{{ register.name }}" class="pb-2"> </igx-navbar>
+      <!-- <igx-card-header class="cardHeader">
+    <h3 igxCardHeaderTitle class="p-1">
+      {{ register.Name }}
+    </h3>
+  </igx-card-header> -->
+      <igx-card-content>
+        <div *ngIf="!register.adapters && !isAgencyDataLoading">
+          Няма намерени операции.
+        </div>
+        <div
+          *ngIf="register.adapters && !isAgencyDataLoading"
+          class="register-div"
+        >
+          <div *ngFor="let adapter of register.adapters">
+            <div class="adapter-wrapper">
+              <igx-navbar
+                title="{{ adapter.name }} - {{ adapter.version }}"
+                class="pb-2"
+              >
+                <button
+                  type="button"
+                  [igxToggleAction]="registryDropdown"
+                  [overlaySettings]="menuOverlaySettings"
+                  [igxDropDownItemNavigation]="registryDropdown"
+                  title="Сваляне на файлове"
+                  class="register-button"
+                  igxButton="outlined"
+                >
+                  <i class="fa fa-download" aria-hidden="true"></i>
+                  <!-- <i class="fa fa-arrow-down" aria-hidden="true"></i> -->
+                </button>
+                <igx-drop-down
+                  #registryDropdown
+                  (onSelection)="onRegistryMenuSelected($event, adapter)"
+                  [width]="'200px'"
+                >
+                  <igx-drop-down-item [value]="ADAPTER_SAMPLE_DATA">
+                    <i class="fa fa-archive" aria-hidden="true"></i
+                    >&nbsp;Примерни данни
+                  </igx-drop-down-item>
+                  <igx-drop-down-item [value]="ADAPTER_XML_SHEME_DATA">
+                    <i class="fa fa-archive" aria-hidden="true"></i
+                    >&nbsp;XML схеми
+                  </igx-drop-down-item>
+                </igx-drop-down>
+              </igx-navbar>
+              <igx-expansion-panel
+                *ngFor="let operation of adapter.operations"
+                (onExpanded)="onAdapterExpanded(adapter, operation)"
+                class="operation-panel content__collapsible"
+              >
+                <igx-expansion-panel-header
+                  (onInteraction)="onHeaderInteraction($event)"
+                >
+                  <button
+                    type="button"
+                    [igxToggleAction]="operationsDropdown"
+                    [overlaySettings]="overlaySettings"
+                    [igxDropDownItemNavigation]="operationsDropdown"
+                    title="Сваляне на файлове"
+                    class="adapter-button"
+                    (click)="onMenuOpen($event)"
+                    igxButton="raised"
+                  >
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                  </button>
+                  <igx-drop-down
+                    #operationsDropdown
+                    [width]="'200px'"
+                    (onSelection)="
+                      onOperationMenuSelected($event, adapter, operation)
+                    "
+                  >
+                    <igx-drop-down-item [value]="OPERATION_SAMPLE_DATA">
+                      <i class="fa fa-archive" aria-hidden="true"></i
+                      >&nbsp;Примерни данни
+                    </igx-drop-down-item>
+                    <igx-drop-down-item [value]="OPERATION_XML_SHEME_DATA">
+                      <i class="fa fa-archive" aria-hidden="true"></i
+                      >&nbsp;XML схеми
+                    </igx-drop-down-item>
+                  </igx-drop-down>
+                  <igx-expansion-panel-title>
+                    <h6
+                      class="adapter-header"
+                      [title]="operation.description"
+                    >
+                      {{ operation.description }}
+                    </h6>
+                  </igx-expansion-panel-title>
+                </igx-expansion-panel-header>
+                <igx-expansion-panel-body class="operation-panel">
+                  <app-operation-details
+                    [adapter]="adapter"
+                    [operationDetail]="operation"
+                  ></app-operation-details>
+                </igx-expansion-panel-body>
+              </igx-expansion-panel>
+            </div>
+          </div>
+        </div>
+        <igx-circular-bar
+          *ngIf="isAgencyDataLoading"
+          [animate]="true"
+          [indeterminate]="true"
+          [textVisibility]="true"
+        ></igx-circular-bar>
+      </igx-card-content>
+    </igx-card>
+  </div>
+  <div *ngIf="errorMessage != ''">
+    {{ errorMessage }}
+  </div>
+</div>

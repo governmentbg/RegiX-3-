@@ -1,0 +1,4 @@
+    <ActualStateRequestV2 xsi:schemaLocation="http://egov.bg/RegiX/AV/TR/ActualStateRequestV2 TR_ActualStateRequestv2.xsd" xmlns="http://egov.bg/RegiX/AV/TR/ActualStateRequestV2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<UIC>201593301</UIC>
+	<FieldList>005,,,</FieldList>
+</ActualStateRequestV2>

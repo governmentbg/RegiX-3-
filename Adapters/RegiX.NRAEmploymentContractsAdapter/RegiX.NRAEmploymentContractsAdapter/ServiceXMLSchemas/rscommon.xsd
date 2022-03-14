@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+  <xs:simpleType name="IDType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="6"/>
+      <xs:maxLength value="16"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="EikTypeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Bulstat"/>
+      <xs:enumeration value="EGN"/>
+      <xs:enumeration value="LNC"/>
+      <xs:enumeration value="SystemNo"/>
+      <xs:enumeration value="BulstatCL"/> <!-- Foreign person with a Bulstat number -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ThresholdType">
+    <xs:restriction base="xs:unsignedShort">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="1000"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ObligationStatusType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ABSENT"/> <!-- No obligation above the given threshold  -->
+      <xs:enumeration value="PRESENT"/> <!-- There is obligation above the given threshold -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="Identity">
+    <xs:annotation>
+      <xs:documentation>Request</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence minOccurs="1" maxOccurs="1">
+        <xs:element minOccurs="1" maxOccurs="1" name="ID" type="IDType"/>
+        <xs:element minOccurs="1" maxOccurs="1" name="TYPE" type="EikTypeType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="ObligationRequest">
+    <xs:annotation>
+      <xs:documentation>Root element for the request</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence minOccurs="1" maxOccurs="1">
+        <xs:element ref="Identity" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="Threshold" type="ThresholdType" minOccurs="0" maxOccurs="1">
+          <xs:annotation>
+            <xs:documentation>
+              The service reports present obligation only if it is greater than this threshold value
+            </xs:documentation>
+          </xs:annotation>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

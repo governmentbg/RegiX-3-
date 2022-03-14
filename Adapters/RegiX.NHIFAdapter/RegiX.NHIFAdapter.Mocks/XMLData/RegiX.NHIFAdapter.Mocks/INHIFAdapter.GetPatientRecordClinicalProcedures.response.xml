@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PatientRecordClinicalProceduresResponse >
+  <PatientRecordClinicalProcedures>
+    <PatientRecordClinicalProcedure>
+      <PatientIdentificator>PatientIdentificator1</PatientIdentificator>
+      <BranchName>BranchName1</BranchName>
+      <MSP>
+        <MSPCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPCode1</MSPCode>
+        <MSPName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPName1</MSPName>
+      </MSP>
+      <ActivityDate>ActivityDate1</ActivityDate>
+      <ClinicalProcedure>
+        <ClinicalProcedureCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalProcedureCode1</ClinicalProcedureCode>
+        <ClinicalProcedureName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalProcedureName1</ClinicalProcedureName>
+      </ClinicalProcedure>
+      <ICD>
+        <ICDClinicalManipulationCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ICDClinicalManipulationCode1</ICDClinicalManipulationCode>
+        <ICDClinicalManipulationName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ICDClinicalManipulationName1</ICDClinicalManipulationName>
+      </ICD>
+      <Price>Price1</Price>
+    </PatientRecordClinicalProcedure>
+    <PatientRecordClinicalProcedure>
+      <PatientIdentificator>PatientIdentificator2</PatientIdentificator>
+      <BranchName>BranchName2</BranchName>
+      <MSP>
+        <MSPCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPCode2</MSPCode>
+        <MSPName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPName2</MSPName>
+      </MSP>
+      <ActivityDate>ActivityDate2</ActivityDate>
+      <ClinicalProcedure>
+        <ClinicalProcedureCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalProcedureCode2</ClinicalProcedureCode>
+        <ClinicalProcedureName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalProcedureName2</ClinicalProcedureName>
+      </ClinicalProcedure>
+      <ICD>
+        <ICDClinicalManipulationCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ICDClinicalManipulationCode2</ICDClinicalManipulationCode>
+        <ICDClinicalManipulationName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ICDClinicalManipulationName2</ICDClinicalManipulationName>
+      </ICD>
+      <Price>Price2</Price>
+    </PatientRecordClinicalProcedure>
+    <PatientRecordClinicalProcedure>
+      <PatientIdentificator>PatientIdentificator3</PatientIdentificator>
+      <BranchName>BranchName3</BranchName>
+      <MSP>
+        <MSPCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPCode3</MSPCode>
+        <MSPName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPName3</MSPName>
+      </MSP>
+      <ActivityDate>ActivityDate3</ActivityDate>
+      <ClinicalProcedure>
+        <ClinicalProcedureCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalProcedureCode3</ClinicalProcedureCode>
+        <ClinicalProcedureName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalProcedureName3</ClinicalProcedureName>
+      </ClinicalProcedure>
+      <ICD>
+        <ICDClinicalManipulationCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ICDClinicalManipulationCode3</ICDClinicalManipulationCode>
+        <ICDClinicalManipulationName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ICDClinicalManipulationName3</ICDClinicalManipulationName>
+      </ICD>
+      <Price>Price3</Price>
+    </PatientRecordClinicalProcedure>
+  </PatientRecordClinicalProcedures>
+</PatientRecordClinicalProceduresResponse>

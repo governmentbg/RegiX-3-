@@ -1,0 +1,4 @@
+﻿<MtspInfoFosterParentsResponse xmlns="http://egov.bg/RegiX/MTSP/SendInfoForFosterParents/MtspInfoFosterParentsResponse">
+  <ResponseCode>1</ResponseCode>
+  <Error>Error1</Error>
+</MtspInfoFosterParentsResponse>

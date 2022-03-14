@@ -1,0 +1,179 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.CRCTransferredRightsAdapter.APIService.ICRCTransferredRightsAPI.GetTransferredRightsInfo</OperationName>
+  <Code>GetTransferredRightsInfo</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>GetTransferredRightsRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/CRC/TransferredRights/GetTransferredRightsRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за прехвърлени права</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>PurchaserName</ParameterName>
+        <ParameterLabel>Наименование приобретател</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Type</ParameterName>
+        <ParameterLabel>Тип</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Permission</ParameterName>
+        <ParameterLabel>Разрешение</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>TransferFromDate</ParameterName>
+        <ParameterLabel>Дата на прехвърляне - от дата</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>3</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>TransferToDate</ParameterName>
+        <ParameterLabel>Дата на прехвърляне - до дата</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>4</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>EndOfActionFromDate</ParameterName>
+        <ParameterLabel>Крайна дата на действие - от дата</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>5</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>EndOfActionToDate</ParameterName>
+        <ParameterLabel>Крайна дата на действие - до дата</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>6</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>AttorneyName</ParameterName>
+        <ParameterLabel>Наименование праводател</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>7</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>AttorneyType</ParameterName>
+        <ParameterLabel>Тип на праводател</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>8</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>AttorneyPermission</ParameterName>
+        <ParameterLabel>Разрешение на праводател</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>9</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>IssueFromDate</ParameterName>
+        <ParameterLabel>Дата на издаване - от дата</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>10</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>IssueToDate</ParameterName>
+        <ParameterLabel>Дата на издаване - до дата </ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>12</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

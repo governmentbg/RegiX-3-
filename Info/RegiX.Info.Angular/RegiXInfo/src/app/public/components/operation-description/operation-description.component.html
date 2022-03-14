@@ -1,0 +1,71 @@
+<div class="content">
+  <table class="table table-hover table-bordered table-striped tbl-main">
+    <tbody>
+      <tr>
+        <th width="150px" class="tbl-header-main">Име</th>
+        <td class="wrap">
+          <a [href]="this.configurationService.getServiceUrl() + '/api/XSLT/sample/'+ this.operationType.toLowerCase() + '/' + adapter.interface + '.' + operation.fullName + '.xml'">
+            {{ operationDetail.name }}
+          </a>
+      </td>
+      </tr>
+      <tr>
+        <th width="150px" class="tbl-header-main">Описание</th>
+        <td class="wrap">{{ operationDetail.description }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<igx-tabs class="p-1">
+  <igx-tabs-group label="Описание">
+    <div class="content content-wrapper xsd-background">
+      <p style="margin-top: 5px; margin-bottom: 0px">
+        <span><b>Структура на данните ({{operationType}})</b></span>
+        <br />
+      </p>
+      <div [innerHTML]="descriptionHtml"></div>
+    </div>
+  </igx-tabs-group>
+  <igx-tabs-group label="XSD Схема" *ngIf="isXSDSchemeAvailable()">
+    <igx-circular-bar
+      *ngIf="!operation.isDataLoaded && operation.isDataLoading"
+      [animate]="true"
+      [indeterminate]="true"
+      [textVisibility]="true"
+    ></igx-circular-bar>
+
+    <app-scheme-details
+      [name]="operationType"
+      [text]="getSchemeText()"
+      *ngIf="operation.isDataLoaded"
+    ></app-scheme-details>
+  </igx-tabs-group>
+  <igx-tabs-group label="XSD Сommon" *ngIf="isCommonAvailable()">
+    <igx-circular-bar
+      *ngIf="!operation.isDataLoaded && operation.isDataLoading"
+      [animate]="true"
+      [indeterminate]="true"
+      [textVisibility]="true"
+    ></igx-circular-bar>
+
+    <app-scheme-details
+      [name]="operationType"
+      [text]="getCommonText()"
+      *ngIf="operation.isDataLoaded"
+    ></app-scheme-details>
+  </igx-tabs-group>
+  <igx-tabs-group label="Примерни данни" *ngIf="isSampleDataAvailable()">
+    <igx-circular-bar
+      *ngIf="!operation.isDataLoaded && operation.isDataLoading"
+      [animate]="true"
+      [indeterminate]="true"
+      [textVisibility]="true"
+    ></igx-circular-bar>
+
+    <app-scheme-details
+      [name]="operationType"
+      [text]="getSampleText()"
+      *ngIf="operation.isDataLoaded"
+    ></app-scheme-details>
+  </igx-tabs-group>
+</igx-tabs>

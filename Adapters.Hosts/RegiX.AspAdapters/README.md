@@ -1,0 +1,2 @@
+Install-Package RegiX.ASPFosterParentsAdapter
+Install-Package RegiX.ASPSocialAdapter

@@ -1,0 +1,185 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <form [formGroup]="formGroup" (submit)="onSubmit($event)">
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="userActionTime"
+              type="text"
+              formControlName="userActionTime"
+              tlFormGroupRef
+            />
+            <label igxLabel for="userActionTime">Дата на действие</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="userName"
+              type="text"
+              formControlName="userName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="userName">Потребител</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="userActionType"
+              type="text"
+              formControlName="userActionType"
+              tlFormGroupRef
+            />
+            <label igxLabel for="userActionType">Тип действие</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="userActionText"
+              type="text"
+              formControlName="userActionText"
+              tlFormGroupRef
+            />
+            <label igxLabel for="userActionText">Описание</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="controller"
+              type="text"
+              formControlName="controller"
+              tlFormGroupRef
+            />
+            <label igxLabel for="controller">Контролер</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="actionMethod"
+              type="text"
+              formControlName="actionMethod"
+              tlFormGroupRef
+            />
+            <label igxLabel for="actionMethod">Метод</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="executeStatus"
+              type="text"
+              formControlName="executeStatus"
+              tlFormGroupRef
+            />
+            <label igxLabel for="executeStatus">Статус на изпълнение</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="params"
+              type="text"
+              formControlName="params"
+              tlFormGroupRef
+            />
+            <label igxLabel for="params">Параментри</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="url"
+              type="text"
+              formControlName="url"
+              tlFormGroupRef
+            />
+            <label igxLabel for="url">URL</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="changedTables"
+              type="text"
+              formControlName="changedTables"
+              tlFormGroupRef
+            />
+            <label igxLabel for="changedTables">Променени таблици</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="ipAddress"
+              type="text"
+              formControlName="ipAddress"
+              tlFormGroupRef
+            />
+            <label igxLabel for="ipAddress">IP Адрес</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+    </form>
+  </div>
+</tl-basic-form>

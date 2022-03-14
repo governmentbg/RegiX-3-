@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<ForeignerPermissionsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/MP/ChNTs/ForeignerPermissionsResponse">
+  <PermissionData>
+    <NamesLatin>BLACKBURN JOHNATHAN</NamesLatin>
+    <NamesCyrillic>ДЖОНАТАН БЛЕКБЪРН</NamesCyrillic>
+    <NationalityCode>US</NationalityCode>
+    <NationalityName>САЩ</NationalityName>
+    <StatusCode>1</StatusCode>
+    <StatusName>Продължен срок на разрешение</StatusName>
+    <Resolution>
+      <OrderNumber>ЛС-04-215</OrderNumber>
+      <OrderDate>2009-03-13T00:00:00</OrderDate>
+    </Resolution>
+    <Permission>
+      <DateFrom>2009-03-13T00:00:00</DateFrom>
+      <DateTo>2010-03-13T00:00:00</DateTo>
+      <ActivityType>Изнасяне на лекции по бизнес и по английски език пред начинаещи български бизнесмени</ActivityType>
+      <NonprofitEntityName>Фондация "Бизнес и образователни ресурси в България"</NonprofitEntityName>
+      <Address>
+        <DistrictCode>SOF</DistrictCode>
+        <DistrictName>София (столица)</DistrictName>
+        <MunicipalityCode>SOF46</MunicipalityCode>
+        <MunicipalityName>Столична</MunicipalityName>
+        <TerritorialUnitCode>68134</TerritorialUnitCode>
+        <TerritorialUnitName>София</TerritorialUnitName>
+        <AddressDescription>жк Младост 2, бл.239, вх.7, ет.1, ап.2</AddressDescription>
+      </Address>
+    </Permission>
+  </PermissionData>
+  <PermissionData>
+		<NamesLatin>String</NamesLatin>
+		<NamesCyrillic>String</NamesCyrillic>
+		<NationalityCode>String</NationalityCode>
+		<NationalityName>String</NationalityName>
+		<StatusCode>2</StatusCode>
+		<StatusName>String</StatusName>
+		<Resolution>
+			<OrderNumber>String</OrderNumber>
+			<OrderDate>2001-12-17T09:30:47.0Z</OrderDate>
+		</Resolution>
+		<Permission>
+			<DateFrom>2001-12-17T09:30:47.0Z</DateFrom>
+			<DateTo>2001-12-17T09:30:47.0Z</DateTo>
+			<ActivityType>String</ActivityType>
+			<NonprofitEntityName>String</NonprofitEntityName>
+			<Address>
+				<DistrictCode>String</DistrictCode>
+				<DistrictName>String</DistrictName>
+				<MunicipalityCode>String</MunicipalityCode>
+				<MunicipalityName>String</MunicipalityName>
+				<TerritorialUnitCode>String</TerritorialUnitCode>
+				<TerritorialUnitName>String</TerritorialUnitName>
+				<AddressDescription>String</AddressDescription>
+			</Address>
+		</Permission>
+	</PermissionData>
+  <SearchDate>2009-07-07T00:00:00</SearchDate>
+</ForeignerPermissionsResponse>

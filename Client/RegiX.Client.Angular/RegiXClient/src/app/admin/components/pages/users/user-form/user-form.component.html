@@ -1,0 +1,184 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <div *ngIf="isDataLoading">
+      <div>
+        <igx-circular-bar
+          [animate]="true"
+          [indeterminate]="true"
+          [textVisibility]="true"
+        ></igx-circular-bar>
+      </div>
+    </div>
+    <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isDataLoaded && !isDataLoading"
+    >
+      <div class="input-groups">
+        <div class="input-group">
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group>
+              <input
+                class="form-input"
+                igxInput
+                name="name"
+                type="text"
+                formControlName="name"
+                tlFormGroupRef
+              />
+              <label igxLabel for="name">Име</label>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+
+        <div class="input-group">
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group>
+              <input
+                class="form-input"
+                igxInput
+                name="userName"
+                type="text"
+                formControlName="userName"
+                tlFormGroupRef
+              />
+              <label igxLabel for="userName">Потребителско име</label>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+
+        <div class="input-group">
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group>
+              <input
+                class="form-input"
+                igxInput
+                name="email"
+                type="text"
+                formControlName="email"
+                tlFormGroupRef
+              />
+              <label igxLabel for="email">Email</label>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+
+        <ng-template [ngxPermissionsOnly]="['ADMIN','GLOBAL_ADMIN']">
+          <div class="input-group">
+            <tl-form-group class="form-group-wrapper">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="position"
+                  type="text"
+                  formControlName="position"
+                  tlFormGroupRef
+                />
+                <label igxLabel for="position">Позиция</label>
+              </igx-input-group>
+            </tl-form-group>
+          </div>
+        </ng-template>
+
+      </div>
+
+
+      <ng-template ngxPermissionsOnly="GLOBAL_ADMIN">
+        <div
+          class="input-group"
+          igxLayout
+          igxLayoutDir="row"
+          formGroupName="authority"
+        >
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group>
+              <input
+                class="form-input"
+                igxInput
+                name="displayName"
+                type="text"
+                formControlName="displayName"
+                tlFormGroupRef
+                [disabled]="true"
+              />
+              <label igxLabel for="displayName">Администрация</label>
+            </igx-input-group>
+          </tl-form-group>
+          <button
+            igxButton="icon"
+            (click)="showAdministraions()"
+            [disabled]="this.isShowForm()"
+          >
+            <igx-icon>receipt</igx-icon>
+          </button>
+        </div>
+      </ng-template>
+
+      <tl-form-group class="form-group-wrapper">
+        <igx-checkbox
+          class="input-group"
+          formControlName="isActive"
+          name="isActive"
+          tlFormGroupRef
+          [disabled]="this.isShowForm()"
+        >
+          Активен
+        </igx-checkbox>
+      </tl-form-group>
+
+      <igx-tabs class="tabs">
+        <igx-tabs-group label="Роли">
+          <app-user-to-roles
+            *ngIf="isShowForm()"
+            [formType]="currentAction"
+            [objectId]="formObject.id"
+            [sourceTable]="USERS_TABLE"
+          ></app-user-to-roles>
+          <app-roles-select
+            #roles
+            [formGroup]="formGroup"
+            *ngIf="!isShowForm()"
+            [sourceTable]="USERS_TABLE"
+            [authorityId]="authorityId"
+          >
+          </app-roles-select>
+        </igx-tabs-group>
+        <igx-tabs-group label="Услуги">
+          <app-user-to-reports
+            *ngIf="isShowForm()"
+            [formType]="currentAction"
+            [objectId]="formObject.id"
+            [sourceTable]="USERS_TABLE"
+          ></app-user-to-reports>
+          <app-reports-select
+            #reports
+            [formGroup]="formGroup"
+            *ngIf="!isShowForm()"
+            [sourceTable]="USERS_TABLE"
+            [authorityId]="authorityId"
+          >
+          </app-reports-select>
+        </igx-tabs-group>
+      </igx-tabs>
+    </form>
+  </div>
+</tl-basic-form>
+
+<igx-dialog
+  #administrationsFilterDialog
+  title="Администрации"
+  [closeOnOutsideSelect]="true"
+>
+  <div style="height: 90vh; width: 95vw; overflow: auto;">
+    <app-administrations-filter
+      #administrationsFilter
+      (selectedValues)="administrationsSelected($event)"
+    >
+    </app-administrations-filter>
+  </div>
+</igx-dialog>

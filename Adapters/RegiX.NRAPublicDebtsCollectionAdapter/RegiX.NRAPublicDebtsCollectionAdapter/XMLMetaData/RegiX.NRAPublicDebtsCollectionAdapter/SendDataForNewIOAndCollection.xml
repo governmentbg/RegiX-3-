@@ -1,0 +1,578 @@
+<!--RQ01 
+List<Collection>
+-->
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.NRAPublicDebtsCollectionAdapter.APIService.INRAPublicDebtsCollectionAPI.SendDataForNewIOAndCollection</OperationName>
+  <Code>SendDataForNewIOAndCollection</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>SendDataForNewIOAndCollectionRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForNewIOAndCollectionRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Предаване на информация за ново изпълнително основание (ИО) и вземане/вземания за събиране от взискател/актосъставител към Национална агенция за приходите (НАП)</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>IO</ParameterName>
+        <ParameterLabel>Изпълнително основание (ИО)</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>Complex</Type>
+          <EnumValues/>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>ActIssurerID</ParameterName>
+            <ParameterLabel>ID на взискател/актосъставител</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>1</OrderNumber>
+
+            <ParameterType>
+              <Type>long</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SubdivisionID</ParameterName>
+            <ParameterLabel>ID на подразделение</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>2</OrderNumber>
+
+            <ParameterType>
+              <Type>long</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SubdivisionEIK</ParameterName>
+            <ParameterLabel>Идентификатор на взискател/актосъставител</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>3</OrderNumber>
+
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>TitulID</ParameterName>
+            <ParameterLabel>ID на ИО</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>4</OrderNumber>
+
+            <ParameterType>
+              <Type>long</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>EIK</ParameterName>
+            <ParameterLabel>Идентификатор на длъжник</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>5</OrderNumber>
+
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>EIKType</ParameterName>
+            <ParameterLabel>Тип идентификатор на длъжник</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>6</OrderNumber>
+
+            <ParameterType>
+              <Type>EIKTypeEnumeration</Type>
+              <EnumValues>
+                <EnumValue>
+                  <Value>BULSTAT</Value>
+                  <DisplayText>ЕИК по БУЛСТАТ</DisplayText>
+                </EnumValue>
+                <EnumValue>
+                  <Value>EGN</Value>
+                  <DisplayText>ЕГН</DisplayText>
+                </EnumValue>
+                <EnumValue>
+                  <Value>LNC</Value>
+                  <DisplayText>ЛНЧ</DisplayText>
+                </EnumValue>
+                <EnumValue>
+                  <Value>SNO</Value>
+                  <DisplayText>Служебен № на НАП</DisplayText>
+                </EnumValue>
+                <EnumValue>
+                  <Value>BULSTAT_CL</Value>
+                  <DisplayText>Булстат на чуждестранно лице</DisplayText>
+                </EnumValue>
+                <EnumValue>
+                  <Value>LN</Value>
+                  <DisplayText>Личен №</DisplayText>
+                </EnumValue>
+              </EnumValues>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>DocumentType</ParameterName>
+            <ParameterLabel>Вид на документа – изпълнително основание</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>7</OrderNumber>
+
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>DocumentNo</ParameterName>
+            <ParameterLabel>Номер на документ – изпълнително основание</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>8</OrderNumber>
+
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>DocumentSeries</ParameterName>
+            <ParameterLabel>Серия на документ – изпълнително основание</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>9</OrderNumber>
+
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>IssueDate</ParameterName>
+            <ParameterLabel>Дата на издаване на документ – изпълнително основание</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>10</OrderNumber>
+
+            <ParameterType>
+              <Type>Date</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>EnforcementDate</ParameterName>
+            <ParameterLabel>Дата на влизане в сила на документа – изпълнително основание</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>11</OrderNumber>
+
+            <ParameterType>
+              <Type>Date</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>EnforceInAdvance</ParameterName>
+            <ParameterLabel>Акт подлежащ на предварително изпълнение</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>12</OrderNumber>
+
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>DeedType</ParameterName>
+            <ParameterLabel>Вид дело от номенклатура</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>13</OrderNumber>
+
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>DeedID</ParameterName>
+            <ParameterLabel>Номер на дело</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>14</OrderNumber>
+
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>DeedYear</ParameterName>
+            <ParameterLabel>Година на дело</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>15</OrderNumber>
+
+            <ParameterType>
+              <Type>int</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+      </ChildParamteters>
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <!--TODO: LIST<Colection>-->
+        <ParameterName>Collections</ParameterName>
+        <ParameterLabel>Вземания</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>16</OrderNumber>
+        <ParameterType>
+          <Type>Array</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>     
+      <ChildParamteters>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>Collection</ParameterName>
+            <ParameterLabel>Вземане</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>17</OrderNumber>
+
+            <ParameterType>
+              <Type>CollectionType</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters>
+            <Parameter>
+              <ParameterInfo>
+                <ParameterName>CollectibleID</ParameterName>
+                <ParameterLabel>ID на вземане</ParameterLabel>
+                <IsRequired>true</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>17</OrderNumber>
+    
+                <ParameterType>
+                  <Type>long</Type>
+                  <EnumValues/>
+                </ParameterType>
+              </ParameterInfo>
+            </Parameter>
+            <Parameter>
+              <ParameterInfo>
+                <ParameterName>BeneficiaryCode</ParameterName>
+                <ParameterLabel>Код на взискател / получател</ParameterLabel>
+                <IsRequired>true</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>18</OrderNumber>
+    
+                <ParameterType>
+                  <Type>long</Type>
+                  <EnumValues/>
+                </ParameterType>
+              </ParameterInfo>
+            </Parameter>
+            <Parameter>
+              <ParameterInfo>
+                <ParameterName>DepartmentCode</ParameterName>
+                <ParameterLabel>Код на поделение на взискател/ получател</ParameterLabel>
+                <IsRequired>true</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>19</OrderNumber>
+    
+                <ParameterType>
+                  <Type>long</Type>
+                  <EnumValues/>
+                </ParameterType>
+              </ParameterInfo>
+            </Parameter>
+            <Parameter>
+              <ParameterInfo>
+                <ParameterName>BeneficiaryEIK</ParameterName>
+                <ParameterLabel>Идентификатор на взискател / получател</ParameterLabel>
+                <IsRequired>true</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>20</OrderNumber>
+    
+                <ParameterType>
+                  <Type>string</Type>
+                  <EnumValues/>
+                </ParameterType>
+              </ParameterInfo>
+            </Parameter>
+            <Parameter>
+              <ParameterInfo>
+                <ParameterName>CollectibleType</ParameterName>
+                <ParameterLabel>Вид задължение (вземане)</ParameterLabel>
+                <IsRequired>true</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>21</OrderNumber>
+    
+                <ParameterType>
+                  <Type>string</Type>
+                  <EnumValues/>
+                </ParameterType>
+              </ParameterInfo>
+            </Parameter>
+            <Parameter>
+              <ParameterInfo>
+                <ParameterName>PeriodFrom</ParameterName>
+                <ParameterLabel>Период от</ParameterLabel>
+                <IsRequired>false</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>22</OrderNumber>
+    
+                <ParameterType>
+                  <Type>Date</Type>
+                  <EnumValues/>
+                </ParameterType>
+              </ParameterInfo>
+            </Parameter>
+            <Parameter>
+              <ParameterInfo>
+                <ParameterName>Period To</ParameterName>
+                <ParameterLabel>Период до</ParameterLabel>
+                <IsRequired>false</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>23</OrderNumber>
+    
+                <ParameterType>
+                  <Type>Date</Type>
+                  <EnumValues/>
+                </ParameterType>
+              </ParameterInfo>
+            </Parameter>
+            <Parameter>
+              <ParameterInfo>
+                <ParameterName>UnforcedPaymentDate</ParameterName>
+                <ParameterLabel>Срок за доброволно плащане</ParameterLabel>
+                <IsRequired>true</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>24</OrderNumber>
+    
+                <ParameterType>
+                  <Type>Date</Type>
+                  <EnumValues/>
+                </ParameterType>
+              </ParameterInfo>
+            </Parameter>
+            <Parameter>
+              <ParameterInfo>
+                <ParameterName>PrincipalAmountInterest</ParameterName>
+                <ParameterLabel>Остатък от главница, която следва да се събира от НАП, на която се начислява лихва</ParameterLabel>
+                <IsRequired>false</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>25</OrderNumber>
+    
+                <ParameterType>
+                  <Type>decimal</Type>
+                  <EnumValues/>
+                </ParameterType>
+              </ParameterInfo>
+            </Parameter>
+            <Parameter>
+              <ParameterInfo>
+                <ParameterName>InterestAmount</ParameterName>
+                <ParameterLabel>Остатък за лихва, начислена при взискател/ актосъставител, която следва да се събира от НАП</ParameterLabel>
+                <IsRequired>false</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>26</OrderNumber>
+    
+                <ParameterType>
+                  <Type>decimal</Type>
+                  <EnumValues/>
+                </ParameterType>
+              </ParameterInfo>
+            </Parameter>
+            <Parameter>
+              <ParameterInfo>
+                <ParameterName>PrincipalAmountNoInterest</ParameterName>
+                <ParameterLabel>Остатък от главница, която следва да се събира от НАП, на която не се начислява лихва</ParameterLabel>
+                <IsRequired>false</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>27</OrderNumber>
+    
+                <ParameterType>
+                  <Type>decimal</Type>
+                  <EnumValues/>
+                </ParameterType>
+              </ParameterInfo>
+            </Parameter>
+            <Parameter>
+              <ParameterInfo>
+                <ParameterName>Currency</ParameterName>
+                <ParameterLabel>Валута</ParameterLabel>
+                <IsRequired>true</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>28</OrderNumber>
+    
+                <ParameterType>
+                  <Type>string</Type>
+                  <EnumValues/>
+                </ParameterType>
+              </ParameterInfo>
+            </Parameter>
+            <Parameter>
+              <ParameterInfo>
+                <ParameterName>InterestFromDate</ParameterName>
+                <ParameterLabel>Дата, от която НАП начислява лихва</ParameterLabel>
+                <IsRequired>false</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>29</OrderNumber>
+    
+                <ParameterType>
+                  <Type>Date</Type>
+                  <EnumValues/>
+                </ParameterType>
+              </ParameterInfo>
+            </Parameter>
+            <Parameter>
+              <ParameterInfo>
+                <ParameterName>InterestType</ParameterName>
+                <ParameterLabel>Вид лихва</ParameterLabel>
+                <IsRequired>false</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>30</OrderNumber>
+    
+                <ParameterType>
+                  <Type>string</Type>
+                  <EnumValues/>
+                </ParameterType>
+              </ParameterInfo>
+            </Parameter>
+            <Parameter>
+              <ParameterInfo>
+                <!--TODO: LIST<Liability>-->
+                <ParameterName>Liabilities</ParameterName>
+                <ParameterLabel>Солидарни отговорности по вземане</ParameterLabel>
+                <IsRequired>false</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>31</OrderNumber>
+    
+                <ParameterType>
+                  <Type>Array</Type>
+                  <EnumValues/>
+                </ParameterType>
+              </ParameterInfo>
+              <ChildParamteters>
+                <Parameter>
+                  <ParameterInfo>
+                    <ParameterName>Liability</ParameterName>
+                    <ParameterLabel>Солидарна отговорност по вземане</ParameterLabel>
+                    <IsRequired>false</IsRequired>
+                    <IsXmlElement>true</IsXmlElement>
+                    <OrderNumber>32</OrderNumber>
+        
+                    <ParameterType>
+                      <Type>LiabilityRequestType</Type>
+                      <EnumValues/>
+                    </ParameterType>
+                  </ParameterInfo>
+                  <ChildParamteters>
+                    <Parameter>
+                      <ParameterInfo>
+                        <ParameterName>JointLiabilityEIK</ParameterName>
+                        <ParameterLabel>Идентификатор на солидарен длъжник М по вземане </ParameterLabel>
+                        <IsRequired>false</IsRequired>
+                        <IsXmlElement>true</IsXmlElement>
+                        <OrderNumber>32</OrderNumber>
+            
+                        <ParameterType>
+                          <Type>string</Type>
+                          <EnumValues/>
+                        </ParameterType>
+                      </ParameterInfo>
+                    </Parameter>
+                    <Parameter>
+                      <ParameterInfo>
+                        <ParameterName>JointLiabilityEIKType</ParameterName>
+                        <ParameterLabel>Тип идентификатор на солидарен длъжник М</ParameterLabel>
+                        <IsRequired>false</IsRequired>
+                        <IsXmlElement>true</IsXmlElement>
+                        <OrderNumber>33</OrderNumber>
+            
+                        <ParameterType>
+                          <Type>EIKTypeEnumeration</Type>
+                          <EnumValues>
+                            <EnumValue>
+                              <Value>BULSTAT</Value>
+                              <DisplayText>ЕИК по БУЛСТАТ</DisplayText>
+                            </EnumValue>
+                            <EnumValue>
+                              <Value>EGN</Value>
+                              <DisplayText>ЕГН</DisplayText>
+                            </EnumValue>
+                            <EnumValue>
+                              <Value>LNC</Value>
+                              <DisplayText>ЛНЧ</DisplayText>
+                            </EnumValue>
+                            <EnumValue>
+                              <Value>SNO</Value>
+                              <DisplayText>Служебен № на НАП</DisplayText>
+                            </EnumValue>
+                            <EnumValue>
+                              <Value>BULSTAT_CL</Value>
+                              <DisplayText>Булстат на чуждестранно лице</DisplayText>
+                            </EnumValue>
+                            <EnumValue>
+                              <Value>LN</Value>
+                              <DisplayText>Личен №</DisplayText>
+                            </EnumValue>
+                          </EnumValues>
+                        </ParameterType>
+                      </ParameterInfo>
+                    </Parameter>
+                  </ChildParamteters>
+                </Parameter>
+              </ChildParamteters>
+            </Parameter>
+          </ChildParamteters>
+        </Parameter>
+      </ChildParamteters>
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

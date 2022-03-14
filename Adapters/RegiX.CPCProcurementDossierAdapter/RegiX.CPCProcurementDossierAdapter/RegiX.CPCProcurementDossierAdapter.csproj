@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.CPCProcurementDossierAdapter</RootNamespace>
+    <Authors>Miroslav Marinov</Authors>
+    <Company>TechnoLogica</Company>
+    <Description>Description for CPCProcurementDossierAdapter</Description>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="XMLMetaData\RegiX.CPCProcurementDossierAdapter\" />
+    <Folder Include="XMLSamples\RegiX.CPCProcurementDossierAdapter\" />
+    <Folder Include="XMLSchemas\RegiX.CPCProcurementDossierAdapter\Transformations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.WebServiceAdapterService" Version="1.0.43" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="XMLMetaData\RegiX.CPCProcurementDossierAdapter\GetProcurementDossier.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="XMLSamples\RegiX.CPCProcurementDossierAdapter\GetProcurementDossierRequest.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="XMLSamples\RegiX.CPCProcurementDossierAdapter\GetProcurementDossierResponse.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="XMLSchemas\RegiX.CPCProcurementDossierAdapter\GetProcurementDossierRequest.xsd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="XMLSchemas\RegiX.CPCProcurementDossierAdapter\GetProcurementDossierResponse.xsd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="XMLSchemas\RegiX.CPCProcurementDossierAdapter\Transformations\GetProcurementDossierRequest.xslt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="XMLSchemas\RegiX.CPCProcurementDossierAdapter\Transformations\GetProcurementDossierResponse.xslt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

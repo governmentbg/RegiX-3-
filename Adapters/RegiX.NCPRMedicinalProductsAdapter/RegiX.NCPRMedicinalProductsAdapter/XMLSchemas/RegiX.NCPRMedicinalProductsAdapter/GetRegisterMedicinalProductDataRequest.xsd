@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NCPR/MedicinalProducts/GetRegisterMedicinalProductDataRequest" targetNamespace="http://egov.bg/RegiX/NCPR/MedicinalProducts/GetRegisterMedicinalProductDataRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetRegisterMedicinalProductDataRequest" type="GetRegisterMedicinalProductDataRequestType">
+		<xs:annotation>
+			<xs:documentation>Изпълнява справка по Извличане на детайли за лекарствен продукт в конкретен регистър</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="GetRegisterMedicinalProductDataRequestType">
+		<xs:sequence>
+			<xs:element name="RegisterMedicinalProductId " type="xs:long">
+				<xs:annotation>
+					<xs:documentation>Идентификатор на запис от базата данни</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.IaosRegister67ZOUAdapter.Mocks</RootNamespace>
+    <Authors>Dimitar Mitev</Authors>
+    <Company>TechnoLogica</Company>
+    <Description>Mocks for IaosRegister67ZOUAdapter</Description>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="XMLData\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="XMLData\RegiX.IaosRegister67ZOUAdapter.Mocks\GetREG35_Info_By_EIKResponse.xml" />
+    <None Remove="XMLData\RegiX.IaosRegister67ZOUAdapter.Mocks\GetREG35_License_Validity_CheckResponse.xml" />
+    <None Remove="XMLData\RegiX.IaosRegister67ZOUAdapter.Mocks\GetREG35_Stages_By_Reg_Number_And_Waste_CodeResponse.xml" />
+    <None Remove="XMLData\RegiX.IaosRegister67ZOUAdapter.Mocks\GetREG35_Stage_Info_By_Pop_NameResponse.xml" />
+    <None Remove="XMLData\RegiX.IaosRegister67ZOUAdapter.Mocks\GetREG35_Stage_Info_By_Waste_CodeResponse.xml" />
+    <None Remove="XMLData\RegiX.IaosRegister67ZOUAdapter.Mocks\GetREG35_Validity_Check_By_Reg_NumberResponse.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.Adapters.Mocks" Version="1.0.43" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.IaosRegister67ZOUAdapter\RegiX.IaosRegister67ZOUAdapter.csproj" />
+  </ItemGroup>
+
+</Project>
+

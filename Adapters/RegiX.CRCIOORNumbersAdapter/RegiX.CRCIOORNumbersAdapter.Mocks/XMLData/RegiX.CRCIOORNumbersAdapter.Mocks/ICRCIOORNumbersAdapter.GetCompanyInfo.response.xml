@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GetCompanyInfoResponse xmlns="http://egov.bg/RegiX/CRC/IOORNumbers/GetCompanyInfoResponse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Companies>
+    <Company>
+      <CompanyName>String</CompanyName>
+      <CompType>String</CompType>
+      <EIK>String</EIK>
+      <HeadquartersAddress>String</HeadquartersAddress>
+      <WebPageAddress>String</WebPageAddress>
+      <IndividualResourcePermission>
+        <PermissionNumber>String</PermissionNumber>
+        <IssueDate>1967-08-13</IssueDate>
+        <EndOfActionDate>1967-08-13</EndOfActionDate>
+        <Status>String</Status>
+        <TerminationDate>1967-08-13</TerminationDate>
+        <PermissionType>String</PermissionType>
+      </IndividualResourcePermission>
+    </Company>
+    <Company>
+      <CompanyName>String</CompanyName>
+      <CompType>String</CompType>
+      <EIK>String</EIK>
+      <HeadquartersAddress>String</HeadquartersAddress>
+      <WebPageAddress>String</WebPageAddress>
+      <IndividualResourcePermission>
+        <PermissionNumber>String</PermissionNumber>
+        <IssueDate>1967-08-13</IssueDate>
+        <EndOfActionDate>1967-08-13</EndOfActionDate>
+        <Status>String</Status>
+        <TerminationDate>1967-08-13</TerminationDate>
+        <PermissionType>String</PermissionType>
+      </IndividualResourcePermission>
+    </Company>
+  </Companies>
+</GetCompanyInfoResponse>

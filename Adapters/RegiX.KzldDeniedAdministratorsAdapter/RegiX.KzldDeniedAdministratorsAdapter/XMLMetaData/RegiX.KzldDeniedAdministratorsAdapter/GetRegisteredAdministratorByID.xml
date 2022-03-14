@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.KzldDeniedAdministratorsAdapter.APIService.IKzldDeniedAdministratorsAPI.GetRegisteredAdministratorByID</OperationName>
+  <Code>GetRegisteredAdministratorByID</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>DeniedEntryAdministratorRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/KZLD/DeniedAdministrators/RegisteredAdministratorByIDRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка по ЕИК/БУЛСТАТ/ЕГН/ЛНЧ за администратор на лични данни с отказана регистрация</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>PersonalDataControllerID</ParameterName>
+        <ParameterLabel>Идентификатор на администратора на лични данни - ЕИК/БУЛСТАТ/ЕГН/ЛНЧ</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.MVRTouristRegisterAdapter.Mocks</RootNamespace>
+    <Authors>Dimitar Mitev</Authors>
+    <Company>TechnoLogica</Company>
+    <Description>Mocks for MVRTouristRegisterAdapter</Description>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="XMLData\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="XMLData\RegiX.MVRTouristRegisterAdapter.Mocks\IMVRTouristRegisterAdapter.SendInfoForEstiAccomodationPlace.response.xml" />
+    <None Remove="XMLData\RegiX.MVRTouristRegisterAdapter.Mocks\IMVRTouristRegisterAdapter.SendInfoForTouristRegister.response.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.Adapters.Mocks" Version="1.0.43" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.MVRTouristRegisterAdapter\RegiX.MVRTouristRegisterAdapter.csproj" />
+  </ItemGroup>
+
+</Project>
+

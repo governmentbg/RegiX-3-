@@ -1,0 +1,34 @@
+<div class="content">
+</div>
+<igx-tabs>
+  <igx-tabs-group label="Описание">
+    <div class="content content-wrapper-op xsd-background">
+      <p style="margin-top: 5px; margin-bottom: 0px;">
+        <span><b>Структура на данните ({{this.operationDetail.name}})</b></span>
+        <br />
+      </p>
+      <div [innerHTML]="descriptionHtml"></div>
+    </div>
+  </igx-tabs-group>
+  <igx-tabs-group label="XSD Схема" *ngIf="isXSDSchemeAvailable()">
+    <app-scheme-details
+      [name]="operationType"
+      [text]="getSchemeText()"
+    ></app-scheme-details>
+  </igx-tabs-group>
+  <igx-tabs-group label="XSD Сommon" *ngIf="isCommonAvailable()">
+    <app-scheme-details
+      [name]="operationType"
+      [text]="getCommonText()"
+    ></app-scheme-details>
+  </igx-tabs-group>
+  <igx-tabs-group label="Примерни данни" *ngIf="isSampleDataAvailable()">
+    <app-scheme-details
+      [name]="operationType"
+      [text]="getSampleText()"
+    ></app-scheme-details>
+  </igx-tabs-group>
+  <igx-tabs-group label="Визуализация" *ngIf="isVisualizationAvailable()">
+    <iframe  width="100%" height="600px"  [src]="visualizationUrl"></iframe>
+  </igx-tabs-group>
+</igx-tabs>

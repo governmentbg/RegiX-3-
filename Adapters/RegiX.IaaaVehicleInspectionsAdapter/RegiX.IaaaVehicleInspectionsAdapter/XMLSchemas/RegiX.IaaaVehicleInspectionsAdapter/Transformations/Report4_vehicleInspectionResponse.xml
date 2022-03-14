@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<VehicleInspectionResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections/VehicleInspectionResponse">
+  <ProtocolNumber>7233979</ProtocolNumber>
+  <StickerNumber>7038153</StickerNumber>
+  <Permit>
+    <KtpName xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">ТЕХНОИНСПЕКТ ВАРНА ЕООД</KtpName>
+    <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">200946426</SubjectIdentNumber>
+    <KtpCityName xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">гр.Варна</KtpCityName>
+    <KtpAddress xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">УЛ. ТРОЛЕЙНА № 48</KtpAddress>
+    <KtpCategoryLabel xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">III КАТЕГОРИЯ</KtpCategoryLabel>
+    <PermitNumber xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">1040</PermitNumber>
+    <OrgUnitShortName xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">ОО "АА" - Варна</OrgUnitShortName>
+    <PermitStatusCode xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">ВЛ</PermitStatusCode>
+    <PermitStatus xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">Валиден</PermitStatus>
+    <FirstRegDate xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2015-01-27</FirstRegDate>
+    <ValidTo xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2020-01-27</ValidTo>
+    <LastChangeDate xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2014-12-09</LastChangeDate>
+    <ListChangeDate xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2015-01-27</ListChangeDate>
+    <InspectionProtocols xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">14-03-12</InspectionProtocols>
+    <InspectionDate xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2014-12-09</InspectionDate>
+    <CloseReason xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections" />
+    <StampNumber xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">1040</StampNumber>
+    <Remarks xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections" />
+    <LineCount xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">1</LineCount>
+  </Permit>
+  <InspectionDateTime>2015-01-22</InspectionDateTime>
+  <EndDateTime>2015-01-22</EndDateTime>
+  <Conclusion>Допуска се за движение</Conclusion>
+  <NextInspectionDate>2015-07-22T00:00:00.000+03:00</NextInspectionDate>
+  <Chairman>
+    <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">8208191040</SubjectIdentNumber>
+    <SubjectFullName xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">ДИЯН ХРИСТОВ ЖЕЛЯЗКОВ</SubjectFullName>
+    <CurrentStatus xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">В</CurrentStatus>
+    <IsChairman xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">true</IsChairman>
+  </Chairman>
+  <Member>
+    <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">8408023260</SubjectIdentNumber>
+    <SubjectFullName xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">ТОМИСЛАВ БОРИСЛАВОВ ГЕОРГИЕВ</SubjectFullName>
+    <CurrentStatus xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">В</CurrentStatus>
+    <IsChairman xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">false</IsChairman>
+  </Member>
+  <RegNumber>CA2598MH</RegNumber>
+  <CurrentStatus>Приключен със заключение</CurrentStatus>
+</VehicleInspectionResponse>

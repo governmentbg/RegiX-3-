@@ -1,0 +1,2131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GetAllExpertDecisionsByPeriodResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NELK/EISME">
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4303125376</PersonIdentifier>
+    <PersonNames>ТОДОРИНА ХРИСТАНОВА ТРИФОНОВА</PersonNames>
+    <RegistrationNumber>1409</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3304075452</PersonIdentifier>
+    <PersonNames>АНАСТАСИЯ ДИМИТРОВА АНАСТАСОВА</PersonNames>
+    <RegistrationNumber>1427</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3312015317</PersonIdentifier>
+    <PersonNames>МАРГАРИТА ИВАНОВА ГЕОРГИЕВА</PersonNames>
+    <RegistrationNumber>1397</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3510265320</PersonIdentifier>
+    <PersonNames>ДИЛЯН КРУМОВ МАРИНОВ</PersonNames>
+    <RegistrationNumber>1413</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3607045513</PersonIdentifier>
+    <PersonNames>ИВАНКА ВЪЛЧЕВА КАРАГАНЧЕВА</PersonNames>
+    <RegistrationNumber>1419</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4505115287</PersonIdentifier>
+    <PersonNames>ГЕОРГИ АНГЕЛОВ КЪНЧЕВ</PersonNames>
+    <RegistrationNumber>1395</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4704255297</PersonIdentifier>
+    <PersonNames>МАРИЯ ГЕОРГИЕВА ДИМИТРОВА</PersonNames>
+    <RegistrationNumber>1380</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4902075502</PersonIdentifier>
+    <PersonNames>ДИМИТЪР СТОИЛОВ КЮПЕЛИЕВ</PersonNames>
+    <RegistrationNumber>1405</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5007285389</PersonIdentifier>
+    <PersonNames>РУЖИН МАРИНОВ ИЛИЕВ</PersonNames>
+    <RegistrationNumber>1401</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5105175283</PersonIdentifier>
+    <PersonNames>ЛЮБОМИР СТОЯНОВ ЕНЧЕВ</PersonNames>
+    <RegistrationNumber>1423</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5307065404</PersonIdentifier>
+    <PersonNames>ЛЮБЧО ВАСИЛЕВ ЦВЕТКОВ</PersonNames>
+    <RegistrationNumber>1421</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5405305325</PersonIdentifier>
+    <PersonNames>ВЕНЦИСЛАВ ЗЛАТЕВ ИЛИЕВ</PersonNames>
+    <RegistrationNumber>1399</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5403245340</PersonIdentifier>
+    <PersonNames>НЕДЖАТИ АЛИЕВ ИСМАИЛОВ</PersonNames>
+    <RegistrationNumber>1418</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5607065405</PersonIdentifier>
+    <PersonNames>ХЪЛМИ САЛИ ОСМАН</PersonNames>
+    <RegistrationNumber>1389</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6007025378</PersonIdentifier>
+    <PersonNames>НИКОЛИНКА МАНОЛОВА КОЕВА</PersonNames>
+    <RegistrationNumber>1424</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6109245420</PersonIdentifier>
+    <PersonNames>НИКОЛАЙ ИВАНОВ ВЪЛОВ</PersonNames>
+    <RegistrationNumber>1396</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3502095333</PersonIdentifier>
+    <PersonNames>НИКОЛИНА ХРИСТОВА НИКОЛОВА</PersonNames>
+    <RegistrationNumber>1114</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6709065483</PersonIdentifier>
+    <PersonNames>СТЕФАН БОГДАНОВ МИЦОВ</PersonNames>
+    <RegistrationNumber>1425</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7308225394</PersonIdentifier>
+    <PersonNames>НИНА ДИМИТРОВА ПЕТРОВА</PersonNames>
+    <RegistrationNumber>1390</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7209175463</PersonIdentifier>
+    <PersonNames>ИВАН ПАВЛИНОВ ПЕТРОВ</PersonNames>
+    <RegistrationNumber>1416</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7812175291</PersonIdentifier>
+    <PersonNames>ВИЛДАН АЛИЕВА АЛИ</PersonNames>
+    <RegistrationNumber>1406</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4305055410</PersonIdentifier>
+    <PersonNames>ТОДОРА ИВАНОВА ЗАНКОВА</PersonNames>
+    <RegistrationNumber>1127</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3603155359</PersonIdentifier>
+    <PersonNames>ПАВЛИНА ДИМИТРОВА КОЛЕВА</PersonNames>
+    <RegistrationNumber>1129</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3609175408</PersonIdentifier>
+    <PersonNames>ВЕЛИКО НИКОЛОВ ГЕОРГИЕВ</PersonNames>
+    <RegistrationNumber>1120</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4007205490</PersonIdentifier>
+    <PersonNames>ТОДОРКА ПЕТКОВА ПЕНЕВА</PersonNames>
+    <RegistrationNumber>1117</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5110065320</PersonIdentifier>
+    <PersonNames>АТАНАС ИЛИЕВ АТАНАСОВ</PersonNames>
+    <RegistrationNumber>1115</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4809035529</PersonIdentifier>
+    <PersonNames>РУМЯН СТОИЛОВ ГЕНЧЕВ</PersonNames>
+    <RegistrationNumber>1123</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5008055307</PersonIdentifier>
+    <PersonNames>ИВАНЧО ПЕТРОВ КАРАГАНЕВ</PersonNames>
+    <RegistrationNumber>1126</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5109165339</PersonIdentifier>
+    <PersonNames>ИВАНКА МИХАЛЕВА ИЛИЕВА</PersonNames>
+    <RegistrationNumber>1116</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6908145405</PersonIdentifier>
+    <PersonNames>ТОДОР НИКОЛОВ ПЕНЕВ</PersonNames>
+    <RegistrationNumber>1111</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5308191958</PersonIdentifier>
+    <PersonNames>ИРИНА ВАСИЛЕВА ДИМИТРОВА</PersonNames>
+    <RegistrationNumber>1729</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4208282029</PersonIdentifier>
+    <PersonNames>Богдан Маринов Петров</PersonNames>
+    <RegistrationNumber>1731</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5503013293</PersonIdentifier>
+    <PersonNames>ТОТКА ХРИСТОВА НАЙДЕНОВА</PersonNames>
+    <RegistrationNumber>1727</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6005203320</PersonIdentifier>
+    <PersonNames>АНГЕЛ ЛЮБЕНОВ ИВАНОВ</PersonNames>
+    <RegistrationNumber>1734</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6409092003</PersonIdentifier>
+    <PersonNames>ВАЛЕНТИН ИВАНОВ ГЕОРГИЕВ</PersonNames>
+    <RegistrationNumber>1737</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7302041980</PersonIdentifier>
+    <PersonNames>ГЕОРГИ ПЕТРОВ ХРИСТОВ</PersonNames>
+    <RegistrationNumber>1720</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7404181922</PersonIdentifier>
+    <PersonNames>ПЛАМЕН ИВАНОВ НАЙДЕНОВ</PersonNames>
+    <RegistrationNumber>1736</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5707221902</PersonIdentifier>
+    <PersonNames>РУМЕН КРЪСТЕВ АНГЕЛОВ</PersonNames>
+    <RegistrationNumber>1741</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4511221971</PersonIdentifier>
+    <PersonNames>Лозана Виденова Богданова</PersonNames>
+    <RegistrationNumber>1726</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6410281955</PersonIdentifier>
+    <PersonNames>ЕВЕЛИНА ГЕОРГИЕВА ВАСИЛЕВА</PersonNames>
+    <RegistrationNumber>1730</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4608202033</PersonIdentifier>
+    <PersonNames>БОЖАНА ИВАНОВА ВАСИЛЕВА</PersonNames>
+    <RegistrationNumber>1733</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7301191939</PersonIdentifier>
+    <PersonNames>Боряна Димитрова Доцева</PersonNames>
+    <RegistrationNumber>1719</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5009221927</PersonIdentifier>
+    <PersonNames>ИЛИЯ ГЕОРГИЕВ ПЕТКОВ</PersonNames>
+    <RegistrationNumber>1721</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6704221900</PersonIdentifier>
+    <PersonNames>Алипи Георгиев Алипиев</PersonNames>
+    <RegistrationNumber>1728</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6807031940</PersonIdentifier>
+    <PersonNames>ИВАЙЛО ЦВЕТАНОВ БЕНОВ</PersonNames>
+    <RegistrationNumber>1732</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6402191956</PersonIdentifier>
+    <PersonNames>ВЕСЕЛКА КОСТОВА БАРЕЗ</PersonNames>
+    <RegistrationNumber>1724</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5301211991</PersonIdentifier>
+    <PersonNames>НЕВЕНА МЕНКОВА МАТОВА</PersonNames>
+    <RegistrationNumber>1717</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6303041978</PersonIdentifier>
+    <PersonNames>Камелия Каменова Сивкова</PersonNames>
+    <RegistrationNumber>1722</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6108191905</PersonIdentifier>
+    <PersonNames>ВАЛЕНТИН ЦВЕТАНОВ ЯНЬОВСКИ</PersonNames>
+    <RegistrationNumber>1740</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5701101896</PersonIdentifier>
+    <PersonNames>ВИОЛЕТА СИМЕОНОВА МУЦОВСКА</PersonNames>
+    <RegistrationNumber>1716</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5512081937</PersonIdentifier>
+    <PersonNames>КРАСИМИРА БОРИСОВА ПЕТРОВА</PersonNames>
+    <RegistrationNumber>1715</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7711141863</PersonIdentifier>
+    <PersonNames>ИВАЙЛО ИВАНОВ АТАНАСОВ</PersonNames>
+    <RegistrationNumber>1725</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3709111916</PersonIdentifier>
+    <PersonNames>ЦЕНКА МАРИНОВА ЦЕНОВА</PersonNames>
+    <RegistrationNumber>1738</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4312281900</PersonIdentifier>
+    <PersonNames>СТОЯН ВАСИЛЕВ ЙОТОВ</PersonNames>
+    <RegistrationNumber>1723</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6912191925</PersonIdentifier>
+    <PersonNames>Евгени Маринов Маринов</PersonNames>
+    <RegistrationNumber>1739</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>1149221861</PersonIdentifier>
+    <PersonNames>ДИМИТЪР МИРОСЛАВОВ КРЪСТЕВ</PersonNames>
+    <RegistrationNumber>1735</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4912271950</PersonIdentifier>
+    <PersonNames>Славка Йотова Спиридонова</PersonNames>
+    <RegistrationNumber>1718</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>0348136647</PersonIdentifier>
+    <PersonNames>ЦВЕТАН ЦВЕТАНОВ АЛЕКСАНДРОВ</PersonNames>
+    <RegistrationNumber>1103</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6408077025</PersonIdentifier>
+    <PersonNames>ЖИВКО СЛАВЧЕВ ЗАХАРИНОВ</PersonNames>
+    <RegistrationNumber>859</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3304056508</PersonIdentifier>
+    <PersonNames>ИВАН ВЪЛКОВ ИВАНОВ</PersonNames>
+    <RegistrationNumber>842</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6108316957</PersonIdentifier>
+    <PersonNames>РУМЯНА КОНСТАНТИНОВА РОВЕЛОВА</PersonNames>
+    <RegistrationNumber>1203</RegistrationNumber>
+    <MeetingNumber>82</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5505147049</PersonIdentifier>
+    <PersonNames>ДОБРИН НИКОЛОВ ДОБРЕВ</PersonNames>
+    <RegistrationNumber>285</RegistrationNumber>
+    <MeetingNumber>59</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7403266476</PersonIdentifier>
+    <PersonNames>НЕЛИ ПЕТРОВА АТАНАСОВА</PersonNames>
+    <RegistrationNumber>864</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>0650036887</PersonIdentifier>
+    <PersonNames>ИВО НИКОЛОВ СПАСОВ</PersonNames>
+    <RegistrationNumber>842</RegistrationNumber>
+    <MeetingNumber>69</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5508037030</PersonIdentifier>
+    <PersonNames>ЗДРАВКА ИГНАТОВА ВАСИЛЕВА</PersonNames>
+    <RegistrationNumber>742</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4811013860</PersonIdentifier>
+    <PersonNames>ЙОРДАН АСЕНОВ ПЕТРУНОВ</PersonNames>
+    <RegistrationNumber>746</RegistrationNumber>
+    <MeetingNumber>89</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6106286339</PersonIdentifier>
+    <PersonNames>ВЕРКА ПЕТРОВА ДИМИТРОВА</PersonNames>
+    <RegistrationNumber>1156</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6105241129</PersonIdentifier>
+    <PersonNames>ДАНЧО ДИМИТРОВ ПОПОВ</PersonNames>
+    <RegistrationNumber>141</RegistrationNumber>
+    <MeetingNumber>58</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5407130458</PersonIdentifier>
+    <PersonNames>Елка Тодорова Тодорова</PersonNames>
+    <RegistrationNumber>142</RegistrationNumber>
+    <MeetingNumber>58</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6603250109</PersonIdentifier>
+    <PersonNames>Георги Трайков Михайлов</PersonNames>
+    <RegistrationNumber>143</RegistrationNumber>
+    <MeetingNumber>58</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7011120145</PersonIdentifier>
+    <PersonNames>Стойко Илиев Димов</PersonNames>
+    <RegistrationNumber>144</RegistrationNumber>
+    <MeetingNumber>58</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7607086905</PersonIdentifier>
+    <PersonNames>Владимир Йорданов Кабрански</PersonNames>
+    <RegistrationNumber>145</RegistrationNumber>
+    <MeetingNumber>58</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5505296382</PersonIdentifier>
+    <PersonNames>ЦВЕТАН ЕВЛОГИЕВ ГЕОРГИЕВ</PersonNames>
+    <RegistrationNumber>925</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5709146813</PersonIdentifier>
+    <PersonNames>Цветанка димитрова Иванова</PersonNames>
+    <RegistrationNumber>926</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5608203561</PersonIdentifier>
+    <PersonNames>КОСТАДИН НИКОЛОВ ГЕНЧЕВ</PersonNames>
+    <RegistrationNumber>929</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6411153429</PersonIdentifier>
+    <PersonNames>СТОЙО ГЕОРГИЕВ НИКОЛОВ</PersonNames>
+    <RegistrationNumber>939</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5701291435</PersonIdentifier>
+    <PersonNames>АНТОАНЕТА БОЯНОВА ХАЛАДЖОВА</PersonNames>
+    <RegistrationNumber>927</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5303177200</PersonIdentifier>
+    <PersonNames>ПЕТЪР НИКОЛОВ ТУРЛАКОВ</PersonNames>
+    <RegistrationNumber>936</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5408067025</PersonIdentifier>
+    <PersonNames>ЛЮБОМИР РАДОЙКОВ БОНЕВ</PersonNames>
+    <RegistrationNumber>932</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6309167393</PersonIdentifier>
+    <PersonNames>Валентина Станчова Тодорова</PersonNames>
+    <RegistrationNumber>933</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5304238255</PersonIdentifier>
+    <PersonNames>РОЗКА МАРКОВА ГОРАНОВА</PersonNames>
+    <RegistrationNumber>931</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5002056250</PersonIdentifier>
+    <PersonNames>ЛЮБКА ХРИСТОВА ЙОСИФОВА</PersonNames>
+    <RegistrationNumber>941</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3209190054</PersonIdentifier>
+    <PersonNames>АНА ДИМИТРОВА ЛАЗАРОВА</PersonNames>
+    <RegistrationNumber>934</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4105176837</PersonIdentifier>
+    <PersonNames>ВИОЛЕТА ИВАНОВА ЛАЗАРОВА</PersonNames>
+    <RegistrationNumber>928</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5303083251</PersonIdentifier>
+    <PersonNames>АНГЕЛИНА КИРИЛОВА ТОДОРОВА</PersonNames>
+    <RegistrationNumber>944</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4710196526</PersonIdentifier>
+    <PersonNames>ЗДРАВКО ДРАГАНОВ ДИМОВ</PersonNames>
+    <RegistrationNumber>930</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6301202857</PersonIdentifier>
+    <PersonNames>ЗОЯ СТЕФАНОВА НИКОЛОВА</PersonNames>
+    <RegistrationNumber>938</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5711266532</PersonIdentifier>
+    <PersonNames>Трендафилка Траянова Павлова</PersonNames>
+    <RegistrationNumber>924</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5705020508</PersonIdentifier>
+    <PersonNames>Димитър Маринов Грозев</PersonNames>
+    <RegistrationNumber>943</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7909021709</PersonIdentifier>
+    <PersonNames>ОЛЕГ КАРАВЕЛОВ ЛЮБЕНОВ</PersonNames>
+    <RegistrationNumber>940</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5111067040</PersonIdentifier>
+    <PersonNames>САШО ВАННГЕЛОВ СТОЯНОВ</PersonNames>
+    <RegistrationNumber>935</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5312226519</PersonIdentifier>
+    <PersonNames>ЕМИЛИЯ ПЪРВАНОВА ПЕЙЧЕВА</PersonNames>
+    <RegistrationNumber>937</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6304086534</PersonIdentifier>
+    <PersonNames>НАДЯ СТОЯНОВА ТОДОРОВА</PersonNames>
+    <RegistrationNumber>942</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5310166489</PersonIdentifier>
+    <PersonNames>Валентин Димитров Николов</PersonNames>
+    <RegistrationNumber>1064</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5608126676</PersonIdentifier>
+    <PersonNames>Павлина Иванова Спасова</PersonNames>
+    <RegistrationNumber>1065</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4906266929</PersonIdentifier>
+    <PersonNames>Петър Василев Петров</PersonNames>
+    <RegistrationNumber>1082</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5708036386</PersonIdentifier>
+    <PersonNames>Михаил Димитров Хаджиев</PersonNames>
+    <RegistrationNumber>1081</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5905167327</PersonIdentifier>
+    <PersonNames>Данчо Стайков Шуманов</PersonNames>
+    <RegistrationNumber>1066</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5207056409</PersonIdentifier>
+    <PersonNames>Стергиос Евангелос Хасапис</PersonNames>
+    <RegistrationNumber>1067</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5204211435</PersonIdentifier>
+    <PersonNames>Иваничка Райкова Марковска</PersonNames>
+    <RegistrationNumber>1085</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5107067143</PersonIdentifier>
+    <PersonNames>Петко Димитров Нечев</PersonNames>
+    <RegistrationNumber>1083</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7203017054</PersonIdentifier>
+    <PersonNames>Янка Маринова Панова</PersonNames>
+    <RegistrationNumber>1084</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5409086457</PersonIdentifier>
+    <PersonNames>Катя Стефанова Янкова</PersonNames>
+    <RegistrationNumber>1079</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6008207090</PersonIdentifier>
+    <PersonNames>Соня Траянова Павлова</PersonNames>
+    <RegistrationNumber>1080</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5104293424</PersonIdentifier>
+    <PersonNames>Петър Николов Динов</PersonNames>
+    <RegistrationNumber>1078</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7104226950</PersonIdentifier>
+    <PersonNames>Галина Благоева Георгиева</PersonNames>
+    <RegistrationNumber>1077</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4510106989</PersonIdentifier>
+    <PersonNames>Милчо Методиев Стоичков</PersonNames>
+    <RegistrationNumber>1094</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6204096251</PersonIdentifier>
+    <PersonNames>ЦВЕТАНКА ТОДОРОВА ХАКИ</PersonNames>
+    <RegistrationNumber>1095</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5603056880</PersonIdentifier>
+    <PersonNames>Наджиб Мохамед Ал-халаби</PersonNames>
+    <RegistrationNumber>1075</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7201016953</PersonIdentifier>
+    <PersonNames>Иванка Маринова Гарванска</PersonNames>
+    <RegistrationNumber>1073</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5202216839</PersonIdentifier>
+    <PersonNames>Ангелина Василева Петрова</PersonNames>
+    <RegistrationNumber>1074</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6002056289</PersonIdentifier>
+    <PersonNames>Николай Георгиев Десподов</PersonNames>
+    <RegistrationNumber>1091</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6103237259</PersonIdentifier>
+    <PersonNames>Славка Андреева Петрова</PersonNames>
+    <RegistrationNumber>1076</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6704216674</PersonIdentifier>
+    <PersonNames>Олга-Жаклин Нури Садик Ал-Ахмед</PersonNames>
+    <RegistrationNumber>1089</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5302107493</PersonIdentifier>
+    <PersonNames>Мария Стоянова Чавдарова</PersonNames>
+    <RegistrationNumber>1090</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5107306823</PersonIdentifier>
+    <PersonNames>Борис Лончов Атанасов</PersonNames>
+    <RegistrationNumber>1092</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5610166664</PersonIdentifier>
+    <PersonNames>Динчо Минчев Георгиев</PersonNames>
+    <RegistrationNumber>1093</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5512286921</PersonIdentifier>
+    <PersonNames>Иван Петров Йонов</PersonNames>
+    <RegistrationNumber>1072</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5310166278</PersonIdentifier>
+    <PersonNames>Дафина Джурова Джурова</PersonNames>
+    <RegistrationNumber>1088</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>9004176340</PersonIdentifier>
+    <PersonNames>Васил Георгиев Димов</PersonNames>
+    <RegistrationNumber>1071</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3802026837</PersonIdentifier>
+    <PersonNames>Тодорка Николова Златева</PersonNames>
+    <RegistrationNumber>1087</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5710236852</PersonIdentifier>
+    <PersonNames>Илиана Стоянова Балийска-Шунтова</PersonNames>
+    <RegistrationNumber>1069</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5504046579</PersonIdentifier>
+    <PersonNames>Павлинка Методиева Козарова</PersonNames>
+    <RegistrationNumber>1070</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5303281909</PersonIdentifier>
+    <PersonNames>Венци Стоянов Китанов</PersonNames>
+    <RegistrationNumber>1068</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3301319278</PersonIdentifier>
+    <PersonNames>Иванка Илиева Пейчева</PersonNames>
+    <RegistrationNumber>1086</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8404186551</PersonIdentifier>
+    <PersonNames>СВЕТЛА ДИМИТРОВА ЧИПЕВА</PersonNames>
+    <RegistrationNumber>966</RegistrationNumber>
+    <MeetingNumber>62</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4303026440</PersonIdentifier>
+    <PersonNames>ТОДОР ИВАНОВ ДЕЛИИВАНОВ</PersonNames>
+    <RegistrationNumber>976</RegistrationNumber>
+    <MeetingNumber>62</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5101246413</PersonIdentifier>
+    <PersonNames>КОСТАДИНКА ВИДЕНОВА МИЛУШЕВА</PersonNames>
+    <RegistrationNumber>969</RegistrationNumber>
+    <MeetingNumber>62</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5903087310</PersonIdentifier>
+    <PersonNames>АНЕТА МЕТОДИЕВА ИСАЕВА</PersonNames>
+    <RegistrationNumber>968</RegistrationNumber>
+    <MeetingNumber>62</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5703116555</PersonIdentifier>
+    <PersonNames>ЛИДИЯ ТОДОРОВА ДЖАМБАЗОВА</PersonNames>
+    <RegistrationNumber>975</RegistrationNumber>
+    <MeetingNumber>62</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3910206532</PersonIdentifier>
+    <PersonNames>ДОБРЕНА ВАСИЛЕВА ПЕТРОВА</PersonNames>
+    <RegistrationNumber>984</RegistrationNumber>
+    <MeetingNumber>63</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5910276404</PersonIdentifier>
+    <PersonNames>ПЕТКО ГЕОРГИЕВ ГЕОРГИЕВ</PersonNames>
+    <RegistrationNumber>980</RegistrationNumber>
+    <MeetingNumber>63</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8511196428</PersonIdentifier>
+    <PersonNames>ВЛАДИМИР НИКОЛАЕВ ТРАЙКОВ</PersonNames>
+    <RegistrationNumber>977</RegistrationNumber>
+    <MeetingNumber>62</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4111057040</PersonIdentifier>
+    <PersonNames>СТЕФАН НАЙДЕНОВ ХРИСТОВ</PersonNames>
+    <RegistrationNumber>971</RegistrationNumber>
+    <MeetingNumber>62</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4703126968</PersonIdentifier>
+    <PersonNames>РУМЕН                ПЕТРОВ               МИХАЙЛОВ            </PersonNames>
+    <RegistrationNumber>979</RegistrationNumber>
+    <MeetingNumber>63</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5605196509</PersonIdentifier>
+    <PersonNames>ЯНЧО ГЕОРГИЕВ ВЛАДИМИРОВ</PersonNames>
+    <RegistrationNumber>972</RegistrationNumber>
+    <MeetingNumber>62</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4710196439</PersonIdentifier>
+    <PersonNames>ВЕРКА ВАСИЛЕВА ЛАЗАРОВА</PersonNames>
+    <RegistrationNumber>983</RegistrationNumber>
+    <MeetingNumber>63</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3205316972</PersonIdentifier>
+    <PersonNames>ВЕРА ГАВРИЛОВА ТРЕНДАФИЛОВА</PersonNames>
+    <RegistrationNumber>981</RegistrationNumber>
+    <MeetingNumber>63</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6403136260</PersonIdentifier>
+    <PersonNames>НИКОЛАЙ ГЕОРГИЕВ ЧУКОВ</PersonNames>
+    <RegistrationNumber>985</RegistrationNumber>
+    <MeetingNumber>63</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5211146436</PersonIdentifier>
+    <PersonNames>НАТАЛИЯ ИВАНОВА ЙОРДАНОВА</PersonNames>
+    <RegistrationNumber>987</RegistrationNumber>
+    <MeetingNumber>63</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4908206636</PersonIdentifier>
+    <PersonNames>НАДКА ИВАНОВА САВКОВА-ДИМИТРОВА</PersonNames>
+    <RegistrationNumber>988</RegistrationNumber>
+    <MeetingNumber>63</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7708026519</PersonIdentifier>
+    <PersonNames>НАДКА АНГЕЛОВА МИТОВА</PersonNames>
+    <RegistrationNumber>973</RegistrationNumber>
+    <MeetingNumber>62</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4806044044</PersonIdentifier>
+    <PersonNames>АНГЕЛ КЪНОВ ДИМИТРОВ</PersonNames>
+    <RegistrationNumber>974</RegistrationNumber>
+    <MeetingNumber>62</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4804226306</PersonIdentifier>
+    <PersonNames>Гаврил Николов Гаврилов</PersonNames>
+    <RegistrationNumber>978</RegistrationNumber>
+    <MeetingNumber>62</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6308246965</PersonIdentifier>
+    <PersonNames>ВАЛЕНТИН СТЕФАНОВ ДИМИТРОВ</PersonNames>
+    <RegistrationNumber>982</RegistrationNumber>
+    <MeetingNumber>63</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5001146447</PersonIdentifier>
+    <PersonNames>ВЕСЕЛИН ДИМИТРОВ ТОМОВ</PersonNames>
+    <RegistrationNumber>986</RegistrationNumber>
+    <MeetingNumber>63</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5103316510</PersonIdentifier>
+    <PersonNames>ЦАНКА БЕНЧЕВА МИТОВА</PersonNames>
+    <RegistrationNumber>967</RegistrationNumber>
+    <MeetingNumber>62</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5601081097</PersonIdentifier>
+    <PersonNames>НЕЛИ КАЛЧЕВА ХИНЦ</PersonNames>
+    <RegistrationNumber>970</RegistrationNumber>
+    <MeetingNumber>62</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5210152938</PersonIdentifier>
+    <PersonNames>СНЕЖАНКА САВОВА ГЕРГИНОВА</PersonNames>
+    <RegistrationNumber>1030</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6407213507</PersonIdentifier>
+    <PersonNames>ВЕНЕЛИН ВЕЛИКОВ ВЪЛКОВ</PersonNames>
+    <RegistrationNumber>1027</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3607106809</PersonIdentifier>
+    <PersonNames>ПЕТЪР ИВАНОВ ЙОРДАНОВ</PersonNames>
+    <RegistrationNumber>1043</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8110107000</PersonIdentifier>
+    <PersonNames>АЛЕКСАНДЪР КИРИЛОВ ЯНЕВ</PersonNames>
+    <RegistrationNumber>1029</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3704016813</PersonIdentifier>
+    <PersonNames>ВЕНЕТА ДОБРЕВА ИВАНОВА</PersonNames>
+    <RegistrationNumber>1028</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5604064684</PersonIdentifier>
+    <PersonNames>СЛАВЧО СТОЯНОВ СЛАВОВ</PersonNames>
+    <RegistrationNumber>1034</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3512086241</PersonIdentifier>
+    <PersonNames>ГЕОРГИ ТОДОРОВ НАНЧЕВ</PersonNames>
+    <RegistrationNumber>1044</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7408131719</PersonIdentifier>
+    <PersonNames>ДИМА ПЕТРОВА СТЕФАНОВА</PersonNames>
+    <RegistrationNumber>1031</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6206185044</PersonIdentifier>
+    <PersonNames>ВАЛЕНТИН МИНКОВ ВАСИЛЕВ</PersonNames>
+    <RegistrationNumber>1042</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6208066656</PersonIdentifier>
+    <PersonNames>АВГУСТА КОНСТАНТИНОВА КРЪСТЕВА</PersonNames>
+    <RegistrationNumber>1040</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5506046290</PersonIdentifier>
+    <PersonNames>Мая Костова Атанасова</PersonNames>
+    <RegistrationNumber>1032</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5210206839</PersonIdentifier>
+    <PersonNames>ЮЛИЯ ИВАНОВА ,</PersonNames>
+    <RegistrationNumber>1024</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5606056266</PersonIdentifier>
+    <PersonNames>РУМЕН НИКОЛОВ КАМЕНОВ</PersonNames>
+    <RegistrationNumber>1037</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5412165870</PersonIdentifier>
+    <PersonNames>НЕЛИ НИКОЛОВА ГЕОРГИЕВА</PersonNames>
+    <RegistrationNumber>1036</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7807217160</PersonIdentifier>
+    <PersonNames>СЛАВЧО ДОНЧЕВ КРЪСТЕВ</PersonNames>
+    <RegistrationNumber>1035</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3908126288</PersonIdentifier>
+    <PersonNames>АНГЕЛ КИРИЛОВ АНГЕЛОВ</PersonNames>
+    <RegistrationNumber>1038</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8005286400</PersonIdentifier>
+    <PersonNames>ГЕОРГИ КОСТАДИНОВ МАЛАШЕВ</PersonNames>
+    <RegistrationNumber>1025</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5612286761</PersonIdentifier>
+    <PersonNames>ВАЛЕНТИН ПЕТРОВ ПЕТРОВ</PersonNames>
+    <RegistrationNumber>1039</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6211106327</PersonIdentifier>
+    <PersonNames>ПЛАМЕН СИМЕОНОВ КРАЙЧЕВ</PersonNames>
+    <RegistrationNumber>1033</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4007295317</PersonIdentifier>
+    <PersonNames>ГАНКА ПЕТКОВА ДАЧЕВА</PersonNames>
+    <RegistrationNumber>1041</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5412097230</PersonIdentifier>
+    <PersonNames>ИВАНКА ТОДОРОВА КРЪСТЕВА</PersonNames>
+    <RegistrationNumber>1026</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6203047930</PersonIdentifier>
+    <PersonNames>ДИАНА НИКОЛОВА ДОБРЕВА</PersonNames>
+    <RegistrationNumber>1303</RegistrationNumber>
+    <MeetingNumber>86</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5008012877</PersonIdentifier>
+    <PersonNames>МАРГАРИТА СТОЯНОВА ПЕНЕВА</PersonNames>
+    <RegistrationNumber>1315</RegistrationNumber>
+    <MeetingNumber>86</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>9511107084</PersonIdentifier>
+    <PersonNames>Калоян Димитров Михов</PersonNames>
+    <RegistrationNumber>1327</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5501196533</PersonIdentifier>
+    <PersonNames>ПОЛИНА НИКОЛОВА МИХОВА</PersonNames>
+    <RegistrationNumber>1311</RegistrationNumber>
+    <MeetingNumber>86</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4603056640</PersonIdentifier>
+    <PersonNames>Иван  Кръстев  Денков</PersonNames>
+    <RegistrationNumber>1312</RegistrationNumber>
+    <MeetingNumber>86</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6102021497</PersonIdentifier>
+    <PersonNames>ДИМА НИКОЛОВА ЧОНОВА</PersonNames>
+    <RegistrationNumber>1313</RegistrationNumber>
+    <MeetingNumber>86</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8105211004</PersonIdentifier>
+    <PersonNames>КАЛОЯН КРАСИМИРОВ КРЪСТЕВ</PersonNames>
+    <RegistrationNumber>1325</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4310216269</PersonIdentifier>
+    <PersonNames>СТЕФАН ЕФТИМОВ СТРЕЗОВ</PersonNames>
+    <RegistrationNumber>1321</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4505266642</PersonIdentifier>
+    <PersonNames>РУМЕН НИКОЛОВ КИСКИНОВ</PersonNames>
+    <RegistrationNumber>1322</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6508126782</PersonIdentifier>
+    <PersonNames>СЛАВИ СТОИЧКОВ ДЕЛИЙСКИ</PersonNames>
+    <RegistrationNumber>1314</RegistrationNumber>
+    <MeetingNumber>86</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5811256693</PersonIdentifier>
+    <PersonNames>АНИМАРИ КИРИЛОВА ДИМИТРОВА</PersonNames>
+    <RegistrationNumber>1309</RegistrationNumber>
+    <MeetingNumber>86</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7311071226</PersonIdentifier>
+    <PersonNames>ЖИВКО НИКОЛОВ ИВАНОВ</PersonNames>
+    <RegistrationNumber>1324</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>2301226240</PersonIdentifier>
+    <PersonNames>БОЖИДАР ВАСИЛЕВ АСЕНОВ</PersonNames>
+    <RegistrationNumber>1319</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4003296716</PersonIdentifier>
+    <PersonNames>РАДКА АЛЕКСАНДРОВА ЯНЕВА</PersonNames>
+    <RegistrationNumber>1316</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3209176272</PersonIdentifier>
+    <PersonNames>ТОТКА ЙОРДАНОВА ЦОНЕВА</PersonNames>
+    <RegistrationNumber>1304</RegistrationNumber>
+    <MeetingNumber>86</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6005226326</PersonIdentifier>
+    <PersonNames>ЛЮДМИЛ НИКОЛОВ НИТОВ</PersonNames>
+    <RegistrationNumber>1305</RegistrationNumber>
+    <MeetingNumber>86</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5311236641</PersonIdentifier>
+    <PersonNames>ЮРИ ПЕТРОВ КАРАМАНОВ</PersonNames>
+    <RegistrationNumber>1317</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4605251836</PersonIdentifier>
+    <PersonNames>ЛЮДМИЛА   БОРИСОВА   БОБАНОВА</PersonNames>
+    <RegistrationNumber>1318</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>2509226270</PersonIdentifier>
+    <PersonNames>НАНКА ДИНЧЕВА СЕРКЕДЖИЕВА</PersonNames>
+    <RegistrationNumber>1328</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>9106207103</PersonIdentifier>
+    <PersonNames>МЛАДЕН МИХАЙЛОВ ГЪЛЪБОВ</PersonNames>
+    <RegistrationNumber>1326</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5706036290</PersonIdentifier>
+    <PersonNames>ЕЛЕНА ВЛАДИМИРОВА ВУЧКОВА</PersonNames>
+    <RegistrationNumber>1323</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7811287044</PersonIdentifier>
+    <PersonNames>МИХАИЛ ТРОЙЧЕВ КАЛЯНОВ</PersonNames>
+    <RegistrationNumber>1320</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5108076258</PersonIdentifier>
+    <PersonNames>СИЛВИЯ ВЕСЕЛИНОВА ЗЛАТАРЕВА</PersonNames>
+    <RegistrationNumber>1307</RegistrationNumber>
+    <MeetingNumber>86</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3103166252</PersonIdentifier>
+    <PersonNames>ЦВЕТАНКА ГЕРАСИМОВА ТАБАКОВА</PersonNames>
+    <RegistrationNumber>1308</RegistrationNumber>
+    <MeetingNumber>86</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3411226659</PersonIdentifier>
+    <PersonNames>НАДЯ КРУМОВА КОСТОВА</PersonNames>
+    <RegistrationNumber>1310</RegistrationNumber>
+    <MeetingNumber>86</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4601236258</PersonIdentifier>
+    <PersonNames>АНТОАНЕТА АНТОНОВА СИМЕОНОВА</PersonNames>
+    <RegistrationNumber>1306</RegistrationNumber>
+    <MeetingNumber>86</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5511207091</PersonIdentifier>
+    <PersonNames>АНТОАНЕТА ВАСИЛЕВА ВАСИЛЕВА</PersonNames>
+    <RegistrationNumber>1365</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7801086485</PersonIdentifier>
+    <PersonNames>БОЙЧО АЛЕКСАНДРОВ АНТОВ</PersonNames>
+    <RegistrationNumber>1363</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6311063430</PersonIdentifier>
+    <PersonNames>СТОЯНКА ХРИСТОСКОВА ТОПАЛОВА</PersonNames>
+    <RegistrationNumber>1357</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3008086310</PersonIdentifier>
+    <PersonNames>ВЕРА СТОИМЕНОВА ТОШЕВА</PersonNames>
+    <RegistrationNumber>1369</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3810146804</PersonIdentifier>
+    <PersonNames>ВАСИЛ СТОЙНЕВ ШОПОВ</PersonNames>
+    <RegistrationNumber>1378</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4604256860</PersonIdentifier>
+    <PersonNames>ВЕЛИЧКО ЙОРДАНОВ ТОДОРОВ</PersonNames>
+    <RegistrationNumber>1364</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5604186661</PersonIdentifier>
+    <PersonNames>МЕТОДИ ЛЮБЕНОВ ДИМИТРОВ</PersonNames>
+    <RegistrationNumber>1352</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4904066449</PersonIdentifier>
+    <PersonNames>ПЕТКО ИВАНОВ ТАКОВ</PersonNames>
+    <RegistrationNumber>1367</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4906236544</PersonIdentifier>
+    <PersonNames>ВЛАДКО ПЕТРОВ ГЕОРГИЕВ</PersonNames>
+    <RegistrationNumber>1374</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7908081489</PersonIdentifier>
+    <PersonNames>ВАЛЕНТИН АТАНАСОВ СТАНКОВ</PersonNames>
+    <RegistrationNumber>1359</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6108202867</PersonIdentifier>
+    <PersonNames>ЛЮБОМИР ДИМИТРОВ ПЕУДОВ</PersonNames>
+    <RegistrationNumber>1360</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5303276414</PersonIdentifier>
+    <PersonNames>ВИОЛЕТКА АЛЕКСАНДРОВА СУЛЕЙМАНОВСКА</PersonNames>
+    <RegistrationNumber>1372</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5306186253</PersonIdentifier>
+    <PersonNames>ДАФИНКА ГЕОРГИЕВА ГРОЗДАНОВА</PersonNames>
+    <RegistrationNumber>1345</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3812186895</PersonIdentifier>
+    <PersonNames>ЦВЕТАНКА БОГДАНОВА МИТРЕВА</PersonNames>
+    <RegistrationNumber>1361</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6008206025</PersonIdentifier>
+    <PersonNames>ЦВЕТАН СТЕФАНОВ ЧОЛАКОВ</PersonNames>
+    <RegistrationNumber>1375</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5007236907</PersonIdentifier>
+    <PersonNames>СТОЙКО КОСТАДИНОВ ЧОРБАДЖИЙСКИ</PersonNames>
+    <RegistrationNumber>1366</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6203106381</PersonIdentifier>
+    <PersonNames>БОРИСЛАВ ЗДРАВКОВ ЛАТИНЧЕВ</PersonNames>
+    <RegistrationNumber>1350</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5909151930</PersonIdentifier>
+    <PersonNames>РУМЯНА СТЕФАНОВА ТАНЧЕВА</PersonNames>
+    <RegistrationNumber>1356</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5804266574</PersonIdentifier>
+    <PersonNames>ЕМИЛИЯ ПЕТРОВА ТОДОРОВА</PersonNames>
+    <RegistrationNumber>1358</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6105026240</PersonIdentifier>
+    <PersonNames>РАДОСТИН ГЕОРГИЕВ ДИМИТРОВ</PersonNames>
+    <RegistrationNumber>1370</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6712101884</PersonIdentifier>
+    <PersonNames>ВЛАДИМИР СИМЕОНОВ ТАШЕВ</PersonNames>
+    <RegistrationNumber>1348</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5705257336</PersonIdentifier>
+    <PersonNames>ИВАНКА ИЛИЕВА ЯРЛОВСКА</PersonNames>
+    <RegistrationNumber>1346</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5706088014</PersonIdentifier>
+    <PersonNames>БОЖАНКА СТЕФАНОВА НИКОЛОВА</PersonNames>
+    <RegistrationNumber>1351</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5806307332</PersonIdentifier>
+    <PersonNames>СНЕЖАНА НИКОЛОВА ИГНАТОВА</PersonNames>
+    <RegistrationNumber>1368</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5211156692</PersonIdentifier>
+    <PersonNames>Траянка Методиева Кирилова</PersonNames>
+    <RegistrationNumber>1353</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6305236963</PersonIdentifier>
+    <PersonNames>СТАНИСЛАВ ДИМИТРОВ ЦОЛОВ</PersonNames>
+    <RegistrationNumber>1376</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5301057037</PersonIdentifier>
+    <PersonNames>Стефанка Кирилова Николова</PersonNames>
+    <RegistrationNumber>1373</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6301184497</PersonIdentifier>
+    <PersonNames>Екатерина Георгиева Майорова-Кандрова</PersonNames>
+    <RegistrationNumber>1379</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5902076270</PersonIdentifier>
+    <PersonNames>ЗОЯ ИВАНОВА МИЛАНОВА</PersonNames>
+    <RegistrationNumber>1354</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6101107066</PersonIdentifier>
+    <PersonNames>ПЕТЪР ГЕОРГИЕВ ИЛИЕВ</PersonNames>
+    <RegistrationNumber>1371</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7404283971</PersonIdentifier>
+    <PersonNames>АТАНАСКА МИТКОВА ДИМИТРОВА</PersonNames>
+    <RegistrationNumber>1347</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7801182030</PersonIdentifier>
+    <PersonNames>АНЕЛИЯ ДИМИТРОВА КРЪСТЕВА</PersonNames>
+    <RegistrationNumber>1349</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4708064534</PersonIdentifier>
+    <PersonNames>ПЕНКА ИВАНОВА УЗУНОВА</PersonNames>
+    <RegistrationNumber>1377</RegistrationNumber>
+    <MeetingNumber>88</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4402186262</PersonIdentifier>
+    <PersonNames>БОРИС ГАНЕВ ИВАНОВ</PersonNames>
+    <RegistrationNumber>1362</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5002015164</PersonIdentifier>
+    <PersonNames>РОМИЛ АСЕНОВ АТАНАСОВ</PersonNames>
+    <RegistrationNumber>1355</RegistrationNumber>
+    <MeetingNumber>87</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5404011049</PersonIdentifier>
+    <PersonNames>СТЕПАН ПИЛИБОС ЧОЛАКЯН</PersonNames>
+    <RegistrationNumber>1322</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3410038385</PersonIdentifier>
+    <PersonNames>НИКОЛА РАНГЕЛОВ НИКОВ</PersonNames>
+    <RegistrationNumber>1325</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7010091000</PersonIdentifier>
+    <PersonNames>ГЕОРГИ ДИНКОВ ГЕОРГИЕВ</PersonNames>
+    <RegistrationNumber>1317</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5302091000</PersonIdentifier>
+    <PersonNames>СТЕФАН ДИМОВ СТЕФАНОВ</PersonNames>
+    <RegistrationNumber>1337</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4905111162</PersonIdentifier>
+    <PersonNames>ГЕОРГИ ПЕТРОВ СИДЕРОВ</PersonNames>
+    <RegistrationNumber>1333</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5610021043</PersonIdentifier>
+    <PersonNames>ДАНАИЛ ГЕОРГИЕВ МИТЕВ</PersonNames>
+    <RegistrationNumber>1348</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3802271095</PersonIdentifier>
+    <PersonNames>ТАТЯНА ИВАНОВА НЕДКОВА</PersonNames>
+    <RegistrationNumber>1339</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5109231071</PersonIdentifier>
+    <PersonNames>ДИАНА НИКОЛОВА ЦАНКОВА</PersonNames>
+    <RegistrationNumber>1343</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5609031174</PersonIdentifier>
+    <PersonNames>ФОТИНКА  ВЕЛИКОВА  ДИМИТРОВА</PersonNames>
+    <RegistrationNumber>1323</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6503241166</PersonIdentifier>
+    <PersonNames>СИМЕОН РАШКОВ СИМЕОНОВ</PersonNames>
+    <RegistrationNumber>1327</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5711177991</PersonIdentifier>
+    <PersonNames>РОСИЦА ИВАНОВА ИГНАТОВА</PersonNames>
+    <RegistrationNumber>1311</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7705091228</PersonIdentifier>
+    <PersonNames>СТЕФАН ФИЛЕВ АНГЕЛОВ</PersonNames>
+    <RegistrationNumber>1318</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5801301033</PersonIdentifier>
+    <PersonNames>ВЕРЖИНИЯ БЛАГОЕВА ПАЗДЕРКОВА</PersonNames>
+    <RegistrationNumber>1334</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>2105041015</PersonIdentifier>
+    <PersonNames>МАРИЙКА ХРИСТОВА СПИРОВА</PersonNames>
+    <RegistrationNumber>1340</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4911080965</PersonIdentifier>
+    <PersonNames>ДИМИТЪР ИЛИЕВ ДИМИТРОВ</PersonNames>
+    <RegistrationNumber>1344</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6608131102</PersonIdentifier>
+    <PersonNames>ЗДРАВКО ЮЛИАНОВ АТАНАСОВ</PersonNames>
+    <RegistrationNumber>1336</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5004188261</PersonIdentifier>
+    <PersonNames>ДИМИТЪР КИРИЛОВ ДИМИТРОВ</PersonNames>
+    <RegistrationNumber>1316</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5005241150</PersonIdentifier>
+    <PersonNames>ВАСИЛКА ДИМОВА ХАДЖИЕВА</PersonNames>
+    <RegistrationNumber>1324</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5410130978</PersonIdentifier>
+    <PersonNames>ДИМКА ТОДОРОВА НИКОЛОВА</PersonNames>
+    <RegistrationNumber>1321</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7012101113</PersonIdentifier>
+    <PersonNames>ДИМИТРИЧКА ВЕЛИКОВА АНДОНОВА</PersonNames>
+    <RegistrationNumber>1313</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5801151078</PersonIdentifier>
+    <PersonNames>СВЕТЛАНА ЙОРДАНОВА ПАНАЙОТОВА</PersonNames>
+    <RegistrationNumber>1312</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5204171034</PersonIdentifier>
+    <PersonNames>ИВАНКА ГЕОРГИЕВА АЛЕКСАНДРОВА</PersonNames>
+    <RegistrationNumber>1314</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5710280942</PersonIdentifier>
+    <PersonNames>ТОШКО АСЕНОВ СТОЯНОВ</PersonNames>
+    <RegistrationNumber>1332</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4603021080</PersonIdentifier>
+    <PersonNames>ЦОНЮ ИВАНОВ ДИМИТРОВ</PersonNames>
+    <RegistrationNumber>1335</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4810080988</PersonIdentifier>
+    <PersonNames>ИСМАИЛ МЕХМЕДОВ ХЮСЕИНОВ</PersonNames>
+    <RegistrationNumber>1346</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5103275642</PersonIdentifier>
+    <PersonNames>ВЕЛИКО ТОДОРОВ НЕДКОВ</PersonNames>
+    <RegistrationNumber>1329</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8911220982</PersonIdentifier>
+    <PersonNames>ДОБРИН КОСТАДИНОВ ИВАНОВ</PersonNames>
+    <RegistrationNumber>1328</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5712210970</PersonIdentifier>
+    <PersonNames>НЕЛКА РАДЕВА ГРАДИНАРОВА</PersonNames>
+    <RegistrationNumber>1331</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7004201140</PersonIdentifier>
+    <PersonNames>МИРОСЛАВ МИХАЙЛОВ ЗОГРАФОВ</PersonNames>
+    <RegistrationNumber>1341</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4707241086</PersonIdentifier>
+    <PersonNames>ГЕОРГИ ПАНАЙОТОВ СТОЯНОВ</PersonNames>
+    <RegistrationNumber>1319</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4304201017</PersonIdentifier>
+    <PersonNames>КАЛИНКА ИЛИЕВА ДИМИТРОВА</PersonNames>
+    <RegistrationNumber>1326</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4605251179</PersonIdentifier>
+    <PersonNames>СТОЯНКА МАРИНОВА ТРАЙКОВА</PersonNames>
+    <RegistrationNumber>1345</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3303150757</PersonIdentifier>
+    <PersonNames>ЕЛЕНКА ПЕТРОВА КИРЯЗОВА</PersonNames>
+    <RegistrationNumber>1347</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>9111010994</PersonIdentifier>
+    <PersonNames>ТРАЯНА ИВАНОВА БАРЛЕВА</PersonNames>
+    <RegistrationNumber>1320</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4605261243</PersonIdentifier>
+    <PersonNames>СЛАВИ НИКОЛОВ ТОДОРОВ</PersonNames>
+    <RegistrationNumber>1315</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7509231090</PersonIdentifier>
+    <PersonNames>ВЕСЕЛИНА КРУМОВА ЗДРАВКОВА</PersonNames>
+    <RegistrationNumber>1330</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5708191124</PersonIdentifier>
+    <PersonNames>СТОЙЧО БАЛЧЕВ СТОЙЧЕВ</PersonNames>
+    <RegistrationNumber>1342</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7410118370</PersonIdentifier>
+    <PersonNames>КАЛИНКА КЪНЧЕВА ДОБРЕВА</PersonNames>
+    <RegistrationNumber>1338</RegistrationNumber>
+    <MeetingNumber>67</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5405310949</PersonIdentifier>
+    <PersonNames>НЕДКО ИЛИЕВ ХРИСТОВ</PersonNames>
+    <RegistrationNumber>989</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4810080988</PersonIdentifier>
+    <PersonNames>ИСМАИЛ МЕХМЕДОВ ХЮСЕИНОВ</PersonNames>
+    <RegistrationNumber>997</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6702217938</PersonIdentifier>
+    <PersonNames>ЗЮБЕЙДА РЕДЖЕБОВА ЕФЕНДИЕВА</PersonNames>
+    <RegistrationNumber>1009</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5012280967</PersonIdentifier>
+    <PersonNames>ЖИВКО ПЕТРОВ ЖЕКОВ</PersonNames>
+    <RegistrationNumber>986</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7412131133</PersonIdentifier>
+    <PersonNames>ВИОЛЕТА ИВАНОВА СТЕФАНОВА</PersonNames>
+    <RegistrationNumber>994</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6206010940</PersonIdentifier>
+    <PersonNames>СТОЯН КОСТАДИНОВ ЯНЕВ</PersonNames>
+    <RegistrationNumber>981</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4605251179</PersonIdentifier>
+    <PersonNames>СТОЯНКА МАРИНОВА ТРАЙКОВА</PersonNames>
+    <RegistrationNumber>998</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6407191162</PersonIdentifier>
+    <PersonNames>ЕМИЛ АНДОНОВ МИЛАНОВ</PersonNames>
+    <RegistrationNumber>982</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6504301090</PersonIdentifier>
+    <PersonNames>РОСИЦА НЕНЧЕВА БЕЛЕВА</PersonNames>
+    <RegistrationNumber>996</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5604281015</PersonIdentifier>
+    <PersonNames>СТОЙКА ИВАНОВА МИТЕВА</PersonNames>
+    <RegistrationNumber>1005</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5203020943</PersonIdentifier>
+    <PersonNames>СТОЯН СТАНКОВ СТОЯНОВ</PersonNames>
+    <RegistrationNumber>1008</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5005190941</PersonIdentifier>
+    <PersonNames>ИВАН БОЖКОВ ИВАНОВ</PersonNames>
+    <RegistrationNumber>1011</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>9303220958</PersonIdentifier>
+    <PersonNames>ТЕОДОРА СВЕТЛОМИРОВА ТОДОРОВА</PersonNames>
+    <RegistrationNumber>984</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4108280948</PersonIdentifier>
+    <PersonNames>КОЙНО ИВАНОВ СТОЙНОВ</PersonNames>
+    <RegistrationNumber>1006</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6108077955</PersonIdentifier>
+    <PersonNames>АНКА КАЛЕВА СТЕФАНОВА</PersonNames>
+    <RegistrationNumber>1001</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5007121209</PersonIdentifier>
+    <PersonNames>ЖЕЧО ГЕОРГИЕВ ЖЕЧЕВ</PersonNames>
+    <RegistrationNumber>1010</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5307160973</PersonIdentifier>
+    <PersonNames>НЕДКА ДИМИТРОВА ТОДОРОВА</PersonNames>
+    <RegistrationNumber>1012</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6703150952</PersonIdentifier>
+    <PersonNames>СВЕТЛА ТОДОРОВА ТОДОРОВА</PersonNames>
+    <RegistrationNumber>991</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4304201017</PersonIdentifier>
+    <PersonNames>КАЛИНКА ИЛИЕВА ДИМИТРОВА</PersonNames>
+    <RegistrationNumber>978</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8004081089</PersonIdentifier>
+    <PersonNames>АНДРЕЙ ВЕЛИЧКОВ САРАЙДАРОВ</PersonNames>
+    <RegistrationNumber>987</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6503241166</PersonIdentifier>
+    <PersonNames>СИМЕОН РАШКОВ СИМЕОНОВ</PersonNames>
+    <RegistrationNumber>979</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4605011286</PersonIdentifier>
+    <PersonNames>БОРИСЛАВ ГЕОРГИЕВ КАЛЧЕВ</PersonNames>
+    <RegistrationNumber>990</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3305101031</PersonIdentifier>
+    <PersonNames>СПАСКА ПАНОВА АТАНАСОВА</PersonNames>
+    <RegistrationNumber>1013</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5103220953</PersonIdentifier>
+    <PersonNames>СТЕФКА ИВАНОВА ИВАНОВА</PersonNames>
+    <RegistrationNumber>999</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5008081081</PersonIdentifier>
+    <PersonNames>ЖИВКО ЯНЕВ КОСТОВ</PersonNames>
+    <RegistrationNumber>985</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7510191034</PersonIdentifier>
+    <PersonNames>СНЕЖАНКА ТОДОРОВА ИВАНОВА</PersonNames>
+    <RegistrationNumber>992</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5407180989</PersonIdentifier>
+    <PersonNames>ВЕЛИКО ИВАНОВ ДИМИТРОВ</PersonNames>
+    <RegistrationNumber>983</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4105090950</PersonIdentifier>
+    <PersonNames>ВЕЛИЧКА ГЕНОВА ВИЧКОВА</PersonNames>
+    <RegistrationNumber>1007</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7003224394</PersonIdentifier>
+    <PersonNames>ВИДКА АПОСТОЛАВА ВИДОЛОВА</PersonNames>
+    <RegistrationNumber>1000</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5201141144</PersonIdentifier>
+    <PersonNames>ХРИСТО ДИМИТРОВ ПАВЛОВ</PersonNames>
+    <RegistrationNumber>993</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7002161054</PersonIdentifier>
+    <PersonNames>СВЕТЛА НЕДКОВА ПЕТРОВА</PersonNames>
+    <RegistrationNumber>1002</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6003100977</PersonIdentifier>
+    <PersonNames>РИДВАНИЯ ЯКУБ ЯМЕН</PersonNames>
+    <RegistrationNumber>1003</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7205261007</PersonIdentifier>
+    <PersonNames>БИСЕР ЛЮБОМИРОВ СТОЯНОВ</PersonNames>
+    <RegistrationNumber>988</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4809211103</PersonIdentifier>
+    <PersonNames>ДИМЧО ХРИСТОВ ДИМОВ</PersonNames>
+    <RegistrationNumber>980</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6703280998</PersonIdentifier>
+    <PersonNames>МАРИНА НИКОЛОВА МОСКОВА</PersonNames>
+    <RegistrationNumber>995</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2012-05-08T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5611020993</PersonIdentifier>
+    <PersonNames>АНЕТА ПЕТРОВА СИМОВА</PersonNames>
+    <RegistrationNumber>1004</RegistrationNumber>
+    <MeetingNumber>71</MeetingNumber>
+    <RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+</GetAllExpertDecisionsByPeriodResponse>

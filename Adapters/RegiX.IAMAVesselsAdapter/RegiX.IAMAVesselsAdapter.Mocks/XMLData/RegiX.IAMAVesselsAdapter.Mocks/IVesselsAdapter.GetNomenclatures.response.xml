@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NomenclaturesResponse xmlns="http://marad.bg/">
+  <ShipTypeNomenclature>
+    <Nomenclature xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    <Nomenclature>
+      <Id>1</Id>
+      <Name>Name1</Name>
+    </Nomenclature>
+    <Nomenclature xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+  </ShipTypeNomenclature>
+  <ShipSubTypeNomenclature>
+    <Nomenclature xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    <Nomenclature>
+      <Id>-2147483647</Id>
+      <Name>Name2</Name>
+    </Nomenclature>
+    <Nomenclature xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+  </ShipSubTypeNomenclature>
+  <EngineFuelNomenclature>
+    <Nomenclature xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    <Nomenclature>
+      <Id>2147483647</Id>
+      <Name>Name3</Name>
+    </Nomenclature>
+    <Nomenclature xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+  </EngineFuelNomenclature>
+</NomenclaturesResponse>

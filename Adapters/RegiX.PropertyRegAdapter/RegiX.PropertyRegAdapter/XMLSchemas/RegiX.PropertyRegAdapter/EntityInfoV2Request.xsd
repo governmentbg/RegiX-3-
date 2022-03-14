@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AV/PropertyReg/EntityInfoV2Request" targetNamespace="http://egov.bg/RegiX/AV/PropertyReg/EntityInfoV2Request" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="EntityInfoV2RequestType">
+		<xs:annotation>
+			<xs:documentation>Справка по персонална партида на юридическо лице - V2</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="EIK" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>ЕИК</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DateFrom" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation>От дата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DateTo" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation>До дата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SiteID" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор на служба по вписванията</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="EntityInfoV2Request" type="EntityInfoV2RequestType"/>
+</xs:schema>

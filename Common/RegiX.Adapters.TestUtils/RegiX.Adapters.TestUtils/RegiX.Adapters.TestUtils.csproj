@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <RootNamespace>TechnoLogica.RegiX.Adapters.TestUtils</RootNamespace>
+    <Authors>Dimitar Mitev</Authors>
+    <Company>TechnoLogica</Company>
+    <Description>Common test procedures for all adapters</Description>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.3.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.3.2" />
+    <PackageReference Include="RegiX.Adapters.Mocks" Version="1.0.43" />
+    <PackageReference Include="RegiX.Common.Metadata" Version="1.0.4" />
+  </ItemGroup>
+
+</Project>

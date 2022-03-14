@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <description>$description$</description>
+    <releaseNotes>Added SendResultToCore operation in IAdapterService, removed namespace and elemenet name from the Signature property part of the ServiceResultData. This change allow the inclusion of multiple signatures.</releaseNotes>
+    <dependencies>
+      <dependency id="System.ServiceModel.Primitives" version="4.8.0" />
+      <dependency id="System.ComponentModel.Composition" version="5.0.0" />
+      <dependency id="System.Configuration.ConfigurationManager" version="5.0.0" />
+      <dependency id="log4net" version="2.0.12" />
+    </dependencies>
+  </metadata>
+</package>

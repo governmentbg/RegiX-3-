@@ -1,0 +1,39 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.IaosRegister67ZOUAdapter.APIService.IIaosRegister67ZOUAPI.GetREG35_License_Validity_Check</OperationName>
+  <Code>GetREG35_License_Validity_Check</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>REG35_License_Validity_Check_Request</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/IAOS/REG35Reg/LicenseValidityCheckRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за валидност на разрешения към дата в регистъра на разрешенията по чл. 67 ЗУО и регистрационните документи по чл. 78 от ЗУО</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>AuthNum</ParameterName>
+        <ParameterLabel>Регистрационен номер</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Date</ParameterName>
+        <ParameterLabel>Дата на валидност</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

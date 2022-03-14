@@ -1,0 +1,11 @@
+<MRO_BA_Category_Response xmlns="http://egov.bg/RegiX/IAOS/MROBatteries/CategoryResponse">
+              <Authorization>
+                <AuthNum>1097335489</AuthNum>
+                <CompanyName>Техно Логика</CompanyName>
+                <BACategories>
+                  <BACategory>Големи</BACategory>
+                  <BACategory>Малки</BACategory>
+                  <BACategory>Средни</BACategory>
+                </BACategories>
+              </Authorization>
+            </MRO_BA_Category_Response>

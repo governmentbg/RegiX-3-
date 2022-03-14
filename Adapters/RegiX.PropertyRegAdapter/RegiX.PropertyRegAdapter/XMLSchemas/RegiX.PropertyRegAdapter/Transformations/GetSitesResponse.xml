@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:GetSitesResponse xmlns:ns1="http://egov.bg/RegiX/AV/PropertyReg/GetSitesResponse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ns1:site>
+		<ns1:siteID>000</ns1:siteID>
+		<ns1:siteName>Агенция по вписванията</ns1:siteName>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>023</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Айтос</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>100</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Ардино</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>070</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Асеновград</ns1:siteName>
+		<ns1:siteStartDate>1995-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>034</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Балчик</ns1:siteName>
+		<ns1:siteStartDate>1996-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>045</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Белоградчик</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>048</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Берковица</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>011</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Благоевград</ns1:siteName>
+		<ns1:siteStartDate>1997-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>002</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Ботевград</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>021</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Брезник</ns1:siteName>
+		<ns1:siteStartDate>1998-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>022</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Бургас</ns1:siteName>
+		<ns1:siteStartDate>1997-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>081</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Бяла</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>039</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Бяла Слатина</ns1:siteName>
+		<ns1:siteStartDate>2000-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>030</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Варна</ns1:siteName>
+		<ns1:siteStartDate>1993-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>092</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Велики Преслав</ns1:siteName>
+		<ns1:siteStartDate>1998-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>049</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Велико Търново</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>072</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Велинград</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>043</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Видин</ns1:siteName>
+		<ns1:siteStartDate>2000-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>038</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Враца</ns1:siteName>
+		<ns1:siteStartDate>1994-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>054</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Габрово</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>036</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Генерал Тошево</ns1:siteName>
+		<ns1:siteStartDate>1997-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>051</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Горна Оряховица</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>014</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Гоце Делчев</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>113</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Гълъбово</ns1:siteName>
+		<ns1:siteStartDate>2007-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>077</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Девин</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>031</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Девня</ns1:siteName>
+		<ns1:siteStartDate>2001-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>096</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Димитровград</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>033</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Добрич</ns1:siteName>
+		<ns1:siteStartDate>1997-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>055</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Дряново</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>084</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Дулово</ns1:siteName>
+		<ns1:siteStartDate>2001-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>017</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Дупница</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>053</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Елена</ns1:siteName>
+		<ns1:siteStartDate>2001-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>004</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Елин Пелин</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>104</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Елхово</ns1:siteName>
+		<ns1:siteStartDate>1999-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>003</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Етрополе</ns1:siteName>
+		<ns1:siteStartDate>1998-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>078</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Златоград</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>099</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Ивайловград</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>086</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Исперих</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>005</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Ихтиман</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>037</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Каварна</ns1:siteName>
+		<ns1:siteStartDate>1997-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>110</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Казанлък</ns1:siteName>
+		<ns1:siteStartDate>2000-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>068</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Карлово</ns1:siteName>
+		<ns1:siteStartDate>1999-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>024</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Карнобат</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>059</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Кнежа</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>042</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Козлодуй</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>006</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Костинброд</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>107</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Котел</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>101</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Крумовград</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>087</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Кубрат</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>044</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Кула</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>098</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Кърджали</ns1:siteName>
+		<ns1:siteStartDate>1999-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>016</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Кюстендил</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>061</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Левски</ns1:siteName>
+		<ns1:siteStartDate>2000-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>063</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Ловеч</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>047</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Лом</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>066</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Луковит</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>076</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Мадан</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>027</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Малко Търново</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>040</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Мездра</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>102</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Момчилград</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>046</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Монтана</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>028</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Несебър</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>060</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Никопол</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>108</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Нова Загора</ns1:siteName>
+		<ns1:siteStartDate>2001-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>093</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Нови Пазар</ns1:siteName>
+		<ns1:siteStartDate>1997-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>090</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Омуртаг</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>041</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Оряхово</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>050</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Павликени</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>071</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Пазарджик</ns1:siteName>
+		<ns1:siteStartDate>1997-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>073</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Панагюрище</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>018</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Перник</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>012</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Петрич</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>074</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Пещера</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>007</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Пирдоп</ns1:siteName>
+		<ns1:siteStartDate>2000-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>058</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Плевен</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>067</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Пловдив</ns1:siteName>
+		<ns1:siteStartDate>1991-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>025</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Поморие</ns1:siteName>
+		<ns1:siteStartDate>1999-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>089</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Попово</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>032</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Провадия</ns1:siteName>
+		<ns1:siteStartDate>1995-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>069</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Първомай</ns1:siteName>
+		<ns1:siteStartDate>1995-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>112</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Раднево</ns1:siteName>
+		<ns1:siteStartDate>2001-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>019</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Радомир</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>085</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Разград</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>013</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Разлог</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>080</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Русе</ns1:siteName>
+		<ns1:siteStartDate>2001-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>010</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Самоков</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>015</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Сандански</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>097</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Свиленград</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>052</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Свищов</ns1:siteName>
+		<ns1:siteStartDate>2001-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>009</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Своге</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>056</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Севлиево</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>082</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Силистра</ns1:siteName>
+		<ns1:siteStartDate>1995-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>106</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Сливен</ns1:siteName>
+		<ns1:siteStartDate>1994-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>008</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Сливница</ns1:siteName>
+		<ns1:siteStartDate>2004-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>075</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Смолян</ns1:siteName>
+		<ns1:siteStartDate>2003-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>001</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - София</ns1:siteName>
+		<ns1:siteStartDate>1998-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>029</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Средец</ns1:siteName>
+		<ns1:siteStartDate>2000-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>109</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Стара Загора</ns1:siteName>
+		<ns1:siteStartDate>1994-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>035</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Тервел</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>065</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Тетевен</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>105</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Тополовград</ns1:siteName>
+		<ns1:siteStartDate>1999-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>064</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Троян</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>020</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Трън</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>057</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Трявна</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>083</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Тутракан</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>088</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Търговище</ns1:siteName>
+		<ns1:siteStartDate>1999-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>095</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Харманли</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>094</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Хасково</ns1:siteName>
+		<ns1:siteStartDate>1999-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>026</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Царево</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>079</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Чепеларе</ns1:siteName>
+		<ns1:siteStartDate>2001-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>062</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Червен бряг</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>111</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Чирпан</ns1:siteName>
+		<ns1:siteStartDate>2002-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>091</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Шумен</ns1:siteName>
+		<ns1:siteStartDate>1994-01-01</ns1:siteStartDate>
+	</ns1:site>
+	<ns1:site>
+		<ns1:siteID>103</ns1:siteID>
+		<ns1:siteName>Служба по вписванията - Ямбол</ns1:siteName>
+		<ns1:siteStartDate>1995-01-01</ns1:siteStartDate>
+	</ns1:site>
+</ns1:GetSitesResponse>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GetTransferredRightsInfoResponse xmlns="http://egov.bg/RegiX/CRC/TransferredRights/GetTransferredRightsInfoResponse" xmlns:common="http://egov.bg/RegiX/CRC/TransferredRights" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TransferredRights>
+    <TransferredRightInfo>
+      <PurchaserCompanyData>
+        <common:CompanyName>String</common:CompanyName>
+        <common:CompType>String</common:CompType>
+        <common:PermissionNumber>String</common:PermissionNumber>
+        <common:IssueDate>1967-08-13</common:IssueDate>
+        <common:EndDate>1967-08-13</common:EndDate>
+      </PurchaserCompanyData>
+      <CompanyName>
+        <common:CompanyName>String</common:CompanyName>
+        <common:CompType>String</common:CompType>
+        <common:PermissionNumber>String</common:PermissionNumber>
+        <common:IssueDate>1967-08-13</common:IssueDate>
+        <common:EndDate>1967-08-13</common:EndDate>
+      </CompanyName>
+      <TransferredRightsInfo>String</TransferredRightsInfo>
+    </TransferredRightInfo>
+    <TransferredRightInfo>
+      <PurchaserCompanyData>
+        <common:CompanyName>String</common:CompanyName>
+        <common:CompType>String</common:CompType>
+        <common:PermissionNumber>String</common:PermissionNumber>
+        <common:IssueDate>1967-08-13</common:IssueDate>
+        <common:EndDate>1967-08-13</common:EndDate>
+      </PurchaserCompanyData>
+      <CompanyName>
+        <common:CompanyName>String</common:CompanyName>
+        <common:CompType>String</common:CompType>
+        <common:PermissionNumber>String</common:PermissionNumber>
+        <common:IssueDate>1967-08-13</common:IssueDate>
+        <common:EndDate>1967-08-13</common:EndDate>
+      </CompanyName>
+      <TransferredRightsInfo>String</TransferredRightsInfo>
+    </TransferredRightInfo>
+  </TransferredRights>
+</GetTransferredRightsInfoResponse>

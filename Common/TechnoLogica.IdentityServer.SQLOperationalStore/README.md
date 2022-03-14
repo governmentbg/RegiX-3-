@@ -1,0 +1,1 @@
+# SQL Server Operational Store for Identity Server

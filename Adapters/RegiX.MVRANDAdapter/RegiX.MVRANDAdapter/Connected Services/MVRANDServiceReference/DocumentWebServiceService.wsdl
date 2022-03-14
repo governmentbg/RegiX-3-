@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://ws.kat.musala.com/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="DocumentWebServiceService" targetNamespace="http://ws.kat.musala.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="unqualified" targetNamespace="http://ws.kat.musala.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="ControlPointsHistoryByEgnRequest" type="tns:ControlPointsHistoryByEgnRequest" />
+      <xs:element name="ControlPointsHistoryByEgnResponse" type="tns:ControlPointsHistoryByEgnResponse" />
+      <xs:element name="DocumentResponse" type="tns:DocumentResponse" />
+      <xs:element name="ObligationDocumentsByEgnRequest" type="tns:ObligationDocumentsByEgnRequest" />
+      <xs:element name="ObligationDocumentsByEgnResponse" type="tns:ObligationDocumentsByEgnResponse" />
+      <xs:element name="ObligationDocumentsByLicenceNumRequest" type="tns:ObligationDocumentsByLicenceNumRequest" />
+      <xs:element name="ObligationDocumentsByLicenceNumResponse" type="tns:ObligationDocumentsByLicenceNumResponse" />
+      <xs:element name="ObligationDocumentsRequest" type="tns:ObligationDocumentsRequest" />
+      <xs:element name="ObligationDocumentsResponse" type="tns:ObligationDocumentsResponse" />
+      <xs:element name="PaymentNotificationRequest" type="tns:PaymentNotificationRequest" />
+      <xs:element name="PaymentNotificationResponse" type="tns:PaymentNotificationResponse" />
+      <xs:element name="getControlPointsHistoryByEgn" type="tns:getControlPointsHistoryByEgn" />
+      <xs:element name="getControlPointsHistoryByEgnResponse" type="tns:getControlPointsHistoryByEgnResponse" />
+      <xs:element name="getObligationDocuments" type="tns:getObligationDocuments" />
+      <xs:element name="getObligationDocumentsByEgn" type="tns:getObligationDocumentsByEgn" />
+      <xs:element name="getObligationDocumentsByEgnResponse" type="tns:getObligationDocumentsByEgnResponse" />
+      <xs:element name="getObligationDocumentsByLicenceNum" type="tns:getObligationDocumentsByLicenceNum" />
+      <xs:element name="getObligationDocumentsByLicenceNumResponse" type="tns:getObligationDocumentsByLicenceNumResponse" />
+      <xs:element name="getObligationDocumentsResponse" type="tns:getObligationDocumentsResponse" />
+      <xs:element name="sendPaymentNotification" type="tns:sendPaymentNotification" />
+      <xs:element name="sendPaymentNotificationResponse" type="tns:sendPaymentNotificationResponse" />
+      <xs:complexType name="getObligationDocumentsByLicenceNum">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="getObligationDocuments" type="tns:ObligationDocumentsByLicenceNumRequest" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ObligationDocumentsByLicenceNumRequest">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:DocumentRequest">
+            <xs:sequence>
+              <xs:element name="licenceNum" type="xs:string" />
+              <xs:element name="egn" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="DocumentRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ipAddress" type="xs:string" />
+          <xs:element minOccurs="0" name="username" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getObligationDocumentsByLicenceNumResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:ObligationDocumentsByLicenceNumResponse" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ObligationDocumentsByLicenceNumResponse">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:PaymentNotificationResponse">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="customerType" type="xs:string" />
+              <xs:element minOccurs="0" name="allObligations">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="ObligationDocument" type="tns:ObligationDocument" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="userPid" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="PaymentNotificationResponse">
+        <xs:sequence>
+          <xs:element name="status" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ObligationDocument">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:RootDocument">
+            <xs:sequence>
+              <xs:element name="initialAmount" type="xs:double" />
+              <xs:element name="discount" type="xs:double" />
+              <xs:element name="totalAmount" type="xs:double" />
+              <xs:element minOccurs="0" name="iban" type="xs:string" />
+              <xs:element minOccurs="0" name="bic" type="xs:string" />
+              <xs:element minOccurs="0" name="paymentReason" type="xs:string" />
+              <xs:element minOccurs="0" name="createDate" type="xs:string" />
+              <xs:element name="isMainDocument" type="xs:boolean" />
+              <xs:element name="isServed" nillable="true" type="xs:boolean" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="RootDocument">
+        <xs:sequence>
+          <xs:element name="documentType" type="xs:string" />
+          <xs:element name="documentSeries" nillable="true" type="xs:string" />
+          <xs:element name="documentNumber" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getObligationDocumentsByEgn">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="getObligationDocuments" type="tns:ObligationDocumentsByEgnRequest" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ObligationDocumentsByEgnRequest">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:DocumentRequest">
+            <xs:sequence>
+              <xs:element name="egn" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="getObligationDocumentsByEgnResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:ObligationDocumentsByEgnResponse" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ObligationDocumentsByEgnResponse">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:PaymentNotificationResponse">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="customerType" type="xs:string" />
+              <xs:element minOccurs="0" name="userPid" type="xs:string" />
+              <xs:element minOccurs="0" name="allObligations">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="ObligationDocument" type="tns:ObligationDocument" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="getControlPointsHistoryByEgn">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="getControlPointsHistoryByEgn" type="tns:ControlPointsHistoryByEgnRequest" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ControlPointsHistoryByEgnRequest">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:DocumentRequest">
+            <xs:sequence>
+              <xs:element name="egn" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="getControlPointsHistoryByEgnResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:ControlPointsHistoryByEgnResponse" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ControlPointsHistoryByEgnResponse">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:DocumentResponse">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="customerType" type="xs:string" />
+              <xs:element minOccurs="0" name="userPid" type="xs:string" />
+              <xs:element name="currentControlPoints" type="xs:int" />
+              <xs:element minOccurs="0" name="controlPointsHistory">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="ControlPoint" type="tns:ControlPoint" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="DocumentResponse">
+        <xs:sequence>
+          <xs:element name="status" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ControlPoint">
+        <xs:sequence>
+          <xs:element name="documentType" type="xs:string" />
+          <xs:element name="documentNumber" type="xs:string" />
+          <xs:element minOccurs="0" name="dateOfWithdrawal" type="xs:string" />
+          <xs:element name="numberOfPoints" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="sendPaymentNotification">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="paymentNotificationRequest" type="tns:PaymentNotificationRequest" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="PaymentNotificationRequest">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:RootDocumentRequest">
+            <xs:sequence>
+              <xs:element name="transactionNumber" type="xs:string" />
+              <xs:element name="paymentDate" type="xs:string" />
+              <xs:element name="paymentAmount" type="xs:double" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="RootDocumentRequest">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:RootDocument">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ipAddress" type="xs:string" />
+              <xs:element minOccurs="0" name="username" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="sendPaymentNotificationResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:PaymentNotificationResponse" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getObligationDocuments">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="getObligationDocuments" type="tns:ObligationDocumentsRequest" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ObligationDocumentsRequest">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:RootDocumentRequest">
+            <xs:sequence>
+              <xs:element name="initialAmount" type="xs:double" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="getObligationDocumentsResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:ObligationDocumentsResponse" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ObligationDocumentsResponse">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:PaymentNotificationResponse">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="customerType" type="xs:string" />
+              <xs:element minOccurs="0" name="userPid" type="xs:string" />
+              <xs:element minOccurs="0" name="allObligations">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="ObligationDocument" type="tns:ObligationDocument" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getObligationDocumentsByLicenceNum">
+    <wsdl:part name="parameters" element="tns:getObligationDocumentsByLicenceNum" />
+  </wsdl:message>
+  <wsdl:message name="getObligationDocumentsByLicenceNumResponse">
+    <wsdl:part name="parameters" element="tns:getObligationDocumentsByLicenceNumResponse" />
+  </wsdl:message>
+  <wsdl:message name="getObligationDocumentsByEgn">
+    <wsdl:part name="parameters" element="tns:getObligationDocumentsByEgn" />
+  </wsdl:message>
+  <wsdl:message name="getObligationDocumentsByEgnResponse">
+    <wsdl:part name="parameters" element="tns:getObligationDocumentsByEgnResponse" />
+  </wsdl:message>
+  <wsdl:message name="getControlPointsHistoryByEgn">
+    <wsdl:part name="parameters" element="tns:getControlPointsHistoryByEgn" />
+  </wsdl:message>
+  <wsdl:message name="getControlPointsHistoryByEgnResponse">
+    <wsdl:part name="parameters" element="tns:getControlPointsHistoryByEgnResponse" />
+  </wsdl:message>
+  <wsdl:message name="sendPaymentNotification">
+    <wsdl:part name="parameters" element="tns:sendPaymentNotification" />
+  </wsdl:message>
+  <wsdl:message name="sendPaymentNotificationResponse">
+    <wsdl:part name="parameters" element="tns:sendPaymentNotificationResponse" />
+  </wsdl:message>
+  <wsdl:message name="getObligationDocuments">
+    <wsdl:part name="parameters" element="tns:getObligationDocuments" />
+  </wsdl:message>
+  <wsdl:message name="getObligationDocumentsResponse">
+    <wsdl:part name="parameters" element="tns:getObligationDocumentsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DocumentWebService">
+    <wsdl:operation name="getObligationDocumentsByLicenceNum">
+      <wsdl:input name="getObligationDocumentsByLicenceNum" message="tns:getObligationDocumentsByLicenceNum" />
+      <wsdl:output name="getObligationDocumentsByLicenceNumResponse" message="tns:getObligationDocumentsByLicenceNumResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getObligationDocumentsByEgn">
+      <wsdl:input name="getObligationDocumentsByEgn" message="tns:getObligationDocumentsByEgn" />
+      <wsdl:output name="getObligationDocumentsByEgnResponse" message="tns:getObligationDocumentsByEgnResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getControlPointsHistoryByEgn">
+      <wsdl:input name="getControlPointsHistoryByEgn" message="tns:getControlPointsHistoryByEgn" />
+      <wsdl:output name="getControlPointsHistoryByEgnResponse" message="tns:getControlPointsHistoryByEgnResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="sendPaymentNotification">
+      <wsdl:input name="sendPaymentNotification" message="tns:sendPaymentNotification" />
+      <wsdl:output name="sendPaymentNotificationResponse" message="tns:sendPaymentNotificationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getObligationDocuments">
+      <wsdl:input name="getObligationDocuments" message="tns:getObligationDocuments" />
+      <wsdl:output name="getObligationDocumentsResponse" message="tns:getObligationDocumentsResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DocumentWebServiceServiceSoapBinding" type="tns:DocumentWebService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getObligationDocumentsByLicenceNum">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getObligationDocumentsByLicenceNum">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getObligationDocumentsByLicenceNumResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getControlPointsHistoryByEgn">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getControlPointsHistoryByEgn">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getControlPointsHistoryByEgnResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getObligationDocumentsByEgn">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getObligationDocumentsByEgn">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getObligationDocumentsByEgnResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sendPaymentNotification">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="sendPaymentNotification">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="sendPaymentNotificationResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getObligationDocuments">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getObligationDocuments">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getObligationDocumentsResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DocumentWebServiceService">
+    <wsdl:port name="DocumentWebServicePort" binding="tns:DocumentWebServiceServiceSoapBinding">
+      <soap:address location="http://10.254.130.25:7003/KAT/services/documentsInfo" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

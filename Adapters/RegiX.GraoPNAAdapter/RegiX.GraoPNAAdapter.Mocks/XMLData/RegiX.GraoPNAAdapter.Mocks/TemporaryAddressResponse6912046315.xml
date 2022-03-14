@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<TemporaryAddressResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/PNA/TemporaryAddressResponse">
+  <DistrictCode>SF</DistrictCode>
+  <DistrictName>Враца</DistrictName>
+  <MunicipalityCode>SF</MunicipalityCode>
+  <MunicipalityName>Враца</MunicipalityName>
+  <SettlementCode>BG001</SettlementCode>
+  <SettlementName>гр. Враца</SettlementName>
+  <CityAreaCode>SL</CityAreaCode>
+  <CityArea/>
+  <LocationCode/>
+  <LocationName>ул. Хан Аспарух</LocationName>
+  <BuildingNumber>5</BuildingNumber>
+  <Entrance>1</Entrance>
+  <Floor>4</Floor>
+  <Apartment>8</Apartment>
+  <FromDate>2005-03-12</FromDate>
+</TemporaryAddressResponse>

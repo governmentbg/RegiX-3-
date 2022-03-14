@@ -1,0 +1,11 @@
+<MarriageResponse xmlns="http://egov.bg/RegiX/GRAO/BR/MarriageResponse">
+  <MarriageLicenceDate>1983-03-11</MarriageLicenceDate>
+  <MarriageLicenceNumber>5692</MarriageLicenceNumber>
+  <MarriageDate>1983-03-11</MarriageDate>
+  <MarriagePlaceCode>BG001</MarriagePlaceCode>
+  <MarriagePlace>София</MarriagePlace>
+  <MarriageCountryCode>BG</MarriageCountryCode>
+  <MarriageCountry>България</MarriageCountry>
+  <DivorceCaseNumber>213</DivorceCaseNumber>
+  <DivorceDate>2011-03-15</DivorceDate>
+</MarriageResponse>

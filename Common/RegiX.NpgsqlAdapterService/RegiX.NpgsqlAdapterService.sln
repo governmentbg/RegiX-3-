@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.NpgsqlAdapterService", "RegiX.NpgsqlAdapterService\RegiX.NpgsqlAdapterService.csproj", "{A001338A-357E-4C8F-9B58-38F3BDE62992}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B9E3A811-3EC6-4F8C-A6B8-69331B36D949}"
+	ProjectSection(SolutionItems) = preProject
+		azure-devops.yaml = azure-devops.yaml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A001338A-357E-4C8F-9B58-38F3BDE62992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A001338A-357E-4C8F-9B58-38F3BDE62992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A001338A-357E-4C8F-9B58-38F3BDE62992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A001338A-357E-4C8F-9B58-38F3BDE62992}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F84C9545-C399-4D0B-9D7C-07AAFA8E9FD4}
+	EndGlobalSection
+EndGlobal

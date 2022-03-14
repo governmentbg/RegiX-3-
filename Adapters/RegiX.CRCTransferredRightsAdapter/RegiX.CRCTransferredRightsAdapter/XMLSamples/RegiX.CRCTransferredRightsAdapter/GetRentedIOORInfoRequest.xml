@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetRentedIOORInfoRequest xmlns="http://egov.bg/RegiX/CRC/TransferredRights/GetRentedIOORInfoRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LandlordName>String</LandlordName>
+  <LandlordType>String</LandlordType>
+  <Permission>String</Permission>
+  <IssueFromDate>1967-08-13</IssueFromDate>
+  <IssueToDate>1967-08-13</IssueToDate>
+  <EndOfActionFromDate>1967-08-13</EndOfActionFromDate>
+  <EndOfActionToDate>1967-08-13</EndOfActionToDate>
+  <TenantName>String</TenantName>
+  <TenantType>String</TenantType>
+  <TenantPermission>String</TenantPermission>
+  <RentalFromDate>1967-08-13</RentalFromDate>
+  <RentalToDate>1967-08-13</RentalToDate>
+</GetRentedIOORInfoRequest>

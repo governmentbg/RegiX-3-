@@ -1,0 +1,80 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.NCPRMedicinalProductsAdapter</RootNamespace>
+    <Authors>Miroslav Marinov</Authors>
+    <Description>NCPRMedicinalProductsAdapter</Description>
+    <Company>TechnoLogica</Company>
+	<Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+	<Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="XMLSamples\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLSchemas\*\Transformations\*.xslt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLSchemas\*\*.xsd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLMetaData\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="XMLMetaData\RegiX.NCPRMedicinalProductsAdapter\GetMedicinalProductData.xml" />
+    <None Remove="XMLMetaData\RegiX.NCPRMedicinalProductsAdapter\GetRegisterMedicinalProductData.xml" />
+    <None Remove="XMLMetaData\RegiX.NCPRMedicinalProductsAdapter\ListDeletedMedicinalProducts.xml" />
+    <None Remove="XMLMetaData\RegiX.NCPRMedicinalProductsAdapter\ListMedicinalProducts.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.Adapters.Common" Version="1.0.70" />
+    <PackageReference Include="RegiX.WebServiceAdapterService" Version="1.0.42" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="XMLSamples\RegiX.NCPRMedicinalProductsAdapter\" />
+    <Folder Include="XMLSchemas\RegiX.NCPRMedicinalProductsAdapter\Transformations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="XMLSchemas\RegiX.NCPRMedicinalProductsAdapter\Transformations\GetMedinicalProductDataRequest.xslt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="XMLSchemas\RegiX.NCPRMedicinalProductsAdapter\Transformations\GetMedinicalProductDataRеsponse.xslt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="XMLSchemas\RegiX.NCPRMedicinalProductsAdapter\Transformations\GetRegisterMedicinalProductDataRequest.xslt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="XMLSchemas\RegiX.NCPRMedicinalProductsAdapter\Transformations\GetRegisterMedicinalProductDataResponse.xslt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="XMLSchemas\RegiX.NCPRMedicinalProductsAdapter\Transformations\ListDeletedMedicinalProductsRequest.xslt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="XMLSchemas\RegiX.NCPRMedicinalProductsAdapter\Transformations\ListDeletedMedicinalProductsResponse.xslt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="XMLSchemas\RegiX.NCPRMedicinalProductsAdapter\Transformations\ListMedicinalProductsRequest.xslt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="XMLSchemas\RegiX.NCPRMedicinalProductsAdapter\Transformations\ListMedicinalProductsResponse.xslt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tsr="http://bg.mvr.ict/typereg" xmlns:td2="http://bg.mvr.ict/shared/retype" xmlns:h="http://bg.mvr.ict/shared/regheader" targetNamespace="http://bg.mvr.ict/typereg" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://bg.mvr.ict/shared/regheader" schemaLocation="RegixHeader2.xsd"/>
+	<xs:element name="RegixVehicleRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Header" type="h:HeaderType"/>
+				<xs:element name="Request">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="RequestByVehRegNum" type="tsr:RequestByVehRegNumType"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="RequestByVehRegNumType">
+		<xs:sequence>
+			<xs:element name="VehRegistrationNumber" type="tsr:VehRegNumRequestType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="VehRegNumRequestType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:pattern value="[А-Я0-9ETYOPADHKXCBM]*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StringOf36Type">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="36"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

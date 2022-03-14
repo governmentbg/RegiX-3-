@@ -1,0 +1,10 @@
+<div class="input-group" *ngIf="isControlReady" [formGroup]="formGroup">
+  <igx-checkbox
+    class="input-group"
+    [formControlName]="parameterName"
+    [disabled] = "isDisabled"
+    name="active"
+  >
+    {{ parameterLabel }}
+  </igx-checkbox>
+</div>

@@ -1,0 +1,72 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <form [formGroup]="formGroup" (submit)="onSubmit($event)">
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="auditTableId"
+              type="text"
+              formControlName="auditTableId"
+              tlFormGroupRef
+            />
+            <label igxLabel for="auditTableId">Идентификатор на промяна</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="auditTableName"
+              type="text"
+              formControlName="auditTableName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="auditTableName">Таблица</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="oldValue"
+              type="text"
+              formControlName="oldValue"
+              tlFormGroupRef
+            />
+            <label igxLabel for="oldValue">Стара стойност</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              igxInput
+              name="newValue"
+              type="text"
+              formControlName="newValue"
+              tlFormGroupRef
+            />
+            <label igxLabel for="newValue">Нова стойност</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+    </form>
+  </div>
+</tl-basic-form>

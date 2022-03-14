@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<JobSeekerContractsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AZ/JobSeekerContractsResponse">
+  <JobSeekerPersonData>
+    <PersonalID xmlns="http://egov.bg/RegiX/AZ">PersonalID</PersonalID>
+    <FirstName xmlns="http://egov.bg/RegiX/AZ">Ivan</FirstName>
+    <MiddleName xmlns="http://egov.bg/RegiX/AZ">Ivanov</MiddleName>
+    <LastName xmlns="http://egov.bg/RegiX/AZ">Ivanov</LastName>
+    <RegistrationNumber xmlns="http://egov.bg/RegiX/AZ">288456</RegistrationNumber>
+    <RegistrationDate xmlns="http://egov.bg/RegiX/AZ">2015-05-05</RegistrationDate>
+    <RegistrationDBT xmlns="http://egov.bg/RegiX/AZ">Агенция по заетостта</RegistrationDBT>
+    <RegistrationStatus xmlns="http://egov.bg/RegiX/AZ">валиден</RegistrationStatus>
+  </JobSeekerPersonData>
+  <Contracts>
+    <Contract>
+      <ContractNumber>54561</ContractNumber>
+      <Measure>програма</Measure>
+      <ContractStatus>сключен ТД</ContractStatus>
+    </Contract>
+    <Contract>
+      <ContractNumber>23551</ContractNumber>
+      <Measure>друго</Measure>
+      <ContractStatus>сключен ТД</ContractStatus>
+    </Contract>
+  </Contracts>
+</JobSeekerContractsResponse>

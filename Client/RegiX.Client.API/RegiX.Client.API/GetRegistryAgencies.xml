@@ -1,0 +1,568 @@
+﻿<?xml version="1.0"?>
+<ArrayOfEnumValue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">023</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Айтос</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">100</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Ардино</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">070</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Асеновград</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">034</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Балчик</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">045</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Белоградчик</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">048</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Берковица</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">011</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Благоевград</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">002</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Ботевград</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">021</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Брезник</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">022</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Бургас</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">081</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Бяла</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">039</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Бяла Слатина</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">030</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Варна</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">092</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Велики Преслав</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">049</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Велико Търново</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">072</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Велинград</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">043</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Видин</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">038</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Враца</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">054</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Габрово</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">036</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Генерал Тошево</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">051</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Горна Оряховица</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">014</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Гоце Делчев</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">113</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Гълъбово</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">077</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Девин</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">031</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Девня</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">096</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Димитровград</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">033</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Добрич</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">055</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Дряново</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">084</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Дулово</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">017</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Дупница</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">053</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Елена</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">004</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Елин Пелин</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">104</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Елхово</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">003</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Етрополе</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">078</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Златоград</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">099</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Ивайловград</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">086</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Исперих</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">005</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Ихтиман</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">037</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Каварна</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">110</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Казанлък</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">068</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Карлово</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">024</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Карнобат</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">059</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Кнежа</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">042</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Козлодуй</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">006</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Костинброд</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">107</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Котел</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">101</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Крумовград</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">087</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Кубрат</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">044</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Кула</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">098</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Кърджали</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">016</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Кюстендил</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">061</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Левски</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">063</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Ловеч</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">047</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Лом</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">066</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Луковит</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">076</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Мадан</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">027</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Малко Търново</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">040</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Мездра</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">102</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Момчилград</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">046</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Монтана</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">028</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Несебър</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">060</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Никопол</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">108</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Нова Загора</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">093</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Нови Пазар</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">090</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Омуртаг</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">041</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Оряхово</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">050</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Павликени</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">071</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Пазарджик</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">073</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Панагюрище</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">018</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Перник</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">012</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Петрич</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">074</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Пещера</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">007</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Пирдоп</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">058</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Плевен</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">067</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Пловдив</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">025</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Поморие</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">089</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Попово</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">032</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Провадия</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">069</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Първомай</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">112</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Раднево</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">019</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Радомир</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">085</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Разград</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">013</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Разлог</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">080</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Русе</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">010</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Самоков</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">015</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Сандански</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">097</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Свиленград</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">052</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Свищов</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">009</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Своге</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">056</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Севлиево</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">082</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Силистра</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">106</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Сливен</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">008</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Сливница</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">075</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Смолян</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">001</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - София</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">029</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Средец</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">109</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Стара Загора</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">035</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Тервел</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">065</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Тетевен</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">105</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Тополовград</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">064</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Троян</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">020</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Трън</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">057</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Трявна</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">083</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Тутракан</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">088</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Търговище</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">095</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Харманли</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">094</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Хасково</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">026</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Царево</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">079</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Чепеларе</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">062</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Червен бряг</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">111</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Чирпан</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">091</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Шумен</DisplayText>
+		
+	</EnumValue>
+	<EnumValue>
+		<Value xmlns="http://egov.bg/RegiX/RegiXClientMetadata">103</Value>
+		<DisplayText xmlns="http://egov.bg/RegiX/RegiXClientMetadata">Служба по вписванията - Ямбол</DisplayText>
+		
+	</EnumValue>
+</ArrayOfEnumValue>

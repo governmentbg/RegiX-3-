@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+  <xs:include schemaLocation="rscommon.xsd"/>
+
+  <xs:element name="ObligationResponse">
+    <xs:annotation>
+      <xs:documentation>Root element for the obligation response</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence minOccurs="1" maxOccurs="1">
+        <xs:element ref="Identity" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="Names" type="xs:token" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="Threshold" type="ThresholdType" minOccurs="0" maxOccurs="1">
+          <xs:annotation>
+            <xs:documentation>
+              The service reports present obligation only if the later is greater than this
+              threshold value
+            </xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element name="ObligationStatus" type="ObligationStatusType" minOccurs="0"
+                    maxOccurs="1"/>
+        <xs:element name="Status" type="StatusType" minOccurs="1" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="EContractRequest">
+    <xs:annotation>
+      <xs:documentation>Root element for the employment contract request</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence minOccurs="1" maxOccurs="1">
+        <xs:element ref="Identity" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="Span" minOccurs="0" maxOccurs="1">
+          <xs:annotation>
+            <xs:documentation>
+              Стойности:
+              ALL    - Връща всички трудови договори
+              ACTIVE - Връща само активните към момента договори
+            </xs:documentation>
+          </xs:annotation>
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="ALL"/>
+              <xs:enumeration value="ACTIVE"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="StatusType">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Code" type="xs:int">
+        <xs:annotation>
+          <xs:documentation>
+            0 - OK
+            2 - invalid EIK
+            99 - other
+
+            XML Validation error are returned as plain text with status 400 BadRequest
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Message" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="EContractResponse">
+    <xs:annotation>
+      <xs:documentation>Root element for the employment contract response. Contains information for
+        the active (not expired or terminated) employment contracts
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence minOccurs="1" maxOccurs="1">
+        <xs:element ref="Identity" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="ResDate" type="xs:date" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="EContracts" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence minOccurs="1" maxOccurs="1">
+              <xs:element ref="EContract" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Status" type="StatusType" minOccurs="1" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="EContract">
+    <xs:complexType>
+      <xs:sequence minOccurs="1" maxOccurs="1">
+        <xs:element name="ContractorBulstat" type="xs:string" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="ContractorName" type="xs:string" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="IndividualEIK" type="xs:string" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="IndividualNames" type="xs:string" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="StartDate" type="xs:date" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="LastAmendDate" type="xs:date" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="EndDate" type="xs:date" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="Reason" type="EContractReasonType" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="TimeLimit" type="xs:date" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="EcoCode" type="xs:string" minOccurs="0" maxOccurs="1">
+          <xs:annotation>
+            <xs:documentation>KID code</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element name="ProfessionCode" type="xs:string" minOccurs="0" maxOccurs="1">
+          <xs:annotation>
+            <xs:documentation>NKPD code</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element name="Position" type="xs:token" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="EKATTE" type="xs:token" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="Remuneration" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:simpleType name="EContractReasonType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="01"/>
+      <xs:enumeration value="02"/>
+      <xs:enumeration value="03"/>
+      <xs:enumeration value="04"/>
+      <xs:enumeration value="05"/>
+      <xs:enumeration value="06"/>
+      <xs:enumeration value="07"/>
+      <xs:enumeration value="08"/>
+      <xs:enumeration value="09"/>
+      <xs:enumeration value="10"/>
+      <xs:enumeration value="11"/>
+      <xs:enumeration value="12"/>
+      <xs:enumeration value="13"/>
+      <xs:enumeration value="14"/>
+      <xs:enumeration value="15"/>
+      <xs:enumeration value="16"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

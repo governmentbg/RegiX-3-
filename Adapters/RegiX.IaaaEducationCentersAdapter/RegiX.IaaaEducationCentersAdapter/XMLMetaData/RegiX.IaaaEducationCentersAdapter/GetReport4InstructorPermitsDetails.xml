@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.IaaaEducationCentersAdapter.APIService.IIaaaEducationCentersAPI.GetReport4InstructorPermitsDetails</OperationName>
+  <Code>GetReport4InstructorPermitsDetails</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>PermitsInstructorsRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/Iaaa/EducationCenters/PermitsInstructorsReportRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка по лице за вписвания в разрешителни за организиране на курсове за обучение на водачи за придобиване на квалификация и за усъвършенстване на познанията им</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>SubjectIdentNumber</ParameterName>
+        <ParameterLabel>ЕГН на търсеният преподавател</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

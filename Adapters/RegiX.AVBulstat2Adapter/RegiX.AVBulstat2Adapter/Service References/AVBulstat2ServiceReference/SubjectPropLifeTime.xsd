@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:E="http://www.bulstat.bg/Entry" xmlns:tns="http://www.bulstat.bg/SubjectPropLifeTime" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.bulstat.bg/SubjectPropLifeTime" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="Entry.xsd" namespace="http://www.bulstat.bg/Entry" />
+  <xs:complexType name="SubjectPropLifeTime">
+    <xs:annotation>
+      <xs:documentation>Срок на съществуване</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="E:Entry">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="Date" type="xs:anySimpleType">
+            <xs:annotation>
+              <xs:documentation>Дата във формат (yyyy-MM-dd)
+							</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="0" maxOccurs="1" name="Description">
+            <xs:annotation>
+              <xs:documentation>Описание
+							</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:maxLength value="180" />
+                <xs:minLength value="1" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>

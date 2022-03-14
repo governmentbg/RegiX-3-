@@ -1,0 +1,40 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.GraoCivilStatusActsAdapter.APIService.IGraoCivilStatusActsAPI.GetMarriageCertificate</OperationName>
+  <Code>GetMarriageCertificate</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>MarriageCertificateRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/GRAO/MarriageCertificate/MarriageCertificateRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за сключен граждански брак</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Egn</ParameterName>
+        <ParameterLabel>ЕГН</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <IdentifierType>1</IdentifierType>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>SearchDate</ParameterName>
+        <ParameterLabel>Дата, преди която се търсят данни за брак</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>DateTime</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

@@ -1,0 +1,26 @@
+ <PermitInstructorsResponse xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters/PermitInstructorsResponse">
+              <Permits>
+                <Permit>
+                  <Number>1</Number>
+                  <IssueDate>2015-08-21</IssueDate>
+                  <ValidTo>2015-08-21</ValidTo>
+                  <CompanyFullName>full name</CompanyFullName>
+                  <CompanyIdentNumber>identity number</CompanyIdentNumber>
+                  <Instructors>
+                    <Instructor>
+                      <SubjectFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">full name</SubjectFullName>
+                      <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">identity number</SubjectIdentNumber>
+                      <LastQualificationCertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">number</LastQualificationCertificateNumber>
+                      <LastQualificationCertificateIssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-08-21</LastQualificationCertificateIssueDate>
+                      <LastQualificationCertificateIssuedBy xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">name</LastQualificationCertificateIssuedBy>
+                      <LastDrivingLicenceCertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">number</LastDrivingLicenceCertificateNumber>
+                      <LastDrivingLicenceCertificateIssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-08-21</LastDrivingLicenceCertificateIssueDate>
+                      <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">cartificate categorie</LastDrivingLicenceCertificateCategories>
+                      <ExamModuleNames xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">
+                        <ExamModuleName>module name</ExamModuleName>
+                      </ExamModuleNames>
+                    </Instructor>
+                  </Instructors>
+                </Permit>
+              </Permits>
+            </PermitInstructorsResponse>

@@ -1,0 +1,39 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.GitExplosivesAdapter.APIService.IGitExplosivesAPI.GetAuthenticityExplosivesCertificate</OperationName>
+  <Code>GetAuthenticityExplosivesCertificate</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>AuthenticityExplosivesCertificateRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/GIT/RVM/AuthenticityExplosivesCertificateRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за автентичност на свидетелство за работа с взривни материали</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Identifier</ParameterName>
+        <ParameterLabel>ЕГН или ЛНЧ</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>CertificateNumber</ParameterName>
+        <ParameterLabel>Номер на свидетелство за работа с взривни материали</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

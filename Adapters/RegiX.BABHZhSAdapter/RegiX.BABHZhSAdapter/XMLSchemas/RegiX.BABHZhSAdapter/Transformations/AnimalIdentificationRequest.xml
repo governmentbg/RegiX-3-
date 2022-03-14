@@ -1,0 +1,3 @@
+<AnimalIdentificationRequest xmlns="http://egov.bg/RegiX/BABH/BABHZhS/AnimalIdentificationRequest">
+        <AnimalIdentificationNumber>123456</AnimalIdentificationNumber>
+      </AnimalIdentificationRequest>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExciseObligationsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AM/REZMA/ExciseObligationsResponse">
+  <UIN>8203054122</UIN>
+  <Name>Десислава Маринова Маринова</Name>
+  <Obligations>
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG001</CodeMU>
+      <MU>ТМУ София</MU>
+      <Document>НАКАЗАТЕЛНО ПОСТАНОВЛЕНИЕ</Document>
+      <DocumentNumber>N124-54</DocumentNumber>
+	  <CreationDate>2005-07-31</CreationDate>
+      <TypeObligation>ГЛОБИ</TypeObligation>
+      <PayingDocument>86</PayingDocument>
+      <PayingDate>2006-09-13</PayingDate>
+      <PayingAmount>200.00</PayingAmount>
+      <PayingTotal>200.00</PayingTotal>
+      <Difference>200.00</Difference>
+      <Status>Има задължение</Status>
+    </Obligation>
+  </Obligations>
+</ExciseObligationsResponse>

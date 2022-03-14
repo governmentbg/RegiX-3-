@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CPC/ProcurementDossier/GetProcurementDossierRequest" targetNamespace="http://egov.bg/RegiX/CPC/ProcurementDossier/GetProcurementDossierRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetProcurementDossierRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ProcurementNumber" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>Уникален номер на поръчка в РОП</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

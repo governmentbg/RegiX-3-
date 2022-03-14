@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/Subscribers/GetCompanyInfoRequest" targetNamespace="http://egov.bg/RegiX/CRC/Subscribers/GetCompanyInfoRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetCompanyInfoRequest">
+		<xs:annotation>
+			<xs:documentation>Входни параметри на Справка за предприятие</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="CompanyName" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Наименование</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="CompanyType" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Тип</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="EIK" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>ЕИК</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

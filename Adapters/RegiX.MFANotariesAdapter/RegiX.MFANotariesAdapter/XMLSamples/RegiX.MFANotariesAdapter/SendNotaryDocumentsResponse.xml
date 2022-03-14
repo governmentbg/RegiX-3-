@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SendNotaryDocumentsResponse xmlns="http://egov.bg/RegiX/MFA/Notaries/SendNotaryDocumentsResponse">
+	<StatusCode>Processed</StatusCode>
+	<StatusName>Проверена заверка</StatusName>
+	<AuthenticationType>DateContentSignature</AuthenticationType>
+	<AuthenticationTypeName>Дата, съдържание и подписи на документи, удостоверени от консулските служби</AuthenticationTypeName>
+	<AuthenticationNumber>12346</AuthenticationNumber>
+	<AuthenticationDate>1967-08-13</AuthenticationDate>
+	<ConsulCode>Canberra</ConsulCode>
+	<ConsulName>КС в Канбера, АВСТРАЛИЯ</ConsulName>
+	<Name>Нотариус Иван Иванов</Name>
+	<Remarks>Заверката е проверена от Петър Петров и се съдържа в регистъра</Remarks>
+	<ResultDate>2020-12-17T18:30:47.0Z</ResultDate>
+	<ResultMessage>Заверката се потвърждава</ResultMessage>
+	<Result>true</Result>
+</SendNotaryDocumentsResponse>

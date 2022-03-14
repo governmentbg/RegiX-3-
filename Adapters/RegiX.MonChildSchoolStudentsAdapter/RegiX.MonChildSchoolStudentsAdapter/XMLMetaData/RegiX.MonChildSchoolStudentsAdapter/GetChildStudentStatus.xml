@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.MonChildSchoolStudentsAdapter.APIService.IMonChildSchoolStudentsAPI.GetChildStudentStatus</OperationName>
+  <Code>GetChildStudentStatus</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>ChildStudentStatusRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/MON/Schools/SchoolStudentStatusRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за състоянието на ученик / дете</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>ChildIdentifier</ParameterName>
+        <ParameterLabel>Идентификатор на дете/ученик - ЕГН/ЛНЧ/Друг вид идентификатор</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

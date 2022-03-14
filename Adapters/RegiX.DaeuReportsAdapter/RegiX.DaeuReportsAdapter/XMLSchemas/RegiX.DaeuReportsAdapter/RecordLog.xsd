@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/RecordLog" targetNamespace="http://egov.bg/RegiX/RecordLog" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:complexType name="requestType">
+    <xs:sequence>
+      <xs:any minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RegiXLogRecordType">
+    <xs:annotation>
+      <xs:documentation>Запис в журнала на RegiX</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="APIServiceCallID" type="xs:decimal">
+      </xs:element>
+      <xs:element name="StartTime" type="xs:dateTime">
+      </xs:element>
+      <xs:element name="EndTime" type="xs:dateTime" minOccurs="0">
+      </xs:element>
+      <xs:element name="Request" type="requestType" minOccurs="0">
+      </xs:element>
+      <xs:element name="Identifier" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="IdentifierType" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="Hidden" type="xs:boolean" minOccurs="0">
+      </xs:element>
+      <xs:element name="APIServiceOperationID" type="xs:decimal" minOccurs="0">
+      </xs:element>
+      <xs:element name="Consumer" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="ConsumerAdministration" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="ReportName" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="Producer" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="ProducerAdministration" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="ConsumerCertificateID" type="xs:decimal" minOccurs="0">
+      </xs:element>
+      <xs:element name="CallContext" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="ContextAdministrationName" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="ContextAdministrationOID" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="ContextEmployeeAdditionalIdentifier" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="ContextEmployeeNames" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="ContextEmployeePosition" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="ContextEmployeeIdentifier" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="ContextLawReason" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="ContextResponsibleNames" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="ContextServiceURI" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="ContextServiceType" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="EIDToken" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="OIDToken" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="ClientIPAddres" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="ResultReady" type="xs:boolean" minOccurs="0">
+      </xs:element>
+      <xs:element name="ResultReturned" type="xs:boolean" minOccurs="0">
+      </xs:element>
+      <xs:element name="HasError" type="xs:boolean" minOccurs="0">
+      </xs:element>
+      <xs:element name="ErrorLogTime" type="xs:dateTime" minOccurs="0">
+      </xs:element>
+      <xs:element name="ErrorMessage" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="ErrorContent" type="xs:string" minOccurs="0">
+      </xs:element>
+      <xs:element name="RequestDuration" type="xs:decimal" minOccurs="0">
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RegiXLogRecord" type="RegiXLogRecordType">
+    <xs:annotation>
+      <xs:documentation>Запис в журнала на RegiX</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <RootNamespace>TechnoLogica.RegiX.GraoNBDAdapter.Tests</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove=".config" />
+    <None Remove="App.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include=".config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.3.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.3.2" />
+    <PackageReference Include="RegiX.Adapters.FileParameterStore" Version="1.0.23" />
+    <PackageReference Include="RegiX.Adapters.TestUtils" Version="1.0.58" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.GraoNBDAdapter.Mock\RegiX.GraoNBDAdapter.Mock.csproj" />
+    <ProjectReference Include="..\RegiX.GraoNBDAdapter\RegiX.GraoNBDAdapter.csproj" />
+  </ItemGroup>
+
+</Project>

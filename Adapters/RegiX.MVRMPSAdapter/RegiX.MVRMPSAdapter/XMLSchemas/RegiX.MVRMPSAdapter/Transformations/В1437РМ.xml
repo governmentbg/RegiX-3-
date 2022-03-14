@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tse:RegixVehicleResponse xmlns:tse="http://bg.mvr.ict/typereg2" xmlns:h="http://bg.mvr.ict/shared/regheader" xmlns:r="http://bg.mvr.ict/shared/regreturn" xmlns:td2="http://bg.mvr.ict/shared/retype">
+	<tse:Header>
+		<h:MessageID>bd6fd2fa-d94b-43ef-967e-24943d51ad6e</h:MessageID>
+		<h:MessageRefID>6c2bd482-2fbe-4329-ac75-0bfc4e2cdd48</h:MessageRefID>
+		<h:DateTime>2019-06-13T10:00:58.759</h:DateTime>
+		<h:Operation>003</h:Operation>
+	</tse:Header>
+	<tse:Response>
+		<tse:Results>
+			<tse:Result>
+				<tse:VehicleData>
+					<tse:RegistrationNumber>В1437РМ</tse:RegistrationNumber>
+					<tse:FirstRegistrationDate>1988-03-03</tse:FirstRegistrationDate>
+					<tse:VIN>WDB61141710924991</tse:VIN>
+					<tse:EngineNumber>61791310025886</tse:EngineNumber>
+					<tse:VehicleType>ТОВАРЕН АВТОМОБИЛ</tse:VehicleType>
+					<tse:Model>МЕРЦЕДЕС 409 Д</tse:Model>
+					<tse:Color>БЯЛ</tse:Color>
+					<tse:Category>N2</tse:Category>
+					<tse:MassG>2180</tse:MassG>
+					<tse:MassF1>4600</tse:MassF1>
+					<tse:Capacity>2998</tse:Capacity>
+					<tse:MaxPower>65</tse:MaxPower>
+					<tse:Fuel>ДИЗЕЛ</tse:Fuel>
+					<tse:VehicleDocument>
+						<tse:VehDocumentNumber>008087435</tse:VehDocumentNumber>
+						<tse:VehDocumentDate>2018-01-02</tse:VehDocumentDate>
+					</tse:VehicleDocument>
+				</tse:VehicleData>
+				<tse:OwnersData>
+					<tse:Owner>
+						<td2:BulgarianCitizen>
+							<td2:PIN>5804037095</td2:PIN>
+							<td2:Names>
+								<td2:First>ТОНКА</td2:First>
+								<td2:Surname>ДИМИТРОВА</td2:Surname>
+								<td2:Family>АТАНАСОВА</td2:Family>
+							</td2:Names>
+						</td2:BulgarianCitizen>
+					</tse:Owner>
+				</tse:OwnersData>
+			</tse:Result>
+		</tse:Results>
+		<tse:ReturnInformation>
+			<r:ReturnCode>0</r:ReturnCode>
+			<r:Info>OK</r:Info>
+		</tse:ReturnInformation>
+	</tse:Response>
+</tse:RegixVehicleResponse>

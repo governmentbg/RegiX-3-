@@ -1,0 +1,83 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.AVBulstat2Adapter</RootNamespace>
+    <Authors>Dimitar Mitev</Authors>
+    <Company>TechnoLogica</Company>
+    <Description>Description for AVBulstat2Adapter</Description>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="XMLSamples\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLSchemas\*\Transformations\*.xslt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLSchemas\*\*.xsd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLMetaData\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="XMLMetaData\RegiX.AVBulstat2Adapter\GetActualUICInfo.xml" />
+    <None Remove="XMLSchemas\RegiX.AVBulstat2Adapter\NomenclaturesRequest.xsd" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\Address.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\Case.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\Communication.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\Document.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\Entry.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\Event.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\FetchNomenclatures.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\GetStateOfPlayRequest.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\IdentificationDoc.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\LegalEntity.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\MetaDefinition.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\NaturalPerson.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\Nomenclature.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\NomenclatureElement.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\NomenclatureEntry.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\StateOfPlay.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\Subject.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectPropAccountingRecordForm.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectPropActivityDate.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectPropActivityKID2003.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectPropActivityKID2008.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectPropCollectiveBody.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectPropFundingSource.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectPropInstallments.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectPropLifeTime.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectPropOwnershipForm.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectPropProfession.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectPropRepresentationType.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectPropScopeOfActivity.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectPropState.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectRelAssignee.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectRelBelonging.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectRelCollectiveBodyMember.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectRelManager.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubjectRelPartner.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\SubscriptionElement.xsd" />
+    <Content Include="XMLSchemas\RegiX.AVBulstat2Adapter\Copy\UIC.xsd" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.WebServiceAdapterService" Version="1.0.43" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Service References\AVBulstat2ServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>

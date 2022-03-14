@@ -1,0 +1,40 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.MVRBDSAdapter.APIService.IMVRBDSAPI.GetPersonalIdentity</OperationName>
+  <Code>GetPersonalIdentity</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>PersonalIdentityInfoRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/MVR/BDS/PersonalIdentityInfoRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за български личен документ</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>IdentityDocumentNumber</ParameterName>
+        <ParameterLabel>Номер на документ за самоличност</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>EGN</ParameterName>
+        <ParameterLabel>ЕГН</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <IdentifierType>1</IdentifierType>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

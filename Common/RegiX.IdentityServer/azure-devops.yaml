@@ -1,0 +1,36 @@
+variables:
+  BuildConfiguration: debug
+resources:
+- repo: self
+queue:
+  name: RegiX
+steps:
+- task: VisualStudioTestPlatformInstaller@1
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/*.sln'
+    feedsToUse: 'select'
+    vstsFeed: 'TechnoLogica.Common'
+- task: MSBuild@1
+  displayName: 'Build'
+  inputs:
+    configuration: '$(BuildConfiguration)' 
+    solution: '**/*.sln' 
+- task: MSBuild@1
+  displayName: 'Publish project RegiX.IdentityServer.proj'
+  inputs:
+    project: '$(Build.Repository.LocalPath)\RegiX.IdentityServer\RegiX.IdentityServer.csproj'
+    msbuildArguments: '/p:DeployOnBuild=true /p:PublishProfile="$(Build.Repository.LocalPath)\RegiX.IdentityServer\Properties\PublishProfiles\FolderProfile.pubxml"'
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+        $productVersion = Get-Item $(Build.Repository.LocalPath)\RegiX.IdentityServer\bin\Release\Publish\RegiX.IdentityServer.dll |Select-Object -ExpandProperty VersionInfo|Select-Object -ExpandProperty ProductVersion
+        Remove-Item $(Build.Repository.LocalPath)\RegiX.IdentityServer\bin\Release\Publish\*.ver        
+        New-Item -Path $(Build.Repository.LocalPath)\RegiX.IdentityServer\bin\Release\Publish -Name "$productVersion.ver"   
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: $(Build.SourceBranchName)'
+  inputs:
+    artifactName: 'RegiX.IdentityServer'
+    PathtoPublish: '$(Build.Repository.LocalPath)\RegiX.IdentityServer\bin\Release\Publish'

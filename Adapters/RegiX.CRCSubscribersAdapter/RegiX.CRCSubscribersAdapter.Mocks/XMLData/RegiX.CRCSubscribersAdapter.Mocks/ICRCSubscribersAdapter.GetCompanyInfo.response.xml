@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GetCompanyInfoResponse xmlns="http://egov.bg/RegiX/CRC/Subscribers/GetCompanyInfoResponse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CompaniesData>
+    <CompanyData>
+      <EIK>String</EIK>
+      <CompanyType>String</CompanyType>
+      <CompanyName>String</CompanyName>
+      <InfoProvided>String</InfoProvided>
+      <PublicMessagesActivityDeclared>String</PublicMessagesActivityDeclared>
+      <DeclaredSubscribersCount>
+        <FixedTelephoneService>String</FixedTelephoneService>
+        <ChooseOperatorService>String</ChooseOperatorService>
+        <MobileTelephoneService>String</MobileTelephoneService>
+        <LocationalInternetAccess>String</LocationalInternetAccess>
+        <MobileInternetAccess>String</MobileInternetAccess>
+        <DataTransferAndInternetAccess>String</DataTransferAndInternetAccess>
+        <RadioAndTVProgramsDistribution>String</RadioAndTVProgramsDistribution>
+      </DeclaredSubscribersCount>
+    </CompanyData>
+    <CompanyData>
+      <EIK>String</EIK>
+      <CompanyType>String</CompanyType>
+      <CompanyName>String</CompanyName>
+      <InfoProvided>String</InfoProvided>
+      <PublicMessagesActivityDeclared>String</PublicMessagesActivityDeclared>
+      <DeclaredSubscribersCount>
+        <FixedTelephoneService>String</FixedTelephoneService>
+        <ChooseOperatorService>String</ChooseOperatorService>
+        <MobileTelephoneService>String</MobileTelephoneService>
+        <LocationalInternetAccess>String</LocationalInternetAccess>
+        <MobileInternetAccess>String</MobileInternetAccess>
+        <DataTransferAndInternetAccess>String</DataTransferAndInternetAccess>
+        <RadioAndTVProgramsDistribution>String</RadioAndTVProgramsDistribution>
+      </DeclaredSubscribersCount>
+    </CompanyData>
+  </CompaniesData>
+</GetCompanyInfoResponse>

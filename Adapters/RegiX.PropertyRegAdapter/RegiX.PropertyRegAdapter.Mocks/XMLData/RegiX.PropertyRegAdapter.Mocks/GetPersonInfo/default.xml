@@ -1,0 +1,763 @@
+﻿<PersonInfoResponse xmlns="http://egov.bg/RegiX/AV/PropertyReg/PersonInfoResponse">
+              <DateFrom>1990-01-01T00:00:00</DateFrom>
+              <DateTo>2018-01-30T15:55:00</DateTo>
+              <PersonLotDataList>
+                <PersonLotData xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <RegistryAgency>Служба по вписванията - Кюстендил</RegistryAgency>
+                  <SiteID>066</SiteID>
+                  <SiteStartDate>2002-01-01</SiteStartDate>
+                  <PersonBasicData>ЕГН 5201010101 Гергана Георгиева Георгиева</PersonBasicData>
+                  <PersonalLotNumber>10015</PersonalLotNumber>
+                  <PersonalLotEntryList>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>1864</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2011-10-20T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>1862</DoubleRegisterNumber>
+                        <RegistrationDate>2011-10-20T00:00:00</RegistrationDate>
+                        <BookTypeName>ПРЕХВЪРЛЯНИЯ</BookTypeName>
+                        <ActTypeName>Поправка на нот.акт за правна сделка</ActTypeName>
+                        <Volume>5</Volume>
+                        <Page>147</Page>
+                        <ActYear>2011</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>Собственик(Частна собственост) - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, пл.No - 2233, парцел - ХI, площ по док. - 850.000 кв. м., гр.Кюстендил, ЗАЕДНО С ДВУЕТ. ЖИЛ. СГРАДА СЪС ЗП-70 КВ.М.,СЪСТОЯЩА СЕ ОТ ШЕСТ СТАИ,ДВА КОРИДОРА,МАГАЗИН И СКЛАД И МАЗЕ, ЛЯТНА КУХНЯ,СТОПАНСКА СГРАДА И ПЛЕВНИК,на стр.първа ред 13 след думите ул"Оряховска" вместо № 9 да се чете № 2., обл. Кюстендил, общ. Кюстендил, гр.Кюстендил</PropertyData>
+                      <LotNumber>16547</LotNumber>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>480</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2010-04-13T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>478</DoubleRegisterNumber>
+                        <RegistrationDate>2010-04-13T00:00:00</RegistrationDate>
+                        <BookTypeName>ПРЕХВЪРЛЯНИЯ</BookTypeName>
+                        <ActTypeName>Покупко-продажба на недвижим имот с н.а.</ActTypeName>
+                        <Volume>1</Volume>
+                        <Page>142</Page>
+                        <ActYear>2010</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>Продавач - ЕГН 7011111111 Филип Филипов Филипов</Side>
+                          <Side>Продавач - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                        </LeftSide>
+                        <RightSide>
+                          <Side>Купувач(Частна собственост) - ЕГН 5302020202 Костадин Костадинов Костадинов</Side>
+                        </RightSide>
+                      </Act>
+                      <PropertyData>Поземлен имот, площ по док. - 2451.000 кв. м., гр.Кюстендил, местност - братулев мост, обл. Кюстендил, общ. Кюстендил, гр.Кюстендил</PropertyData>
+                      <LotNumber>6903</LotNumber>
+                      <CadastreIdentificator>44327.63.12</CadastreIdentificator>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>480</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2010-04-13T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>478</DoubleRegisterNumber>
+                        <RegistrationDate>2010-04-13T00:00:00</RegistrationDate>
+                        <BookTypeName>ПРЕХВЪРЛЯНИЯ</BookTypeName>
+                        <ActTypeName>Покупко-продажба на недвижим имот с н.а.</ActTypeName>
+                        <Volume>1</Volume>
+                        <Page>142</Page>
+                        <ActYear>2010</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>Продавач - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                          <Side>Продавач - ЕГН 7011111111 Филип Филипов Филипов</Side>
+                        </LeftSide>
+                        <RightSide>
+                          <Side>Купувач(Частна собственост) - ЕГН 5302020202 Костадин Костадинов Костадинов</Side>
+                        </RightSide>
+                      </Act>
+                      <PropertyData>Поземлен имот, площ по док. - 3931.000 кв. м., гр.Кюстендил, местност - булина нива, обл. ЛОВЕЧ, общ. Кюстендил, гр.Кюстендил</PropertyData>
+                      <LotNumber>6901</LotNumber>
+                      <CadastreIdentificator>44327.28.13</CadastreIdentificator>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>480</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2010-04-13T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>478</DoubleRegisterNumber>
+                        <RegistrationDate>2010-04-13T00:00:00</RegistrationDate>
+                        <BookTypeName>ПРЕХВЪРЛЯНИЯ</BookTypeName>
+                        <ActTypeName>Покупко-продажба на недвижим имот с н.а.</ActTypeName>
+                        <Volume>1</Volume>
+                        <Page>142</Page>
+                        <ActYear>2010</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>Продавач - ЕГН 7011111111 Филип Филипов Филипов</Side>
+                          <Side>Продавач - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                        </LeftSide>
+                        <RightSide>
+                          <Side>Купувач(Частна собственост) - ЕГН 5302020202 Костадин Костадинов Костадинов</Side>
+                        </RightSide>
+                      </Act>
+                      <PropertyData>Поземлен имот, площ по док. - 5891.000 кв. м., гр.Кюстендил, местност - поника, обл. ЛОВЕЧ, общ. Кюстендил, гр.Кюстендил</PropertyData>
+                      <LotNumber>6902</LotNumber>
+                      <CadastreIdentificator>44327.45.63</CadastreIdentificator>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>-9674</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2008-04-22T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>668</DoubleRegisterNumber>
+                        <RegistrationDate>2008-04-22T00:00:00</RegistrationDate>
+                        <BookTypeName>ПРЕХВЪРЛЯНИЯ</BookTypeName>
+                        <ActTypeName>Констативен акт - вписан</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>131</Page>
+                        <ActYear>2008</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, УПИ № ХI-2233 В КВ.67 ПО ПУП НА ГР.Кюстендил, ОТ 850 КВ.М.,ЗАЕДНО С ДВУЕТ. ЖИЛ. СГРАДА СЪС ЗП-70 КВ.М.,СЪСТОЯЩА СЕ ОТ ШЕСТ СТАИ,ДВА КОРИДОРА,МАГАЗИН И СКЛАД И МАЗЕ, ЛЯТНА КУХНЯ,СТОПАНСКА СГРАДА И ПЛЕВНИК., </PropertyData>
+                      <LotNumber>16547</LotNumber>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>-10175</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2008-03-14T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>401</DoubleRegisterNumber>
+                        <RegistrationDate>2008-03-14T00:00:00</RegistrationDate>
+                        <BookTypeName>ПРЕХВЪРЛЯНИЯ</BookTypeName>
+                        <ActTypeName>Продажба</ActTypeName>
+                        <Volume>1</Volume>
+                        <Page>170</Page>
+                        <ActYear>2008</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>ПРОДАВАЧ - ЕГН 6505050505 Цветанка Георгиева Георгиева</Side>
+                          <Side>ПРОДАВАЧ - ЕГН 2009090909 Събка Георгиева Георгиева</Side>
+                          <Side>ПРОДАВАЧ - ЕГН 4310101010 Къна Георгиева Георгиева</Side>
+                          <Side>ПРОДАВАЧ - ЕГН 4504040404 Събчо Георгиев Георгиев</Side>
+                          <Side>ПРОДАВАЧ - ЕГН 3902020202 Бонка Филипова Георгиева</Side>
+                          <Side>ПРОДАВАЧ - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                          <Side>ПРОДАВАЧ - ЕГН 7011111111 Филип Филипов Филипов</Side>
+                          <Side>ПРОДАВАЧ - ЕГН 5012121212 Стефан Филипов Филипов</Side>
+                          <Side>ПРОДАВАЧ - ЕГН 5303030303 Маргарита Филипова Филипова</Side>
+                        </LeftSide>
+                        <RightSide>
+                          <Side>КУПУВАЧ - ЕГН 6912121212 Венцислав Венциславов Венциславов</Side>
+                        </RightSide>
+                      </Act>
+                      <PropertyData>Поземлен имот, НЕДВ.ИМОТИВ ГР.Кюстендил, 1. НЕЗАСТРОЕН УПИ № VI В КВ.235 ПО ПУП НА ГР.Кюстендил, С ПЛОЩ ОТ ОКОЛО 1640 КВ.М., 2. НЕЗАСТРОЕН УПИ № IХ-2821 В КВ.21 ПО ПУП НА ГР.Кюстендил С ПЛОЩ ОТ ОКОЛО 1416 КВ.М., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>-10174</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2008-03-14T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>400</DoubleRegisterNumber>
+                        <RegistrationDate>2008-03-14T00:00:00</RegistrationDate>
+                        <BookTypeName>ПРЕХВЪРЛЯНИЯ</BookTypeName>
+                        <ActTypeName>Констативен акт - вписан</ActTypeName>
+                        <Volume>1</Volume>
+                        <Page>169</Page>
+                        <ActYear>2008</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 2009090909 Събка Георгиева Георгиева</Side>
+                          <Side>СОБСТВЕНИК - ЕГН 4310101010 Къна Георгиева Георгиева</Side>
+                          <Side>СОБСТВЕНИК - ЕГН 6505050505 Цветанка Георгиева Георгиева</Side>
+                          <Side>СОБСТВЕНИК - ЕГН 4504040404 Събчо Георгиев Георгиев</Side>
+                          <Side>СОБСТВЕНИК - ЕГН 3902020202 Бонка Филипова Георгиева</Side>
+                          <Side>СОБСТВЕНИК - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                          <Side>СОБСТВЕНИК - ЕГН 7011111111 Филип Филипов Филипов</Side>
+                          <Side>СОБСТВЕНИК - ЕГН 5012121212 Стефан Филипов Филипов</Side>
+                          <Side>СОБСТВЕНИК - ЕГН 5303030303 Маргарита Филипова Филипова</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, /24 ИД.Ч. ОТ НЕДВИЖИМ ИМОТ, НАХОДЯЩ СЕ В ГР.Кюстендил, 1. НЕЗАСТРОЕН УПИ № VI В КВ.235 ПО ПУП НА ГР.Кюстендил, С ПЛОЩ ОТ ОКОЛО 1640 КВ.М., 2. НЕЗАСТРОЕН УПИ № IХ-2821 В КВ.21 ПО ПУП НА ГР.Кюстендил, С ПЛОЩ ОТ ОКОЛО 1416 КВ.М., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>-9462</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2007-10-19T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>1300</DoubleRegisterNumber>
+                        <RegistrationDate>2007-10-19T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за доброволна делба</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>117</Page>
+                        <ActYear>2007</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 3902020202 Бонка Филипова Георгиева</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, НЕ ЖЕЛАЕ В ДЯЛ ИМОТ,ТЪЙ КАТО Е ОБЕЗЩЕТЕН С ДРУГИ ИМОТИ., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>-9462</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2007-10-19T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>1300</DoubleRegisterNumber>
+                        <RegistrationDate>2007-10-19T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за доброволна делба</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>117</Page>
+                        <ActYear>2007</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 6505050505 Цветанка Георгиева Георгиева</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, НЕ ЖЕЛАЕ В ДЯЛ ИМОТ,ТЪЙ КАТО Е ОБЕЗЩЕТЕН С ДРУГИ ИМОТИ., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>-9462</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2007-10-19T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>1300</DoubleRegisterNumber>
+                        <RegistrationDate>2007-10-19T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за доброволна делба</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>117</Page>
+                        <ActYear>2007</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, НЕ ЖЕЛАЕ В ДЯЛ ИМОТ,ТЪЙ КАТО Е ОБЕЗЩЕТЕН С ДРУГИ ИМОТИ., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>-9462</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2007-10-19T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>1300</DoubleRegisterNumber>
+                        <RegistrationDate>2007-10-19T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за доброволна делба</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>117</Page>
+                        <ActYear>2007</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 2009090909 Събка Георгиева Георгиева</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, НЕ ЖЕЛАЕ В ДЯЛ ИМОТ,ТЪЙ КАТО Е ОБЕЗЩЕТЕН С ДРУГИ ИМОТИ., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>-9462</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2007-10-19T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>1300</DoubleRegisterNumber>
+                        <RegistrationDate>2007-10-19T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за доброволна делба</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>117</Page>
+                        <ActYear>2007</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 5303030303 Маргарита Филипова Филипова</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, ЗЕМ.ЗЕМЯ В ЗЕМЛ. НА ГР.Кюстендил, НИВА ИМОТ 066010 ОТ 4.902 ДК.ТРЕТА КАТ. В М.РАДОВ ДОЛ, НИВА ИМОТ № 028010 ОТ 2.958 ДК.ТРЕТА КАТ.В М.БУЛИНА ЛИВАДА В ЗЕМЛ. НА ГР.Кюстендил., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>-9462</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2007-10-19T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>1300</DoubleRegisterNumber>
+                        <RegistrationDate>2007-10-19T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за доброволна делба</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>117</Page>
+                        <ActYear>2007</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 4504040404 Събчо Георгиев Георгиев</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, НЕ ЖЕЛАЕ В ДЯЛ ИМОТ,ТЪЙ КАТО Е ОБЕЗЩЕТЕН С ДРУГИ ИМОТИ., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>-9462</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2007-10-19T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>1300</DoubleRegisterNumber>
+                        <RegistrationDate>2007-10-19T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за доброволна делба</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>117</Page>
+                        <ActYear>2007</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 4310101010 Къна Георгиева Георгиева</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, НЕ ЖЕЛАЕ В ДЯЛ ИМОТ,ТЪЙ КАТО Е ОБЕЗЩЕТЕН С ДРУГИ ИМОТИ., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>-9462</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2007-10-19T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>1300</DoubleRegisterNumber>
+                        <RegistrationDate>2007-10-19T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за доброволна делба</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>117</Page>
+                        <ActYear>2007</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 5012121212 Стефан Филипов Филипов</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, ЗЕМ.ЗЕМЯ В ЗЕМЛ. НА ГР.Кюстендил, НИВА,ИМОТ 033033 ОТ 5.883 ДК.ТРЕТА КАТ. В М.ПЕТЛЬОВИ ПОЛЯНИ В ЗЕМЛ. НА ГР.Кюстендил., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>-9462</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2007-10-19T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>1300</DoubleRegisterNumber>
+                        <RegistrationDate>2007-10-19T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за доброволна делба</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>117</Page>
+                        <ActYear>2007</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 7011111111 Филип Филипов Филипов</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, НЕ ЖЕЛАЕ В ДЯЛ ИМОТ,ТЪЙ КАТО Е ОБЕЗЩЕТЕН С ДРУГИ ИМОТИ., </PropertyData>
+                    </PersonalLotEntry>
+                  </PersonalLotEntryList>
+                </PersonLotData>
+                <PersonLotData xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <RegistryAgency>Служба по вписванията - Костинброд</RegistryAgency>
+                  <SiteID>065</SiteID>
+                  <SiteStartDate>2002-01-01</SiteStartDate>
+                  <PersonBasicData>ЕГН 5201010101 Гергана Георгиева Георгиева</PersonBasicData>
+                  <PersonalLotNumber>17334</PersonalLotNumber>
+                  <PersonalLotEntryList>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>2725</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2016-08-05T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>2725</DoubleRegisterNumber>
+                        <RegistrationDate>2016-08-05T00:00:00</RegistrationDate>
+                        <BookTypeName>ПРЕХВЪРЛЯНИЯ</BookTypeName>
+                        <ActTypeName>Покупко-продажба на недвижим имот с н.а.</ActTypeName>
+                        <Volume>9</Volume>
+                        <Page>137</Page>
+                        <ActYear>2016</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>Продавач - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                          <Side>Продавач - ЕГН 7011111111 Филип Филипов Филипов</Side>
+                        </LeftSide>
+                        <RightSide>
+                          <Side>Купувач(Частна собственост) - ЕГН 8104040404 Стефан Стефанов Стефанов</Side>
+                        </RightSide>
+                      </Act>
+                      <PropertyData>Поземлен имот, пл.No - 004057, площ по док. - 3.250 дка, с.Български извор, местност - КОШУТА - ГРАДИНИТЕ, обл. Костинброд, общ. Костинброд, с.Български извор</PropertyData>
+                      <LotNumber>32277</LotNumber>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>1689</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2015-06-10T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>1685</DoubleRegisterNumber>
+                        <RegistrationDate>2015-06-10T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за доброволна делба</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>93</Page>
+                        <ActYear>2015</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>Съделители - ЕГН 7011111111 Филип Филипов Филипов</Side>
+                          <Side>Съделители - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                          <Side>Изключителен собственик(Частна собственост) - ЕГН 7011111111 Филип Филипов Филипов</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, пл.No - 97, парцел - ХІ, площ по док. - 1050.000 кв. м., обл. Костинброд, общ. Костинброд, гр.Костинброд</PropertyData>
+                      <LotNumber>36190</LotNumber>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>1689</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2015-06-10T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>1685</DoubleRegisterNumber>
+                        <RegistrationDate>2015-06-10T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за доброволна делба</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>93</Page>
+                        <ActYear>2015</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>Съделители - ЕГН 7011111111 Филип Филипов Филипов</Side>
+                          <Side>Съделители - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                          <Side>Изключителен собственик(Частна собственост) - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, пл.No - 97, парцел - Х, площ по док. - 1050.000 кв. м., обл. Костинброд, общ. Костинброд, гр.Костинброд</PropertyData>
+                      <LotNumber>36191</LotNumber>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>866</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2012-06-26T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>863</DoubleRegisterNumber>
+                        <RegistrationDate>2012-06-26T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за наем</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>121</Page>
+                        <ActYear>2012</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>Наемодател - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                        </LeftSide>
+                        <RightSide>
+                          <Side>Наемател/Пренаемател(Наем), срок:7 стопански години - ЕИК / БУЛСТАТ 820820820 ДРУЖЕВСТВО ЕООД</Side>
+                        </RightSide>
+                      </Act>
+                      <PropertyData>Поземлен имот, пл.No - 044077, площ по док. - 5.647 дка, обл. Костинброд, общ. Костинброд, гр.Костинброд</PropertyData>
+                      <LotNumber>16276</LotNumber>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>866</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2012-06-26T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>863</DoubleRegisterNumber>
+                        <RegistrationDate>2012-06-26T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за наем</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>121</Page>
+                        <ActYear>2012</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>Наемодател - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                        </LeftSide>
+                        <RightSide>
+                          <Side>Наемател/Пренаемател(Наем), срок:7 стопански години - ЕИК / БУЛСТАТ 820820820 ДРУЖЕВСТВО ЕООД</Side>
+                        </RightSide>
+                      </Act>
+                      <PropertyData>Поземлен имот, пл.No - 044081, площ по док. - 3.500 дка, обл. Костинброд, общ. Костинброд, гр.Костинброд</PropertyData>
+                      <LotNumber>16277</LotNumber>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>866</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2012-06-26T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>863</DoubleRegisterNumber>
+                        <RegistrationDate>2012-06-26T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за наем</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>121</Page>
+                        <ActYear>2012</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>Наемодател - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                        </LeftSide>
+                        <RightSide>
+                          <Side>Наемател/Пренаемател(Наем), срок:7 стопански години - ЕИК / БУЛСТАТ 820820820 ДРУЖЕВСТВО ЕООД</Side>
+                        </RightSide>
+                      </Act>
+                      <PropertyData>Поземлен имот, пл.No - 053116, площ по док. - 3.559 дка, обл. Костинброд, общ. Костинброд, гр.Костинброд</PropertyData>
+                      <LotNumber>16278</LotNumber>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>664</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2012-05-29T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>662</DoubleRegisterNumber>
+                        <RegistrationDate>2012-05-29T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Анекс/доп. споразумение към договор с нот. зав. на подписите (аренда, наем)</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>10</Page>
+                        <ActYear>2012</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>Собственик - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                          <Side>Собственик - ЕГН 7011111111 Филип Филипов Филипов</Side>
+                        </LeftSide>
+                        <RightSide>
+                          <Side>Арендатор/Преарендатор(Аренда), условие:прекратява се дейстието на договор за аренда, вписан под № 28 том І, Дв.рег.№ 167/2008 г. - ЕИК / БУЛСТАТ 131131131 ТЕСТ-ГРУП ООД</Side>
+                        </RightSide>
+                      </Act>
+                      <PropertyData>Поземлен имот, пл.No - 044081, площ по док. - 3.500 дка, обл. Костинброд, общ. Костинброд, гр.Костинброд</PropertyData>
+                      <LotNumber>16277</LotNumber>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>664</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2012-05-29T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>662</DoubleRegisterNumber>
+                        <RegistrationDate>2012-05-29T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Анекс/доп. споразумение към договор с нот. зав. на подписите (аренда, наем)</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>10</Page>
+                        <ActYear>2012</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>Собственик - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                          <Side>Собственик - ЕГН 7011111111 Филип Филипов Филипов</Side>
+                        </LeftSide>
+                        <RightSide>
+                          <Side>Арендатор/Преарендатор(Аренда), условие:прекратява се дейстието на договор за аренда, вписан под № 28 том І, Дв.рег.№ 167/2008 г. - ЕИК / БУЛСТАТ 131131131 ТЕСТ-ГРУП ООД</Side>
+                        </RightSide>
+                      </Act>
+                      <PropertyData>Поземлен имот, пл.No - 053116, площ по док. - 3.559 дка, с.Брестница, местност - СУРОВАНСКИ ДОЛ, обл. Костинброд, общ. Костинброд, гр.Костинброд</PropertyData>
+                      <LotNumber>16278</LotNumber>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>664</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2012-05-29T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>662</DoubleRegisterNumber>
+                        <RegistrationDate>2012-05-29T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Анекс/доп. споразумение към договор с нот. зав. на подписите (аренда, наем)</ActTypeName>
+                        <Volume>2</Volume>
+                        <Page>10</Page>
+                        <ActYear>2012</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>Собственик - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                          <Side>Собственик - ЕГН 7011111111 Филип Филипов Филипов</Side>
+                        </LeftSide>
+                        <RightSide>
+                          <Side>Арендатор/Преарендатор(Аренда), условие:прекратява се дейстието на договор за аренда, вписан под № 28 том І, Дв.рег.№ 167/2008 г. - ЕИК / БУЛСТАТ 131131131 ТЕСТ-ГРУП ООД</Side>
+                        </RightSide>
+                      </Act>
+                      <PropertyData>Поземлен имот, пл.No - 044077, площ по док. - 5.647 дка, обл. Костинброд, общ. Костинброд, гр.Костинброд</PropertyData>
+                      <LotNumber>16276</LotNumber>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>1</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2008-02-12T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>167</DoubleRegisterNumber>
+                        <RegistrationDate>2008-02-12T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за аренда</ActTypeName>
+                        <Volume>1</Volume>
+                        <Page>28</Page>
+                        <ActYear>2008</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>АРЕНДОДАТЕЛ - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                          <Side>АРЕНДОДАТЕЛ - ЕГН 7011111111 Филип Филипов Филипов</Side>
+                        </LeftSide>
+                        <RightSide>
+                          <Side>АРЕНДАТОР - ЕИК / БУЛСТАТ 131131131 ТЕСТ-ГРУП ООД</Side>
+                        </RightSide>
+                      </Act>
+                      <PropertyData>Поземлен имот, НИВА С ПЛОЩ ОТ 5.647 ДКА, В М.БОБАТЬОВИЦА, ЧЕТВЪРТА КАТ., ИМОТ № 044077; НИВА С ПЛОЩ ОТ 3.500 ДКА, ЧЕТВЪРТА КАТ., В М.БОБАТЬОВИЦА, ИМОТ № 044081  И  НИВА С ПЛОЩ ОТ 3.559 ДКА, ПЕТА КАТ., В М.СОРОВИНСКИ ДОЛ, ИМОТ № 053116, ВСИЧКИ ПО КАРТАТА НА ЗЕМЛИЩЕТО НА СЕЛОТО, ЗА СРОК ОТ ШЕСТ СТОПАНСКИ ГОДИНИ., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>6</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2007-11-21T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>2792</DoubleRegisterNumber>
+                        <RegistrationDate>2007-11-21T00:00:00</RegistrationDate>
+                        <BookTypeName>ПРЕХВЪРЛЯНИЯ</BookTypeName>
+                        <ActTypeName>Продажба</ActTypeName>
+                        <Volume>9</Volume>
+                        <Page>167</Page>
+                        <ActYear>2007</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>ПРОДАВАЧ - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                          <Side>ПРОДАВАЧ - ЕГН 7011111111 Филип Филипов Филипов</Side>
+                        </LeftSide>
+                        <RightSide>
+                          <Side>КУПУВАЧ - ЕГН 7007070707 Драган Драганов Драганов</Side>
+                        </RightSide>
+                      </Act>
+                      <PropertyData>Поземлен имот, ЗАЛЕСЕНА ТЕРИТОРИЯ, ШИРОКОЛИСТНА ГОРА С ПЛОЩ ОТ 30.000 ДКА, В М.ГЛАВЕН И СЪСТАВЛ. ИМОТ № 234032 ПО КАРТАТА НА ЗЕМЛИЩЕТО НА С.БРЕСТНИЦА, ЕКАТТЕ 06450, ОБРАЗУВАН ОТ ИМОТ № 234007., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>21</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2007-04-24T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>983</DoubleRegisterNumber>
+                        <RegistrationDate>2007-04-24T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за доброволна делба</ActTypeName>
+                        <Volume>1</Volume>
+                        <Page>258</Page>
+                        <ActYear>2007</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, ПОЛУЧАВА В ОБЩ ДЯЛ С ФИЛИП ЖЕЛЕЗАРОВ: ПОЗЕМЛЕН ИМОТ № 053116 В М.СУРОВОНСКИ ДОЛ, С ПЛОЩ ОТ 3.559 ДКА, ПО КАРТАТА НА ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 004057, В М.КОШУТА, С ПЛОЩ ОТ 3.250 ДКА, В ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 234032, В М.ГЛАВЕН, С ПЛОЩ ОТ 30.000 ДКА, ПО КАРТАТА НА ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 015160, В М.ГЛАВЕН С ПЛОЩ ОТ 3.228 ДКА, В ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 044081 В М.БОБАТЬОВИЦА С ПЛОЩ ОТ 3.500 ДКА, В ЗЕМЛ. НА С.БРЕСТНИЦА  И  ПОЗЕМЛЕН ИМОТ № 044077 В М.БАБАТЬОВИЦА С ПЛОЩ ОТ 5.647 ДКА, В ЗЕМЛ. НА ГР. КОСТИНБРОД., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>21</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2007-04-24T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>983</DoubleRegisterNumber>
+                        <RegistrationDate>2007-04-24T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за доброволна делба</ActTypeName>
+                        <Volume>1</Volume>
+                        <Page>258</Page>
+                        <ActYear>2007</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 2501010101 Йончо Йончев Йончев</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, ПОЗЕМЛЕН ИМОТ № 234031 В М.ГЛАВЕН, С ПЛОЩ ОТ 30.001 ДКА, ПО КАРТАТА НА ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 005133, В М.КОШУТА, С ПЛОЩ ОТ 3.749 ДКА, В ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 015159, В М.ГЛАВЕН, С ПЛОЩ ОТ 3.228 ДКА, ПО КАРТАТА НА ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 044080, В М.БОБАТЬОВИЦА С ПЛОЩ ОТ 3.500 ДКА, В ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 044076 В М.БОБАТЬОВИЦА С ПЛОЩ ОТ 5.630 ДКА, В ЗЕМЛ. НА С.БРЕСТНИЦА; ПОЗЕМЛЕН ИМОТ № 048024 В М.БУДЕВА ГЛАВА, С ПЛОЩ ОТ 2.062 ДКА, В ЗЕМЛ. НА ГР. КОСТИНБРОД., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>21</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2007-04-24T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>983</DoubleRegisterNumber>
+                        <RegistrationDate>2007-04-24T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за доброволна делба</ActTypeName>
+                        <Volume>1</Volume>
+                        <Page>258</Page>
+                        <ActYear>2007</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 7011111111 Филип Филипов Филипов</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, ПОЛУЧАВА В ОБЩ ДЯЛ С БОРЯНА ДИНКОВА: ПОЗЕМЛЕН ИМОТ № 053116 В М.СУРОВОНСКИ ДОЛ, С ПЛОЩ ОТ 3.559 ДКА, ПО КАРТАТА НА ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 004057, В М.КОШУТА, С ПЛОЩ ОТ 3.250 ДКА, В ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 234032, В М.ГЛАВЕН, С ПЛОЩ ОТ 30.000 ДКА, ПО КАРТАТА НА ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 015160, В М.ГЛАВЕН С ПЛОЩ ОТ 3.228 ДКА, В ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 044081 В М.БОБАТЬОВИЦА С ПЛОЩ ОТ 3.500 ДКА, В ЗЕМЛ. НА С.БРЕСТНИЦА  И  ПОЗЕМЛЕН ИМОТ № 044077 В М.БАБАТЬОВИЦА С ПЛОЩ ОТ 5.647 ДКА, В ЗЕМЛ. НА ГР. КОСТИНБРОД., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>21</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2007-04-24T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>983</DoubleRegisterNumber>
+                        <RegistrationDate>2007-04-24T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за доброволна делба</ActTypeName>
+                        <Volume>1</Volume>
+                        <Page>258</Page>
+                        <ActYear>2007</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 2810101010 Василка Василева Василева</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, ПОЗЕМЛЕН ИМОТ № 015161 В М.ГЛАВЕН, С ПЛОЩ ОТ 3.228 ДКА, ПО КАРТАТА НА ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 004056, В М.КОШУТА, С ПЛОЩ ОТ 3.250 ДКА, В ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 234033, В М.ГЛАВЕН, С ПЛОЩ ОТ 29.999 ДКА, ПО КАРТАТА НА ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 044078, В М.БОБАТЬОВИЦА С ПЛОЩ ОТ 5.630 ДКА, В ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 044082 В М.БОБАТЬОВИЦА С ПЛОЩ ОТ 3.500 ДКА, В ЗЕМЛ. НА С.БРЕСТНИЦА., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>21</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2007-04-24T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>983</DoubleRegisterNumber>
+                        <RegistrationDate>2007-04-24T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за доброволна делба</ActTypeName>
+                        <Volume>1</Volume>
+                        <Page>258</Page>
+                        <ActYear>2007</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 4302020202 Гана Ганчева Ганчева</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, ПОЛУЧАВА В ОБЩ ДЯЛ С ВЕСА ГАНЧЕВА ГАНЧЕВА: ПОЗЕМЛЕН ИМОТ № 053115 В М.СУРОВОНСКИ ДОЛ, С ПЛОЩ ОТ 3.500 ДКА, ПО КАРТАТА НА ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 005134, В М.КОШУТА, С ПЛОЩ ОТ 3.750 ДКА, В ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 234030, В М.ГЛАВЕН, С ПЛОЩ ОТ 30.000 ДКА, ПО КАРТАТА НА ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 015141, В М.ГЛАВЕН С ПЛОЩ ОТ 0.657 ДКА, В ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 015139 В М.ГЛАВЕН С ПЛОЩ ОТ 0.835 ДКА, В ЗЕМЛ. НА С.БРЕСТНИЦА; ПОЗЕМЛЕН ИМОТ № 044079 В М.БОБАТЬОВИЦА, В ЗЕМЛ. НА ГР. КОСТИНБРОД  И  ПОЗЕМЛЕН ИМОТ № 044075 В М.БОБАТЬОВИЦА, С ПЛОЩ ОТ 5.630 ДКА, В ЗЕМЛ. НА ГР. КОСТИНБРОД., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>21</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2007-04-24T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>983</DoubleRegisterNumber>
+                        <RegistrationDate>2007-04-24T00:00:00</RegistrationDate>
+                        <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                        <ActTypeName>Договор за доброволна делба</ActTypeName>
+                        <Volume>1</Volume>
+                        <Page>258</Page>
+                        <ActYear>2007</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 4604040404 Васа Ганчева Ганчева</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, ПОЛУЧАВА В ОБЩ ДЯЛ С Гана Ганчева Ганчева: ПОЗЕМЛЕН ИМОТ № 053115 В М.СУРОВОНСКИ ДОЛ, С ПЛОЩ ОТ 3.500 ДКА, ПО КАРТАТА НА ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 005134, В М.КОШУТА, С ПЛОЩ ОТ 3.750 ДКА, В ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 234030, В М.ГЛАВЕН, С ПЛОЩ ОТ 30.000 ДКА, ПО КАРТАТА НА ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 015141, В М.ГЛАВЕН С ПЛОЩ ОТ 0.657 ДКА, В ЗЕМЛ. НА ГР. КОСТИНБРОД; ПОЗЕМЛЕН ИМОТ № 015139 В М.ГЛАВЕН С ПЛОЩ ОТ 0.835 ДКА, В ЗЕМЛ. НА С.БРЕСТНИЦА; ПОЗЕМЛЕН ИМОТ № 044079 В М.БОБАТЬОВИЦА, В ЗЕМЛ. НА ГР. КОСТИНБРОД  И  ПОЗЕМЛЕН ИМОТ № 044075 В М.БОБАТЬОВИЦА, С ПЛОЩ ОТ 5.630 ДКА, В ЗЕМЛ. НА ГР. КОСТИНБРОД., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>20</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>2002-04-02T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>982</DoubleRegisterNumber>
+                        <RegistrationDate>2007-04-24T00:00:00</RegistrationDate>
+                        <BookTypeName>ПРЕХВЪРЛЯНИЯ</BookTypeName>
+                        <ActTypeName>Решение на ПК</ActTypeName>
+                        <Volume>3</Volume>
+                        <Page>171</Page>
+                        <ActYear>2007</ActYear>
+                        <ConnectedActs />
+                        <LeftSide>
+                          <Side>СОБСТВЕНИК - ЕГН 4302020202 Гана Ганчева Ганчева</Side>
+                          <Side>СОБСТВЕНИК - ЕГН 4604040404 Васа Ганчева Ганчева</Side>
+                          <Side>СОБСТВЕНИК - ЕГН 5201010101 Гергана Георгиева Георгиева</Side>
+                          <Side>СОБСТВЕНИК - ЕГН 7011111111 Филип Филипов Филипов</Side>
+                          <Side>СОБСТВЕНИК - ЕГН 2501010101 Йончо Йончев Йончев</Side>
+                          <Side>СОБСТВЕНИК - ЕГН 2810101010 Василка Василева Василева</Side>
+                        </LeftSide>
+                        <RightSide />
+                      </Act>
+                      <PropertyData>Поземлен имот, ЛИВАДА ОТ 0.835 ДКА, СЕДМА КАТ., В М.ГЛАВЕН, ИМОТ № 015139; ЛИВАДА С ПЛОЩ ОТ 0.657 ДКА, СЕДМА КАТ., В М.ГЛАВЕН, ИМОТ № 015141; ЛИВАДА ОТ 9.684 ДКА, СЕДМА КАТ., В М.ГЛАВЕН, ИМОТ № 015146; НИВА ОТ 14.000 ДКА, ЧЕТВЪРТА КАТ., В М.БОБАТЬОВИЦА, ИМОТ № 044017; НИВА ОТ 22.538 ДКА, ЧЕТВЪРТА КАТ., В М.БОБАТЬОВИЦА, ИМОТ № 044030  И  НИВА ОТ 7.059 ДКА, ПЕТА КАТ., В М.СУРОВАНСКИ ДОЛ, ИМОТ № 053110, ВСИЧКИ ПО КАРТАТА НА ЗЕМЛ. НА ГРАД ЯБЛАНИЦА., </PropertyData>
+                    </PersonalLotEntry>
+                    <PersonalLotEntry>
+                      <Act>
+                        <IncomingRegistrationNumber>31</IncomingRegistrationNumber>
+                        <IncomingRegistrationDate>1998-04-27T00:00:00</IncomingRegistrationDate>
+                        <DoubleRegisterNumber>-2938</DoubleRegisterNumber>
+                        <RegistrationDate>1998-04-27T00:00:00</RegistrationDate>
+                        <BookTypeName>КОНСТАТИВНИ АКТОВЕ И АКТОВЕ ПО ОБСТОЯТЕЛСТВЕНИ ПРОВЕРКИ</BookTypeName>
+                        <ActTypeName>Конст. акт земеделски земи-невписан</ActTypeName>
+                        <Volume>5</Volume>
+                        <Page>31</Page>
+                        <ActYear>1998</ActYear>
+                        <ConnectedActs />
+                        <LeftSide />
+                        <RightSide />
+                      </Act>
+                    </PersonalLotEntry>
+                  </PersonalLotEntryList>
+                </PersonLotData>
+              </PersonLotDataList>
+            </PersonInfoResponse>

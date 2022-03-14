@@ -1,0 +1,185 @@
+<tl-wrapping-card
+  [title]="roleOperationAccess.title"
+  [icon]="roleOperationAccess.icon"
+  [subTitle]="subtitle"
+>
+  <tl-linear-progress [visible]="this.isLoading"></tl-linear-progress>
+
+  <div class="filterWrapper">
+    <form [formGroup]="formGroup">
+      <div igxLayout igxLayoutDir="col">
+        <!--administration-->
+        <div
+          class="input-group select-filter-wrapper"
+          igxFlex
+          igxLayout
+          igxLayoutDir="row"
+        >
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group [displayDensity]="'compact'">
+              <input
+                class="form-input"
+                igxInput
+                name="administration"
+                type="text"
+                formControlName="administration"
+                tlFormGroupRef
+              />
+              <label igxLabel for="administration">Администрация</label>
+              <igx-suffix>
+                <igx-icon>{{ routes.ADMINISTRATIONS.icon }}</igx-icon>
+              </igx-suffix>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+        <!--register-->
+        <div
+          class="input-group select-filter-wrapper"
+          igxFlex
+          igxLayout
+          igxLayoutDir="row"
+        >
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group [displayDensity]="'compact'">
+              <input
+                class="form-input"
+                igxInput
+                name="register"
+                type="text"
+                formControlName="register"
+                tlFormGroupRef
+              />
+              <label igxLabel for="register">Регистър</label>
+              <igx-suffix>
+                <igx-icon>{{ routes.REGISTRIES.icon }}</igx-icon>
+              </igx-suffix>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+        <!--adapter-->
+        <div
+          class="input-group select-filter-wrapper"
+          igxFlex
+          igxLayout
+          igxLayoutDir="row"
+        >
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group [displayDensity]="'compact'">
+              <input
+                class="form-input"
+                igxInput
+                name="adapter"
+                type="text"
+                formControlName="adapter"
+                tlFormGroupRef
+              />
+              <label igxLabel for="adapter">Адаптер</label>
+              <igx-suffix>
+                <igx-icon>{{ routes.ADAPTERS.icon }}</igx-icon>
+              </igx-suffix>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+        <!--operations-->
+        <div
+          class="input-group select-filter-wrapper"
+          igxFlex
+          igxLayout
+          igxLayoutDir="row"
+        >
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group [displayDensity]="'compact'">
+              <input
+                class="form-input"
+                igxInput
+                name="operation"
+                type="text"
+                formControlName="operation"
+                tlFormGroupRef
+              />
+              <label igxLabel for="operation">Операция</label>
+            </igx-input-group>
+          </tl-form-group>
+          <button igxButton="icon" (click)="showOperationChoice()" title="Изборна операция">
+            <igx-icon>{{ routes.OPERATIONS.icon }}</igx-icon>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <h3 class="igx-card-header__title elements-header">Достъп до елементи</h3>
+  <div class="elements-wrapper">
+    <igx-tree-grid
+      #treeGrid
+      [data]="operationElements"
+      [allowFiltering]="true"
+      (onRowSelectionChange)="onRowClickChange($event)"
+      primaryKey="primaryKey"
+      foreignKey="foreignKey"
+      [rowSelectable]="true"
+      rowSelection="multiple"
+      [height]="null"
+      width="100%"
+    >
+      <igx-column
+        field="name"
+        header="Елемент"
+        dataType="string"
+        [sortable]="false"
+        [editable]="false"
+        [movable]="false"
+        [resizable]="false"
+        width="30%"
+      ></igx-column>
+      <igx-column
+        field="description"
+        header="Описание"
+        dataType="string"
+        [sortable]="false"
+        [editable]="false"
+        [movable]="false"
+        [resizable]="false"
+      ></igx-column>
+    </igx-tree-grid>
+  </div>
+  <div class="error error-wrapper" *ngIf="errorMessage">
+    <span>{{ errorMessage }}</span>
+  </div>
+  <div class="buttons-wrapper">
+    <button
+      type="button"
+      class="table-button"
+      igxButton="raised"
+      (click)="resetForm()"
+      [disabled]="!isFormDirty()"
+      title="Изчисти"
+    >
+      Изчисти
+    </button>
+    <button
+      type="button"
+      class="table-button"
+      igxButton="raised"
+      (click)="onSaveChanged()"
+      [disabled]="!isFormValid()"
+      title="Запиши"
+    >
+      Запиши
+    </button>
+  </div>
+</tl-wrapping-card>
+
+<igx-dialog
+  #operationDialog
+  title="Избор на операция"
+  [closeOnOutsideSelect]="true"
+>
+  <div style="height: 90vh; width: 90vw; overflow: auto;">
+    <app-operation-filter
+      #operationFilter
+      (selectedValues)="operationSelected($event)"
+      [lastLevelChoiceOnly]="true"
+    >
+    </app-operation-filter>
+  </div>
+</igx-dialog>

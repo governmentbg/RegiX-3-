@@ -1,0 +1,68 @@
+
+  <div class="title-wrapper">
+    <app-title-bar [title]="title"></app-title-bar>
+  </div>
+  <div class="form-content">
+      <ng-content></ng-content>
+      <div class="alert alert-danger" *ngIf="baseForm.errorMessage">
+        <span>{{ baseForm.errorMessage }}</span>
+      </div>
+
+      <div class="basic-attributes-wrapper" *ngIf="baseForm.formObject">
+        <div igxLayout igxLayoutDir="column" igxLayoutJustify="start">
+          <span class="basic-attribute" *ngIf="baseForm.formObject['createdOn']"
+            >Създаден:
+            {{
+              baseForm.formObject['createdBy']
+                ? baseForm.formObject['createdBy']
+                : 'няма информация'
+            }}
+            /
+            {{
+              baseForm.formObject['createdOn'] | date: 'dd.MM.yyyy HH:mm:ss'
+            }}</span
+          >
+          <span class="basic-attribute" *ngIf="baseForm.formObject['modifiedOn']"
+            >Последна промяна: {{ baseForm.formObject['modifiedBy'] }} /
+            {{
+              baseForm.formObject['modifiedOn'] | date: 'dd.MM.yyyy HH:mm:ss'
+            }}</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="buttons-wrapper">
+      <button
+        type="button"
+        class="table-button"
+        igxButton="raised"
+        (click)="baseForm.onCancel()"
+        title="Назад"
+      >
+        Назад
+      </button>
+      <button
+        *ngIf="baseForm.isCreateForm()"
+        type="button"
+        class="table-button"
+        igxButton="raised"
+        (click)="baseForm.onSubmit(RESET_ACTION)"
+        [disabled]="!baseForm.isFormDirty()"
+        title="Изчисти"
+      >
+        Изчисти
+      </button>
+      <button
+        *ngIf="!baseForm.isShowForm()"
+        type="button"
+        class="table-button"
+        igxButton="raised"
+        (click)="baseForm.onSubmit(null)"
+        [disabled]="!baseForm.isFormValid()"
+        title="Запиши"
+      >
+        Запиши
+      </button>
+    </div>
+

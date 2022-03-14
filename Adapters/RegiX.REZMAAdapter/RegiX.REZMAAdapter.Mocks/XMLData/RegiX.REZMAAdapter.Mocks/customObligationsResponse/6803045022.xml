@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomsObligationsResponse xmlns="http://egov.bg/RegiX/AM/REZMA/CustomsObligationsResponse">
+  <UIN>6708045011</UIN>
+  <Name>Пенчо Димитров Гатев</Name>
+  <Obligations>
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG001</CodeMU>
+      <MU>ТМУ Враца</MU>
+      <Document>НАКАЗАТЕЛНО ПОСТАНОВЛЕНИЕ</Document>
+      <DocumentNumber>N124-54</DocumentNumber>
+	  <CreationDate>2004-09-13</CreationDate>
+      <TypeObligation>ГЛОБИ, НЕУСТОЙКИ</TypeObligation>
+      <PayingDocument>86</PayingDocument>
+      <PayingDate>2006-09-13</PayingDate>
+      <PayingAmount>200.00</PayingAmount>
+      <PayingTotal>200.00</PayingTotal>
+      <Difference>200.00</Difference>
+      <Status>Има задължение</Status>
+    </Obligation>
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG001222</CodeMU>
+      <MU>ТМУ Враца</MU>
+      <Document>НАКАЗАТЕЛНО ПОСТАНОВЛЕНИЕ</Document>
+      <DocumentNumber>N124-54</DocumentNumber>
+	  <CreationDate>2004-09-13</CreationDate>
+      <TypeObligation>ГЛОБИ, НЕУСТОЙКИ</TypeObligation>
+      <PayingDocument>87</PayingDocument>
+      <PayingDate>2006-09-13</PayingDate>
+      <PayingAmount>350.00</PayingAmount>
+      <PayingTotal>100.00</PayingTotal>
+      <Difference>250.00</Difference>
+      <Status>Има задължение</Status>
+    </Obligation>
+  </Obligations>
+</CustomsObligationsResponse>

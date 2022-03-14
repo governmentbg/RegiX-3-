@@ -1,0 +1,338 @@
+﻿<?xml version="1.0"?>
+<AircraftsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GVA/AircraftsResponse">
+  <Aircraft>
+    <Producer>
+      <Name>Piaggio Aero Industries S.p.A., Р. Италия</Name>
+      <NameEn>Piaggio Aero Industries S.p.A., R.of Italy</NameEn>
+      <CountryCode>IT</CountryCode>
+      <CountryName>Italy</CountryName>
+    </Producer>
+    <AirCategory>
+      <Code>SA</Code>
+      <Name>Small Aeroplane</Name>
+    </AirCategory>
+    <ICAO>P180</ICAO>
+    <BGModelName>Piaggio P.180 Avanti II</BGModelName>
+    <ENModelName>Piaggio P.180 Avanti II</ENModelName>
+    <MSNSerialNumber>1133</MSNSerialNumber>
+    <Registrations>
+      <Registration>
+        <ActNumber>2502</ActNumber>
+        <RegistrationNumber>2502</RegistrationNumber>
+        <RegistrationDate>2014-07-28</RegistrationDate>
+        <RegistrationMark>LZ-ORO</RegistrationMark>
+        <IsLastRegistration>true</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>true</IsActiveRegistration>
+          <StatusCode>9</StatusCode>
+          <StatusName>Последна (действаща) регистрация</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-37</DocNumber>
+          <DocDate>2014-07-02</DocDate>
+          <Description>Заявление; Delievery receipt; Warranti Bill of Sale; </Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber>R-83-17</DocNumber>
+          <DocDate>2014-07-11</DocDate>
+          <EndDate>2017-07-07</EndDate>
+          <Agreement>Договор за лизинг от 16.06.2014 г. и Договор за финансов лизинг No. 05935-001/16.06.2014 г.</Agreement>
+          <Lessor>
+            <Person />
+            <Entity>
+              <Name>Делта Авиейшън ЕООД</Name>
+            </Entity>
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>“Авиостарт” ООД - Каравелов</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>131352367</Identifier>
+              <Name>“Пиреос Лизинг България” ЕАД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+    </Registrations>
+    <Debts />
+  </Aircraft>
+  <Aircraft>
+    <Producer>
+      <Name>Piper Aircraft, Inc, САЩ</Name>
+      <NameEn>Piper Aircraft, Inc, USA</NameEn>
+      <CountryCode>US</CountryCode>
+      <CountryName>USA</CountryName>
+    </Producer>
+    <AirCategory>
+      <Code>SA</Code>
+      <Name>Small Aeroplane</Name>
+    </AirCategory>
+    <ICAO>PA27</ICAO>
+    <BGModelName>Piper PA 23-250 Aztec E</BGModelName>
+    <ENModelName>Piper PA 23-250 
+Aztec E</ENModelName>
+    <MSNSerialNumber>27-7305143</MSNSerialNumber>
+    <Registrations>
+      <Registration>
+        <ActNumber>2326</ActNumber>
+        <RegistrationNumber>2326</RegistrationNumber>
+        <RegistrationDate>2011-02-28</RegistrationDate>
+        <RegistrationMark>LZ-RIM</RegistrationMark>
+        <IsLastRegistration>true</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>45-01-308</DocNumber>
+          <DocDate>2012-09-10</DocDate>
+          <Description>договор от 08.02.2011 м/у пиреос Лизинг България и В.Митов; Заявление от Пиреос лизинг</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo>
+          <DeregistrationDate>2012-09-10</DeregistrationDate>
+          <DeregistrationReason>Заповед</DeregistrationReason>
+          <DeregistrationDescription />
+        </DeregistrationInfo>
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>Велизар Тодоров Митов</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>Велизар Тодоров Митов</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2133</ActNumber>
+        <RegistrationNumber>2133</RegistrationNumber>
+        <RegistrationDate>2006-12-20</RegistrationDate>
+        <RegistrationMark>LZ-RIM</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-136</DocNumber>
+          <DocDate>2006-12-13</DocDate>
+          <Description />
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber>R-83-108</DocNumber>
+          <DocDate>2006-12-19</DocDate>
+          <Agreement>До 02.10.2009</Agreement>
+          <Lessor>
+            <Person />
+            <Entity>
+              <Identifier>131352367</Identifier>
+              <Name>“Пиреос Лизинг България” ЕАД</Name>
+            </Entity>
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>"Еър Спорт" ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>131352367</Identifier>
+              <Name>“Пиреос Лизинг България” ЕАД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+    </Registrations>
+    <Debts />
+  </Aircraft>
+  <Aircraft>
+    <Producer>
+      <Name>Bombardier Inc, Канада</Name>
+      <NameEn>Bombardier Inc, Canada</NameEn>
+      <CountryCode>CA</CountryCode>
+      <CountryName>Канада</CountryName>
+    </Producer>
+    <AirCategory>
+      <Code>LA</Code>
+      <Name>Large Aeroplane</Name>
+    </AirCategory>
+    <ICAO>CL60</ICAO>
+    <BGModelName>Challenger CL600-1A11</BGModelName>
+    <ENModelName>Challenger CL600-1A11</ENModelName>
+    <MSNSerialNumber>1085</MSNSerialNumber>
+    <Registrations>
+      <Registration>
+        <ActNumber>2104</ActNumber>
+        <RegistrationNumber>2104</RegistrationNumber>
+        <RegistrationDate>2006-07-31</RegistrationDate>
+        <RegistrationMark>LZ-YUM</RegistrationMark>
+        <IsLastRegistration>true</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>45-01-308</DocNumber>
+          <DocDate>2012-09-10</DocDate>
+          <Description>Писмо 40-01-310 от 12Apr2011 - процедура на продажба - 
+ДА НЕ СЕ ОТПИСВА</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo>
+          <DeregistrationDate>2012-09-10</DeregistrationDate>
+          <DeregistrationReason>Заповед</DeregistrationReason>
+          <DeregistrationDescription />
+        </DeregistrationInfo>
+        <LeasingInfo>
+          <DocNumber>R-83-70</DocNumber>
+          <DocDate>2006-06-30</DocDate>
+          <EndDate>2011-06-29</EndDate>
+          <Agreement>Договор от 2006 г</Agreement>
+          <Lessor>
+            <Person />
+            <Entity>
+              <Name>“Piraeus Leasing Bulgaria" S.A. 1, Blvd. “Vitosha" Sofia R.of Bulgaria</Name>
+            </Entity>
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>130053091</Identifier>
+              <Name>ЕЪР  ЛАЗУР-ДЖЕНЕРАЛ  АВИЕЙШЪН</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>131352367</Identifier>
+              <Name>“Пиреос Лизинг България” ЕАД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2023</ActNumber>
+        <RegistrationNumber>2023</RegistrationNumber>
+        <RegistrationDate>2005-11-28</RegistrationDate>
+        <RegistrationMark>LZ-YUM</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-136</DocNumber>
+          <DocDate>2005-11-16</DocDate>
+          <Description>Заявление 55-01-110/20.10.2005</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>“Еър Лазур - Дженерал Авиейшън” ЕООД - Стар адрес</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>“Еър Лазур - Дженерал Авиейшън” ЕООД - Стар адрес</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2008</ActNumber>
+        <RegistrationNumber>2008</RegistrationNumber>
+        <RegistrationDate>2005-08-25</RegistrationDate>
+        <RegistrationMark>LZ-YUM</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-070</DocNumber>
+          <DocDate>2005-05-27</DocDate>
+          <Description>Документ за дерегистрация от 16.08.2005; Certificate of airworthiness for export № 168005</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>“Петрол Холдинг” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>“Еър Лазур - Дженерал Авиейшън” ЕООД - Стар адрес</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+    </Registrations>
+    <Debts />
+  </Aircraft>
+</AircraftsResponse>

@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.KzldAdministratorsAdapter.APIService.IKzldAdministratorsAPI.GetRegisteredAdministratorByNumber</OperationName>
+  <Code>GetRegisteredAdministratorByNumber</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>RegisteredAdministratorByNumberRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/KZLD/Administrators/RegisteredAdministratorByNumberRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка по Уникален идентификационен номер за вписан администратор на лични данни</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>PDCRegisterNumber</ParameterName>
+        <ParameterLabel>Идентификационен номер от Регистъра на вписаните администратори на лични данни</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

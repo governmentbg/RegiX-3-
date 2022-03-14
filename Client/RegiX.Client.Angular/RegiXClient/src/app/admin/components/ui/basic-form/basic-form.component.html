@@ -1,0 +1,63 @@
+<tl-wrapping-card
+  [title]="baseForm.objectName"
+  [subTitle]="baseForm.name"
+  [icon]="baseForm.icon"
+>
+  <div class="form-content">
+    <div class="input-group-form">
+      <ng-content></ng-content>
+      <div class="alert alert-danger" *ngIf="baseForm.errorMessage">
+        <span>{{ baseForm.errorMessage }}</span>
+      </div>
+    </div>
+
+    <div class="buttons-wrapper">
+      <div igxLayout igxLayoutDir="row" igxLayoutJustify="flex-end">
+        <button
+          *ngIf="baseForm.isCreateForm()"
+          type="button"
+          class="table-button"
+          igxButton="raised"
+          (click)="baseForm.onSubmit(RESET_ACTION)"
+          [disabled]="!baseForm.isFormDirty()"
+          title="Изчисти"
+        >
+          Изчисти
+        </button>
+        <button
+          *ngIf="!baseForm.isShowForm()"
+          type="button"
+          class="table-button"
+          igxButton="raised"
+          (click)="baseForm.onSubmit(null)"
+          [disabled]="!baseForm.isFormValid()"
+          title="Запиши"
+        >
+          Запиши
+        </button>
+      </div>
+    </div>
+    <div class="basic-attributes-wrapper" *ngIf="baseForm.formObject">
+      <div igxLayout igxLayoutDir="row" igxLayoutJustify="flex-end">
+        <span class="basic-attribute" *ngIf="baseForm.formObject['createdOn']"
+          >Създаден:
+          {{
+            baseForm.formObject["createdBy"]
+              ? baseForm.formObject["createdBy"]
+              : "няма информация"
+          }}
+          /
+          {{
+            baseForm.formObject["createdOn"] | date: "dd.MM.yyyy HH:mm:ss"
+          }}</span
+        >
+        <span class="basic-attribute" *ngIf="baseForm.formObject['modifiedOn']"
+          >Последна промяна: {{ baseForm.formObject["modifiedBy"] }} /
+          {{
+            baseForm.formObject["modifiedOn"] | date: "dd.MM.yyyy HH:mm:ss"
+          }}</span
+        >
+      </div>
+    </div>
+  </div>
+</tl-wrapping-card>

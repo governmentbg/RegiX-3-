@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetCompanyInfoRequest xmlns="http://egov.bg/RegiX/CRC/Subscribers/GetCompanyInfoRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CompanyName>ТехноЛогика</CompanyName>
+  <CompanyType>ЕАД</CompanyType>
+  <EIK>111111110</EIK>
+</GetCompanyInfoRequest>

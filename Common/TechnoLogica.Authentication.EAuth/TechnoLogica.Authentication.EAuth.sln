@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnoLogica.Authentication.EAuth", "TechnoLogica.Authentication.EAuth\TechnoLogica.Authentication.EAuth.csproj", "{B2C35856-E1EF-4C2F-8846-90A453916DD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CFED49C5-DA84-4B1C-90BC-0AC24E64DC03}"
+	ProjectSection(SolutionItems) = preProject
+		azure-devops.yaml = azure-devops.yaml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2C35856-E1EF-4C2F-8846-90A453916DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C35856-E1EF-4C2F-8846-90A453916DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C35856-E1EF-4C2F-8846-90A453916DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C35856-E1EF-4C2F-8846-90A453916DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96A869D7-A10D-4981-88ED-ABBCA0A6B51E}
+	EndGlobalSection
+EndGlobal

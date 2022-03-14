@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NHIF/Response" xmlns:common="http://egov.bg/RegiX/NHIF/NHIFCommon" targetNamespace="http://egov.bg/RegiX/NHIF/Response" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/NHIF/NHIFCommon" schemaLocation="NHIFCommon.xsd"/>
+	<xs:element name="PatientRecordHospitalizationsResponse">
+		<xs:annotation>
+			<xs:documentation>Справка за пролежаванията в болница на пациент</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PatientRecordHospitalizations" type="PatientRecordHospitalizationsType" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="PatientRecordHospitalizationType">
+		<xs:sequence>
+			<xs:element name="PatientIdentificator" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификарор на пациент</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BranchName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>РЗОК име</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MSP" type="common:MSPTypeHosp" minOccurs="0"/>
+			<xs:element name="ClinicalPath" type="common:ClinicalPathHosp" minOccurs="0"/>
+			<xs:element name="ICD" type="common:HospICDType" minOccurs="0"/>
+			<xs:element name="DateFrom" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на постъпване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DateTo" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на изписване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BedDays" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Пролежани леглодни</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ImplantsInfo" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вложено медицинско изделие</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PatientRecordHospitalizationsType">
+		<xs:sequence>
+			<xs:element name="PatientRecordHospitalization" type="PatientRecordHospitalizationType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

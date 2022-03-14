@@ -1,0 +1,6 @@
+﻿<GetBenefitsForHeatingRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/ASP/BenefitsForHeating/GetBenefitsForHeatingRequest">
+	<PersonData>
+		<IdentifierType xmlns="http://egov.bg/RegiX/ASP/Common">LNCh</IdentifierType>
+		<Identifier xmlns="http://egov.bg/RegiX/ASP/Common">9901010101</Identifier>
+	</PersonData>
+</GetBenefitsForHeatingRequest>

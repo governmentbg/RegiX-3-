@@ -1,0 +1,542 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.RTSAdapter.APIService.IRTSAPI.GetRoutesTimeTable</OperationName>
+  <Code>GetRoutesTimeTable</Code>
+  <ControllerName>RTSAPI</ControllerName>
+  <Resource>RoutesTimeTableRequest</Resource>
+  <RequestObjectName>RoutesSearch</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/MTITC/Rts</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за маршрутни разписания</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Seasonal</ParameterName>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>4</OrderNumber>
+        <ParameterType>
+          <Type>Complex</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>IsSeasonal</ParameterName>
+            <ParameterLabel>Сезонно</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>0</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SeasonStartDay</ParameterName>
+            <ParameterLabel>От ден</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>1</OrderNumber>
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SeasonStartMonth</ParameterName>
+            <ParameterLabel>От месец</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>2</OrderNumber>
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SeasonEndDay</ParameterName>
+            <ParameterLabel>До ден</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>3</OrderNumber>
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SeasonEndMonth</ParameterName>
+            <ParameterLabel>До месец</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>4</OrderNumber>
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>IsSeasonalSpecified</ParameterName>
+            <ParameterLabel>Сезонно</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <OrderNumber>0</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SeasonStartDaySpecified</ParameterName>
+            <ParameterLabel>От ден</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <OrderNumber>1</OrderNumber>
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SeasonStartMonthSpecified</ParameterName>
+            <ParameterLabel>От месец</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <OrderNumber>2</OrderNumber>
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SeasonEndDaySpecified</ParameterName>
+            <ParameterLabel>До ден</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <OrderNumber>3</OrderNumber>
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SeasonEndMonthSpecified</ParameterName>
+            <ParameterLabel>До месец</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <OrderNumber>4</OrderNumber>
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+      </ChildParamteters>
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Schedule</ParameterName>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>5</OrderNumber>
+        <ParameterType>
+          <Type>Complex</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>IsDaily</ParameterName>
+            <ParameterLabel>Ежедневно</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>0</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>Monday</ParameterName>
+            <ParameterLabel>Понеделник</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>1</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>Tuesday</ParameterName>
+            <ParameterLabel>Вторник</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>2</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>Wednesday</ParameterName>
+            <ParameterLabel>Сряда</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>3</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>Thursday</ParameterName>
+            <ParameterLabel>Четвъртък</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>4</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>Friday</ParameterName>
+            <ParameterLabel>Петък</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>5</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>Saturday</ParameterName>
+            <ParameterLabel>Събота</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>6</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>Sunday</ParameterName>
+            <ParameterLabel>Неделя</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>7</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>BeforeHoliday</ParameterName>
+            <ParameterLabel>Предпразник</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>8</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>Holiday</ParameterName>
+            <ParameterLabel>Празник</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>9</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>IsDailySpecified</ParameterName>
+            <ParameterLabel>Ежедневно</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <OrderNumber>0</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>MondaySpecified</ParameterName>
+            <ParameterLabel>Понеделник</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <OrderNumber>1</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>TuesdaySpecified</ParameterName>
+            <ParameterLabel>Вторник</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <OrderNumber>2</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>WednesdaySpecified</ParameterName>
+            <ParameterLabel>Сряда</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <OrderNumber>3</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>ThursdaySpecified</ParameterName>
+            <ParameterLabel>Четвъртък</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <OrderNumber>4</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>FridaySpecified</ParameterName>
+            <ParameterLabel>Петък</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <OrderNumber>5</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SaturdaySpecified</ParameterName>
+            <ParameterLabel>Събота</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <OrderNumber>6</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SundaySpecified</ParameterName>
+            <ParameterLabel>Неделя</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <OrderNumber>7</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>BeforeHolidaySpecified</ParameterName>
+            <ParameterLabel>Предпразник</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <OrderNumber>8</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>HolidaySpecified</ParameterName>
+            <ParameterLabel>Празник</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <OrderNumber>9</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+      </ChildParamteters>
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>ForwardFirstStopMunicipality</ParameterName>
+        <ParameterLabel>Община на начална спирка на курс Отиване</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>BackwardFirstStopMunicipality</ParameterName>
+        <ParameterLabel>Община на начална спирка на курс Връщане</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>ForwardTime</ParameterName>
+        <ParameterLabel>Време на тръгване на курс Отиване</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>DateTime</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>BackwardTime</ParameterName>
+        <ParameterLabel>Време на тръгване на курс Връщане</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>3</OrderNumber>
+        <ParameterType>
+          <Type>DateTime</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>ForwardTimeSpecified</ParameterName>
+        <ParameterLabel>Време на тръгване на курс Отиване</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>false</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>DateTime</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>BackwardTimeSpecified</ParameterName>
+        <ParameterLabel>Време на тръгване на курс Връщане</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>false</IsXmlElement>
+        <OrderNumber>3</OrderNumber>
+        <ParameterType>
+          <Type>DateTime</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

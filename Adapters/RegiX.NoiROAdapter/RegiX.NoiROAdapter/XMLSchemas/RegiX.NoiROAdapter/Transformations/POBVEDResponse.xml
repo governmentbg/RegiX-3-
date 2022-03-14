@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<POBVEDResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NOI/RO/POBVEDResponse">
+  <Identifier>1111111110</Identifier>
+  <IdentifierType>ЕГН</IdentifierType>
+  <Names>Име Презиме Фамилия</Names>
+  <PaymentData>
+    <PaymentByType xmlns="http://egov.bg/RegiX/NOI/RO">
+      <BenefitType>ПОБ - чл.54б ал.1 от КСО</BenefitType>
+      <Payments>
+        <Payment>
+          <BenefitMonth>--05</BenefitMonth>
+          <BenefitYear>2012</BenefitYear>
+          <BenefitAmount>65055</BenefitAmount>
+        </Payment>
+        <Payment>
+          <BenefitMonth>--06</BenefitMonth>
+          <BenefitYear>2012</BenefitYear>
+          <BenefitAmount>65055</BenefitAmount>
+        </Payment>
+        <Payment>
+          <BenefitMonth>--07</BenefitMonth>
+          <BenefitYear>2012</BenefitYear>
+          <BenefitAmount>65055</BenefitAmount>
+        </Payment>
+      </Payments>
+    </PaymentByType>
+    <PaymentByType xmlns="http://egov.bg/RegiX/NOI/RO">
+      <BenefitType>ПОБ - чл.54б ал.2 от КСО</BenefitType>
+      <Payments>
+        <Payment>
+          <BenefitMonth>--08</BenefitMonth>
+          <BenefitYear>2012</BenefitYear>
+          <BenefitAmount>65055</BenefitAmount>
+        </Payment>
+      </Payments>
+    </PaymentByType>
+  </PaymentData>
+  <MissingData />
+</POBVEDResponse>

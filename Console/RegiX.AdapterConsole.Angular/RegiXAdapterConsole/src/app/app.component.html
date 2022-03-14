@@ -1,0 +1,15 @@
+<router-outlet *ngIf="!authorizing && !loadingModule && !navigating"></router-outlet>
+<div *ngIf="authorizing || loadingModule || navigating" class="app-loading">
+  <div class="logo"></div>
+  <div class="app-loading-text">
+    <span *ngIf="loadingModule">Зареждане на модул {{this.loadingModuleName}}...</span>
+    <br *ngIf="loadingModule"/>
+    <span *ngIf="authorizing">Авторизация...</span>
+    <br *ngIf="authorizing"/>
+    <span *ngIf="navigating">Пренасочване...</span>
+    <br *ngIf="navigating"/>
+  </div>
+  <svg class="spinner" viewBox="25 25 50 50">
+    <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+  </svg>
+</div>

@@ -1,0 +1,31 @@
+<div class="row">
+  <div *ngTemplateOutlet="recursiveMenu; context: { $implicit: mdFiles }"></div>
+  <ng-template #recursiveMenu let-menus>
+    <div *ngFor="let mdFile of mdFiles">
+      <div
+        igxDrawerItem
+        (click)="navigate(mdFile)"
+        class="{{
+          mdFile.subMarkdowns.length > 0 ? 'drawer-expand' : 'drawer'
+        }}"
+      >
+        <span
+          *ngIf="mdFile.subMarkdowns.length > 0"
+          class="fa fa-caret-down fa-2x"
+          (click)="navigate(mdFile)"
+          [@indicatorRotate]="expanded[mdFile.id] ? 'expanded' : 'collapsed'"
+        >
+        </span>
+        <igx-icon fontSet="material">info</igx-icon>
+        {{ mdFile.title }}
+      </div>
+
+      <app-adapter-development-guidelines-recursive
+        [mdFiles]="mdFile.subMarkdowns"
+        *ngIf="mdFile.subMarkdowns && expanded[mdFile.id]"
+        id="nav{{ mdFile.id }}"
+      >
+      </app-adapter-development-guidelines-recursive>
+    </div>
+  </ng-template>
+</div>

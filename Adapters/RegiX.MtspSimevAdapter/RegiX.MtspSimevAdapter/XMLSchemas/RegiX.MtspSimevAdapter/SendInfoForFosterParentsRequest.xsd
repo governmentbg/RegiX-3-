@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/MTSP/SendInfoForFosterParents/MtspInfoFosterParentsRequest" targetNamespace="http://egov.bg/RegiX/MTSP/SendInfoForFosterParents/MtspInfoFosterParentsRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="MtspHeader">
+		<xs:sequence>
+			<xs:element name="RequestNumber" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>Номер на запитването в АСП</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Size" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>Брой редове в отговора</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MtspDataItem">
+		<xs:sequence>
+			<xs:element name="Row" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>Номер на ред</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ParentIdentificator" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ЕГН/ЛНЧ на приемен родител</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IsRegistered" type="xs:boolean" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Присъства ли лицето в базата данни на ИИС на АСП?</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IsFosterParent" type="xs:boolean" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Присъства ли лицето в регистъра на приемните семейства на ИИС на АСП за указания период?</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="HasTelk" type="xs:boolean" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Регистрирано ли е лицето в ИИС на АСП ТЕЛК, валиден за указания период?</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ContractNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на последен договор за приемна грижа с общината, включващ указания период</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ContractDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на договор по т.5</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ContractStartDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на начало на договора по т.5</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ContractEndDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на края на договора по т.5</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ContractClosingDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на прекратяване на договора по т.5</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Amount" type="xs:double" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Размер на месечното възнаграждение по договора от т.5</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ChildIndentificator" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ЕГН/ЛНЧ на настанено дете</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IsChildRegistered" type="xs:boolean" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Присъства ли детето в базата данни на ИИС на АСП?</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IsRegisteredInRisk" type="xs:boolean" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Детето присъства ли в регистъра на децата в риск на ИИС на АСП  за указания период?</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IsSettled" type="xs:boolean" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>За детето, предприета ли е мярка "настаняване в приемно семейство" за указания период, при този приемен родител?</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IsSettledEver" type="xs:boolean" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Детето било ли е настанено някога изобщо при този приемен родител? </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SattleDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на настаняване, при този приемен родител (последно известно настаняване преди или в указания период)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SattleEndDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на извеждане, от този приемен родител (последно известно извеждане в указания период)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="hasChildTelk" type="xs:boolean" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Регистрирано ли е детето в ИИС на АСП ТЕЛК, валиден за указания период?</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ChildAmount" type="xs:double" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Размер на месечната издръжка за това дете при този родител</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MtspData">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="DataItem" type="MtspDataItem">
+				<xs:annotation>
+					<xs:documentation>Данни за дете/приемен родител</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MtspInfoFosterParentsRequest">
+		<xs:sequence>
+			<xs:element name="Header" type="MtspHeader">
+				<xs:annotation>
+					<xs:documentation>Заглавна част на запитването</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Data" type="MtspData">
+				<xs:annotation>
+					<xs:documentation>Детайли на запитването</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="MtspInfoFosterParentsRequest" type="MtspInfoFosterParentsRequest">
+		<xs:annotation>
+			<xs:documentation>Изпращане на данни към СИМЕВ на МТСП за физически лица(родител/дете) относно наличие на вписване в Регистъра на приемните семейства, Регистъра на децата в риск, регистрирано решение на ТЕЛК и данни за участие в проект за период</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

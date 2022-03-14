@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://egov.bg/RegiX/NRA/Collections" xmlns="http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForCollectedAmountUpdateRequest" targetNamespace="http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForCollectedAmountUpdateRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/NRA/Collections" schemaLocation="NRACollectionCommon.xsd"/>
+	<xs:element name="SendDataForCollectedAmountUpdateRequest" type="SendDataForCollectedAmountUpdateRequestType">
+		<xs:annotation>
+			<xs:documentation>Входни параметри на операция "Предаване на информация за отразяване на събрана сума по вземане при взискател/актосъставител"</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="PaymentType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="ActIssurerID">
+				<xs:annotation>
+					<xs:documentation>ID на взискател/актосъставител</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:long">
+						<xs:minInclusive value="2"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="SubdivisionID">
+				<xs:annotation>
+					<xs:documentation>ID на подразделение </xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:long">
+						<xs:minInclusive value="1"/>
+						<xs:maxInclusive value="9999"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="CollectibleID">
+				<xs:annotation>
+					<xs:documentation>ID на вземане </xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:long">
+						<xs:minInclusive value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="SubdivisionEIK">
+				<xs:annotation>
+					<xs:documentation>Идентификатор на взискател/актосъставител </xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="9"/>
+						<xs:maxLength value="13"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="PaymentDate" type="xs:date">
+				<xs:annotation>
+					<xs:documentation>Дата на плащане (вальор)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TotalAmount">
+				<xs:annotation>
+					<xs:documentation>Общо разпределена сума за вземането</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:decimal">
+						<xs:minInclusive value="0"/>
+						<xs:totalDigits value="18"/>
+						<xs:fractionDigits value="2"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="PrincipalAmountPaid">
+				<xs:annotation>
+					<xs:documentation>Платена сума по главница</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:decimal">
+						<xs:minInclusive value="0"/>
+						<xs:totalDigits value="18"/>
+						<xs:fractionDigits value="2"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="InterestAmountPaid" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Платена сума по лихва</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:decimal">
+						<xs:minInclusive value="0"/>
+						<xs:totalDigits value="18"/>
+						<xs:fractionDigits value="2"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Currency">
+				<xs:annotation>
+					<xs:documentation>Валута</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[A-Z][A-Z][A-Z]"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="OutstandingAmount">
+				<xs:annotation>
+					<xs:documentation>Остатък по вземане за събиране при взискател/актосъставител</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:decimal">
+						<xs:minInclusive value="0"/>
+						<xs:totalDigits value="18"/>
+						<xs:fractionDigits value="2"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SendDataForCollectedAmountUpdateRequestType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="Payment" type="PaymentType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Плащане</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

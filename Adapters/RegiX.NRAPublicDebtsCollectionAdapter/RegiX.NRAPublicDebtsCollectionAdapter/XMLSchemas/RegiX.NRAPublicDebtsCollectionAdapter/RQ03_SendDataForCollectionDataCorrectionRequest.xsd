@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForCollectionDataCorrectionRequest" targetNamespace="http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForCollectionDataCorrectionRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="SendDataForCollectionDataCorrectionRequest" type="SendDataForCollectionDataCorrectionRequestType">
+		<xs:annotation>
+			<xs:documentation>Входни параметри на операцията "Предаване на информация за корекция на данни за вземане"</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="CollectionDataCorrectionType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="ActIssurerID">
+				<xs:annotation>
+					<xs:documentation>ID на взискател/актосъставител</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:long">
+						<xs:minInclusive value="2"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="SubdivisionID">
+				<xs:annotation>
+					<xs:documentation>ID на подразделение </xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:long">
+						<xs:maxInclusive value="9999"/>
+						<xs:minInclusive value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="SubdivisionEIK">
+				<xs:annotation>
+					<xs:documentation>Идентификатор на взискател/актосъставител </xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="9"/>
+						<xs:maxLength value="13"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="CollectibleID">
+				<xs:annotation>
+					<xs:documentation>ID на вземане </xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:long">
+						<xs:minInclusive value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="CollectibleType" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Вид задължение (вземане)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PeriodFrom" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Период от</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PeriodTo" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Период до</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PrincipalAmountInterest" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Остатък от главница, която следва да се събира от НАП, на която се начислява лихва.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:decimal">
+						<xs:minInclusive value="0"/>
+						<xs:totalDigits value="18"/>
+						<xs:fractionDigits value="2"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="InterestAmount" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Остатък за лихва, начислена при взискател/ актосъставител, която следва да се събира от НАП</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:decimal">
+						<xs:minInclusive value="0"/>
+						<xs:totalDigits value="18"/>
+						<xs:fractionDigits value="2"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="PrincipalAmountNoInterest" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Остатък от главница, която следва да се събира от НАП, на която не се начислява лихва.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:decimal">
+						<xs:minInclusive value="0"/>
+						<xs:totalDigits value="18"/>
+						<xs:fractionDigits value="2"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="InterestFromDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата, от която НАП начислява лихва </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="InterestType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид лихва</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SendDataForCollectionDataCorrectionRequestType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="Collection" type="CollectionDataCorrectionType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

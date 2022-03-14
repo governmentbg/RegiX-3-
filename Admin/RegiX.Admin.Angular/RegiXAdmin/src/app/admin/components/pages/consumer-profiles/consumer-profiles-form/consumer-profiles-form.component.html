@@ -1,0 +1,192 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <div *ngIf="isDataLoading">
+      <div>
+        <igx-circular-bar
+          [animate]="true"
+          [indeterminate]="true"
+          [textVisibility]="true"
+        ></igx-circular-bar>
+      </div>
+    </div>
+    <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isDataLoaded && !isDataLoading"
+    >
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="name"
+              type="text"
+              formControlName="name"
+              tlFormGroupRef
+            />
+            <label igxLabel for="name">Име</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="identifier"
+              type="text"
+              formControlName="identifier"
+              tlFormGroupRef
+            />
+            <label igxLabel for="identifier">Идентификатор</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="address"
+              type="text"
+              formControlName="address"
+              tlFormGroupRef
+            />
+            <label igxLabel for="address">Адрес</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group form-group-wrapper" igxLayout igxLayoutDir="row">
+        <igx-select
+          #statusSelectComponent
+          igxFlex
+          [(ngModel)]="currentStatus"
+          class="form-group-wrapper"
+          name="status"
+          formControlName="status"
+          tlFormGroupRef
+          (onClosed)="getCurrentValue()"
+        >
+          <igx-select-item
+            *ngFor="let stats of this.statusEnums"
+            [value]="stats.id"
+          >
+            {{ stats.displayName }}
+          </igx-select-item>
+          <label igxLabel for="status">Статус</label>
+        </igx-select>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="documentNumber"
+              type="text"
+              formControlName="documentNumber"
+              tlFormGroupRef
+            />
+            <label igxLabel for="documentNumber">Входящ номер</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="comment"
+              type="textarea"
+              formControlName="comment"
+              tlFormGroupRef
+              [disabled]="isCommentDisabled"
+            />
+            <label igxLabel for="comment">Коментар</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <igx-checkbox
+        class="input-group"
+        formControlName="acceptedEula"
+        disabled="true"
+        name="acceptedEula"
+      >
+        Съгласни ли сте с общите условия ?
+      </igx-checkbox>
+
+      <div
+        class="input-group"
+        igxLayout
+        igxLayoutDir="row"
+        formGroupName="administration"
+      >
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="displayName"
+              type="text"
+              formControlName="displayName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="displayName">Администрация</label>
+          </igx-input-group>
+        </tl-form-group>
+        <button
+          igxButton="icon"
+          (click)="showAdministraions()"
+          [disabled]="this.isShowForm()"
+        >
+          <igx-icon>account_balance</igx-icon>
+        </button>
+      </div>
+
+      <div class="tabs-wrapper">
+        <igx-tabs>
+          <igx-tabs-group label="Представители" class="roles-wrapper">
+            <div class="roles-wrapper">
+              <app-consumer-profile-users-table>
+              </app-consumer-profile-users-table>
+            </div>
+          </igx-tabs-group>
+          <igx-tabs-group label="История на статусите" class="roles-wrapper">
+            <div class="roles-wrapper">
+              <app-consumer-profile-status-table>
+              </app-consumer-profile-status-table>
+            </div>
+          </igx-tabs-group>
+        </igx-tabs>
+      </div>
+    </form>
+  </div>
+</tl-basic-form>
+
+<igx-dialog
+  #administraionsFilterDialog
+  title="Администрации"
+  [closeOnOutsideSelect]="true"
+>
+  <div style="height: 90vh; width: 95vw; overflow: auto;">
+    <app-administrations-filter
+      #administrationsFilter
+      (selectedValues)="administraionSelected($event)"
+    >
+    </app-administrations-filter>
+  </div>
+</igx-dialog>

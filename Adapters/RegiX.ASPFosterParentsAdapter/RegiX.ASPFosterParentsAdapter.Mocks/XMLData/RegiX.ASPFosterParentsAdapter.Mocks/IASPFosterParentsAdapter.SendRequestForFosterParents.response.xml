@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AspFosterParentsResponse xmlns="http://egov.bg/RegiX/ASP/SendRequestForFosterParents/AspFosterParentsResponse">
+  <RequestNumber>1</RequestNumber>
+  <Error>Error1</Error>
+</AspFosterParentsResponse>

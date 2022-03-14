@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REG35_Licenses_By_EIK_Waste_Code_Waste_Operation_Response xsi:schemaLocation="http://egov.bg/RegiX/IAOS/REG35/LicensesByEIKWasteCodeWasteOperationResponse REG35_Licenses_By_EIK_Waste_Code_Waste_Operation_Response.xsd" xmlns="http://egov.bg/RegiX/IAOS/REG35/LicensesByEIKWasteCodeWasteOperationResponse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Authorization>
+		<AuthNum>String</AuthNum>
+		<AuthType>B</AuthType>
+		<State>00</State>
+		<Stage>
+			<StageAddress>String</StageAddress>
+			<StageNum>String</StageNum>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+		</Stage>
+		<Stage>
+			<StageAddress>String</StageAddress>
+			<StageNum>String</StageNum>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+		</Stage>
+		<Stage>
+			<StageAddress>String</StageAddress>
+			<StageNum>String</StageNum>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+		</Stage>
+	</Authorization>
+	<Authorization>
+		<AuthNum>String</AuthNum>
+		<AuthType>B</AuthType>
+		<State>00</State>
+		<Stage>
+			<StageAddress>String</StageAddress>
+			<StageNum>String</StageNum>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+		</Stage>
+		<Stage>
+			<StageAddress>String</StageAddress>
+			<StageNum>String</StageNum>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+		</Stage>
+		<Stage>
+			<StageAddress>String</StageAddress>
+			<StageNum>String</StageNum>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+		</Stage>
+	</Authorization>
+	<Authorization>
+		<AuthNum>String</AuthNum>
+		<AuthType>B</AuthType>
+		<State>00</State>
+		<Stage>
+			<StageAddress>String</StageAddress>
+			<StageNum>String</StageNum>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+		</Stage>
+		<Stage>
+			<StageAddress>String</StageAddress>
+			<StageNum>String</StageNum>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+		</Stage>
+		<Stage>
+			<StageAddress>String</StageAddress>
+			<StageNum>String</StageNum>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+			<Waste>
+				<WasteCode xmlns="">String</WasteCode>
+				<WasteType xmlns="">String</WasteType>
+			</Waste>
+		</Stage>
+	</Authorization>
+</REG35_Licenses_By_EIK_Waste_Code_Waste_Operation_Response>

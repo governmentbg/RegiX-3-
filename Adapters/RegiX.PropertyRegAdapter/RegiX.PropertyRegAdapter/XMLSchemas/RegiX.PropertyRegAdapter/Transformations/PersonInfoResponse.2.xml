@@ -1,0 +1,796 @@
+      <PersonInfoResponse xmlns="http://egov.bg/RegiX/AV/PropertyReg/PersonInfoResponse">
+        <DateFrom>2010-01-01T11:16:00</DateFrom>
+        <DateTo>2018-06-27T11:16:00</DateTo>
+        <PersonLotDataList>
+          <PersonLotData xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+            <RegistryAgency>Служба по вписванията - Пловдив</RegistryAgency>
+            <SiteID>067</SiteID>
+            <SiteStartDate>1991-01-01</SiteStartDate>
+            <PersonBasicData>ЕГН 7207274472 Йовка Стоичкова Кръстева</PersonBasicData>
+            <PersonalLotNumber>436822</PersonalLotNumber>
+            <PersonalLotEntryList>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 3302074570 Чунка Георгиева Шаранкова</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 307302, площ по док. - 4.518 дка, гр.Съединение, местност - ОВЧАРСКА МОГИЛА , обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>44893</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 6201124431 Мима Иванова Дългърска</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 307261, площ по док. - 5.000 дка, гр.Съединение, местност - ОВЧАРСКА МОГИЛА, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361747</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 6106034548 Кирил Георгиев Янев</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 301110, площ по док. - 20.020 дка, гр.Съединение, местност - КАРАГЬОЗОВ КЛАДЕНЕЦ, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361745</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 5302284478 Стоянка Илиева Пинджева</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 086054, площ по док. - 6.481 дка, гр.Съединение, местност - ВЕСТА, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361726</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 7603024438 ВЕЛА ГЕОРГИЕВА МАНЧЕВА</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 031008, площ по док. - 32.284 дка, гр.Съединение, местност - ДОРОТЛИЙСКИ ЛИВАДИ, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>330170</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 4103313530 Кръстанка Николова Илиева</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 098086, площ по док. - 3.675 дка, гр.Съединение, местност - БЕЛИЗМАТА, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361743</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 4103313530 Кръстанка Николова Илиева</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 307154, площ по док. - 13.014 дка, гр.Съединение, местност - ОВЧАРСКА МОГИЛА, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361742</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 5803314615 Мария Иванова Ганчева</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 307170, площ по док. - 6.484 дка, гр.Съединение, местност - ОВЧАРСКА МОГИЛА, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361741</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 4305164509 Христо Любенов Гюрджеклиев</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 066072, площ по док. - 6.426 дка, гр.Съединение, местност - БОЗАЛЪЦИТЕ, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361734</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 4301104414 Бойка Запрянова Кесова</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 071039, площ по док. - 4.238 дка, гр.Съединение, местност - ДОЕВ КЛАДЕНЕЦ, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361731</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 4910014418 Райна Кръстева Бозвелийска</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 310024, площ по док. - 22.128 дка, гр.Съединение, местност - ТРИ МОГИЛИ, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>167628</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 4612164397 Иванка Илиева Трендафилова</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 089075, площ по док. - 21.517 дка, гр.Съединение, местност - ТОШКОВ СЛОГ, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361735</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 5108154406 РАНГЕЛ ГЕОРГИЕВ ДЖУДЖЕВ</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 117019, площ по док. - 11.255 дка, гр.Съединение, местност - ЕЗЛАТА, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>321270</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 4702276520 Георги Енев Чуткин</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 307005, площ по док. - 16.102 дка, гр.Съединение, местност - ОВЧАРСКА МОГИЛА, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361746</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 7004294689 Иван Петков Ботев</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 308029, площ по док. - 46.810 дка, гр.Съединение, местност - КУПИЩАТА, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>48266</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 5908064488 Георги Трифонов Шумански</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 033033, площ по док. - 4.000 дка, гр.Съединение, местност - ПАПУЧА, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361739</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 3707204500 Андрея Костадинов Тилешки</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 307220, площ по док. - 6.150 дка, гр.Съединение, местност - ОВЧАРСКА МОГИЛА, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361737</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 4301104414 Бойка Запрянова Кесова</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 071038, площ по док. - 4.238 дка, гр.Съединение, местност - ДОЕВ КЛАДЕНЕЦ, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361730</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 6904054539 Магдалена Николова Меретева-ЧУШКОВА</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 029003, площ по док. - 17.617 дка, гр.Съединение, местност - ВЛАШКИ КЛАДЕНЕЦ, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361728</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 6706254380 Рангел Стоичков Чушков</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 312020, площ по док. - 20.756 дка, гр.Съединение, местност - ДЪЛГАТА МОГИЛА, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361727</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 4803215312 Стойна Костадинова Калчева</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 070006, площ по док. - 29.317 дка, гр.Съединение, местност - ЧАПКЪНСКИ БРЯСТ, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>268188</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 4907264670 Елена Георгиева Димитрова</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 095019, площ по док. - 4.000 дка, гр.Съединение, местност - ПОПОВ КЛАДЕНЕЦ, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361724</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 4404134479 Ненка Атанасова Топалова</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 112058, площ по док. - 13.143 дка, гр.Съединение, местност - ПОМПЕНА СТАНЦИЯ, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361733</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 6201254477 КРАСИМИРА ГЕОРГИЕВА ШУМАНСКА</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 307106, площ по док. - 9.995 дка, гр.Съединение, местност - ОВЧАРСКА МОГИЛА, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>284182</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 6106034548 Кирил Георгиев Янев</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 301111, площ по док. - 14.629 дка, гр.Съединение, местност - КАРАГЬОЗОВ КЛАДЕНЕЦ, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361744</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 4409194608 Димитър Андонов Богданов</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 086044, площ по док. - 7.000 дка, гр.Съединение, местност - веста, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361732</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 5108154406 РАНГЕЛ ГЕОРГИЕВ ДЖУДЖЕВ</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 304272, площ по док. - 5.629 дка, гр.Съединение, местност - БОТЕВ КЛАДЕНЕЦ, ОБР. ОТ ИМ.304141, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>321271</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 4301104414 Бойка Запрянова Кесова</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 070034, площ по док. - 20.000 дка, гр.Съединение, местност - Чапкънски бряст, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>54942</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 7207274472 Йовка Стоичкова Кръстева</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 315017, площ по док. - 23.196 дка, гр.Съединение, местност - ЧЕРВЕН БРЯСТ, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361729</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 4612164397 Иванка Илиева Трендафилова</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 086051, площ по док. - 6.481 дка, гр.Съединение, местност - веста, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361736</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 5302284478 Стоянка Илиева Пинджева</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 089076, площ по док. - 19.462 дка, гр.Съединение, местност - ТОШКОВ СЛОГ, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361725</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 5908064488 Георги Трифонов Шумански</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 033034, площ по док. - 4.000 дка, гр.Съединение, местност - ПАПУЧА, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361738</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>27980</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2014-10-06T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>27324</DoubleRegisterNumber>
+                  <RegistrationDate>2014-10-06T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за аренда</ActTypeName>
+                  <Volume>12</Volume>
+                  <Page>28</Page>
+                  <ActYear>2014</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Собственик - ЕГН 5601014571 Връбка Димитрова Митева</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Арендатор/Преарендатор(Аренда) - ЕИК / БУЛСТАТ 115103562 ИЛИЕВИ ТД ИЛИЕВ СИЕ СД</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 307238, площ по док. - 6.337 дка, гр.Съединение, местност - ОВЧАРСКА МОГИЛА, обл. ПЛОВДИВ, общ. СЪЕДИНЕНИЕ, гр.Съединение</PropertyData>
+                <LotNumber>361740</LotNumber>
+              </PersonalLotEntry>
+            </PersonalLotEntryList>
+          </PersonLotData>
+          <PersonLotData xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+            <RegistryAgency>Служба по вписванията - София</RegistryAgency>
+            <SiteID>001</SiteID>
+            <SiteStartDate>1998-01-01</SiteStartDate>
+            <PersonBasicData>ЕГН 7207274472 ЙОВКА СТОИЧКОВА КРЪСТЕВА</PersonBasicData>
+            <PersonalLotNumber>747906</PersonalLotNumber>
+            <PersonalLotEntryList>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>43167</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2012-10-01T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>42558</DoubleRegisterNumber>
+                  <RegistrationDate>2012-10-01T00:00:00</RegistrationDate>
+                  <BookTypeName>ЗАКОННИ ИПОТЕКИ</BookTypeName>
+                  <ActTypeName>Учредяване на законна ипотека</ActTypeName>
+                  <Volume>5</Volume>
+                  <Page>267</Page>
+                  <ActYear>2012</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Кредитор - ЕИК / БУЛСТАТ 000694959 ОБЕДИНЕНА БЪЛГАРСКА БАНКА</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Ипотекарен длъжник - ЕГН 7207274472 ЙОВКА СТОИЧКОВА КРЪСТЕВА</Side>
+                    <Side>Ипотекарен длъжник - ЕГН 6103124123 ДИМИТЪР СВЕТОЗАРОВ КРЪСТЕВ</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Самостоятелен обект в сграда, площ по док. - 98.750 кв. м., гр.София, ул - ГЕО МИЛЕВ, С МАЗЕ 13 И ТАВАН 12 /СТАР АП.15-А/, обл. СОФИЯ-СТОЛИЧНА, общ. СТОЛИЧНА, гр.София ул. ГЕО МИЛЕВ, No:4, бл.4, ет.4, ап.15</PropertyData>
+                <LotNumber>211701</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>43166</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2012-10-01T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>42554</DoubleRegisterNumber>
+                  <RegistrationDate>2012-10-01T00:00:00</RegistrationDate>
+                  <BookTypeName>ПРЕХВЪРЛЯНИЯ</BookTypeName>
+                  <ActTypeName>Покупко-продажба на недвижим имот с н.а.</ActTypeName>
+                  <Volume>99</Volume>
+                  <Page>101</Page>
+                  <ActYear>2012</ActYear>
+                  <ConnectedActs />
+                  <LeftSide>
+                    <Side>Продавач - ЕГН 5806126268 БОЯН ИЛИЕВ КАМЕНОВ</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Купувач(Частна собственост) - ЕГН 7207274472 ЙОВКА СТОИЧКОВА КРЪСТЕВА</Side>
+                    <Side>Купувач(Частна собственост) - ЕГН 6103124123 ДИМИТЪР СВЕТОЗАРОВ КРЪСТЕВ</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Самостоятелен обект в сграда, площ по док. - 98.750 кв. м., гр.София, ул - ГЕО МИЛЕВ, С МАЗЕ 13 И ТАВАН 12 /СТАР АП.15-А/, обл. СОФИЯ-СТОЛИЧНА, общ. СТОЛИЧНА, гр.София ул. ГЕО МИЛЕВ, No:4, бл.4, ет.4, ап.15</PropertyData>
+                <LotNumber>211701</LotNumber>
+              </PersonalLotEntry>
+            </PersonalLotEntryList>
+          </PersonLotData>
+        </PersonLotDataList>
+      </PersonInfoResponse>

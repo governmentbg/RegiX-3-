@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/SignificantEnterprises/GetCompanyInfoResponse" targetNamespace="http://egov.bg/RegiX/CRC/SignificantEnterprises/GetCompanyInfoResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetCompanyInfoResponse" type="GetCompanyInfoResponseType">
+		<xs:annotation>
+			<xs:documentation>Разултат от изпълнението на "Справка за предприятие"</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="CompanyType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="MarketTypes" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Видове пазари</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ResolutionNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на решение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SignificantEnterprise" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предприятие със
+значително въздействие
+върху съответния пазар
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CompType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EIK" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ЕИК</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="HeadquartersAddress" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Седалище и адрес на управление</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ImposedObligations" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наложени задължения</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Remarks" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Забележки</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CompaniesType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="Company" type="CompanyType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни за предприятие</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GetCompanyInfoResponseType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="Companies" type="CompaniesType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни за предприятията</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

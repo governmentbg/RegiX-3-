@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2013 sp1 (http://www.altova.com) by ﻿inenov (ict) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:h="http://bg.mvr.ict/shared/regheader" targetNamespace="http://bg.mvr.ict/shared/regheader" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="HeaderType">
+		<xs:sequence>
+			<xs:element name="MessageID" type="h:StringOf36Type">
+				<xs:annotation>
+					<xs:documentation>Уникален идентификатор на съобщението  - UUID</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MessageRefID" type="h:StringOf36Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Уникален идентификатор на съобщението, на което се отговаря - UUID</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DateTime" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation>Време на подаване на заявката</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Operation" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Вид операция:0001-справка за бълграски гражданин,0002-справка за чужд гражданин,0003-справка за превозно средство</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="UserName" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Имена на потребител, извършил справката</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="OrganizationUnit" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Организация</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CallerIPAddress" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>IP адрес на клиента</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CallContext" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="StringOf36Type">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="36"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

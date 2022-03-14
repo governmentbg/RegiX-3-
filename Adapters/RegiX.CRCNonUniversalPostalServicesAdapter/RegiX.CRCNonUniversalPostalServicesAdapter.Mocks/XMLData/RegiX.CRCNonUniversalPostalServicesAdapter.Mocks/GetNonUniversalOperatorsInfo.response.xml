@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GetNonUniversalOperatorsInfoResponse xmlns="http://egov.bg/RegiX/CRC/NonUniversalPostalServices/GetNonUniversalOperatorsInfoResponse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OperatorsInfo>
+    <OperatorInfo>
+      <OperatorName>String</OperatorName>
+      <OperatorType>String</OperatorType>
+      <HeadquartersAddress>String</HeadquartersAddress>
+      <Notification>
+        <CertificateNumber>String</CertificateNumber>
+        <ActionStartDate>1967-08-13</ActionStartDate>
+        <Remark>String</Remark>
+        <PostalServiceScope>
+          <PostalServices>String</PostalServices>
+          <CourierServices>String</CourierServices>
+          <DirectPostalAdvertising>String</DirectPostalAdvertising>
+        </PostalServiceScope>
+      </Notification>
+    </OperatorInfo>
+    <OperatorInfo>
+      <OperatorName>String</OperatorName>
+      <OperatorType>String</OperatorType>
+      <HeadquartersAddress>String</HeadquartersAddress>
+      <Notification>
+        <CertificateNumber>String</CertificateNumber>
+        <ActionStartDate>1967-08-13</ActionStartDate>
+        <Remark>String</Remark>
+        <PostalServiceScope>
+          <PostalServices>String</PostalServices>
+          <CourierServices>String</CourierServices>
+          <DirectPostalAdvertising>String</DirectPostalAdvertising>
+        </PostalServiceScope>
+      </Notification>
+    </OperatorInfo>
+  </OperatorsInfo>
+</GetNonUniversalOperatorsInfoResponse>

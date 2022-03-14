@@ -1,0 +1,127 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <div *ngIf="isDataLoading">
+      <div>
+        <igx-circular-bar
+          [animate]="true"
+          [indeterminate]="true"
+          [textVisibility]="true"
+        ></igx-circular-bar>
+      </div>
+    </div>
+    <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isDataLoaded && !isDataLoading"
+    >
+    <div class="input-group">
+      <tl-form-group class="form-group-wrapper">
+        <igx-input-group>
+          <input
+            class="form-input"
+            igxInput
+            name="name"
+            type="text"
+            formControlName="name"
+            tlFormGroupRef
+          />
+          <label igxLabel for="name">Име</label>
+        </igx-input-group>
+      </tl-form-group>
+    </div>
+
+      <div
+        class="input-group select-filter-wrapper"
+        igxFlex
+        igxLayout
+        igxLayoutDir="row"
+        formGroupName="consumerProfile"
+      >
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group [displayDensity]="'compact'">
+            <input
+              class="form-input"
+              igxInput
+              name="displayName"
+              type="text"
+              formControlName="displayName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="displayName">Профил</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group form-group-wrapper" igxLayout igxLayoutDir="row">
+        <igx-select
+          #statusSelectComponent
+          [(ngModel)]="currentStatus"
+          igxFlex
+          class="form-group-wrapper"
+          name="status"
+          formControlName="status"
+          tlFormGroupRef
+        >
+          <igx-select-item
+            *ngFor="let stats of this.statusEnums"
+            [value]="stats.id"
+          >
+            {{ stats.displayName }}
+          </igx-select-item>
+          <label igxLabel for="status">Статус</label>
+        </igx-select>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="documentNumber"
+              type="text"
+              formControlName="documentNumber"
+              tlFormGroupRef
+            />
+            <label igxLabel for="documentNumber">Номер документ</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="outDocumentNumber"
+              type="text"
+              formControlName="outDocumentNumber"
+              tlFormGroupRef
+            />
+            <label igxLabel for="outDocumentNumber">Изходящ номер документ</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      
+    </form>
+    <div class="tabs-wrapper">
+      <igx-tabs>
+        
+        <igx-tabs-group label="История на статусите" class="roles-wrapper">
+          <div class="roles-wrapper">
+            <app-consumer-request-status-table
+              [consumerRequest]="formObject.consumerProfile.id"
+            >
+            </app-consumer-request-status-table>
+          </div>
+        </igx-tabs-group>
+      </igx-tabs>
+    </div>
+  </div>
+</tl-basic-form>

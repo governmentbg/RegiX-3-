@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://egov.bg/RegiX/IAOS/MROBags" targetNamespace="http://egov.bg/RegiX/IAOS/MROBags" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="https://source.gravis.bg:443/egov/services/mro-bags?xsd=1" namespace="http://egov.bg/RegiX/IAOS/MROBags" />
+    </xsd:schema>
+  </types>
+  <message name="getRegNumberDate">
+    <part name="parameters" element="tns:MRO_BAGS_Reg_Number_Date_Request" />
+  </message>
+  <message name="getRegNumberDateResponse">
+    <part name="parameters" element="tns:getRegNumberDateResponse" />
+  </message>
+  <message name="WebServiceException">
+    <part name="fault" element="tns:WebServiceException" />
+  </message>
+  <message name="getRegNumber">
+    <part name="parameters" element="tns:MRO_BAGS_Reg_Number_Request" />
+  </message>
+  <message name="getRegNumberResponse">
+    <part name="parameters" element="tns:getRegNumberResponse" />
+  </message>
+  <message name="getValidityCheck">
+    <part name="parameters" element="tns:MRO_BAGS_Validity_Check_Request" />
+  </message>
+  <message name="getValidityCheckResponse">
+    <part name="parameters" element="tns:getValidityCheckResponse" />
+  </message>
+  <portType name="MROBagsService">
+    <operation name="getRegNumberDate">
+      <input xmlns:ns1="http://www.w3.org/2007/05/addressing/metadata" ns1:Action="http://egov.bg/RegiX/IAOS/MROBags/MROBagsService/getRegNumberDateRequest" message="tns:getRegNumberDate" />
+      <output xmlns:ns2="http://www.w3.org/2007/05/addressing/metadata" ns2:Action="http://egov.bg/RegiX/IAOS/MROBags/MROBagsService/getRegNumberDateResponse" message="tns:getRegNumberDateResponse" />
+      <fault xmlns:ns3="http://www.w3.org/2007/05/addressing/metadata" ns3:Action="http://egov.bg/RegiX/IAOS/MROBags/MROBagsService/getRegNumberDate/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+    <operation name="getRegNumber">
+      <input xmlns:ns4="http://www.w3.org/2007/05/addressing/metadata" ns4:Action="http://egov.bg/RegiX/IAOS/MROBags/MROBagsService/getRegNumberRequest" message="tns:getRegNumber" />
+      <output xmlns:ns5="http://www.w3.org/2007/05/addressing/metadata" ns5:Action="http://egov.bg/RegiX/IAOS/MROBags/MROBagsService/getRegNumberResponse" message="tns:getRegNumberResponse" />
+      <fault xmlns:ns6="http://www.w3.org/2007/05/addressing/metadata" ns6:Action="http://egov.bg/RegiX/IAOS/MROBags/MROBagsService/getRegNumber/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+    <operation name="getValidityCheck">
+      <input xmlns:ns7="http://www.w3.org/2007/05/addressing/metadata" ns7:Action="http://egov.bg/RegiX/IAOS/MROBags/MROBagsService/getValidityCheckRequest" message="tns:getValidityCheck" />
+      <output xmlns:ns8="http://www.w3.org/2007/05/addressing/metadata" ns8:Action="http://egov.bg/RegiX/IAOS/MROBags/MROBagsService/getValidityCheckResponse" message="tns:getValidityCheckResponse" />
+      <fault xmlns:ns9="http://www.w3.org/2007/05/addressing/metadata" ns9:Action="http://egov.bg/RegiX/IAOS/MROBags/MROBagsService/getValidityCheck/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+  </portType>
+</definitions>

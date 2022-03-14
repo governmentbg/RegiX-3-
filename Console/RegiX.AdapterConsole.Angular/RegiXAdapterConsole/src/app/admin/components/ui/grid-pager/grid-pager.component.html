@@ -1,0 +1,56 @@
+<div igxLayout igxLayoutDir="column" igxLayoutItemAlign="center">
+  <div igxLayout igxLayoutDir="row" class="pager" igxFlex>
+    <div igxLayout igxLayoutDir="row">
+      <button
+        [disabled]="firstPage"
+        (click)="paginate(0)"
+        igxButton="icon"
+        igxRipple
+        igxRippleCentered="true"
+      >
+        <igx-icon family="material">first_page</igx-icon>
+      </button>
+      <button
+        [disabled]="firstPage"
+        (click)="previousPage()"
+        igxButton="icon"
+        igxRipple
+        igxRippleCentered="true"
+      >
+        <igx-icon family="material">chevron_left</igx-icon>
+      </button>
+      <span class="pages-display">{{ page + 1 }} от {{ totalPages }}</span>
+      <button
+        [disabled]="lastPage"
+        (click)="nextPage()"
+        igxRipple
+        igxRippleCentered="true"
+        igxButton="icon"
+      >
+        <igx-icon family="material">chevron_right</igx-icon>
+      </button>
+      <button
+        [disabled]="lastPage"
+        (click)="paginate(totalPages - 1)"
+        igxButton="icon"
+        igxRipple
+        igxRippleCentered="true"
+      >
+        <igx-icon family="material">last_page</igx-icon>
+      </button>
+    </div>
+    <select
+      [(ngModel)]="perPage"
+      type="border"
+      (change)="selectChange($event)"
+      class="page-select pager-text"
+    >
+      <option
+        [value]="val"
+        *ngFor="let val of [5, 10, 15, 20, 25] | paginatorOptions"
+      >
+        {{ val }} записа на страница
+      </option>
+    </select>
+  </div>
+</div>

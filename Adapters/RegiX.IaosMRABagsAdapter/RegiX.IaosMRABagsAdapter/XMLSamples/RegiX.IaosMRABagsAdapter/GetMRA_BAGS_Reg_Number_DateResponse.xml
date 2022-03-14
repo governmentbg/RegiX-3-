@@ -1,0 +1,9 @@
+<MRO_BAGS_Reg_Number_Date_Response xmlns="http://egov.bg/RegiX/IAOS/MROBags/RegNumberDateResponse">
+  <Authorization>
+    <AuthNum>1659566437</AuthNum>
+    <CompanyName>Техно Логика</CompanyName>
+    <DateFrom>2011-11-11</DateFrom>
+    <DateTo>2014-12-11</DateTo>
+    <State>02</State>
+  </Authorization>
+</MRO_BAGS_Reg_Number_Date_Response>

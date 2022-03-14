@@ -1,0 +1,62 @@
+﻿<RNSearchResponse xmlns="http://egov.bg/RegiX/MP/RNSearchResponse">
+  <Cases>
+    <CaseInfo>
+      <Number>1</Number>
+      <Year>1</Year>
+      <Date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+      <Court>Court1</Court>
+      <CourtName>CourtName1</CourtName>
+      <LastUpdate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    </CaseInfo>
+    <SideInfo>
+      <Name>Name1</Name>
+      <IsPerson>true</IsPerson>
+      <EGN>EGN1</EGN>
+      <Bulstat>Bulstat1</Bulstat>
+      <Involvement>1</Involvement>
+      <InvolvementText>InvolvementText1</InvolvementText>
+      <LastUpdate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    </SideInfo>
+    <LastUpdated>1900-01-01</LastUpdated>
+  </Cases>
+  <Cases>
+    <CaseInfo>
+      <Number>-2147483647</Number>
+      <Year>-2147483647</Year>
+      <Date>1900-01-01T01:01:01+02:00</Date>
+      <Court>Court2</Court>
+      <CourtName>CourtName2</CourtName>
+      <LastUpdate>1900-01-01T01:01:01+02:00</LastUpdate>
+    </CaseInfo>
+    <SideInfo>
+      <Name>Name2</Name>
+      <IsPerson>false</IsPerson>
+      <EGN>EGN2</EGN>
+      <Bulstat>Bulstat2</Bulstat>
+      <Involvement>-2147483647</Involvement>
+      <InvolvementText>InvolvementText2</InvolvementText>
+      <LastUpdate>1900-01-01T01:01:01+02:00</LastUpdate>
+    </SideInfo>
+    <LastUpdated>0001-01-01</LastUpdated>
+  </Cases>
+  <Cases>
+    <CaseInfo>
+      <Number>2147483647</Number>
+      <Year>2147483647</Year>
+      <Date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+      <Court>Court3</Court>
+      <CourtName>CourtName3</CourtName>
+      <LastUpdate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    </CaseInfo>
+    <SideInfo>
+      <Name>Name3</Name>
+      <IsPerson>true</IsPerson>
+      <EGN>EGN3</EGN>
+      <Bulstat>Bulstat3</Bulstat>
+      <Involvement>2147483647</Involvement>
+      <InvolvementText>InvolvementText3</InvolvementText>
+      <LastUpdate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    </SideInfo>
+    <LastUpdated>9999-12-31</LastUpdated>
+  </Cases>
+</RNSearchResponse>

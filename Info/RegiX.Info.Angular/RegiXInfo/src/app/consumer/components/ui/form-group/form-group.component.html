@@ -1,0 +1,10 @@
+<div class="form-group-wrapper" igxLayout igxLayoutDir="column" igxLayoutJustify="start">
+  <ng-content></ng-content>
+  <ng-container *ngIf="isError">
+    <div class="invalid-feedback d-block">
+      <span class="text-danger" *ngFor="let msg of errorMessages">
+        {{ msg }}</span
+      >
+    </div>
+  </ng-container>
+</div>

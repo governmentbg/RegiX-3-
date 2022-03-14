@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<CustomsObligationsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AM/REZMA/CustomsObligationsResponse">
+  <UIN>123456789</UIN>
+  <Name>Technologica</Name>
+  <Obligations>
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG001</CodeMU>
+      <MU>BG005</MU>
+      <Document>ДОКумент</Document>
+      <DocumentNumber>NoдоКУМЕНТ</DocumentNumber>
+      <CreationDate>2001-01-20</CreationDate>
+      <TypeObligation>МИТО И МИТНИЧЕСКИ ТАКСИ {22 28 00}</TypeObligation>
+      <ObligationAmount>100.00</ObligationAmount>
+      <PayingDocument>ДОКУМЕНТ ПОГАСЯВАНЕ</PayingDocument>
+      <PayingDate>2001-01-20</PayingDate>
+      <PayingAmount>100.00</PayingAmount>
+      <PayingTotal>200.00</PayingTotal>
+      <Difference>10.00</Difference>
+      <Status>Има задължение</Status>
+    </Obligation>
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG001</CodeMU>
+      <MU>BG005</MU>
+      <Document>ДОКумент</Document>
+      <DocumentNumber>NoдоКУМЕНТ</DocumentNumber>
+      <CreationDate>2001-01-20</CreationDate>
+      <TypeObligation>ГЛОБИ, НЕУСТОЙКИ {22 50 00}</TypeObligation>
+      <ObligationAmount>100.00</ObligationAmount>
+      <PayingDocument>ДОКУМЕНТ ПОГАСЯВАНЕ</PayingDocument>
+      <PayingDate>2001-01-20</PayingDate>
+      <PayingAmount>100.00</PayingAmount>
+      <PayingTotal>200.00</PayingTotal>
+      <Difference>10.00</Difference>
+      <Status>Има задължение</Status>
+    </Obligation>
+  </Obligations>
+</CustomsObligationsResponse>

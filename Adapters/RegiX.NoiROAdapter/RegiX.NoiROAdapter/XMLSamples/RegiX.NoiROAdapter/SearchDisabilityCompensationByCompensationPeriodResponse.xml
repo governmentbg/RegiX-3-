@@ -1,0 +1,25 @@
+<POVNPOBResponse
+	xmlns="http://egov.bg/RegiX/NOI/RO/POVNPOBResponse">
+  <Identifier>1111111110</Identifier>
+  <IdentifierType>ЕГН</IdentifierType>
+  <Names>Име Презиме Фамилия</Names>
+  <PaymentData>
+    <Payment
+			xmlns="http://egov.bg/RegiX/NOI/RO">
+      <BenefitType>За бременност и раждане на дете - чл. 50 и 51 от КСО</BenefitType>
+      <BenefitMonth>--07</BenefitMonth>
+      <BenefitYear>2012</BenefitYear>
+      <BenefitAmount>965.55</BenefitAmount>
+      <BenefitDatePayment>2012-08-31</BenefitDatePayment>
+    </Payment>
+    <Payment
+			xmlns="http://egov.bg/RegiX/NOI/RO">
+      <BenefitType>За отглеждане на дете - по чл. 53 от КСО</BenefitType>
+      <BenefitMonth>--08</BenefitMonth>
+      <BenefitYear>2012</BenefitYear>
+      <BenefitAmount>240</BenefitAmount>
+      <BenefitDatePayment>2012-09-30</BenefitDatePayment>
+    </Payment>
+  </PaymentData>
+  <MissingData />
+</POVNPOBResponse>

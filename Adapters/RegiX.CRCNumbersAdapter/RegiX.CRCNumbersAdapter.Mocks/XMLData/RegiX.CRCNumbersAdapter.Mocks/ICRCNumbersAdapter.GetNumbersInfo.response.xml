@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GetNumbersInfoResponse xmlns="http://egov.bg/RegiX/CRC/Numbers/GetNumbersInfoResponse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CompaniesData>
+    <CompanyData>
+      <CompanyName>String</CompanyName>
+      <CompanyType>String</CompanyType>
+      <AccessCode>String</AccessCode>
+      <SuppliedGroupOfNumbers>String</SuppliedGroupOfNumbers>
+      <Service>String</Service>
+      <DecisionNumber>String</DecisionNumber>
+      <DecisionDate>1967-08-13</DecisionDate>
+    </CompanyData>
+    <CompanyData>
+      <CompanyName>String</CompanyName>
+      <CompanyType>String</CompanyType>
+      <AccessCode>String</AccessCode>
+      <SuppliedGroupOfNumbers>String</SuppliedGroupOfNumbers>
+      <Service>String</Service>
+      <DecisionNumber>String</DecisionNumber>
+      <DecisionDate>1967-08-13</DecisionDate>
+    </CompanyData>
+  </CompaniesData>
+</GetNumbersInfoResponse>

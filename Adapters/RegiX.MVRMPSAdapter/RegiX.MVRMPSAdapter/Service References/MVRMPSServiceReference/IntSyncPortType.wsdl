@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://www.ict.mvr.bg/integration/service/" name="IntSyncPortType" targetNamespace="http://www.ict.mvr.bg/integration/service/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema targetNamespace="http://www.ict.mvr.bg/integration/service/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="Call" type="xs:string" />
+      <xs:element name="Message" type="xs:string" />
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="Call">
+    <wsdl:part name="message" element="ns1:Call" />
+  </wsdl:message>
+  <wsdl:message name="CallResponse">
+    <wsdl:part name="message" element="ns1:Message" />
+  </wsdl:message>
+  <wsdl:portType name="IntSyncPortType">
+    <wsdl:operation name="Call">
+      <wsdl:input name="Call" message="ns1:Call" />
+      <wsdl:output name="CallResponse" message="ns1:CallResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

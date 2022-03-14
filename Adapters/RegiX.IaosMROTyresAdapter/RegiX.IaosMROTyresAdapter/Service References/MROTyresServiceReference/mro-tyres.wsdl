@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://egov.bg/RegiX/IAOS/MROTyres" targetNamespace="http://egov.bg/RegiX/IAOS/MROTyres" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="https://source.gravis.bg:443/egov/services/mro-tyres?xsd=1" namespace="http://egov.bg/RegiX/IAOS/MROTyres" />
+    </xsd:schema>
+  </types>
+  <message name="getTradeMarks">
+    <part name="parameters" element="tns:MRO_TYRES_Trade_Marks_Request" />
+  </message>
+  <message name="getTradeMarksResponse">
+    <part name="parameters" element="tns:getTradeMarksResponse" />
+  </message>
+  <message name="WebServiceException">
+    <part name="fault" element="tns:WebServiceException" />
+  </message>
+  <message name="getExecutionType">
+    <part name="parameters" element="tns:MRO_TYRES_Execution_Type_Request" />
+  </message>
+  <message name="getExecutionTypeResponse">
+    <part name="parameters" element="tns:getExecutionTypeResponse" />
+  </message>
+  <message name="getValidityCheck">
+    <part name="parameters" element="tns:MRO_TYRES_Validity_Check_Request" />
+  </message>
+  <message name="getValidityCheckResponse">
+    <part name="parameters" element="tns:getValidityCheckResponse" />
+  </message>
+  <portType name="MROTyresService">
+    <operation name="getTradeMarks">
+      <input xmlns:ns1="http://www.w3.org/2007/05/addressing/metadata" ns1:Action="http://egov.bg/RegiX/IAOS/MROTyres/MROTyresService/getTradeMarksRequest" message="tns:getTradeMarks" />
+      <output xmlns:ns2="http://www.w3.org/2007/05/addressing/metadata" ns2:Action="http://egov.bg/RegiX/IAOS/MROTyres/MROTyresService/getTradeMarksResponse" message="tns:getTradeMarksResponse" />
+      <fault xmlns:ns3="http://www.w3.org/2007/05/addressing/metadata" ns3:Action="http://egov.bg/RegiX/IAOS/MROTyres/MROTyresService/getTradeMarks/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+    <operation name="getExecutionType">
+      <input xmlns:ns4="http://www.w3.org/2007/05/addressing/metadata" ns4:Action="http://egov.bg/RegiX/IAOS/MROTyres/MROTyresService/getExecutionTypeRequest" message="tns:getExecutionType" />
+      <output xmlns:ns5="http://www.w3.org/2007/05/addressing/metadata" ns5:Action="http://egov.bg/RegiX/IAOS/MROTyres/MROTyresService/getExecutionTypeResponse" message="tns:getExecutionTypeResponse" />
+      <fault xmlns:ns6="http://www.w3.org/2007/05/addressing/metadata" ns6:Action="http://egov.bg/RegiX/IAOS/MROTyres/MROTyresService/getExecutionType/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+    <operation name="getValidityCheck">
+      <input xmlns:ns7="http://www.w3.org/2007/05/addressing/metadata" ns7:Action="http://egov.bg/RegiX/IAOS/MROTyres/MROTyresService/getValidityCheckRequest" message="tns:getValidityCheck" />
+      <output xmlns:ns8="http://www.w3.org/2007/05/addressing/metadata" ns8:Action="http://egov.bg/RegiX/IAOS/MROTyres/MROTyresService/getValidityCheckResponse" message="tns:getValidityCheckResponse" />
+      <fault xmlns:ns9="http://www.w3.org/2007/05/addressing/metadata" ns9:Action="http://egov.bg/RegiX/IAOS/MROTyres/MROTyresService/getValidityCheck/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+  </portType>
+</definitions>

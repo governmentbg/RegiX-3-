@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SendDataForCollectionAdditionToIORequest xmlns="http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForCollectionAdditionToIORequest" xmlns:common="http://egov.bg/RegiX/NRA/Collections" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IO>
+    <ActIssurerID>2</ActIssurerID>
+    <SubdivisionID>1</SubdivisionID>
+    <TitulID>1</TitulID>
+    <SubdivisionEIK>aaaaaaaaa</SubdivisionEIK>
+  </IO>
+  <Collection>
+    <common:CollectibleID>2147483647</common:CollectibleID>
+    <common:BeneficiaryCode>2</common:BeneficiaryCode>
+    <common:DepartmentCode>1</common:DepartmentCode>
+    <common:BeneficiaryEIK>aaaaaaaaa</common:BeneficiaryEIK>
+    <common:CollectibleType>String</common:CollectibleType>
+    <common:PeriodFrom>1967-08-13</common:PeriodFrom>
+    <common:PeriodTo>1967-08-13</common:PeriodTo>
+    <common:UnforcedPaymentDate>1967-08-13</common:UnforcedPaymentDate>
+    <common:PrincipalAmountInterest>0</common:PrincipalAmountInterest>
+    <common:InterestAmount>0</common:InterestAmount>
+    <common:PrincipalAmountNoInterest>0</common:PrincipalAmountNoInterest>
+    <common:Currency>AAA</common:Currency>
+    <common:InterestFromDate>1967-08-13</common:InterestFromDate>
+    <common:InterestType>String</common:InterestType>
+    <common:Liabilities>
+      <common:Liability>
+        <common:JointLiabilityEIK>aaaaaaaaa</common:JointLiabilityEIK>
+        <common:JointLiabilityEIKType>BULSTAT</common:JointLiabilityEIKType>
+      </common:Liability>
+      <common:Liability>
+        <common:JointLiabilityEIK>aaaaaaaaa</common:JointLiabilityEIK>
+        <common:JointLiabilityEIKType>BULSTAT</common:JointLiabilityEIKType>
+      </common:Liability>
+    </common:Liabilities>
+  </Collection>
+</SendDataForCollectionAdditionToIORequest>

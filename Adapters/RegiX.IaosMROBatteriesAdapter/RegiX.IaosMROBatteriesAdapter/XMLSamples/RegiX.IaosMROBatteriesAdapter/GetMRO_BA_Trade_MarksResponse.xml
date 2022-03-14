@@ -1,0 +1,11 @@
+<MRO_BA_Trade_Marks_Response xmlns="http://egov.bg/RegiX/IAOS/MROBatteries/TradeMarksResponse">
+  <Authorization>
+    <CompanyName>Техно Логика</CompanyName>
+    <EIK>4865357129</EIK>
+    <TradeMarks>
+      <TradeMark>Тошиба</TradeMark>
+      <TradeMark>Варта</TradeMark>
+      <TradeMark>Дюрасел</TradeMark>
+    </TradeMarks>
+  </Authorization>
+</MRO_BA_Trade_Marks_Response>

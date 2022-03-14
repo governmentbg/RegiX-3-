@@ -1,0 +1,71 @@
+ <PermitsInstructorsResponse xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters/PermitsInstructorsReportResponse">
+              <Instructor>
+                <SubjectFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">full name</SubjectFullName>
+                <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">identity number</SubjectIdentNumber>
+                <LastQualificationCertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">number</LastQualificationCertificateNumber>
+                <LastQualificationCertificateIssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-08-21</LastQualificationCertificateIssueDate>
+                <LastQualificationCertificateIssuedBy xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">name</LastQualificationCertificateIssuedBy>
+                <LastDrivingLicenceCertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">number</LastDrivingLicenceCertificateNumber>
+                <LastDrivingLicenceCertificateIssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-08-21</LastDrivingLicenceCertificateIssueDate>
+                <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">cartificate categorie</LastDrivingLicenceCertificateCategories>
+                <ExamModuleNames xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">
+                  <ExamModuleName>module name</ExamModuleName>
+                </ExamModuleNames>
+                <InstructorPermits>
+                  <InstructorPermit>
+                    <Permit>
+                      <Number xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1</Number>
+                      <CompanyFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">full name</CompanyFullName>
+                      <CompanyIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">identity number</CompanyIdentNumber>
+                      <ManagerFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">full name</ManagerFullName>
+                      <ManagerIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">identity number</ManagerIdentNumber>
+                      <Address xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">address</Address>
+                      <PermitType xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">type</PermitType>
+                      <IssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-08-21</IssueDate>
+                      <ValidTo xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-08-21</ValidTo>
+                      <CeaseDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-08-21</CeaseDate>
+                      <TechAssistantFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">full name</TechAssistantFullName>
+                      <TechAssistantIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">identity number</TechAssistantIdentNumber>
+                      <OrgUnitShortName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">short name</OrgUnitShortName>
+                      <Status xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">status</Status>
+                      <ExamRoomsCount xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1</ExamRoomsCount>
+                      <SeatPlacesCount xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1</SeatPlacesCount>
+                      <ExamSeatsCount xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1</ExamSeatsCount>
+                      <Vehicles>
+                        <Vehicle>
+                          <RegNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">registration number</RegNumber>
+                          <Make xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">make</Make>
+                          <IdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">identity number</IdentNumber>
+                          <Categories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">categories</Categories>
+                          <ProtocolNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">protocol number</ProtocolNumber>
+                          <ProtocolDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-08-21</ProtocolDate>
+                          <MaximumDesignSpeed xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1</MaximumDesignSpeed>
+                          <MaxPermittedDefinedMass xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1</MaxPermittedDefinedMass>
+                          <SeatPlaces xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">seat places</SeatPlaces>
+                          <Width xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.1</Width>
+                          <Length xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.1</Length>
+                          <Gears xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1</Gears>
+                          <HasABS xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasABS>
+                          <HasTachograph xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasTachograph>
+                          <CargoDepartmentWidth xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.1</CargoDepartmentWidth>
+                          <CargoDepartmentHeight xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.1</CargoDepartmentHeight>
+                          <MaxPower xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1</MaxPower>
+                          <Code78 xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</Code78>
+                          <EngineCapacity xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">10</EngineCapacity>
+                          <PowerToWeightRatio xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.1</PowerToWeightRatio>
+                          <CertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">number</CertificateNumber>
+                          <CertificateDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-08-21</CertificateDate>
+                        </Vehicle>
+                      </Vehicles>
+                    </Permit>
+                    <Certificates>
+                      <Certificate>
+                        <PermitCertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">certificate number</PermitCertificateNumber>
+                        <PermitCertificateIssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-08-21</PermitCertificateIssueDate>
+                        <ExamTypePermission xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">exam type permission</ExamTypePermission>
+                      </Certificate>
+                    </Certificates>
+                  </InstructorPermit>
+                </InstructorPermits>
+              </Instructor>
+            </PermitsInstructorsResponse>

@@ -1,0 +1,51 @@
+variables:
+  BuildConfiguration: debug
+resources:
+- repo: self
+queue:
+  name: RegiX
+steps:
+- task: VisualStudioTestPlatformInstaller@1
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/*.sln' 
+    feedsToUse: 'select'
+    vstsFeed: 'TechnoLogica.Common'
+- task: MSBuild@1
+  displayName: 'Build'
+  inputs:
+    configuration: '$(BuildConfiguration)' 
+    solution: '**/*.sln' 
+- task: MSBuild@1
+  displayName: 'Publish project RegiX.Admin.API/RegiX.Admin.API.proj'
+  inputs:
+    project: '$(Build.Repository.LocalPath)\RegiX.Admin\RegiX.Admin.API\RegiX.Admin.API.csproj'
+    msbuildArguments: '/p:DeployOnBuild=true /p:PublishProfile="$(Build.Repository.LocalPath)\RegiX.Admin\RegiX.Admin.API\Properties\PublishProfiles\FolderProfile.pubxml"'
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+        $productVersion = Get-Item $(Build.Repository.LocalPath)\RegiX.Admin\RegiX.Admin.API\bin\Release\Publish\RegiX.Admin.API.dll |Select-Object -ExpandProperty VersionInfo|Select-Object -ExpandProperty ProductVersion
+        Remove-Item $(Build.Repository.LocalPath)\RegiX.Admin\RegiX.Admin.API\bin\Release\Publish\*.ver        
+        New-Item -Path $(Build.Repository.LocalPath)\RegiX.Admin\RegiX.Admin.API\bin\Release\Publish -Name "$productVersion.ver"   
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
+  inputs:
+    artifactName: 'RegiX.Admin.API'
+    PathtoPublish: '$(Build.Repository.LocalPath)\RegiX.Admin\RegiX.Admin.API\bin\Release\Publish'
+#- task: PublishBuildArtifacts@1
+#  displayName: 'Publish Artifact: test'
+#  inputs:
+#    artifactName: 'test'
+#    PathtoPublish: '$(Build.Repository.LocalPath)\RegiX.Admin\RegiX.Admin.API.Tests.REST\bin\$(BuildConfiguration)\netcoreapp2.1'
+#- task: WindowsMachineFileCopy@2
+#  inputs:
+#    sourcePath: '$(Build.Repository.LocalPath)\RegiX.Admin\RegiX.Admin.API\bin\Release\Publish'
+#    machineNames: '172.16.69.13'
+#    adminUserName: '$(RegiX.Adapters.AdminUserName)'
+#    adminPassword: '$(RegiX.Adapters.AdminUserPassword)'
+#    targetPath: 'C:\RegiX3\RegiX.Admin.API'
+#    cleanTargetBeforeCopy: true
+#    copyFilesInParallel: true
+#    #additionalArguments: # Optional

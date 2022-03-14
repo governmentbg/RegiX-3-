@@ -1,0 +1,34 @@
+<PermitResponse xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections/PermitResponse">
+  <Permits>
+    <Permit>
+      <KtpName xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">name</KtpName>
+      <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">identity number</SubjectIdentNumber>
+      <KtpCityName xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">city</KtpCityName>
+      <KtpAddress xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">address</KtpAddress>
+      <KtpCategoryLabel xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">label</KtpCategoryLabel>
+      <PermitNumber xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">1</PermitNumber>
+      <OrgUnitShortName xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">short name</OrgUnitShortName>
+      <PermitStatusCode xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">status code</PermitStatusCode>
+      <PermitStatus xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">status</PermitStatus>
+      <FirstRegDate xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2015-08-21</FirstRegDate>
+      <ValidTo xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2015-08-21</ValidTo>
+      <LastChangeDate xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2015-08-21</LastChangeDate>
+      <ListChangeDate xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2015-08-21</ListChangeDate>
+      <InspectionProtocols xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">protocols</InspectionProtocols>
+      <InspectionDate xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2015-08-21</InspectionDate>
+      <CloseDate xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2015-08-21</CloseDate>
+      <CloseReason xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">close reason</CloseReason>
+      <StampNumber xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">1</StampNumber>
+      <Remarks xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">remarks</Remarks>
+      <LineCount xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">1</LineCount>
+      <Inspectors>
+        <Inspector>
+          <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">identity number</SubjectIdentNumber>
+          <SubjectFullName xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">full name</SubjectFullName>
+          <CurrentStatus xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">status</CurrentStatus>
+          <IsChairman xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">false</IsChairman>
+        </Inspector>
+      </Inspectors>
+    </Permit>
+  </Permits>
+</PermitResponse>

@@ -1,0 +1,12 @@
+<SendPaymentNotificationRequest xmlns="http://egov.bg/RegiX/MVR/PaymentNotification/SendPaymentNotificationRequest">
+  <TransactionNumber>521456</TransactionNumber>
+  <DocumentType>TICKET</DocumentType>
+  <DocumentSeries>J</DocumentSeries>
+  <DocumentNumber>101010101</DocumentNumber>
+  <PaymentAmount>101</PaymentAmount>
+  <PaymentDate>2001-12-17T09:30:47</PaymentDate>
+  <PayerPin>String</PayerPin>
+  <PayerType>P</PayerType>
+  <SystemId>101</SystemId>
+  <AdministrationName>String</AdministrationName>
+</SendPaymentNotificationRequest>

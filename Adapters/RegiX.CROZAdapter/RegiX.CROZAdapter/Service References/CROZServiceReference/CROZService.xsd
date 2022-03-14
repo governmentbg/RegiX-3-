@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:types="http://croz.tlogica.com/ws/types/" targetNamespace="http://croz.tlogica.com/ws/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import schemaLocation="http://croz-dev-xp:8080/CROZV2/CROZService?xsd=2" namespace="http://croz.tlogica.com/ws/types/" />
+  <xsd:element name="getCreditorsInfoRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="reg_id" type="xsd:string" />
+        <xsd:element minOccurs="0" name="archiveLikeFilter" type="xsd:string" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getCreditorsInfoResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="creditors" type="types:participantsArray" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getDebtorInfoRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="reg_id" type="xsd:string" />
+        <xsd:element minOccurs="0" name="archiveLikeFilter" type="xsd:string" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getDebtorInfoResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="debtors" type="types:participantsArray" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getAmendmentInfoRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="reg_id" type="xsd:string" />
+        <xsd:element name="isOAIncluded" type="xsd:string" />
+        <xsd:element minOccurs="0" name="archiveLikeFilter" type="xsd:string" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getAmendmentInfoResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="amendments" type="types:amendmentsArray" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getDealInfoRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="reg_id" type="xsd:string" />
+        <xsd:element name="isOAIncluded" type="xsd:string" />
+        <xsd:element minOccurs="0" name="archiveLikeFilter" type="xsd:string" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getDealInfoResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="deal" type="types:deal" />
+        <xsd:element name="synchronizationDate" type="xsd:string" />
+        <xsd:element name="mode" type="xsd:int" />
+        <xsd:element minOccurs="0" name="isOAIncluded" type="xsd:string" />
+        <xsd:element minOccurs="0" name="archiveLikeFilter" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getConsignmentInfoRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="par_id" type="xsd:int" />
+        <xsd:element minOccurs="0" name="archiveLikeFilter" type="xsd:string" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getConsignmentInfoResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="consignment" type="types:consignment" />
+        <xsd:element name="synchronizationDate" type="xsd:string" />
+        <xsd:element name="mode" type="xsd:int" />
+        <xsd:element minOccurs="0" name="archiveLikeFilter" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="searchByParticipNameRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="name" type="xsd:string" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="searchByParticipNameResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="participantsList" type="types:participantsArray" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="searchByParticipCodeRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="particip_id_code" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="searchByParticipCodeResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="participantsList" type="types:participantsArray" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="searchByParticipantRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="particip_id_code" type="xsd:string" />
+        <xsd:element name="particip_name" type="xsd:string" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="searchByParticipantResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="participantsList" type="types:participantsArray" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="searchByDealNumberRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="regId" type="xsd:string" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="searchByDealNumberResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="entriesList" type="types:entriesArray" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="searchByParticipNameCodeRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="participName" type="xsd:string" />
+        <xsd:element name="participCode" type="xsd:string" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="searchByParticipNameCodeResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="entriesList" type="types:entriesArray" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getOAInfoRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="reg_id" type="xsd:string" />
+        <xsd:element name="sql_statement_name" type="xsd:string" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getOAInfoResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="oas" type="types:OAArray" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="synchronizationDateRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="dummy" type="xsd:string" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="synchronizationDateResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="date" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getModeRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="dummy" type="xsd:string" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getModeResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="mode" type="xsd:int" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getConsignmentParticipantsInfoRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="particip_code" type="xsd:string" />
+        <xsd:element name="particip_name" type="xsd:string" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getConsignmentParticipantsInfoResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="participant" type="types:participantsArray" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getEraseEntryInfoRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="particip_code" type="xsd:string" />
+        <xsd:element name="reg_id" type="xsd:string" />
+        <xsd:element minOccurs="0" name="archiveLikeFilter" type="xsd:string" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getEraseEntryInfoResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="eraseEntryDates" type="types:datesArray" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getLeftExecutionInfoRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="particip_code" type="xsd:string" />
+        <xsd:element name="reg_id" type="xsd:string" />
+        <xsd:element minOccurs="0" name="archiveLikeFilter" type="xsd:string" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getLeftExecutionInfoResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="leftExecutionDates" type="types:datesArray" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getProceedExecutionInfoRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="particip_code" type="xsd:string" />
+        <xsd:element name="reg_id" type="xsd:string" />
+        <xsd:element minOccurs="0" name="archiveLikeFilter" type="xsd:string" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getProceedExecutionInfoResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="proceedExecutionDates" type="types:datesArray" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getNewManagerInfoRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="reg_id" type="xsd:string" />
+        <xsd:element minOccurs="0" name="archiveLikeFilter" type="xsd:string" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="getNewManagerInfoResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="newManagerDates" type="types:datesArray" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="executeRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="type" type="types:callType" />
+        <xsd:element name="sql" type="xsd:string" />
+        <xsd:element minOccurs="0" name="bindValues" type="types:map" />
+        <xsd:element minOccurs="0" name="securityInfo" type="types:securityInfo" />
+      </xsd:sequence>
+    </xsd:complexType>
+    <xsd:unique name="map-name-is-unique">
+      <xsd:selector xpath="bindValues" />
+      <xsd:field xpath="entry/name" />
+    </xsd:unique>
+  </xsd:element>
+  <xsd:element name="executeResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element minOccurs="0" name="error" type="xsd:string" />
+        <xsd:element minOccurs="0" name="result" type="xsd:string" />
+        <xsd:element minOccurs="0" name="data" type="types:table" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

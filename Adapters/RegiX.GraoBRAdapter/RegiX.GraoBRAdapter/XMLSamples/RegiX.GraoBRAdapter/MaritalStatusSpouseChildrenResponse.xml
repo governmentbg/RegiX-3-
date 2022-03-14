@@ -1,0 +1,20 @@
+<MaritalStatusSpouseChildrenResponse xmlns="http://egov.bg/RegiX/GRAO/BR/MaritalStatusSpouseChildrenResponse">
+  <MaritalStatusCode>3</MaritalStatusCode>
+  <MaritalStatusName>Heпoкaзaнo</MaritalStatusName>
+  <FirstName>Никола</FirstName>
+  <MiddleName>Иванов</MiddleName>
+  <LastName>Първанов</LastName>
+  <EGN>8506258485</EGN>
+  <Gender>1</Gender>
+  <Relatives>
+    <Relative>
+      <OrderNumber>1</OrderNumber>
+      <FirstName>Валентина</FirstName>
+      <MiddleName>Колева</MiddleName>
+      <LastName>Иванова</LastName>
+      <EGN>6801111420</EGN>
+      <RelativeType>СЪПРУГА</RelativeType>
+    </Relative>
+  </Relatives>
+  <ReportDate>2017-11-20T17:19:53.2361426+02:00</ReportDate>
+</MaritalStatusSpouseChildrenResponse>

@@ -1,0 +1,122 @@
+<tl-wrapping-card
+  [title]="routes.SYSTEM_ERRORS.title"
+  [icon]="routes.SYSTEM_ERRORS.icon"
+  [actions]="[{ reference: excelExportAll }]"
+>
+  <tl-linear-progress [visible]="this.service.isLoading"></tl-linear-progress>
+  <igx-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    (onSortingDone)="sortingDone($event)"
+    (onFilteringDone)="filteringDone($event)"
+    (onSelection)="cellSelection($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+    <igx-column
+      field="userName"
+      header="Потребител"
+      [sortable]="true"
+      width="10%"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="controller"
+      header="Контролер"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="actionMethod"
+      header="Метод"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="authority"
+      header="Администрация"
+      [sortable]="true"
+      [dataType]="'string'"
+      [formatter]="displayValueService.formatDisplayValue"
+      [filters]="displayValueFilteringOperand"
+    >
+    </igx-column>
+
+    <igx-column
+      field="exceptionTime"
+      header="Дата"
+      width="15%"
+      [sortable]="true"
+      [dataType]="'date'"
+      [formatter]="this.dateFormatService.formatDate"
+    >
+    </igx-column>
+
+    <igx-column
+      field="exceptionText"
+      header="Грешка"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      header="Действия"
+      [sortable]="false"
+      width="120px"
+      [filterable]="false"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          igxLayout
+          igxLayoutDir="row"
+          igxLayoutJustify="center"
+          class="action-buttons-wrapper"
+        >
+          <tl-reference-button
+            [routeReference]="this.routes.SYSTEM_ERROR_VIEW"
+            [routeArguments]="{ ':ID': cell.rowData.id + '' }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-grid>
+      <div class="tl-paginator">
+        <tl-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+
+  </igx-grid>
+</tl-wrapping-card>

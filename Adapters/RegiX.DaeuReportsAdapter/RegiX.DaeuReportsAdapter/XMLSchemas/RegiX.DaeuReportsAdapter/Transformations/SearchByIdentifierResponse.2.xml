@@ -1,0 +1,506 @@
+<?xml version="1.0"?>
+<SearchByIdentifierResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierResponse">
+  <MaxAllowedResults>50</MaxAllowedResults>
+  <TotalResults>200</TotalResults>
+  <ExecutedCalls>
+    <ApiServiceCallID>556752</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.92+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556751</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.919696+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556750</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.857+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556749</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.827+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556748</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.827+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556747</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.733+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556746</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.733+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556745</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.7+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556743</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.637+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556744</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.623+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556741</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.577+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556742</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.577+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556740</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.53+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556739</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.467+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556738</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.45+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556737</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.42+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556736</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.373+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556735</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.373+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556734</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.34+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556733</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.297+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556732</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.297+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556731</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.263+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556730</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.233+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556729</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.17+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556728</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.153+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556727</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.123+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556726</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.123+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556725</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.0914446+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556723</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.03+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556724</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:33.028937+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556722</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.967+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556720</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.967+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556721</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.9664311+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556719</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.887+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556718</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.873+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556717</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.8414109+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556716</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.81+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556715</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.763+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556714</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.763+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556713</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.7007726+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556712</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.687+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556711</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.653+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556710</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.607+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556709</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.5132521+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556708</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.483+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556706</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.357+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556707</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.357+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556705</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.28+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556704</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.233+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>556703</ApiServiceCallID>
+    <StartTime>2018-06-05T14:20:32.2+03:00</StartTime>
+    <ReportName>Справка за физическо лице – чужденец</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Тест без сертификат</Consumer>
+    <ConsumerAdministration>Тестова администрация</ConsumerAdministration>
+    <Producer>Единен регистър на чужденците</Producer>
+    <ProducerAdministration>Министерство на вътрешните работи</ProducerAdministration>
+  </ExecutedCalls>
+</SearchByIdentifierResponse>
+

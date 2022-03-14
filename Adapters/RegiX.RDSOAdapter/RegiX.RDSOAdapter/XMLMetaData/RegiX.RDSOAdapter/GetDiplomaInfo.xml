@@ -1,0 +1,70 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.RDSOAdapter.APIService.IRDSOAPI.GetDiplomaInfo</OperationName>
+  <Code>GetDiplomaInfo</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>DiplomaDocumentsRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/MOMN/RDSO/DiplomaDocumentsRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за диплома за средно образование на определено лице</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>StudentID</ParameterName>
+        <ParameterLabel>ЕГН, ЛНЧ или служебен номер на ученика</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <IdentifierType>7</IdentifierType>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>IDType</ParameterName>
+        <ParameterLabel>Тип идентификатор</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <IdentifierType>7</IdentifierType>
+        <ParameterType>
+          <Type>IdentifierType</Type>
+          <EnumValues>
+            <EnumValue>
+              <Value>EGN</Value>
+              <DisplayText>ЕГН</DisplayText>
+              <IdentifierType>1</IdentifierType>
+            </EnumValue>
+            <EnumValue>
+              <Value>LNCh</Value>
+              <DisplayText>ЛНЧ</DisplayText>
+              <IdentifierType>2</IdentifierType>
+            </EnumValue>
+            <EnumValue>
+              <Value>IDN</Value>
+              <DisplayText>Служебен номер на ученик</DisplayText>
+            </EnumValue>
+          </EnumValues>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>DocumentNumber</ParameterName>
+        <ParameterLabel>Номер на документ - въвежда се само цифровата част на номера</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

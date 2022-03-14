@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegiX.Core.Interfaces", "RegiX.Core.Interfaces\RegiX.Core.Interfaces.csproj", "{16D06890-C6C1-43DC-9909-510CC4329746}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DAF2B88E-6B5B-48F7-A81C-AD8030DD2C46}"
+	ProjectSection(SolutionItems) = preProject
+		azure-devops.yaml = azure-devops.yaml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16D06890-C6C1-43DC-9909-510CC4329746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D06890-C6C1-43DC-9909-510CC4329746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D06890-C6C1-43DC-9909-510CC4329746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D06890-C6C1-43DC-9909-510CC4329746}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F0727CD-80E1-44F9-894E-F89F5E3D481E}
+	EndGlobalSection
+EndGlobal

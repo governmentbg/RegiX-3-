@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>NRGS.ActSignature</id>
+    <version>1.0.0</version>
+    <authors>Dimitar Mitev</authors>
+    <owners>Dimitar Mitev</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ActSignature package</description>
+    <releaseNotes>ActSignature nuget package</releaseNotes>
+  </metadata>
+  <files>
+    <file src="ActSignature.dll" target="lib"></file>
+  </files>	
+</package>

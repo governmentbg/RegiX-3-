@@ -1,0 +1,39 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.IaosREG35Adapter.APIService.IIaosREG35API.GetREG35_Allowed_Waste_Codes</OperationName>
+  <Code>GetREG35_Allowed_Waste_Codes</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>REG35_Allowed_Waste_Codes_Request</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/IAOS/REG35/AllowedWasteCodesRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за разрешени кодове на отпадъци от дейности с ОЧЦМ, ИУЕЕО, ИУМПС и НУБА</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>AuthNum</ParameterName>
+        <ParameterLabel>Регистрационен номер</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>StageNum</ParameterName>
+        <ParameterLabel>Номер на площадка</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

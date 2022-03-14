@@ -1,0 +1,10 @@
+<ns1:GetStateOfPlayRequest  xmlns:ns1="http://www.bulstat.bg/GetStateOfPlayRequest" xmlns:T3="http://www.bulstat.bg/NomenclatureEntry"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<ns1:UIC>a</ns1:UIC>
+		<ns1:Case>
+			<ns1:Court>
+				<T3:Code>a</T3:Code>
+			</ns1:Court>
+			<ns1:Year>0</ns1:Year>
+			<ns1:Number>a</ns1:Number>
+		</ns1:Case>
+	</ns1:GetStateOfPlayRequest>

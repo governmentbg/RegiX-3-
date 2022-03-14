@@ -1,0 +1,22 @@
+.main-router-wrapper {
+  overflow: auto;
+  height: calc(100vh - 105px);
+}
+.breadcrumps-wrapper {
+  padding-top: 5px;
+}
+.navigation-wrapper {
+  height: calc(100vh - 56px);
+}
+.back-button{
+  margin-top: 8px;
+}
+.empty-data-wrapper {
+  padding: 10px;
+  padding-left: 15px;
+}
+.help-button {
+  margin-left: 0.1rem;
+  min-width: 36px;
+  color: white;
+}

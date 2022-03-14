@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PatientRecordDentalResponse xmlns="http://egov.bg/RegiX/NHIF/Response">
+  <PatientRecordDentals>
+    <PatientRecordDental>
+      <PatientIdentificator>PatientIdentificator1</PatientIdentificator>
+      <BranchName>BranchName1</BranchName>
+      <MSP>
+        <MSPCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPCode1</MSPCode>
+        <MSPName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPName1</MSPName>
+      </MSP>
+      <Practitioner>
+        <UINNumber xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">UINNumber1</UINNumber>
+        <PractitionerName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerName1</PractitionerName>
+        <PractitionerSpecialityCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityCode1</PractitionerSpecialityCode>
+        <PractitionerSpecialityName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityName1</PractitionerSpecialityName>
+      </Practitioner>
+      <DeputyPractitioner>
+        <UINNumber xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">UINNumber1</UINNumber>
+        <PractitionerName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerName1</PractitionerName>
+        <PractitionerSpecialityCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityCode1</PractitionerSpecialityCode>
+        <PractitionerSpecialityName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityName1</PractitionerSpecialityName>
+      </DeputyPractitioner>
+      <AmbulatoryListNumber>AmbulatoryListNumber1</AmbulatoryListNumber>
+      <DentalActivity>
+        <ActivityDate>ActivityDate1</ActivityDate>
+        <DentalActivityCode>DentalActivityCode1</DentalActivityCode>
+        <DentalActivityName>DentalActivityName1</DentalActivityName>
+      </DentalActivity>
+      <ToothCode>ToothCode1</ToothCode>
+      <Price>Price1</Price>
+    </PatientRecordDental>
+    <PatientRecordDental>
+      <PatientIdentificator>PatientIdentificator2</PatientIdentificator>
+      <BranchName>BranchName2</BranchName>
+      <MSP>
+        <MSPCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPCode2</MSPCode>
+        <MSPName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPName2</MSPName>
+      </MSP>
+      <Practitioner>
+        <UINNumber xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">UINNumber2</UINNumber>
+        <PractitionerName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerName2</PractitionerName>
+        <PractitionerSpecialityCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityCode2</PractitionerSpecialityCode>
+        <PractitionerSpecialityName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityName2</PractitionerSpecialityName>
+      </Practitioner>
+      <DeputyPractitioner>
+        <UINNumber xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">UINNumber2</UINNumber>
+        <PractitionerName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerName2</PractitionerName>
+        <PractitionerSpecialityCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityCode2</PractitionerSpecialityCode>
+        <PractitionerSpecialityName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityName2</PractitionerSpecialityName>
+      </DeputyPractitioner>
+      <AmbulatoryListNumber>AmbulatoryListNumber2</AmbulatoryListNumber>
+      <DentalActivity>
+        <ActivityDate>ActivityDate2</ActivityDate>
+        <DentalActivityCode>DentalActivityCode2</DentalActivityCode>
+        <DentalActivityName>DentalActivityName2</DentalActivityName>
+      </DentalActivity>
+      <ToothCode>ToothCode2</ToothCode>
+      <Price>Price2</Price>
+    </PatientRecordDental>
+    <PatientRecordDental>
+      <PatientIdentificator>PatientIdentificator3</PatientIdentificator>
+      <BranchName>BranchName3</BranchName>
+      <MSP>
+        <MSPCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPCode3</MSPCode>
+        <MSPName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPName3</MSPName>
+      </MSP>
+      <Practitioner>
+        <UINNumber xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">UINNumber3</UINNumber>
+        <PractitionerName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerName3</PractitionerName>
+        <PractitionerSpecialityCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityCode3</PractitionerSpecialityCode>
+        <PractitionerSpecialityName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityName3</PractitionerSpecialityName>
+      </Practitioner>
+      <DeputyPractitioner>
+        <UINNumber xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">UINNumber3</UINNumber>
+        <PractitionerName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerName3</PractitionerName>
+        <PractitionerSpecialityCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityCode3</PractitionerSpecialityCode>
+        <PractitionerSpecialityName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityName3</PractitionerSpecialityName>
+      </DeputyPractitioner>
+      <AmbulatoryListNumber>AmbulatoryListNumber3</AmbulatoryListNumber>
+      <DentalActivity>
+        <ActivityDate>ActivityDate3</ActivityDate>
+        <DentalActivityCode>DentalActivityCode3</DentalActivityCode>
+        <DentalActivityName>DentalActivityName3</DentalActivityName>
+      </DentalActivity>
+      <ToothCode>ToothCode3</ToothCode>
+      <Price>Price3</Price>
+    </PatientRecordDental>
+  </PatientRecordDentals>
+</PatientRecordDentalResponse>

@@ -1,0 +1,37 @@
+<MotorVehicleLicenceResponse xmlns="http://egov.bg/RegiX/BABH/BABHZhS/MotorVehicleLicenceResponse">
+	<MotorVehicleData xmlns="http://egov.bg/RegiX/BABH/BABHZhS/MotorVehicleLicenceResponse">
+		<MotorVehicleType>товарен автомобил</MotorVehicleType>
+		<RegistrationNumber>А6284КС</RegistrationNumber>
+		<Area>44</Area>
+		<Status>активен</Status>
+		<StatusDate>2011-06-03T00:00:00+03:00</StatusDate>
+	</MotorVehicleData>
+	<LicencesData xmlns="http://egov.bg/RegiX/BABH/BABHZhS/MotorVehicleLicenceResponse">
+		<LicenceType>Лиценз запревоз на животни за  кратко пътуване</LicenceType>
+		<LicenceNumber>0295</LicenceNumber>
+		<DateFrom>2011-06-03T00:00:00+03:00</DateFrom>
+		<DateTo>2016-06-03T00:00:00+03:00</DateTo>
+	</LicencesData>
+	<UsedAnimalTypes xmlns="http://egov.bg/RegiX/BABH/BABHZhS/MotorVehicleLicenceResponse">
+		<AnimalKind>ДПЖ</AnimalKind>
+		<Count>220</Count>
+	</UsedAnimalTypes>
+	<UsedAnimalTypes xmlns="http://egov.bg/RegiX/BABH/BABHZhS/MotorVehicleLicenceResponse">
+		<AnimalKind>Свине</AnimalKind>
+		<Count>90</Count>
+	</UsedAnimalTypes>
+	<UsedAnimalTypes xmlns="http://egov.bg/RegiX/BABH/BABHZhS/MotorVehicleLicenceResponse">
+		<AnimalKind>ЕПЖ</AnimalKind>
+		<Count>45</Count>
+	</UsedAnimalTypes>
+	<UsedAnimalTypes xmlns="http://egov.bg/RegiX/BABH/BABHZhS/MotorVehicleLicenceResponse">
+		<AnimalKind>ЕК</AnimalKind>
+		<Count>18</Count>
+	</UsedAnimalTypes>
+	<ReltionshipsData xmlns="http://egov.bg/RegiX/BABH/BABHZhS/MotorVehicleLicenceResponse">
+		<RelationshipType>собственик</RelationshipType>
+		<Name>БЕЙАГА ООД " BEYAGA " LTD</Name>
+		<Identificator> 201431685</Identificator>
+		<DateFrom>2011-06-03T00:00:00+03:00</DateFrom>
+	</ReltionshipsData>
+</MotorVehicleLicenceResponse>

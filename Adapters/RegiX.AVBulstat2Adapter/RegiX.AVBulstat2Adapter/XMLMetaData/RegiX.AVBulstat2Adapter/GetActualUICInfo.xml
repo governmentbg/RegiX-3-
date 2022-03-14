@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.AVBulstat2Adapter.APIService.IAVBulstat2API.GetActualUICInfo</OperationName>
+  <Code>GetActualUICInfo</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>GetActualUICInfoRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/AV/BULSTAT/GetActualUICInfoRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за извличане на актуален УИК</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>UIC</ParameterName>
+        <ParameterLabel>Стойност на код по БУЛСТАТ</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

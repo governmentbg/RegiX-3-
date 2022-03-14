@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RegiX.Core.STSIntegration.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="STSAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://92.247.29.196:9443/egov-sts/jaxws-sts/sts</Value>
+    </Setting>
+    <Setting Name="STSIdentity" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sts.egov.bg</Value>
+    </Setting>
+    <Setting Name="STSServiceCertificateStoreLocation" Type="System.Security.Cryptography.X509Certificates.StoreLocation" Scope="Application">
+      <Value Profile="(Default)">LocalMachine</Value>
+    </Setting>
+    <Setting Name="STSServiceCertificateStoreName" Type="System.Security.Cryptography.X509Certificates.StoreName" Scope="Application">
+      <Value Profile="(Default)">TrustedPeople</Value>
+    </Setting>
+    <Setting Name="STSServiceCertificateX509FindType" Type="System.Security.Cryptography.X509Certificates.X509FindType" Scope="Application">
+      <Value Profile="(Default)">FindByThumbprint</Value>
+    </Setting>
+    <Setting Name="STSServiceCertificateValue" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">FC3ACE9EF9C204CBEF98D89818686F9E2EA3F5A9</Value>
+    </Setting>
+    <Setting Name="STSClientCertificateStoreLocation" Type="System.Security.Cryptography.X509Certificates.StoreLocation" Scope="Application">
+      <Value Profile="(Default)">LocalMachine</Value>
+    </Setting>
+    <Setting Name="STSClientCertificateStoreName" Type="System.Security.Cryptography.X509Certificates.StoreName" Scope="Application">
+      <Value Profile="(Default)">My</Value>
+    </Setting>
+    <Setting Name="STSClientCertificateX509FindType" Type="System.Security.Cryptography.X509Certificates.X509FindType" Scope="Application">
+      <Value Profile="(Default)">FindByThumbprint</Value>
+    </Setting>
+    <Setting Name="STSClientCertificateValue" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">FEB8132C82D38E0A8A43D94D8CF1B5A35499BE2E</Value>
+    </Setting>
+    <Setting Name="STSProtectionLevel" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Sign</Value>
+    </Setting>
+    <Setting Name="STSValidationEnable" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<ValidUICResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AV/TR/ValidUICResponse">
+  <Status>Нова партида</Status>
+  <UIC>201593301</UIC>
+  <Company>ТехноЛогика</Company>
+  <LegalForm>
+    <LegalFormAbbr xmlns="http://egov.bg/RegiX/AV/TR">ЕАД</LegalFormAbbr>
+    <LegalFormName xmlns="http://egov.bg/RegiX/AV/TR">Еднолично акционерно дружество</LegalFormName>
+  </LegalForm>
+</ValidUICResponse>

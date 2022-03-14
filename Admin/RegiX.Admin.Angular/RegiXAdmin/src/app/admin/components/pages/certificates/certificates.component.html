@@ -1,0 +1,216 @@
+<tl-wrapping-card
+  [fabAction]="routes.CERTIFICATE_NEW"
+  [title]="routes.CERTIFICATES.title"
+  [icon]="routes.CERTIFICATES.icon"
+  [subTitle]="subtitle"
+  [actions]="[
+    {
+      reference: this.routes.AUDIT,
+      args: { ':TABLE_NAME': this.CONSUMER_CERTIFICATES }
+    },
+    { reference: excelExportAll }
+  ]"
+>
+  <tl-linear-progress
+    [visible]="this.remoteService.isLoading"
+  ></tl-linear-progress>
+  <igx-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    (onSortingDone)="sortingDone($event)"
+    (onFilteringDone)="filteringDone($event)"
+    (onSelection)="cellSelection($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+    <igx-column
+      field="name"
+      header="Име"
+      [sortable]="true"
+      width="15%"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="description"
+      header="Описание"
+      [sortable]="true"
+      width="15%"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="thumbprint"
+      header="Thumbprint"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <!-- <igx-column
+      field="issuedFrom"
+      header="Издаден от"
+      [sortable]="true"
+      width="10%"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="issuedTo"
+      header="Издаден на"
+      [sortable]="true"
+      width="10%"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column> -->
+
+    <igx-column
+      field="validFrom"
+      header="Валиден от"
+      [sortable]="true"
+      width="10%"
+      [dataType]="'date'"
+      [formatter]="this.dateFormatService.formatDate"
+    >
+    </igx-column>
+
+    <igx-column
+      field="validTo"
+      header="Валиден до"
+      [sortable]="true"
+      width="10%"
+      [dataType]="'date'"
+      [formatter]="this.dateFormatService.formatDate"
+    >
+    </igx-column>
+
+    <igx-column
+      field="active"
+      header="Активен"
+      width="120px"
+      [sortable]="true"
+      [dataType]="'boolean'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <igx-checkbox disabled="true" [checked]="cell.value === true">
+        </igx-checkbox>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      header="Действия"
+      [sortable]="false"
+      width="180px"
+      [filterable]="false"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          igxLayout
+          igxLayoutDir="row"
+          igxLayoutJustify="center"
+          class="action-buttons-wrapper"
+        >
+          <tl-reference-button
+            [routeReference]="this.routes.CERTIFICATE_SHOW"
+            [routeArguments]="{ ':ID': cell.rowData.id }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+          <tl-reference-button
+            [routeReference]="this.routes.CERTIFICATE_EDIT"
+            [routeArguments]="{ ':ID': cell.rowData.id }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+          <tl-reference-button
+            [routeReference]="this.routes.CERTIFICATE_OPERATIONS"
+            [routeArguments]="{ ':CER_ID': cell.rowData.id }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+          <ng-template [ngxPermissionsOnly]="globalAdmin">
+            <button
+              type="button"
+              title="Изтрий"
+              igxButton="icon"
+              class="table-action-button"
+              (click)="prepareForDelete(cell.rowData)"
+            >
+              <igx-icon>delete</igx-icon>
+            </button>
+          </ng-template>
+          <button
+            *ngIf="this.isFilteredByConsumer"
+            type="button"
+            title="Прехвърляне на права"
+            igxButton="icon"
+            class="table-action-button"
+            (click)="showCertificates(cell.rowData)"
+          >
+            <igx-icon>copy_all</igx-icon>
+          </button>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-grid>
+      <div class="tl-paginator">
+        <tl-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+  </igx-grid>
+</tl-wrapping-card>
+
+<igx-dialog
+  #dialog
+  title="Изтриване на консуматор?"
+  message="Сигурни ли сте, че искате да изтриете избрания консуматор?"
+>
+  <div igxDialogActions class="dialog-container dialog-actions">
+    <button igxButton (click)="onDeleteCanceled()">НЕ</button>
+    <button igxButton="raised" (click)="onDeleteConfirmed()">ДА</button>
+  </div>
+</igx-dialog>
+
+<igx-dialog
+  #certificatesSwapFilterDialog
+  title="Избор на сертификат за прехвърляне на права"
+  [closeOnOutsideSelect]="true"
+>
+  <div style="height: 90vh; width: 95vw; overflow: auto;">
+    <app-certificate-swap-filter
+      #certificateSwapFilter
+      (selectedValues)="certificateSelected($event)"
+    >
+    </app-certificate-swap-filter>
+  </div>
+</igx-dialog>

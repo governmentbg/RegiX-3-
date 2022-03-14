@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.KzldExemptAdministratorsAdapter.APIService.IKzldExemptAdministratorsAPI.GetExemptRegistrationAdministrator</OperationName>
+  <Code>GetExemptRegistrationAdministrator</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>ExemptRegistrationAdministratorRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/KZLD/ExemptAdministrators/ExemptRegistrationAdministratorRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка по ЕИК/БУЛСТАТ/ЕГН/ЛНЧ за освободен от регистрация  администратор на лични данни</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>PersonalDataControllerID</ParameterName>
+        <ParameterLabel>Идентификатор на освободен от регистрация администратор на лични данни - ЕИК/БУЛСТАТ/ЕГН/ЛНЧ</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

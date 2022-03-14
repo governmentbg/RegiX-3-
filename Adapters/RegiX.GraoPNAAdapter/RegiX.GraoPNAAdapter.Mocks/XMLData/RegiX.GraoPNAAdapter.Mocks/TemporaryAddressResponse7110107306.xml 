@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<TemporaryAddressResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/PNA/TemporaryAddressResponse">
+  <DistrictCode>SF</DistrictCode>
+  <DistrictName>София (столица)</DistrictName>
+  <MunicipalityCode>SF</MunicipalityCode>
+  <MunicipalityName>Столична</MunicipalityName>
+  <SettlementCode>BG001</SettlementCode>
+  <SettlementName>гр. София</SettlementName>
+  <CityAreaCode>SL</CityAreaCode>
+  <CityArea/>
+  <LocationCode/>
+  <LocationName>Бул. Арсеналски</LocationName>
+  <BuildingNumber>121</BuildingNumber>
+  <Entrance></Entrance>
+  <Floor>3</Floor>
+  <Apartment>8</Apartment>
+  <FromDate>2005-03-12</FromDate>
+</TemporaryAddressResponse>

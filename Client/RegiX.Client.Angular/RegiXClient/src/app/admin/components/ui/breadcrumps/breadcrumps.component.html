@@ -1,0 +1,9 @@
+<igx-chips-area>
+  <igx-chip
+    class="breadcrumb-style"
+    *ngFor="let b of breadcrumbs"
+    [routerLink]="[b.url]">
+    <igx-icon igxPrefix *ngIf="b.icon">{{b.icon}}</igx-icon>
+    <span>{{b.name}}</span>
+  </igx-chip>
+</igx-chips-area>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetActualStateForIOOrCollectionRequest xmlns="http://egov.bg/RegiX/NRA/PublicDebtsCollection/GetActualStateForIOOrCollectionRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ActIssurerID>2</ActIssurerID>
+  <SubdivisionID>1</SubdivisionID>
+  <TitulID>1</TitulID>
+  <CollectibleID>1</CollectibleID>
+</GetActualStateForIOOrCollectionRequest>
+

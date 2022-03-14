@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PatientRecordDrugsByHospitalizationsResponse>
+  <PatientRecordDrugsByHospitalizations>
+    <PatientRecordDrugsByHospitalization>
+      <PatientIdentificator>PatientIdentificator1</PatientIdentificator>
+      <MSP>
+        <MSPCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPCode1</MSPCode>
+        <MSPName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPName1</MSPName>
+      </MSP>
+      <DeceaseHistoryNumber>DeceaseHistoryNumber1</DeceaseHistoryNumber>
+      <DateFrom>DateFrom1</DateFrom>
+      <DateTo>DateTo1</DateTo>
+      <DispensedDate>DispensedDate1</DispensedDate>
+      <ClinicalPath>
+        <ClinicalPathCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalPathCode1</ClinicalPathCode>
+        <ClinicalPathName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalPathName1</ClinicalPathName>
+      </ClinicalPath>
+      <MedicalSupply>
+        <MedicalSupplyCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MedicalSupplyCode1</MedicalSupplyCode>
+        <MedicalSupplyName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MedicalSupplyName1</MedicalSupplyName>
+      </MedicalSupply>
+      <Price>Price1</Price>
+    </PatientRecordDrugsByHospitalization>
+    <PatientRecordDrugsByHospitalization>
+      <PatientIdentificator>PatientIdentificator2</PatientIdentificator>
+      <MSP>
+        <MSPCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPCode2</MSPCode>
+        <MSPName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPName2</MSPName>
+      </MSP>
+      <DeceaseHistoryNumber>DeceaseHistoryNumber2</DeceaseHistoryNumber>
+      <DateFrom>DateFrom2</DateFrom>
+      <DateTo>DateTo2</DateTo>
+      <DispensedDate>DispensedDate2</DispensedDate>
+      <ClinicalPath>
+        <ClinicalPathCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalPathCode2</ClinicalPathCode>
+        <ClinicalPathName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalPathName2</ClinicalPathName>
+      </ClinicalPath>
+      <MedicalSupply>
+        <MedicalSupplyCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MedicalSupplyCode2</MedicalSupplyCode>
+        <MedicalSupplyName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MedicalSupplyName2</MedicalSupplyName>
+      </MedicalSupply>
+      <Price>Price2</Price>
+    </PatientRecordDrugsByHospitalization>
+    <PatientRecordDrugsByHospitalization>
+      <PatientIdentificator>PatientIdentificator3</PatientIdentificator>
+      <MSP>
+        <MSPCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPCode3</MSPCode>
+        <MSPName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPName3</MSPName>
+      </MSP>
+      <DeceaseHistoryNumber>DeceaseHistoryNumber3</DeceaseHistoryNumber>
+      <DateFrom>DateFrom3</DateFrom>
+      <DateTo>DateTo3</DateTo>
+      <DispensedDate>DispensedDate3</DispensedDate>
+      <ClinicalPath>
+        <ClinicalPathCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalPathCode3</ClinicalPathCode>
+        <ClinicalPathName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalPathName3</ClinicalPathName>
+      </ClinicalPath>
+      <MedicalSupply>
+        <MedicalSupplyCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MedicalSupplyCode3</MedicalSupplyCode>
+        <MedicalSupplyName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MedicalSupplyName3</MedicalSupplyName>
+      </MedicalSupply>
+      <Price>Price3</Price>
+    </PatientRecordDrugsByHospitalization>
+  </PatientRecordDrugsByHospitalizations>
+</PatientRecordDrugsByHospitalizationsResponse>

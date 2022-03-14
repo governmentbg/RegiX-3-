@@ -1,0 +1,168 @@
+<tl-wrapping-card
+  [fabAction]="routes.ADMINISTRATION_NEW"
+  [title]="routes.ADMINISTRATIONS.title"
+  [icon]="routes.ADMINISTRATIONS.icon"
+  [actions]="[{ reference: excelExportAll }]"
+>
+  <tl-linear-progress
+    [visible]="this.remoteService.isLoading"
+  ></tl-linear-progress>
+  <igx-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    (onSortingDone)="sortingDone($event)"
+    (onFilteringDone)="filteringDone($event)"
+    (onSelection)="cellSelection($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+    <igx-column
+      field="name"
+      header="Име"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="acronym"
+      header="Акроним"
+      width="15%"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="isMultitenantAuthority"
+      header="Мултитенант"
+      width="15%"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <igx-checkbox disabled="true" [checked]="cell.value === true" igxFlex>
+        </igx-checkbox>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="code"
+      header="Код"
+      width="15%"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="oid"
+      header="OID"
+      title="test"
+      width="20%"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      header="Действия"
+      [sortable]="false"
+      width="150px"
+      [filterable]="false"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          igxLayout
+          igxLayoutDir="row"
+          igxLayoutJustify="center"
+          class="action-buttons-wrapper"
+        >
+        <button
+          type="button"
+          title="Генерирай роли и услуги"
+          igxButton="icon"
+          class="table-action-button"
+          (click)="generateRolesAndReports(cell.rowData)"
+        >
+          <igx-icon>auto_awesome</igx-icon>
+        </button>
+          <tl-reference-button
+            [routeReference]="this.routes.ADMINISTRATION_VIEW"
+            [routeArguments]="{ ':ID': cell.rowData.id + '' }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+          <tl-reference-button
+            [routeReference]="this.routes.ADMINISTRATION_EDIT"
+            [routeArguments]="{ ':ID': cell.rowData.id + '' }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+          <button
+            type="button"
+            title="Изтрий"
+            igxButton="icon"
+            class="table-action-button"
+            (click)="prepareForDelete(cell.rowData)"
+          >
+            <igx-icon>delete</igx-icon>
+          </button>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-grid>
+      <div class="tl-paginator">
+        <tl-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+
+  </igx-grid>
+</tl-wrapping-card>
+
+
+<igx-dialog
+  #confirmRoleAndReportsCreationDialog
+  title="Създаване на роли и услуги?"
+  message="Сигурни ли сте, че искате да създадете автоматично роли и услуги за избраната администрация?"
+>
+  <div igxDialogActions class="dialog-container dialog-actions">
+    <button igxButton (click)="onDismissedRoleAndReportsCreation()">НЕ</button>
+    <button igxButton="raised" (click)="onConfirmRoleAndReportsCreation()">ДА</button>
+  </div>
+</igx-dialog>
+
+<igx-dialog
+  #dialog
+  title="Изтриване на администрация?"
+  message="Сигурни ли сте, че искате да изтриете избраната администрация?"
+>
+  <div igxDialogActions class="dialog-container dialog-actions">
+    <button igxButton (click)="onDeleteCanceled()">НЕ</button>
+    <button igxButton="raised" (click)="onDeleteConfirmed()">ДА</button>
+  </div>
+</igx-dialog>

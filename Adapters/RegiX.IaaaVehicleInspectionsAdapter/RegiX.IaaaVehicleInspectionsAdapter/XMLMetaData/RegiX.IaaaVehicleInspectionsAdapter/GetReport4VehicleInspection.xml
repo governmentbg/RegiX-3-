@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.IaaaVehicleInspectionsAdapter.APIService.IIaaaVehicleInspectionsAPI.GetReport4VehicleInspection</OperationName>
+  <Code>GetReport4VehicleInspection</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>VehicleInspectionRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/Iaaa/VehicleInspections/VehicleInspectionRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за извършен технически преглед по регистрационен номер на автомобил.</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>RegNumber</ParameterName>
+        <ParameterLabel>Регистрационне номер на търсеното ППС</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

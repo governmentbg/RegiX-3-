@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<PatentDetails xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/PatentDepartment/UM" xsi:schemaLocation="http://egov.bg/RegiX/PatentDepartment/UM D:\Projects\RegiX\RegiX.PvUmAdapter\XMLSchemas\REG_UM_PATENT_PatentDetails_Response.xsd">
+	<Patent xmlns="">
+		<ApplicationNumber>105939</ApplicationNumber>
+		<ApplicationDate>2001-09-24</ApplicationDate>
+		<RegistrationDate>0001-01-01</RegistrationDate>
+		<ExpiryDate>2011-09-24</ExpiryDate>
+		<PatentCurrentStatusDate>2002-09-16</PatentCurrentStatusDate>
+		<PatentTitle>УСТРОЙСТВО ЗА ДОПЪЛНИТЕЛНО РЕГУЛИРАНЕ НА НАЛЯГАНЕТО В РАБОТНИТЕ ЦИЛИНДРИ НА ПОВДИГАТЕЛНА УРЕДБА НА КАРИ</PatentTitle>
+		<PatentDescription/>
+		<PatentRepresentationSheetDetails/>
+		<IPCClassDetails>
+			<IPCClass>F16H 47/00</IPCClass>
+			<IPCName>Combinations of mechanical gearing with fluid clutches or fluid gearing (conjoint control of clutch and gearing B60K 41/22) [2]</IPCName>
+		</IPCClassDetails>
+		<PriorityDetails/>
+		<ExhibitionPriorityDetails/>
+		<PublicationDetails/>
+		<ApplicantDetails>
+			<Applicant>
+				<ApplicantIdentifier>21712</ApplicantIdentifier>
+				<ApplicantNationalityCode>BG</ApplicantNationalityCode>
+				<ApplicantAddressBook>
+					<FormattedNameAddress>
+						<Name>
+							<FormattedName>
+								<LastName>"БАЛКАНКАР РЕКОРД" АД</LastName>
+								<OrganizationName>5</OrganizationName>
+							</FormattedName>
+						</Name>
+						<Address>
+							<FormattedAddress>
+								<AddressStreet>ул."Кукленско шосе" 17</AddressStreet>
+								<AddressCity>Пловдив</AddressCity>
+								<AddressCounty>БЪЛГАРИЯ</AddressCounty>
+								<AddressPostcode>4000</AddressPostcode>
+								<FormattedAddressCountryCode>BG</FormattedAddressCountryCode>
+							</FormattedAddress>
+						</Address>
+					</FormattedNameAddress>
+					<ContactInformationDetails/>
+				</ApplicantAddressBook>
+			</Applicant>
+		</ApplicantDetails>
+		<RepresentativeDetails>
+			<Representative>
+				<RepresentativeIdentifier>48</RepresentativeIdentifier>
+				<RepresentativeNationalityCode>BG</RepresentativeNationalityCode>
+				<RepresentativeLegalEntity>2</RepresentativeLegalEntity>
+				<RepresentativeAddressBook>
+					<FormattedNameAddress>
+						<Name>
+							<FormattedName>
+								<FirstName>Лусия</FirstName>
+								<MiddleName>Йосифова</MiddleName>
+								<LastName>Кесова</LastName>
+							</FormattedName>
+						</Name>
+						<Address>
+							<FormattedAddress>
+								<AddressStreet>п.к. 123</AddressStreet>
+								<AddressCity>Пловдив</AddressCity>
+								<AddressCounty>БЪЛГАРИЯ</AddressCounty>
+								<AddressPostcode>4003</AddressPostcode>
+								<FormattedAddressCountryCode>BG</FormattedAddressCountryCode>
+							</FormattedAddress>
+						</Address>
+					</FormattedNameAddress>
+					<ContactInformationDetails>
+						<Phone>032/990 070</Phone>
+						<Fax>(032) 990 777</Fax>
+						<Email>simvaspatent@hotmail.com</Email>
+					</ContactInformationDetails>
+				</RepresentativeAddressBook>
+			</Representative>
+		</RepresentativeDetails>
+		<InventorDetails>
+			<Inventor>
+				<InventorNationalityCode>BG</InventorNationalityCode>
+				<InventorAddressBook>
+					<FormattedNameAddress>
+						<Name>
+							<FormattedName>
+								<FirstName>Александър</FirstName>
+								<MiddleName>Андонов</MiddleName>
+								<LastName>ПОПОВ</LastName>
+							</FormattedName>
+						</Name>
+						<Address>
+							<FormattedAddress>
+								<AddressStreet>ул."Васил Ихчиев" 40</AddressStreet>
+								<AddressCity>Пловдив</AddressCity>
+								<AddressCounty>БЪЛГАРИЯ</AddressCounty>
+								<AddressPostcode>4000</AddressPostcode>
+								<FormattedAddressCountryCode>BG</FormattedAddressCountryCode>
+							</FormattedAddress>
+						</Address>
+					</FormattedNameAddress>
+					<ContactInformationDetails/>
+				</InventorAddressBook>
+			</Inventor>
+		</InventorDetails>
+	</Patent>
+	<Patent xmlns="">
+		<ApplicationNumber>105991</ApplicationNumber>
+		<ApplicationDate>2001-10-09</ApplicationDate>
+		<RegistrationNumber>000727</RegistrationNumber>
+		<RegistrationDate>2005-03-31</RegistrationDate>
+		<ExpiryDate>2011-10-09</ExpiryDate>
+		<PatentCurrentStatusDate>2009-04-30</PatentCurrentStatusDate>
+		<PatentTitle>КАР С НИСКА СТРОИТЕЛНА ВИСОЧИНА</PatentTitle>
+		<PatentDescription>Карът намира приложение в керамичното и силикатното производство, в миннодобивната промишленост, в авиационната техника и по-специално в ниски помещения. Той е с нова конструкция на шасито (1), което се състои от рама (2) и под (20), разположени един до друг, като в предната си част е затворено чрез заварен към него преден калник (13), оформен като едно тяло за двете предни гуми (5). Рамата (2) е изградена от две плоски, трапецовидно оформени и надлъжно разположени страници (12, 30), едната от които е външна страница (12), разположена по външната дясна стена на кара, а другата е вътрешна страница (30), разположена в зоната на централната надлъжна ос на кара, разделяща шасито (1) на две функционални зони. Противотежестта (6) е с намалена височина за сметка на ширината й и е с несиметрично балансиране. Върху рамата (2) са монтирани двигателят и хидродинамичният предавател. Двигателният мост (3) е с асиметрична конструкция, а върху пода (20) са монтирани резервоар (29), седалка (9) и кормилна колона (28) с органите за управление.@</PatentDescription>
+		<PatentRepresentationSheetDetails/>
+		<IPCClassDetails>
+			<IPCClass>F16H 47/00</IPCClass>
+			<IPCName>Combinations of mechanical gearing with fluid clutches or fluid gearing (conjoint control of clutch and gearing B60K 41/22) [2]</IPCName>
+		</IPCClassDetails>
+		<PriorityDetails/>
+		<ExhibitionPriorityDetails/>
+		<PublicationDetails/>
+		<ApplicantDetails>
+			<Applicant>
+				<ApplicantIdentifier>21712</ApplicantIdentifier>
+				<ApplicantNationalityCode>BG</ApplicantNationalityCode>
+				<ApplicantAddressBook>
+					<FormattedNameAddress>
+						<Name>
+							<FormattedName>
+								<LastName>"БАЛКАНКАР РЕКОРД" АД</LastName>
+								<OrganizationName>5</OrganizationName>
+							</FormattedName>
+						</Name>
+						<Address>
+							<FormattedAddress>
+								<AddressStreet>ул."Кукленско шосе" 17</AddressStreet>
+								<AddressCity>Пловдив</AddressCity>
+								<AddressCounty>БЪЛГАРИЯ</AddressCounty>
+								<AddressPostcode>4000</AddressPostcode>
+								<FormattedAddressCountryCode>BG</FormattedAddressCountryCode>
+							</FormattedAddress>
+						</Address>
+					</FormattedNameAddress>
+					<ContactInformationDetails/>
+				</ApplicantAddressBook>
+			</Applicant>
+		</ApplicantDetails>
+		<RepresentativeDetails>
+			<Representative>
+				<RepresentativeIdentifier>48</RepresentativeIdentifier>
+				<RepresentativeNationalityCode>BG</RepresentativeNationalityCode>
+				<RepresentativeLegalEntity>2</RepresentativeLegalEntity>
+				<RepresentativeAddressBook>
+					<FormattedNameAddress>
+						<Name>
+							<FormattedName>
+								<FirstName>Лусия</FirstName>
+								<MiddleName>Йосифова</MiddleName>
+								<LastName>Кесова</LastName>
+							</FormattedName>
+						</Name>
+						<Address>
+							<FormattedAddress>
+								<AddressStreet>п.к. 123</AddressStreet>
+								<AddressCity>Пловдив</AddressCity>
+								<AddressCounty>БЪЛГАРИЯ</AddressCounty>
+								<AddressPostcode>4003</AddressPostcode>
+								<FormattedAddressCountryCode>BG</FormattedAddressCountryCode>
+							</FormattedAddress>
+						</Address>
+					</FormattedNameAddress>
+					<ContactInformationDetails>
+						<Phone>032/990 070</Phone>
+						<Fax>(032) 990 777</Fax>
+						<Email>simvaspatent@hotmail.com</Email>
+					</ContactInformationDetails>
+				</RepresentativeAddressBook>
+			</Representative>
+		</RepresentativeDetails>
+		<InventorDetails>
+			<Inventor>
+				<InventorNationalityCode>BG</InventorNationalityCode>
+				<InventorAddressBook>
+					<FormattedNameAddress>
+						<Name>
+							<FormattedName>
+								<FirstName>Александър</FirstName>
+								<MiddleName>Андонов</MiddleName>
+								<LastName>ПОПОВ</LastName>
+							</FormattedName>
+						</Name>
+						<Address>
+							<FormattedAddress>
+								<AddressStreet>ул."Васил Ихчиев" 40</AddressStreet>
+								<AddressCity>Пловдив</AddressCity>
+								<AddressCounty>БЪЛГАРИЯ</AddressCounty>
+								<AddressPostcode>4000</AddressPostcode>
+								<FormattedAddressCountryCode>BG</FormattedAddressCountryCode>
+							</FormattedAddress>
+						</Address>
+					</FormattedNameAddress>
+					<ContactInformationDetails/>
+				</InventorAddressBook>
+			</Inventor>
+		</InventorDetails>
+	</Patent>
+	<Patent xmlns="">
+		<ApplicationNumber>106296</ApplicationNumber>
+		<ApplicationDate>2002-01-10</ApplicationDate>
+		<RegistrationDate>0001-01-01</RegistrationDate>
+		<ExpiryDate>2012-01-10</ExpiryDate>
+		<PatentCurrentStatusDate>2003-01-22</PatentCurrentStatusDate>
+		<PatentTitle>УСТРОЙСТВО ЗА ДОПЪЛНИТЕЛНО РЕГУЛИРАНЕ НА НАЛЯГАНЕТО В РАБОТНИТЕ ЦИЛИНДРИ НА ПОВДИГАТЕЛНАТА УРЕДБА НА КАРИ</PatentTitle>
+		<PatentDescription/>
+		<PatentRepresentationSheetDetails/>
+		<IPCClassDetails>
+			<IPCClass>F16H 47/00</IPCClass>
+			<IPCName>Combinations of mechanical gearing with fluid clutches or fluid gearing (conjoint control of clutch and gearing B60K 41/22) [2]</IPCName>
+		</IPCClassDetails>
+		<PriorityDetails/>
+		<ExhibitionPriorityDetails/>
+		<PublicationDetails/>
+		<ApplicantDetails>
+			<Applicant>
+				<ApplicantIdentifier>21712</ApplicantIdentifier>
+				<ApplicantNationalityCode>BG</ApplicantNationalityCode>
+				<ApplicantAddressBook>
+					<FormattedNameAddress>
+						<Name>
+							<FormattedName>
+								<LastName>"БАЛКАНКАР РЕКОРД" АД</LastName>
+								<OrganizationName>5</OrganizationName>
+							</FormattedName>
+						</Name>
+						<Address>
+							<FormattedAddress>
+								<AddressStreet>ул."Кукленско шосе" 17</AddressStreet>
+								<AddressCity>Пловдив</AddressCity>
+								<AddressCounty>БЪЛГАРИЯ</AddressCounty>
+								<AddressPostcode>4000</AddressPostcode>
+								<FormattedAddressCountryCode>BG</FormattedAddressCountryCode>
+							</FormattedAddress>
+						</Address>
+					</FormattedNameAddress>
+					<ContactInformationDetails/>
+				</ApplicantAddressBook>
+			</Applicant>
+		</ApplicantDetails>
+		<RepresentativeDetails>
+			<Representative>
+				<RepresentativeIdentifier>48</RepresentativeIdentifier>
+				<RepresentativeNationalityCode>BG</RepresentativeNationalityCode>
+				<RepresentativeLegalEntity>2</RepresentativeLegalEntity>
+				<RepresentativeAddressBook>
+					<FormattedNameAddress>
+						<Name>
+							<FormattedName>
+								<FirstName>Лусия</FirstName>
+								<MiddleName>Йосифова</MiddleName>
+								<LastName>Кесова</LastName>
+							</FormattedName>
+						</Name>
+						<Address>
+							<FormattedAddress>
+								<AddressStreet>п.к. 123</AddressStreet>
+								<AddressCity>Пловдив</AddressCity>
+								<AddressCounty>БЪЛГАРИЯ</AddressCounty>
+								<AddressPostcode>4003</AddressPostcode>
+								<FormattedAddressCountryCode>BG</FormattedAddressCountryCode>
+							</FormattedAddress>
+						</Address>
+					</FormattedNameAddress>
+					<ContactInformationDetails>
+						<Phone>032/990 070</Phone>
+						<Fax>(032) 990 777</Fax>
+						<Email>simvaspatent@hotmail.com</Email>
+					</ContactInformationDetails>
+				</RepresentativeAddressBook>
+			</Representative>
+		</RepresentativeDetails>
+		<InventorDetails>
+			<Inventor>
+				<InventorNationalityCode>BG</InventorNationalityCode>
+				<InventorAddressBook>
+					<FormattedNameAddress>
+						<Name>
+							<FormattedName>
+								<FirstName>Александър</FirstName>
+								<MiddleName>Андонов</MiddleName>
+								<LastName>ПОПОВ</LastName>
+							</FormattedName>
+						</Name>
+						<Address>
+							<FormattedAddress>
+								<AddressStreet>ул."Васил Ихчиев" 40</AddressStreet>
+								<AddressCity>Пловдив</AddressCity>
+								<AddressCounty>БЪЛГАРИЯ</AddressCounty>
+								<AddressPostcode>4000</AddressPostcode>
+								<FormattedAddressCountryCode>BG</FormattedAddressCountryCode>
+							</FormattedAddress>
+						</Address>
+					</FormattedNameAddress>
+					<ContactInformationDetails/>
+				</InventorAddressBook>
+			</Inventor>
+		</InventorDetails>
+	</Patent>
+	<Patent xmlns="">
+		<ApplicationNumber>107149</ApplicationNumber>
+		<ApplicationDate>2002-09-26</ApplicationDate>
+		<RegistrationNumber>000870</RegistrationNumber>
+		<RegistrationDate>2007-03-30</RegistrationDate>
+		<ExpiryDate>2012-09-26</ExpiryDate>
+		<PatentCurrentStatusDate>2009-04-07</PatentCurrentStatusDate>
+		<PatentTitle>УСТРОЙСТВО ЗА ДОПЪЛНИТЕЛНО РЕГУЛИРАНЕ НА НАЛЯГАНЕТО В РАБОТНИТЕ ЦИЛИНДРИ НА ПОВДИГАТЕЛНИ УРЕДБИ НА КАРИ</PatentTitle>
+		<PatentDescription>Устройството гарантира възможността високоповдигачът да работи до номинална височина Нн с номинален товар Qн, а от височина Нн до Нmax високоповдигачът може да транспортира товар, който е с тегло &lt; на Ор. Устройството включва електромагнитен двупътен хидравличен разпределител (6) с предпазнопреливен клапан (7) и е монтирано паралелно на предпазнопреливния клапан (2) на основния хидравличен разпределител (3) на повдигателната уредба. Предпазният клапан (7) на устройството (5) е настроен на налягане, съответстващо на товар, равен на редуцирания Qр за съответната височина на повдигане. Когато товарът достигне височина, равна на Нн, електромагнитният разпределител (6) е задействан и налягането в системата вече е контролирано от клапана (7) на устройството (5), съответно регулиран за товар, равен на редуцирания товар Qр. Електромагнитният разпределител (6) на устройството (5) остава задействан в зоната от Нн до Нmax, което означава, че до достигане на височина Нн ще могат да се обработват товари с тегло, равно на Qн, а в зоната от Нн до Нmax - товари с тегло &lt; на Qp.@</PatentDescription>
+		<PatentRepresentationSheetDetails/>
+		<IPCClassDetails/>
+		<PriorityDetails/>
+		<ExhibitionPriorityDetails/>
+		<PublicationDetails/>
+		<ApplicantDetails>
+			<Applicant>
+				<ApplicantIdentifier>21712</ApplicantIdentifier>
+				<ApplicantNationalityCode>BG</ApplicantNationalityCode>
+				<ApplicantAddressBook>
+					<FormattedNameAddress>
+						<Name>
+							<FormattedName>
+								<LastName>"БАЛКАНКАР РЕКОРД" АД</LastName>
+								<OrganizationName>5</OrganizationName>
+							</FormattedName>
+						</Name>
+						<Address>
+							<FormattedAddress>
+								<AddressStreet>ул."Кукленско шосе" 17</AddressStreet>
+								<AddressCity>Пловдив</AddressCity>
+								<AddressCounty>БЪЛГАРИЯ</AddressCounty>
+								<AddressPostcode>4000</AddressPostcode>
+								<FormattedAddressCountryCode>BG</FormattedAddressCountryCode>
+							</FormattedAddress>
+						</Address>
+					</FormattedNameAddress>
+					<ContactInformationDetails/>
+				</ApplicantAddressBook>
+			</Applicant>
+		</ApplicantDetails>
+		<RepresentativeDetails>
+			<Representative>
+				<RepresentativeIdentifier>48</RepresentativeIdentifier>
+				<RepresentativeNationalityCode>BG</RepresentativeNationalityCode>
+				<RepresentativeLegalEntity>2</RepresentativeLegalEntity>
+				<RepresentativeAddressBook>
+					<FormattedNameAddress>
+						<Name>
+							<FormattedName>
+								<FirstName>Лусия</FirstName>
+								<MiddleName>Йосифова</MiddleName>
+								<LastName>Кесова</LastName>
+							</FormattedName>
+						</Name>
+						<Address>
+							<FormattedAddress>
+								<AddressStreet>п.к. 123</AddressStreet>
+								<AddressCity>Пловдив</AddressCity>
+								<AddressCounty>БЪЛГАРИЯ</AddressCounty>
+								<AddressPostcode>4003</AddressPostcode>
+								<FormattedAddressCountryCode>BG</FormattedAddressCountryCode>
+							</FormattedAddress>
+						</Address>
+					</FormattedNameAddress>
+					<ContactInformationDetails>
+						<Phone>032/990 070</Phone>
+						<Fax>(032) 990 777</Fax>
+						<Email>simvaspatent@hotmail.com</Email>
+					</ContactInformationDetails>
+				</RepresentativeAddressBook>
+			</Representative>
+		</RepresentativeDetails>
+		<InventorDetails>
+			<Inventor>
+				<InventorNationalityCode>BG</InventorNationalityCode>
+				<InventorAddressBook>
+					<FormattedNameAddress>
+						<Name>
+							<FormattedName>
+								<FirstName>Александър</FirstName>
+								<MiddleName>Андонов</MiddleName>
+								<LastName>ПОПОВ</LastName>
+							</FormattedName>
+						</Name>
+						<Address>
+							<FormattedAddress>
+								<AddressStreet>ул."Васил Ихчиев" 40</AddressStreet>
+								<AddressCity>Пловдив</AddressCity>
+								<AddressCounty>БЪЛГАРИЯ</AddressCounty>
+								<AddressPostcode>4000</AddressPostcode>
+								<FormattedAddressCountryCode>BG</FormattedAddressCountryCode>
+							</FormattedAddress>
+						</Address>
+					</FormattedNameAddress>
+					<ContactInformationDetails/>
+				</InventorAddressBook>
+			</Inventor>
+		</InventorDetails>
+	</Patent>
+</PatentDetails>

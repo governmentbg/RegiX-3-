@@ -1,0 +1,14 @@
+@import '~igniteui-angular/lib/core/styles/themes/index';
+
+$colorful-card: igx-card-theme(
+    $background: white,
+    /*$header-text-color: #000000,
+    $subtitle-text-color: #000000,*/
+    $content-text-color: black
+);
+
+:host {
+    ::ng-deep {
+       @include igx-card($colorful-card);
+   }
+}

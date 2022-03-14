@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://is.navet.government.bg/ws/egov" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://is.navet.government.bg/ws/egov" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://is.navet.government.bg/ws/egov">
+      <s:complexType name="StudentDocument">
+        <s:all>
+          <s:element name="client_id" type="s:int" />
+          <s:element name="vc_egn" type="s:string" />
+          <s:element name="first_name" type="s:string" />
+          <s:element name="second_name" type="s:string" />
+          <s:element name="family_name" type="s:string" />
+          <s:element name="licence_number" type="s:int" />
+          <s:element name="provider_owner" type="s:string" />
+          <s:element name="city_name" type="s:string" />
+          <s:element name="document_type_id" type="s:int" />
+          <s:element name="document_type_name" type="s:string" />
+          <s:element name="course_type_id" type="s:int" />
+          <s:element name="course_type_name" type="s:string" />
+          <s:element name="profession_name" type="s:string" />
+          <s:element name="speciality_name" type="s:string" />
+          <s:element name="speciality_vqs" type="s:int" />
+          <s:element name="year_finished" type="s:int" />
+          <s:element name="document_prn_ser" type="s:string" />
+          <s:element name="document_prn_no" type="s:string" />
+          <s:element name="document_reg_no" type="s:string" />
+          <s:element name="document_issue_date" type="s:date" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="StudentDocumentArrayType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="entries" nillable="true" type="tns:StudentDocument" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="StudentDocumentRequestType">
+        <s:all>
+          <s:element name="identifier" type="s:string" />
+          <s:element name="document_no" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="StudentDocumentResponseType">
+        <s:all>
+          <s:element name="status" type="s:boolean" />
+          <s:element name="message" type="s:string" />
+          <s:element name="data" type="tns:StudentDocumentArrayType" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="DocumentsByStudentRequestType">
+        <s:all>
+          <s:element name="identifier" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="DocumentsByStudentResponseType">
+        <s:all>
+          <s:element name="status" type="s:boolean" />
+          <s:element name="message" type="s:string" />
+          <s:element name="data" type="tns:StudentDocumentArrayType" />
+        </s:all>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="LoadStudentDocumentRequest">
+    <wsdl:part name="param" type="tns:StudentDocumentRequestType" />
+  </wsdl:message>
+  <wsdl:message name="LoadStudentDocumentResponse">
+    <wsdl:part name="param" type="tns:StudentDocumentResponseType" />
+  </wsdl:message>
+  <wsdl:message name="LoadDocumentsByStudentRequest">
+    <wsdl:part name="param" type="tns:DocumentsByStudentRequestType" />
+  </wsdl:message>
+  <wsdl:message name="LoadDocumentsByStudentResponse">
+    <wsdl:part name="param" type="tns:DocumentsByStudentResponseType" />
+  </wsdl:message>
+  <wsdl:portType name="Data">
+    <wsdl:operation name="egovSearchStudentDocument">
+      <wsdl:documentation>Load data</wsdl:documentation>
+      <wsdl:input message="tns:LoadStudentDocumentRequest" />
+      <wsdl:output message="tns:LoadStudentDocumentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="egovSearchStudentDocumentByStudent">
+      <wsdl:documentation>Load data</wsdl:documentation>
+      <wsdl:input message="tns:LoadDocumentsByStudentRequest" />
+      <wsdl:output message="tns:LoadDocumentsByStudentResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DataWSDLBinding" type="tns:Data">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="egovSearchStudentDocument">
+      <soap:operation soapAction="urn:DataWSDL#egovSearchStudentDocument" />
+      <wsdl:input>
+        <soap:body use="literal" namespace="urn:DataWSDL#egovSearchStudentDocument" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="urn:DataWSDL#egovSearchStudentDocument" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="egovSearchStudentDocumentByStudent">
+      <soap:operation soapAction="urn:DataWSDL#egovSearchStudentDocumentByStudent" />
+      <wsdl:input>
+        <soap:body use="literal" namespace="urn:DataWSDL#egovSearchStudentDocumentByStudent" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="urn:DataWSDL#egovSearchStudentDocumentByStudent" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DataWSDL">
+    <wsdl:port name="DataWSDLPort" binding="tns:DataWSDLBinding">
+      <soap:address location="http://is.navet.government.bg/ws/egov/index.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

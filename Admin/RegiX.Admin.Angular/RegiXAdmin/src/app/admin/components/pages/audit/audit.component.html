@@ -1,0 +1,177 @@
+<tl-wrapping-card
+  [title]="routes.AUDIT.title"
+  [icon]="routes.AUDIT.icon"
+  [subTitle]="subtitle"
+  [actions]="[{ reference: excelExportAll }]">
+  <tl-linear-progress
+    [visible]="this.remoteService.isLoading"
+  ></tl-linear-progress>
+  <igx-hierarchical-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    (onSortingDone)="sortingDone($event)"
+    (onFilteringDone)="filteringDone($event)"
+    (onSelection)="cellSelection($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+    <igx-column
+      field="userName"
+      header="Потребител"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="auditDate"
+      header="Дата"
+      [sortable]="true"
+      [dataType]="'date'"
+      [formatter]="this.dateFormatService.formatDate"
+    >
+    </igx-column>
+
+    <igx-column
+      field="tableName"
+      header="Таблица"
+      [sortable]="true"
+      width="20%"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="action"
+      header="Действие"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="description"
+      header="Описание"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="ipAddress"
+      header="IP Адрес"
+      [sortable]="true"
+      width="10%"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+    field="id"
+    header="Идентификатор"
+    hidden='true'
+    [sortable]="true"
+    width="10%"
+    [dataType]="'string'"
+  >
+    <ng-template igxCell let-cell="cell">
+      <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+    </ng-template>
+  </igx-column>
+
+  <igx-column
+  field="appName"
+  header="Приложение"
+  hidden='true'
+  [sortable]="true"
+  width="10%"
+  [dataType]="'string'"
+>
+  <ng-template igxCell let-cell="cell">
+    <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+  </ng-template>
+</igx-column>
+
+    <igx-column
+      header="Действия"
+      [sortable]="false"
+      width="120px"
+      [filterable]="false"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          igxLayout
+          igxLayoutDir="row"
+          igxLayoutJustify="center"
+          class="action-buttons-wrapper"
+        >
+          <tl-reference-button
+            [routeReference]="this.routes.AUDIT_VIEW"
+            [routeArguments]="{ ':ID': cell.rowData.id }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+          <tl-reference-button
+            [routeReference]="this.routes.AUDIT_HISTORY_FILTER"
+            [routeArguments]="{
+              'historyFilter/:FILTER_FIELD': cell.rowData.id + ''
+            }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-grid>
+      <div class="tl-paginator">
+        <tl-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+
+    <igx-row-island [key]="'auditValues'" [autoGenerate]="false">
+      <igx-column
+        field="columnName"
+        header="Колона"
+        [resizable]="false"
+        width="20%"
+      ></igx-column>
+      <igx-column
+        field="oldValue"
+        header="Стара стойност"
+        [resizable]="false"
+      ></igx-column>
+      <igx-column
+        field="newValue"
+        header="Нова стойност"
+        [resizable]="false"
+      ></igx-column>
+    </igx-row-island>
+  </igx-hierarchical-grid>
+</tl-wrapping-card>

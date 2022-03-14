@@ -1,0 +1,26 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.MPRNAdapter.APIService.IRNAPI.RegisterOfInsolvenciesSearch</OperationName>
+  <Code>RegisterOfInsolvenciesSearch</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>RNSearchRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/MP/RNSearchResponse</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за вписани обстоятелства в Регистъра на производствата по несъстоятелност</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Identifier</ParameterName>
+        <ParameterLabel>ЕИК/БУЛСТАТ/ЕГН/ЛНЧ</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <IdentifierType>5</IdentifierType>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

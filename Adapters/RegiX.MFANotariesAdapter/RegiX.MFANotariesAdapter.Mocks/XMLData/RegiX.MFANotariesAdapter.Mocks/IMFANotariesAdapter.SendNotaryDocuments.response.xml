@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SendNotaryDocumentsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StatusCode>String</StatusCode>
+  <StatusName>String</StatusName>
+  <AuthenticationType>String</AuthenticationType>
+  <AuthenticationNumber>String</AuthenticationNumber>
+  <AuthenticationDate>1967-08-13</AuthenticationDate>
+  <ConsulCode>String</ConsulCode>
+  <Name>String</Name>
+  <Remarks>String</Remarks>
+  <Result>true</Result>
+</SendNotaryDocumentsResponse>

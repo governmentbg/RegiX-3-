@@ -1,0 +1,92 @@
+<tl-wrapping-card
+  [title]="routes.ADAPTERS_UNREGISTERED.title"
+  [icon]="routes.ADAPTERS_UNREGISTERED.icon"
+  [actions]="[{ reference: excelExport }]"
+>
+  <tl-linear-progress
+    [visible]="this.service.isLoading"
+  ></tl-linear-progress>
+  <igx-grid
+    #grid
+    [data]="notRegisterAdapters"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+    <igx-column
+      field="adapterName"
+      header="Име"
+      [dataType]="'string'"
+      [sortable]="true"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="adapterAssembly"
+      header="Assembly"
+      [dataType]="'string'"
+      [sortable]="true"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="adapterContract"
+      header="Интерфейс"
+      [dataType]="'string'"
+      [sortable]="true"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="versionOfAdapter"
+      header="Версия"
+      [dataType]="'string'"
+      [sortable]="true"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      header="Действия"
+      [sortable]="false"
+      [dataType]="'string'"
+      [filterable]="false"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          igxLayout
+          igxLayoutDir="row"
+          igxLayoutJustify="center"
+          class="action-buttons-wrapper"
+        >
+          <tl-reference-button
+            [routeReference]="this.routes.ADAPTERS_UNREGISTERED_SHOW"
+            [routeArguments]="{ ':ID': cell.rowData.id }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+          <tl-reference-button
+            [routeReference]="this.routes.ADAPTERS_UNREGISTERED_EDIT"
+            [routeArguments]="{ ':ID': cell.rowData.id }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+        </div>
+      </ng-template>
+    </igx-column>
+  </igx-grid>
+</tl-wrapping-card>

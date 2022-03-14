@@ -1,0 +1,38 @@
+{
+  "name": "main",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "rgx-common": "ng build rgx-common --prod"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~11.2.9",
+    "@angular/common": "~11.2.9",
+    "@angular/compiler": "~11.2.9",
+    "@angular/core": "~11.2.9",
+    "@angular/forms": "~11.2.9",
+    "@angular/platform-browser": "~11.2.9",
+    "@angular/platform-browser-dynamic": "~11.2.9",
+    "@angular/router": "~11.2.9",
+    "rxjs": "~6.5.5",
+    "tslib": "^2.0.0",
+    "zone.js": "~0.10.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.1102.8",
+    "@angular/cli": "~11.2.8",
+    "@angular/compiler-cli": "~11.2.9",
+    "@angular/language-service": "~11.2.9",
+    "@types/node": "^12.20.7",
+    "ng-packagr": "^11.2.4",
+    "ts-node": "~7.0.0",
+    "tslint": "~6.1.0",
+    "typescript": "~4.1.5"
+  }
+}

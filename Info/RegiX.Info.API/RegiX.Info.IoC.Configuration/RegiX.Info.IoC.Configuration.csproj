@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DI\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.Info.AutoMapper\RegiX.Info.AutoMapper.csproj" />
+    <ProjectReference Include="..\RegiX.Info.DataContracts\RegiX.Info.DataContracts.csproj" />
+    <ProjectReference Include="..\RegiX.Info.DB\RegiX.Info.Infrastructure.csproj" />
+    <ProjectReference Include="..\RegiX.Info.Services\RegiX.Info.Services.csproj" />
+  </ItemGroup>
+
+</Project>

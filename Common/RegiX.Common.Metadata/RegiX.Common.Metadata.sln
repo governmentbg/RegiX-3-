@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.Common.Metadata", "RegiX.Common.Metadata\RegiX.Common.Metadata.csproj", "{B48B9EBC-EC12-4724-92DD-56353CAB6BD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CEBA0DBB-9F91-4025-8118-12286E5AC200}"
+	ProjectSection(SolutionItems) = preProject
+		azure-devops.yaml = azure-devops.yaml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.Common.Metadta.Tests", "RegiX.Common.Metadta.Tests\RegiX.Common.Metadta.Tests.csproj", "{C2A093DF-813B-49F4-BA61-B00A0B31055A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B48B9EBC-EC12-4724-92DD-56353CAB6BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48B9EBC-EC12-4724-92DD-56353CAB6BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48B9EBC-EC12-4724-92DD-56353CAB6BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48B9EBC-EC12-4724-92DD-56353CAB6BD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A093DF-813B-49F4-BA61-B00A0B31055A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A093DF-813B-49F4-BA61-B00A0B31055A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A093DF-813B-49F4-BA61-B00A0B31055A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A093DF-813B-49F4-BA61-B00A0B31055A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C30BCD71-DB01-478B-85C2-5EA8686D693F}
+	EndGlobalSection
+EndGlobal

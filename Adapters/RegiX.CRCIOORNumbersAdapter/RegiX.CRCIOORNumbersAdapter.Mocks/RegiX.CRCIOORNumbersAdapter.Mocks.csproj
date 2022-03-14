@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.CRCIOORNumbersAdapter.Mocks</RootNamespace>
+    <Authors>Dimitar Mitev</Authors>
+    <Company>TechnoLogica</Company>
+    <Description>Mocks for CRCIOORNumbersAdapter</Description>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="XMLData\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="XMLData\RegiX.CRCIOORNumbersAdapter\**" />
+    <Content Remove="XMLData\RegiX.CRCIOORNumbersAdapter\**" />
+    <EmbeddedResource Remove="XMLData\RegiX.CRCIOORNumbersAdapter\**" />
+    <None Remove="XMLData\RegiX.CRCIOORNumbersAdapter\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.Adapters.Mocks" Version="1.0.43" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.CRCIOORNumbersAdapter\RegiX.CRCIOORNumbersAdapter.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="XMLData\RegiX.CRCIOORNumbersAdapter.Mocks\ICRCIOORNumbersAdapter.GetCompanyInfo.response.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
+

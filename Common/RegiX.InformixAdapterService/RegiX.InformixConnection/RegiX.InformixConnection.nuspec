@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <description>$description$</description>
+    <dependencies>
+      <dependency id="RegiX.Adapters.Common" version="1.0.70" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="IBM.Data.Informix.dll" target="lib/netstandard2.0"></file>
+  </files>
+</package>

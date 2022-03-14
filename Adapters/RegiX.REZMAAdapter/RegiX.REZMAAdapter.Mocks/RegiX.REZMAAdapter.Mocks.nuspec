@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <description>$description$</description>
+    <dependencies>
+      <dependency id="RegiX.Adapters.Mocks" version="1.0.43"/>
+      <dependency id="RegiX.REZMAAdapter" version="$(Major).$(Minor).$(Patch)"/>
+    </dependencies>
+    <contentFiles>
+      <files include="any/any/XMLData/$title$/*.xml" buildAction="Content" copyToOutput="true" flatten="false" />
+      <files include="any/any/XMLData/$title$/*/*.xml" buildAction="Content" copyToOutput="true" flatten="false" />
+    
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="XMLData\$title$\*.xml" target="contentFiles\any\any\XMLData\$title$" />
+    <file src="XMLData\$title$\checkObligations\*.xml" target="contentFiles\any\any\XMLData\$title$\checkObligations" />
+    <file src="XMLData\$title$\customObligationsResponse\*.xml" target="contentFiles\any\any\XMLData\$title$\customObligationsResponse" />
+    <file src="XMLData\$title$\exciseObligationsResponse\*.xml" target="contentFiles\any\any\XMLData\$title$\exciseObligationsResponse" />
+  </files>
+</package>

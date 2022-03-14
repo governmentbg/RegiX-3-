@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.MZHPastureAdapter.APIService.IMZHPastureAPI.GetPastureMeadowLand</OperationName>
+  <Code>GetPastureMeadowLand</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>PastureMeadowLandRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/MZH/PastureMeadowLandRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за ползване на пасища, мери и ливади</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>BeneficiaryIdentifier</ParameterName>
+        <ParameterLabel>Идентификатор на ползвател - ЕГН/ЛНЧ/ЕИК/БУЛСТАТ</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

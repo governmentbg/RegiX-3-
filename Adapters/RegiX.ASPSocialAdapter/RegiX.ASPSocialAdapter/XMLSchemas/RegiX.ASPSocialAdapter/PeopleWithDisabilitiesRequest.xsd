@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="PeopleWithDisabilitiesRequest">
+		<xs:annotation>
+			<xs:documentation>Запитване от АХУ към ИИС АСП</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="RIdentType" nillable="false">
+					<xs:annotation>
+						<xs:documentation>Тип на идентификатора на питащото лице (1- ЕГН, 2 - ЛНЧ)</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:int">
+							<xs:totalDigits value="1"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="RIdentificator" nillable="false">
+					<xs:annotation>
+						<xs:documentation>Идентификатор на питащото лице</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="10"/>
+							<xs:maxLength value="10"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="RDRelation" nillable="false">
+					<xs:annotation>
+						<xs:documentation>Връзка с лицето с увреждания (EQ-Лицето с увреждания пита за себе си, PA1-Родител, PA3-Настойник (попечител))</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:maxLength value="3"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="DIdentType" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Тип на идентификатора на лице с увреждания (1- ЕГН, 2 - ЛНЧ)</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:int">
+							<xs:totalDigits value="1"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="DIdentificator" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Идентификатор на лице с увреждания</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:int">
+							<xs:totalDigits value="10"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

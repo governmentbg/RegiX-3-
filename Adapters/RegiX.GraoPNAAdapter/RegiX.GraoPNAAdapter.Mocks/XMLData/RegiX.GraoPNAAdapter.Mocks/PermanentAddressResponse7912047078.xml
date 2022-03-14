@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<PermanentAddressResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/PNA/PermanentAddressResponse">
+	<DistrictCode>SF</DistrictCode>
+	<DistrictName>Бургас</DistrictName>
+	<MunicipalityCode>SF</MunicipalityCode>
+	<MunicipalityName>Бургас</MunicipalityName>
+	<SettlementCode>BG001</SettlementCode>
+	<SettlementName>гр. Бургас</SettlementName>
+	<CityAreaCode>SL</CityAreaCode>
+	<CityArea/>
+	<LocationCode/>
+	<LocationName>ул. Пробуда</LocationName>
+	<BuildingNumber>52</BuildingNumber>
+	<Entrance>4</Entrance>
+	<Floor>5</Floor>
+	<Apartment>16</Apartment>
+	<FromDate>2005-03-12</FromDate>
+</PermanentAddressResponse>
+

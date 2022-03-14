@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/NonUniversalPostalServices/GetNonUniversalOperatorsInfoResponse" targetNamespace="http://egov.bg/RegiX/CRC/NonUniversalPostalServices/GetNonUniversalOperatorsInfoResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetNonUniversalOperatorsInfoResponse" type="GetNonUniversalOperatorsInfoResponseType">
+		<xs:annotation>
+			<xs:documentation>Резултат от изпълнение на Справка за неуниверсални оператори</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="PostalServiceScopeType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="PostalServices" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Пощенски пратки</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CourierServices" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Куриерски услуги</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DirectPostalAdvertising" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Пряка пощенска реклама</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="NotificationType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="CertificateNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Удостоверение номер</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ActionStartDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на започване на дейността</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Remark" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Забележка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PostalServiceScope" type="PostalServiceScopeType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Обхват на НПУ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="OperatorInfoType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="OperatorName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на пощенския оператор</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="OperatorType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="HeadquartersAddress" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Седалище и адрес на управление</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Notification" type="NotificationType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Уведомление</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="OperatorsInfoType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="OperatorInfo" type="OperatorInfoType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни за оператор</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GetNonUniversalOperatorsInfoResponseType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="OperatorsInfo" type="OperatorsInfoType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Списък на операторите</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

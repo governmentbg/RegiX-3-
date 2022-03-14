@@ -1,0 +1,12 @@
+<SettlementPlacesResponse xmlns="http://egov.bg/RegiX/GRAO/NM/SettlementPlacesResponse">
+  <SettlementPlaces>
+    <DistrictCode xmlns="http://egov.bg/RegiX/GRAO/NM">SF</DistrictCode>
+    <DistrictName xmlns="http://egov.bg/RegiX/GRAO/NM">София град</DistrictName>
+    <MunicipalityCode xmlns="http://egov.bg/RegiX/GRAO/NM">SF</MunicipalityCode>
+    <MunicipalityName xmlns="http://egov.bg/RegiX/GRAO/NM">София град</MunicipalityName>
+    <SettlementPlaceCode xmlns="http://egov.bg/RegiX/GRAO/NM">BG001</SettlementPlaceCode>
+    <SettlementPlaceName xmlns="http://egov.bg/RegiX/GRAO/NM">София</SettlementPlaceName>
+    <SettlementTypeCode xmlns="http://egov.bg/RegiX/GRAO/NM">1</SettlementTypeCode>
+    <SettlementTypeName xmlns="http://egov.bg/RegiX/GRAO/NM">град</SettlementTypeName>
+  </SettlementPlaces>
+</SettlementPlacesResponse>

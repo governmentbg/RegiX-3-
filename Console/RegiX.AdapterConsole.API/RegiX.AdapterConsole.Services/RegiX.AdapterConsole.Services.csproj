@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.AdapterConsole.Services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="API.Services" Version="3.1.2" />
+    <PackageReference Include="RegiX.Common" Version="1.0.30" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.AdapterConsole.DataContracts\RegiX.AdapterConsole.DataContracts.csproj" />
+    <ProjectReference Include="..\RegiX.AdapterConsole.Infrastructure\RegiX.AdapterConsole.Infrastructure.csproj" />
+    <ProjectReference Include="..\RegiX.AdapterConsole.Repositories\RegiX.AdapterConsole.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

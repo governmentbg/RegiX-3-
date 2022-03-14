@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/MFA/Notaries/SendNotaryDocumentsRequest" targetNamespace="http://egov.bg/RegiX/MFA/Notaries/SendNotaryDocumentsRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="AuthenticationType">
+		<xs:annotation>
+			<xs:documentation>Тип на заверка</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="DateContentSignature">
+				<xs:annotation>
+					<xs:documentation>Дата, съдържание и подписи на документи, удостоверени от консулските служби</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="CorrectnessOfStatements">
+				<xs:annotation>
+					<xs:documentation>Вярност на преписи и извлечения на документи, удостоверени от консулските служби</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NotarialWill">
+				<xs:annotation>
+					<xs:documentation>Нотариални завещания, съставени пред консулските служби</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="DocumentsType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="Document" type="DocumentType">
+				<xs:annotation>
+					<xs:documentation>Документ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DocumentType">
+		<xs:sequence>
+			<xs:element name="FileName" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Наименование на файл</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Content" type="xs:base64Binary">
+				<xs:annotation>
+					<xs:documentation>Base64 съдържание на документа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SendNotaryDocumentsRequest">
+		<xs:annotation>
+			<xs:documentation>Удостоверяване на заверки в системата на МВнР</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="AuthenticationNumber" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Номер на заверка от регистъра</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ConsulCode" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Идентификатор (код) на консулска служба</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AuthenticationType" type="AuthenticationType">
+				<xs:annotation>
+					<xs:documentation>Тип на заверка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AuthenticationDate" type="xs:date">
+				<xs:annotation>
+					<xs:documentation>Дата на заверка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Documents" type="DocumentsType">
+				<xs:annotation>
+					<xs:documentation>Документи</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="SendNotaryDocumentsRequest" type="SendNotaryDocumentsRequest"/>
+</xs:schema>

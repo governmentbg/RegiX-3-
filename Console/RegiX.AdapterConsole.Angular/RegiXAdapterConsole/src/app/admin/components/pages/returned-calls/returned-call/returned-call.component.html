@@ -1,0 +1,83 @@
+<!-- Loading animation start -->
+<div class="report-content-wrapper" *ngIf="isDataLoading">
+  <div>
+    <igx-circular-bar
+      [animate]="true"
+      [indeterminate]="true"
+      [textVisibility]="true"
+    ></igx-circular-bar>
+  </div>
+</div>
+<!-- Loading animation end -->
+
+<!-- Request operation-call -->
+<tl-wrapping-card
+*ngIf="!isDataLoading && isDataLoaded"
+[title]="this.returnedCall?.adapterOperationName"
+[icon]="'receipt'"
+[subTitle]="'Приключена услуга'"
+>
+<tl-wrapping-card [title]="'Заявка'" [icon]="'send'">
+  <div class="form-content">
+      <!-- Form start -->
+    <form [formGroup]="formGroup">
+      <app-parameters-control
+        [formGroup]="formGroup"
+        [operationParameters]="operationParameters"
+        [isDisabled]="true"
+      ></app-parameters-control>
+    </form>
+    <!-- Form end -->
+  </div>
+</tl-wrapping-card>
+
+<!-- Request operation-call -->
+<form [formGroup]="formGroupResponse">
+  <tl-wrapping-card [title]="'Отговор'" [icon]="'reply'">
+    <div class="form-content">
+      <app-parameters-control
+        [formGroup]="formGroupResponse"
+        [operationParameters]="operationParametersResponse"
+        [isDisabled]="true"
+      ></app-parameters-control>
+    </div>
+  </tl-wrapping-card>
+  <tl-wrapping-card [title]="'Служебна информация'" [icon]="'assignment'">
+    <div class="form-content">
+        <!-- Name field -->
+        <div class="input-group">
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group>
+              <input
+                class="form-input"
+                igxInput
+                name="returnedByName"
+                type="text"
+                formControlName="returnedByName"
+                tlFormGroupRef
+                disabled="true"
+              />
+              <label igxLabel for="returnedByName">Изготвено от </label>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+
+        <!-- startTime field -->
+        <div class="input-group">
+          <igx-date-picker
+            igxFlex
+            formControlName="startTime"
+            class="date-picker"
+            disabled="true"
+            label="Дата"
+            locale="bg-BG"
+          >
+          </igx-date-picker>
+        </div>
+
+        <div class="error" *ngIf="errorMessage">{{ errorMessage }}</div>
+      </div>
+    </tl-wrapping-card>
+  <!-- Form end -->
+</form>
+</tl-wrapping-card>

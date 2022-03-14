@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegiX.SecureBlackBoxSigner", "RegiX.SecureBlackBoxSigner\RegiX.SecureBlackBoxSigner.csproj", "{B5F6493A-36D1-4399-BA27-279BCF7338BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegiX.SecureBlackBoxSigner.Tests", "RegiX.SecureBlackBoxSigner.Tests\RegiX.SecureBlackBoxSigner.Tests.csproj", "{939219B0-BD2E-484F-BC9E-F853DE8F6E8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{655A8236-3328-475E-945F-785F5FBA4E2C}"
+	ProjectSection(SolutionItems) = preProject
+		azure-devops.yaml = azure-devops.yaml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.SecureBlackBoxSigner.NetCore", "RegiX.SecureBlackBoxSigner.NetCore\RegiX.SecureBlackBoxSigner.NetCore.csproj", "{15074D4E-6FD3-4F1A-96BB-A651270AA3A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.SecureBlackBoxSigner.NetCore.Tests", "RegiX.SecureBlackBoxSigner.NetCore.Tests\RegiX.SecureBlackBoxSigner.NetCore.Tests.csproj", "{EB0E21B8-850E-4656-89A4-6F3BFD333A9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.SecureBlackBox.CertFinder.WinStore", "RegiX.SecureBlackBox.CertFinder.WinStore\RegiX.SecureBlackBox.CertFinder.WinStore.csproj", "{6F7DA2D0-60C0-4E7D-9E2B-050965469C2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.SecureBlackBox.CertFinder.File", "RegiX.SecureBlackBox.CertFinder.File\RegiX.SecureBlackBox.CertFinder.File.csproj", "{E5B45833-5869-41EA-9BE4-1777753C4605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegiX.SecureBlackBox.CertFinder.UI", "RegiX.SecureBlackBox.CertFinder.UI\RegiX.SecureBlackBox.CertFinder.UI.csproj", "{6F2087B6-CD41-4E3B-A73D-D1AD7E00B49A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTester", "ConsoleTester\ConsoleTester.csproj", "{11EF1EDE-DC46-4859-87B7-E0249E192598}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5F6493A-36D1-4399-BA27-279BCF7338BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F6493A-36D1-4399-BA27-279BCF7338BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F6493A-36D1-4399-BA27-279BCF7338BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F6493A-36D1-4399-BA27-279BCF7338BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{939219B0-BD2E-484F-BC9E-F853DE8F6E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{939219B0-BD2E-484F-BC9E-F853DE8F6E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{939219B0-BD2E-484F-BC9E-F853DE8F6E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{939219B0-BD2E-484F-BC9E-F853DE8F6E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15074D4E-6FD3-4F1A-96BB-A651270AA3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15074D4E-6FD3-4F1A-96BB-A651270AA3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15074D4E-6FD3-4F1A-96BB-A651270AA3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15074D4E-6FD3-4F1A-96BB-A651270AA3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB0E21B8-850E-4656-89A4-6F3BFD333A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0E21B8-850E-4656-89A4-6F3BFD333A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0E21B8-850E-4656-89A4-6F3BFD333A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0E21B8-850E-4656-89A4-6F3BFD333A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F7DA2D0-60C0-4E7D-9E2B-050965469C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F7DA2D0-60C0-4E7D-9E2B-050965469C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F7DA2D0-60C0-4E7D-9E2B-050965469C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F7DA2D0-60C0-4E7D-9E2B-050965469C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B45833-5869-41EA-9BE4-1777753C4605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B45833-5869-41EA-9BE4-1777753C4605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B45833-5869-41EA-9BE4-1777753C4605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B45833-5869-41EA-9BE4-1777753C4605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F2087B6-CD41-4E3B-A73D-D1AD7E00B49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2087B6-CD41-4E3B-A73D-D1AD7E00B49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2087B6-CD41-4E3B-A73D-D1AD7E00B49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2087B6-CD41-4E3B-A73D-D1AD7E00B49A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11EF1EDE-DC46-4859-87B7-E0249E192598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11EF1EDE-DC46-4859-87B7-E0249E192598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11EF1EDE-DC46-4859-87B7-E0249E192598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11EF1EDE-DC46-4859-87B7-E0249E192598}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D62A8EE1-0E57-4663-8182-40EC308A7043}
+	EndGlobalSection
+EndGlobal

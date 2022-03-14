@@ -1,0 +1,95 @@
+ <ActualStateResponse xmlns="http://egov.bg/RegiX/AV/TR/ActualStateResponse">
+              <Status>Пререгистрирана партида</Status>
+              <UIC>201593302</UIC>
+              <Company>Тестов ЕТ - 98</Company>
+              <LegalForm>
+                <LegalFormAbbr xmlns="http://egov.bg/RegiX/AV/TR">ЕТ</LegalFormAbbr>
+                <LegalFormName xmlns="http://egov.bg/RegiX/AV/TR">Едноличен търговец</LegalFormName>
+              </LegalForm>
+              <Transliteration>Test ET - 98</Transliteration>
+              <Seat>
+                <Address xmlns="http://egov.bg/RegiX/AV/TR">
+                  <CountryCode>BGR</CountryCode>
+                  <Country>БЪЛГАРИЯ</Country>
+                  <IsForeign>false</IsForeign>
+                  <DistrictEkatte>SOF</DistrictEkatte>
+                  <District>София (столица)</District>
+                  <MunicipalityEkatte>SOF46</MunicipalityEkatte>
+                  <Municipality>Столична</Municipality>
+                  <SettlementEKATTE>68134</SettlementEKATTE>
+                  <Settlement>гр. София</Settlement>
+                  <Area>р-н Тест</Area>
+                  <AreaEkatte>68134-08</AreaEkatte>
+                  <PostCode>1000</PostCode>
+                  <HousingEstate>Тест</HousingEstate>
+                  <Block>1</Block>
+                  <Entrance>Б</Entrance>
+                  <Floor>1</Floor>
+                  <Apartment>1</Apartment>
+                </Address>
+                <Contacts xmlns="http://egov.bg/RegiX/AV/TR">
+                  <Phone>+ 359 2 78 788</Phone>
+                  <Fax>+ 359 2 122 12 03</Fax>
+                  <EMail>office@test.et</EMail>
+                  <URL>www.test_et_98.com</URL>
+                </Contacts>
+              </Seat>
+              <SeatForCorrespondence>
+                <CountryCode xmlns="http://egov.bg/RegiX/AV/TR">BGR</CountryCode>
+                <Country xmlns="http://egov.bg/RegiX/AV/TR">БЪЛГАРИЯ</Country>
+                <IsForeign xmlns="http://egov.bg/RegiX/AV/TR">false</IsForeign>
+                <DistrictEkatte xmlns="http://egov.bg/RegiX/AV/TR">SOF</DistrictEkatte>
+                <District xmlns="http://egov.bg/RegiX/AV/TR">София (столица)</District>
+                <MunicipalityEkatte xmlns="http://egov.bg/RegiX/AV/TR">SOF46</MunicipalityEkatte>
+                <Municipality xmlns="http://egov.bg/RegiX/AV/TR">Столична</Municipality>
+                <SettlementEKATTE xmlns="http://egov.bg/RegiX/AV/TR">68134</SettlementEKATTE>
+                <Settlement xmlns="http://egov.bg/RegiX/AV/TR">гр. София</Settlement>
+                <Area xmlns="http://egov.bg/RegiX/AV/TR">р-н Тест</Area>
+                <AreaEkatte xmlns="http://egov.bg/RegiX/AV/TR">68134-08</AreaEkatte>
+                <PostCode xmlns="http://egov.bg/RegiX/AV/TR">1000</PostCode>
+                <HousingEstate xmlns="http://egov.bg/RegiX/AV/TR">Тест</HousingEstate>
+                <Block xmlns="http://egov.bg/RegiX/AV/TR">1</Block>
+                <Entrance xmlns="http://egov.bg/RegiX/AV/TR">Б</Entrance>
+                <Floor xmlns="http://egov.bg/RegiX/AV/TR">1</Floor>
+                <Apartment xmlns="http://egov.bg/RegiX/AV/TR">1</Apartment>
+              </SeatForCorrespondence>
+              <SubjectOfActivity>
+                <Subject xmlns="http://egov.bg/RegiX/AV/TR">ТЪРГОВИЯ НА ДРЕБНО И ЕДРО  С ХРАНИТЕЛНИ, ПРОМИШЛЕНИ И ДРУГИ РАЗНООБРАЗНИ СТОКИ, РЕСТОРАНТЬОРСКИ ДЕЙНОСТИ, ПИТЕЙНИ ЗАВЕДЕНИЯ, ХОТЕЛИЕРСКИ УСЛУГИ. ОСЪЩЕСТВЯВАНЕ НА ДЕЙНОСТИ И УСЛУГИ БЕЗ ЗАБРАНЕНИТЕ ОТ ЗАКОНА.</Subject>
+                <IsBank xmlns="http://egov.bg/RegiX/AV/TR">false</IsBank>
+                <IsInsurer xmlns="http://egov.bg/RegiX/AV/TR">false</IsInsurer>
+              </SubjectOfActivity>
+              <SubjectOfActivityNKID>
+                <NKIDcode xmlns="http://egov.bg/RegiX/AV/TR">5630</NKIDcode>
+                <NKIDname xmlns="http://egov.bg/RegiX/AV/TR">ДЕЙНОСТ НА ПИТЕЙНИ ЗАВЕДЕНИЯ</NKIDname>
+              </SubjectOfActivityNKID>
+              <AddemptionOfTraderSeatChange>
+                <Address xmlns="http://egov.bg/RegiX/AV/TR" />
+                <Contacts xmlns="http://egov.bg/RegiX/AV/TR" />
+              </AddemptionOfTraderSeatChange>
+              <Funds />
+              <Shares />
+              <MinimumAmount />
+              <DepositedFunds />
+              <NonMonetaryDeposits />
+              <BoardOfDirectorsMandate />
+              <AdministrativeBoardMandate />
+              <BoardOfManagersMandate />
+              <BoardOfManagers2Mandate />
+              <LeadingBoardMandate />
+              <SupervisingBoardMandate />
+              <SupervisingBoard2Mandate />
+              <ControllingBoardMandate />
+              <Details>
+                <Detail xmlns="http://egov.bg/RegiX/AV/TR">
+                  <FieldName>Физическо лице-търговец</FieldName>
+                  <FieldCode>18</FieldCode>
+                  <FieldOrder>00180</FieldOrder>
+                  <Subject>
+                    <Indent>7311192064</Indent>
+                    <Name>ИВАН ИВАНОВ ГЕОРГИЕВ</Name>
+                    <IndentType>EGN</IndentType>
+                  </Subject>
+                </Detail>
+              </Details>
+              <LiquidationOrInsolvency>В несъстоятелност (на II инстанция)</LiquidationOrInsolvency>
+            </ActualStateResponse>

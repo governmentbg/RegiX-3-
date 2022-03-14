@@ -1,0 +1,39 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.CROZAdapter.APIService.ICROZAPI.ParticipantsSearch</OperationName>
+  <Code>ParticipantsSearch</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>ParticipantsRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/CROZ/CROZ/ParticipantsRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за търсене на участници по зададен идентификационен код и наименование</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>ParticipantCode</ParameterName>
+        <ParameterLabel>Идентификационен код на участник</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>ParticipantName</ParameterName>
+        <ParameterLabel>Наименование на участник</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

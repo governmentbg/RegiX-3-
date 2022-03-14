@@ -1,0 +1,26 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.REZMAAdapter.APIService.IREZMAAPI.GetCustomsObligations</OperationName>
+  <Code>GetCustomsObligations</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>CustomsObligationsRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/AM/REZMA/CustomsObligationsRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за митнически задължения</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Identifier</ParameterName>
+        <ParameterLabel>Идентификатор(ЕИК)</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <IdentifierType>4</IdentifierType>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

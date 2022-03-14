@@ -1,0 +1,2 @@
+Install-Package RegiX.MtspSimevAdapter
+Install-Package RegiX.NKPDAdapter

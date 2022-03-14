@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://egov.bg/RegiX/GVA" xmlns="http://egov.bg/RegiX/GVA/AircraftsByMSNRequest" targetNamespace="http://egov.bg/RegiX/GVA/AircraftsByMSNRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="AircraftsByMSNType">
+		<xs:annotation>
+			<xs:documentation>Входни параметри на справка по сериен номер на въздухоплавателно средство за вписани в регистъра обстоятелства</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="MSN" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Сериен номер (MSN) на въздухоплавателно средство</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ICAO" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ICAO на въздухоплавателното средство</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegMark" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Регистрационен знак</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="AircraftsByMSNRequest" type="AircraftsByMSNType">
+		<xs:annotation>
+			<xs:documentation>Справка по сериен номер на въздухоплавателно средство за вписани в регистъра обстоятелства - заявка</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

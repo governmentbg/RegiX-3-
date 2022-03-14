@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>regix2</DataSourceReference>
+      <CommandText>SELECT        CONSUMER_PROFILES.NAME, CONSUMER_PROFILES.IDENTIFIER, CONSUMER_PROFILES.ADDRESS, CONSUMER_PROFILES.IDENTIFIER_TYPE, CONSUMER_SYSTEMS.NAME AS SystemName, 
+                         CONSUMER_SYSTEMS.DESCRIPTION, CONSUMER_SYSTEM_CERTIFICATES.REQUEST_DATE
+FROM            CONSUMER_SYSTEMS INNER JOIN
+                         CONSUMER_PROFILES ON CONSUMER_SYSTEMS.CONSUMER_PROFILE_ID = CONSUMER_PROFILES.CONSUMER_PROFILE_ID INNER JOIN
+                         CONSUMER_SYSTEM_CERTIFICATES ON CONSUMER_SYSTEMS.CONSUMER_SYSTEM_ID = CONSUMER_SYSTEM_CERTIFICATES.CONSUMER_SYSTEM_ID</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="NAME">
+        <DataField>NAME</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="IDENTIFIER">
+        <DataField>IDENTIFIER</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ADDRESS">
+        <DataField>ADDRESS</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="IDENTIFIER_TYPE">
+        <DataField>IDENTIFIER_TYPE</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="SystemName">
+        <DataField>SystemName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DESCRIPTION">
+        <DataField>DESCRIPTION</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="REQUEST_DATE">
+        <DataField>REQUEST_DATE</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

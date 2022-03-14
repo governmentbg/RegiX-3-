@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<JobSeekerStatusResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AZ/JobSeekerStatusResponse">
+  <RegistrationGroup>заето</RegistrationGroup>
+  <JobSeekerPersonData>
+    <PersonalID xmlns="http://egov.bg/RegiX/AZ">2342354</PersonalID>
+    <FirstName xmlns="http://egov.bg/RegiX/AZ">Geno</FirstName>
+    <MiddleName xmlns="http://egov.bg/RegiX/AZ">Ivanov</MiddleName>
+    <LastName xmlns="http://egov.bg/RegiX/AZ">Kalki</LastName>
+    <RegistrationNumber xmlns="http://egov.bg/RegiX/AZ">4234</RegistrationNumber>
+    <RegistrationDate xmlns="http://egov.bg/RegiX/AZ">2015-09-25</RegistrationDate>
+    <RegistrationDBT xmlns="http://egov.bg/RegiX/AZ">ДБТ - Асеновград</RegistrationDBT>
+    <RegistrationStatus xmlns="http://egov.bg/RegiX/AZ">прекратена</RegistrationStatus>
+  </JobSeekerPersonData>
+</JobSeekerStatusResponse>

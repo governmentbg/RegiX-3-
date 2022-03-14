@@ -1,0 +1,17 @@
+<igx-tabs>
+  <igx-tabs-group label="Моите услуги" #myoperations>
+    <app-my-operation-calls> </app-my-operation-calls>
+  </igx-tabs-group>
+  <igx-tabs-group label="Чакащи услуги" #waitingoperations>
+    <app-operation-calls *ngIf="waitingoperations.isSelected">
+    </app-operation-calls>
+  </igx-tabs-group>
+  <igx-tabs-group label="Приключени услуги" #finishedoperations>
+    <app-returned-calls *ngIf="finishedoperations.isSelected">
+    </app-returned-calls>
+  </igx-tabs-group>
+  <igx-tabs-group label="Чакащи подпис" #waitingpersistance>
+    <app-operation-persistance *ngIf="waitingpersistance.isSelected">
+    </app-operation-persistance>
+  </igx-tabs-group>
+</igx-tabs>

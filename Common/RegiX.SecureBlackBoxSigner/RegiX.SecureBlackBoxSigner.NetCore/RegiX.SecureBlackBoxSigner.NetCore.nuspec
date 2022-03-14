@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$authors$</authors>
+    <owners>$authors$</owners>
+    <description>$description$</description>
+    <releaseNotes>Fixed SecureBlackBox dependency reference in the nuspec file (causing not supported platform exception)</releaseNotes>
+    <dependencies>
+      <dependency id="RegiX.BaseSigner" version="1.0.14" />
+      <dependency id="SecureBlackbox.NetCore" version="16.0.330" />
+    </dependencies>
+  </metadata>
+</package>

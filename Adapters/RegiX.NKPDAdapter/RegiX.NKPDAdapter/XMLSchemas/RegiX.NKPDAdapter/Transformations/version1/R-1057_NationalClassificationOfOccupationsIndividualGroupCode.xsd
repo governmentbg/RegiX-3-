@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema targetNamespace="http://ereg.egov.bg/value/R-1057" xmlns="http://ereg.egov.bg/value/R-1057" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xsd:simpleType name="NationalClassificationOfOccupationsIndividualGroupCode">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="bg">Код на единична група от национална класификация на професиите и длъжностите в Република България (НКПД)</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="\d{4}" />
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>

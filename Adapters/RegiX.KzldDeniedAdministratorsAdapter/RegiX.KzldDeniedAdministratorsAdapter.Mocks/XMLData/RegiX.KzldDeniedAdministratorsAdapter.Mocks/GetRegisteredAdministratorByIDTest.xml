@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<DeniedEntryAdministratorResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/KZLD/DeniedAdministrators/DeniedEntryAdministratorResponse">
+  <PDCDeniedEntryData>
+    <Identifier xmlns="http://egov.bg/RegiX/KZLD">309271</Identifier>
+    <Name xmlns="http://egov.bg/RegiX/KZLD">АМБУЛАТОРИЯ ЗА СПЕЦИАЛИЗИРАНА МЕДИЦИНСКА ПОМОЩ-ИНДИВИДУАЛНА ПРАКТИКА-АГ - ДОЛЯ НЕЙКОВА-ДЕНЕВСКА</Name>
+    <LegalForm xmlns="http://egov.bg/RegiX/KZLD">ЕТ</LegalForm>
+    <Location xmlns="http://egov.bg/RegiX/KZLD">гр.ШУМЕН</Location>
+    <Address xmlns="http://egov.bg/RegiX/KZLD">УЛ. ПЕНЧО СЛАВЕЙКОВ № 12</Address>
+    <LocationCode xmlns="http://egov.bg/RegiX/KZLD">83510</LocationCode>
+  </PDCDeniedEntryData>
+</DeniedEntryAdministratorResponse>

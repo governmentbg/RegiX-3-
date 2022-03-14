@@ -1,0 +1,312 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <div *ngIf="isDataLoading">
+      <div>
+        <igx-circular-bar
+          [animate]="true"
+          [indeterminate]="true"
+          [textVisibility]="true"
+        ></igx-circular-bar>
+      </div>
+    </div>
+    <form
+      [formGroup]="hierarchyFormGroup"
+      *ngIf="isDataLoaded && !isDataLoading"
+    >
+      <div igxLayout igxLayoutDir="col">
+        <!--administration-->
+        <div
+          class="input-group select-filter-wrapper"
+          igxFlex
+          igxLayout
+          igxLayoutDir="row"
+        >
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group [displayDensity]="'compact'">
+              <input
+                class="form-input"
+                igxInput
+                name="administration"
+                type="text"
+                formControlName="administration"
+                tlFormGroupRef
+              />
+              <label igxLabel for="administration">Администрация</label>
+              <igx-suffix>
+                <igx-icon>{{ routes.ADMINISTRATIONS.icon }}</igx-icon>
+              </igx-suffix>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+
+        <!--register-->
+        <div
+          class="input-group select-filter-wrapper"
+          igxFlex
+          igxLayout
+          igxLayoutDir="row"
+        >
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group [displayDensity]="'compact'">
+              <input
+                class="form-input"
+                igxInput
+                name="register"
+                type="text"
+                formControlName="register"
+                tlFormGroupRef
+              />
+              <label igxLabel for="register">Регистър</label>
+              <igx-suffix>
+                <igx-icon>{{ routes.REGISTRIES.icon }}</igx-icon>
+              </igx-suffix>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+
+        <!--adapter-->
+        <div
+          class="input-group select-filter-wrapper"
+          igxFlex
+          igxLayout
+          igxLayoutDir="row"
+        >
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group [displayDensity]="'compact'">
+              <input
+                class="form-input"
+                igxInput
+                name="adapter"
+                type="text"
+                formControlName="adapter"
+                tlFormGroupRef
+              />
+              <label igxLabel for="adapter">Адаптер</label>
+              <igx-suffix>
+                <igx-icon>{{ routes.ADAPTERS.icon }}</igx-icon>
+              </igx-suffix>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+      </div>
+    </form>
+    <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isDataLoaded && !isDataLoading"
+    >
+      <div
+        class="input-group select-filter-wrapper"
+        igxFlex
+        igxLayout
+        igxLayoutDir="row"
+        formGroupName="adapterOperation"
+      >
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group [displayDensity]="'compact'">
+            <input
+              class="form-input"
+              igxInput
+              name="displayName"
+              type="text"
+              formControlName="displayName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="displayName">Операция</label>
+            <igx-suffix>
+              <igx-icon>{{ routes.OPERATIONS.icon }}</igx-icon>
+            </igx-suffix>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div
+        class="input-group select-filter-wrapper"
+        igxFlex
+        igxLayout
+        igxLayoutDir="row"
+        formGroupName="adapterOperation"
+      >
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group [displayDensity]="'compact'">
+            <input
+              class="form-input"
+              igxInput
+              name="description"
+              type="text"
+              formControlName="description"
+              tlFormGroupRef
+            />
+            <label igxLabel for="description">Описание на операция</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group form-group-wrapper" igxLayout igxLayoutDir="row">
+        <igx-select
+          #statusSelectComponent
+          igxFlex
+          [(ngModel)]="currentStatus"
+          class="form-group-wrapper"
+          name="consumerAccessRequestStatus"
+          formControlName="consumerAccessRequestStatus"
+          tlFormGroupRef
+        >
+          <igx-select-item
+            *ngFor="let stats of this.statusEnums"
+            [value]="stats.id"
+          >
+            {{ stats.displayName }}
+          </igx-select-item>
+          <label igxLabel for="consumerAccessRequestStatus">Статус</label>
+        </igx-select>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="comment"
+              type="textarea"
+              formControlName="comment"
+              tlFormGroupRef
+            />
+            <label igxLabel for="comment">Коментар</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+    </form>
+    <div class="tabs-wrapper">
+      <igx-tabs>
+        <igx-tabs-group label="Заявени елементи" class="roles-wrapper">
+          <div class="roles-wrapper">
+            <div igxLayout igxLayoutDir="row">
+              <h3 igxFlex class="igx-card-header__title elements-header">
+                Заявени елементи
+              </h3>
+              <h3 igxFlex class="igx-card-header__title elements-header">
+                Одобрени от ПАД
+              </h3>
+            </div>
+            <div
+              class="elements-wrapper"
+              igxLayout
+              igxLayoutDir="row"
+              igxLayoutJustify="space-between"
+            >
+              <tl-linear-progress
+                [visible]="this.isDataLoading"
+              ></tl-linear-progress>
+
+              <igx-tree-grid
+                #treeGrid
+                [data]="operationElements"
+                [allowFiltering]="true"
+                (onRowSelectionChange)="onRowClickChangeEditDisable($event)"
+                [primaryKey]="'primaryKey'"
+                [foreignKey]="'foreignKey'"
+                [rowSelectable]="true"
+                [rowSelection]="'multiple'"
+                [height]="null"
+                igxFlex
+              >
+                <igx-column
+                  field="name"
+                  header="Елемент"
+                  dataType="string"
+                  [sortable]="false"
+                  [editable]="false"
+                  [movable]="false"
+                  [resizable]="true"
+                >
+                  <ng-template igxCell let-cell="cell">
+                    <span [title]="cell.value" class="text-ellipsis">{{
+                      cell.value
+                    }}</span>
+                  </ng-template>
+                </igx-column>
+                <igx-column
+                  field="description"
+                  header="Описание"
+                  dataType="string"
+                  [sortable]="false"
+                  [editable]="false"
+                  [movable]="false"
+                  [resizable]="true"
+                >
+                  <ng-template igxCell let-cell="cell">
+                    <span [title]="cell.value" class="text-ellipsis">{{
+                      cell.value
+                    }}</span>
+                  </ng-template>
+                </igx-column>
+              </igx-tree-grid>
+
+              <igx-tree-grid
+                #treeGridEdit
+                [data]="operationElements"
+                [allowFiltering]="true"
+                (onRowSelectionChange)="
+                  this.currentUserRole != 'GLOBAL_ADMIN' && !this.isShowForm()
+                    ? onRowClickChangeEditEnable($event)
+                    : onRowClickChangeEditDisable($event)
+                "
+                [primaryKey]="'primaryKey'"
+                [foreignKey]="'foreignKey'"
+                [rowSelectable]="true"
+                [rowSelection]="'multiple'"
+                [height]="null"
+                igxFlex
+              >
+                <igx-column
+                  field="name"
+                  header="Елемент"
+                  dataType="string"
+                  [sortable]="false"
+                  [editable]="false"
+                  [movable]="false"
+                  [resizable]="true"
+                >
+                  <ng-template igxCell let-cell="cell">
+                    <span [title]="cell.value" class="text-ellipsis">{{
+                      cell.value
+                    }}</span>
+                  </ng-template>
+                </igx-column>
+                <igx-column
+                  field="description"
+                  header="Описание"
+                  dataType="string"
+                  [sortable]="false"
+                  [editable]="false"
+                  [movable]="false"
+                  [resizable]="true"
+                >
+                  <ng-template igxCell let-cell="cell">
+                    <span [title]="cell.value" class="text-ellipsis">{{
+                      cell.value
+                    }}</span>
+                  </ng-template>
+                </igx-column>
+              </igx-tree-grid>
+            </div>
+          </div>
+        </igx-tabs-group>
+        <igx-tabs-group label="История на статусите" class="roles-wrapper">
+          <div class="roles-wrapper">
+            <app-consumer-assess-request-status-table
+              [consumerAccessRequest]="formObject.id"
+            >
+            </app-consumer-assess-request-status-table>
+          </div>
+        </igx-tabs-group>
+      </igx-tabs>
+    </div>
+  </div>
+</tl-basic-form>

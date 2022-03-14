@@ -1,0 +1,53 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.PVGeoAdapter.APIService.IPVGeoAPI.GetREG_GEO_GI_User</OperationName>
+  <Code>GetREG_GEO_GI_User</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>GetGIByUserName</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/PatentDepartment/Geo/GIUserRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за географски означения по ползвател</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>FName</ParameterName>
+        <ParameterLabel>Име</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>SName</ParameterName>
+        <ParameterLabel>Презиме</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>LName</ParameterName>
+        <ParameterLabel>Фамилия</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<TemporaryAddressResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/PNA/TemporaryAddressResponse">
+  <CountryCode>BG   </CountryCode>
+  <CountryName>България              </CountryName>
+  <DistrictCode>SF</DistrictCode>
+  <DistrictName>София град      </DistrictName>
+  <MunicipalityCode>SF</MunicipalityCode>
+  <MunicipalityName>София град      </MunicipalityName>
+  <SettlementCode>BG001</SettlementCode>
+  <SettlementName>София               </SettlementName>
+  <CityAreaCode>SL</CityAreaCode>
+  <CityArea>Слатина  </CityArea>
+  <LocationCode>     </LocationCode>
+  <BuildingNumber>30  </BuildingNumber>
+  <Entrance>Б</Entrance>
+  <Floor>1 </Floor>
+  <Apartment>21 </Apartment>
+  <FromDate>2005-03-12</FromDate>
+</TemporaryAddressResponse>

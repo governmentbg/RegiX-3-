@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PatientRecordMedicalTreatmentsRequest xmlns="http://egov.bg/RegiX/NHIF/Request">
+  <IdentifierType>LNCh</IdentifierType>
+  <Identifier>Identifier1</Identifier>
+</PatientRecordMedicalTreatmentsRequest>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$Version$</version>
+    <title>$title$</title>
+    <authors>$authors$</authors>
+    <owners>$authors$</owners>
+    <description>$description$</description>
+    <dependencies>
+      <dependency id="RegiX.Adapters.Common" version="1.0.70" />
+      <dependency id="Oracle.ManagedDataAccess" version="19.10.0" />
+    </dependencies>
+  </metadata>
+</package>

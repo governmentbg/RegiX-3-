@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet2">
+    <Query>
+      <DataSourceReference>regix2</DataSourceReference>
+      <CommandText>SELECT        CONSUMER_SYSTEMS.*
+FROM            CONSUMER_SYSTEMS</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="CONSUMER_SYSTEM_ID">
+        <DataField>CONSUMER_SYSTEM_ID</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="CONSUMER_PROFILE_ID">
+        <DataField>CONSUMER_PROFILE_ID</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="NAME">
+        <DataField>NAME</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DESCRIPTION">
+        <DataField>DESCRIPTION</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="API_SERVICE_CONSUMER_ID">
+        <DataField>API_SERVICE_CONSUMER_ID</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

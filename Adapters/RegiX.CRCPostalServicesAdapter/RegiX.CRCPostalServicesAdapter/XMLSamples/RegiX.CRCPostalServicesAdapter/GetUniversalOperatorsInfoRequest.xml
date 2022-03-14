@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetUniversalOperatorsInfoRequest xmlns="http://egov.bg/RegiX/CRC/PostalServices/GetUniversalOperatorsInfoRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Holder>String</Holder>
+  <Type>ЕООД</Type>
+  <URI>String</URI>
+  <Address>String</Address>
+  <License>String</License>
+  <LicenseDateFrom>1967-08-13</LicenseDateFrom>
+  <LicenseDateTo>1967-08-13</LicenseDateTo>
+  <ActionDateFrom>1967-08-13</ActionDateFrom>
+  <ActionDateTo>1967-08-13</ActionDateTo>
+  <ActionEndDateFrom>1967-08-13</ActionEndDateFrom>
+  <ActionEndDateTo>1967-08-13</ActionEndDateTo>
+  <ShippingServices>Не</ShippingServices>
+  <ParcelServices>Да</ParcelServices>
+  <AdditionalServices>Да</AdditionalServices>
+  <TransferServices>Не</TransferServices>
+</GetUniversalOperatorsInfoRequest>

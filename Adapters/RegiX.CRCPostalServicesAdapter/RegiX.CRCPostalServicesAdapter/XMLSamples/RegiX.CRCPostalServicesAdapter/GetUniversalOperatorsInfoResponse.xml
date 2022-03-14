@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetUniversalOperatorsInfoResponse xmlns="http://egov.bg/RegiX/CRC/PostalServices/GetUniversalOperatorsInfoResponse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OperatorsInfo>
+    <OperatorInfo>
+      <LicenseHolder>String</LicenseHolder>
+      <Type>String</Type>
+      <HeadquartersAddress>String</HeadquartersAddress>
+      <URI>String</URI>
+      <License>
+        <LicenseNumber>String</LicenseNumber>
+        <LicenseDate>1967-08-13</LicenseDate>
+        <StartOfActionDate>1967-08-13</StartOfActionDate>
+        <EndOfActionDate>1967-08-13</EndOfActionDate>
+        <ProvidedPostalServices>
+          <TransferServices>String</TransferServices>
+          <AdditionalServices>String</AdditionalServices>
+          <ParcelServices>String</ParcelServices>
+          <ShippingServices>String</ShippingServices>
+        </ProvidedPostalServices>
+        <TerritorialScope>String</TerritorialScope>
+        <Remark>String</Remark>
+      </License>
+    </OperatorInfo>
+    <OperatorInfo>
+      <LicenseHolder>String</LicenseHolder>
+      <Type>String</Type>
+      <HeadquartersAddress>String</HeadquartersAddress>
+      <URI>String</URI>
+      <License>
+        <LicenseNumber>String</LicenseNumber>
+        <LicenseDate>1967-08-13</LicenseDate>
+        <StartOfActionDate>1967-08-13</StartOfActionDate>
+        <EndOfActionDate>1967-08-13</EndOfActionDate>
+        <ProvidedPostalServices>
+          <TransferServices>String</TransferServices>
+          <AdditionalServices>String</AdditionalServices>
+          <ParcelServices>String</ParcelServices>
+          <ShippingServices>String</ShippingServices>
+        </ProvidedPostalServices>
+        <TerritorialScope>String</TerritorialScope>
+        <Remark>String</Remark>
+      </License>
+    </OperatorInfo>
+  </OperatorsInfo>
+</GetUniversalOperatorsInfoResponse>

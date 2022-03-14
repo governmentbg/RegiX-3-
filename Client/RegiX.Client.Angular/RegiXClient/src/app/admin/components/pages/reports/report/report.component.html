@@ -1,0 +1,409 @@
+<igx-linear-bar *ngIf="this.isDataLoading" [indeterminate]="this.isDataLoading">
+</igx-linear-bar>
+
+<div class="report-content-wrapper" *ngIf="!isDataLoading && isDataLoaded">
+  <div
+    class="buttons-wrapper"
+    *ngIf="this.reportResult || this.asyncReportExecutionID"
+  >
+    <button
+      type="button"
+      class="new-operation-fab-button"
+      igxButton="fab"
+      (click)="onReset()"
+      title="Нова услуга"
+    >
+      <igx-icon>receipt</igx-icon>
+    </button>
+  </div>
+  <tl-card
+    class="report-card"
+    [routeReference]="operationRoute"
+    [title]="pageTitle"
+    [subTitle]="executionDate | date: 'dd.MM.yyyy HH:mm:ss'"
+    [cardContent]="reportContent"
+    [cardActions]="reportActions"
+  >
+    <ng-template #reportContent>
+      <igx-linear-bar
+        *ngIf="this.isRequestLoading"
+        [indeterminate]="true"
+      ></igx-linear-bar>
+
+      <div class="alert" *ngIf="!formGroup">
+        Възникна грешка при извличане на параметри за услуга!
+      </div>
+
+      <app-report-result
+        *ngIf="this.reportResult"
+        [result]="this.reportResult"
+        id="report-result"
+      >
+      </app-report-result>
+
+      <span *ngIf="this.asyncReportExecutionID">
+        Услугата се обработва. Може да следите за нейното приключване в
+        <a
+          [routerLink]="['/', 'admin', 'async']"
+          title="Чакащи за изпълнение услуги"
+          >Чакащи услуги</a
+        >
+      </span>
+
+      <div
+        class="form-wrapper"
+        *ngIf="
+          formGroup &&
+          !this.asyncReportExecutionID &&
+          !this.reportResult &&
+          !this.isRequestLoading
+        "
+      >
+        <form [formGroup]="formGroup" (submit)="onSubmit($event)">
+          <h6>Основни параметри</h6>
+          <rgx-parameters-control
+            [formGroup]="formGroup"
+            [operationParameters]="operationParameters"
+          ></rgx-parameters-control>
+
+          <div
+            class="additional-info-wrapper"
+            *ngxPermissionsOnly="allPermissions"
+          >
+            <h6>Допълнителна информация</h6>
+
+            <!-- <div class="input-group"  *ngIf="false" >
+      <tl-form-group class="form-group-wrapper">
+        <igx-input-group>
+          <input
+            class="form-input"
+            igxInput
+            name="employeeName"
+            type="text"
+            formControlName="regiXClient_employeeName"
+            tlFormGroupRef
+          />
+          <label igxLabel for="employeeName">Имена на служител</label>
+        </igx-input-group>
+      </tl-form-group>
+    </div>
+
+    <div class="input-group"  *ngIf="false">
+      <tl-form-group class="form-group-wrapper">
+        <igx-input-group>
+          <input
+            class="form-input"
+            igxInput
+            name="employeeId"
+            type="text"
+            formControlName="regiXClient_employeeId"
+            tlFormGroupRef
+          />
+          <label igxLabel for="employeeId">Идентификатор на служител</label>
+        </igx-input-group>
+      </tl-form-group>
+    </div>
+
+    <div class="input-group"  *ngIf="false">
+      <tl-form-group class="form-group-wrapper">
+        <igx-input-group>
+          <input
+            class="form-input"
+            igxInput
+            name="administrationName"
+            type="text"
+            formControlName="regiXClient_administrationName"
+            tlFormGroupRef
+          />
+          <label igxLabel for="administrationName"
+            >Име на администрация</label
+          >
+        </igx-input-group>
+      </tl-form-group>
+    </div>
+
+    <div class="input-group"  *ngIf="false">
+      <tl-form-group class="form-group-wrapper">
+        <igx-input-group>
+          <input
+            class="form-input"
+            igxInput
+            name="employeePosition"
+            type="text"
+            formControlName="regiXClient_employeePosition"
+            tlFormGroupRef
+          />
+          <label igxLabel for="employeePosition"
+            >Длъжност на служителя в администрацията</label
+          >
+        </igx-input-group>
+      </tl-form-group>
+    </div> -->
+
+            <div class="input-group" *ngxPermissionsOnly="basicPermissions">
+              <tl-form-group class="form-group-wrapper">
+                <igx-input-group>
+                  <input
+                    class="form-input"
+                    igxInput
+                    name="additionalEmployeeId"
+                    type="text"
+                    formControlName="regiXClient_additionalEmployeeId"
+                    tlFormGroupRef
+                  />
+                  <label igxLabel for="additionalEmployeeId"
+                    >Допълнителен идентификатор на служител от
+                    администрация</label
+                  >
+                </igx-input-group>
+              </tl-form-group>
+            </div>
+
+            <div class="input-group" *ngxPermissionsOnly="basicPermissions">
+              <tl-form-group class="form-group-wrapper">
+                <igx-input-group>
+                  <input
+                    class="form-input"
+                    igxInput
+                    name="serviceURI"
+                    type="text"
+                    formControlName="regiXClient_serviceURI"
+                    tlFormGroupRef
+                  />
+                  <label igxLabel for="serviceURI">Номер на преписка</label>
+                </igx-input-group>
+              </tl-form-group>
+            </div>
+
+            <div class="input-group" *ngxPermissionsOnly="basicPermissions">
+              <tl-form-group class="form-group-wrapper">
+                <igx-input-group>
+                  <input
+                    class="form-input"
+                    igxInput
+                    name="serviceType"
+                    type="text"
+                    formControlName="regiXClient_serviceType"
+                    tlFormGroupRef
+                  />
+                  <label igxLabel for="serviceType">Вид на услугата</label>
+                </igx-input-group>
+              </tl-form-group>
+            </div>
+
+            <div class="input-group" *ngxPermissionsOnly="basicPermissions">
+              <tl-form-group class="form-group-wrapper">
+                <igx-input-group>
+                  <input
+                    class="form-input"
+                    igxInput
+                    name="lawReason"
+                    type="text"
+                    formControlName="regiXClient_lawReason"
+                    tlFormGroupRef
+                  />
+                  <label igxLabel for="lawReason">Правно основание</label>
+                </igx-input-group>
+              </tl-form-group>
+            </div>
+
+            <div class="input-group" *ngxPermissionsOnly="basicPermissions">
+              <tl-form-group class="form-group-wrapper">
+                <igx-input-group [displayDensity]="'compact'">
+                  <label igxLabel for="remarks">Забележка</label>
+                  <textarea
+                    igxInput
+                    name="remarks"
+                    formControlName="regiXClient_remarks"
+                    tlFormGroupRef
+                  >
+                  </textarea>
+                </igx-input-group>
+              </tl-form-group>
+            </div>
+
+            <div class="input-group" *ngxPermissionsOnly="allPermissions">
+              <tl-form-group class="form-group-wrapper">
+                <igx-checkbox
+                  name="resultAsPDF"
+                  formControlName="regiXClient_resultAsPDF"
+                  rows="3"
+                  tlFormGroupRef
+                >
+                  Отговор в преносим документен формат
+                </igx-checkbox>
+              </tl-form-group>
+            </div>
+
+            <!-- <div class="input-group"  *ngIf="false">
+      <tl-form-group class="form-group-wrapper">
+        <igx-checkbox
+              name="returnAccessMatrix"
+              formControlName="regiXClient_returnAccessMatrix"
+              rows="3"
+              tlFormGroupRef>
+            Включване на матрица на достъп в отговор
+        </igx-checkbox>
+      </tl-form-group>
+    </div>
+
+    <div class="input-group" *ngIf="false">
+      <tl-form-group class="form-group-wrapper">
+        <igx-checkbox
+              name="signResult"
+              formControlName="regiXClient_signResult"
+              rows="3"
+              tlFormGroupRef>
+              Цифрово подписване на резултата
+        </igx-checkbox>
+      </tl-form-group>
+    </div> -->
+          </div>
+        </form>
+
+        <div class="error" *ngIf="errorMessage">{{ errorMessage }}</div>
+
+        <div
+          class="buttons-wrapper"
+          *ngIf="!this.reportResult && !this.asyncReportExecutionID"
+        >
+          <button
+            type="button"
+            class="table-button"
+            igxButton="raised"
+            (click)="onClear()"
+            [disabled]="!isFormDirty()"
+            title="Изчисти"
+          >
+            Изчисти
+          </button>
+          <button
+            type="button"
+            class="table-button"
+            igxButton="raised"
+            (click)="onSubmit($event)"
+            [disabled]="!isFormValid()"
+            title="Изпълни"
+          >
+            Изпълни
+          </button>
+        </div>
+      </div>
+
+      <!-- The button appears only when the progress bar is visible -->
+      <div class="buttons-wrapper" *ngIf="this.isRequestLoading">
+        <button
+          type="button"
+          class="cancel-button"
+          igxButton="raised"
+          (click)="onCancelRequest()"
+          title="Отмени"
+        >
+          Отмени
+        </button>
+      </div>
+    </ng-template>
+
+    <ng-template #reportActions>
+      <div style="padding: 1rem" *ngIf="this.reportResult">
+        <button igxButton="outlined" igxRipple (buttonClick)="onPrint()">
+          Принтирай&nbsp;
+          <igx-icon fontSet="material">print</igx-icon>
+        </button>
+        <button
+          igxButton="outlined"
+          igxRipple
+          [igxToggleAction]="requestDropdown"
+          [overlaySettings]="menuOverlaySettings"
+          [igxDropDownItemNavigation]="requestDropdown"
+        >
+          XML на заявка
+          <igx-icon fontSet="material">expand_more</igx-icon>
+        </button>
+        <igx-drop-down
+          #requestDropdown
+          (onSelection)="onRequestSaveXML($event)"
+          [width]="'200px'"
+        >
+          <igx-drop-down-item [value]="'Download'">
+            <igx-icon fontSet="material">save</igx-icon>&nbsp;Запази
+          </igx-drop-down-item>
+          <igx-drop-down-item [value]="'Open'">
+            <igx-icon fontSet="material">open_in_new</igx-icon>&nbsp;Отвори
+          </igx-drop-down-item>
+        </igx-drop-down>
+        <button
+          igxButton="outlined"
+          igxRipple
+          [igxToggleAction]="responseDropdown"
+          [overlaySettings]="menuOverlaySettings"
+          [igxDropDownItemNavigation]="responseDropdown"
+        >
+          XML на отговор
+          <igx-icon fontSet="material">expand_more</igx-icon>
+        </button>
+        <igx-drop-down
+          #responseDropdown
+          (onSelection)="onResponseSaveXML($event)"
+          [width]="'200px'"
+        >
+          <igx-drop-down-item [value]="'Download'">
+            <igx-icon fontSet="material">save</igx-icon>&nbsp;Запази
+          </igx-drop-down-item>
+          <igx-drop-down-item [value]="'Open'">
+            <igx-icon fontSet="material">open_in_new</igx-icon>&nbsp;Отвори
+          </igx-drop-down-item>
+        </igx-drop-down>
+
+        <button
+          *ngIf="this.reportResult.responsePdf"
+          igxButton="outlined"
+          igxRipple
+          [igxToggleAction]="pdfDropdown"
+          [overlaySettings]="menuOverlaySettings"
+          [igxDropDownItemNavigation]="pdfDropdown"
+        >
+          PDF Резултат
+          <igx-icon fontSet="material">expand_more</igx-icon>
+        </button>
+        <igx-drop-down
+          #pdfDropdown
+          (onSelection)="onPDFSave($event)"
+          [width]="'200px'"
+        >
+          <igx-drop-down-item [value]="'Download'">
+            <igx-icon fontSet="material">save</igx-icon>&nbsp;Запази
+          </igx-drop-down-item>
+          <igx-drop-down-item [value]="'Open'">
+            <igx-icon fontSet="material">open_in_new</igx-icon>&nbsp;Отвори
+          </igx-drop-down-item>
+        </igx-drop-down>
+
+      <button
+        *ngIf="this.reportResult.signatureVerified !== null && this.reportResult.signatureVerified !== undefined"
+        igxButton="outlined"
+        igxRipple
+        [igxToggleAction]="certDropdown"
+        [overlaySettings]="menuOverlaySettings"
+        [igxDropDownItemNavigation]="certDropdown"
+      >
+        Подпис
+        <igx-icon *ngIf="!this.reportResult.signatureVerified" fontSet="material" color="red">gpp_bad</igx-icon>
+        <igx-icon *ngIf="this.reportResult.signatureVerified" fontSet="material" color="green">gpp_good</igx-icon>
+      </button>
+      <igx-drop-down
+        #certDropdown
+        (onSelection)="onCertSave($event)"
+        [width]="'200px'"
+      >
+        <igx-drop-down-item [value]="'Certificate'">
+          <igx-icon fontSet="material">card_membership</igx-icon>&nbsp;Сертификат
+        </igx-drop-down-item>
+        <igx-drop-down-item [value]="'RawResponse'">
+          <igx-icon fontSet="material">text_snippet</igx-icon>&nbsp;Пълен отговор
+        </igx-drop-down-item>
+      </igx-drop-down>
+      </div>
+    </ng-template>
+  </tl-card>
+</div>

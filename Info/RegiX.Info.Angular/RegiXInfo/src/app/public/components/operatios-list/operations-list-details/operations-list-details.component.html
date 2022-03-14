@@ -1,0 +1,78 @@
+<div>
+  <igx-linear-bar
+    *ngIf="isDataLoading && !isDataLoaded"
+    [indeterminate]="true"
+  ></igx-linear-bar>
+  <div *ngIf="!isDataLoading && isDataLoaded" style="padding: 1rem;">
+    <tl-card
+      [routeReference]="OPERATION"
+      [title]="this.pageTitle"
+      [subTitle]="adapter.interface + '.' + operationDetail.fullName"
+      [cardActions]="downloadButton"
+      [cardContent]="requestResponse"
+    >
+      <ng-template #requestResponse>
+        <div class="operation-request">
+          <igx-card class="register-wrapper" igxFlex>
+            <igx-card-header>
+              <igx-avatar
+                 icon="send"
+                 roundShape="true"
+                size="small"></igx-avatar>
+              <div igxCardHeaderTitle>Заявка</div>
+              <div igxCardHeaderSubtitle>{{operationDetail.request.description}}</div>
+            </igx-card-header>
+            <app-operations-list-details-description
+              [adapter]="adapter"
+              [operation]="operationDetail"
+              [operationType]="OPERATION_REQUEST"
+            ></app-operations-list-details-description>
+          </igx-card>
+        </div>
+        <div class="operation-response">
+          <igx-card class="register-wrapper" igxFlex>
+            <igx-card-header>
+              <igx-avatar
+                 icon="reply"
+                 roundShape="true"
+                size="small"></igx-avatar>
+              <div igxCardHeaderTitle>Отговор</div>
+              <div igxCardHeaderSubtitle>{{operationDetail.response.description}}</div>
+            </igx-card-header>
+            <app-operations-list-details-description
+              [adapter]="adapter"
+              [operation]="operationDetail"
+              [operationType]="OPERATION_RESPONSE"
+            ></app-operations-list-details-description>
+          </igx-card>
+        </div>
+      </ng-template>
+
+      <ng-template #downloadButton>
+        <button
+          [igxToggleAction]="registryDropdown"
+          [overlaySettings]="menuOverlaySettings"
+          [igxDropDownItemNavigation]="registryDropdown"
+          title="Сваляне на файлове"
+          igxButton
+        >
+          <i class="fa fa-download" aria-hidden="true"></i>
+          Сваляне на файлове
+          <!-- <i class="fa fa-arrow-down" aria-hidden="true"></i> -->
+        </button>
+        <igx-drop-down
+          #registryDropdown
+          (onSelection)="onRegistryMenuSelected($event)"
+          [width]="'200px'"
+        >
+          <igx-drop-down-item [value]="OPERATION_SAMPLE_DATA">
+            <i class="fa fa-archive" aria-hidden="true"></i>&nbsp;Примерни данни
+          </igx-drop-down-item>
+          <igx-drop-down-item [value]="OPERATION_XML_SHEME_DATA">
+            <i class="fa fa-archive" aria-hidden="true"></i>&nbsp;XML схеми
+          </igx-drop-down-item>
+        </igx-drop-down>
+      </ng-template>
+    </tl-card>
+  </div>
+</div>

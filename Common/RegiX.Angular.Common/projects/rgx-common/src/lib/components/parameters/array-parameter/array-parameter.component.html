@@ -1,0 +1,23 @@
+<igx-card>
+  <igx-card-header>
+    <h3 igxCardHeaderTitle>{{ controlLabel }}</h3>
+    <button
+      *ngIf="!isDisabled"
+      type="button"
+      igxButton="raised"
+      (click)="onAdd($event)">
+      Добави
+    </button>
+  </igx-card-header>
+  <igx-card-content>
+    <div *ngFor="let item of arrayItems; let i = index" style="margin-left: 0.5rem;">
+      <rgx-parameters-control
+      [formGroup]="formGroupInternal"
+      [operationParameters]="operationParameters"
+      [arrayIndex]="item"
+      [arrayParameterComponent]="this"
+      [isDisabled]="isDisabled"
+      ></rgx-parameters-control>
+    </div>
+  </igx-card-content>
+</igx-card>

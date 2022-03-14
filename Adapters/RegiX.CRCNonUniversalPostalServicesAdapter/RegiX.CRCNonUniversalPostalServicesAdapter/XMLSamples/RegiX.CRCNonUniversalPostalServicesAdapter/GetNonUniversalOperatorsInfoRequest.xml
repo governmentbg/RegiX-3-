@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetNonUniversalOperatorsInfoRequest xmlns="http://egov.bg/RegiX/CRC/NonUniversalPostalServices/GetNonUniversalOperatorsInfoRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Operator>String</Operator>
+  <Type>String</Type>
+  <Address>String</Address>
+  <Certificate>String</Certificate>
+  <StartFromDate>1967-08-13</StartFromDate>
+  <StartToDate>1967-08-13</StartToDate>
+  <PostalServices>String</PostalServices>
+  <CourierServices>String</CourierServices>
+  <DirectPostalAdvertising>String</DirectPostalAdvertising>
+</GetNonUniversalOperatorsInfoRequest>

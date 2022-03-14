@@ -1,0 +1,106 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.AVBulstat2Adapter.APIService.IAVBulstat2API.GetStateOfPlay</OperationName>
+  <Code>GetStateOfPlayRequest</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>GetStateOfPlayRequest</RequestObjectName>
+  <Namespace>http://www.bulstat.bg/GetStateOfPlayRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка по код на БУЛСТАТ или по фирмено дело за актуално състояние на субект на БУЛСТАТ</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>UIC</ParameterName>
+        <ParameterLabel>БУЛСТАТ код</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Case</ParameterName>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>Complex</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>Court</ParameterName>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>1</OrderNumber>
+            <ParameterType>
+              <Type>Complex</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters>
+            <Parameter>
+              <ParameterInfo>
+                <ParameterName>Code</ParameterName>
+                <ParameterLabel>Код на фирмено дело</ParameterLabel>
+                <IsRequired>false</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>1</OrderNumber>
+                <Namespace>http://www.bulstat.bg/NomenclatureEntry</Namespace>
+                <ParameterType>
+                  <Type>string</Type>
+                  <EnumValues />
+                </ParameterType>
+              </ParameterInfo>
+              <ChildParamteters />
+            </Parameter>
+          </ChildParamteters>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>Year</ParameterName>
+            <ParameterLabel>Година на фирмено дело</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>2</OrderNumber>
+            <ParameterType>
+              <Type>int</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>Number</ParameterName>
+            <ParameterLabel>Номер на фирмено дело</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>3</OrderNumber>
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>YearSpecified</ParameterName>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+      </ChildParamteters>
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

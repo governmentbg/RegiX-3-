@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<JobSeekerDirectionsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AZ/JobSeekerDirectionsResponse">
+  <Directions>
+    <Direction>
+      <RegistrationNumber>432423</RegistrationNumber>
+      <FreeWorkPlace>1</FreeWorkPlace>
+      <Employer>Georgi Atanasov</Employer>
+      <JobPosition>Software Engineer</JobPosition>
+      <State>Sofia</State>
+    </Direction>
+    <Direction>
+      <RegistrationNumber>2324</RegistrationNumber>
+      <FreeWorkPlace>2</FreeWorkPlace>
+      <Employer>Sotir Cacarov</Employer>
+      <JobPosition>Software Engineer</JobPosition>
+      <State>Burgas</State>
+    </Direction>
+  </Directions>
+  <JobSeekerPersonData>
+    <PersonalID xmlns="http://egov.bg/RegiX/AZ">12313</PersonalID>
+    <FirstName xmlns="http://egov.bg/RegiX/AZ">Atanas</FirstName>
+    <MiddleName xmlns="http://egov.bg/RegiX/AZ">Jekov</MiddleName>
+    <LastName xmlns="http://egov.bg/RegiX/AZ">Tanev</LastName>
+    <RegistrationNumber xmlns="http://egov.bg/RegiX/AZ">432423</RegistrationNumber>
+    <RegistrationDate xmlns="http://egov.bg/RegiX/AZ">2015-09-25</RegistrationDate>
+    <RegistrationDBT xmlns="http://egov.bg/RegiX/AZ">ДБТ - Пловдив</RegistrationDBT>
+    <RegistrationStatus xmlns="http://egov.bg/RegiX/AZ">прекратена</RegistrationStatus>
+  </JobSeekerPersonData>
+</JobSeekerDirectionsResponse>

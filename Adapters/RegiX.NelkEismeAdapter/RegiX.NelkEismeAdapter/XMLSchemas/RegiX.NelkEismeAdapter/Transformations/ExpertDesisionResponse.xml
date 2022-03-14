@@ -1,0 +1,373 @@
+﻿<ExpertDecisionsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NELK/EISME">
+				<ExpertDecisionDocument>
+					<RegistrationNumber>840</RegistrationNumber>
+					<MeetingNumber>64</MeetingNumber>
+					<RegistrationDate>2015-04-06T00:00:00+03:00</RegistrationDate>
+					<CommissionDescr>Трети състав на ТЕЛК Общи заболявания към Първа МБАЛ София</CommissionDescr>
+					<CommissionCode>2214</CommissionCode>
+					<CommisionMember>
+						<Position>Председател</Position>
+						<Name>д-р А. Христев</Name>
+					</CommisionMember>
+					<CommisionMember>
+						<Position>Лекар</Position>
+						<Name>д-р С. Велева</Name>
+					</CommisionMember>
+					<CommisionMember>
+						<Position>Лекар</Position>
+						<Name>д-р Р. Шинева</Name>
+					</CommisionMember>
+					<CommisionMember>
+						<Position>Лекар</Position>
+						<Name>Служебен лекар 1</Name>
+					</CommisionMember>
+					<PersonNames>ПЛАМЕН СИМЕОНОВ КРАЙЧЕВ</PersonNames>
+					<PersonIdentifier>6211106327</PersonIdentifier>
+					<IdentityDocument>
+						<DocumentNumber>166964807</DocumentNumber>
+						<IssueDate>2001-12-06T00:00:00+02:00</IssueDate>
+						<IssuePlace>МВР - София</IssuePlace>
+					</IdentityDocument>
+					<PermanentAddress>
+						<AddressDescription>,ж.к. Христо Смирненски 31 В, вх.А ет.3 ап.12</AddressDescription>
+						<DistrictEKATTE>SF</DistrictEKATTE>
+					</PermanentAddress>
+					<TemporaryAddress>
+						<AddressDescription>,null,ж.к. Христо Смирненски 31 В, вх.А ет.3 ап.12</AddressDescription>
+						<DistrictEKATTE>SF</DistrictEKATTE>
+					</TemporaryAddress>
+					<Employment>работи-професия</Employment>
+					<EmploymentCode>1</EmploymentCode>
+					<Profession>охранител</Profession>
+					<ConditionText>54% т. н. р.</ConditionText>
+					<ConditionCode>7</ConditionCode>
+					<ExpertiseType>преосвидетелстване</ExpertiseType>
+					<ExpertiseTypeCode>2</ExpertiseTypeCode>
+					<ExpertiseDecisionMaking>След преглед</ExpertiseDecisionMaking>
+					<ExpertiseDecisionMakingCode>2</ExpertiseDecisionMakingCode>
+					<ExpertisePlace>ТЕЛК</ExpertisePlace>
+					<ExpertisePlaceCode>1</ExpertisePlaceCode>
+					<EmployabilityAssessment>55% т. н. р.</EmployabilityAssessment>
+					<EmployabilityAssessmentCode>7</EmployabilityAssessmentCode>
+					<DurationDisabilityDate>2018-04-01T00:00:00+03:00</DurationDisabilityDate>
+					<DurationDisability>3 години</DurationDisability>
+					<DurationDisabilityCode>3</DurationDisabilityCode>
+					<DisabilityReason>
+						<Date>2003-07-09T00:00:00+03:00</Date>
+						<Percent>55</Percent>
+						<Type>Общо заболяване</Type>
+					</DisabilityReason>
+					<Diagnosis>Друга първична коксартроза</Diagnosis>
+					<DiagnosisCode>M16.1</DiagnosisCode>
+					<GeneralIllness>Тежка десностр. коксартроза след асептична некроза на главата на дясната бедрена кост.Скъсяване на десен долен крайник с 2 см. Хумероскапуларен периартрит в ляво. Деформ. спондилортроза и остеохондроза Л5-Ес1. Дископатия Л5- Ес1.Съст. след флеботромбоза на дясната аксиларна вена.Язва на дуоденума. Рефлукс езофагит.</GeneralIllness>
+					<GeneralIllnessCode>M16.1</GeneralIllnessCode>
+					<ContradictionWorkingConditions>Без ТФР, натоварване на долните  крайници. Може да работи по производствена характеристика.</ContradictionWorkingConditions>
+					<ArgumentsAndObservations>АНАМНЕЗА: Работи- охранител. Преосвидетелстване. От няколко години с болки и ограничени движения в дясната тазобедрена става, които прогресивно се засилили и затруднили движенията. Болки в поясният отдел на гръб.стълб ирадииращи към долните крайници. Ограничени болезни движения в лява раменна става. През м.09.1999г преживял флеботромбоза на дясна аксиларна вена. Дуоденална язва със сезонно обостряне.
+ОБЕКТИВНО: Добро общо състояние. Пулмо ет кор за възрастта. Корем - мек, палпаторни болки в епигаструма. Краници - десен горен крайник - леко оточен, обемна разлика 2 см. Ограничена абдукция в лява раменна става до 100 гр . Тежка степен ограничени движения в ДТБС S 0-0-70 гр.  F- 10-0-0 гр  R10-0-10 гр.Скъсен десен долен крайник с 2 см. Походка накуцваща надясно Гръб.стълб. изгладена лумбална лордоза, Шобер 10/11/ 9 см. Ограничени движения в лумбалния отдел   S 0-0-70 гр.
+МОТИВИ: Тежка степен ограничени движения в ДТБС на базата на асептична некроза на главата на дясната бедрена кост и деформираща коксартроза - 50% ч.І р.ІХ т.17.3.1
+Левостранен хумероскапуларен периартрит - абдукция до 100 гр. 10% ч.І р.VІІІ т.10.1
+Дегенеративни промени в гръб.стълб с трайни функционални нарушения - 20% ч.І р.ІV т.4.2
+Дископатия L5- S1.Двустранна лумбосакрална радикулопатия L4-L5-S1 /ЕМГ/  - 10% ч.VІІ т.15
+Преживяна флеботромбоза на десен горен крайник със слаби хемодинамични нарушения - 10% ч.VІІІ р.І т.1.1.
+
+ОБЩО: 55%Т.Н.Р./ 50% +10% от допалн. забол./
+					</ArgumentsAndObservations>
+					<Appeal>
+						<StakeholdersCode>Лицето</StakeholdersCode>
+						<DecisionCode>0</DecisionCode>
+					</Appeal>
+					<Parent>
+						<IdentityDocument />
+					</Parent>
+					<AdditionalData>
+						<EmployeeType>9854</EmployeeType>
+						<Status>9845</Status>
+					</AdditionalData>
+					<InitiateDocument />
+				</ExpertDecisionDocument>
+				<ExpertDecisionDocument>
+					<RegistrationNumber>1033</RegistrationNumber>
+					<MeetingNumber>88</MeetingNumber>
+					<RegistrationDate>2012-05-09T00:00:00+03:00</RegistrationDate>
+					<CommisionMember>
+						<Position>Председател</Position>
+						<Name>д-р А. Христев</Name>
+					</CommisionMember>
+					<CommisionMember>
+						<Position>Лекар</Position>
+						<Name>д-р С. Велева</Name>
+					</CommisionMember>
+					<CommisionMember>
+						<Position>Лекар</Position>
+						<Name>д-р Р. Шинева</Name>
+					</CommisionMember>
+					<CommisionMember>
+						<Position>Лекар</Position>
+						<Name>Служебен лекар 1</Name>
+					</CommisionMember>
+					<PersonNames>ПЛАМЕН СИМЕОНОВ КРАЙЧЕВ</PersonNames>
+					<PersonIdentifier>6211106327</PersonIdentifier>
+					<IdentityDocument>
+						<DocumentNumber>166964807</DocumentNumber>
+						<IssueDate>2001-12-06T00:00:00+02:00</IssueDate>
+						<IssuePlace>МВР - София</IssuePlace>
+					</IdentityDocument>
+					<PermanentAddress>
+						<AddressDescription>,ж.к. Христо Смирненски 31 В, вх.А ет.3 ап.12</AddressDescription>
+						<DistrictEKATTE>SF</DistrictEKATTE>
+					</PermanentAddress>
+					<TemporaryAddress>
+						<AddressDescription>,null,ж.к. Христо Смирненски 31 В, вх.А ет.3 ап.12</AddressDescription>
+						<DistrictEKATTE>SF</DistrictEKATTE>
+					</TemporaryAddress>
+					<Profession>организатор</Profession>
+					<ConditionText>62% т. н. р.</ConditionText>
+					<EmployabilityAssessment>54% т. н. р.</EmployabilityAssessment>
+					<DurationDisabilityDate>2015-05-01T00:00:00+03:00</DurationDisabilityDate>
+					<DisabilityReason>
+						<Date>2003-07-09T00:00:00+03:00</Date>
+						<Percent>55</Percent>
+						<Type>Общо заболяване</Type>
+					</DisabilityReason>
+					<Diagnosis>Друга първична коксартроза</Diagnosis>
+					<DiagnosisCode>M16.1</DiagnosisCode>
+					<GeneralIllness>Тежка десностр. коксартроза след асептична некроза на главата на дясната бедрена кост.Скъсяване на десен долен крайник с 2 см. Хумероскапуларен периартрит в ляво. Деформ. спондилортроза и остеохондроза Л5-Ес1. Дископатия Л5- Ес1.Съст. след флеботромбоза на дясната аксиларна вена.Язва на дуоденума. Рефлукс езофагит.</GeneralIllness>
+					<GeneralIllnessCode>M16.1</GeneralIllnessCode>
+					<ContradictionWorkingConditions>Без ТФР, натоварване на долните  крайници. Може да работи по производствена характеристика.</ContradictionWorkingConditions>
+					<ArgumentsAndObservations>АНАМНЕЗА: От няколко години с болки и ограничени движения в дясната тазобедрена става, които прогресивно се засилили и затруднили движенията. Болки в поясният отдел на гръб.стълб ирадииращи към долните крайници. Ограничени болезни движения в лява раменна става. През м.09.1999г преживял флеботромбоза на дясна аксиларна вена. Дуоденална язва със сезонно обостряне.
+ОБЕКТИВНО: Добро общо състояние. Пулмо ет кор за възрастта. Корем - мек, палпаторни болки в епигаструма. Краници - десен горен крайник - леко оточен, обемна разлика 2 см. Ограничена абдукция в лява раменна става до 100 гр . Тежка степен ограничени движения в ДТБС S 0-0-70 гр.  F- 10-0-0 гр  R10-0-10 гр.Скъсен десен долен крайник с 2 см. Походка накуцваща надясно Гръб.стълб. изгладена лумбална лордоза, Шобер 10/11/ 9 см. Ограничени движения в лумбалния отдел   S 0-0-70 гр.
+МОТИВИ: Тежка степен ограничени движения в ДТБС на базата на асептична некроза на главата на дясната бедрена кост и деформираща коксартроза - 50% ч.І р.ІХ т.17.3.1
+Левостранен хумероскапуларен периартрит - абдукция до 100 гр. 10% ч.І р.VІІІ т.10.1
+Дегенеративни промени в гръб.стълб с трайни функционални нарушения - 20% ч.І р.ІV т.4.2
+Преживяна флеботромбоза на десен горен крайник със слаби хемодинамични нарушения - 10% ч.VІІІ р.І т.1.1.
+
+ОБЩО: 54%Т.Н.Р./ 50% +20% от допалн. забол./
+					</ArgumentsAndObservations>
+					<Appeal>
+						<DecisionCode>0</DecisionCode>
+					</Appeal>
+					<Parent>
+						<IdentityDocument />
+					</Parent>
+					<AdditionalData>
+						<EmployeeType>9854</EmployeeType>
+						<Status>9845</Status>
+					</AdditionalData>
+					<InitiateDocument />
+				</ExpertDecisionDocument>
+				<ExpertDecisionDocument>
+					<RegistrationNumber>1012</RegistrationNumber>
+					<MeetingNumber>96</MeetingNumber>
+					<RegistrationDate>2009-05-28T00:00:00+03:00</RegistrationDate>
+					<CommisionMember>
+						<Position>Председател</Position>
+						<Name>д-р А. Христев</Name>
+					</CommisionMember>
+					<CommisionMember>
+						<Position>Лекар</Position>
+						<Name>д-р С. Велева</Name>
+					</CommisionMember>
+					<CommisionMember>
+						<Position>Лекар</Position>
+						<Name>д-р Р. Шинева</Name>
+					</CommisionMember>
+					<CommisionMember>
+						<Position>Лекар</Position>
+						<Name>Служебен лекар 1</Name>
+					</CommisionMember>
+					<PersonNames>ПЛАМЕН СИМЕОНОВ КРАЙЧЕВ</PersonNames>
+					<PersonIdentifier>6211106327</PersonIdentifier>
+					<IdentityDocument>
+						<DocumentNumber>166964807</DocumentNumber>
+						<IssueDate>2001-12-06T00:00:00+02:00</IssueDate>
+						<IssuePlace>МВР - София</IssuePlace>
+					</IdentityDocument>
+					<PermanentAddress>
+						<AddressDescription>,ж.к. Христо Смирненски 31 В, вх.А ет.3 ап.12</AddressDescription>
+						<DistrictEKATTE>SF</DistrictEKATTE>
+					</PermanentAddress>
+					<TemporaryAddress>
+						<AddressDescription>,null,ж.к. Христо Смирненски 31 В, вх.А ет.3 ап.12</AddressDescription>
+						<DistrictEKATTE>SF</DistrictEKATTE>
+					</TemporaryAddress>
+					<Profession> шофьор</Profession>
+					<ConditionText>53% тр. нам. раб.</ConditionText>
+					<ExpertiseDecisionMakingCode>0</ExpertiseDecisionMakingCode>
+					<EmployabilityAssessment>62% тр. нам. раб.</EmployabilityAssessment>
+					<DurationDisabilityDate>2012-05-01T00:00:00+03:00</DurationDisabilityDate>
+					<DisabilityReason>
+						<Date>2003-07-09T00:00:00+03:00</Date>
+						<Percent>55</Percent>
+						<Type>Общо заболяване</Type>
+					</DisabilityReason>
+					<Diagnosis>Коксартроза [артроза на тазобедрената става]</Diagnosis>
+					<DiagnosisCode>M16</DiagnosisCode>
+					<GeneralIllness>Коксартрозис гравис дек пост некрозим асептикам. Капитис феморис дек. Абревацио екстр. инф. дек - 2 см. Периартритис хумероскапуларис син. Спондилоартрозис лумбалис ет остехонодрозис L5-S1. Ст.пост флеботромбозим в.аксиларис дек. Улкус дуодени.</GeneralIllness>
+					<GeneralIllnessCode>M16</GeneralIllnessCode>
+					<ContradictionWorkingConditions>Без тежка физическа работа, натоварванена долни крайници, псих.пренапрежение. Може да работи по производствена характеристика.</ContradictionWorkingConditions>
+					<ArgumentsAndObservations>АНАМНЕЗА: От няколко години с болки и ограничени движения в дясната тазобедрена става, които прогресивно се засилили и затруднили движенията. Болки в поясният отдел на гръб.стълб ирадииращи към долните крайници. Ограничени болезни движения в лява раменна става. През м.09.1999г преживял флеботромбоза на дясна аксиларна вена. Дуоденална язва със сезонно обостряне.
+ОБЕКТИВНО: Добро общо състояние. Пулмо ет кор за възрастта. Корем - мек, палпаторни болки в епигаструма. Краници - десен горен крайник - леко оточен, обемна разлика 2 см. Ограничена абдукция в лява раменна става до 100 гр . Тежка степен ограничени движения в ДТБС S 0-0-70 гр.  F- 10-0-0 гр  R10-0-10 грСкъсен десен долен крайник с 2 см. Походка накуцваща надясно Гръб.стълб. изгладена лумбална лордоза, Шобер 10/11/ 9 см. Ограничени движения в лумбалния отдел   S 0-0-70 гр.
+МОТИВИ: Тежка степен ограничени движения в ДТБС на базата на асептична некроза на главата на дясната бедрена кост и деформираща коксартроза - 50% ч.І р.ІХ т.17.3.1
+Левостранен хумероскапуларен периартрит - абдукция до 100 гр. 10% ч.І р.VІІІ т.10.1
+Дегенеративни промени в гръб.стълб с трайни функционални нарушения - 20% ч.І р.ІV т.4.2
+Преживяна флеботромбоза на десен горен крайник със слаби хемодинамични нарушения - 10% ч.VІІІ р.І т.1.1.
+Язва на дуоденума - 20% ч.ІХ р.ХІІІ т.2
+
+ОБЩО: 62% тр.нам.раб.
+					</ArgumentsAndObservations>
+					<Appeal>
+						<DecisionCode>0</DecisionCode>
+					</Appeal>
+					<Parent>
+						<IdentityDocument />
+					</Parent>
+					<AdditionalData>
+						<EmployeeType>9854</EmployeeType>
+						<Status>9845</Status>
+					</AdditionalData>
+					<InitiateDocument />
+				</ExpertDecisionDocument>
+				<ExpertDecisionDocument>
+					<RegistrationNumber>1960</RegistrationNumber>
+					<MeetingNumber>114</MeetingNumber>
+					<RegistrationDate>2006-06-19T00:00:00+03:00</RegistrationDate>
+					<CommisionMember>
+						<Position>Председател</Position>
+						<Name>д-р А. Христев</Name>
+					</CommisionMember>
+					<CommisionMember>
+						<Position>Лекар</Position>
+						<Name>д-р С. Велева</Name>
+					</CommisionMember>
+					<CommisionMember>
+						<Position>Лекар</Position>
+						<Name>д-р Р. Шинева</Name>
+					</CommisionMember>
+					<CommisionMember>
+						<Position>Лекар</Position>
+						<Name>Служебен лекар 1</Name>
+					</CommisionMember>
+					<PersonNames>ПЛАМЕН СИМЕОНОВ КРАЙЧЕВ</PersonNames>
+					<PersonIdentifier>6211106327</PersonIdentifier>
+					<IdentityDocument>
+						<DocumentNumber>166964807</DocumentNumber>
+						<IssueDate>2001-12-06T00:00:00+02:00</IssueDate>
+						<IssuePlace>МВР - София</IssuePlace>
+					</IdentityDocument>
+					<PermanentAddress>
+						<AddressDescription>,ж.к. Христо Смирненски 31 В, вх.А ет.3 ап.12</AddressDescription>
+						<DistrictEKATTE>SF</DistrictEKATTE>
+					</PermanentAddress>
+					<TemporaryAddress>
+						<AddressDescription>,null,ж.к. Христо Смирненски 31 В, вх.А ет.3 ап.12</AddressDescription>
+						<DistrictEKATTE>SF</DistrictEKATTE>
+					</TemporaryAddress>
+					<Profession>тах.изпълнител</Profession>
+					<ConditionText>72%/седемдесет и два/ тр. нам. раб.</ConditionText>
+					<ExpertiseDecisionMakingCode>0</ExpertiseDecisionMakingCode>
+					<EmployabilityAssessment>53%/петдесет и три/ тр. нам. раб.</EmployabilityAssessment>
+					<DurationDisabilityDate>2009-06-01T00:00:00+03:00</DurationDisabilityDate>
+					<DisabilityReason>
+						<Date>2003-07-09T00:00:00+03:00</Date>
+						<Percent>55</Percent>
+						<Type>Общо заболяване</Type>
+					</DisabilityReason>
+					<Diagnosis>Коксартроза [артроза на тазобедрената става]</Diagnosis>
+					<DiagnosisCode>M16</DiagnosisCode>
+					<GeneralIllness>Коксартрозис дек.Аревиацио екстр.инф.дек.-2 см,Периартритис хумеро-скауларис син,Ст.пост флеботромбозим екстр.суп.дик.Улкус дуодени,Гастродуоденетис хр.</GeneralIllness>
+					<ContradictionWorkingConditions>физ. и псих. пренатоварване</ContradictionWorkingConditions>
+					<ArgumentsAndObservations>АНАМНЕЗА: Преосвид.Работи - техн.изпълнител.
+От няколко години с оплаквания от болки в дясна  ТБС , прогресивно се засилили и затруднили движенията. През м. септември 1999г. преживял флеботромбоза на дясна аксиларна вена. Оплаква се от тежест в  десния горен крайник и болки при  физ. натоварвания.Дуоденална язва с редки обостряния.
+ОБЕКТИВНО: Задов. общо с-ние. Пулмо ет кор - за възрастта,Корем-мек,лека палпаторна болезненост в епигастриума. Крайници - десен горен крайник леко оточен - обемна р-ка 2 см. Движения в раменна става, леко болезн, неогр..Огр.и болезнени движения в дясна ТБС S 0-90,F 30-0-10,R 20-0-20,десет долрен крайник скъсен с 2 см.
+МОТИВИ: Десностранна  коксартроза ,деформирана глава на бедрената кост,огр.движетия тежка ст -    част І раздел ІХ  т.17.3.1 - 50%
+       Левостранен хумеро-скапуларен периартрит - част І,раздел VІІІ,т 10.1 - 10%
+       Язва на дуоденума - част  ІХ раздел  ХІІІ т.2 - 10%
+       Преживяна флеботромбоза на  десен горен крайник със слаби хемодинамични нарушетия - част VІІІ раздел І т.1.1 - 10%
+
+                  Общо тр. нам. работоспособност 53 %/петдесет и три/
+                  Най висок % 50 плюс 10% от 30
+ПРИЛОЖЕНИЕ: Консултации,изследвания,епикриза,производствена характеристика.
+					</ArgumentsAndObservations>
+					<Appeal>
+						<DecisionCode>0</DecisionCode>
+					</Appeal>
+					<Parent>
+						<IdentityDocument />
+					</Parent>
+					<AdditionalData>
+						<EmployeeType>9854</EmployeeType>
+						<Status>9845</Status>
+					</AdditionalData>
+					<InitiateDocument />
+				</ExpertDecisionDocument>
+				<ExpertDecisionDocument>
+					<RegistrationNumber>4036</RegistrationNumber>
+					<MeetingNumber>124</MeetingNumber>
+					<RegistrationDate>2003-07-09T00:00:00+03:00</RegistrationDate>
+					<CommisionMember>
+						<Position>Председател</Position>
+						<Name>д-р А. Христев</Name>
+					</CommisionMember>
+					<CommisionMember>
+						<Position>Лекар</Position>
+						<Name>д-р С. Велева</Name>
+					</CommisionMember>
+					<CommisionMember>
+						<Position>Лекар</Position>
+						<Name>д-р Р. Шинева</Name>
+					</CommisionMember>
+					<CommisionMember>
+						<Position>Лекар</Position>
+						<Name>Служебен лекар 1</Name>
+					</CommisionMember>
+					<PersonNames>ПЛАМЕН СИМЕОНОВ КРАЙЧЕВ</PersonNames>
+					<PersonIdentifier>6211106327</PersonIdentifier>
+					<IdentityDocument>
+						<DocumentNumber>166964807</DocumentNumber>
+						<IssueDate>2001-12-06T00:00:00+02:00</IssueDate>
+						<IssuePlace>МВР - София</IssuePlace>
+					</IdentityDocument>
+					<PermanentAddress>
+						<AddressDescription>,ж.к. Христо Смирненски 31 В, вх.А ет.3 ап.12</AddressDescription>
+						<DistrictEKATTE>SF</DistrictEKATTE>
+					</PermanentAddress>
+					<TemporaryAddress>
+						<AddressDescription>,null,ж.к. Христо Смирненски 31 В, вх.А ет.3 ап.12</AddressDescription>
+						<DistrictEKATTE>SF</DistrictEKATTE>
+					</TemporaryAddress>
+					<Profession>шофьор</Profession>
+					<ExpertiseDecisionMakingCode>0</ExpertiseDecisionMakingCode>
+					<EmployabilityAssessment>72% тр. нам. раб.</EmployabilityAssessment>
+					<DurationForeignAid>2006-07-01T00:00:00+03:00</DurationForeignAid>
+					<DisabilityReason>
+						<Date>2003-07-09T00:00:00+03:00</Date>
+						<Percent>55</Percent>
+						<Type>Общо заболяване</Type>
+					</DisabilityReason>
+					<Diagnosis>ОСТЕОАРТРОЗИ И СРОДНИ СЪСТОЯНИЯ</Diagnosis>
+					<DiagnosisCode>715</DiagnosisCode>
+					<GeneralIllness>Коксартрозис гравис дек. сек. пост некрозим асептикам капитис фем. дек.  Ст. пост флеботромб. в. аксиларис дек. Улкус дуодени. Гастритис хр. Рефлукс езофагитис.</GeneralIllness>
+					<GeneralIllnessCode>000</GeneralIllnessCode>
+					<ContradictionWorkingConditions>физ. и псих. пренатоварване</ContradictionWorkingConditions>
+					<ArgumentsAndObservations>АНАМНЕЗА: Работи - шофьор
+От няколко години с оплаквания от болки в дясна  ТБС , прогресивно се засилили и затруднили движенията. През м. септември 1999г. преживял флеботромбоза на дясна аксиларна вена. Оплаква се от тежест в  десния горен крайник и болки при  физ. натоварвания
+ОБЕКТИВНО: Задов. общо с-ние. Пулмо вез. дишане без хрипове. Кор РСД. Десен горен крайник леко оточен ливиден в областта на пръстите. Движения в раменна лакетна и гривнена стави, леко болезн, неогр. Корем на нивото на гр. кош с меки еластични стени липсва палпаторна болезн.
+МОТИВИ: Десностр. тежка вторична  коксартроза след  асептична некроза на главата на бедрената кост   част І раздел ІХ  т.17.3.1 - 50%
+Язва на дуоденума със сезонно обостряне част  ІХ раздел  ХІІІ т.2 - 30%
+Съст. след  тромбоза на  в. аксиларис в дясно - слаби хемодинамични нарушения част VІІІ раздел І т.1.1 - 20%
+  Общо тр. нам. раб  72 %
+ПРИЛОЖЕНИЕ: Консултации, изсл. , епикризи.
+					</ArgumentsAndObservations>
+					<Appeal>
+						<DecisionCode>0</DecisionCode>
+					</Appeal>
+					<Parent>
+						<IdentityDocument />
+					</Parent>
+					<AdditionalData>
+						<EmployeeType>9854</EmployeeType>
+						<Status>9845</Status>
+					</AdditionalData>
+					<InitiateDocument />
+				</ExpertDecisionDocument>
+			</ExpertDecisionsResponse>

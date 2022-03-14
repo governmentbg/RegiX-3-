@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/TransferredRights" targetNamespace="http://egov.bg/RegiX/CRC/TransferredRights" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="CompanyTypeEnd">
+		<xs:sequence minOccurs="0">
+			<xs:element name="CompanyName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предприятие</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CompType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PermissionNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Разрешение №</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IssueDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на издаване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EndDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>крайна дата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+		<xs:complexType name="CompanyType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="CompanyName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предприятие</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CompType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PermissionNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Разрешение №</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IssueDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на издаване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

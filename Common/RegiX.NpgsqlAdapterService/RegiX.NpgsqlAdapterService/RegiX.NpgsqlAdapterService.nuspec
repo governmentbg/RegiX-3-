@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$Version$</version>
+    <title>$title$</title>
+    <authors>$Authors$</authors>
+    <owners>$Authors$</owners>
+    <description>$description$</description>
+    <dependencies>
+      <dependency id="RegiX.Adapters.Common" version="1.0.70" />
+      <dependency id="Npgsql" version="4.0.9" />
+    </dependencies>
+  </metadata>
+</package>

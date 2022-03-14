@@ -1,0 +1,96 @@
+﻿<ExpertDecisionsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NELK/EISME">
+  <ExpertDecisionDocument>
+    <RegistrationNumber>1443</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionDescr>общи заболявания към V МБАЛ</CommissionDescr>
+    <CommissionCode>2217</CommissionCode>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>Д-р Боряна Холевич</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Ваня Симова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Соня Костадинова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Анна Стоева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Невена Нишанджиева-Ангелова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Татяна Яшина</Name>
+    </CommisionMember>
+    <PersonNames>ВАСИЛ БОРИСОВ ЦВЕТАНОВ</PersonNames>
+    <PersonIdentifier>5512056488</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>645920567</DocumentNumber>
+      <IssueDate>2015-07-09T00:00:00+03:00</IssueDate>
+      <IssuePlace>МВР - София</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>,София, ПК 1517, СУХА РЕКА 90 вх.А ет.3 ап.7</AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>,null,София, ПК 1517, СУХА РЕКА 90 вх.А ет.3 ап.7</AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </TemporaryAddress>
+    <Employment>не работи</Employment>
+    <EmploymentCode>3</EmploymentCode>
+    <ConditionText>работоспособен</ConditionText>
+    <ConditionCode>1</ConditionCode>
+    <ExpertiseType>освидетелстване</ExpertiseType>
+    <ExpertiseTypeCode>1</ExpertiseTypeCode>
+    <ExpertiseDecisionMaking>След преглед</ExpertiseDecisionMaking>
+    <ExpertiseDecisionMakingCode>2</ExpertiseDecisionMakingCode>
+    <ExpertisePlace>ТЕЛК</ExpertisePlace>
+    <ExpertisePlaceCode>1</ExpertisePlaceCode>
+    <EmployabilityAssessment>86% т. н. р.</EmployabilityAssessment>
+    <EmployabilityAssessmentCode>6</EmployabilityAssessmentCode>
+    <DurationDisabilityDate>2020-05-01T00:00:00+03:00</DurationDisabilityDate>
+    <DurationDisability>3 години</DurationDisability>
+    <DurationDisabilityCode>3</DurationDisabilityCode>
+    <DisabilityReason>
+      <Date>2017-04-12T00:00:00+03:00</Date>
+      <Percent>86</Percent>
+      <Type>Общо заболяване</Type>
+    </DisabilityReason>
+    <Diagnosis>Последици от мозъчносъдова болест</Diagnosis>
+    <DiagnosisCode>I69</DiagnosisCode>
+    <GeneralIllness>МСБ. Кортикална атрофия. Мозъчна и малкомозъчна атрофия. Мултиинфарктна лефкоенцефалопатия. Съст. след ИМИ /тромботичен/ в бас. на ВБС. Хроничен етилизъм. Енцефалополиневропатия. Централен дискоординационен синдром. АХ ІІІ ст. Хипертонично сърце. Състояние след ендопротезиране на лявата ТБС след Фрактура на лявата бедрена кост . Начален психо органичен синдром.</GeneralIllness>
+    <ContradictionWorkingConditions>теж.физ.труд,нервно-психично напрежение</ContradictionWorkingConditions>
+    <ArgumentsAndObservations>
+      АНАМНЕЗА: На 25.01.2016 год. преживял инцидент с внезапно настъпили нарушения в равновесието, с походка и гавар като "пиян", клател се и залитал. Анамнестични данни за системна употреба на концентрат /алкохол до 300 гр. дневно/. През м. октомври 2016 год. - счупване на лявата бедрена кост и операция с протеза.  От дълги години АХ с макс стойности до 210/110. Провежда системно лечение. Оплаква се от лесна умора, сърцебиене, за задъхване. По данни на близките станал по-бавен и имал паметови нарушения.
+      ОБЕКТИВНО: Двустранно везикуларно дишане без хрипове. РСД СЧ 86 уд/мин. АХ 150/90. Черен дроб - на 3 см. под ребрената дъга. Крайници - без отоци. ЧМН - б.о. Двигателни функции - при ПЛП - лека осцилация на десния крак. СНР - двустр. колянна и Ахилова арефлексия /+/ аксиални рефлекси. Сетивност - дистална хипестезия. Координация - походка атактична, на широка основа. Статична и локомоторна атаксия. НПП - дизметрия и ИТ. ВКФ - брадипсихия, когнитивен дефицит.
+      МОТИВИ: Централен  дискоординационен синдром в умерено тежка степен със смесена етиология, след преживян ИМИ в бас /25.01.2016 г./ при КТ данни за кортикална и мозъчна атрофия на гл. мозък, левкоенцефалопатия, вътрешна хидроцефалия - 70% ч.VІІ т.3.4;
+      АХ ІІІ ст. Хипертонично сърце - 30% ч.ІV р.VІ т.2;
+      Съст след ендопротезиране на лявата ТБС след фрактура на лявата бедрена кост - 50% ч.І р.ІХ.
+
+      ОБЩО: 86% /осемдесет и шест процента/ т.н.р. съгласно НМЕ 2010 година.
+      ДИ - 12.04.2017 г. от мед. документация
+      Лицето декларира, че към настоящия момент не работи.
+      ПРИЛОЖЕНИЕ: епикризи; невролог; кардиолог; ортопед; ДСГ; рентгенография; КТ изсл.
+    </ArgumentsAndObservations>
+    <Appeal>
+      <StakeholdersCode>Лицето</StakeholdersCode>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+</ExpertDecisionsResponse>

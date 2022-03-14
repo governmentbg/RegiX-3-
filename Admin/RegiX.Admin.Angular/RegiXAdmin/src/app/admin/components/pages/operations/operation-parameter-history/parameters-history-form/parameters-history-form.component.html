@@ -1,0 +1,105 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <form [formGroup]="formGroup" (submit)="onSubmit($event)">
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="key"
+              type="text"
+              formControlName="key"
+              tlFormGroupRef
+            />
+            <label igxLabel for="key">Поле</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="oldValue"
+              type="text"
+              formControlName="oldValue"
+              tlFormGroupRef
+            />
+            <label igxLabel for="oldValue">Стара стойност</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="newValue"
+              type="text"
+              formControlName="newValue"
+              tlFormGroupRef
+            />
+            <label igxLabel for="newValue">Нова стойност</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="editedTime"
+              type="text"
+              formControlName="editedTime"
+              tlFormGroupRef
+            />
+            <label igxLabel for="editedTime">Променено на</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="userName"
+              type="text"
+              formControlName="userName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="userName">Променено от</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="registerAdapterName"
+              type="text"
+              formControlName="registerAdapterName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="registerAdapterName">Адаптер</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+    </form>
+  </div>
+</tl-basic-form>

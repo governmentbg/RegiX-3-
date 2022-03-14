@@ -1,0 +1,79 @@
+<div class="table-title-wrapper">
+  <div>
+    <span class="float-left"
+      ><app-title-bar [title]="pageTitle"> </app-title-bar></span
+    ><span class="float-right register-button"
+      ><div *ngIf="!isDataLoading && isDataLoaded">
+        <button
+          type="button"
+          [igxToggleAction]="registryDropdown"
+          [igxDropDownItemNavigation]="registryDropdown"
+          title="Сваляне на файлове"
+          class="register-button"
+          igxButton="raised"
+        >
+          <i class="fa fa-download" aria-hidden="true"></i>
+          <!-- <i class="fa fa-arrow-down" aria-hidden="true"></i> -->
+        </button>
+        <igx-drop-down
+          #registryDropdown
+          (onSelection)="onRegistryMenuSelected($event)"
+          [width]="'200px'"
+        >
+          <igx-drop-down-item [value]="ADAPTER_SAMPLE_DATA">
+            <i class="fa fa-archive" aria-hidden="true"></i>&nbsp;Примерни данни
+          </igx-drop-down-item>
+          <igx-drop-down-item [value]="ADAPTER_XML_SHEME_DATA">
+            <i class="fa fa-archive" aria-hidden="true"></i>&nbsp;XML схеми
+          </igx-drop-down-item>
+        </igx-drop-down>
+      </div></span
+    >
+  </div>
+
+  <igx-linear-bar
+    *ngIf="isDataLoading && !isDataLoaded"
+    [indeterminate]="true"
+  ></igx-linear-bar>
+  <div *ngIf="!isDataLoading && isDataLoaded">
+    <igx-grid
+      [height]="null"
+      width="100%"
+      [clipboardOptions]="{ copyHeaders: false}"
+      [displayDensity]="'cosy'"
+      [data]="operations"
+      [paging]="true"
+      [allowFiltering]="true"
+    >
+      <igx-column field="Name" [sortable]="true" header="Име"></igx-column>
+      <igx-column
+        field="Description"
+        [sortable]="true"
+        header="Описание"
+      ></igx-column>
+
+      <igx-column
+        header="Действия"
+        [sortable]="false"
+        width="150px"
+        [filterable]="false"
+      >
+        <ng-template igxCell let-cell="cell">
+          <div
+            igxLayout
+            igxLayoutDir="row"
+            igxLayoutJustify="center"
+            class="action-buttons-wrapper"
+          >
+          <tl-reference-button
+          [routeReference]="this.routes.OPERATIONS_VIEW"
+          [routeArguments]="{':INTERFACE': cell.rowData.Interface,':OPERATION_NAME':  cell.rowData.Name }"
+          buttonType="action-button"
+        >
+        </tl-reference-button>
+          </div>
+        </ng-template>
+      </igx-column>
+    </igx-grid>
+  </div>
+</div>

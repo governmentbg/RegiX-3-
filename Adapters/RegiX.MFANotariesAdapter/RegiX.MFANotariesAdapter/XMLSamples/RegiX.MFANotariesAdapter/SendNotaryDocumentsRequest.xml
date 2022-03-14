@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SendNotaryDocumentsRequest xmlns="http://egov.bg/RegiX/MFA/Notaries/SendNotaryDocumentsRequest">
+	<AuthenticationNumber>String</AuthenticationNumber>
+	<ConsulCode>String</ConsulCode>
+	<AuthenticationType>CorrectnessOfStatements</AuthenticationType>
+	<AuthenticationDate>1967-08-13</AuthenticationDate>
+	<Documents>
+		<Document>
+			<FileName>Завещание.pdf</FileName>
+			<Content>UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</Content>
+		</Document>
+		<Document>
+			<FileName>Заповед.pdf</FileName>
+			<Content>UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</Content>
+		</Document>
+	</Documents>
+</SendNotaryDocumentsRequest>

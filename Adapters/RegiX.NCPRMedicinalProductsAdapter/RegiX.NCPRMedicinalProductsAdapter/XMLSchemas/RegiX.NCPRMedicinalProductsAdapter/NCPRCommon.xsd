@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NCPR/Common" targetNamespace="http://egov.bg/RegiX/NCPR/Common" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="ATCCodesType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="ATCCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Анатомо-терапевтичен код /ATC-код/</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MedicinalProductType">
+		<xs:sequence>
+			<xs:element name="RegisterMedicamentId" type="xs:long" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Регистров номер на медикамента</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MedicinalProductIdentifier" type="xs:long" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Национален номер за идентификация на ЛП</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegisterCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Уникален код на регистър</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegisterName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на регистър</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NameBG" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на лекарствен продукт (BG)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NameEN" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на лекарствен продукт (EN</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="INN" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Международно непатентно наименование /INN/</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ATCCodes" type="ATCCodesType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Анатомо-терапевтични кодове /ATC-кодове/</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AuthorizationHolder" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Притежател на разрешение за употреба</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Producer" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Производител</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MedicamentForm" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Лекарствена форма</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Quantity" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Количество на активното лекарствено вещество</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MedicamentUnit" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Мерна единица</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="FinalPack" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Окончателна опаковка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MerchantFinalPriceBGN" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Цена Търговец на едро с ДДС, лв.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RetailerFinalPriceBGN" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Цена Търговец на дребно с ДДС, лв.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PublishedAt" type="xs:dateTime" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на настъпили промени в обстоятелствата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MedicinalProductsType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="MedicinalProduct" type="MedicinalProductType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Лекарствен продукт</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<!---->
+	<xs:complexType name="MedicinalProductData">
+		<xs:sequence>
+			<xs:element name="MedicinalProductIdentifier" type="xs:long" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Национален номер за идентификация на лекарствен продукт </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NameBG" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на лекарствен продукт (BG)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NameEN" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на лекарствен продукт (EN) </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MedicinalProductPDLRegistersData" type="MedicinalProductPDLRegistersDataType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни за лекарствен продукт в Позитивен лекарствен списък </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MedicinalProductCeilingPricesRegisterData" type="MedicinalProductCeilingPricesRegistersDataType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни за лекарствен продукт в Регистър на пределните цени </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MedicinalProductMaxPricesRegisterData" type="MedicinalProductMaxPricesRegistersDataType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни за лекарствен продукт в Регистър на максималните продажни цени </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="INN" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Международно непатентно наименование /INN/</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AuthorizationHolder" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Притежател на разрешение за употреба</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AuthorizationNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>№ на разрешение за употреба / Регистрационен номер</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MedicamentForm" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Лекарствена форма</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Quantity" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Количество на активното лекарствено вещество</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MedicamentUnit" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Мерна единица</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="FinalPack" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Окончателна опаковка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Producer" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Производител</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ProducerDeclaredPrice" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Цена на производител</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ProducerPriceCurrency" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Валута на цена на производител</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ProducerPriceExchangeRate" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Обменен курс</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ProducerPrice" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Цена на производител в лв.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ProducerVat" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ДДС на производител, лв.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ProducerFinalPriceBGN" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Цена на производител с ДДС, лв.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MerchantMarginPercent" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Надценка Търговец на едро, %</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MerchantMarginValue" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Надценка Търговец на едро, лв.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MerchantPriceNoVat" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Цена Търговец на едро без ДДС, лв.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MerchantVat" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ДДС на търговец на едро, лв.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MerchantFinalPriceBGN" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Цена Търговец на едро с ДДС, лв.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RetailerMarginPercent" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Надценка Търговец на дребно, %</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RetailerMarginValue" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Надценка Търговец на дребно, лв.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RetailerPriceNoVat" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Цена Търговец на дребно без ДДС, лв.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RetailerVat" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ДДС на търговец на дребно, лв.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RetailerFinalPriceBGN" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Цена Търговец на дребно с ДДС, лв.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="medicinalProductPDLRegisterData">
+		<xs:complexContent>
+			<xs:extension base="baseMedicinalProductRegisterData"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="baseMedicinalProductRegisterData" abstract="true"/>
+	<xs:complexType name="medicinalProductMaxPricesRegisterData">
+		<xs:complexContent>
+			<xs:extension base="baseMedicinalProductRegisterData"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="medicinalProductCeilingPricesRegisterData">
+		<xs:complexContent>
+			<xs:extension base="baseMedicinalProductRegisterData"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="MedicinalProductCeilingPricesRegisterDataType">
+		<xs:complexContent>
+			<xs:extension base="medicinalProductCeilingPricesRegisterData"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="MedicinalProductMaxPricesRegisterDataType">
+		<xs:complexContent>
+			<xs:extension base="medicinalProductMaxPricesRegisterData"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="MedicinalProductPDLRegisterDataType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="RegisterName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на регистър</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PublishedAt" type="xs:dateTime" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на настъпили промени в обстоятелствата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegisterCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Уникален код на регистър</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Group" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Група ЛП</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ATCCodes" type="ATCCodesType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Анатомо-терапевтични кодове /ATC-кодове/</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ReimbursementPercent" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Ниво на заплащане в %</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ReimbursementValue" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Ниво на заплащане, стойност</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DDDValue" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Препоръчителна дневна доза /DDD/ /терапевтичен курс</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DDDUnit" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Мерна единица</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DDDReferentValue" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Референтна стойност за DDD/ Терапевтичен курс</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PackDDDNumber" type="xs:float" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Брой дневни дози в опаковка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IsDddWHO" type="xs:boolean" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дали Референтна стойност за DDD/ Терапевтичен курс e по СЗО/WHO</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PackPriceRefDDD" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Стойност за опаковка, изчислена на база референтна стойност</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PrescriptionRestrictions" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Терапевтични показания / Ограничение в начина на предписване при различни индикации</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AverageTreatmentPeriod" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Средна продължителност на лечението</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ConcomitantTreatmentSpecifics" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Особеност на дозировката и средна продължителност на лечението</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TreatmentSpecifics" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Необходимост от съпровождащо лечение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ICDCodes" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>МКБ кодове</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence minOccurs="0" maxOccurs="unbounded">
+						<xs:element name="ICDCode" type="xs:string" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>МКБ код</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MedicinalProductPDLRegistersDataType">
+		<xs:complexContent>
+			<xs:extension base="medicinalProductPDLRegisterData">
+				<xs:sequence minOccurs="0" maxOccurs="unbounded">
+					<xs:element name="MedicinalProductPDLRegisterData" type="MedicinalProductPDLRegisterDataType" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Данни за лекарствен продукт в Позитивен лекарствен списък </xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="MedicinalProductCeilingPriceRegisterDataType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="PublishedAt" type="xs:dateTime" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на настъпили промени в обстоятелствата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegisterName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на регистър</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegisterCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Уникален код на регистър</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MedicinalProductCeilingPricesRegistersDataType">
+		<xs:complexContent>
+			<xs:extension base="MedicinalProductCeilingPricesRegisterDataType">
+				<xs:sequence minOccurs="0" maxOccurs="unbounded">
+					<xs:element name="MedicinalProductCeilingPriceRegisterData" type="MedicinalProductCeilingPriceRegisterDataType" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Данни за лекарствен продукт в Регистър на пределните цени </xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="MedicinalProductMaxPriceRegisterDataType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="PublishedAt" type="xs:dateTime" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на настъпили промени в обстоятелствата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegisterName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на регистър</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegisterCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Уникален код на регистър</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MaximumPrice" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Максимална цена</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MedicinalProductMaxPricesRegistersDataType">
+		<xs:complexContent>
+			<xs:extension base="MedicinalProductMaxPricesRegisterDataType">
+				<xs:sequence minOccurs="0" maxOccurs="unbounded">
+					<xs:element name="MedicinalProductMaxPriceRegisterData" type="MedicinalProductMaxPriceRegisterDataType" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Данни за лекарствен продукт в Регистър на максималните продажни цени </xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

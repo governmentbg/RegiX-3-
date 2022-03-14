@@ -1,0 +1,215 @@
+<EntityInfoResponse xmlns="http://egov.bg/RegiX/AV/PropertyReg/EntityInfoResponse">
+        <DateFrom>2018-01-29T15:24:00</DateFrom>
+        <DateTo>2018-01-30T15:24:00</DateTo>
+        <EntityLotDataList>
+          <EntityLotData xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+            <RegistryAgency>Служба по вписванията - София</RegistryAgency>
+            <SiteID>001</SiteID>
+            <SiteStartDate>2003-11-09</SiteStartDate>
+            <EntityBasicData>ЕГН 8010124436 ИВАЙЛО СТЕФАНОВ ПЕТРОВ</EntityBasicData>
+            <PersonalLotNumber>579596</PersonalLotNumber>
+            <PersonalLotEntryList>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>951</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2013-02-04T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>65</DoubleRegisterNumber>
+                  <RegistrationDate>2013-02-04T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Договор за управление на общи части от сграда в режим на етажна собственост</ActTypeName>
+                  <Volume>1</Volume>
+                  <Page>8</Page>
+                  <ActYear>2013</ActYear>
+                  <ConnectedActs>15 от 15.12.2011, том 3, номер 4</ConnectedActs>
+                  <LeftSide>
+                    <Side>Иван Иванов Иванов - продавач
+                    </Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Ивайло Стефанов Петров - купувач
+                    </Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 123, парцел - 11, площ по док. - 11.660 кв.м., гр.София, местност - Дондуков Стара имотна партида: 123456 Имот 1 Имот 1, обл. СОФИЯ-СТОЛИЧНА, общ. СТОЛИЧНА, гр.София ул. Дондуков, No:12</PropertyData>
+                <LotNumber>274</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>78</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2011-10-21T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>26</DoubleRegisterNumber>
+                  <RegistrationDate>2011-10-21T00:00:00</RegistrationDate>
+                  <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+                  <ActTypeName>Брачен договор с нотариална заверка на подписите</ActTypeName>
+                  <Volume>1</Volume>
+                  <Page>8</Page>
+                  <ActYear>2009</ActYear>
+                  <ConnectedActs>15 от 15.12.2011, том 3, номер 4</ConnectedActs>
+                  <LeftSide>
+                    <Side>Купувач - Мария Иванова Иванова
+                    </Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Продавач - Елица Димитрова Петрова</Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Самостоятелен обект в сграда, площ по док. - 68.150 кв. м., гр.София, обл. СОФИЯ-СТОЛИЧНА, общ. СТОЛИЧНА, гр.София</PropertyData>
+                <LotNumber>536</LotNumber>
+              </PersonalLotEntry>
+            </PersonalLotEntryList>
+          </EntityLotData>
+          <EntityLotData xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+            <RegistryAgency>Служба по вписванията - Пловдив</RegistryAgency>
+            <SiteID>002</SiteID>
+            <SiteStartDate>2003-11-09</SiteStartDate>
+            <EntityBasicData>ЕГН 8010124436 ИВАЙЛО СТЕФАНОВ ПЕТРОВ</EntityBasicData>
+            <PersonalLotNumber>641980</PersonalLotNumber>
+            <PersonalLotEntryList>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>45</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2012-12-20T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>55</DoubleRegisterNumber>
+                  <RegistrationDate>2012-12-20T00:00:00</RegistrationDate>
+                  <BookTypeName>ДОГОВОРНИ ИПОТЕКИ</BookTypeName>
+                  <ActTypeName>Договор за цесия на вземане обезпечено със законна ипотека</ActTypeName>
+                  <Volume>1</Volume>
+                  <Page>8</Page>
+                  <ActYear>2012</ActYear>
+                  <ConnectedActs>15 от 15.12.2011, том 3, номер 4</ConnectedActs>
+                  <LeftSide>
+                    <Side>
+						Продавач - Иван Петров
+                    </Side>
+                  </LeftSide>
+                  <RightSide />
+                </Act>
+                <PropertyData>Самостоятелен обект в сграда, площ по док. - 68.150 кв. м., гр.София, обл. СОФИЯ-СТОЛИЧНА, общ. СТОЛИЧНА, гр.София</PropertyData>
+                <LotNumber>536</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>84</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2011-08-16T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>2488</DoubleRegisterNumber>
+                  <RegistrationDate>2011-08-16T00:00:00</RegistrationDate>
+                  <BookTypeName>ПРЕХВЪРЛЯНИЯ</BookTypeName>
+                  <ActTypeName>Покупко-продажба на недвижим имот с н.а.</ActTypeName>
+                  <Volume>1</Volume>
+                  <Page>8</Page>
+                  <ActYear>2008</ActYear>
+                  <ConnectedActs>15 от 15.12.2011, том 3, номер 4</ConnectedActs>
+                  <LeftSide />
+                  <RightSide>
+                    <Side>Продавач - Ивайло Стефанов Петров
+                    </Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Самостоятелен обект в сграда, площ по док. - 68.150 кв. м., гр.София, обл. СОФИЯ-СТОЛИЧНА, общ. СТОЛИЧНА, гр.София</PropertyData>
+                <LotNumber>536</LotNumber>
+              </PersonalLotEntry>
+            </PersonalLotEntryList>
+          </EntityLotData>
+          <EntityLotData xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+            <RegistryAgency>Служба по вписванията - София</RegistryAgency>
+            <SiteID>001</SiteID>
+            <SiteStartDate>2003-11-09</SiteStartDate>
+            <EntityBasicData>ЕГН 8010124436 ИВАЙЛО СТЕФАНОВ ПЕТРОВЧОВ</EntityBasicData>
+            <PersonalLotNumber>579596</PersonalLotNumber>
+            <PersonalLotEntryList>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>74</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2012-12-19T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>1</DoubleRegisterNumber>
+                  <RegistrationDate>2012-12-19T00:00:00</RegistrationDate>
+                  <BookTypeName>ВЪЗБРАНИ</BookTypeName>
+                  <ActTypeName>Налагане на обща възбрана (ДОПК)</ActTypeName>
+                  <Volume>1</Volume>
+                  <Page>8</Page>
+                  <ActYear>2011</ActYear>
+                  <ConnectedActs>15 от 15.12.2011, том 3, номер 4</ConnectedActs>
+                  <LeftSide>
+                    <Side>Купувач - Младен Иванов Иванов</Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Продавач - Кирил Стефанов Петров
+                    </Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Самостоятелен обект в сграда, площ по док. - 68.150 кв. м., гр.София, обл. СОФИЯ-СТОЛИЧНА, общ. СТОЛИЧНА, гр.София</PropertyData>
+                <LotNumber>536</LotNumber>
+              </PersonalLotEntry>
+            </PersonalLotEntryList>
+          </EntityLotData>
+          <EntityLotData xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+            <RegistryAgency>Служба по вписванията - София</RegistryAgency>
+            <SiteID>001</SiteID>
+            <SiteStartDate>2003-11-09</SiteStartDate>
+            <EntityBasicData>ЕГН 8010124436 ИВАЙЛО СТЕФАНОВ ПЕТРОВ</EntityBasicData>
+            <PersonalLotNumber>123456</PersonalLotNumber>
+            <PersonalLotEntryList>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>48</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2011-08-16T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>25</DoubleRegisterNumber>
+                  <RegistrationDate>2011-08-16T00:00:00</RegistrationDate>
+                  <BookTypeName>ПРЕХВЪРЛЯНИЯ</BookTypeName>
+                  <ActTypeName>Покупко-продажба на недвижим имот с н.а.</ActTypeName>
+                  <Volume>1</Volume>
+                  <Page>8</Page>
+                  <ActYear>2006</ActYear>
+                  <ConnectedActs>15 от 15.12.2011, том 3, номер 4</ConnectedActs>
+                  <LeftSide>
+                    <Side>Купувач(Частна собственост)ЕГН 1234567890 Ивайло Стефанов Петров
+                    </Side>
+                    <Side>Кредитор - ЕИК / БУЛСТАТ 831919536 УниКредит Булбанк АД
+                    </Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Купувач(Частна собственост)ЕГН 1234567890 Ивайло Стефанов Петров
+                    </Side>
+                    <Side>ОТЧУЖДИТЕЛ - СЪДИЯ ИЗПЪЛНИТЕЛ
+                    </Side>
+                    <Side>ПРИЕМАТЕЛ - ЕИК / БУЛСТАТ 124023026 ДАРИК ИМОТИ БЪЛГАРИЯ АД
+                    </Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Поземлен имот, пл.No - 912, Тип на имота: Градски; Стара имотна партида: 91548; , обл. СОФИЯ-СТОЛИЧНА, общ. СТОЛИЧНА, София</PropertyData>
+                <LotNumber>567</LotNumber>
+              </PersonalLotEntry>
+              <PersonalLotEntry>
+                <Act>
+                  <IncomingRegistrationNumber>4</IncomingRegistrationNumber>
+                  <IncomingRegistrationDate>2009-02-19T00:00:00</IncomingRegistrationDate>
+                  <DoubleRegisterNumber>198</DoubleRegisterNumber>
+                  <RegistrationDate>2009-02-19T00:00:00</RegistrationDate>
+                  <BookTypeName>ОТБЕЛЯЗВАНИЯ</BookTypeName>
+                  <ActTypeName>Заличаване на договор за цесия</ActTypeName>
+                  <Volume>2</Volume>
+                  <Page>8</Page>
+                  <ActYear>2009</ActYear>
+                  <ConnectedActs>15 от 15.12.2011, том 3, номер 4</ConnectedActs>
+                  <LeftSide>
+                    <Side>Купувач(Частна собственост)ЕГН 1234567890 Ивайло Стефанов Петров
+                    </Side>
+                    <Side>ОТЧУЖДИТЕЛ - СЪДИЯ ИЗПЪЛНИТЕЛ
+                    </Side>
+                    <Side>ПРИЕМАТЕЛ - ЕИК / БУЛСТАТ 124023026 ДАРИК ИМОТИ БЪЛГАРИЯ АД
+                    </Side>
+                  </LeftSide>
+                  <RightSide>
+                    <Side>Купувач(Частна собственост)ЕГН 1234567890 Ивайло Стефанов Петров
+                    </Side>
+                    <Side>Ипотекарен длъжник - ЕИК / БУЛСТАТ 124023026 ДАРИК ИМОТИ БЪЛГАРИЯ
+                    </Side>
+                  </RightSide>
+                </Act>
+                <PropertyData>Сграда, площ по док. - 1111.000 кв. м., гр.София, imot 2, обл. СОФИЯ-СТОЛИЧНА, общ. СТОЛИЧНА, гр.София</PropertyData>
+                <LotNumber>101</LotNumber>
+              </PersonalLotEntry>
+            </PersonalLotEntryList>
+          </EntityLotData>
+        </EntityLotDataList>
+      </EntityInfoResponse>

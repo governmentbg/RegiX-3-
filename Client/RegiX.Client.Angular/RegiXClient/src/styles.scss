@@ -1,0 +1,305 @@
+// CSS Reset, comment out if not required or using a different module
+@import '~minireset.css/minireset';
+/* You can add global styles to this file, and also import other style files */
+
+@import '~@tl/tl-common/src/stylesheets/styles-app-loading';
+@import '~@tl-rgx/rgx-common/src/stylesheets/styles-rgx-common';
+@import '~@tl/tl-common/src/stylesheets/styles-tl-common';
+
+// $primary-color: #014F86;
+// $secondary-color: #808d93;
+// $content-font-size: 12pt;
+// $application-background: #f9f9f9;
+// $button-color: white;
+
+// $my-color-palette: igx-palette(
+//   $primary: $primary-color,
+//   $secondary: $secondary-color
+// );
+
+// // IMPORTANT: Make sure you always include igx-core first!
+// @include igx-core();
+// // Pass the color palette we generated to the igx-theme mixin
+// @include igx-theme($my-color-palette);
+
+// $navdrawer-theme: igx-navdrawer-theme(
+//   // $background: #2d313a,
+//     // $item-active-background: #ecc256,
+//     // $item-icon-color: #ecc256
+//     // item-text-color:$item-text-color,
+//     // item-active-text-color: $item-active-text-color,
+//     // item-active-background: $item-active-background,
+//     // item-hover-background: $item-hover-background,
+//     // item-hover-text-color:$item-hover-text-color,
+//     // item-header-text-color:$item-header-text-color,
+//     // item-icon-color:$item-icon-color,
+//     // item-active-icon-color:$item-active-icon-color,
+//     // item-hover-icon-color: $item-hover-icon-color,
+// );
+// // Pass the theme to the igx-navdrawer component mixin
+// @include igx-navdrawer($navdrawer-theme);
+
+// %item {
+//   margin: 0px;
+//   padding: 10px;
+//   padding-left: 15px;
+//   padding-right: 15px;
+// }
+
+// $my-card-theme: igx-card-theme(
+//   // $background: $card-background-color,
+//     // $content-text-color: $card-content-text-color,
+//     // $header-text-color: $card-header-text-color,
+//     // $outline-color: black
+// );
+// %igx-card-header {
+//   padding: 5px !important;
+//   border-radius: 0.3em;
+// }
+// %igx-card-content {
+//   padding: 0rem !important;
+// }
+// %igx-card-actions {
+//   padding: 0rem !important;
+//   border-radius: 0.3em;
+//   justify-content: flex-start !important;
+// }
+
+// // Pass the theme to the igx-card component mixin
+// @include igx-card($my-card-theme);
+// %form-group-bundle {
+//   padding-top: 5px;
+// }
+
+// $my-tabs-theme: igx-tabs-theme(
+//   $item-background: #c1c1c1,
+//   //$secondary-color,
+//     // $item-text-color: white
+// );
+// %igx-tabs__content-fixed {
+//   // border: 1px solid $secondary-color;
+//   background: white;
+// }
+// // Pass the theme to the igx-tabs component mixin
+// @include igx-tabs($my-tabs-theme);
+
+// $my-button-theme: igx-button-theme(
+//   $raised-text-color: white,
+//   $raised-background: $primary-color
+// );
+// // Pass the theme to the igx-button component mixin
+// @include igx-button($my-button-theme);
+
+// $my-expansion-panel-theme: igx-expansion-panel-theme(
+//   // $header-background: $expansion-panel-header-background,
+//     // $header-focus-background: $expansion-panel-header-focus,
+//     // $body-color: $expansion-panel-body-color,
+//     // $body-background: $expansion-panel-body-background,
+//     // $border-radius: 4px
+// );
+// %igx-expansion-panel__body {
+//   border: 1px solid lightgrey; //$secondary-color;
+//   box-shadow: 0 1px 2px lightgrey; //$secondary-color;
+//   padding: 10px !important;
+// }
+// // Pass the theme to the igx-card component mixin
+// @include igx-expansion-panel($my-expansion-panel-theme);
+
+// .igx-nav-drawer__aside::-webkit-scrollbar {
+//   width: 3px;
+//   background: #e4e4e4;
+// }
+
+// .igx-nav-drawer__aside::-webkit-scrollbar-thumb {
+//   background: #0375be;
+//   border-radius: 0;
+// }
+
+// .position-top {
+//   position: fixed;
+//   top: 0;
+//   width: 100%;
+//   z-index: 10;
+// }
+
+// .agency-data-holder {
+//   // padding: 10px 10px 10px 10px;
+//   padding: 15px;
+//   // border: 1px solid $secondary-color;
+//   // border-radius: 0.3em;
+//   // box-shadow: 0 1px 2px $secondary-color;
+//   // background-color: $agency-holder-color;
+// }
+// .agency-data-holder h4 {
+//   margin-top: 0px;
+// }
+// .app-background {
+//   background-color: $application-background;
+// }
+
+// ul {
+//   padding: 0px 20px 10px 20px;
+//   list-style-type: square;
+// }
+
+// ul li {
+//   margin: 5px;
+// }
+
+
+
+// .wrap {
+//   white-space: pre-wrap; /* CSS3 */
+//   white-space: -moz-pre-wrap; /* Firefox */
+//   white-space: -pre-wrap; /* Opera <7 */
+//   white-space: -o-pre-wrap; /* Opera 7 */
+//   word-wrap: break-word; /* IE */
+//   word-break: break-all;
+// }
+
+// .scroll-top-wrapper {
+//   position: fixed;
+//   opacity: 0;
+//   visibility: hidden;
+//   overflow: hidden;
+//   text-align: center;
+//   z-index: 99999999;
+//   background-color: $primary-color;
+//   color: #eee;
+//   width: 50px;
+//   height: 48px;
+//   line-height: 48px;
+//   right: 30px;
+//   bottom: 30px;
+//   padding-top: 6px;
+//   border-top-left-radius: 10px;
+//   border-top-right-radius: 10px;
+//   border-bottom-right-radius: 10px;
+//   border-bottom-left-radius: 10px;
+//   border: 1px solid $secondary-color;
+//   -webkit-transition: all 0.5s ease-in-out;
+//   -moz-transition: all 0.5s ease-in-out;
+//   -ms-transition: all 0.5s ease-in-out;
+//   -o-transition: all 0.5s ease-in-out;
+//   transition: all 0.5s ease-in-out;
+// }
+// .scroll-top-wrapper:hover {
+//   // background-color: $secondary-color;
+//   color: $secondary-color;
+// }
+
+// .scroll-top-wrapper.show {
+//   visibility: visible;
+//   cursor: pointer;
+//   opacity: 1;
+// }
+
+// .xsd-background {
+//   background-color: #f8f8f8;
+// }
+
+// .text-ellipsis {
+//   white-space: nowrap;
+//   overflow: hidden;
+//   width: 100%;
+//   text-overflow: ellipsis;
+// }
+
+// .login-title {
+//   margin-bottom: 20px !important;
+// }
+
+// .regix-image{
+//   max-width: 100%;
+//   max-height: 100%;
+// }
+
+// .input-group-form {
+//   width: 100%;
+// }
+// .input-group {
+//   margin-bottom: 2rem;
+//   width: 100%;
+// }
+// .form-group-wrapper {
+//   width: 100%;
+// }
+
+// a {
+//   color: rgb(0, 123, 255);
+//   text-decoration: none;
+// }
+// a:hover {
+//   text-decoration: underline;
+// }
+
+// .table-wrapper {
+//   padding: 1rem;
+// }
+
+// .action-buttons-wrapper {
+//   width: 100%;
+// }
+
+// .table-action-button {
+//   margin: 2px;
+//   padding: 0px !important;
+//   min-width: 30px !important;
+//   min-height: 30px !important;
+//   width: 30px;
+//   height: 30px;
+// }
+
+// .buttons-wrapper {
+//   padding: 10px;
+//   padding-right: 0px;
+//   padding-bottom: 0px;
+// }
+
+// .table-button {
+//   margin: 2px;
+//   margin-right: 0px;
+// }
+// .select-clear-button {
+//   margin: 2px;
+//   padding: 0px !important;
+//   min-width: 30px !important;
+//   min-height: 30px !important;
+//   width: 30px;
+//   height: 30px;
+// }
+// .menu-header {
+//   background: $primary-color;
+//   color: white;
+//   font-weight: bold !important;
+// }
+// .active-menu-item {
+//   background: #f1f1f1;
+//   color: $primary-color !important;
+//   font-weight: bold;
+// }
+// .register-title {
+//   font-weight: bold;
+//   font-size: 14pt;
+//   color: white;
+//   padding: 10px;
+//   background: $primary-color;
+// }
+// .alert {
+//   width: 100%;
+//   padding: 10px;
+//   border: 1px solid orange;
+//   background: rgba(255, 230, 0, 0.2);
+// }
+// .error {
+//   width: 100%;
+//   padding: 10px;
+//   border: 1px solid red;
+//   background: rgba(255, 0, 0, 0.2);
+// }
+// .width-100 {
+//   width: 100%;
+// }
+// // .fab-button{
+// //   margin-right: 2rem;
+// // }

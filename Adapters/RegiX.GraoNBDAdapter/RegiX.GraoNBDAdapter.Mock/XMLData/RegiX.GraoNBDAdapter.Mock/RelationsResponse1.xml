@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<RelationsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/NBD/RelationsResponse">
+  <PersonRelations>
+    <RelationCode xmlns="http://egov.bg/RegiX/GRAO/NBD">Баща</RelationCode>
+    <EGN xmlns="http://egov.bg/RegiX/GRAO/NBD">1108251420</EGN>
+    <BirthDate xmlns="http://egov.bg/RegiX/GRAO/NBD">1911-08-25</BirthDate>
+    <FirstName xmlns="http://egov.bg/RegiX/GRAO/NBD">Никола</FirstName>
+    <SurName xmlns="http://egov.bg/RegiX/GRAO/NBD">Иванов</SurName>
+    <FamilyName xmlns="http://egov.bg/RegiX/GRAO/NBD">Първанов</FamilyName>
+    <Gender xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <GenderCode>1</GenderCode>
+      <GenderName>Мъж</GenderName>
+    </Gender>
+    <Nationality xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <NationalityCode>BG</NationalityCode>
+      <NationalityName>България</NationalityName>
+      <NationalityCode2>US</NationalityCode2>
+      <NationalityName2>САЩ</NationalityName2>
+    </Nationality>
+    <DeathDate xmlns="http://egov.bg/RegiX/GRAO/NBD">1970-01-01</DeathDate>
+  </PersonRelations>
+  <PersonRelations>
+    <RelationCode xmlns="http://egov.bg/RegiX/GRAO/NBD">Майка</RelationCode>
+    <EGN xmlns="http://egov.bg/RegiX/GRAO/NBD">15040316678</EGN>
+    <BirthDate xmlns="http://egov.bg/RegiX/GRAO/NBD">1915-01-11</BirthDate>
+    <FirstName xmlns="http://egov.bg/RegiX/GRAO/NBD">Ивелина</FirstName>
+    <SurName xmlns="http://egov.bg/RegiX/GRAO/NBD">Колева</SurName>
+    <FamilyName xmlns="http://egov.bg/RegiX/GRAO/NBD">Иванова</FamilyName>
+    <Gender xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <GenderCode>2</GenderCode>
+      <GenderName>Жена</GenderName>
+    </Gender>
+    <Nationality xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <NationalityCode>BG</NationalityCode>
+      <NationalityName>България</NationalityName>
+      <NationalityCode2/>
+      <NationalityName2/>
+    </Nationality>
+    <DeathDate xmlns="http://egov.bg/RegiX/GRAO/NBD">1970-01-05</DeathDate>
+  </PersonRelations>
+  <PersonRelations>
+    <RelationCode xmlns="http://egov.bg/RegiX/GRAO/NBD">Осиновителка</RelationCode>
+    <EGN xmlns="http://egov.bg/RegiX/GRAO/NBD">15040316678</EGN>
+    <BirthDate xmlns="http://egov.bg/RegiX/GRAO/NBD">1915-01-11</BirthDate>
+    <FirstName xmlns="http://egov.bg/RegiX/GRAO/NBD">Камелия</FirstName>
+    <SurName xmlns="http://egov.bg/RegiX/GRAO/NBD">Дончева</SurName>
+    <FamilyName xmlns="http://egov.bg/RegiX/GRAO/NBD">Иванова</FamilyName>
+    <Gender xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <GenderCode>2</GenderCode>
+      <GenderName>Жена</GenderName>
+    </Gender>
+    <Nationality xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <NationalityCode>BG</NationalityCode>
+      <NationalityName>България</NationalityName>
+      <NationalityCode2/>
+      <NationalityName2/>
+    </Nationality>
+    <DeathDate xmlns="http://egov.bg/RegiX/GRAO/NBD">2005-01-05</DeathDate>
+  </PersonRelations>
+</RelationsResponse>

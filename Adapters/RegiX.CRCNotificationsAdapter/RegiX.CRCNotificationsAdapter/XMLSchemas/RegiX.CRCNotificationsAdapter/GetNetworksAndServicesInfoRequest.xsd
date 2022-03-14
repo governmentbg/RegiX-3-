@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/Notifications/GetNetworksAndServicesInfoRequest" targetNamespace="http://egov.bg/RegiX/CRC/Notifications/GetNetworksAndServicesInfoRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetNetworksAndServicesInfoRequest">
+		<xs:annotation>
+			<xs:documentation>Входни параметри на Справка по мрежа/услуга</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Description" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Описание на мрежата/услугата</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Settlement" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>гр./с.</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Name" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Наименование</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Municipality" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Община</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Region" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Област</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="RightsOriginStartDate" type="xs:date" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Дата на възникване на правата - от дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="RightsOriginEndDate" type="xs:date" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Дата на възникване на правата - до дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

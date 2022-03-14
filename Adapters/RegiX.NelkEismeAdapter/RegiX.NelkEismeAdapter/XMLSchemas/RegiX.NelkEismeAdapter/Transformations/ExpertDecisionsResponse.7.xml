@@ -1,0 +1,240 @@
+﻿<ExpertDecisionsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NELK/EISME">
+  <ExpertDecisionDocument>
+    <RegistrationNumber>1040</RegistrationNumber>
+    <MeetingNumber>80</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionDescr>СБАЛОЗ</CommissionDescr>
+    <CommissionCode>2218</CommissionCode>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>д-р М. Жечева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>д-р Е. Андонов</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>д-р П. Цветанова</Name>
+    </CommisionMember>
+    <PersonNames>Мариана Цанкова Цанкова-Костова</PersonNames>
+    <PersonIdentifier>6602101775</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>640670293</DocumentNumber>
+      <IssueDate>2010-08-11T00:00:00+03:00</IssueDate>
+      <IssuePlace>МВР София</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>,ул."Тинтява" 14 ет. 9 ап. 41</AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>,null,ул."Тинтява" 14 ет. 9 ап. 41</AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </TemporaryAddress>
+    <Employment>работи-професия</Employment>
+    <EmploymentCode>1</EmploymentCode>
+    <Profession>лекар АГ- асистент.</Profession>
+    <ConditionText>52% т. н. р.</ConditionText>
+    <ConditionCode>7</ConditionCode>
+    <ExpertiseType>преосвидетелстване</ExpertiseType>
+    <ExpertiseTypeCode>2</ExpertiseTypeCode>
+    <ExpertiseDecisionMaking>След преглед</ExpertiseDecisionMaking>
+    <ExpertiseDecisionMakingCode>2</ExpertiseDecisionMakingCode>
+    <ExpertisePlace>ТЕЛК</ExpertisePlace>
+    <ExpertisePlaceCode>1</ExpertisePlaceCode>
+    <EmployabilityAssessment>54% т. н. р.</EmployabilityAssessment>
+    <EmployabilityAssessmentCode>7</EmployabilityAssessmentCode>
+    <DurationDisabilityDate>2020-05-01T00:00:00+03:00</DurationDisabilityDate>
+    <DurationDisability>3 години</DurationDisability>
+    <DurationDisabilityCode>3</DurationDisabilityCode>
+    <DisabilityReason>
+      <Date>2008-02-28T00:00:00+02:00</Date>
+      <Percent>54</Percent>
+      <Type>Общо заболяване</Type>
+    </DisabilityReason>
+    <Diagnosis>Вестибуларни синдроми при болести, класифицирани другаде</Diagnosis>
+    <DiagnosisCode>H82</DiagnosisCode>
+    <GeneralIllness>Шийна остеохондроза .Многоетажна остеохондроза. ХВБН . С-м на Баре-Лиеу. Мускулно контактно главоболие, чести пристъпи . ЦОНС - лека степен. Шийно-брахиален радикулерен с-м. </GeneralIllness>
+    <ContradictionWorkingConditions>Тежък физ. труд ,нервнопсихично напрежение,нощен труд , височини , шум над ПДН. </ContradictionWorkingConditions>
+    <ArgumentsAndObservations>
+      АНАМНЕЗА: ОТС-24 г. като ординатор..., лекар АГ.
+      От дълги години се оплаква от пристъпно главоболие .Болки в шийната област , световъртеж съпроводен от несигурна походка. Периодично "изтръпване" на ляв долен крайник от позиционен тип .
+      ОБЕКТИВНО: Общо съст.- запазено . Кожа и видими лигавици- бледо розови. Дребен хоризонтален нистагъм изчерпващ се при поглед в страни. НПП - двустр. дизметрия . МЩ - задържа 4-те крайника . Ромберг (+) в ляво . Походка запазено. Хипестезия C6-C7 в ляво .
+      МОТИВИ: За шийната остеохондроза  и многоетажна остеохондроза ,ЦОНС - лека степен, съгл. ч. 7 т. 3.2 обуславя 40% ТНР.
+      За с-м на Баре-Лиеу, мускулно контактно главоболие ,чести пристъпи, съгл. ч.7 т.10 обуславя 40% ТНР.
+      За шийния брахиален радикулерен с-м, съгл.ч.7 т.15 обуславя 30% ТНР.
+      По съвкупност ТЕЛК определя  54%  ТНР.
+      Срок- 3 г.
+      Забавянето на преосвидетелстването не е по вина на лицето.
+      Лицето може да продължи да работи на заеманата в момента длъжност, съгласно приложената ПХ.
+      ПРИЛОЖЕНИЕ: Епикризи, Консултация с невролог, ЕМГ, отоневр.изсл.,  пр.характеристики
+    </ArgumentsAndObservations>
+    <Appeal>
+      <StakeholdersCode>Лицето</StakeholdersCode>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>838</RegistrationNumber>
+    <MeetingNumber>70</MeetingNumber>
+    <RegistrationDate>2014-04-04T00:00:00+03:00</RegistrationDate>
+    <CommissionDescr>СБАЛОЗ</CommissionDescr>
+    <CommissionCode>2218</CommissionCode>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>д-р М. Жечева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>д-р Е. Андонов</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>д-р П. Цветанова</Name>
+    </CommisionMember>
+    <PersonNames>Мариана Цанкова Цанкова-Костова</PersonNames>
+    <PersonIdentifier>6602101775</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>640670293</DocumentNumber>
+      <IssueDate>2010-08-11T00:00:00+03:00</IssueDate>
+      <IssuePlace>МВР София</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>,ул."Тинтява" 14 ет. 9 ап. 41</AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>,null,ул."Тинтява" 14 ет. 9 ап. 41</AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </TemporaryAddress>
+    <Employment>работи-професия</Employment>
+    <EmploymentCode>1</EmploymentCode>
+    <Profession>лекар АГ главен асистент.</Profession>
+    <ConditionText>52% т. н. р.</ConditionText>
+    <ConditionCode>7</ConditionCode>
+    <ExpertiseType>преосвидетелстване</ExpertiseType>
+    <ExpertiseTypeCode>2</ExpertiseTypeCode>
+    <ExpertiseDecisionMaking>След преглед</ExpertiseDecisionMaking>
+    <ExpertiseDecisionMakingCode>2</ExpertiseDecisionMakingCode>
+    <ExpertisePlace>ТЕЛК</ExpertisePlace>
+    <ExpertisePlaceCode>1</ExpertisePlaceCode>
+    <EmployabilityAssessment>52% т. н. р.</EmployabilityAssessment>
+    <EmployabilityAssessmentCode>7</EmployabilityAssessmentCode>
+    <DurationDisabilityDate>2017-04-01T00:00:00+03:00</DurationDisabilityDate>
+    <DurationDisability>3 години</DurationDisability>
+    <DurationDisabilityCode>3</DurationDisabilityCode>
+    <DisabilityReason>
+      <Date>2008-02-28T00:00:00+02:00</Date>
+      <Percent>54</Percent>
+      <Type>Общо заболяване</Type>
+    </DisabilityReason>
+    <Diagnosis>Вестибуларни синдроми при болести, класифицирани другаде</Diagnosis>
+    <DiagnosisCode>H82</DiagnosisCode>
+    <GeneralIllness>Шийна остеохондроза .Многоетажна остеохондроза. ХВБН . С-м на Баре-Лиеу. Мускулно контактно главоболие, чести пристъпи . ЦОНС - лека степен. Шийно брахиален радикулерен с-м. </GeneralIllness>
+    <ContradictionWorkingConditions>Тежък физ. труд ,нервнопсихично напрежение,нощен труд , височини , шум над ПДН. </ContradictionWorkingConditions>
+    <ArgumentsAndObservations>
+      АНАМНЕЗА: ОТС-21 г. като лекар АГ главен асистент.
+      От дълги години се оплаква от пристъпно главоболие .Болки в шийната област , световъртеж съпроводен от несигурна походка. Периодично "изтръпване" на ляв долен крайник от позиционен тип .
+      ОБЕКТИВНО: Общо съст.- запазено . Кожа и видими лигавици- бледо розови. Дребен хоризонтален нистагъм изчерпващ се при поглед в страни. НПП - двустр. дизметрия . МЩ - задържа 4-те крайника . Ромберг (+) в ляво . Походка запазено. Хипестезия C6-C7 в ляво .
+      МОТИВИ: За шийната остеохондроза  и многоетажна остеохондроза ,ЦОНС - лека степен, съгл. ч. 7 т. 3.2 ообуславя 40% тр. нам.раб.
+      За с-м на Баре-Лиеу, мускулно контактно главоболие ,чести пристъпи, съгл. ч. 7 т. 10 обуславя 40% тр. нам.раб.
+      За шийния брахиален радикулерен с-м, съгл.ч. 7  т.15 обуславя 20% тр.нам.раб.
+      По съвкупност ТЕЛК опредселя  52% тр. нам.раб
+      Срок- 3 г.
+      Забавянето на преосвидетелстването не е по вина на лицето.
+      Лицето може да изпълнява служебните си задължения като лекар АГ главен асистент съгласно приложената ПХ.
+      ПРИЛОЖЕНИЕ: Епикризи, консултация с невролог, УЗД на каротидни арт., ЕМГ, електромиография, изсл.на слуха, сл.бележка, пр.характеристики
+    </ArgumentsAndObservations>
+    <Appeal>
+      <StakeholdersCode>Лицето</StakeholdersCode>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>202</RegistrationNumber>
+    <MeetingNumber>23</MeetingNumber>
+    <RegistrationDate>2011-02-07T00:00:00+02:00</RegistrationDate>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>д-р М. Жечева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>д-р Е. Андонов</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>д-р П. Цветанова</Name>
+    </CommisionMember>
+    <PersonNames>Мариана Цанкова Цанкова-Костова</PersonNames>
+    <PersonIdentifier>6602101775</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>640670293</DocumentNumber>
+      <IssueDate>2010-08-11T00:00:00+03:00</IssueDate>
+      <IssuePlace>МВР София</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>,ул."Тинтява" 14 ет. 9 ап. 41</AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>,null,ул."Тинтява" 14 ет. 9 ап. 41</AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </TemporaryAddress>
+    <Profession>лекар АГ главен асистент. </Profession>
+    <ConditionText>50% тр. нам. раб.</ConditionText>
+    <ExpertiseDecisionMakingCode>0</ExpertiseDecisionMakingCode>
+    <EmployabilityAssessment>52% тр. нам. раб.</EmployabilityAssessment>
+    <DurationDisabilityDate>2014-02-01T00:00:00+02:00</DurationDisabilityDate>
+    <DisabilityReason>
+      <Date>2008-02-28T00:00:00+02:00</Date>
+      <Percent>54</Percent>
+      <Type>Общо заболяване</Type>
+    </DisabilityReason>
+    <Diagnosis>Вестибуларни синдроми при болести, класифицирани другаде</Diagnosis>
+    <DiagnosisCode>H82</DiagnosisCode>
+    <GeneralIllness>Шийна остеохондроза .Многоетажна остеохондроза. ХВБН . С-м на Баре-Лиеу. Мускулно контактно главоболие, чести пристъпи . ЦОНС - лека степен. Шийно брахиален радикулерен с-м. </GeneralIllness>
+    <ContradictionWorkingConditions>Тежък физ. труд ,нервнопсихично напрежение,нощен труд , височини , шум над ПДН. </ContradictionWorkingConditions>
+    <ArgumentsAndObservations>
+      АНАМНЕЗА: Работи- лекар АГ главен асистент.
+      От дълги години се оплаква от пристъпно главоболие .Болки в шийната област , световъртеж съпроводен от несигурна походка. Периодично "изтръпване" на ляв долен крайни от позиционен тип .
+      ОБЕКТИВНО: Общо съст.- запазено . Кожа и видими лигавици- бледо розови. Дребен хоризонтален нистагъм изчерпващ се при поглед в страни. НПП - двустр. дизметрия . МЩ - задържа 4-те крайника . Ромберг (+) в ляво . Походка запазено. Хипестезия C6-C7 в ляво .
+      МОТИВИ: За шийната остеохондроза  и многоетажна остеохондроза ,ЦОНС - лека степен- ч. 7 т. 3.2-40% нам.раб.
+      За с-м на Баре-Лиеу, мускулно контактно главоболие ,чести пристъпи- ч. 7 т. 10-40% нам.раб.
+      За шийния брахиален радикулерен с-м- ч. 1 р. 4 т. 4.2-20% нам.раб.
+      По съвкупност- 52% тр. нам.раб (40+20%х60)
+      Срок- 3 г.
+      Забавянето на преосвидетелстването не е по вина на лицето.
+      Лицето може да изпълнява служебните си задължения като лекар АГ главен асистент съгласно приложената ПХ.
+      ПРИЛОЖЕНИЕ: Служебна бележка , ПХ , служебна бележка - болнични , епикризи , отоневролог , отоневрологично изследване , ортопед , рьо. гр. , аудиограма , лаборатория , ЕМГ ,
+    </ArgumentsAndObservations>
+    <Appeal>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+</ExpertDecisionsResponse>

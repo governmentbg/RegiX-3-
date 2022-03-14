@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/MVR/MPS/GetMotorVehicleRegistrationInfoV2Response" targetNamespace="http://egov.bg/RegiX/MVR/MPS/GetMotorVehicleRegistrationInfoV2Response" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="VehicleDocDataType">
+		<xs:sequence>
+			<xs:element name="VehDocumentNumber" type="StringNotEmptyCyr">
+				<xs:annotation>
+					<xs:documentation>Номер на документ за регистрация</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="VehDocumentDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на издаване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ReturnInformationType">
+		<xs:sequence>
+			<xs:element name="ReturnCode" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>0000-успешна операция;0100-няма данни отговарящи на условието.Други значения означават възникване на грешка - подлежат на допълнително уточняване.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Info" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Описание на грешката</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="HeaderResponseType">
+		<xs:sequence>
+			<xs:element name="MessageID" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Уникален идентификатор на съобщението  - UUID</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MessageRefID" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Уникален идентификатор на съобщението, на което се отговаря - UUID</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DateTime" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation>Време на подаване на заявката</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Operation" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Вид операция:0001-справка за бълграски гражданин,0002-справка за чужд гражданин,0003-справка за превозно средство</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="UserName" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Имена на потребител, извършил справката</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="OrganizationUnit" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Организация</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CallerIPAddress" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>IP адрес на клиента</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CallContext" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="StringNotEmpty">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StringNotEmptyCyr">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:pattern value="[А-Я0-9]*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="VehRegNumRequestType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:pattern value="[А-Я0-9ETYOPADHKXCBM]*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="VehRegNumType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="16"/>
+			<xs:pattern value="[А-Я0-9]*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="BGType">
+		<xs:annotation>
+			<xs:documentation>Български гражданин</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="PIN" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Едине граждански номер (ЕГН)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Names" minOccurs="0">
+				<xs:complexType>
+					<xs:annotation>
+						<xs:documentation>Имена на лицето</xs:documentation>
+					</xs:annotation>
+					<xs:sequence>
+						<xs:element name="First" type="xs:string">
+							<xs:annotation>
+								<xs:documentation>Собствено име</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="Surname" type="xs:string" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Бащино име</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="Family" type="xs:string" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Фамилно име</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="FCType">
+		<xs:annotation>
+			<xs:documentation>Чужд гражданин</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="PIN" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Единен граждански номер (ЕГН)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PN" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Личен номер на чужденец (ЛНЧ)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NamesCyrillic" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Имена на лицето на кирилица</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NamesLatin" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Имена на лицето на латиница</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Nationality" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Националност</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CompanyType">
+		<xs:annotation>
+			<xs:documentation>Юридическо лице</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ID" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Name" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NameLatin" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на латиница</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="OwnersDataType">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="Owner" type="OwnerType">
+				<xs:annotation>
+					<xs:documentation>Собственик - очаква се един от трите типа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="UsersDataType">
+		<xs:sequence>
+			<xs:element name="User" type="OwnerType">
+				<xs:annotation>
+					<xs:documentation>Очаква се един от трите типа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="OwnerType">
+		<xs:sequence>
+			<xs:element name="BulgarianCitizen" type="BGType" minOccurs="0"/>
+			<xs:element name="ForeignCitizen" type="FCType" minOccurs="0"/>
+			<xs:element name="Company" type="CompanyType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="VehicleDataType">
+		<xs:sequence>
+			<xs:element name="RegistrationNumber" type="VehRegNumType">
+				<xs:annotation>
+					<xs:documentation>(А) Регистрационен номер </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="FirstRegistrationDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>(B) Дата на първа регистрация </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="VIN" type="StringNotEmpty" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>(E) VIN</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EngineNumber" type="StringNotEmpty" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>(P5) Номер на двигателя</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="VehicleType" type="StringNotEmpty" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид на ПС</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Model" type="StringNotEmpty" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>(D.1) Марка и модел</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TypeApprovalNumber" type="StringNotEmpty" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>(K) Номер  на типово на одобрение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ApprovalType" type="StringNotEmpty" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>(D.2) Тип на одобрение Вариант  Версия</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TradeDescription" type="StringNotEmpty" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>(D.3) Търговско наименование</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Color" type="StringNotEmpty" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>(R) Цвят</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Category" type="StringNotEmpty" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>(J) Категория</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="OffRoadSymbols" type="StringNotEmpty" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Повишена проходимост</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MassG" type="xs:nonNegativeInteger" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>(G) Маса на превозното средство</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MassF1" type="xs:nonNegativeInteger" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>(F.1) Техническа допустима максимална маса</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Capacity" type="xs:nonNegativeInteger" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>(P1) Обем на двигателя</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MaxPower" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>(P2) Максимална мощност</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Fuel" type="StringNotEmpty" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>(P3) Вид гориво</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EnvironmentalCategory" type="StringNotEmpty" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>(V.9) Екологична категория</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="VehicleDocument" type="VehicleDocDataType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="GetMotorVehicleRegistrationInfoV2Response" type="GetMotorVehicleRegistrationInfoV2ResponseType">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="GetMotorVehicleRegistrationInfoV2ResponseType">
+		<xs:sequence>
+			<xs:element name="Header" type="HeaderResponseType"/>
+			<xs:element name="Response">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Results" minOccurs="0">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="Result" maxOccurs="unbounded">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="VehicleData" type="VehicleDataType"/>
+												<xs:element name="OwnersData" type="OwnersDataType" minOccurs="0"/>
+												<xs:element name="UsersData" type="UsersDataType" minOccurs="0" maxOccurs="unbounded"/>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="ReturnInformation" type="ReturnInformationType"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

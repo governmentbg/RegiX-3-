@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AV/BULSTAT/GetActualUICInfoResponse" targetNamespace="http://egov.bg/RegiX/AV/BULSTAT/GetActualUICInfoResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetActualUICInfoResponse" type="GetActualUICInfoResponseType">
+		<xs:annotation>
+			<xs:documentation>Справка за извличане на актуален УИК </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="GetActualUICInfoResponseType">
+		<xs:sequence>
+			<xs:element name="UIC">
+				<xs:annotation>
+					<xs:documentation>Актуален код по БУЛСТАТ</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="13"/>
+						<xs:minLength value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="CyrillicName" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на кирилица
+					</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="255"/>
+						<xs:minLength value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="LatinName" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на латиница
+					</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="255"/>
+						<xs:minLength value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

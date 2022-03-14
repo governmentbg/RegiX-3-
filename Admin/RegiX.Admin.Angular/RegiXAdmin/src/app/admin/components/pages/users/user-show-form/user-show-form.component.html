@@ -1,0 +1,84 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <div *ngIf="isDataLoading">
+      <div>
+        <igx-circular-bar
+          [animate]="true"
+          [indeterminate]="true"
+          [textVisibility]="true"
+        ></igx-circular-bar>
+      </div>
+    </div>
+
+    <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isDataLoaded && !isDataLoading && isShowForm()" 
+    >
+      <igx-input-group class="input-group">
+        <input
+          class="form-input"
+          igxInput
+          name="name"
+          type="text"
+          formControlName="name"  
+        />
+        <label igxLabel for="name">Име</label>
+      </igx-input-group>
+      
+      <igx-input-group class="input-group">
+        <input
+          class="form-input"
+          igxInput
+          name="userName"
+          type="text"
+          formControlName="userName"
+        />
+        <label igxLabel for="userName">Потребителско име</label>
+      </igx-input-group>
+
+      <igx-input-group class="input-group">
+        <input
+          class="form-input"
+          igxInput
+          name="email"
+          type="text"
+          formControlName="email"
+        />
+        <label igxLabel for="email">E-mail</label>
+      </igx-input-group>
+
+      <igx-input-group class="input-group">
+        <input
+          class="form-input"
+          igxInput
+          name="administrationName"
+          type="text"
+          formControlName="administrationName"
+        />
+        <label igxLabel for="administrationName">Администрация</label>
+      </igx-input-group>
+
+      <igx-checkbox
+        class="input-group"
+        formControlName="active"
+        disabled="true"
+        name="active"
+      >
+        Активен
+      </igx-checkbox>
+      <igx-checkbox
+        class="input-group"
+        formControlName="isLockedOut"
+        disabled="true"
+        name="isLockedOut"
+      >
+        Заключен
+      </igx-checkbox>
+    </form>
+</div>
+</tl-basic-form>

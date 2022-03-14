@@ -1,0 +1,69 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <div *ngIf="isDataLoading">
+      <div>
+        <igx-circular-bar
+          [animate]="true"
+          [indeterminate]="true"
+          [textVisibility]="true"
+        ></igx-circular-bar>
+      </div>
+    </div>
+    <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isDataLoaded && !isDataLoading"
+    >
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="name"
+              type="text"
+              formControlName="name"
+              tlFormGroupRef
+            />
+            <label igxLabel for="name">Име</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+      <tl-form-group class="form-group-wrapper">
+        <igx-select
+          #selectType
+          name="identifierType"
+          formControlName="identifierType"
+          tlFormGroupRef
+        >
+          <igx-select-item
+            *ngFor="let identifierType of identifierTypes"
+            [value]="identifierType.value"
+          >
+            {{ identifierType.name }}
+          </igx-select-item>
+          <label igxLabel for="authority">Тип идентификатор</label>
+        </igx-select>
+      </tl-form-group>
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+            <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="identifier"
+                  type="text"
+                  formControlName="identifier"
+                  tlFormGroupRef
+                />
+                <label igxLabel for="identifier">{{ "Идентификатор" }}</label>
+              </igx-input-group>
+        </tl-form-group>
+    </div>
+    </form>
+  </div>
+</tl-basic-form>

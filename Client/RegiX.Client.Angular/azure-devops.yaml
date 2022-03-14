@@ -1,0 +1,68 @@
+resources:
+- repo: self
+queue:
+  name: RegiX
+steps:
+- powershell: |
+    # Matches ###PAT### string.
+    $regex = "(##PAT##)"
+    # File contents to be replaced
+    $fileName = "$(Build.Repository.LocalPath)\RegiXClient\.npmrc"
+    # Iterates through all the file's lines
+    $tmp = Get-Content $fileName | `
+    foreach `
+    { `
+        [regex]::replace($_,$regex, "$(npmrc.pat_regix)") `
+    }
+    # Update the .npmrc PAT token
+    Set-Content $fileName $tmp
+  displayName: 'Replace PAT in .npmrc'
+# - task: PowerShell@2
+#   inputs:
+#     targetType: 'inline'
+#     script: 'Set-Content -Path "$(Build.Repository.LocalPath)\RegiXClient\src\assets\config.properties.json" -Value "{ ""serviceUrl"": ""https://172.16.69.13:8091/RegiX.Client.API"" }"'    
+# MISSING TASK IN AZURE-DEVOPS (In our installation)
+# - task: FileTransform@1
+#   inputs:
+#     folderPath: '$(Build.Repository.LocalPath)\RegiXInfo\dist\RegiXInfo\assets'
+#     targetFiles: 'config.properties.json'
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      cd RegiXClient
+      npm version 1.$(Build.BuildNumber)
+- task: Npm@1
+  displayName: 'ng --version'
+  inputs:
+    workingDir: '$(Build.Repository.LocalPath)\RegiXClient'
+    command: 'custom'
+    customCommand: 'run ngu'
+- task: Npm@1
+  displayName: 'npm install'
+  inputs:
+    workingDir: '$(Build.Repository.LocalPath)\RegiXClient'
+    command: 'install'
+- task: Npm@1
+  displayName: 'npm set version'
+  inputs:
+    workingDir: '$(Build.Repository.LocalPath)\RegiXClient'
+    command: 'custom'
+    customCommand: 'version 1.$(Build.BuildNumber) --allow-same-version'
+- task: Npm@1
+  displayName: 'npm build'
+  inputs:
+    workingDir: '$(Build.Repository.LocalPath)\RegiXClient'
+    command: 'custom'
+    customCommand: 'run $(environment)'
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      Remove-Item $(Build.Repository.LocalPath)\RegiXClient\dist\RegiXClient\*.ver
+      New-Item -Path $(Build.Repository.LocalPath)\RegiXClient\dist\RegiXClient -Name "1.$(Build.BuildNumber).ver"
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: RegiX.Client.Angular'
+  inputs:
+    artifactName: 'RegiX.Client.Angular'
+    PathtoPublish: '$(Build.Repository.LocalPath)\RegiXClient\dist\RegiXClient'

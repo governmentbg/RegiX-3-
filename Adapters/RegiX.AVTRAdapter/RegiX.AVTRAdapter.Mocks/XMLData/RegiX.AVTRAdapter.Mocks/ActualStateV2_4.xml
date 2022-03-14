@@ -1,0 +1,397 @@
+<ActualStateResponseV2 xmlns="http://egov.bg/RegiX/AV/TR/ActualStateResponseV2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <Deed>
+                <DeedStatus>N</DeedStatus>
+                <CompanyName>ВИРЕЯ - ЛОМ</CompanyName>
+                <GUID>3f3cd5242c06458d85869c81e688d075</GUID>
+                <UIC>200213737</UIC>
+                <LegalForm>OOD</LegalForm>
+                <Records>
+                  <Record>
+                    <RecordData>
+                      <UIC uic="200213737" IsNew="true">
+                        <CompanyControl />
+                        <BulstatDeed>
+                          <Deed />
+                          <Year />
+                          <CourtCode />
+                        </BulstatDeed>
+                      </UIC>
+                    </RecordData>
+                    <RecordId>2053702</RecordId>
+                    <IncomingId>391683</IncomingId>
+                    <FieldIdent>00010</FieldIdent>
+                    <MainField>
+                      <GroupId>45</GroupId>
+                      <GroupName>Идентификация</GroupName>
+                      <SectionId>414</SectionId>
+                      <SectionName>Обща информация</SectionName>
+                      <MainFieldIdent>00010</MainFieldIdent>
+                      <MainFieldCode>1</MainFieldCode>
+                      <MainFieldName>ЕИК/ПИК</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080627134551</FieldEntryNumber>
+                    <FieldActionDate>2008-06-27T13:45:51</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Company>ВИРЕЯ - ЛОМ</Company>
+                    </RecordData>
+                    <RecordId>2054057</RecordId>
+                    <IncomingId>391683</IncomingId>
+                    <FieldIdent>00020</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00020</MainFieldIdent>
+                      <MainFieldCode>2</MainFieldCode>
+                      <MainFieldName>Фирма</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080627134551</FieldEntryNumber>
+                    <FieldActionDate>2008-06-27T13:45:51</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <LegalForm Text="Дружество с ограничена отговорност" Code="4" />
+                    </RecordData>
+                    <RecordId>2053704</RecordId>
+                    <IncomingId>391683</IncomingId>
+                    <FieldIdent>00030</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00030</MainFieldIdent>
+                      <MainFieldCode>3</MainFieldCode>
+                      <MainFieldName>Правна форма</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080627134551</FieldEntryNumber>
+                    <FieldActionDate>2008-06-27T13:45:51</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Transliteration>VIREA - LOM</Transliteration>
+                    </RecordData>
+                    <RecordId>2054058</RecordId>
+                    <IncomingId>391683</IncomingId>
+                    <FieldIdent>00040</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00040</MainFieldIdent>
+                      <MainFieldCode>4</MainFieldCode>
+                      <MainFieldName>Изписване на чужд език</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080627134551</FieldEntryNumber>
+                    <FieldActionDate>2008-06-27T13:45:51</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Seat>
+                        <Address>
+                          <CountryID>1</CountryID>
+                          <CountryCode>BGR</CountryCode>
+                          <Country>БЪЛГАРИЯ</Country>
+                          <IsForeign>false</IsForeign>
+                          <DistrictID>41</DistrictID>
+                          <DistrictEkatte>MON</DistrictEkatte>
+                          <District>Монтана</District>
+                          <Municipalityid>133</Municipalityid>
+                          <MunicipalityEkatte>MON24</MunicipalityEkatte>
+                          <Municipality>Лом</Municipality>
+                          <SettlementID>2336</SettlementID>
+                          <SettlementEKATTE>44238</SettlementEKATTE>
+                          <Settlement>гр. Лом</Settlement>
+                          <AreaID xsi:nil="true" />
+                          <Area />
+                          <AreaEkatte />
+                          <PostCode>3600</PostCode>
+                          <ForeignPlace />
+                          <HousingEstate />
+                          <Street>БЕНКОВСКИ</Street>
+                          <StreetNumber>1</StreetNumber>
+                          <Block />
+                          <Entrance />
+                          <Floor />
+                          <Apartment />
+                        </Address>
+                        <Contacts>
+                          <Phone />
+                          <Fax />
+                          <EMail />
+                          <URL />
+                        </Contacts>
+                      </Seat>
+                    </RecordData>
+                    <RecordId>2054059</RecordId>
+                    <IncomingId>391683</IncomingId>
+                    <FieldIdent>00050</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00050</MainFieldIdent>
+                      <MainFieldCode>5</MainFieldCode>
+                      <MainFieldName>Седалище и адрес на управление</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080627134551</FieldEntryNumber>
+                    <FieldActionDate>2008-06-27T13:45:51</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <SubjectOfActivity>ПОКУПКА НА СТОКИ ИЛИ ДРУГИ ВЕЩИ С ЦЕЛ ПРЕПРОДАЖБА В ПЪРВОНАЧАЛЕН, ОБРАБОТЕН ИЛИ ПРЕРАБОТЕН ВИД; ВЪНШНОТЪРГОВСКА ДЕЙНОСТ; ТЪРГОВСКО ПРЕДСТАВИТЕЛСТВО И ПОСРЕДНИЧЕСТВО; ПРЕВОЗНИ, СПЕДИЦИОННИ, СКЛАДОВИ И КОМИСИОННИ СДЕЛКИ; ПРОДАЖБА НА СТОКИ ОТ СОБСТВЕНО ПРОИЗВОДСТВО; ПРОИЗВОДСТВО, ИЗКУПУВАНЕ, ПРЕРАБОТКА И ТЪРГОВИЯ СЪС СЕЛСКОСТОПАНСКА ПРОДУКЦИЯ; АВТОРЕМОНТНИ УСЛУГИ, АВТОМИВКА, ПЪТНА ПОМОЩ; ЕКСПЛОАТАЦИЯ НА ЗАВЕДЕНИЯ ЗА ОБЩЕСТВЕНО ХРАНЕНЕ, ЗАБАВНИ, СПОРТНИ И АТРАКЦИОННИ ОБЕКТИ И СЪОРЪЖЕНИЯ; ЛИЗИНГОВИ, МАРКЕТИНГОВИ И ВАЛУТНИ СДЕЛКИ; ТУРИСТИЧЕСКИ, ХОТЕЛИЕРСКИ, ИНФОРМАЦИОННИ, ПРОГРАМНИ, КОНСУЛТАНТСКИ, СЕРВИЗНИ, РЕКЛАМНИ И ДРУГИ УСЛУГИ, КАКТО И ВСЯКАКВИ ДРУГИ СДЕЛКИ, НЕЗАБРАНЕНИ СЪС ЗАКОН.</SubjectOfActivity>
+                    </RecordData>
+                    <RecordId>2054060</RecordId>
+                    <IncomingId>391683</IncomingId>
+                    <FieldIdent>00060</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00060</MainFieldIdent>
+                      <MainFieldCode>6</MainFieldCode>
+                      <MainFieldName>Предмет на дейност</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080627134551</FieldEntryNumber>
+                    <FieldActionDate>2008-06-27T13:45:51</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Manager>
+                        <Person IsForeignTraderText="0">
+                          <Indent>2211221122</Indent>
+                          <Name>РУМЕН ЦВЕТАНОВ ЗАМФИРОВ</Name>
+                          <IndentType>EGN</IndentType>
+                        </Person>
+                      </Manager>
+                    </RecordData>
+                    <RecordId>2054099</RecordId>
+                    <IncomingId>391683</IncomingId>
+                    <FieldIdent>000700</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00070</MainFieldIdent>
+                      <MainFieldCode>7</MainFieldCode>
+                      <MainFieldName>Управители</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080627134551</FieldEntryNumber>
+                    <FieldActionDate>2008-06-27T13:45:51</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Manager>
+                        <Person IsForeignTraderText="0">
+                          <Indent>2233223322</Indent>
+                          <Name>РОСЕН ЦВЕТАНОВ ЗАМФИРОВ</Name>
+                          <IndentType>EGN</IndentType>
+                        </Person>
+                      </Manager>
+                    </RecordData>
+                    <RecordId>2054101</RecordId>
+                    <IncomingId>391683</IncomingId>
+                    <FieldIdent>000700</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00070</MainFieldIdent>
+                      <MainFieldCode>7</MainFieldCode>
+                      <MainFieldName>Управители</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080627134551</FieldEntryNumber>
+                    <FieldActionDate>2008-06-27T13:45:51</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <WayOfRepresentation jointly="0" severally="0" otherWay="1">ЗАЕДНО И ПООТДЕЛНО</WayOfRepresentation>
+                    </RecordData>
+                    <RecordId>2054100</RecordId>
+                    <IncomingId>391683</IncomingId>
+                    <FieldIdent>00110</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00110</MainFieldIdent>
+                      <MainFieldCode>11</MainFieldCode>
+                      <MainFieldName>Начин на представляване</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080627134551</FieldEntryNumber>
+                    <FieldActionDate>2008-06-27T13:45:51</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Partner share="2500">
+                        <Subject IsForeignTraderText="0">
+                          <Indent>2211221122</Indent>
+                          <Name>РУМЕН ЦВЕТАНОВ ЗАМФИРОВ</Name>
+                          <IndentType>EGN</IndentType>
+                        </Subject>
+                      </Partner>
+                    </RecordData>
+                    <RecordId>2054152</RecordId>
+                    <IncomingId>391683</IncomingId>
+                    <FieldIdent>001900</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00190</MainFieldIdent>
+                      <MainFieldCode>19</MainFieldCode>
+                      <MainFieldName>Съдружници</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080627134551</FieldEntryNumber>
+                    <FieldActionDate>2008-06-27T13:45:51</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Partner share="2500">
+                        <Subject IsForeignTraderText="0">
+                          <Indent>2233223322</Indent>
+                          <Name>РОСЕН ЦВЕТАНОВ ЗАМФИРОВ</Name>
+                          <IndentType>EGN</IndentType>
+                        </Subject>
+                      </Partner>
+                    </RecordData>
+                    <RecordId>2054154</RecordId>
+                    <IncomingId>391683</IncomingId>
+                    <FieldIdent>001900</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00190</MainFieldIdent>
+                      <MainFieldCode>19</MainFieldCode>
+                      <MainFieldName>Съдружници</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080627134551</FieldEntryNumber>
+                    <FieldActionDate>2008-06-27T13:45:51</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Funds>5000</Funds>
+                    </RecordData>
+                    <RecordId>2054196</RecordId>
+                    <IncomingId>391683</IncomingId>
+                    <FieldIdent>00310</FieldIdent>
+                    <MainField>
+                      <GroupId>16</GroupId>
+                      <GroupName>Капитал</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00310</MainFieldIdent>
+                      <MainFieldCode>31</MainFieldCode>
+                      <MainFieldName>Размер</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080627134551</FieldEntryNumber>
+                    <FieldActionDate>2008-06-27T13:45:51</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <DepositedFunds>5000</DepositedFunds>
+                    </RecordData>
+                    <RecordId>2054197</RecordId>
+                    <IncomingId>391683</IncomingId>
+                    <FieldIdent>00320</FieldIdent>
+                    <MainField>
+                      <GroupId>16</GroupId>
+                      <GroupName>Капитал</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00320</MainFieldIdent>
+                      <MainFieldCode>32</MainFieldCode>
+                      <MainFieldName>Внесен капитал</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080627134551</FieldEntryNumber>
+                    <FieldActionDate>2008-06-27T13:45:51</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <TransferringTypeOfTradeEnterprise FullTransfer="1" PartialTransfer="0" TakeTransfer="0" />
+                    </RecordData>
+                    <RecordId>11188718</RecordId>
+                    <IncomingId>3492551</IncomingId>
+                    <FieldIdent>06000</FieldIdent>
+                    <MainField>
+                      <GroupId>39</GroupId>
+                      <GroupName>Търговско предприятие</GroupName>
+                      <SectionId>8</SectionId>
+                      <SectionName>Прехвърляне на търговско предприятие</SectionName>
+                      <MainFieldIdent>06000</MainFieldIdent>
+                      <MainFieldCode>600</MainFieldCode>
+                      <MainFieldName>Прехвърляне или поемане на търговско предприятие</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20091202112435</FieldEntryNumber>
+                    <FieldActionDate>2009-12-02T11:24:35</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <TransferringEnterprise>
+                        <Subject IsForeignTraderText="0">
+                          <Indent>821110109</Indent>
+                          <Name>ВИРЕЯ - ЗАМФИРОВИ</Name>
+                          <IndentType>UIC</IndentType>
+                          <CountryID xsi:nil="true" />
+                          <CountryName />
+                        </Subject>
+                      </TransferringEnterprise>
+                    </RecordData>
+                    <RecordId>11188719</RecordId>
+                    <IncomingId>3492551</IncomingId>
+                    <FieldIdent>06010</FieldIdent>
+                    <MainField>
+                      <GroupId>39</GroupId>
+                      <GroupName>Търговско предприятие</GroupName>
+                      <SectionId>8</SectionId>
+                      <SectionName>Прехвърляне на търговско предприятие</SectionName>
+                      <MainFieldIdent>06010</MainFieldIdent>
+                      <MainFieldCode>601</MainFieldCode>
+                      <MainFieldName>Отчуждител/ наследодател</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20091202112435</FieldEntryNumber>
+                    <FieldActionDate>2009-12-02T11:24:35</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <AcquisitionEnterprise>
+                        <Subject IsForeignTraderText="0">
+                          <Indent>200213737</Indent>
+                          <Name>ВИРЕЯ - ЛОМ</Name>
+                          <IndentType>UIC</IndentType>
+                          <CountryID xsi:nil="true" />
+                          <CountryName />
+                        </Subject>
+                      </AcquisitionEnterprise>
+                    </RecordData>
+                    <RecordId>11188720</RecordId>
+                    <IncomingId>3492551</IncomingId>
+                    <FieldIdent>060200</FieldIdent>
+                    <MainField>
+                      <GroupId>39</GroupId>
+                      <GroupName>Търговско предприятие</GroupName>
+                      <SectionId>8</SectionId>
+                      <SectionName>Прехвърляне на търговско предприятие</SectionName>
+                      <MainFieldIdent>06020</MainFieldIdent>
+                      <MainFieldCode>602</MainFieldCode>
+                      <MainFieldName>Правоприемник</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20091202112435</FieldEntryNumber>
+                    <FieldActionDate>2009-12-02T11:24:35</FieldActionDate>
+                  </Record>
+                </Records>
+              </Deed>
+              <DataValidForDate>2017-06-05T14:47:06.7475715+03:00</DataValidForDate>
+            </ActualStateResponseV2>

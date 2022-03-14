@@ -1,0 +1,8 @@
+<REG35_Stages_Validity_Period_Request 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns="http://egov.bg/RegiX/IAOS/REG35/StagesValidityPeriodRequest">
+  <AuthNum>00-ДО-00000185-09</AuthNum>
+  <DateTime>2010-10-10T00:00:00</DateTime>
+  <StageNum>1</StageNum>
+</REG35_Stages_Validity_Period_Request>

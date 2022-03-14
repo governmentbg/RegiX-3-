@@ -1,0 +1,53 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.NKPDAdapter.APIService.INKPDAPI.GetNKPDData</OperationName>
+  <Code>GetNKPDData</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>NKPDDataRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/MTSP/NKPD/NKPDDataRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за търсене на данни от класификатор НКПД по зададени критерии</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>ValidDate</ParameterName>
+        <ParameterLabel>Дата на валидност</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Code</ParameterName>
+        <ParameterLabel>Код</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Name</ParameterName>
+        <ParameterLabel>Наименование</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

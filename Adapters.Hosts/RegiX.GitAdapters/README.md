@@ -1,0 +1,3 @@
+Install-Package RegiX.GitActualDeclarationAdapter
+Install-Package RegiX.GitExplosivesAdapter
+Install-Package RegiX.GitPenalProvisionsAdapter

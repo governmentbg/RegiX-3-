@@ -1,0 +1,39 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.IaosRegister67ZOUAdapter.APIService.IIaosRegister67ZOUAPI.GetREG35_Stages_By_Reg_Number_And_Waste_Code</OperationName>
+  <Code>GetREG35_Stages_By_Reg_Number_And_Waste_Code</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>REG35_Stages_By_Reg_Number_And_Waste_Code_Request</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/IAOS/REG35Reg/StagesByRegNumberAndWasteCodeRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка по код на отпадък в регистъра на разрешенията по чл. 67 ЗУО и регистрационните документи по чл. 78 от ЗУО</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>AuthNum</ParameterName>
+        <ParameterLabel>Регистрационен номер</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>WasteCode</ParameterName>
+        <ParameterLabel>Код на отпадък</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

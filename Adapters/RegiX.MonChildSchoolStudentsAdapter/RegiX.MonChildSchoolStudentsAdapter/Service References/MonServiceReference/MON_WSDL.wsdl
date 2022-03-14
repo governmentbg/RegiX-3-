@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://172.16.3.36/ws_EGOV/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://172.16.3.36/ws_EGOV/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://172.16.3.36/ws_EGOV/">
+      <s:element name="getStudentFromAdminRD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StudentID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DocumentNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="IDType" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getStudentFromAdminRDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getStudentFromAdminRDResult" type="tns:ArrayOfDiplomaDocument" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfDiplomaDocument">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DiplomaDocument" nillable="true" type="tns:DiplomaDocument" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DiplomaDocument">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="intID" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="intStudentID" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDType" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcIDNumberText" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcName1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcName2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcName3" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="intBPlaceE" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="codeNationality" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="boolGender" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="intDocumentType" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcDocumentName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="intYearGraduated" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcPrnSer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcPrnNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcRegNo1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcRegNo2" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="dtRegDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="intSchoolID" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcSchoolName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="intEKATTE" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="intVETSpeciality" nillable="true" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcVETSpecialityName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="intVETLevel" nillable="true" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcVETLevelName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="intVETGroupIdent" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcEducAreaName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="intEdForm" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcEdFormName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="intClassType" nillable="true" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcClassTypeName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="intMeanMark" nillable="true" type="s:float" />
+          <s:element minOccurs="0" maxOccurs="1" name="documentImages" type="tns:ArrayOfBase64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfBase64Binary">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="base64Binary" nillable="true" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getStudentFromAdminRDC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StudentID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DocumentNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="IDType" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getStudentFromAdminRDCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getStudentFromAdminRDCResult" type="tns:ArrayOfCertifiedDocument" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfCertifiedDocument">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CertifiedDocument" nillable="true" type="tns:CertifiedDocument" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CertifiedDocument">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="intID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="intStudentID" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDType" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcName1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcName2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcName3" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="intDocumentType" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcDocumentName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcPrnSer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcPrnNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="vcRegNo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="dtCertDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="documentImages" type="tns:ArrayOfBase64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getChildStudentStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ChildIdentifier" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getChildStudentStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getChildStudentStatusResult" type="tns:ArrayOfChildStudentData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfChildStudentData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ChildStudentData" nillable="true" type="tns:ChildStudentData" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ChildStudentData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ChildIdentifier" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MiddleName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SchoolKindergartenName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EKATTELocationCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LocationName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EKATTEMunicipalityCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MunicipalityName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EKATTEDistrictCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DistrictName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Grade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClassType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EducationForm" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SchoolKindergartenType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ChildStatus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EducationalYear" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UpdateDate" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getSchoolStudentStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ChildIdentifier" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSchoolStudentStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSchoolStudentStatusResult" type="tns:ArrayOfChildStudentData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getHigherEduStudent">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StudentIdentifier" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getHigherEduStudentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getHigherEduStudentResult" type="tns:ArrayOfStudentData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfStudentData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="StudentData" nillable="true" type="tns:StudentData" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="StudentData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="StudentIdentifier" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MiddleName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nationality" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HigherSchoolName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FacultyName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EducationalYear" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Semester" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AcquiredDegree" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProfessionalField" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Speciality" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EducationalCourse" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EducationalForm" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StudentStatus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FacultyNumber" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="UpdateDate" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getHigherEduStudentByStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StudentIdentifier" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="intStatus" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getHigherEduStudentByStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getHigherEduStudentByStatusResult" type="tns:ArrayOfStudentData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ArrayOfDiplomaDocument" nillable="true" type="tns:ArrayOfDiplomaDocument" />
+      <s:element name="ArrayOfCertifiedDocument" nillable="true" type="tns:ArrayOfCertifiedDocument" />
+      <s:element name="ArrayOfChildStudentData" nillable="true" type="tns:ArrayOfChildStudentData" />
+      <s:element name="ArrayOfStudentData" nillable="true" type="tns:ArrayOfStudentData" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getStudentFromAdminRDSoapIn">
+    <wsdl:part name="parameters" element="tns:getStudentFromAdminRD" />
+  </wsdl:message>
+  <wsdl:message name="getStudentFromAdminRDSoapOut">
+    <wsdl:part name="parameters" element="tns:getStudentFromAdminRDResponse" />
+  </wsdl:message>
+  <wsdl:message name="getStudentFromAdminRDCSoapIn">
+    <wsdl:part name="parameters" element="tns:getStudentFromAdminRDC" />
+  </wsdl:message>
+  <wsdl:message name="getStudentFromAdminRDCSoapOut">
+    <wsdl:part name="parameters" element="tns:getStudentFromAdminRDCResponse" />
+  </wsdl:message>
+  <wsdl:message name="getChildStudentStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:getChildStudentStatus" />
+  </wsdl:message>
+  <wsdl:message name="getChildStudentStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:getChildStudentStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="getSchoolStudentStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:getSchoolStudentStatus" />
+  </wsdl:message>
+  <wsdl:message name="getSchoolStudentStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:getSchoolStudentStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="getHigherEduStudentSoapIn">
+    <wsdl:part name="parameters" element="tns:getHigherEduStudent" />
+  </wsdl:message>
+  <wsdl:message name="getHigherEduStudentSoapOut">
+    <wsdl:part name="parameters" element="tns:getHigherEduStudentResponse" />
+  </wsdl:message>
+  <wsdl:message name="getHigherEduStudentByStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:getHigherEduStudentByStatus" />
+  </wsdl:message>
+  <wsdl:message name="getHigherEduStudentByStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:getHigherEduStudentByStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="getStudentFromAdminRDHttpGetIn">
+    <wsdl:part name="StudentID" type="s:string" />
+    <wsdl:part name="DocumentNo" type="s:string" />
+    <wsdl:part name="IDType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getStudentFromAdminRDHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfDiplomaDocument" />
+  </wsdl:message>
+  <wsdl:message name="getStudentFromAdminRDCHttpGetIn">
+    <wsdl:part name="StudentID" type="s:string" />
+    <wsdl:part name="DocumentNo" type="s:string" />
+    <wsdl:part name="IDType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getStudentFromAdminRDCHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfCertifiedDocument" />
+  </wsdl:message>
+  <wsdl:message name="getChildStudentStatusHttpGetIn">
+    <wsdl:part name="ChildIdentifier" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getChildStudentStatusHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfChildStudentData" />
+  </wsdl:message>
+  <wsdl:message name="getSchoolStudentStatusHttpGetIn">
+    <wsdl:part name="ChildIdentifier" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSchoolStudentStatusHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfChildStudentData" />
+  </wsdl:message>
+  <wsdl:message name="getHigherEduStudentHttpGetIn">
+    <wsdl:part name="StudentIdentifier" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getHigherEduStudentHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfStudentData" />
+  </wsdl:message>
+  <wsdl:message name="getHigherEduStudentByStatusHttpGetIn">
+    <wsdl:part name="StudentIdentifier" type="s:string" />
+    <wsdl:part name="intStatus" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getHigherEduStudentByStatusHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfStudentData" />
+  </wsdl:message>
+  <wsdl:message name="getStudentFromAdminRDHttpPostIn">
+    <wsdl:part name="StudentID" type="s:string" />
+    <wsdl:part name="DocumentNo" type="s:string" />
+    <wsdl:part name="IDType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getStudentFromAdminRDHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfDiplomaDocument" />
+  </wsdl:message>
+  <wsdl:message name="getStudentFromAdminRDCHttpPostIn">
+    <wsdl:part name="StudentID" type="s:string" />
+    <wsdl:part name="DocumentNo" type="s:string" />
+    <wsdl:part name="IDType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getStudentFromAdminRDCHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfCertifiedDocument" />
+  </wsdl:message>
+  <wsdl:message name="getChildStudentStatusHttpPostIn">
+    <wsdl:part name="ChildIdentifier" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getChildStudentStatusHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfChildStudentData" />
+  </wsdl:message>
+  <wsdl:message name="getSchoolStudentStatusHttpPostIn">
+    <wsdl:part name="ChildIdentifier" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSchoolStudentStatusHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfChildStudentData" />
+  </wsdl:message>
+  <wsdl:message name="getHigherEduStudentHttpPostIn">
+    <wsdl:part name="StudentIdentifier" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getHigherEduStudentHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfStudentData" />
+  </wsdl:message>
+  <wsdl:message name="getHigherEduStudentByStatusHttpPostIn">
+    <wsdl:part name="StudentIdentifier" type="s:string" />
+    <wsdl:part name="intStatus" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getHigherEduStudentByStatusHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfStudentData" />
+  </wsdl:message>
+  <wsdl:portType name="wsSoap">
+    <wsdl:operation name="getStudentFromAdminRD">
+      <wsdl:input message="tns:getStudentFromAdminRDSoapIn" />
+      <wsdl:output message="tns:getStudentFromAdminRDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getStudentFromAdminRDC">
+      <wsdl:input message="tns:getStudentFromAdminRDCSoapIn" />
+      <wsdl:output message="tns:getStudentFromAdminRDCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getChildStudentStatus">
+      <wsdl:input message="tns:getChildStudentStatusSoapIn" />
+      <wsdl:output message="tns:getChildStudentStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSchoolStudentStatus">
+      <wsdl:input message="tns:getSchoolStudentStatusSoapIn" />
+      <wsdl:output message="tns:getSchoolStudentStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getHigherEduStudent">
+      <wsdl:input message="tns:getHigherEduStudentSoapIn" />
+      <wsdl:output message="tns:getHigherEduStudentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getHigherEduStudentByStatus">
+      <wsdl:input message="tns:getHigherEduStudentByStatusSoapIn" />
+      <wsdl:output message="tns:getHigherEduStudentByStatusSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="wsHttpGet">
+    <wsdl:operation name="getStudentFromAdminRD">
+      <wsdl:input message="tns:getStudentFromAdminRDHttpGetIn" />
+      <wsdl:output message="tns:getStudentFromAdminRDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getStudentFromAdminRDC">
+      <wsdl:input message="tns:getStudentFromAdminRDCHttpGetIn" />
+      <wsdl:output message="tns:getStudentFromAdminRDCHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getChildStudentStatus">
+      <wsdl:input message="tns:getChildStudentStatusHttpGetIn" />
+      <wsdl:output message="tns:getChildStudentStatusHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSchoolStudentStatus">
+      <wsdl:input message="tns:getSchoolStudentStatusHttpGetIn" />
+      <wsdl:output message="tns:getSchoolStudentStatusHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getHigherEduStudent">
+      <wsdl:input message="tns:getHigherEduStudentHttpGetIn" />
+      <wsdl:output message="tns:getHigherEduStudentHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getHigherEduStudentByStatus">
+      <wsdl:input message="tns:getHigherEduStudentByStatusHttpGetIn" />
+      <wsdl:output message="tns:getHigherEduStudentByStatusHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="wsHttpPost">
+    <wsdl:operation name="getStudentFromAdminRD">
+      <wsdl:input message="tns:getStudentFromAdminRDHttpPostIn" />
+      <wsdl:output message="tns:getStudentFromAdminRDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getStudentFromAdminRDC">
+      <wsdl:input message="tns:getStudentFromAdminRDCHttpPostIn" />
+      <wsdl:output message="tns:getStudentFromAdminRDCHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getChildStudentStatus">
+      <wsdl:input message="tns:getChildStudentStatusHttpPostIn" />
+      <wsdl:output message="tns:getChildStudentStatusHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSchoolStudentStatus">
+      <wsdl:input message="tns:getSchoolStudentStatusHttpPostIn" />
+      <wsdl:output message="tns:getSchoolStudentStatusHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getHigherEduStudent">
+      <wsdl:input message="tns:getHigherEduStudentHttpPostIn" />
+      <wsdl:output message="tns:getHigherEduStudentHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getHigherEduStudentByStatus">
+      <wsdl:input message="tns:getHigherEduStudentByStatusHttpPostIn" />
+      <wsdl:output message="tns:getHigherEduStudentByStatusHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wsSoap" type="tns:wsSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getStudentFromAdminRD">
+      <soap:operation soapAction="http://172.16.3.36/ws_EGOV/getStudentFromAdminRD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStudentFromAdminRDC">
+      <soap:operation soapAction="http://172.16.3.36/ws_EGOV/getStudentFromAdminRDC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getChildStudentStatus">
+      <soap:operation soapAction="http://172.16.3.36/ws_EGOV/getChildStudentStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSchoolStudentStatus">
+      <soap:operation soapAction="http://172.16.3.36/ws_EGOV/getSchoolStudentStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getHigherEduStudent">
+      <soap:operation soapAction="http://172.16.3.36/ws_EGOV/getHigherEduStudent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getHigherEduStudentByStatus">
+      <soap:operation soapAction="http://172.16.3.36/ws_EGOV/getHigherEduStudentByStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsSoap12" type="tns:wsSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getStudentFromAdminRD">
+      <soap12:operation soapAction="http://172.16.3.36/ws_EGOV/getStudentFromAdminRD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStudentFromAdminRDC">
+      <soap12:operation soapAction="http://172.16.3.36/ws_EGOV/getStudentFromAdminRDC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getChildStudentStatus">
+      <soap12:operation soapAction="http://172.16.3.36/ws_EGOV/getChildStudentStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSchoolStudentStatus">
+      <soap12:operation soapAction="http://172.16.3.36/ws_EGOV/getSchoolStudentStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getHigherEduStudent">
+      <soap12:operation soapAction="http://172.16.3.36/ws_EGOV/getHigherEduStudent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getHigherEduStudentByStatus">
+      <soap12:operation soapAction="http://172.16.3.36/ws_EGOV/getHigherEduStudentByStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsHttpGet" type="tns:wsHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="getStudentFromAdminRD">
+      <http:operation location="/getStudentFromAdminRD" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStudentFromAdminRDC">
+      <http:operation location="/getStudentFromAdminRDC" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getChildStudentStatus">
+      <http:operation location="/getChildStudentStatus" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSchoolStudentStatus">
+      <http:operation location="/getSchoolStudentStatus" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getHigherEduStudent">
+      <http:operation location="/getHigherEduStudent" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getHigherEduStudentByStatus">
+      <http:operation location="/getHigherEduStudentByStatus" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsHttpPost" type="tns:wsHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="getStudentFromAdminRD">
+      <http:operation location="/getStudentFromAdminRD" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStudentFromAdminRDC">
+      <http:operation location="/getStudentFromAdminRDC" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getChildStudentStatus">
+      <http:operation location="/getChildStudentStatus" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSchoolStudentStatus">
+      <http:operation location="/getSchoolStudentStatus" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getHigherEduStudent">
+      <http:operation location="/getHigherEduStudent" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getHigherEduStudentByStatus">
+      <http:operation location="/getHigherEduStudentByStatus" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ws">
+    <wsdl:port name="wsSoap" binding="tns:wsSoap">
+      <soap:address location="http://172.18.252.33/ws_EGOV/ws.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsSoap12" binding="tns:wsSoap12">
+      <soap12:address location="http://172.18.252.33/ws_EGOV/ws.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsHttpGet" binding="tns:wsHttpGet">
+      <http:address location="http://172.18.252.33/ws_EGOV/ws.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsHttpPost" binding="tns:wsHttpPost">
+      <http:address location="http://172.18.252.33/ws_EGOV/ws.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

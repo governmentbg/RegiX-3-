@@ -1,0 +1,161 @@
+variables:
+  Major: '1'
+  Minor: '0'
+  Patch: '22'
+  BuildConfiguration: release
+resources:
+- repo: self
+queue:
+  name: RegiX
+steps:
+- powershell: |
+    # Matches AssemblyVersion("1.0.0.0") string.
+    $regex = "(AssemblyVersion\(`"1.0.0.0`"\))"
+    # File contents to be replaced
+    $fileName = "$(Build.Repository.LocalPath)\RegiX.SecureBlackBoxSigner\Properties\AssemblyInfo.cs"
+    # Iterates through all the file's lines
+    $tmp = Get-Content $fileName | `
+    foreach `
+    { `
+        [regex]::replace($_,$regex, "AssemblyVersion(`"$(Major).$(Minor).$(Patch).0`")") `
+    }
+    # Update the AssemblyInfo.cs file
+    Set-Content $fileName $tmp
+  displayName: 'Replace AssemblyVersion'
+- task: VisualStudioTestPlatformInstaller@1
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/*.sln'
+    feedsToUse: 'select'
+    vstsFeed: 'RegiX'
+- task: MSBuild@1
+  displayName: 'Build'
+  inputs:
+    configuration: '$(BuildConfiguration)' 
+    solution: '**/*.sln' 
+#- task: VSTest@2
+#  inputs:    
+#    codeCoverageEnabled: True
+#    vsTestVersion: 'toolsInstaller'
+#    runSettingsFile: RegiX.SecureBlackBoxSigner.Tests\.runsettings
+#    testAssemblyVer2: |
+#     **\$(BuildConfiguration)\*test*.dll
+#     **\$(BuildConfiguration)\**\*test*.dll
+#     !**\*Microsoft.VisualStudio.TestPlatform*
+#     !**\obj\**
+#- task: VSTest@2
+#  inputs:    
+#    codeCoverageEnabled: True
+#    vsTestVersion: 'toolsInstaller'
+#    runSettingsFile: RegiX.SecureBlackBoxSigner.NetCore.Tests\.runsettings
+#    testAssemblyVer2: |
+#     **\$(BuildConfiguration)\*test*.dll
+#     **\$(BuildConfiguration)\**\*test*.dll
+#     !**\*Microsoft.VisualStudio.TestPlatform*
+#     !**\obj\**
+- task: NuGetCommand@2
+  displayName: 'NuGet pack (prerelease)'
+  condition: eq(variables['BuildConfiguration'], 'debug')
+  inputs:
+    command: pack
+    packagesToPack: 'RegiX.SecureBlackBoxSigner.NetCore/RegiX.SecureBlackBoxSigner.NetCore.csproj'
+    versioningScheme: 'byPrereleaseNumber' # Options: off, byPrereleaseNumber, byEnvVar, byBuildNumber
+    majorVersion: '$(Major)'
+    minorVersion: '$(Minor)'
+    patchVersion: '$(Patch)'
+    packDestination: '$(Build.ArtifactStagingDirectory)'
+- task: NuGetCommand@2
+  displayName: 'NuGet pack (release)'
+  condition: eq(variables['BuildConfiguration'], 'release')
+  inputs:
+    command: pack
+    packagesToPack: 'RegiX.SecureBlackBoxSigner.NetCore/RegiX.SecureBlackBoxSigner.NetCore.csproj'
+    majorVersion: '$(Major)'
+    minorVersion: '$(Minor)'
+    patchVersion: '$(Patch)'
+    packDestination: '$(Build.ArtifactStagingDirectory)'
+- task: NuGetCommand@2
+  displayName: 'NuGet pack (prerelease)'
+  condition: eq(variables['BuildConfiguration'], 'debug')
+  inputs:
+    command: pack
+    packagesToPack: 'RegiX.SecureBlackBox.CertFinder.File/RegiX.SecureBlackBox.CertFinder.File.csproj'
+    versioningScheme: 'byPrereleaseNumber' # Options: off, byPrereleaseNumber, byEnvVar, byBuildNumber
+    majorVersion: '$(Major)'
+    minorVersion: '$(Minor)'
+    patchVersion: '$(Patch)'
+    packDestination: '$(Build.ArtifactStagingDirectory)'
+- task: NuGetCommand@2
+  displayName: 'NuGet pack (release)'
+  condition: eq(variables['BuildConfiguration'], 'release')
+  inputs:
+    command: pack
+    packagesToPack: 'RegiX.SecureBlackBox.CertFinder.File/RegiX.SecureBlackBox.CertFinder.File.csproj'
+    majorVersion: '$(Major)'
+    minorVersion: '$(Minor)'
+    patchVersion: '$(Patch)'
+    packDestination: '$(Build.ArtifactStagingDirectory)'
+- task: NuGetCommand@2
+  displayName: 'NuGet pack (prerelease)'
+  condition: eq(variables['BuildConfiguration'], 'debug')
+  inputs:
+    command: pack
+    packagesToPack: 'RegiX.SecureBlackBox.CertFinder.WinStore/RegiX.SecureBlackBox.CertFinder.WinStore.csproj'
+    versioningScheme: 'byPrereleaseNumber' # Options: off, byPrereleaseNumber, byEnvVar, byBuildNumber
+    majorVersion: '$(Major)'
+    minorVersion: '$(Minor)'
+    patchVersion: '$(Patch)'
+    packDestination: '$(Build.ArtifactStagingDirectory)'
+- task: NuGetCommand@2
+  displayName: 'NuGet pack (release)'
+  condition: eq(variables['BuildConfiguration'], 'release')
+  inputs:
+    command: pack
+    packagesToPack: 'RegiX.SecureBlackBox.CertFinder.WinStore/RegiX.SecureBlackBox.CertFinder.WinStore.csproj'
+    majorVersion: '$(Major)'
+    minorVersion: '$(Minor)'
+    patchVersion: '$(Patch)'
+    packDestination: '$(Build.ArtifactStagingDirectory)'
+- task: NuGetCommand@2
+  displayName: 'NuGet pack (prerelease)'
+  condition: eq(variables['BuildConfiguration'], 'debug')
+  inputs:
+    command: pack
+    packagesToPack: 'RegiX.SecureBlackBoxSigner/RegiX.SecureBlackBoxSigner.csproj'
+    versioningScheme: 'byPrereleaseNumber' # Options: off, byPrereleaseNumber, byEnvVar, byBuildNumber
+    majorVersion: '$(Major)'
+    minorVersion: '$(Minor)'
+    patchVersion: '$(Patch)'
+    packDestination: '$(Build.ArtifactStagingDirectory)'
+- task: PowerShell@2
+  displayName: 'NuGet pack (release)'
+  condition: eq(variables['BuildConfiguration'], 'release')
+  inputs:
+    targetType: inline
+    script: nuget pack 'RegiX.SecureBlackBoxSigner/RegiX.SecureBlackBoxSigner.csproj' -Version '$(Major).$(Minor).$(Patch)' -OutputDirectory '$(Build.ArtifactStagingDirectory)' -Properties Configuration=Release
+- task: NuGetCommand@2
+  displayName: 'NuGet pack (prerelease)'
+  condition: eq(variables['BuildConfiguration'], 'debug')
+  inputs:
+    command: pack
+    packagesToPack: 'RegiX.SecureBlackBox.CertFinder.UI/RegiX.SecureBlackBox.CertFinder.UI.csproj'
+    versioningScheme: 'byPrereleaseNumber' # Options: off, byPrereleaseNumber, byEnvVar, byBuildNumber
+    majorVersion: '$(Major)'
+    minorVersion: '$(Minor)'
+    patchVersion: '$(Patch)'
+    packDestination: '$(Build.ArtifactStagingDirectory)'
+- task: PowerShell@2
+  displayName: 'NuGet pack (release)'
+  condition: eq(variables['BuildConfiguration'], 'release')
+  inputs:
+    targetType: inline
+    script: nuget pack 'RegiX.SecureBlackBox.CertFinder.UI/RegiX.SecureBlackBox.CertFinder.UI.csproj' -Version '$(Major).$(Minor).$(Patch)' -OutputDirectory '$(Build.ArtifactStagingDirectory)' -Properties Configuration=Release
+- task: NuGetCommand@2
+  displayName: 'NuGet push'
+  inputs:
+    command: push
+    publishVstsFeed: 'RegiX'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg' # Required when command == Push
+
+

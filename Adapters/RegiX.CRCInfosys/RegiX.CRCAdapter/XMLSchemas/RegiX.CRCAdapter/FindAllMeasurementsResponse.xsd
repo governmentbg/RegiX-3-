@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://egov.bg/RegiX/CRC/CRCFindAllResponse" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://egov.bg/RegiX/CRC/CRCFindAllResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="CRCFindAllElementType">
+		<xs:sequence>
+			<xs:element name="UID" type="xs:long">
+				<xs:annotation>
+					<xs:documentation>UID</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Code" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Код на тип измерване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Status" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Статус</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IP" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>IP адрес (анонимизиран)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="City" type="xs:string" >
+				<xs:annotation>
+					<xs:documentation>Населено място</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Region" type="xs:string" >
+				<xs:annotation>
+					<xs:documentation>Адм. област</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Provider" type="xs:string" >
+				<xs:annotation>
+					<xs:documentation>Доставчик</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NetworkType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Тип достъп</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Platform" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+			</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Model" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+			</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Hostname" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>DNS</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="GeoLocation" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Геолокация</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TestUuid" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Test UUID</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ClientUuid" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Client UUID</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="OpenTestUuid" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Open Test UUID</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TestDuration" type="xs:unsignedByte">
+				<xs:annotation>
+					<xs:documentation>Времетраене на измерването (секунди)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SpeedUpload" type="xs:long" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Измерена скорост на качване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SpeedDownload" type="xs:long" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Измерена скорост на сваляне</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Ping" type="xs:long" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Закъснение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SignalStrength" type="xs:int" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Сила на сигнала</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PacketLoss" type="xs:short" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Загуба на пакети</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ModelVersion" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+			</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BlockedPorts" type="xs:string" >
+				<xs:annotation>
+					<xs:documentation>Блокирани портове</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Time" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation>Дата на измерване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="LoopModeLoopUid" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+			</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="LoopModeUid" type="xs:int" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+			</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NetworkTypeGroup" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид мрежа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IMEI" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>IMEI</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CRCFindAllResponseType">
+		<xs:sequence>
+			<xs:element name="Measurement" type="CRCFindAllElementType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="CRCFindAllResponse" type="CRCFindAllResponseType">
+		<xs:annotation>
+			<xs:documentation>Справка за измервания по период</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

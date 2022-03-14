@@ -1,0 +1,313 @@
+<ActualStateResponseV2 xmlns="http://egov.bg/RegiX/AV/TR/ActualStateResponseV2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <Deed>
+                <DeedStatus>E</DeedStatus>
+                <CompanyName>З.М.КУРТЕВИ - СИЕ</CompanyName>
+                <GUID>cb9d8aec9e8640089f1d82d89a8d2e0a</GUID>
+                <UIC>123066131</UIC>
+                <LegalForm>SD</LegalForm>
+                <CaseNo>3303</CaseNo>
+                <CaseYear>1990</CaseYear>
+                <CourtNo>550</CourtNo>
+                <Records>
+                  <Record>
+                    <RecordData>
+                      <UIC uic="123066131" IsNew="true">
+                        <CompanyControl>З.М.КУРТЕВИ - СИЕ</CompanyControl>
+                        <BulstatDeed>
+                          <Deed>3303</Deed>
+                          <Year>1990</Year>
+                          <CourtCode>550</CourtCode>
+                        </BulstatDeed>
+                      </UIC>
+                    </RecordData>
+                    <RecordId>18110555</RecordId>
+                    <IncomingId>5428149</IncomingId>
+                    <FieldIdent>00010</FieldIdent>
+                    <MainField>
+                      <GroupId>45</GroupId>
+                      <GroupName>Идентификация</GroupName>
+                      <SectionId>414</SectionId>
+                      <SectionName>Обща информация</SectionName>
+                      <MainFieldIdent>00010</MainFieldIdent>
+                      <MainFieldCode>1</MainFieldCode>
+                      <MainFieldName>ЕИК/ПИК</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20101210162030</FieldEntryNumber>
+                    <FieldActionDate>2010-12-10T16:20:30</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Company>З.М.КУРТЕВИ - СИЕ</Company>
+                    </RecordData>
+                    <RecordId>18110556</RecordId>
+                    <IncomingId>5428149</IncomingId>
+                    <FieldIdent>00020</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00020</MainFieldIdent>
+                      <MainFieldCode>2</MainFieldCode>
+                      <MainFieldName>Фирма</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20101210162030</FieldEntryNumber>
+                    <FieldActionDate>2010-12-10T16:20:30</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <LegalForm Text="Събирателно дружество" Code="2" />
+                    </RecordData>
+                    <RecordId>18110559</RecordId>
+                    <IncomingId>5428149</IncomingId>
+                    <FieldIdent>00030</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00030</MainFieldIdent>
+                      <MainFieldCode>3</MainFieldCode>
+                      <MainFieldName>Правна форма</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20101210162030</FieldEntryNumber>
+                    <FieldActionDate>2010-12-10T16:20:30</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Seat>
+                        <Address>
+                          <CountryID>1</CountryID>
+                          <CountryCode>BGR</CountryCode>
+                          <Country>БЪЛГАРИЯ</Country>
+                          <IsForeign>false</IsForeign>
+                          <DistrictID>52</DistrictID>
+                          <DistrictEkatte>SZR</DistrictEkatte>
+                          <District>Стара Загора</District>
+                          <Municipalityid>221</Municipalityid>
+                          <MunicipalityEkatte>SZR31</MunicipalityEkatte>
+                          <Municipality>Стара Загора</Municipality>
+                          <SettlementID>4040</SettlementID>
+                          <SettlementEKATTE>68850</SettlementEKATTE>
+                          <Settlement>гр. Стара Загора</Settlement>
+                          <AreaID xsi:nil="true" />
+                          <Area />
+                          <AreaEkatte />
+                          <PostCode>6000</PostCode>
+                          <ForeignPlace />
+                          <HousingEstate />
+                          <Street>ул. ФИЛИП ТОТЬО</Street>
+                          <StreetNumber>14</StreetNumber>
+                          <Block />
+                          <Entrance>A</Entrance>
+                          <Floor />
+                          <Apartment />
+                        </Address>
+                        <Contacts>
+                          <Phone />
+                          <Fax />
+                          <EMail />
+                          <URL />
+                        </Contacts>
+                      </Seat>
+                    </RecordData>
+                    <RecordId>18110557</RecordId>
+                    <IncomingId>5428149</IncomingId>
+                    <FieldIdent>00050</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00050</MainFieldIdent>
+                      <MainFieldCode>5</MainFieldCode>
+                      <MainFieldName>Седалище и адрес на управление</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20101210162030</FieldEntryNumber>
+                    <FieldActionDate>2010-12-10T16:20:30</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <SubjectOfActivity IsBank="false" IsBankText="" IsInsurer="false" IsInsurerText="">ХОТЕЛИЕРСТВО, РЕСТОРАНТЬОРСТВО, СЛАДКАРСТВО, ОРГАНИЗИРАНЕ НА СВАТБЕНИ  ТЪРЖЕСТВА И ДР. СЕМЕЙНИ ТЪРЖЕСТВА, ВИДЕО И ДИСКО УВЕСЕЛЕНИЯ,  БРЪСНАРО-ФРИЗЬОРСКИ УСЛУГИ,  ШИВАШКИ УСЛУГИ, КОЗМЕТИКА, ТАКСИМЕТРОВИ УСЛУГИ, АВТОМОНТЬОРСКИ УСЛУГИ, ПОКУПКО-ПРОДАЖБА НА НЕДВИЖИМИ ИМОТИ И ЛЕКИ И ТОВАРНИ АВТОМОБИЛИ, ДАВАНЕ ПОД НАЕМ НА АВТОМОБИЛИ, ПРОИЗВОДСТВО И ПРОДАЖБА НА СЕЛСКОСТОПАНСКА, РАСТИТЕЛНА И ЖИВОТИНСКА ПРОДУКЦИЯ,  ТЪРГОВИЯ С КИНКАЛЕРИЯ, ГАЛАНТЕРИЯ, ПАРФЮМЕРИЯ, КОЗМЕТИКА, ЕКСПЛОАТАЦИЯ НА МЕХАНИЧНИ И ЕЛЕКТРОННИ ИГРИ, ОКАЗИОН,  ДАВАНЕ ВЕЩИ ПОД НАЕМ,  МАШИНОПИС И КОПИРНИ УСЛУГИ, ИЗВЪРШВАНЕ НА ДОВЪРШИТЕЛНИ СТРОИТЕЛНИ РАБОТИ /БОЯДЖИЙСТВО, ФАЯНС И ДР./, ТЪРГОВИЯ С ВСИЧКИ ВИДОВЕ СТОКИ С ИЗКЛЮЧЕНИЕ НА ЗАБРАНЕНИТЕ ОТ ЗАКОНА, ТЪРГОВСКО ПОСРЕДНИЧЕСТВО, ПРЕДСТАВИТЕЛСТВО, РЕКЛАМНА ДЕЙНОСТ НА ФИРМАТА, ПРОИЗВОДСТВО И ПРОДАЖБА НА СТУДЕНИ И ТОПЛИ САНДВИЧИ, СОКОВЕ, БЕЗАЛКОХОЛНИ НАПИТКИ, БИРА, СКАРА, ВСИЧКИ ВИДОВЕ ЯДКИ.</SubjectOfActivity>
+                    </RecordData>
+                    <RecordId>18110558</RecordId>
+                    <IncomingId>5428149</IncomingId>
+                    <FieldIdent>00060</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00060</MainFieldIdent>
+                      <MainFieldCode>6</MainFieldCode>
+                      <MainFieldName>Предмет на дейност</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20101210162030</FieldEntryNumber>
+                    <FieldActionDate>2010-12-10T16:20:30</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <AssignedManager>
+                        <Subject IsForeignTraderText="0">
+                          <Indent>1122112211</Indent>
+                          <Name>ЗАПРЯН СТЕФАНОВ КУРТЕВ</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID>1</CountryID>
+                          <CountryName>БЪЛГАРИЯ</CountryName>
+                        </Subject>
+                      </AssignedManager>
+                    </RecordData>
+                    <RecordId>18110617</RecordId>
+                    <IncomingId>5428149</IncomingId>
+                    <FieldIdent>000710</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00071</MainFieldIdent>
+                      <MainFieldCode>7а</MainFieldCode>
+                      <MainFieldName>Лица, на които е възложено управлението</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20101210162030</FieldEntryNumber>
+                    <FieldActionDate>2010-12-10T16:20:30</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Representative101>
+                        <Subject IsForeignTraderText="0">
+                          <Indent>1122112211</Indent>
+                          <Name>ЗАПРЯН СТЕФАНОВ КУРТЕВ</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID>1</CountryID>
+                          <CountryName>БЪЛГАРИЯ</CountryName>
+                        </Subject>
+                      </Representative101>
+                    </RecordData>
+                    <RecordId>18110618</RecordId>
+                    <IncomingId>5428149</IncomingId>
+                    <FieldIdent>001010</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00101</MainFieldIdent>
+                      <MainFieldCode>10</MainFieldCode>
+                      <MainFieldName>Представители</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20101210162030</FieldEntryNumber>
+                    <FieldActionDate>2010-12-10T16:20:30</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <UnlimitedLiabilityPartner>
+                        <Subject IsForeignTraderText="0">
+                          <Indent>1122112211</Indent>
+                          <Name>ЗАПРЯН СТЕФАНОВ КУРТЕВ</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID xsi:nil="true" />
+                          <CountryName />
+                        </Subject>
+                        <Address>
+                          <CountryID>1</CountryID>
+                          <CountryCode>BGR</CountryCode>
+                          <Country>БЪЛГАРИЯ</Country>
+                          <IsForeign>false</IsForeign>
+                          <DistrictID>52</DistrictID>
+                          <DistrictEkatte>SZR</DistrictEkatte>
+                          <District>Стара Загора</District>
+                          <Municipalityid>221</Municipalityid>
+                          <MunicipalityEkatte>SZR31</MunicipalityEkatte>
+                          <Municipality>Стара Загора</Municipality>
+                          <SettlementID>4040</SettlementID>
+                          <SettlementEKATTE>68850</SettlementEKATTE>
+                          <Settlement>гр. Стара Загора</Settlement>
+                          <AreaID xsi:nil="true" />
+                          <Area />
+                          <AreaEkatte />
+                          <PostCode>6000</PostCode>
+                          <ForeignPlace />
+                          <HousingEstate />
+                          <Street>ФИЛИП ТОТЬО</Street>
+                          <StreetNumber>14</StreetNumber>
+                          <Block />
+                          <Entrance>А</Entrance>
+                          <Floor />
+                          <Apartment />
+                        </Address>
+                      </UnlimitedLiabilityPartner>
+                    </RecordData>
+                    <RecordId>18110660</RecordId>
+                    <IncomingId>5428149</IncomingId>
+                    <FieldIdent>002000</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00200</MainFieldIdent>
+                      <MainFieldCode>20</MainFieldCode>
+                      <MainFieldName>Неограничено отговорни съдружници</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20101210162030</FieldEntryNumber>
+                    <FieldActionDate>2010-12-10T16:20:30</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <UnlimitedLiabilityPartner>
+                        <Subject IsForeignTraderText="0">
+                          <Indent>1133113311</Indent>
+                          <Name>МИНКА МИХАЙЛОВА КУРТЕВА</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID xsi:nil="true" />
+                          <CountryName />
+                        </Subject>
+                        <Address>
+                          <CountryID>1</CountryID>
+                          <CountryCode>BGR</CountryCode>
+                          <Country>БЪЛГАРИЯ</Country>
+                          <IsForeign>false</IsForeign>
+                          <DistrictID>52</DistrictID>
+                          <DistrictEkatte>SZR</DistrictEkatte>
+                          <District>Стара Загора</District>
+                          <Municipalityid>221</Municipalityid>
+                          <MunicipalityEkatte>SZR31</MunicipalityEkatte>
+                          <Municipality>Стара Загора</Municipality>
+                          <SettlementID>4040</SettlementID>
+                          <SettlementEKATTE>68850</SettlementEKATTE>
+                          <Settlement>гр. Стара Загора</Settlement>
+                          <AreaID xsi:nil="true" />
+                          <Area />
+                          <AreaEkatte />
+                          <PostCode>6000</PostCode>
+                          <ForeignPlace />
+                          <HousingEstate />
+                          <Street>ФИЛИП ТОТЬО</Street>
+                          <StreetNumber>14</StreetNumber>
+                          <Block />
+                          <Entrance>А</Entrance>
+                          <Floor />
+                          <Apartment />
+                        </Address>
+                      </UnlimitedLiabilityPartner>
+                    </RecordData>
+                    <RecordId>18110701</RecordId>
+                    <IncomingId>5428149</IncomingId>
+                    <FieldIdent>002000</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00200</MainFieldIdent>
+                      <MainFieldCode>20</MainFieldCode>
+                      <MainFieldName>Неограничено отговорни съдружници</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20101210162030</FieldEntryNumber>
+                    <FieldActionDate>2010-12-10T16:20:30</FieldActionDate>
+                  </Record>
+                </Records>
+              </Deed>
+              <DataValidForDate>2017-06-05T14:47:21.6767977+03:00</DataValidForDate>
+            </ActualStateResponseV2>

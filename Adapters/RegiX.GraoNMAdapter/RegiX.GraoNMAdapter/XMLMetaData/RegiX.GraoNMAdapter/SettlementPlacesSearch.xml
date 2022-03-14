@@ -1,0 +1,70 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.GraoNMAdapter.APIService.INMAPI.SettlementPlacesSearch</OperationName>
+  <Code>SettlementPlacesSearch</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>SettlementPlacesRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/GRAO/NM/SettlementPlacesRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за населени места</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>StartDate</ParameterName>
+        <ParameterLabel>Начална дата</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>EndDate</ParameterName>
+        <ParameterLabel>Крайна дата</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>ActualizationType</ParameterName>
+        <ParameterLabel>Вид актуализационен запис  (ДНМ, ИНМ, КНМ, ЗНМ)</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>ActualizationType</Type>
+          <EnumValues>
+            <EnumValue>
+              <Value>ДНМ</Value>
+              <DisplayText>ДНМ</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>ИНМ</Value>
+              <DisplayText>ИНМ</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>КНМ</Value>
+              <DisplayText>КНМ</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>ЗНМ</Value>
+              <DisplayText>ЗНМ</DisplayText>
+            </EnumValue>
+          </EnumValues>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

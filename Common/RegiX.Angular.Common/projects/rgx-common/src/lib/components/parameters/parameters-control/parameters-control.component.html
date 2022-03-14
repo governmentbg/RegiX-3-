@@ -1,0 +1,135 @@
+<div *ngFor="let parameter of operationParameters">
+  <rgx-int-field
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      parameter.parameterInfo.parameterType.type === 'int' &&
+      parameter.parameterInfo.parameterType.enumValues.length === 0
+    "
+    [formGroup]="formGroup"
+    [parameter]="parameter"
+    [arrayIndex]="arrayIndex"
+    [isDisabled]="isDisabled"
+  ></rgx-int-field>
+  <rgx-decimal-field
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      parameter.parameterInfo.parameterType.type === 'decimal' &&
+      parameter.parameterInfo.parameterType.enumValues.length === 0
+    "
+    [formGroup]="formGroup"
+    [parameter]="parameter"
+    [arrayIndex]="arrayIndex"
+    [isDisabled]="isDisabled"
+  ></rgx-decimal-field>
+  <rgx-text-field
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      parameter.parameterInfo.parameterType.type === 'string' &&
+      parameter.parameterInfo.parameterType.enumValues.length === 0
+    "
+    [formGroup]="formGroup"
+    [parameter]="parameter"
+    [arrayIndex]="arrayIndex"
+    [isDisabled]="isDisabled"
+  ></rgx-text-field>
+  <rgx-date-field
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      (parameter.parameterInfo.parameterType.type === 'Date') &&
+      parameter.parameterInfo.parameterType.enumValues.length === 0
+    "
+    [formGroup]="formGroup"
+    [parameter]="parameter"
+    [arrayIndex]="arrayIndex"
+    [isDisabled]="isDisabled"
+  ></rgx-date-field>
+  <rgx-date-time-field
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      (parameter.parameterInfo.parameterType.type === 'DateTime') &&
+      parameter.parameterInfo.parameterType.enumValues.length === 0
+    "
+    [formGroup]="formGroup"
+    [parameter]="parameter"
+    [arrayIndex]="arrayIndex"
+    [isDisabled]="isDisabled"
+  ></rgx-date-time-field>
+  <rgx-boolean-field
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      parameter.parameterInfo.parameterType.type === 'bool' &&
+      parameter.parameterInfo.parameterType.enumValues.length === 0
+    "
+    [formGroup]="formGroup"
+    [parameter]="parameter"
+    [arrayIndex]="arrayIndex"
+    [isDisabled]="isDisabled"
+  ></rgx-boolean-field>
+  <rgx-enum-field
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      parameter.parameterInfo.parameterType.enumValues.length > 0
+    "
+    [formGroup]="formGroup"
+    [parameter]="parameter"
+    [arrayIndex]="arrayIndex"
+    [isDisabled]="isDisabled"
+  ></rgx-enum-field>
+  <rgx-enum-with-source
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      parameter.parameterInfo.parameterType.type.startsWith('EnumWithSource:') &&
+      parameter.parameterInfo.parameterType.enumValues.length === 0
+    "
+    [formGroup]="formGroup"
+    [parameter]="parameter"
+    [arrayIndex]="arrayIndex"
+    [isDisabled]="isDisabled">
+  </rgx-enum-with-source>
+  <div
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      parameter.parameterInfo.parameterType.type === 'Complex' &&
+      parameter.parameterInfo.parameterType.enumValues.length === 0
+    "
+  >
+    <rgx-complex-parameter
+      [controlName]="parameter.parameterInfo.parameterName"
+      [controlLabel]="parameter.parameterInfo.parameterLabel"
+      [formGroup]="formGroup"
+      [operationParameters]="parameter.childParamteters"
+      [arrayIndex]="arrayIndex"
+      [arrayParameterComponent]="arrayParameterComponent"
+      [isDisabled]="isDisabled"
+    ></rgx-complex-parameter>
+  </div>
+  <div
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      parameter.parameterInfo.parameterType.type === 'File' &&
+      parameter.parameterInfo.parameterType.enumValues.length === 0
+    "
+  >
+    <rgx-file
+      [formGroup]="formGroup"
+      [parameter]="parameter"
+      [arrayIndex]="arrayIndex"
+      [isDisabled]="isDisabled"
+    ></rgx-file>
+  </div>
+  <div
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      parameter.parameterInfo.parameterType.type === 'Array' &&
+      parameter.parameterInfo.parameterType.enumValues.length === 0
+    "
+  >
+    <rgx-array-parameter
+      [controlName]="parameter.parameterInfo.parameterName"
+      [controlLabel]="parameter.parameterInfo.parameterLabel"
+      [formGroup]="formGroup"
+      [operationParameters]="parameter.childParamteters"
+      [isDisabled]="isDisabled"
+    ></rgx-array-parameter>
+  </div>
+</div>

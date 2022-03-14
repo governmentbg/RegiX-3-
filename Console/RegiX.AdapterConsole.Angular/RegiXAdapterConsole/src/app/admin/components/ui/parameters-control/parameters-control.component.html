@@ -1,0 +1,75 @@
+<div *ngFor="let parameter of operationParameters">
+  <app-int-field
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      parameter.parameterInfo.parameterType.type === 'int' &&
+      parameter.parameterInfo.parameterType.enumValues.length === 0
+    "
+    [formGroup]="formGroup"
+    [parameter]="parameter"
+    [isDisabled]="isDisabled"
+  ></app-int-field>
+  <app-decimal-field
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      parameter.parameterInfo.parameterType.type === 'decimal' &&
+      parameter.parameterInfo.parameterType.enumValues.length === 0
+    "
+    [formGroup]="formGroup"
+    [parameter]="parameter"
+    [isDisabled]="isDisabled"
+  ></app-decimal-field>
+  <app-text-field
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      parameter.parameterInfo.parameterType.type === 'string' &&
+      parameter.parameterInfo.parameterType.enumValues.length === 0
+    "
+    [formGroup]="formGroup"
+    [parameter]="parameter"
+    [isDisabled]="isDisabled"
+  ></app-text-field>
+  <app-date-field
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      (parameter.parameterInfo.parameterType.type === 'DateTime' ||
+        parameter.parameterInfo.parameterType.type === 'Date') &&
+      parameter.parameterInfo.parameterType.enumValues.length === 0
+    "
+    [formGroup]="formGroup"
+    [parameter]="parameter"
+    [isDisabled]="isDisabled"
+  ></app-date-field>
+  <app-boolean-field
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      parameter.parameterInfo.parameterType.type === 'bool' &&
+      parameter.parameterInfo.parameterType.enumValues.length === 0
+    "
+    [formGroup]="formGroup"
+    [parameter]="parameter"
+    [isDisabled]="isDisabled"
+  ></app-boolean-field>
+  <app-enum-field
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      parameter.parameterInfo.parameterType.enumValues.length > 0
+    "
+    [formGroup]="formGroup"
+    [parameter]="parameter"
+    [isDisabled]="isDisabled"
+  ></app-enum-field>
+  <div
+    *ngIf="
+      parameter.parameterInfo.isXmlElement === true &&
+      parameter.parameterInfo.parameterType.type === 'Complex' &&
+      parameter.parameterInfo.parameterType.enumValues.length === 0
+    "
+  >
+    <app-parameters-control
+      [formGroup]="formGroup"
+      [operationParameters]="parameter.childParamteters"
+      [isDisabled]="isDisabled"
+    ></app-parameters-control>
+  </div>
+</div>

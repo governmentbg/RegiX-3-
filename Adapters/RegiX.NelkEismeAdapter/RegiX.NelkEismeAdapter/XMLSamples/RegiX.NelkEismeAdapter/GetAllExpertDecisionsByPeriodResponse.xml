@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GetAllExpertDecisionsByPeriodResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NELK/EISME">
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>1111111110</PersonIdentifier>
+    <PersonNames>ИВАН ИВАНОВ ИВАНОВ</PersonNames>
+    <RegistrationNumber>1100</RegistrationNumber>
+    <MeetingNumber>0</MeetingNumber>
+    <RegistrationDate>2019-03-06T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+</GetAllExpertDecisionsByPeriodResponse>

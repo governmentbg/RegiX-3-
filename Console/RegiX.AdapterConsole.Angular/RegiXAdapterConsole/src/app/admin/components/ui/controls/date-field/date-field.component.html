@@ -1,0 +1,32 @@
+<div
+  class="input-group"
+  *ngIf="isControlReady"
+  [formGroup]="formGroup"
+  igxLayout
+>
+  <tl-form-group class="form-group-wrapper">
+    <igx-date-picker
+      igxFlex
+      #selectType
+      [formControlName]="parameterName"
+      tlFormGroupRef
+      cancelButtonLabel="Затвори"
+      [disabled] = 'isDisabled'
+      locale = "bg-BG"
+      [label]="parameterLabel"
+    >
+
+    </igx-date-picker>
+  </tl-form-group>
+  <button
+    igxButton
+    type="button"
+    igxFlex
+    title="Изчисти"
+    class="select-clear-button"
+    (click)="setToNull(selectType, this.parameterName)"
+    [disabled]="isDisabled"
+  >
+    <igx-icon>clear</igx-icon>
+  </button>
+</div>

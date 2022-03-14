@@ -1,0 +1,302 @@
+﻿<ExpertDecisionsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NELK/EISME">
+  <ExpertDecisionDocument>
+    <RegistrationNumber>1703</RegistrationNumber>
+    <MeetingNumber>86</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionDescr>Първи състав на ТЕЛК Общи заболявания към Втора МБАЛ София</CommissionDescr>
+    <CommissionCode>2212</CommissionCode>
+    <PersonNames>СВЕТОСЛАВ ОГНЯНОВ ПАНАЙОТОВ</PersonNames>
+    <PersonIdentifier>6903206386</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>158051898</DocumentNumber>
+      <IssueDate>1999-12-16T00:00:00+02:00</IssueDate>
+      <IssuePlace>МВР СОФИЯ</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>София (столица),ГР. СОФИЯ, ПАНАГЮРИЩЕ 53</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>София (столица),null,ГР. СОФИЯ, ПАНАГЮРИЩЕ 53</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </TemporaryAddress>
+    <EmploymentCode>0</EmploymentCode>
+    <ConditionCode>0</ConditionCode>
+    <ExpertiseType>преосвидетелстване</ExpertiseType>
+    <ExpertiseTypeCode>2</ExpertiseTypeCode>
+    <ExpertiseDecisionMaking>След преглед</ExpertiseDecisionMaking>
+    <ExpertiseDecisionMakingCode>2</ExpertiseDecisionMakingCode>
+    <ExpertisePlaceCode>0</ExpertisePlaceCode>
+    <EmployabilityAssessment>87% т. н. р.</EmployabilityAssessment>
+    <EmployabilityAssessmentCode>6</EmployabilityAssessmentCode>
+    <DurationDisabilityDate>2020-05-01T00:00:00+03:00</DurationDisabilityDate>
+    <DurationDisability>3 години</DurationDisability>
+    <DurationDisabilityCode>3</DurationDisabilityCode>
+    <Diagnosis>Психични и поведенчески разстройства, дължащи се на употреба на опиоиди</Diagnosis>
+    <DiagnosisCode>F11</DiagnosisCode>
+    <GeneralIllness>Разстройства вследствие употреба на опиоиди - хероин.На субстирираща терапия с Метадон. Хр. активен хепатит. ХВНК ІІст. Варици на подбедриците двустранно. С-ние след флеботромбоза феморопоплитеална двустранно. Постфлебитен с-м.</GeneralIllness>
+    <ArgumentsAndObservations />
+    <Appeal>
+      <StakeholdersCode>Лицето</StakeholdersCode>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>1562</RegistrationNumber>
+    <MeetingNumber>82</MeetingNumber>
+    <RegistrationDate>2014-05-08T00:00:00+03:00</RegistrationDate>
+    <CommissionDescr>Първи състав на ТЕЛК Общи заболявания към Втора МБАЛ София</CommissionDescr>
+    <CommissionCode>2212</CommissionCode>
+    <PersonNames>СВЕТОСЛАВ ОГНЯНОВ ПАНАЙОТОВ</PersonNames>
+    <PersonIdentifier>6903206386</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>158051898</DocumentNumber>
+      <IssueDate>1999-12-16T00:00:00+02:00</IssueDate>
+      <IssuePlace>МВР СОФИЯ</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>София (столица),ГР. СОФИЯ, ПАНАГЮРИЩЕ 53</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>София (столица),null,ГР. СОФИЯ, ПАНАГЮРИЩЕ 53</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </TemporaryAddress>
+    <EmploymentCode>0</EmploymentCode>
+    <ConditionCode>0</ConditionCode>
+    <ExpertiseType>преосвидетелстване</ExpertiseType>
+    <ExpertiseTypeCode>2</ExpertiseTypeCode>
+    <ExpertiseDecisionMaking>След преглед</ExpertiseDecisionMaking>
+    <ExpertiseDecisionMakingCode>2</ExpertiseDecisionMakingCode>
+    <ExpertisePlaceCode>0</ExpertisePlaceCode>
+    <EmployabilityAssessment>89% т. н. р.</EmployabilityAssessment>
+    <EmployabilityAssessmentCode>6</EmployabilityAssessmentCode>
+    <DurationDisabilityDate>2017-05-01T00:00:00+03:00</DurationDisabilityDate>
+    <DurationDisability>3 години</DurationDisability>
+    <DurationDisabilityCode>3</DurationDisabilityCode>
+    <Diagnosis>Психични и поведенчески разстройства, дължащи се на употреба на опиоиди</Diagnosis>
+    <DiagnosisCode>F11</DiagnosisCode>
+    <GeneralIllness>Метадон. Хр. активен хепатит с преход към цироза. ХВНК ІІст. Варици на подбедриците двустранно. С-ние след флеботромбоза феморопоплитеална двустранно. Постфлебитен с-м.</GeneralIllness>
+    <ArgumentsAndObservations />
+    <Appeal>
+      <StakeholdersCode>Лицето</StakeholdersCode>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>1292</RegistrationNumber>
+    <MeetingNumber>59</MeetingNumber>
+    <RegistrationDate>2014-04-15T00:00:00+03:00</RegistrationDate>
+    <PersonNames>СВЕТОСЛАВ ОГНЯНОВ ПАНАЙОТОВ</PersonNames>
+    <PersonIdentifier>6903206386</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>158051898</DocumentNumber>
+      <IssueDate>1999-12-16T00:00:00+02:00</IssueDate>
+      <IssuePlace>МВР СОФИЯ</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>София (столица),ГР. СОФИЯ, ПАНАГЮРИЩЕ 53</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>София (столица),null,ГР. СОФИЯ, ПАНАГЮРИЩЕ 53</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </TemporaryAddress>
+    <EmploymentCode>0</EmploymentCode>
+    <ConditionCode>0</ConditionCode>
+    <ExpertiseType>консултация</ExpertiseType>
+    <ExpertiseTypeCode>4</ExpertiseTypeCode>
+    <ExpertiseDecisionMaking>След преглед</ExpertiseDecisionMaking>
+    <ExpertiseDecisionMakingCode>2</ExpertiseDecisionMakingCode>
+    <ExpertisePlaceCode>0</ExpertisePlaceCode>
+    <EmployabilityAssessmentCode>0</EmployabilityAssessmentCode>
+    <DurationDisabilityCode>0</DurationDisabilityCode>
+    <Diagnosis>Психични и поведенчески разстройства, дължащи се на употреба на опиоиди-хероин; в момента на субституираща терапия с </Diagnosis>
+    <DiagnosisCode>F11       </DiagnosisCode>
+    <GeneralIllness>Метадон.</GeneralIllness>
+    <ArgumentsAndObservations />
+    <Appeal>
+      <StakeholdersCode>Лицето</StakeholdersCode>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>960</RegistrationNumber>
+    <MeetingNumber>52</MeetingNumber>
+    <RegistrationDate>2011-04-04T00:00:00+03:00</RegistrationDate>
+    <PersonNames>СВЕТОСЛАВ ОГНЯНОВ ПАНАЙОТОВ</PersonNames>
+    <PersonIdentifier>6903206386</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>158051898</DocumentNumber>
+      <IssueDate>1999-12-16T00:00:00+02:00</IssueDate>
+      <IssuePlace>МВР СОФИЯ</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>София (столица),ГР. СОФИЯ, ПАНАГЮРИЩЕ 53</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>София (столица),null,ГР. СОФИЯ, ПАНАГЮРИЩЕ 53</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </TemporaryAddress>
+    <EmploymentCode>0</EmploymentCode>
+    <ConditionCode>0</ConditionCode>
+    <ExpertisePlaceCode>0</ExpertisePlaceCode>
+    <EmployabilityAssessment>78% тр. нам. раб.</EmployabilityAssessment>
+    <DurationDisabilityDate>2014-04-01T00:00:00+03:00</DurationDisabilityDate>
+    <Diagnosis>Психични и поведенчески разстройства, дължащи се на употреба на опиоиди. Субституираща терапия с Метадон.</Diagnosis>
+    <DiagnosisCode>F11</DiagnosisCode>
+    <GeneralIllness>Хроничен активен хепатит с преход към цироза.</GeneralIllness>
+    <ArgumentsAndObservations />
+    <Appeal>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>434</RegistrationNumber>
+    <MeetingNumber>33</MeetingNumber>
+    <RegistrationDate>2011-02-16T00:00:00+02:00</RegistrationDate>
+    <PersonNames>СВЕТОСЛАВ ОГНЯНОВ ПАНАЙОТОВ</PersonNames>
+    <PersonIdentifier>6903206386</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>158051898</DocumentNumber>
+      <IssueDate>1999-12-16T00:00:00+02:00</IssueDate>
+      <IssuePlace>МВР СОФИЯ</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>София (столица),ГР. СОФИЯ, ПАНАГЮРИЩЕ 53</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>София (столица),null,ГР. СОФИЯ, ПАНАГЮРИЩЕ 53</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </TemporaryAddress>
+    <EmploymentCode>0</EmploymentCode>
+    <ConditionCode>0</ConditionCode>
+    <ExpertisePlaceCode>0</ExpertisePlaceCode>
+    <EmployabilityAssessmentCode>0</EmployabilityAssessmentCode>
+    <DurationDisabilityCode>0</DurationDisabilityCode>
+    <ArgumentsAndObservations />
+    <Appeal>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>485</RegistrationNumber>
+    <MeetingNumber>38</MeetingNumber>
+    <RegistrationDate>2008-02-26T00:00:00+02:00</RegistrationDate>
+    <PersonNames>СВЕТОСЛАВ ОГНЯНОВ ПАНАЙОТОВ</PersonNames>
+    <PersonIdentifier>6903206386</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>158051898</DocumentNumber>
+      <IssueDate>1999-12-16T00:00:00+02:00</IssueDate>
+      <IssuePlace>МВР СОФИЯ</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>София (столица),ГР. СОФИЯ, ПАНАГЮРИЩЕ 53</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>София (столица),null,ГР. СОФИЯ, ПАНАГЮРИЩЕ 53</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </TemporaryAddress>
+    <EmploymentCode>0</EmploymentCode>
+    <ConditionCode>0</ConditionCode>
+    <ExpertisePlaceCode>0</ExpertisePlaceCode>
+    <EmployabilityAssessment>% тр. нам. раб.</EmployabilityAssessment>
+    <DurationDisabilityDate>2011-02-01T00:00:00+02:00</DurationDisabilityDate>
+    <GeneralIllness>Психични и поведенчески разстройства, дължащи се на употреба на опиоиди</GeneralIllness>
+    <GeneralIllnessCode>F11</GeneralIllnessCode>
+    <ArgumentsAndObservations />
+    <Appeal>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>92</RegistrationNumber>
+    <MeetingNumber>6</MeetingNumber>
+    <RegistrationDate>2008-01-10T00:00:00+02:00</RegistrationDate>
+    <PersonNames>СВЕТОСЛАВ ОГНЯНОВ ПАНАЙОТОВ</PersonNames>
+    <PersonIdentifier>6903206386</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>158051898</DocumentNumber>
+      <IssueDate>1999-12-16T00:00:00+02:00</IssueDate>
+      <IssuePlace>МВР СОФИЯ</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>София (столица),ГР. СОФИЯ, ПАНАГЮРИЩЕ 53</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>София (столица),null,ГР. СОФИЯ, ПАНАГЮРИЩЕ 53</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </TemporaryAddress>
+    <EmploymentCode>0</EmploymentCode>
+    <ConditionCode>0</ConditionCode>
+    <ExpertisePlaceCode>0</ExpertisePlaceCode>
+    <EmployabilityAssessmentCode>0</EmployabilityAssessmentCode>
+    <DurationDisabilityCode>0</DurationDisabilityCode>
+    <GeneralIllness>Психични и поведенчески разстройства, дължащи се на употреба на опиоиди</GeneralIllness>
+    <GeneralIllnessCode>F11</GeneralIllnessCode>
+    <ArgumentsAndObservations />
+    <Appeal>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+</ExpertDecisionsResponse>

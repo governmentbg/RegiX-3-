@@ -1,0 +1,6 @@
+<PropertyInfoV2Request xsi:schemaLocation="http://egov.bg/RegiX/AV/PropertyReg/PropertyInfoV2Request PropertyInfoV2Request.xsd" xmlns="http://egov.bg/RegiX/AV/PropertyReg/PropertyInfoV2Request" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<PropertyID>String</PropertyID>
+	<DateFrom>2001-12-17T09:30:47.0Z</DateFrom>
+	<DateTo>2001-12-17T09:30:47.0Z</DateTo>
+	<SiteID>String</SiteID>
+</PropertyInfoV2Request>

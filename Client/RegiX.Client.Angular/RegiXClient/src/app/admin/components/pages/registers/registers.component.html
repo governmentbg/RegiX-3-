@@ -1,0 +1,77 @@
+
+<igx-linear-bar
+*ngIf="this.isDataLoading"
+[indeterminate]="this.isDataLoading" >
+</igx-linear-bar>
+<form class="search-form" (submit)="search(input)">
+  <igx-input-group type="search" [displayDensity]="'compact'">
+    <input
+      #input
+      igxInput
+      placeholder="Търсене"
+    />
+    <igx-suffix>
+      <igx-icon style="color: black;"  (click)="search(input)">search</igx-icon>
+    </igx-suffix>
+    <igx-suffix>
+      <igx-icon style="color: black;"  (click)="clearSearch(input)">clear</igx-icon>
+    </igx-suffix>
+  </igx-input-group>
+</form>
+<div
+  class="registers-wrapper"
+  igxLayout
+  igxLayoutDir="column"
+  *ngIf="isDataLoaded && !isDataLoading"
+>
+  <div class="alert" *ngIf="!registers || registers.length === 0">
+    <span>Няма намерени услуги</span>
+  </div>
+
+  <tl-card
+    *ngIf="hasFilter"
+    icon="filter_list"
+    displayDensity="cosy"
+    [permissions]="[]"
+    [title]="filterTitle"
+    [subTitle]="filterSubTitle"
+    [actions]="filterActions"
+  >
+  </tl-card>
+  <tl-card
+    *ngFor="let register of registers"
+    [routeReference]="registersyRoute"
+    [title]="register.displayName"
+    [subTitle]="register.authorityName"
+    [cardContent]="operationsTemplate"
+  >
+    <ng-template #operationsTemplate>
+      <igx-list [displayDensity]="'cosy'">
+          <igx-list-item
+              igxRipple
+              igxListAction
+              igxlist
+              igxRippleTarget=".igx-list__item-content"
+              #item
+              class="report"
+              [routerLink]="getRouterLink(operation.id)"
+              *ngFor="let operation of operations[register.id]">
+              <igx-icon igxListThumbnail>receipt</igx-icon>
+              <span
+                igxListLineTitle>{{ operation.displayName }}</span>
+
+            <igx-icon
+              igxListAction
+              [title]="operation.favourite ? 'Премахни от предпочитани услуги' : 'Добави към предпочитани услуги'"
+              (click)="addToFavourites(operation, $event)">
+              {{ (this.changingFavouirteStatus && this.changingId === operation.id ) ?
+                  'star_half' :
+                  operation.favourite ?
+                    'star' :
+                    'star_border'
+              }}</igx-icon>
+          </igx-list-item>
+      </igx-list>
+    </ng-template>
+  </tl-card>
+</div>

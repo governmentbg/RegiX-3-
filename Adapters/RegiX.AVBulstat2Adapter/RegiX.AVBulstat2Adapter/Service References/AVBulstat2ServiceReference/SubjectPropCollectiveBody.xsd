@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:E="http://www.bulstat.bg/Entry" xmlns:T3="http://www.bulstat.bg/NomenclatureEntry" xmlns:tns="http://www.bulstat.bg/SubjectPropCollectiveBody" xmlns:REL4="http://www.bulstat.bg/SubjectRelCollectiveBodyMember" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.bulstat.bg/SubjectPropCollectiveBody" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="Entry.xsd" namespace="http://www.bulstat.bg/Entry" />
+  <xs:import schemaLocation="NomenclatureEntry.xsd" namespace="http://www.bulstat.bg/NomenclatureEntry" />
+  <xs:import schemaLocation="SubjectRelCollectiveBodyMember.xsd" namespace="http://www.bulstat.bg/SubjectRelCollectiveBodyMember" />
+  <xs:complexType name="SubjectPropCollectiveBody">
+    <xs:annotation>
+      <xs:documentation>Колективен орган</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="E:Entry">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="Type" type="T3:NomenclatureEntry">
+            <xs:annotation>
+              <xs:documentation>Вид колективен орган
+							</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Members" type="REL4:SubjectRelCollectiveBodyMember">
+            <xs:annotation>
+              <xs:documentation>Състав на колективния орган
+							</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RegiX.Info.API</name>
+    </assembly>
+    <members>
+        <member name="M:RegiX.Info.API.Program.CreateWebHostBuilder(System.String[])">
+            <summary>
+            Creates web host builder
+            </summary>
+            <param name="args">Console arguments</param>
+            <returns>Instance of the web host builder</returns>
+        </member>
+    </members>
+</doc>

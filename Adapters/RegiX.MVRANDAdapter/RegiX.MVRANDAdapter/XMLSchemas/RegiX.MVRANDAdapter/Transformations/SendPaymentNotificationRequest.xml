@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SendPaymentNotificationRequest xsi:schemaLocation="http://egov.bg/RegiX/MVR/PaymentNotification/SendPaymentNotificationRequest SendPaymentNotificationRequest.xsd" xmlns="http://egov.bg/RegiX/MVR/PaymentNotification/SendPaymentNotificationRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TransactionNumber>String</TransactionNumber>
+	<DocumentType>TICKET</DocumentType>
+	<DocumentSeries>String</DocumentSeries>
+	<DocumentNumber>String</DocumentNumber>
+	<PaymentAmount>3.14159265358979E0</PaymentAmount>
+	<PaymentDate>2001-12-17T09:30:47.0Z</PaymentDate>
+	<PayerPin>String</PayerPin>
+	<PayerType>P</PayerType>
+	<SystemId>0</SystemId>
+	<AdministrationName>String</AdministrationName>
+</SendPaymentNotificationRequest>

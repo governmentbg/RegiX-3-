@@ -1,0 +1,4 @@
+<SendPaymentNotificationResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Status>0</Status>
+  <ErrorMessage>String</ErrorMessage>
+</SendPaymentNotificationResponse>

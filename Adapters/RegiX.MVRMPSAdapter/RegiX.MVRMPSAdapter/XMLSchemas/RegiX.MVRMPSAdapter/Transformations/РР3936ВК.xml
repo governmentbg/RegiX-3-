@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tse:RegixVehicleResponse xmlns:tse="http://bg.mvr.ict/typereg2" xmlns:h="http://bg.mvr.ict/shared/regheader" xmlns:r="http://bg.mvr.ict/shared/regreturn" xmlns:td2="http://bg.mvr.ict/shared/retype">
+	<tse:Header>
+		<h:MessageID>e9eea8d4-3536-436d-acd7-8e8fcca55fbd</h:MessageID>
+		<h:MessageRefID>8cc376c4-f785-4602-b53f-f1bc5cea4b57</h:MessageRefID>
+		<h:DateTime>2019-06-13T09:58:17.118</h:DateTime>
+		<h:Operation>003</h:Operation>
+	</tse:Header>
+	<tse:Response>
+		<tse:Results>
+			<tse:Result>
+				<tse:VehicleData>
+					<tse:RegistrationNumber>РР3936ВК</tse:RegistrationNumber>
+					<tse:FirstRegistrationDate>2003-03-21</tse:FirstRegistrationDate>
+					<tse:VIN>WDB2110061A261374</tse:VIN>
+					<tse:EngineNumber>6469613005785</tse:EngineNumber>
+					<tse:VehicleType>ЛЕК АВТОМОБИЛ</tse:VehicleType>
+					<tse:Model>МЕРЦЕДЕС Е 220 ЦДИ</tse:Model>
+					<tse:Color>СИВ МЕТАЛИК</tse:Color>
+					<tse:Category>M1</tse:Category>
+					<tse:MassG>1610</tse:MassG>
+					<tse:MassF1>2145</tse:MassF1>
+					<tse:Capacity>2148</tse:Capacity>
+					<tse:MaxPower>100</tse:MaxPower>
+					<tse:Fuel>ДИЗЕЛ</tse:Fuel>
+					<tse:EnvironmentalCategory>ЕВРО 3</tse:EnvironmentalCategory>
+					<tse:VehicleDocument>
+						<tse:VehDocumentNumber>008821276</tse:VehDocumentNumber>
+						<tse:VehDocumentDate>2018-01-19</tse:VehDocumentDate>
+					</tse:VehicleDocument>
+				</tse:VehicleData>
+				<tse:OwnersData>
+					<tse:Owner>
+						<td2:Company>
+							<td2:ID>204689267</td2:ID>
+							<td2:Name>ПЕЦИ 1985 ЕООД</td2:Name>
+						</td2:Company>
+					</tse:Owner>
+				</tse:OwnersData>
+				<tse:UsersData>
+					<tse:User>
+						<td2:ForeignCitizen>
+							<td2:NamesCyrillic>РАЛУКА ЕЛЕНА КОБЕЛ</td2:NamesCyrillic>
+						</td2:ForeignCitizen>
+					</tse:User>
+				</tse:UsersData>
+			</tse:Result>
+		</tse:Results>
+		<tse:ReturnInformation>
+			<r:ReturnCode>0</r:ReturnCode>
+			<r:Info>OK</r:Info>
+		</tse:ReturnInformation>
+	</tse:Response>
+</tse:RegixVehicleResponse>

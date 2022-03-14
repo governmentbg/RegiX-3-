@@ -1,0 +1,164 @@
+ <AircraftsResponse xmlns="http://egov.bg/RegiX/GVA/AircraftsResponse">
+              <Aircraft>
+                <Producer>
+                  <Name>АТР, Р. Франция</Name>
+                  <NameEn>ATR, R.of France</NameEn>
+                  <CountryCode>FR</CountryCode>
+                  <CountryName>Р. Франция</CountryName>
+                </Producer>
+                <AirCategory>
+                  <Code>LA</Code>
+                  <Name>Large Aeroplane</Name>
+                </AirCategory>
+                <ICAO>AT43</ICAO>
+                <BGModelName>ATR42-300</BGModelName>
+                <ENModelName>ATR42-300</ENModelName>
+                <MSNSerialNumber>151</MSNSerialNumber>
+                <Registrations>
+                  <Registration>
+                    <ActNumber>2044</ActNumber>
+                    <RegistrationNumber>2044</RegistrationNumber>
+                    <RegistrationDate>2005-02-11</RegistrationDate>
+                    <RegistrationMark>LZ-ATR</RegistrationMark>
+                    <IsLastRegistration>true</IsLastRegistration>
+                    <RegistrationStatus>
+                      <IsActiveRegistration>false</IsActiveRegistration>
+                      <StatusCode>2</StatusCode>
+                      <StatusName>Отписан</StatusName>
+                    </RegistrationStatus>
+                    <RegistrationDocument>
+                      <DocNumber>55-02-41</DocNumber>
+                      <DocDate>2011-07-06</DocDate>
+                      <Description>Промяна на адреса на собственик и оператор</Description>
+                    </RegistrationDocument>
+                    <DeregistrationInfo>
+                      <DeregistrationDate>2011-09-30</DeregistrationDate>
+                      <DeregistrationReason>Смяна собственост</DeregistrationReason>
+                      <DeregistrationDescription />
+                    </DeregistrationInfo>
+                    <LeasingInfo>
+                      <DocNumber>R-83-05</DocNumber>
+                      <DocDate>2011-02-22</DocDate>
+                      <Agreement>“Тест Ер” ЕАД</Agreement>
+                      <Lessor>
+                        <Person />
+                        <Entity>
+                          <Identifier>138866334</Identifier>
+                          <Name>“Ер ттеесстт” ЕООД </Name>
+                        </Entity>
+                      </Lessor>
+                    </LeasingInfo>
+                    <Operators>
+                      <PersonList />
+                      <EntitiesList>
+                        <Entity>
+                          <Identifier>831743134</Identifier>
+                          <Name>АВИОКОМПАНИЯ  “Тест  ЕР”</Name>
+                        </Entity>
+                      </EntitiesList>
+                    </Operators>
+                    <Owners>
+                      <PersonList />
+                      <EntitiesList>
+                        <Entity>
+                          <Name>“Ер ттеесстт” ООД - Обрешков</Name>
+                        </Entity>
+                      </EntitiesList>
+                    </Owners>
+                  </Registration>
+                  <Registration>
+                    <ActNumber>1726</ActNumber>
+                    <RegistrationNumber>1726</RegistrationNumber>
+                    <RegistrationDate>2003-02-25</RegistrationDate>
+                    <RegistrationMark>LZ-ATR</RegistrationMark>
+                    <IsLastRegistration>false</IsLastRegistration>
+                    <RegistrationStatus>
+                      <IsActiveRegistration>false</IsActiveRegistration>
+                      <StatusCode>2</StatusCode>
+                      <StatusName>Отписан</StatusName>
+                    </RegistrationStatus>
+                    <RegistrationDocument>
+                      <DocNumber>55-02-102</DocNumber>
+                      <DocDate>2002-12-29</DocDate>
+                      <Description>Договор за покупка от 03.12.2002</Description>
+                    </RegistrationDocument>
+                    <DeregistrationInfo />
+                    <LeasingInfo>
+                      <DocNumber />
+                      <Agreement />
+                      <Lessor>
+                        <Person />
+                        <Entity />
+                      </Lessor>
+                    </LeasingInfo>
+                    <Operators>
+                      <PersonList />
+                      <EntitiesList>
+                        <Entity>
+                          <Name>“Ер ттеесстт” ООД - Обрешков</Name>
+                        </Entity>
+                      </EntitiesList>
+                    </Operators>
+                    <Owners>
+                      <PersonList />
+                      <EntitiesList>
+                        <Entity>
+                          <Name>“Ер ттеесстт” ООД - Обрешков</Name>
+                        </Entity>
+                      </EntitiesList>
+                    </Owners>
+                  </Registration>
+                </Registrations>
+                <Debts>
+                  <Debt>
+                    <InputDate>2004-04-15</InputDate>
+                    <DebtType>ЗАЛОГ</DebtType>
+                    <IsActive>false</IsActive>
+                    <Applicant>
+                      <Name>ОББ АД</Name>
+                    </Applicant>
+                    <Document>
+                      <IncomingNumber>40-01-502</IncomingNumber>
+                      <IncomingDate>2004-04-14</IncomingDate>
+                      <ExternalNumber />
+                      <ExternalDate>2004-04-05</ExternalDate>
+                    </Document>
+                    <Repayment>
+                      <RepaymentDate>2006-08-13</RepaymentDate>
+                      <RepaymentDocument>
+                        <IncomingNumber>15-00-22</IncomingNumber>
+                        <IncomingDate>2006-08-13</IncomingDate>
+                        <ExternalNumber />
+                      </RepaymentDocument>
+                      <Notes />
+                    </Repayment>
+                    <Notes>Договор за залог № 32/05.04.2004</Notes>
+                  </Debt>
+                  <Debt>
+                    <InputDate>2002-02-25</InputDate>
+                    <DebtType>ЗАЛОГ</DebtType>
+                    <IsActive>false</IsActive>
+                    <Applicant>
+                      <Name>ОББ АД</Name>
+                    </Applicant>
+                    <Document>
+                      <IncomingNumber>15-00-25</IncomingNumber>
+                      <IncomingDate>2002-02-25</IncomingDate>
+                      <ExternalNumber />
+                      <ExternalDate>2002-02-19</ExternalDate>
+                    </Document>
+                    <Repayment>
+                      <RepaymentDate>2006-08-13</RepaymentDate>
+                      <RepaymentDocument>
+                        <IncomingNumber>15-00-22</IncomingNumber>
+                        <IncomingDate>2006-08-13</IncomingDate>
+                        <ExternalNumber />
+                      </RepaymentDocument>
+                      <Notes />
+                    </Repayment>
+                    <Notes>Договор за залог № 19/19.02.2002</Notes>
+                  </Debt>
+                </Debts>
+              </Aircraft>
+            </AircraftsResponse>
+         

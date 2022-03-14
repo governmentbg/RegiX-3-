@@ -1,0 +1,39 @@
+<div class="table-title-wrapper">
+  <igx-linear-bar
+    *ngIf="isDataLoading"
+    [indeterminate]="true"
+  ></igx-linear-bar>
+  <div
+    class="page-wrapper"
+    igxLayout
+    igxLayoutDir="column"
+    *ngIf="!isDataLoading"
+  >
+<tl-card
+  [title]="'Резултати от търсене'"
+  [cardHeaderContent]="cardHeaderContent"
+  [listItems]="items"
+  [icon]="'search'"
+  [subTitle]="term"
+  [displayDensity]="'cosy'"
+  [permissions]="[]"
+>
+<ng-template #cardHeaderContent>
+  <ng-container
+  *ngFor="let searchTypeKey of searchTypeKeys">
+  <button
+    igxButton="icon"
+    *ngIf="!searchTypes[searchTypeKey].hidden"
+    [title]="searchTypes[searchTypeKey].title"
+    (click)="filterItems(searchTypeKey)"
+    [ngStyle]="{'color': (searchTypes[searchTypeKey].enabled) ? 'black' : '#d9d9d9'}"
+    >
+    <igx-icon>
+      {{searchTypes[searchTypeKey].icon}}
+    </igx-icon>
+  </button>
+</ng-container>
+</ng-template>
+</tl-card>
+</div>
+</div>

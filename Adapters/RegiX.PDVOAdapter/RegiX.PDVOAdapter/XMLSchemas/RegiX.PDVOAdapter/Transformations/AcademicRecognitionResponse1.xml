@@ -1,0 +1,22 @@
+
+            <AcademicRecognitionResponse xmlns="http://egov.bg/RegiX/NACID/PDVO/AcademicRecognitionResponse">
+              <InternalAppNum>06-00-354</InternalAppNum>
+              <InternalAppDate>2015-11-20</InternalAppDate>
+              <AcademicRecognitionStatus>Признато</AcademicRecognitionStatus>
+              <FirstName>ТАМ</FirstName>
+              <MiddleName />
+              <LastName>СМИТ</LastName>
+              <IdentificatorType>3</IdentificatorType>
+              <IdentificatorTypeName>личен документ</IdentificatorTypeName>
+              <Identificator>28.10.1970</Identificator>
+              <RecognizedEduLevel>Магистър</RecognizedEduLevel>
+              <UniversityOriginalName>North Carolina State University</UniversityOriginalName>
+              <UniversityNameCyrillic>Щатски университет на Северна Каролина</UniversityNameCyrillic>
+              <CountryNameCyrillic>САЩ</CountryNameCyrillic>
+              <CertificateNums>
+                <CertificateNum>354-142/20.01.2016</CertificateNum>
+              </CertificateNums>
+              <RecognizedSpecialities>
+                <RecognizedSpecialityName>Училищна администрация</RecognizedSpecialityName>
+              </RecognizedSpecialities>
+            </AcademicRecognitionResponse>

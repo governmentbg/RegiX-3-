@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet2">
+    <Query>
+      <DataSourceReference>regix2</DataSourceReference>
+      <CommandText>SELECT        CONSUMER_PROFILES.NAME, CONSUMER_PROFILES.IDENTIFIER, CONSUMER_PROFILES.IDENTIFIER_TYPE, CONSUMER_PROFILES.CONSUMER_PROFILE_ID, CONSUMER_PROFILES.ADDRESS, 
+                         CONSUMER_PROFILE_USERS.NAME AS UserName, CONSUMER_PROFILE_USERS.EMAIL, CONSUMER_PROFILE_USERS.POSITION, CONSUMER_PROFILE_USERS.PHONE_NUMBER, 
+                         CONCAT(CONSUMER_PROFILE_USERS.NAME, ', ', CONSUMER_PROFILE_USERS.POSITION, ', ', CONSUMER_PROFILE_USERS.PHONE_NUMBER, ', ', CONSUMER_PROFILE_USERS.EMAIL)  AS CONTACT_PERSON
+FROM            CONSUMER_PROFILES INNER JOIN
+                         CONSUMER_PROFILE_USERS ON CONSUMER_PROFILES.CONSUMER_PROFILE_ID = CONSUMER_PROFILE_USERS.CONSUMER_PROFILE_ID</CommandText>
+      <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+    </Query>
+    <Fields>
+      <Field Name="NAME">
+        <DataField>NAME</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="IDENTIFIER">
+        <DataField>IDENTIFIER</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="IDENTIFIER_TYPE">
+        <DataField>IDENTIFIER_TYPE</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="CONSUMER_PROFILE_ID">
+        <DataField>CONSUMER_PROFILE_ID</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="ADDRESS">
+        <DataField>ADDRESS</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="UserName">
+        <DataField>UserName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="EMAIL">
+        <DataField>EMAIL</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="POSITION">
+        <DataField>POSITION</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="PHONE_NUMBER">
+        <DataField>PHONE_NUMBER</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CONTACT_PERSON">
+        <DataField>CONTACT_PERSON</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

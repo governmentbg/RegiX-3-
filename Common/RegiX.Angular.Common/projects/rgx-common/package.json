@@ -1,0 +1,28 @@
+{
+  "name": "@tl-rgx/rgx-common",
+  "version": "9.0.40",
+  "peerDependencies": {
+    "@infragistics/igniteui-angular": "^11.1.7",
+    "@tl/tl-common": "^9.1.182",
+    "ngx-logger": "^4.2.1",
+    "ngx-markdown": "^11.1.2",
+    "ngx-permissions": "^8.1.1"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@angular/animations": "~11.2.9",
+    "@angular/common": "~11.2.9",
+    "@angular/core": "~11.2.9",
+    "@angular/forms": "~11.2.9",
+    "@angular/platform-browser": "~11.2.9",
+    "@angular/router": "~11.2.9",
+    "@infragistics/igniteui-angular": "^11.1.7",
+    "@tl/tl-common": "^9.1.178",
+    "angular-auth-oidc-client": "^11.6.5",
+    "ngx-logger": "^4.2.1",
+    "ngx-markdown": "^11.1.2",
+    "ngx-permissions": "^8.1.1"
+  }
+}

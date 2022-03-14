@@ -1,0 +1,40 @@
+﻿<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>Infosys.RegiX.CRCAdapter.AdapterService.ICRCAPI.FindAllMeasurements</OperationName>
+  <Code>FindAllMeasurements</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>CRCFindAllRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/CRC/CRCFindAllRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за измервания по период</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>DateFrom</ParameterName>
+        <ParameterLabel>Дата от</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>DateTo</ParameterName>
+        <ParameterLabel>Дата до</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>
+

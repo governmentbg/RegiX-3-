@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.NHIFAdapter.Mocks</RootNamespace>
+    <Authors>Dimitar Mitev</Authors>
+    <Company>TechnoLogica</Company>
+    <Description>Mocks for NHIFAdapter</Description>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="XMLData\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="XMLData\RegiX.NHIFAdapter.Mocks\GetPatientRecordClinicalProceduresResponse.xml" />
+    <None Remove="XMLData\RegiX.NHIFAdapter.Mocks\GetPatientRecordDentalResponse.xml" />
+    <None Remove="XMLData\RegiX.NHIFAdapter.Mocks\GetPatientRecordDrugsbyClinicalProceduresResponse.xml" />
+    <None Remove="XMLData\RegiX.NHIFAdapter.Mocks\GetPatientRecordDrugsByHospitalizationsResponse.xml" />
+    <None Remove="XMLData\RegiX.NHIFAdapter.Mocks\GetPatientRecordHospitalizationsResponse.xml" />
+    <None Remove="XMLData\RegiX.NHIFAdapter.Mocks\GetPatientRecordLaboratoryResponse.xml" />
+    <None Remove="XMLData\RegiX.NHIFAdapter.Mocks\GetPatientRecordMedicalTreatmentsResponse.xml" />
+    <None Remove="XMLData\RegiX.NHIFAdapter.Mocks\GetReportExamsResponse.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.Adapters.Mocks" Version="1.0.43" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.NHIFAdapter\RegiX.NHIFAdapter.csproj" />
+  </ItemGroup>
+
+</Project>
+

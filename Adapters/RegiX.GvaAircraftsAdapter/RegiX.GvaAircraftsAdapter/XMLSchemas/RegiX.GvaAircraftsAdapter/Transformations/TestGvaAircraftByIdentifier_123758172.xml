@@ -1,0 +1,1185 @@
+﻿<?xml version="1.0"?>
+<AircraftsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GVA/AircraftsResponse">
+  <Aircraft>
+    <Producer>
+      <Name>Cessna Aircraft Company, САЩ</Name>
+      <NameEn>Cessna Aircraft Company, USA</NameEn>
+      <CountryCode>US</CountryCode>
+      <CountryName>USA</CountryName>
+    </Producer>
+    <AirCategory>
+      <Code>SA</Code>
+      <Name>Small Aeroplane</Name>
+    </AirCategory>
+    <ICAO>C172</ICAO>
+    <BGModelName>Чесна 172 C</BGModelName>
+    <ENModelName>Cessna 172 S</ENModelName>
+    <MSNSerialNumber>172S10207</MSNSerialNumber>
+    <Registrations>
+      <Registration>
+        <ActNumber>2138</ActNumber>
+        <RegistrationNumber>2138</RegistrationNumber>
+        <RegistrationDate>2007-02-22</RegistrationDate>
+        <RegistrationMark>LZ-ADB</RegistrationMark>
+        <IsLastRegistration>true</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>40-01-231</DocNumber>
+          <DocDate>2010-03-18</DocDate>
+          <Description>Експорт в Австрия</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo>
+          <DeregistrationDate>2010-04-26</DeregistrationDate>
+          <DeregistrationReason>Смяна собственост</DeregistrationReason>
+          <DeregistrationDescription>Експорт в Австрия</DeregistrationDescription>
+        </DeregistrationInfo>
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+    </Registrations>
+    <Debts />
+  </Aircraft>
+  <Aircraft>
+    <Producer>
+      <Name>Diamond Aircraft Industries GmbH, Р. Австрия</Name>
+      <NameEn>Diamond Aircraft Industries GmbH, R.of Austria</NameEn>
+      <CountryCode>AT</CountryCode>
+      <CountryName>Austria</CountryName>
+    </Producer>
+    <AirCategory>
+      <Code>SA</Code>
+      <Name>Small Aeroplane</Name>
+    </AirCategory>
+    <ICAO>DA42</ICAO>
+    <BGModelName>Diamond DA 42</BGModelName>
+    <ENModelName>Diamond DA 42</ENModelName>
+    <MSNSerialNumber>42.064</MSNSerialNumber>
+    <Registrations>
+      <Registration>
+        <ActNumber>2110</ActNumber>
+        <RegistrationNumber>2110</RegistrationNumber>
+        <RegistrationDate>2006-09-15</RegistrationDate>
+        <RegistrationMark>LZ-ADS</RegistrationMark>
+        <IsLastRegistration>true</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-63</DocNumber>
+          <DocDate>2012-06-27</DocDate>
+          <Description>Договор за покупко-продажба от 21.05.2012г.; Потвърждение за регистрация от LBA от 25.06.2012</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo>
+          <DeregistrationDate>2012-06-28</DeregistrationDate>
+          <DeregistrationReason>Смяна собственост</DeregistrationReason>
+          <DeregistrationDescription>Договор за покупко-продажба от 21.05.2012г.; Потвърждение за регистрация от LBA от 25.06.2012</DeregistrationDescription>
+          <DeregistrationCountryCode>DE</DeregistrationCountryCode>
+          <DeregistrationCountryName>Федерална Република Германия</DeregistrationCountryName>
+        </DeregistrationInfo>
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123089443</Identifier>
+              <Name>"Авио Делта" ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123089443</Identifier>
+              <Name>"Авио Делта" ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2033</ActNumber>
+        <RegistrationNumber>2033</RegistrationNumber>
+        <RegistrationDate>2005-12-09</RegistrationDate>
+        <RegistrationMark>LZ-ADS</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber />
+          <Description />
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+    </Registrations>
+    <Debts />
+  </Aircraft>
+  <Aircraft>
+    <Producer>
+      <Name>Comco Ikarus GmbH, Ф.Р. Германия</Name>
+      <NameEn>Comco Ikarus GmbH, F.R.of Germany</NameEn>
+      <CountryCode>DE</CountryCode>
+      <CountryName>Germany</CountryName>
+    </Producer>
+    <AirCategory>
+      <Code>VLA</Code>
+      <Name>Very Light Aeroplane</Name>
+    </AirCategory>
+    <ICAO>ULAC</ICAO>
+    <BGModelName>Ula-Ikarus C 42 B</BGModelName>
+    <ENModelName>Ula-Ikarus C 42 B</ENModelName>
+    <MSNSerialNumber>0508-6754</MSNSerialNumber>
+    <Registrations>
+      <Registration>
+        <ActNumber>108</ActNumber>
+        <RegistrationNumber>108</RegistrationNumber>
+        <RegistrationDate>2010-03-15</RegistrationDate>
+        <RegistrationMark>LZ-ADI</RegistrationMark>
+        <IsLastRegistration>true</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>45-01-447</DocNumber>
+          <DocDate>2010-12-21</DocDate>
+          <Description>Без ЛГ от 15.03.2010</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo>
+          <DeregistrationDate>2010-12-21</DeregistrationDate>
+          <DeregistrationReason>Заповед</DeregistrationReason>
+          <DeregistrationDescription>Без ЛГ от 15.03.2010</DeregistrationDescription>
+        </DeregistrationInfo>
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>6610076583</Identifier>
+              <Name>Андрей Колев Цветанов</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>6610076583</Identifier>
+              <Name>Андрей Колев Цветанов</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>90</ActNumber>
+        <RegistrationNumber>90</RegistrationNumber>
+        <RegistrationDate>2008-09-24</RegistrationDate>
+        <RegistrationMark>LZ-ADI</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-65</DocNumber>
+          <DocDate>2008-09-11</DocDate>
+          <Description>Bill of Sale, Договор за покупко продажба, Договор за ТО</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200119202</Identifier>
+              <Name>АВИОТЕХ</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200119202</Identifier>
+              <Name>АВИОТЕХ</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>68</ActNumber>
+        <RegistrationNumber>68</RegistrationNumber>
+        <RegistrationDate>2006-09-15</RegistrationDate>
+        <RegistrationMark>LZ-ADI</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber />
+          <Description>Заявление 55-03-225/26.09.2007 за изваждане от САО и категория “Частен”</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>49</ActNumber>
+        <RegistrationNumber>49</RegistrationNumber>
+        <RegistrationDate>2005-10-05</RegistrationDate>
+        <RegistrationMark>LZ-ADI</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber />
+          <Description />
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+    </Registrations>
+    <Debts />
+  </Aircraft>
+  <Aircraft>
+    <Producer>
+      <Name>Авио Делта ООД, Р. България</Name>
+      <NameEn>Avio Delta Ltd, R.of Bulgaria</NameEn>
+      <CountryCode>BG</CountryCode>
+      <CountryName>Република България</CountryName>
+    </Producer>
+    <AirCategory>
+      <Code>MH</Code>
+      <Name>Motor-hanglider</Name>
+    </AirCategory>
+    <ICAO>VM-L</ICAO>
+    <BGModelName>Лебед II</BGModelName>
+    <ENModelName>Swan II</ENModelName>
+    <MSNSerialNumber>MK04 990204</MSNSerialNumber>
+    <Registrations>
+      <Registration>
+        <ActNumber>89</ActNumber>
+        <RegistrationNumber>89</RegistrationNumber>
+        <RegistrationDate>2008-09-24</RegistrationDate>
+        <RegistrationMark>LZ-ADL</RegistrationMark>
+        <IsLastRegistration>true</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>45-01-308</DocNumber>
+          <DocDate>2012-09-10</DocDate>
+          <Description>Bill of Sale, Договор за покупко продажба, договор за ТО</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo>
+          <DeregistrationDate>2012-10-04</DeregistrationDate>
+          <DeregistrationReason>Заповед</DeregistrationReason>
+          <DeregistrationDescription />
+        </DeregistrationInfo>
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200119202</Identifier>
+              <Name>АВИОТЕХ</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200119202</Identifier>
+              <Name>АВИОТЕХ</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>71</ActNumber>
+        <RegistrationNumber>71</RegistrationNumber>
+        <RegistrationDate>2006-12-19</RegistrationDate>
+        <RegistrationMark>LZ-ADL</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber />
+          <Description />
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+    </Registrations>
+    <Debts />
+  </Aircraft>
+  <Aircraft>
+    <Producer>
+      <Name>Zlin Aviation, Р. Чехия</Name>
+      <NameEn>Zlin Aviation, Czech Republic</NameEn>
+      <CountryCode>CZ</CountryCode>
+      <CountryName>Czech Republic</CountryName>
+    </Producer>
+    <AirCategory>
+      <Code>VLA</Code>
+      <Name>Very Light Aeroplane</Name>
+    </AirCategory>
+    <ICAO>SAVG</ICAO>
+    <BGModelName>Savage</BGModelName>
+    <ENModelName>Savage</ENModelName>
+    <MSNSerialNumber>0088</MSNSerialNumber>
+    <Registrations>
+      <Registration>
+        <ActNumber>91</ActNumber>
+        <RegistrationNumber>91</RegistrationNumber>
+        <RegistrationDate>2008-09-24</RegistrationDate>
+        <RegistrationMark>LZ-ADC</RegistrationMark>
+        <IsLastRegistration>true</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>45-01-447</DocNumber>
+          <DocDate>2010-12-21</DocDate>
+          <Description>Без ЛГ от 31.05.1010</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo>
+          <DeregistrationDate>2010-12-21</DeregistrationDate>
+          <DeregistrationReason>Заповед</DeregistrationReason>
+          <DeregistrationDescription>Без ЛГ от 31.05.1010</DeregistrationDescription>
+        </DeregistrationInfo>
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200119202</Identifier>
+              <Name>АВИОТЕХ</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200119202</Identifier>
+              <Name>АВИОТЕХ</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>60</ActNumber>
+        <RegistrationNumber>60</RegistrationNumber>
+        <RegistrationDate>2006-06-23</RegistrationDate>
+        <RegistrationMark>LZ-ADC</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber />
+          <Description />
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+    </Registrations>
+    <Debts />
+  </Aircraft>
+  <Aircraft>
+    <Producer>
+      <Name>Авио Делта ООД, Р. България</Name>
+      <NameEn>Avio Delta Ltd, R.of Bulgaria</NameEn>
+      <CountryCode>BG</CountryCode>
+      <CountryName>Република България</CountryName>
+    </Producer>
+    <AirCategory>
+      <Code>MH</Code>
+      <Name>Motor-hanglider</Name>
+    </AirCategory>
+    <ICAO>VM-L</ICAO>
+    <BGModelName>Лебед-1</BGModelName>
+    <ENModelName>Swan-1</ENModelName>
+    <MSNSerialNumber>MK05 990301</MSNSerialNumber>
+    <Registrations>
+      <Registration>
+        <ActNumber>126</ActNumber>
+        <RegistrationNumber>126</RegistrationNumber>
+        <RegistrationDate>2012-03-14</RegistrationDate>
+        <RegistrationMark>LZ-ADM</RegistrationMark>
+        <IsLastRegistration>true</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>true</IsActiveRegistration>
+          <StatusCode>9</StatusCode>
+          <StatusName>Последна (действаща) регистрация</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-6</DocNumber>
+          <DocDate>2012-01-26</DocDate>
+          <Description />
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200976490</Identifier>
+              <Name>АВИО  ДИЗАЙН  ЕООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200976490</Identifier>
+              <Name>АВИО  ДИЗАЙН  ЕООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>98</ActNumber>
+        <RegistrationNumber>98</RegistrationNumber>
+        <RegistrationDate>2009-04-27</RegistrationDate>
+        <RegistrationMark>LZ-ADM</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-33</DocNumber>
+          <DocDate>2009-04-23</DocDate>
+          <Description />
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>69</ActNumber>
+        <RegistrationNumber>69</RegistrationNumber>
+        <RegistrationDate>2006-09-15</RegistrationDate>
+        <RegistrationMark>LZ-ADM</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-30</DocNumber>
+          <DocDate>2008-04-24</DocDate>
+          <Description />
+        </RegistrationDocument>
+        <DeregistrationInfo>
+          <DeregistrationDate>2008-05-20</DeregistrationDate>
+          <DeregistrationDescription />
+        </DeregistrationInfo>
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>27</ActNumber>
+        <RegistrationNumber>27</RegistrationNumber>
+        <RegistrationDate>2004-05-21</RegistrationDate>
+        <RegistrationMark>LZ-ADM</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-09</DocNumber>
+          <DocDate>2003-02-21</DocDate>
+          <Description />
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+    </Registrations>
+    <Debts />
+  </Aircraft>
+  <Aircraft>
+    <Producer>
+      <Name>PZL, Р. Полша</Name>
+      <NameEn>PZL, R.of Poland</NameEn>
+      <CountryCode>PL</CountryCode>
+      <CountryName>Poland</CountryName>
+    </Producer>
+    <AirCategory>
+      <Code>SA</Code>
+      <Name>Small Aeroplane</Name>
+    </AirCategory>
+    <ICAO>AN2</ICAO>
+    <BGModelName>Антонов Ан-2</BGModelName>
+    <ENModelName>Antonov An-2</ENModelName>
+    <MSNSerialNumber>1G14901</MSNSerialNumber>
+    <Registrations>
+      <Registration>
+        <ActNumber>2569</ActNumber>
+        <RegistrationNumber>2555</RegistrationNumber>
+        <RegistrationDate>2015-08-20</RegistrationDate>
+        <RegistrationMark>LZ-ACM</RegistrationMark>
+        <IsLastRegistration>true</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>true</IsActiveRegistration>
+          <StatusCode>9</StatusCode>
+          <StatusName>Последна (действаща) регистрация</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-66</DocNumber>
+          <DocDate>2015-08-19</DocDate>
+          <Description>Писмо от Аероклуб Монтана; Заявление; Оригинални документи; Такса</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber>R-83-24</DocNumber>
+          <DocDate>2015-08-14</DocDate>
+          <Agreement>Договор от 13.08.2015 г. - безсрочен</Agreement>
+          <Lessor>
+            <Person />
+            <Entity>
+              <Name>Аероклуб Монтана</Name>
+            </Entity>
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>11156525</Identifier>
+              <Name>“Ава Скай” ЕООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>Аероклуб Монтана</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2555</ActNumber>
+        <RegistrationNumber>2555</RegistrationNumber>
+        <RegistrationDate>2015-06-17</RegistrationDate>
+        <RegistrationMark>LZ-ACM</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-33</DocNumber>
+          <DocDate>2015-05-28</DocDate>
+          <Description>Заявление; Договор 20.05.2015</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>Аероклуб Монтана</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>Аероклуб Монтана</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2109</ActNumber>
+        <RegistrationNumber>2109</RegistrationNumber>
+        <RegistrationDate>2006-09-15</RegistrationDate>
+        <RegistrationMark>LZ-ADY</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>45-01-308</DocNumber>
+          <DocDate>2012-09-10</DocDate>
+          <Description>Заявление 55-03-225/26.09.2007 за изваждане от САО и категория “Частен”</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo>
+          <DeregistrationDate>2012-09-10</DeregistrationDate>
+          <DeregistrationDescription />
+        </DeregistrationInfo>
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200119202</Identifier>
+              <Name>АВИОТЕХ</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123089443</Identifier>
+              <Name>"Авио Делта" ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2031</ActNumber>
+        <RegistrationNumber>2031</RegistrationNumber>
+        <RegistrationDate>2005-11-30</RegistrationDate>
+        <RegistrationMark>LZ-ADY</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-144</DocNumber>
+          <DocDate>2005-11-23</DocDate>
+          <Description>Договор за покупко продажба от 16.11.2005</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123758172</Identifier>
+              <Name>“Авио Делта Дизайн” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>1929</ActNumber>
+        <RegistrationNumber>1929</RegistrationNumber>
+        <RegistrationDate>2004-12-08</RegistrationDate>
+        <RegistrationMark>LZ-GVD</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-144</DocNumber>
+          <DocDate>2004-11-20</DocDate>
+          <Description />
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>ФОРТУНА  ЕЪР</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>ФОРТУНА  ЕЪР</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>1794</ActNumber>
+        <RegistrationNumber>1794</RegistrationNumber>
+        <RegistrationDate>2003-12-01</RegistrationDate>
+        <RegistrationMark>LZ-GVD</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-87</DocNumber>
+          <DocDate>2003-09-05</DocDate>
+          <Description>Постановление на ГО районен съд от 13.04.2001; Заявление № 55-02-117/27.11.2003 на “Ер Слайд”</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>104029445</Identifier>
+              <Name>ЕТ  “ЕР  КОНКОРД - ГАНЧО  ДАСКАЛОВ”</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>104029445</Identifier>
+              <Name>ЕТ  “ЕР  КОНКОРД - ГАНЧО  ДАСКАЛОВ”</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>1358</ActNumber>
+        <RegistrationNumber>1358</RegistrationNumber>
+        <RegistrationDate>1999-08-17</RegistrationDate>
+        <RegistrationMark>LZ-SNA</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber />
+          <Description />
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>“Ер Слайд”</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>“Ер Слайд”</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>443</ActNumber>
+        <RegistrationNumber>443</RegistrationNumber>
+        <RegistrationDate>1973-08-18</RegistrationDate>
+        <RegistrationMark>LZ-SNA</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber />
+          <Description />
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>ДСО “БГА” - “Балкан”</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>ДСО “БГА” - “Балкан”</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+    </Registrations>
+    <Debts>
+      <Debt>
+        <InputDate>2000-04-27</InputDate>
+        <DebtType>ЗАПОР</DebtType>
+        <IsActive>false</IsActive>
+        <Applicant>
+          <Name>Съдия изпълнител - Горна Оряховица</Name>
+        </Applicant>
+        <Document>
+          <IncomingNumber />
+          <ExternalNumber />
+        </Document>
+        <Repayment>
+          <RepaymentDocument>
+            <IncomingNumber />
+            <IncomingDate>2003-10-24</IncomingDate>
+            <ExternalNumber />
+          </RepaymentDocument>
+          <Notes>Писмо от 24.10.2003</Notes>
+        </Repayment>
+        <Notes>Изп.дело 302/2000</Notes>
+      </Debt>
+    </Debts>
+  </Aircraft>
+</AircraftsResponse>

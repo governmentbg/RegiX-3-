@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetCompanyInfoRequest xmlns="http://egov.bg/RegiX/CRC/IOOR/GetCompanyInfoRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CompanyName>String</CompanyName>
+  <CompanyType>String</CompanyType>
+  <EIK>String</EIK>
+  <Address>String</Address>
+  <WebPageAddress>String</WebPageAddress>
+  <PermissionNumber>String</PermissionNumber>
+  <IssueDateFrom>1967-08-13</IssueDateFrom>
+  <IssueDateTo>1967-08-13</IssueDateTo>
+  <EndOfActionFromDate>1967-08-13</EndOfActionFromDate>
+  <EndOfActionToDate>1967-08-13</EndOfActionToDate>
+  <RadioCompany>String</RadioCompany>
+</GetCompanyInfoRequest>

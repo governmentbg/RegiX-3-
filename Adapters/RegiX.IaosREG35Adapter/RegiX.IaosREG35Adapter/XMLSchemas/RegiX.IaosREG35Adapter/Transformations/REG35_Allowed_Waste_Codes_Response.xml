@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REG35_Allowed_Waste_Codes_Response xsi:schemaLocation="http://egov.bg/RegiX/IAOS/REG35/AllowedWasteCodesResponse REG35_Allowed_Waste_Codes_Response.xsd" xmlns="http://egov.bg/RegiX/IAOS/REG35/AllowedWasteCodesResponse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Stage>
+		<StageAddress>>гр. София, кв. Горубляне, ул. инж. Георги Белов 14</StageAddress>
+		<State>00</State>
+		<WasteCode>String</WasteCode>
+		<WasteCode>String</WasteCode>
+		<WasteCode>String</WasteCode>
+	</Stage>
+</REG35_Allowed_Waste_Codes_Response>

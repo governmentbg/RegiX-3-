@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetObligationDocumentsRequest xmlns="http://egov.bg/RegiX/MVR/ObligationDocuments/GetObligationDocumentsRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+	<documentType>TICKET</documentType>
+	<documentSeries>String</documentSeries>
+	<documentNumber>String</documentNumber>
+	<initialAmount>320</initialAmount>
+</GetObligationDocumentsRequest>

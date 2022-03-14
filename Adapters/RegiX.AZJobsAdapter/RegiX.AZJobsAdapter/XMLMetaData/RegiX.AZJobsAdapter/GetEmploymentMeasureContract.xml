@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.AZJobsAdapter.APIService.IAZJobsAPI.GetEmploymentMeasureContract</OperationName>
+  <Code>GetEmploymentMeasureContract</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>EmploymentMeasureContractRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/AZ/EmploymentMeasureContractRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка по ЕИК/БУЛСТАТ за сключен рамков договор с работодател по мярка за заетост</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>EntityID</ParameterName>
+        <ParameterLabel>Идентификатор на лице - ЕИК/БУЛСТАТ</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

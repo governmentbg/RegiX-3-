@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="regix2">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>data source=RegixProdMain;Failover partner=RegixProdMirror;initial catalog=regix2;persist security info=True;Integrated Security=true;MultipleActiveResultSets=True;App=SSRS</ConnectString>
+    <IntegratedSecurity>true</IntegratedSecurity>
+  </ConnectionProperties>
+  <DataSourceID>ff964d4d-b6f3-40d7-8e57-68fe94d362e5</DataSourceID>
+</RptDataSource>

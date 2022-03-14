@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <description>$description$</description>
+    <dependencies>
+      <dependency id="RegiX.Adapters.Common" version="1.0.70"  />
+      <dependency id="RegiX.Core.Interfaces" version="1.0.25" />
+      <dependency id="RegiX.Core.Data.Interfaces" version="1.0.13"/>
+      <dependency id="Mono.Cecil" version="0.11.3" />
+      <dependency id="System.Reflection.Metadata" version="5.0.0" />
+    </dependencies>
+  </metadata>
+</package>

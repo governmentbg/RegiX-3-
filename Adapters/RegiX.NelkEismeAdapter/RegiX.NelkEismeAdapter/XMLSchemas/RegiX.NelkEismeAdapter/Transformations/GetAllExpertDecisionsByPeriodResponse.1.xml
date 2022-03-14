@@ -1,0 +1,1036 @@
+﻿<GetAllExpertDecisionsByPeriodResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NELK/EISME">
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6903206386</PersonIdentifier>
+    <PersonNames>СВЕТОСЛАВ ОГНЯНОВ ПАНАЙОТОВ</PersonNames>
+    <RegistrationNumber>1703</RegistrationNumber>
+    <MeetingNumber>86</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2212</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8706056814</PersonIdentifier>
+    <PersonNames>ЛОРА РУМЕНОВА ДОЙЧИНОВА</PersonNames>
+    <RegistrationNumber>1619</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5805146640</PersonIdentifier>
+    <PersonNames>ГЕОРГИ ВАСИЛЕВ КОВАЧЕВ</PersonNames>
+    <RegistrationNumber>1611</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7807253297</PersonIdentifier>
+    <PersonNames>ЛИЛИЯ СЛАВЧЕВА ИЛИЕВА</PersonNames>
+    <RegistrationNumber>1438</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2217</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6006306880</PersonIdentifier>
+    <PersonNames>МАРТИН МАКОВ ЯНКОВ</PersonNames>
+    <RegistrationNumber>1434</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2217</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5512056488</PersonIdentifier>
+    <PersonNames>ВАСИЛ БОРИСОВ ЦВЕТАНОВ</PersonNames>
+    <RegistrationNumber>1443</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2217</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8412021919</PersonIdentifier>
+    <PersonNames>ЛИЛИЯ ВАЛЕНТИНОВА ВАРДОВА</PersonNames>
+    <RegistrationNumber>1444</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2217</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7208133817</PersonIdentifier>
+    <PersonNames>СВЕТЛА ПЕТРОВА АСЕНОВА</PersonNames>
+    <RegistrationNumber>1440</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2217</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6208306839</PersonIdentifier>
+    <PersonNames>ВАСИЛКА СТЕФАНОВА НОВАКОВА</PersonNames>
+    <RegistrationNumber>1436</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2217</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8706195091</PersonIdentifier>
+    <PersonNames>САНЕМ ГЮРСЕНОВА АХМЕДОВ</PersonNames>
+    <RegistrationNumber>1441</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2217</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5707013909</PersonIdentifier>
+    <PersonNames>СТОЯН ИВАНОВ ПЕТРОВ</PersonNames>
+    <RegistrationNumber>1447</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2217</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4506301732</PersonIdentifier>
+    <PersonNames>СЛАВКА ЦЕКОВА ЕНЧЕВА</PersonNames>
+    <RegistrationNumber>1439</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2217</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6102031432</PersonIdentifier>
+    <PersonNames>КРАСИМИРА ЧАВДАРОВА НЕНКОВА</PersonNames>
+    <RegistrationNumber>1445</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2217</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5505126766</PersonIdentifier>
+    <PersonNames>ХРИСТО ВЕНЕЛИНОВ АНДРЕЕВ</PersonNames>
+    <RegistrationNumber>1446</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2217</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8104081729</PersonIdentifier>
+    <PersonNames>Явор Валентинов Раденовски</PersonNames>
+    <RegistrationNumber>1435</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2217</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5512033076</PersonIdentifier>
+    <PersonNames>ЦЕНКА КОЦЕВА ТОНЧЕВА</PersonNames>
+    <RegistrationNumber>1437</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2217</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>9804236480</PersonIdentifier>
+    <PersonNames>Влади Стефанов Асенов</PersonNames>
+    <RegistrationNumber>1433</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2217</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6002108464</PersonIdentifier>
+    <PersonNames>Николай Димов Бойчев</PersonNames>
+    <RegistrationNumber>238</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6602101775</PersonIdentifier>
+    <PersonNames>Мариана Цанкова Цанкова-Костова</PersonNames>
+    <RegistrationNumber>1040</RegistrationNumber>
+    <MeetingNumber>80</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2218</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6607266490</PersonIdentifier>
+    <PersonNames>ЯВОРКА ДИМИТРОВА МИЛЕВА</PersonNames>
+    <RegistrationNumber>1033</RegistrationNumber>
+    <MeetingNumber>80</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2218</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4211156788</PersonIdentifier>
+    <PersonNames>СИМЕОН ТОДОРОВ ПЕТКОВ</PersonNames>
+    <RegistrationNumber>1030</RegistrationNumber>
+    <MeetingNumber>80</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2218</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7102225595</PersonIdentifier>
+    <PersonNames>НИКОЛЕТА ДОНЧЕВА ХАРАЛАНОВА</PersonNames>
+    <RegistrationNumber>1442</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2217</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7511011564</PersonIdentifier>
+    <PersonNames>НИКОЛАЙ ИВАНОВ НИКОЛОВ</PersonNames>
+    <RegistrationNumber>237</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7001195147</PersonIdentifier>
+    <PersonNames>ИВАЙЛО ДИМИТРОВ ЙОВЧЕВ</PersonNames>
+    <RegistrationNumber>240</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7504093044</PersonIdentifier>
+    <PersonNames>ЦВЕТАН НИКОЛОВ НИКОЛОВ</PersonNames>
+    <RegistrationNumber>235</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6204292228</PersonIdentifier>
+    <PersonNames>ИВЕЛИН ИВАНОВ ИВАНОВ</PersonNames>
+    <RegistrationNumber>239</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6510231562</PersonIdentifier>
+    <PersonNames>ГЕОРГИ ЙОРДАНОВ ГЕОРГИЕВ</PersonNames>
+    <RegistrationNumber>236</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5711216681</PersonIdentifier>
+    <PersonNames>БОРИСЛАВ ГЕОРГИЕВ БОЧЕВ</PersonNames>
+    <RegistrationNumber>1036</RegistrationNumber>
+    <MeetingNumber>80</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2218</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6101227035</PersonIdentifier>
+    <PersonNames>СИМКА ЙОРДАНОВА ЛАЗАРИКОВА</PersonNames>
+    <RegistrationNumber>1034</RegistrationNumber>
+    <MeetingNumber>80</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2218</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4704086807</PersonIdentifier>
+    <PersonNames>МИХАИЛ ВЕЛИЧКОВ ТРАЙКОВ</PersonNames>
+    <RegistrationNumber>1039</RegistrationNumber>
+    <MeetingNumber>80</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2218</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5305026939</PersonIdentifier>
+    <PersonNames>Мария Огнянова Димитрова</PersonNames>
+    <RegistrationNumber>1037</RegistrationNumber>
+    <MeetingNumber>80</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2218</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6702106507</PersonIdentifier>
+    <PersonNames>МАРИО ВЕЛКОВ АВРАМОВ</PersonNames>
+    <RegistrationNumber>1029</RegistrationNumber>
+    <MeetingNumber>80</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2218</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5203267023</PersonIdentifier>
+    <PersonNames>Симион Иванов Зашев</PersonNames>
+    <RegistrationNumber>1038</RegistrationNumber>
+    <MeetingNumber>80</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2218</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6912186261</PersonIdentifier>
+    <PersonNames>Николай Георгиев Петров</PersonNames>
+    <RegistrationNumber>1032</RegistrationNumber>
+    <MeetingNumber>80</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2218</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8007077164</PersonIdentifier>
+    <PersonNames>Бойко Тошков Борисов</PersonNames>
+    <RegistrationNumber>1407</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2215</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5511176811</PersonIdentifier>
+    <PersonNames>Марийка  Йорданова Евстатиева</PersonNames>
+    <RegistrationNumber>1414</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2215</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7404243351</PersonIdentifier>
+    <PersonNames>Гергана Веселинова Александрова</PersonNames>
+    <RegistrationNumber>1409</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2215</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8402206617</PersonIdentifier>
+    <PersonNames>Мартина Цветанова Александрова</PersonNames>
+    <RegistrationNumber>1412</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2215</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8404067953</PersonIdentifier>
+    <PersonNames>Мариела Живкова Георгиева</PersonNames>
+    <RegistrationNumber>1406</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2215</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5411046413</PersonIdentifier>
+    <PersonNames>Христина Борисова Панугова-Георгиева</PersonNames>
+    <RegistrationNumber>1408</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2215</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6210090864</PersonIdentifier>
+    <PersonNames>СТАЙКО ДИМИТРОВ СТАЙКОВ</PersonNames>
+    <RegistrationNumber>1218</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2216</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5603158578</PersonIdentifier>
+    <PersonNames>Саша Тодорова Александрова</PersonNames>
+    <RegistrationNumber>1217</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2216</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5612266261</PersonIdentifier>
+    <PersonNames>АНГЕЛ ИВАНОВ ПЕТРОВ</PersonNames>
+    <RegistrationNumber>1613</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7902282418</PersonIdentifier>
+    <PersonNames>ТОДОРКА ВЪЛКОВА ТОДОРОВА</PersonNames>
+    <RegistrationNumber>1612</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6207213449</PersonIdentifier>
+    <PersonNames>ЙОРДАН КУЗОВ ЙОРДАНОВ</PersonNames>
+    <RegistrationNumber>1600</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8802122866</PersonIdentifier>
+    <PersonNames>ВАСИЛ ДИМИТРОВ ДИМИТРОВ</PersonNames>
+    <RegistrationNumber>1596</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4509246264</PersonIdentifier>
+    <PersonNames>СТОЙЧО ГЕОРГИЕВ СТОЙЧЕВ</PersonNames>
+    <RegistrationNumber>1595</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5406217131</PersonIdentifier>
+    <PersonNames>ДИЛКА ГЮРОВА КИРЕВА</PersonNames>
+    <RegistrationNumber>1618</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5206107142</PersonIdentifier>
+    <PersonNames>АЛЕКСАНДЪР СТОИЛОВ СТОЯНЧОВ</PersonNames>
+    <RegistrationNumber>1604</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5403196502</PersonIdentifier>
+    <PersonNames>Тошко Дамянов Ацаров</PersonNames>
+    <RegistrationNumber>1509</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7405317037</PersonIdentifier>
+    <PersonNames>Светлана Игнатова</PersonNames>
+    <RegistrationNumber>1505</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6110033346</PersonIdentifier>
+    <PersonNames>САШКО ИВАНОВ ЗДРАВКОВ</PersonNames>
+    <RegistrationNumber>1514</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7212056834</PersonIdentifier>
+    <PersonNames>ВАНИНА ЕМИЛОВА ЛАЗАРОВА</PersonNames>
+    <RegistrationNumber>1500</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5312067063</PersonIdentifier>
+    <PersonNames>АЛЕКСАНДЪР ХРИСТОВ АТАНАСОВ</PersonNames>
+    <RegistrationNumber>1503</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4705256852</PersonIdentifier>
+    <PersonNames>РАДКА ИВАНОВА ПИТЕКОВА</PersonNames>
+    <RegistrationNumber>1519</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5712147060</PersonIdentifier>
+    <PersonNames>ИВАН ГЕОРГИЕВ ВЕЛКОВ</PersonNames>
+    <RegistrationNumber>1484</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5712106821</PersonIdentifier>
+    <PersonNames>СЕРАФИМ МИХАЙЛОВ ПЕШЕВ</PersonNames>
+    <RegistrationNumber>1517</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6206226483</PersonIdentifier>
+    <PersonNames>ЮЛИЯН ФИЛИПОВ ТОДОРОВ</PersonNames>
+    <RegistrationNumber>1476</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6810025182</PersonIdentifier>
+    <PersonNames>Русан Пенчев Динков</PersonNames>
+    <RegistrationNumber>1474</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5712166923</PersonIdentifier>
+    <PersonNames>Кирил Велинов Палакарчев</PersonNames>
+    <RegistrationNumber>1508</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5206231997</PersonIdentifier>
+    <PersonNames>НИКОЛИНА ВАСИЛЕВА ИЛИЕВА</PersonNames>
+    <RegistrationNumber>1481</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6009024508</PersonIdentifier>
+    <PersonNames>ИВАН ГЕОРГИЕВ БЛАГОВ</PersonNames>
+    <RegistrationNumber>1491</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6011127425</PersonIdentifier>
+    <PersonNames>АНГЕЛ МЕТОДИЕВ ГЕОРГИЕВ</PersonNames>
+    <RegistrationNumber>1498</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5802026276</PersonIdentifier>
+    <PersonNames>ВАСИЛКА КОСТАДИНОВА ЖИВКОВА</PersonNames>
+    <RegistrationNumber>1487</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5808086483</PersonIdentifier>
+    <PersonNames>ЛЮДМИЛ ЖИВКОВ СТОЯНОВ</PersonNames>
+    <RegistrationNumber>1506</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6311156851</PersonIdentifier>
+    <PersonNames>Юлия Христова Андреева</PersonNames>
+    <RegistrationNumber>1031</RegistrationNumber>
+    <MeetingNumber>80</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2218</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4311077023</PersonIdentifier>
+    <PersonNames>Константин Георгиев Николов</PersonNames>
+    <RegistrationNumber>1035</RegistrationNumber>
+    <MeetingNumber>80</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2218</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6101231924</PersonIdentifier>
+    <PersonNames>Дарин Христов Георгиев</PersonNames>
+    <RegistrationNumber>1417</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2215</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7605253069</PersonIdentifier>
+    <PersonNames>Красимир Нешев Стойчев</PersonNames>
+    <RegistrationNumber>1415</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2215</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6610096384</PersonIdentifier>
+    <PersonNames>АНТОНИО ВАНГЕЛОВ ВАНГЕЛОВ</PersonNames>
+    <RegistrationNumber>1416</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2215</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6603293918</PersonIdentifier>
+    <PersonNames>Капка Стоилова Алексиева</PersonNames>
+    <RegistrationNumber>1413</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2215</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7312057027</PersonIdentifier>
+    <PersonNames>Живко Момчилов Георгиев</PersonNames>
+    <RegistrationNumber>1410</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2215</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5311016668</PersonIdentifier>
+    <PersonNames>Сокол Кирилов Соколов</PersonNames>
+    <RegistrationNumber>1411</RegistrationNumber>
+    <MeetingNumber>78</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2215</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>2006206800</PersonIdentifier>
+    <PersonNames>ДИМИТЪР ХРИСТОВ ЛАМБРИНОВ</PersonNames>
+    <RegistrationNumber>1213</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2216</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6311146283</PersonIdentifier>
+    <PersonNames>ВАЛЕРИ ЖИВКОВ СТОИЛОВ</PersonNames>
+    <RegistrationNumber>1216</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2216</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>0051146378</PersonIdentifier>
+    <PersonNames>САРА СТОИЛОВА КОЕН</PersonNames>
+    <RegistrationNumber>1219</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2216</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6210317259</PersonIdentifier>
+    <PersonNames>ВЕЛКА НИКОЛОВА ЦЕКОВА</PersonNames>
+    <RegistrationNumber>1212</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2216</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5509297371</PersonIdentifier>
+    <PersonNames>ЛИЛЯНА ГРИГОРОВА ТОДОРОВА</PersonNames>
+    <RegistrationNumber>1215</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2216</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5209136397</PersonIdentifier>
+    <PersonNames>ПАВЛИНА БОРИСОВА КУЗОВА</PersonNames>
+    <RegistrationNumber>1220</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2216</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6501261899</PersonIdentifier>
+    <PersonNames>ТАНЯ ВАСИЛЕВА ДИНКОВА</PersonNames>
+    <RegistrationNumber>1485</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>9203266750</PersonIdentifier>
+    <PersonNames>МИХАЕЛА ГЕОРГИЕВА АСЕНОВА</PersonNames>
+    <RegistrationNumber>1214</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2216</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7108016669</PersonIdentifier>
+    <PersonNames>ИВО ЙОРДАНОВ СИМЕОНОВ</PersonNames>
+    <RegistrationNumber>1614</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8712018536</PersonIdentifier>
+    <PersonNames>ЦВЕТЕЛИНА ДОБРОМИРОВА ДИМИТРОВА</PersonNames>
+    <RegistrationNumber>1605</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7412296658</PersonIdentifier>
+    <PersonNames>ПЕТЯ ГЕОРГИЕУВА АВРОНЕВА</PersonNames>
+    <RegistrationNumber>1609</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6007096643</PersonIdentifier>
+    <PersonNames>ИВАН ПЕТРОВ ДИМИТРОВ</PersonNames>
+    <RegistrationNumber>1599</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>9104302837</PersonIdentifier>
+    <PersonNames>АНЕЛ ЙОРДАНОВА ЙОРДАНОВА</PersonNames>
+    <RegistrationNumber>1617</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6307303905</PersonIdentifier>
+    <PersonNames>КРАСИМИР АСЕНОВ ГЕОРГИЕВ</PersonNames>
+    <RegistrationNumber>1602</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>0152026410</PersonIdentifier>
+    <PersonNames>СИЕЛА АСЕВА МИЛАНОВА</PersonNames>
+    <RegistrationNumber>1606</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7010286677</PersonIdentifier>
+    <PersonNames>СТАНИСЛАВА ЛЮБЧОВА ГАРОВА</PersonNames>
+    <RegistrationNumber>1620</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4910226269</PersonIdentifier>
+    <PersonNames>БОГДАН СЛАВЕВ ПЕНЕВ</PersonNames>
+    <RegistrationNumber>1615</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6806076359</PersonIdentifier>
+    <PersonNames>ЕЛЕОНОРА МАЕВА БОЧЕВА</PersonNames>
+    <RegistrationNumber>1601</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6112254217</PersonIdentifier>
+    <PersonNames>ЛИЛИЯ ЦАЧЕВА МИТОВА</PersonNames>
+    <RegistrationNumber>1598</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6905126762</PersonIdentifier>
+    <PersonNames>ВАЛЕНТИН ВЛАДИМИРОВ САПУНДЖИЕВ</PersonNames>
+    <RegistrationNumber>1597</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4011147222</PersonIdentifier>
+    <PersonNames>ЕНЧО ВЕЛИНОВ НАЙДЕНОВ</PersonNames>
+    <RegistrationNumber>1616</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7011276950</PersonIdentifier>
+    <PersonNames>ЕВГЕНИЯ ЕВЛОГИЕВА ЗАХАРИЕВА</PersonNames>
+    <RegistrationNumber>1603</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6111232390</PersonIdentifier>
+    <PersonNames>АНТОНИЯ ХРИСТОВА ЕМИЛОВА</PersonNames>
+    <RegistrationNumber>1607</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8607289397</PersonIdentifier>
+    <PersonNames>ИРЕНА ГЕОРГИЕВА ИВАНОВА</PersonNames>
+    <RegistrationNumber>1610</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8201177040</PersonIdentifier>
+    <PersonNames>Николай Пламенов Динев</PersonNames>
+    <RegistrationNumber>1608</RegistrationNumber>
+    <MeetingNumber>79</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2210</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6810313980</PersonIdentifier>
+    <PersonNames>ИВАН НИКОЛОВ ЦОНЕВ</PersonNames>
+    <RegistrationNumber>1482</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6610126771</PersonIdentifier>
+    <PersonNames>ПАВЛИНКА ГЕОРГИЕВА ТОШЕВА</PersonNames>
+    <RegistrationNumber>1488</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5409136244</PersonIdentifier>
+    <PersonNames>ЛЪЧЕЗАР ДИМОВ ДИМОВ</PersonNames>
+    <RegistrationNumber>1502</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4203106794</PersonIdentifier>
+    <PersonNames>СНЕЖИНА КОСТАДИНОВА ЙОРДАНОВА</PersonNames>
+    <RegistrationNumber>1495</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5811126806</PersonIdentifier>
+    <PersonNames>АТАНАС ДИМИТРОВ ТРИФОНОВ</PersonNames>
+    <RegistrationNumber>1515</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5708061943</PersonIdentifier>
+    <PersonNames>ИЛКО ГЕОРГИЕВ ЙОЛОВ</PersonNames>
+    <RegistrationNumber>1496</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7106266571</PersonIdentifier>
+    <PersonNames>СНЕЖАНА МЕТОДИЕВА МЕТОДИЕВА</PersonNames>
+    <RegistrationNumber>1475</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7111271926</PersonIdentifier>
+    <PersonNames>МИХАИЛ СТЕФЧОВ МИХАЙЛОВ</PersonNames>
+    <RegistrationNumber>1489</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5812126380</PersonIdentifier>
+    <PersonNames>ОГНЯН ДИМИТРОВ ДИАМАНДИЕВ</PersonNames>
+    <RegistrationNumber>1483</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7101206651</PersonIdentifier>
+    <PersonNames>ТЕОДОРА БОЯНОВА МИХОВА</PersonNames>
+    <RegistrationNumber>1513</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>4908106513</PersonIdentifier>
+    <PersonNames>ВАСИЛКА СТАМЕНОВА АРСОВА</PersonNames>
+    <RegistrationNumber>1493</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6912137293</PersonIdentifier>
+    <PersonNames>АНТОАНЕТА ГЕОРГИЕВА БОРИСОВА</PersonNames>
+    <RegistrationNumber>1479</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7110057020</PersonIdentifier>
+    <PersonNames>ЮЛИЯН МИЛЧЕВ КЬОСЕВ</PersonNames>
+    <RegistrationNumber>1510</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>8802096725</PersonIdentifier>
+    <PersonNames>МАРИО СТЕФАНОВ СТОЯНОВ</PersonNames>
+    <RegistrationNumber>1511</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5606163460</PersonIdentifier>
+    <PersonNames>СТОЙЧО ИВАНОВ ИЛКОВ</PersonNames>
+    <RegistrationNumber>1504</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7109217185</PersonIdentifier>
+    <PersonNames>ВЕСЕЛИН ДИМИТРОВ ЛАЗАРОВ</PersonNames>
+    <RegistrationNumber>1492</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5801307371</PersonIdentifier>
+    <PersonNames>АНЕЛИЯ ВЛАДИМИРОВА МЕЛЕНКОВА</PersonNames>
+    <RegistrationNumber>1518</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6401086663</PersonIdentifier>
+    <PersonNames>ЛЪЧЕЗАР СТЕФАНОВ КОСТОВ</PersonNames>
+    <RegistrationNumber>1486</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7306027050</PersonIdentifier>
+    <PersonNames>ВИКТОРИЯ КИРИЛОВА ГЕОРГИЕВА</PersonNames>
+    <RegistrationNumber>1521</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>3708158190</PersonIdentifier>
+    <PersonNames>МАРИЯ ГОСПОДИНОВА ПЕЙЧЕВА-КУРТЕВА</PersonNames>
+    <RegistrationNumber>1520</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7710146921</PersonIdentifier>
+    <PersonNames>ДРАГОМИР РУМЕНОВ ВУЧКОВ</PersonNames>
+    <RegistrationNumber>1497</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6307306925</PersonIdentifier>
+    <PersonNames>ВАЛЕРИ НИКОЛОВ АЛЕКСАНДРОВ</PersonNames>
+    <RegistrationNumber>1516</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5810256430</PersonIdentifier>
+    <PersonNames>МАРГАРИТА ВЕСЕЛИНОВА НАЙДЕНОВА</PersonNames>
+    <RegistrationNumber>1480</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5805012949</PersonIdentifier>
+    <PersonNames>КРАСИМИР ВАСИЛЕВ МАНЧЕВ</PersonNames>
+    <RegistrationNumber>1490</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6507216860</PersonIdentifier>
+    <PersonNames>КОСТАДИН ХРИСТОВ ПАНОВ</PersonNames>
+    <RegistrationNumber>1501</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5509247072</PersonIdentifier>
+    <PersonNames>МЕРИ АСЕНОВА МАРИНОВА</PersonNames>
+    <RegistrationNumber>1507</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5712276598</PersonIdentifier>
+    <PersonNames>ВАСИЛКА АТАНАСОВА АЦЕВА</PersonNames>
+    <RegistrationNumber>1477</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6703156565</PersonIdentifier>
+    <PersonNames>ДИМИТЪР САШКОВ МЕТОДИЕВ</PersonNames>
+    <RegistrationNumber>1478</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>6202043479</PersonIdentifier>
+    <PersonNames>ВАСИЛКА ПЕТРОВА ПЕШЕВА</PersonNames>
+    <RegistrationNumber>1494</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5401037142</PersonIdentifier>
+    <PersonNames>ЙОРДАН ИВАНОВ САНДОВ</PersonNames>
+    <RegistrationNumber>1512</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>7502277037</PersonIdentifier>
+    <PersonNames>ЕЛЕНА ИВАНОВА АНТОВА</PersonNames>
+    <RegistrationNumber>1473</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+  <ExpertDesisionShortInfo>
+    <PersonIdentifier>5705226382</PersonIdentifier>
+    <PersonNames>КОНСТАНТИН СТЕФАНОВ ДУНДАРОВ</PersonNames>
+    <RegistrationNumber>1499</RegistrationNumber>
+    <MeetingNumber>77</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionCode>2211</CommissionCode>
+  </ExpertDesisionShortInfo>
+</GetAllExpertDecisionsByPeriodResponse>

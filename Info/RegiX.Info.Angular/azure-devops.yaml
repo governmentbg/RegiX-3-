@@ -1,0 +1,71 @@
+resources:
+- repo: self
+queue:
+  name: RegiX
+steps:
+- powershell: |
+    # Matches ###PAT### string.
+    $regex = "(##PAT##)"
+    # File contents to be replaced
+    $fileName = "$(Build.Repository.LocalPath)\RegiXInfo\.npmrc"
+    # Iterates through all the file's lines
+    $tmp = Get-Content $fileName | `
+    foreach `
+    { `
+        [regex]::replace($_,$regex, "$(npmrc.pat)") `
+    }
+    # Update the .npmrc PAT token
+    Set-Content $fileName $tmp
+  displayName: 'Replace PAT in .npmrc'
+#- task: PowerShell@2
+#  inputs:
+#    targetType: 'inline'
+#    script: 'Set-Content -Path "$(Build.Repository.LocalPath)\RegiXInfo\src\assets\config.properties.json" -Value "{ ""serviceUrl"": ""https://172.16.69.13:8091/RegiX.Info.API"" }"'    
+# MISSING TASK IN AZURE-DEVOPS (In our installation)
+# - task: FileTransform@1
+#   inputs:
+#     folderPath: '$(Build.Repository.LocalPath)\RegiXInfo\dist\RegiXInfo\assets'
+#     targetFiles: 'config.properties.json'
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      cd RegiXInfo
+      npm version 1.$(Build.BuildNumber)
+- task: Npm@1
+  displayName: 'npm install'
+  inputs:
+    workingDir: '$(Build.Repository.LocalPath)\RegiXInfo'
+    command: 'install'
+- task: Npm@1
+  displayName: 'npm set version'
+  inputs:
+    workingDir: '$(Build.Repository.LocalPath)\RegiXInfo'
+    command: 'custom'
+    customCommand: 'version 1.$(Build.BuildNumber) --allow-same-version'
+- task: Npm@1
+  displayName: 'npm build'
+  inputs:
+    workingDir: '$(Build.Repository.LocalPath)\RegiXInfo'
+    command: 'custom'
+    customCommand: 'run real-prod'
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      Remove-Item $(Build.Repository.LocalPath)\RegiXInfo\dist\RegiXInfo\*.ver   
+      New-Item -Path $(Build.Repository.LocalPath)\RegiXInfo\dist\RegiXInfo -Name "1.$(Build.BuildNumber).ver"
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: RegiX.Info.Angular'
+  inputs:
+    artifactName: 'RegiX.Info.Angular'
+    PathtoPublish: '$(Build.Repository.LocalPath)\RegiXInfo\dist\RegiXInfo'
+#- task: WindowsMachineFileCopy@2
+#  inputs:
+#    sourcePath: '$(Build.Repository.LocalPath)\RegiXInfo\dist\RegiXInfo'
+#    machineNames: '172.16.69.13'
+#    adminUserName: '$(RegiX.Adapters.AdminUserName)'
+#    adminPassword: '$(RegiX.Adapters.AdminUserPassword)'
+#    targetPath: 'C:\RegiX3\RegiX.Info.Angular'
+#    cleanTargetBeforeCopy: true
+#    copyFilesInParallel: true

@@ -1,0 +1,4 @@
+Install-Package RegiX.RDSOAdapter
+Install-Package RegiX.NapooStudentDocumentsAdapter
+Install-Package RegiX.MonChildSchoolStudentsAdapter
+Install-Package RegiX.MonStudentsAdapter

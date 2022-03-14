@@ -1,0 +1,37 @@
+<PermitVehiclesResponse xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters/PermitVehiclesResponse">
+  <Permits>
+    <Permit>
+      <Number>1</Number>
+      <IssueDate>2015-08-21</IssueDate>
+      <ValidTo>2015-08-21</ValidTo>
+      <CompanyFullName>full name</CompanyFullName>
+      <CompanyIdentNumber>identity number</CompanyIdentNumber>
+      <Vehicles>
+        <Vehicle>
+          <RegNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">registration number</RegNumber>
+          <Make xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">make</Make>
+          <IdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">identity number</IdentNumber>
+          <Categories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">categories</Categories>
+          <ProtocolNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">protocol number</ProtocolNumber>
+          <ProtocolDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-08-21</ProtocolDate>
+          <MaximumDesignSpeed xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1</MaximumDesignSpeed>
+          <MaxPermittedDefinedMass xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1</MaxPermittedDefinedMass>
+          <SeatPlaces xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">seat places</SeatPlaces>
+          <Width xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.1</Width>
+          <Length xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.1</Length>
+          <Gears xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1</Gears>
+          <HasABS xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasABS>
+          <HasTachograph xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasTachograph>
+          <CargoDepartmentWidth xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.1</CargoDepartmentWidth>
+          <CargoDepartmentHeight xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.1</CargoDepartmentHeight>
+          <MaxPower xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1</MaxPower>
+          <Code78 xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</Code78>
+          <EngineCapacity xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">10</EngineCapacity>
+          <PowerToWeightRatio xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.1</PowerToWeightRatio>
+          <CertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">number</CertificateNumber>
+          <CertificateDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-08-21</CertificateDate>
+        </Vehicle>
+      </Vehicles>
+    </Permit>
+  </Permits>
+</PermitVehiclesResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Result">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Header">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="RequestNumber" type="xs:int"/>
+							<xs:element name="Size" type="xs:int"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Data">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DataItem" maxOccurs="99999" >
+							<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Row" type="xs:int" />
+										<xs:element name="Identificator" type="xs:string" minOccurs="1" />
+										<xs:element name="isRegistered" type="Flag"/>
+										<xs:element name="FosterParent" type="Flag"/>
+										<xs:element name="HasTelk" type="Flag"/>
+										<xs:element name="ContractNumber" type="xs:string" minOccurs="0" />
+										<xs:element name="ContractDate" type="xs:date" minOccurs="0"/>
+										<xs:element name="ConstractStartDate" type="xs:date"  minOccurs="0"/>
+										<xs:element name="ConstractEndDate" type="xs:date"  minOccurs="0"/>
+										<xs:element name="ContracClosingDate" type="xs:date"  minOccurs="0"/>
+										<xs:element name="Amount" type="xs:double"  minOccurs="0" />
+										<xs:element name="ChildIndentificator" type="xs:string" minOccurs="0" />
+										<xs:element name="IsChildRegistered" type="Flag"/>
+										<xs:element name="IsRegisteredInRisk" type="Flag"/>
+										<xs:element name="IsSettled" type="Flag"/>
+										<xs:element name="IsSettledEver" type="Flag"/>
+										<xs:element name="SattleDate" type="xs:date"  minOccurs="0" />
+										<xs:element name="SattleEndDate" type="xs:date" minOccurs="0" />
+										<xs:element name="hasChildTelk" type="Flag"/>
+										<xs:element name="ChildAmount" type="xs:double" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="Flag">
+		<xs:annotation>
+			<xs:documentation>Flag</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:nonNegativeInteger">
+			<xs:enumeration value="0">
+				<xs:annotation>
+					<xs:documentation>No or False</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="1">
+				<xs:annotation>
+					<xs:documentation>Yes or True</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>

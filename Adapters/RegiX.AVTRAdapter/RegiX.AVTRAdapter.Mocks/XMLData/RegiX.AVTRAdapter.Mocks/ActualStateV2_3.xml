@@ -1,0 +1,311 @@
+ <ActualStateResponseV2 xmlns="http://egov.bg/RegiX/AV/TR/ActualStateResponseV2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <Deed>
+                <DeedStatus>E</DeedStatus>
+                <CompanyName>ТРИМ ЛМ в ликвидация</CompanyName>
+                <GUID>4b7acaff40d84b35abdc4d47b9cb48e5</GUID>
+                <UIC>130384223</UIC>
+                <LegalForm>OOD</LegalForm>
+                <CaseNo>11990</CaseNo>
+                <CaseYear>2000</CaseYear>
+                <CourtNo>110</CourtNo>
+                <LiquidationOrInsolvency>Liquidation</LiquidationOrInsolvency>
+                <Records>
+                  <Record>
+                    <RecordData>
+                      <UIC uic="130384223" IsNew="true">
+                        <CompanyControl>ТРИМ ЛМ в ликвидация</CompanyControl>
+                        <BulstatDeed>
+                          <Deed>11990</Deed>
+                          <Year>2000</Year>
+                          <CourtCode>110</CourtCode>
+                        </BulstatDeed>
+                      </UIC>
+                    </RecordData>
+                    <RecordId>1694301</RecordId>
+                    <IncomingId>310082</IncomingId>
+                    <FieldIdent>00010</FieldIdent>
+                    <MainField>
+                      <GroupId>45</GroupId>
+                      <GroupName>Идентификация</GroupName>
+                      <SectionId>414</SectionId>
+                      <SectionName>Обща информация</SectionName>
+                      <MainFieldIdent>00010</MainFieldIdent>
+                      <MainFieldCode>1</MainFieldCode>
+                      <MainFieldName>ЕИК/ПИК</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080618152141</FieldEntryNumber>
+                    <FieldActionDate>2008-06-18T15:21:41</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Company>ТРИМ ЛМ в ликвидация</Company>
+                    </RecordData>
+                    <RecordId>1694302</RecordId>
+                    <IncomingId>310082</IncomingId>
+                    <FieldIdent>00020</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00020</MainFieldIdent>
+                      <MainFieldCode>2</MainFieldCode>
+                      <MainFieldName>Фирма</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080618152141</FieldEntryNumber>
+                    <FieldActionDate>2008-06-18T15:21:41</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <LegalForm Text="Дружество с ограничена отговорност" Code="4" />
+                    </RecordData>
+                    <RecordId>1694305</RecordId>
+                    <IncomingId>310082</IncomingId>
+                    <FieldIdent>00030</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00030</MainFieldIdent>
+                      <MainFieldCode>3</MainFieldCode>
+                      <MainFieldName>Правна форма</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080618152141</FieldEntryNumber>
+                    <FieldActionDate>2008-06-18T15:21:41</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Seat>
+                        <Address>
+                          <CountryID>1</CountryID>
+                          <CountryCode>BGR</CountryCode>
+                          <Country>БЪЛГАРИЯ</Country>
+                          <IsForeign>false</IsForeign>
+                          <DistrictID>1</DistrictID>
+                          <DistrictEkatte>SOF</DistrictEkatte>
+                          <District>София (столица)</District>
+                          <Municipalityid>1</Municipalityid>
+                          <MunicipalityEkatte>SOF46</MunicipalityEkatte>
+                          <Municipality>Столична</Municipality>
+                          <SettlementID>1</SettlementID>
+                          <SettlementEKATTE>68134</SettlementEKATTE>
+                          <Settlement>гр. София</Settlement>
+                          <AreaID>5362</AreaID>
+                          <Area>р-н Люлин</Area>
+                          <AreaEkatte>68134-19</AreaEkatte>
+                          <PostCode>1336</PostCode>
+                          <ForeignPlace />
+                          <HousingEstate>"Люлин"</HousingEstate>
+                          <Street>бл. 330 вх.Ж ет.4 ап.137</Street>
+                          <StreetNumber />
+                          <Block />
+                          <Entrance />
+                          <Floor />
+                          <Apartment />
+                        </Address>
+                        <Contacts>
+                          <Phone />
+                          <Fax />
+                          <EMail />
+                          <URL />
+                        </Contacts>
+                      </Seat>
+                    </RecordData>
+                    <RecordId>1694303</RecordId>
+                    <IncomingId>310082</IncomingId>
+                    <FieldIdent>00050</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00050</MainFieldIdent>
+                      <MainFieldCode>5</MainFieldCode>
+                      <MainFieldName>Седалище и адрес на управление</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080618152141</FieldEntryNumber>
+                    <FieldActionDate>2008-06-18T15:21:41</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <SubjectOfActivity>ПОКУПКА НА СТОКИ ИЛИ ДРУГИ ВЕЩИ С ЦЕЛ ДА ГИ ПРЕПРОДАДЕ В ПЪРВОНАЧАЛЕН, ПРЕРАБОТЕН ИЛИ ОБРАБОТЕН ВИД; ПРОДАЖБА НА СТОКИ ОТ СОБСТВЕНО ПРОИЗВОДСТВО; ТЪРГОВСКО ПРЕДСТАВИТЕЛСТВО И ПОСРЕДНИЧЕСТВО; КОМИСИОННИ, СПЕДИЦИОННИ И ПРЕВОЗНИ СДЕЛКИ, ТРАНСПОРТНА ДЕЙНОСТ И УСЛУГИ, ВНОС НА АВТОМОБИЛИ И РЕЗЕРВНИ ЧАСТИ ЗА ТЯХ; СКЛАДОВИ СДЕЛКИ, СТОКОВ КОНТРОЛ, СДЕЛКИ С ИНТЕЛЕКТУАЛНА СОБСТВЕНОСТ; ХОТЕЛИЕРСКИ, ТУРИСТИЧЕСКИ, РЕКЛАМНИ, ИНФОРМАЦИОННИ, ПРОГРАМНИ, ИМПРЕСАРСКИ ИЛИ ДРУГИ УСЛУГИ; ПОКУПКА, СТРОЕЖ ИЛИ ОБЗАВЕЖДАНЕ НА НЕДВИЖИМИ ИМОТИ С ЦЕЛ ПРОДАЖБА; ЛИЗИНГ; ВСЯКАКВА ДРУГА СТОПАНСКА ДЕЙНОСТ С ИЗКЛЮЧЕНИЕ НА ДЕЙНОСТИТЕ, ЗАРБАНЕНИ СЪС ЗАКОН.</SubjectOfActivity>
+                    </RecordData>
+                    <RecordId>1694304</RecordId>
+                    <IncomingId>310082</IncomingId>
+                    <FieldIdent>00060</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00060</MainFieldIdent>
+                      <MainFieldCode>6</MainFieldCode>
+                      <MainFieldName>Предмет на дейност</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080618152141</FieldEntryNumber>
+                    <FieldActionDate>2008-06-18T15:21:41</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Manager>
+                        <Person IsForeignTraderText="0">
+                          <Indent>4141414140</Indent>
+                          <Name>ТОДОР ТРИФОНОВ МИРЧЕВ - ЛИКВИДАТОР</Name>
+                          <IndentType>EGN</IndentType>
+                        </Person>
+                      </Manager>
+                    </RecordData>
+                    <RecordId>1694812</RecordId>
+                    <IncomingId>310082</IncomingId>
+                    <FieldIdent>000700</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00070</MainFieldIdent>
+                      <MainFieldCode>7</MainFieldCode>
+                      <MainFieldName>Управители</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080618152141</FieldEntryNumber>
+                    <FieldActionDate>2008-06-18T15:21:41</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Partner share="2500">
+                        <Subject IsForeignTraderText="0">
+                          <Indent>4141414140</Indent>
+                          <Name>ТОДОР ТРИФОНОВ МИРЧЕВ</Name>
+                          <IndentType>EGN</IndentType>
+                        </Subject>
+                      </Partner>
+                    </RecordData>
+                    <RecordId>1694879</RecordId>
+                    <IncomingId>310082</IncomingId>
+                    <FieldIdent>001900</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00190</MainFieldIdent>
+                      <MainFieldCode>19</MainFieldCode>
+                      <MainFieldName>Съдружници</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080618152141</FieldEntryNumber>
+                    <FieldActionDate>2008-06-18T15:21:41</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Partner share="2500">
+                        <Subject IsForeignTraderText="0">
+                          <Indent>5858585850</Indent>
+                          <Name>ИВАН НИКОЛОВ ЛЕСКОВ</Name>
+                          <IndentType>EGN</IndentType>
+                        </Subject>
+                      </Partner>
+                    </RecordData>
+                    <RecordId>1694880</RecordId>
+                    <IncomingId>310082</IncomingId>
+                    <FieldIdent>001900</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00190</MainFieldIdent>
+                      <MainFieldCode>19</MainFieldCode>
+                      <MainFieldName>Съдружници</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080618152141</FieldEntryNumber>
+                    <FieldActionDate>2008-06-18T15:21:41</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Funds>5000</Funds>
+                    </RecordData>
+                    <RecordId>1694888</RecordId>
+                    <IncomingId>310082</IncomingId>
+                    <FieldIdent>00310</FieldIdent>
+                    <MainField>
+                      <GroupId>16</GroupId>
+                      <GroupName>Капитал</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00310</MainFieldIdent>
+                      <MainFieldCode>31</MainFieldCode>
+                      <MainFieldName>Размер</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080618152141</FieldEntryNumber>
+                    <FieldActionDate>2008-06-18T15:21:41</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <DepositedFunds>5000</DepositedFunds>
+                    </RecordData>
+                    <RecordId>1694889</RecordId>
+                    <IncomingId>310082</IncomingId>
+                    <FieldIdent>00320</FieldIdent>
+                    <MainField>
+                      <GroupId>16</GroupId>
+                      <GroupName>Капитал</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00320</MainFieldIdent>
+                      <MainFieldCode>32</MainFieldCode>
+                      <MainFieldName>Внесен капитал</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080618152141</FieldEntryNumber>
+                    <FieldActionDate>2008-06-18T15:21:41</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <TermsOfLiquidation TermType="" LiquidationProceedings="false" ChangeCircumstances="false" />
+                    </RecordData>
+                    <RecordId>148671340</RecordId>
+                    <IncomingId>1150464</IncomingId>
+                    <FieldIdent>05010</FieldIdent>
+                    <MainField>
+                      <GroupId>38</GroupId>
+                      <GroupName>Производство по ликвидация</GroupName>
+                      <SectionId>7</SectionId>
+                      <SectionName>Ликвидация</SectionName>
+                      <MainFieldIdent>05010</MainFieldIdent>
+                      <MainFieldCode>501</MainFieldCode>
+                      <MainFieldName>Срок на ликвидацията</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20081010151353</FieldEntryNumber>
+                    <FieldActionDate>2008-10-10T15:13:53</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Liquidator>
+                        <Subject CompetentAuthorityForRegistration="" RegistrationNumber="" IsForeignTraderText="0">
+                          <Indent>4141414140</Indent>
+                          <Name>ТОДОР ТРИФОНОВ МИРЧЕВ</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID>1</CountryID>
+                          <CountryName>БЪЛГАРИЯ</CountryName>
+                        </Subject>
+                      </Liquidator>
+                    </RecordData>
+                    <RecordId>148672387</RecordId>
+                    <IncomingId>21867020</IncomingId>
+                    <FieldIdent>050200</FieldIdent>
+                    <MainField>
+                      <GroupId>38</GroupId>
+                      <GroupName>Производство по ликвидация</GroupName>
+                      <SectionId>7</SectionId>
+                      <SectionName>Ликвидация</SectionName>
+                      <MainFieldIdent>05020</MainFieldIdent>
+                      <MainFieldCode>502</MainFieldCode>
+                      <MainFieldName>Ликвидатори</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20161020134235</FieldEntryNumber>
+                    <FieldActionDate>2016-10-20T13:42:35</FieldActionDate>
+                  </Record>
+                </Records>
+              </Deed>
+              <DataValidForDate>2017-06-05T10:35:01.0864751+03:00</DataValidForDate>
+            </ActualStateResponseV2>

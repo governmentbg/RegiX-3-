@@ -1,0 +1,42 @@
+<ExampleResponse 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+        xmlns="http://egov.bg/RegiX/Dummy/ExampleResponse">
+        <StringData>string value</StringData>
+        <IntData>0</IntData>
+        <ListData>
+          <ListElement>
+            <Count>1</Count>
+            <Minucipality>Municipality</Minucipality>
+            <Area>Area</Area>
+            <Town>Town</Town>
+            <District>District</District>
+            <Address>Address</Address>
+          </ListElement>
+          <ListElement>
+            <Count>2</Count>
+            <Minucipality>Municipality</Minucipality>
+            <Area>321</Area>
+            <Town>Town</Town>
+            <District>District</District>
+            <Address>123</Address>
+          </ListElement>
+          <ListElement>
+            <Count>2</Count>
+            <Minucipality>string value</Minucipality>
+            <Area>string value</Area>
+            <Town>string value</Town>
+            <District>string value</District>
+            <Address>string value</Address>
+          </ListElement>
+          <ListElement>
+            <Count>2</Count>
+            <Minucipality>string value2</Minucipality>
+            <Area>string value2</Area>
+            <Town>string value2</Town>
+            <District>string value2</District>
+            <Address>string value2</Address>
+          </ListElement>
+          <ListElement />
+        </ListData>
+      </ExampleResponse>

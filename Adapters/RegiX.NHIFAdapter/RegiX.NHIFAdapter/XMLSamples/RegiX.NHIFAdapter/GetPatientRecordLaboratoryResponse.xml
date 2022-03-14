@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PatientRecordLaboratoryResponse xmlns="http://egov.bg/RegiX/NHIF/Response">
+  <PatientRecordLaboratories>
+    <PatientRecordLaboratory>
+      <PatientIdentificator>PatientIdentificator1</PatientIdentificator>
+      <BranchName>BranchName1</BranchName>
+      <Lab>
+        <MSPCode>MSPCode1</MSPCode>
+        <MSPName>MSPName1</MSPName>
+        <UINNumber>UINNumber1</UINNumber>
+        <PractitioneerName>PractitioneerName1</PractitioneerName>
+        <PractitionerSpecialityCode>PractitionerSpecialityCode1</PractitionerSpecialityCode>
+        <PractitionerSpecialityName>PractitionerSpecialityName1</PractitionerSpecialityName>
+      </Lab>
+      <AmbulatoryList>
+        <AmbulatoryListNumber xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">AmbulatoryListNumber1</AmbulatoryListNumber>
+        <AmbulatoryListDate xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">AmbulatoryListDate1</AmbulatoryListDate>
+      </AmbulatoryList>
+      <ReferralNumber>ReferralNumber1</ReferralNumber>
+      <Observation>
+        <ObservationCode>ObservationCode1</ObservationCode>
+        <ObservationName>ObservationName1</ObservationName>
+      </Observation>
+      <Practitioner>
+        <UINNumber xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">UINNumber1</UINNumber>
+        <PractitionerName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerName1</PractitionerName>
+        <PractitionerSpecialityCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityCode1</PractitionerSpecialityCode>
+        <PractitionerSpecialityName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityName1</PractitionerSpecialityName>
+      </Practitioner>
+      <MSP>
+        <MSPCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPCode1</MSPCode>
+        <MSPName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPName1</MSPName>
+      </MSP>
+      <ActivityDate>ActivityDate1</ActivityDate>
+    </PatientRecordLaboratory>
+    <PatientRecordLaboratory>
+      <PatientIdentificator>PatientIdentificator2</PatientIdentificator>
+      <BranchName>BranchName2</BranchName>
+      <Lab>
+        <MSPCode>MSPCode2</MSPCode>
+        <MSPName>MSPName2</MSPName>
+        <UINNumber>UINNumber2</UINNumber>
+        <PractitioneerName>PractitioneerName2</PractitioneerName>
+        <PractitionerSpecialityCode>PractitionerSpecialityCode2</PractitionerSpecialityCode>
+        <PractitionerSpecialityName>PractitionerSpecialityName2</PractitionerSpecialityName>
+      </Lab>
+      <AmbulatoryList>
+        <AmbulatoryListNumber xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">AmbulatoryListNumber2</AmbulatoryListNumber>
+        <AmbulatoryListDate xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">AmbulatoryListDate2</AmbulatoryListDate>
+      </AmbulatoryList>
+      <ReferralNumber>ReferralNumber2</ReferralNumber>
+      <Observation>
+        <ObservationCode>ObservationCode2</ObservationCode>
+        <ObservationName>ObservationName2</ObservationName>
+      </Observation>
+      <Practitioner>
+        <UINNumber xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">UINNumber2</UINNumber>
+        <PractitionerName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerName2</PractitionerName>
+        <PractitionerSpecialityCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityCode2</PractitionerSpecialityCode>
+        <PractitionerSpecialityName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityName2</PractitionerSpecialityName>
+      </Practitioner>
+      <MSP>
+        <MSPCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPCode2</MSPCode>
+        <MSPName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPName2</MSPName>
+      </MSP>
+      <ActivityDate>ActivityDate2</ActivityDate>
+    </PatientRecordLaboratory>
+    <PatientRecordLaboratory>
+      <PatientIdentificator>PatientIdentificator3</PatientIdentificator>
+      <BranchName>BranchName3</BranchName>
+      <Lab>
+        <MSPCode>MSPCode3</MSPCode>
+        <MSPName>MSPName3</MSPName>
+        <UINNumber>UINNumber3</UINNumber>
+        <PractitioneerName>PractitioneerName3</PractitioneerName>
+        <PractitionerSpecialityCode>PractitionerSpecialityCode3</PractitionerSpecialityCode>
+        <PractitionerSpecialityName>PractitionerSpecialityName3</PractitionerSpecialityName>
+      </Lab>
+      <AmbulatoryList>
+        <AmbulatoryListNumber xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">AmbulatoryListNumber3</AmbulatoryListNumber>
+        <AmbulatoryListDate xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">AmbulatoryListDate3</AmbulatoryListDate>
+      </AmbulatoryList>
+      <ReferralNumber>ReferralNumber3</ReferralNumber>
+      <Observation>
+        <ObservationCode>ObservationCode3</ObservationCode>
+        <ObservationName>ObservationName3</ObservationName>
+      </Observation>
+      <Practitioner>
+        <UINNumber xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">UINNumber3</UINNumber>
+        <PractitionerName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerName3</PractitionerName>
+        <PractitionerSpecialityCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityCode3</PractitionerSpecialityCode>
+        <PractitionerSpecialityName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerSpecialityName3</PractitionerSpecialityName>
+      </Practitioner>
+      <MSP>
+        <MSPCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPCode3</MSPCode>
+        <MSPName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPName3</MSPName>
+      </MSP>
+      <ActivityDate>ActivityDate3</ActivityDate>
+    </PatientRecordLaboratory>
+  </PatientRecordLaboratories>
+</PatientRecordLaboratoryResponse>

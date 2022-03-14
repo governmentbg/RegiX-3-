@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://marad.bg/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://marad.bg/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://marad.bg/">
+      <s:element name="ShipsByOwner">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="egn" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ShipsByOwnerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ShipsByOwnerResult" type="tns:ArrayOfGovReportShip" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfGovReportShip">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="GovReportShip" nillable="true" type="tns:GovReportShip" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="GovReportShip">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="RegistrationInfo" type="tns:ShipRegistration" />
+          <s:element minOccurs="0" maxOccurs="1" name="OwnersInfo" type="tns:ArrayOfShipOwner" />
+          <s:element minOccurs="0" maxOccurs="1" name="Characteristics" type="tns:ShipCharacteristics" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ShipRegistration">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ShipName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ShipNameLatin" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RegistrationPort" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RegistrationNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Tom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Page" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Status" type="tns:StatusEnum" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="StatusEnum">
+        <s:restriction base="s:string">
+          <s:enumeration value="Active" />
+          <s:enumeration value="Inactive" />
+          <s:enumeration value="Erased" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ArrayOfShipOwner">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ShipOwner" nillable="true" type="tns:ShipOwner" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ShipOwner">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Firm" nillable="true" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SurName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FamilyName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BulstatEGN" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Address" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ImoNumber" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsUser" nillable="true" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ShipCharacteristics">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="BT" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="NT" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="MaxLength" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="MaxWidth" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="Waterplane" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="Displacement" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="ShipboardHeight" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="DW" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="NumberOfEngines" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="EnginesFuel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Engines" type="tns:ArrayOfEngine" />
+          <s:element minOccurs="1" maxOccurs="1" name="SumEnginePower" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="BodyNumber" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfEngine">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Engine" nillable="true" type="tns:Engine" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Engine">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="SystemModification" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EngineNumber" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Power" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="EnginteType" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ShipByCharacteristics">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="shipType" nillable="true" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="shipSubType" nillable="true" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="hullNumber" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="engineFuel" nillable="true" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="engineNumber" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="maxLengthFrom" nillable="true" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="maxLengthTo" nillable="true" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ShipByCharacteristicsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ShipByCharacteristicsResult" type="tns:ArrayOfGovReportShip" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCertificatesByEGN">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="egn" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCertificatesByEGNResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCertificatesByEGNResult" type="tns:SeamanCertificates" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SeamanCertificates">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Surname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FamilyName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EGN" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Certificates" type="tns:ArrayOfCertificate" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCertificate">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Certificate" nillable="true" type="tns:Certificate" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Certificate">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IssueDate" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="ValidDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="CertificateType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UniqueNumber" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Qualification" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="Duty" type="tns:ArrayOfString" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ShipsByOwnerSoapIn">
+    <wsdl:part name="parameters" element="tns:ShipsByOwner" />
+  </wsdl:message>
+  <wsdl:message name="ShipsByOwnerSoapOut">
+    <wsdl:part name="parameters" element="tns:ShipsByOwnerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ShipByCharacteristicsSoapIn">
+    <wsdl:part name="parameters" element="tns:ShipByCharacteristics" />
+  </wsdl:message>
+  <wsdl:message name="ShipByCharacteristicsSoapOut">
+    <wsdl:part name="parameters" element="tns:ShipByCharacteristicsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCertificatesByEGNSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCertificatesByEGN" />
+  </wsdl:message>
+  <wsdl:message name="GetCertificatesByEGNSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCertificatesByEGNResponse" />
+  </wsdl:message>
+  <wsdl:portType name="VesselsServiceSoap">
+    <wsdl:operation name="ShipsByOwner">
+      <wsdl:input message="tns:ShipsByOwnerSoapIn" />
+      <wsdl:output message="tns:ShipsByOwnerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShipByCharacteristics">
+      <wsdl:input message="tns:ShipByCharacteristicsSoapIn" />
+      <wsdl:output message="tns:ShipByCharacteristicsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCertificatesByEGN">
+      <wsdl:input message="tns:GetCertificatesByEGNSoapIn" />
+      <wsdl:output message="tns:GetCertificatesByEGNSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="VesselsServiceSoap" type="tns:VesselsServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ShipsByOwner">
+      <soap:operation soapAction="http://marad.bg/ShipsByOwner" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShipByCharacteristics">
+      <soap:operation soapAction="http://marad.bg/ShipByCharacteristics" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCertificatesByEGN">
+      <soap:operation soapAction="http://marad.bg/GetCertificatesByEGN" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="VesselsServiceSoap12" type="tns:VesselsServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ShipsByOwner">
+      <soap12:operation soapAction="http://marad.bg/ShipsByOwner" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShipByCharacteristics">
+      <soap12:operation soapAction="http://marad.bg/ShipByCharacteristics" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCertificatesByEGN">
+      <soap12:operation soapAction="http://marad.bg/GetCertificatesByEGN" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="VesselsService">
+    <wsdl:port name="VesselsServiceSoap" binding="tns:VesselsServiceSoap">
+      <soap:address location="http://localhost:51888/VesselsService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="VesselsServiceSoap12" binding="tns:VesselsServiceSoap12">
+      <soap12:address location="http://localhost:51888/VesselsService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

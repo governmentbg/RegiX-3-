@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--RQ03-->
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.NRAPublicDebtsCollectionAdapter.APIService.INRAPublicDebtsCollectionAPI.SendDataForCollectionDataCorrection</OperationName>
+  <Code>SendDataForCollectionDataCorrection</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>SendDataForCollectionDataCorrectionRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForCollectionDataCorrectionRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Предаване на информация за корекция на данни за вземане</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Collection</ParameterName>
+        <ParameterLabel>Вземане</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>Complex</Type>
+          <EnumValues/>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>ActIssurerID</ParameterName>
+            <ParameterLabel>ID на взискател/актосъставител</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>1</OrderNumber>
+
+            <ParameterType>
+              <Type>long</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SubdivisionID</ParameterName>
+            <ParameterLabel>ID на подразделение</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>2</OrderNumber>
+
+            <ParameterType>
+              <Type>long</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SubdivisionEIK</ParameterName>
+            <ParameterLabel>Идентификатор на взискател/актосъставител</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>3</OrderNumber>
+
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>CollectibleID</ParameterName>
+            <ParameterLabel>ID на вземане</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>4</OrderNumber>
+
+            <ParameterType>
+              <Type>long</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>CollectibleType</ParameterName>
+            <ParameterLabel>Вид задължение (вземане)</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>5</OrderNumber>
+
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>PeriodFrom</ParameterName>
+            <ParameterLabel>Период от</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>6</OrderNumber>
+
+            <ParameterType>
+              <Type>Date</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>PeriodTo</ParameterName>
+            <ParameterLabel>Период до</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>7</OrderNumber>
+
+            <ParameterType>
+              <Type>Date</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>PrincipalAmountInterest</ParameterName>
+            <ParameterLabel>Остатък от главница, която следва да се събира от НАП, на която се начислява лихва</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>8</OrderNumber>
+
+            <ParameterType>
+              <Type>decimal</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>InterestAmount</ParameterName>
+            <ParameterLabel>Остатък за лихва, начислена при взискател/ актосъставител, която следва да се събира от НАП</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>9</OrderNumber>
+
+            <ParameterType>
+              <Type>decimal</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>PrincipalAmountNoInterest</ParameterName>
+            <ParameterLabel>Остатък от главница, която следва да се събира от НАП, на която не се начислява лихва</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>10</OrderNumber>
+
+            <ParameterType>
+              <Type>decimal</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+      </ChildParamteters>
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

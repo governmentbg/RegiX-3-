@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <description>$description$</description>
+    <releaseNotes>First release</releaseNotes>
+    <dependencies>
+      <dependency id="Polly" version="7.2.0" />
+      <dependency id="Microsoft.EntityFrameworkCore" version="3.1.3" />
+      <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="3.1.3" />
+      <dependency id="RegiX.Adapters.Common" version="1.0.70" />
+    </dependencies>
+  </metadata>
+</package>

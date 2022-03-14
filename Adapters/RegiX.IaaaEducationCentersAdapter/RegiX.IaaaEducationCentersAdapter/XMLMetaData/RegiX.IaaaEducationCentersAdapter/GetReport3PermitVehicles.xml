@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.IaaaEducationCentersAdapter.APIService.IIaaaEducationCentersAPI.GetReport3PermitVehicles</OperationName>
+  <Code>GetReport3PermitVehicles</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>PermitsRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/Iaaa/EducationCenters/PermitsRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка по ЕИК за регистрирани учебни ППС</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>IdentNumber</ParameterName>
+        <ParameterLabel>ЕИК/БУЛСТАТ на търсената фирма</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

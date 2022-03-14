@@ -1,0 +1,125 @@
+<div class="table-wrapper">
+  <app-title-bar [title]="pageTitle">
+  </app-title-bar>
+
+  <igx-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [displayDensity]="'cosy'"
+    (onSortingDone)="sortingDone($event)"
+    (onFilteringDone)="filteringDone($event)"
+    (onSelection)="cellSelection($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+    <igx-column
+      field="key"
+      header="Поле"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="oldValue"
+      header="Стара стойност"
+      width="20%"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="newValue"
+      header="Нова стойност"
+      width="20%"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="registerAdapter"
+      header="Адаптер"
+      width="15%"
+      [sortable]="true"
+      [dataType]="'string'"
+      [formatter]="displayValueService.formatDisplayValue"
+      [filters]="displayValueFilteringOperand"
+    >
+    </igx-column>
+
+    <igx-column
+      field="userName"
+      header="Променено от"
+      [sortable]="true"
+      width="10%"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="editedTime"
+      header="Променено на"
+      width="10%"
+      [sortable]="true"
+      [dataType]="'date'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span
+          title="{{ cell.value | date: 'dd.MM.yyyy HH:mm:ss' }}"
+          class="text-ellipsis"
+          >{{ cell.value | date: 'dd.MM.yyyy HH:mm:ss' }}
+        </span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      header="Действия"
+      [sortable]="false"
+      width="120px"
+      [filterable]="false"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          igxLayout
+          igxLayoutDir="row"
+          igxLayoutJustify="center"
+          class="action-buttons-wrapper"
+        >
+        <tl-reference-button
+          [routeReference]="routes.ADAPTERS_PARAMETER_HISTORY_HISTORY"
+          [routeArguments]="{ ':ID':  cell.rowData.id}"
+        ></tl-reference-button>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-grid>
+      <div class="tl-paginator">
+        <tl-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+  </igx-grid>
+</div>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/MFA/Notaries/SendNotaryDocumentsResponse" targetNamespace="http://egov.bg/RegiX/MFA/Notaries/SendNotaryDocumentsResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="SendNotaryDocumentsResponse">
+		<xs:annotation>
+			<xs:documentation>Резултат от изпълнение на "Удостоверяване на заверки в системата на МВнР"</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="StatusCode" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Код на статус</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="StatusName" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Статус</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AuthenticationType" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Код на тип заверка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AuthenticationTypeName" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Тип на заверка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AuthenticationNumber" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Номер на заверка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AuthenticationDate" type="xs:date">
+				<xs:annotation>
+					<xs:documentation>Дата на заверка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ConsulCode" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Код на консулска служба</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ConsulName" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Наименование на консулска служба</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Name" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Име на заявител извикал услугата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Remarks" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Допълнителни бележки от оператор в МВнР</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ResultDate" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation>Дата на изготвяне на резултата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ResultMessage" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Резултат от извикване - съобщение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Result" type="xs:boolean">
+				<xs:annotation>
+					<xs:documentation>Резултат от извикване - да/не</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="SendNotaryDocumentsResponse" type="SendNotaryDocumentsResponse"/>
+</xs:schema>

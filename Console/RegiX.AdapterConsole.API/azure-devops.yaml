@@ -1,0 +1,54 @@
+variables:
+  BuildConfiguration: debug
+resources:
+- repo: self
+queue:
+  name: RegiX
+steps:
+- powershell: |
+   # Matches https://localhost:5001 string.
+   $regex = "(https://localhost:5001)"
+   # File contents to be replaced
+   $fileName = "$(Build.Repository.LocalPath)\RegiX.AdapterConsole.API\appsettings.json"
+   # Iterates through all the file's lines
+   $tmp = Get-Content $fileName | `
+   foreach `
+   { `
+       [regex]::replace($_,$regex, "https://regix2-adapters.regix.tlogica.com:8091/regiX.identityserver.adapterconsole") `
+   }
+   # Update the file's content to the one containing the changed Patch version
+   Set-Content $fileName $tmp
+  displayName: 'Replace identityserver in clientConfiguration'
+- task: VisualStudioTestPlatformInstaller@1
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/*.sln'
+    feedsToUse: 'select'
+    vstsFeed: 'RegiX'
+- task: MSBuild@1
+  displayName: 'Build'
+  inputs:
+    configuration: '$(BuildConfiguration)' 
+    solution: '**/*.sln' 
+- task: MSBuild@1
+  displayName: 'Publish project RegiX.AdapterConsole.API/RegiX.AdapterConsole.API.proj'
+  inputs:
+    project: '$(Build.Repository.LocalPath)\RegiX.AdapterConsole.API\RegiX.AdapterConsole.API.csproj'
+    msbuildArguments: '/p:DeployOnBuild=true /p:PublishProfile="$(Build.Repository.LocalPath)\RegiX.AdapterConsole.API\Properties\PublishProfiles\FolderProfile.pubxml"'
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: RegiX.AdapterConsole.API'
+  inputs:
+    artifactName: 'RegiX.AdapterConsole.API'
+    PathtoPublish: '$(Build.Repository.LocalPath)\RegiX.AdapterConsole.API\bin\Release\Publish'
+
+#- task: WindowsMachineFileCopy@2
+#  inputs:
+#    sourcePath: '$(Build.Repository.LocalPath)\RegiX.AdapterConsole.API\bin\Release\Publish'
+#    machineNames: '172.16.69.13'
+#    adminUserName: '$(RegiX.Adapters.AdminUserName)'
+#    adminPassword: '$(RegiX.Adapters.AdminUserPassword)'
+#    targetPath: 'C:\RegiX3\RegiX.AdapterConsole.API'
+#    cleanTargetBeforeCopy: true
+#    copyFilesInParallel: true
+#    #additionalArguments: # Optional

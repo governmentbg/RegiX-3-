@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PeopleWithDisabilitiesRequest>
+  <RIdentType>1</RIdentType>
+  <RIdentificator>RIdentifi1</RIdentificator>
+  <RDRelation>RD1</RDRelation>
+  <DIdentType>1</DIdentType>
+  <DIdentificator>1</DIdentificator>
+</PeopleWithDisabilitiesRequest>

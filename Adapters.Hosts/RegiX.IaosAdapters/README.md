@@ -1,0 +1,9 @@
+Install-Package RegiX.IaosMRABagsAdapter
+Install-Package RegiX.IaosMROBatteriesAdapter
+Install-Package RegiX.IaosMROElectricityAdapter
+Install-Package RegiX.IaosMROOilAdapter
+Install-Package RegiX.IaosMROTyresAdapter
+Install-Package RegiX.IaosREG35Adapter
+Install-Package RegiX.IaosRegister67ZOUAdapter
+Install-Package RegiX.IaosREGProtectedAreasAdapter
+Install-Package RegiX.IaosTraderBrokerAdapter

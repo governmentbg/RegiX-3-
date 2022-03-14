@@ -1,0 +1,213 @@
+<tl-wrapping-card
+  [fabAction]="routes.ADAPTERS_UNREGISTERED"
+  [title]="routes.ADAPTERS.title"
+  [icon]="routes.ADAPTERS.icon"
+  [subTitle]="subtitle"
+  [actions]="[
+    {
+      reference: this.routes.AUDIT,
+      args: { ':TABLE_NAME': this.REGISTER_ADAPTERS }
+    },
+    { reference: excelExportAll }
+  ]"
+>
+  <tl-linear-progress
+    [visible]="this.remoteService.isLoading"
+  ></tl-linear-progress>
+  <igx-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    (onSortingDone)="sortingDone($event)"
+    (onFilteringDone)="filteringDone($event)"
+    (onSelection)="cellSelection($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+    <igx-column-layout>
+      <igx-column
+        [rowStart]="1"
+        [colStart]="1"
+        field="name"
+        header="Име"
+        [dataType]="'string'"
+        [sortable]="true"
+      >
+        <ng-template igxCell let-cell="cell">
+          <span [title]="cell.value" class="text-ellipsis">{{
+            cell.value
+          }}</span>
+        </ng-template></igx-column
+      >
+      <!-- <igx-column
+        [rowStart]="1"
+        [colStart]="2"
+        field="hostAvailability"
+        header="Достъпен"
+        width="100px"
+        [sortable]="false"
+        [filterable]="false"
+      >
+        <ng-template igxCell let-cell="cell">
+          <div
+            class="width-100"
+            igxLayout
+            igxLayoutDir="column"
+            igxLayoutItemAlign="center"
+          >
+            <igx-checkbox
+              disabled="true"
+              [checked]="cell.value === false"
+              igxFlex
+            >
+            </igx-checkbox>
+          </div>
+        </ng-template>
+      </igx-column> -->
+      <igx-column
+        [rowStart]="2"
+        [colStart]="1"
+        [colEnd]="2"
+        field="register"
+        header="Регистър"
+        [dataType]="'string'"
+        [sortable]="true"
+        [formatter]="displayValueService.formatDisplayValue"
+        [filters]="displayValueFilteringOperand"
+      >
+      </igx-column>
+    </igx-column-layout>
+    <igx-column-layout>
+      <igx-column
+        [rowStart]="1"
+        [colStart]="1"
+        field="adapterUrl"
+        header="URL"
+        [dataType]="'string'"
+        [sortable]="true"
+      >
+        <ng-template igxCell let-cell="cell">
+          <span [title]="cell.value" class="text-ellipsis">{{
+            cell.value
+          }}</span>
+        </ng-template></igx-column
+      >
+      <igx-column
+        [rowStart]="1"
+        [colStart]="2"
+        width="150px"
+        field="bindingType"
+        header="Тип Binding"
+        [dataType]="'string'"
+        [sortable]="true"
+      >
+        <ng-template igxCell let-cell="cell">
+          <span [title]="cell.value" class="text-ellipsis">{{
+            cell.value
+          }}</span>
+        </ng-template>
+      </igx-column>
+
+      <igx-column
+        [rowStart]="1"
+        [colStart]="3"
+        width="150px"
+        field="bindingConfigName"
+        header="Binding"
+        [dataType]="'string'"
+        [sortable]="true"
+      >
+        <ng-template igxCell let-cell="cell">
+          <span [title]="cell.value" class="text-ellipsis">{{
+            cell.value
+          }}</span>
+        </ng-template>
+      </igx-column>
+      <igx-column
+        [rowStart]="2"
+        [colStart]="1"
+        [colEnd]="3"
+        field="contract"
+        header="Интерфейс"
+        [dataType]="'string'"
+        [sortable]="true"
+      >
+        <ng-template igxCell let-cell="cell">
+          <span [title]="cell.value" class="text-ellipsis">{{
+            cell.value
+          }}</span>
+        </ng-template></igx-column
+      >
+      <igx-column
+        [rowStart]="2"
+        [colStart]="3"
+        width="150px"
+        field="behaviour"
+        header="Behaviour"
+        [dataType]="'string'"
+        [sortable]="true"
+      >
+        <ng-template igxCell let-cell="cell">
+          <span [title]="cell.value" class="text-ellipsis">{{
+            cell.value
+          }}</span>
+        </ng-template>
+      </igx-column>
+    </igx-column-layout>
+    <igx-column-layout>
+      <igx-column
+        [rowStart]="1"
+        [colStart]="1"
+        [rowEnd]="3"
+        width="135px"
+        header="Действия"
+        [sortable]="false"
+        [dataType]="'string'"
+        [filterable]="false"
+      >
+        <ng-template igxCell let-cell="cell">
+          <div
+            igxLayout
+            igxLayoutDir="row"
+            igxLayoutJustify="center"
+            class="action-buttons-wrapper"
+          >
+            <tl-reference-button
+              [routeReference]="this.routes.OPERATIONS"
+              [routeArguments]="{ ':ADA_ID': cell.rowData.id }"
+              buttonType="action-button"
+            >
+            </tl-reference-button>
+            <tl-reference-button
+              [routeReference]="this.routes.ADAPTER_SHOW"
+              [routeArguments]="{ ':ID': cell.rowData.id }"
+              buttonType="action-button"
+            >
+            </tl-reference-button>
+            <tl-reference-button
+              [routeReference]="this.routes.ADAPTER_EDIT"
+              [routeArguments]="{ ':ID': cell.rowData.id }"
+              buttonType="action-button"
+            >
+            </tl-reference-button>
+          </div>
+        </ng-template>
+      </igx-column>
+    </igx-column-layout>
+    <ng-template #pager let-grid>
+      <div class="tl-paginator">
+        <tl-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+  </igx-grid>
+</tl-wrapping-card>

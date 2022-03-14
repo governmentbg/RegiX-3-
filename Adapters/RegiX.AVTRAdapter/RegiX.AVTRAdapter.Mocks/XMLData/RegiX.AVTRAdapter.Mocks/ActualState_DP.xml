@@ -1,0 +1,152 @@
+<ActualStateResponse xmlns="http://egov.bg/RegiX/AV/TR/ActualStateResponse">
+              <Status>Нова партида</Status>
+              <UIC>201593315</UIC>
+              <Company>ФОНД ТЕСТОВО ДЕЛО</Company>
+              <LegalForm>
+                <LegalFormAbbr xmlns="http://egov.bg/RegiX/AV/TR">ДП</LegalFormAbbr>
+                <LegalFormName xmlns="http://egov.bg/RegiX/AV/TR">Държавно предприятие</LegalFormName>
+              </LegalForm>
+              <Transliteration>FOND TESTOVO DELO</Transliteration>
+              <Seat>
+                <Address xmlns="http://egov.bg/RegiX/AV/TR">
+                  <CountryCode>BGR</CountryCode>
+                  <Country>БЪЛГАРИЯ</Country>
+                  <IsForeign>false</IsForeign>
+                  <DistrictEkatte>SOF</DistrictEkatte>
+                  <District>София (столица)</District>
+                  <MunicipalityEkatte>SOF46</MunicipalityEkatte>
+                  <Municipality>Столична</Municipality>
+                  <SettlementEKATTE>68134</SettlementEKATTE>
+                  <Settlement>гр. София</Settlement>
+                  <Area>р-н Сердика</Area>
+                  <AreaEkatte>68134-05</AreaEkatte>
+                  <PostCode>1000</PostCode>
+                  <Street>Тест</Street>
+                  <StreetNumber>1</StreetNumber>
+                </Address>
+                <Contacts xmlns="http://egov.bg/RegiX/AV/TR">
+                  <Phone>02 000 02 95</Phone>
+                  <Fax>02 666 99 77</Fax>
+                  <EMail>office@dpftd.com</EMail>
+                  <URL>www.dp-ftest.com</URL>
+                </Contacts>
+              </Seat>
+              <SeatForCorrespondence>
+                <CountryCode xmlns="http://egov.bg/RegiX/AV/TR">BGR</CountryCode>
+                <Country xmlns="http://egov.bg/RegiX/AV/TR">БЪЛГАРИЯ</Country>
+                <IsForeign xmlns="http://egov.bg/RegiX/AV/TR">false</IsForeign>
+                <DistrictEkatte xmlns="http://egov.bg/RegiX/AV/TR">SOF</DistrictEkatte>
+                <District xmlns="http://egov.bg/RegiX/AV/TR">София (столица)</District>
+                <MunicipalityEkatte xmlns="http://egov.bg/RegiX/AV/TR">SOF46</MunicipalityEkatte>
+                <Municipality xmlns="http://egov.bg/RegiX/AV/TR">Столична</Municipality>
+                <SettlementEKATTE xmlns="http://egov.bg/RegiX/AV/TR">68134</SettlementEKATTE>
+                <Settlement xmlns="http://egov.bg/RegiX/AV/TR">гр. София</Settlement>
+                <Area xmlns="http://egov.bg/RegiX/AV/TR">ugomznlom</Area>
+                <AreaEkatte xmlns="http://egov.bg/RegiX/AV/TR">502</AreaEkatte>
+                <PostCode xmlns="http://egov.bg/RegiX/AV/TR">502</PostCode>
+                <HousingEstate xmlns="http://egov.bg/RegiX/AV/TR">ugomznlom</HousingEstate>
+                <Block xmlns="http://egov.bg/RegiX/AV/TR">502</Block>
+                <Entrance xmlns="http://egov.bg/RegiX/AV/TR">ugomznlom</Entrance>
+                <Floor xmlns="http://egov.bg/RegiX/AV/TR">502</Floor>
+                <Apartment xmlns="http://egov.bg/RegiX/AV/TR">502</Apartment>
+              </SeatForCorrespondence>
+              <SubjectOfActivity>
+                <Subject xmlns="http://egov.bg/RegiX/AV/TR">Туроператорска дейност, туристическа агентска дейност, ресторантьорство, хотелиерство, както и други дейности, които подпомагат , съпътстват или допълват основния му предмет на дейност и не са забранени със закон.</Subject>
+                <IsBank xmlns="http://egov.bg/RegiX/AV/TR">false</IsBank>
+                <IsInsurer xmlns="http://egov.bg/RegiX/AV/TR">false</IsInsurer>
+              </SubjectOfActivity>
+              <SubjectOfActivityNKID>
+                <NKIDname xmlns="http://egov.bg/RegiX/AV/TR">Изграждане и подобряване условията в млс</NKIDname>
+              </SubjectOfActivityNKID>
+              <SpecialConditions>ПРЕВЪЗПИТАНИЕ И ПОПРАВЯНЕ НА ЛИШЕНИТЕ ОТ СВОБОДА</SpecialConditions>
+              <AddemptionOfTraderSeatChange>
+                <Address xmlns="http://egov.bg/RegiX/AV/TR" />
+                <Contacts xmlns="http://egov.bg/RegiX/AV/TR" />
+              </AddemptionOfTraderSeatChange>
+              <Funds />
+              <Shares />
+              <MinimumAmount />
+              <DepositedFunds />
+              <NonMonetaryDeposits />
+              <BoardOfDirectorsMandate />
+              <AdministrativeBoardMandate />
+              <BoardOfManagersMandate />
+              <BoardOfManagers2Mandate />
+              <LeadingBoardMandate />
+              <SupervisingBoardMandate />
+              <SupervisingBoard2Mandate />
+              <ControllingBoardMandate />
+              <Details>
+                <Detail xmlns="http://egov.bg/RegiX/AV/TR">
+                  <FieldName>Собственик</FieldName>
+                  <FieldCode>23а</FieldCode>
+                  <FieldOrder>00231</FieldOrder>
+                  <Subject>
+                    <Indent>000705350</Indent>
+                    <Name>МИНИСТЕРСТВО НА ПРАВОСЪДИЕТО</Name>
+                    <IndentType>UIC</IndentType>
+                  </Subject>
+                </Detail>
+                <Detail xmlns="http://egov.bg/RegiX/AV/TR">
+                  <FieldName>Управители</FieldName>
+                  <FieldCode>7</FieldCode>
+                  <FieldOrder>00070</FieldOrder>
+                  <Subject>
+                    <Indent>8703035122</Indent>
+                    <Name>ИВАН РУСЕНОВ ИВАНОВ</Name>
+                    <IndentType>EGN</IndentType>
+                  </Subject>
+                </Detail>
+                <Detail xmlns="http://egov.bg/RegiX/AV/TR">
+                  <FieldName>Управителен съвет</FieldName>
+                  <FieldCode>13</FieldCode>
+                  <FieldOrder>00130</FieldOrder>
+                  <Subject>
+                    <Indent>5601085525</Indent>
+                    <Name>МАРИН ТОДОРОВ КАЛЧЕВСКИ</Name>
+                    <IndentType>EGN</IndentType>
+                  </Subject>
+                </Detail>
+                <Detail xmlns="http://egov.bg/RegiX/AV/TR">
+                  <FieldName>Управителен съвет</FieldName>
+                  <FieldCode>13</FieldCode>
+                  <FieldOrder>00130</FieldOrder>
+                  <Subject>
+                    <Indent>6206088825</Indent>
+                    <Name>ИВАН ХРИСТОВ ПЕТКОВ</Name>
+                    <IndentType>EGN</IndentType>
+                  </Subject>
+                </Detail>
+                <Detail xmlns="http://egov.bg/RegiX/AV/TR">
+                  <FieldName>Управителен съвет</FieldName>
+                  <FieldCode>13</FieldCode>
+                  <FieldOrder>00130</FieldOrder>
+                  <Subject>
+                    <Indent>6701084225</Indent>
+                    <Name>ИВАН КАРУШКОВ ИВАНОВ</Name>
+                    <IndentType>EGN</IndentType>
+                  </Subject>
+                </Detail>
+                <Detail xmlns="http://egov.bg/RegiX/AV/TR">
+                  <FieldName>Управителен съвет</FieldName>
+                  <FieldCode>13</FieldCode>
+                  <FieldOrder>00130</FieldOrder>
+                  <Subject>
+                    <Indent>2402146347</Indent>
+                    <Name>СТАМЕН ПЕТРОВ ГЕНОВ</Name>
+                    <IndentType>EGN</IndentType>
+                  </Subject>
+                </Detail>
+                <Detail xmlns="http://egov.bg/RegiX/AV/TR">
+                  <FieldName>Управителен съвет</FieldName>
+                  <FieldCode>13</FieldCode>
+                  <FieldOrder>00130</FieldOrder>
+                  <Subject>
+                    <Indent>7907046668</Indent>
+                    <Name>СВИЛЕН АНГЕЛОВ ЦВЕТАНОВ</Name>
+                    <IndentType>EGN</IndentType>
+                  </Subject>
+                </Detail>
+              </Details>
+              <LiquidationOrInsolvency>В ликвидация</LiquidationOrInsolvency>
+            </ActualStateResponse>

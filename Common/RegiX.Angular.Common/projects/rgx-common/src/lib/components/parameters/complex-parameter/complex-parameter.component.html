@@ -1,0 +1,27 @@
+<igx-card *ngIf="arrayIndex != null">
+  <igx-card-header>
+    <h3 igxCardHeaderTitle>{{ controlLabel }}</h3>
+    <button
+      *ngIf="!isDisabled"
+      type="button"
+      igxButton="raised"
+      (click)="onRemove($event)">
+      Премахни
+    </button>
+  </igx-card-header>
+  <igx-card-content>
+    <div style="margin-left: 0.5rem;">
+      <rgx-parameters-control
+      [formGroup]="formGroupInternal"
+      [operationParameters]="operationParameters"
+      ></rgx-parameters-control>
+    </div>
+  </igx-card-content>
+</igx-card>
+<div *ngIf="arrayIndex == null" style="margin-left: 0.5rem;">
+  <rgx-parameters-control
+  [formGroup]="formGroupInternal"
+  [operationParameters]="operationParameters"
+  [isDisabled]="isDisabled"
+  ></rgx-parameters-control>
+</div>

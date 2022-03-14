@@ -1,0 +1,5 @@
+<AircraftsByOwnerRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://egov.bg/RegiX/GVA/AircraftsByOwnerRequest">
+  <OwnerID>1234567890</OwnerID>
+  <DateFrom>2000-01-01</DateFrom>
+  <DateTo>2016-01-01</DateTo>
+</AircraftsByOwnerRequest>

@@ -1,0 +1,51 @@
+<div class="table-title-wrapper">
+  <app-title-bar [title]="pageTitle"> </app-title-bar>
+  <igx-linear-bar
+    *ngIf="isDataLoading && !isDataLoaded"
+    [indeterminate]="true"
+  ></igx-linear-bar>
+  <div *ngIf="!isDataLoading && isDataLoaded">
+    <igx-grid
+      [height]="null"
+      width="100%"
+      [clipboardOptions]="{ copyHeaders: false}"
+      [displayDensity]="'cosy'"
+      [data]="adapters"
+      [paging]="true"
+      [allowFiltering]="true"
+    >
+      <igx-column field="Name" [sortable]="true" header="Име"></igx-column>
+      <igx-column
+        field="Version"
+        [sortable]="true"
+        header="Версия"
+      ></igx-column>
+
+      <igx-column
+        header="Действия"
+        [sortable]="false"
+        width="150px"
+        [filterable]="false"
+      >
+        <ng-template igxCell let-cell="cell">
+          <div
+            igxLayout
+            igxLayoutDir="row"
+            igxLayoutJustify="center"
+            class="action-buttons-wrapper"
+          >
+            <button
+              type="button"
+              title="Покажи"
+              igxButton="raised"
+              class="table-action-button"
+              (click)="selectCell(cell.rowData, cell)"
+            >
+              <igx-icon>remove_red_eye</igx-icon>
+            </button>
+          </div>
+        </ng-template>
+      </igx-column>
+    </igx-grid>
+  </div>
+</div>

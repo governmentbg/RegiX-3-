@@ -1,0 +1,35 @@
+<button
+  type="button"
+  [igxToggleAction]="userDropdown"
+  [overlaySettings]="menuOverlaySettings"
+  [igxDropDownItemNavigation]="userDropdown"
+  title="Потребителски настройки"
+  class="user-button"
+  igxButton="outlined"
+>
+  <igx-icon>account_circle</igx-icon>&nbsp;{{user}}
+  <!-- <i class="fa fa-arrow-down" aria-hidden="true"></i> -->
+</button>
+<igx-drop-down
+  #userDropdown
+  (onSelection)="onUserMenuSelected($event)"
+  [width]="'200px'"
+>
+  <!--igx-drop-down-item (click)="onUserSettings()">
+    <igx-icon>build</igx-icon>&nbsp;Настойки
+  </igx-drop-down-item-->
+
+  <ng-template [ngxPermissionsExcept]="['PUBLIC']">
+    <igx-drop-down-item (click)="onChangePassword()">
+      <igx-icon>vpn_key</igx-icon>&nbsp;Промяна на парола
+    </igx-drop-down-item>
+  </ng-template>
+  <ng-template [ngxPermissionsExcept]="['PUBLIC']">
+    <igx-drop-down-item (click)="onMyProfile()">
+      <igx-icon>person</igx-icon>&nbsp;Моят профил
+    </igx-drop-down-item>
+  </ng-template>
+  <igx-drop-down-item (click)="onLogOut()">
+      <igx-icon>exit_to_app</igx-icon>&nbsp;Изход
+  </igx-drop-down-item>
+</igx-drop-down>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CheckObligationsRequest xmlns="http://egov.bg/RegiX/AM/REZMA/CheckObligationsRequest">
+  <Identifier>Identifier1</Identifier>
+</CheckObligationsRequest>

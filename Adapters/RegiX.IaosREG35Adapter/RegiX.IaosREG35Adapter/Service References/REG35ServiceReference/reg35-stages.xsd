@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://egov.bg/RegiX/IAOS/REG35" targetNamespace="http://egov.bg/RegiX/IAOS/REG35" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="REG35_Allowed_Waste_Codes_Request" type="tns:REG35_Allowed_Waste_Codes_Request" />
+  <xs:element name="REG35_Allowed_Waste_Codes_Response" type="tns:reg35AllowedWasteCodes" />
+  <xs:element name="REG35_Licenses_By_EIK_Waste_Code_Waste_Operation_Request" type="tns:REG35_Licenses_By_EIK_Waste_Code_Waste_Operation_Request" />
+  <xs:element name="REG35_Licenses_By_EIK_Waste_Code_Waste_Operation_Response" type="tns:reg35LicensesByEIKWasteCodeWasteOperation" />
+  <xs:element name="REG35_Stages_By_Auth_Num_Request" type="tns:REG35_Stages_By_Auth_Num_Request" />
+  <xs:element name="REG35_Stages_By_Auth_Num_Response" type="tns:reg35StagesByAuthNum" />
+  <xs:element name="REG35_Stages_Validity_Period_Request" type="tns:REG35_Stages_Validity_Period_Request" />
+  <xs:element name="REG35_Stages_Validity_Period_Response" type="tns:reg35StagesValidityPeriod" />
+  <xs:element name="WebServiceException" type="tns:WebServiceException" />
+  <xs:element name="getAllowedWasteCodeResponse" type="tns:getAllowedWasteCodeResponse" />
+  <xs:element name="getLicensesResponse" type="tns:getLicensesResponse" />
+  <xs:element name="getStagesByAuthNumResponse" type="tns:getStagesByAuthNumResponse" />
+  <xs:element name="getStagesValidityPeriodResponse" type="tns:getStagesValidityPeriodResponse" />
+  <xs:complexType name="REG35_Allowed_Waste_Codes_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="AuthNum" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="StageNum" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getAllowedWasteCodeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:REG35_Allowed_Waste_Codes_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reg35AllowedWasteCodes">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="Stage" type="tns:StageWastes" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StageWastes">
+    <xs:sequence>
+      <xs:element form="qualified" name="StageAddress" type="xs:string" />
+      <xs:element form="qualified" name="State" type="xs:string" />
+      <xs:element maxOccurs="unbounded" form="qualified" name="WasteCode" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="WebServiceException">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="REG35_Stages_Validity_Period_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="AuthNum" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="DateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" form="qualified" name="StageNum" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getStagesValidityPeriodResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:REG35_Stages_Validity_Period_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reg35StagesValidityPeriod">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="Authorization" type="tns:AuthorizationValidityPeriod" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthorizationValidityPeriod">
+    <xs:sequence>
+      <xs:element form="qualified" name="AuthType" type="xs:string" />
+      <xs:element form="qualified" name="DateFrom" type="xs:anySimpleType" />
+      <xs:element form="qualified" name="DateTo" type="xs:anySimpleType" />
+      <xs:element form="qualified" name="State" type="xs:string" />
+      <xs:element maxOccurs="unbounded" form="qualified" name="Waste" type="tns:StageWaste" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StageWaste">
+    <xs:sequence>
+      <xs:element form="qualified" name="WasteCode" type="xs:string" />
+      <xs:element form="qualified" name="WasteType" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="REG35_Stages_By_Auth_Num_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="AuthNum" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getStagesByAuthNumResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:REG35_Stages_By_Auth_Num_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reg35StagesByAuthNum">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="Authorization" type="tns:AuthorizationStages" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthorizationStages">
+    <xs:sequence>
+      <xs:element form="qualified" name="AuthType" type="xs:string" />
+      <xs:element form="qualified" name="State" type="xs:string" />
+      <xs:element maxOccurs="unbounded" form="qualified" name="Stage" type="tns:StageWasteNum" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StageWasteNum">
+    <xs:sequence>
+      <xs:element form="qualified" name="StageAddress" type="xs:string" />
+      <xs:element form="qualified" name="StageNum" type="xs:string" />
+      <xs:element maxOccurs="unbounded" form="qualified" name="Waste" type="tns:StageWaste" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="REG35_Licenses_By_EIK_Waste_Code_Waste_Operation_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="EIK" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="WasteCode" type="xs:string" />
+      <xs:element minOccurs="0" name="WasteOperation" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getLicensesResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:REG35_Licenses_By_EIK_Waste_Code_Waste_Operation_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reg35LicensesByEIKWasteCodeWasteOperation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" form="qualified" name="Authorization" type="tns:AuthorizationWastes" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthorizationWastes">
+    <xs:sequence>
+      <xs:element form="qualified" name="AuthNum" type="xs:string" />
+      <xs:element form="qualified" name="AuthType" type="xs:string" />
+      <xs:element form="qualified" name="State" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" form="qualified" name="Stage" type="tns:StageWasteNum" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

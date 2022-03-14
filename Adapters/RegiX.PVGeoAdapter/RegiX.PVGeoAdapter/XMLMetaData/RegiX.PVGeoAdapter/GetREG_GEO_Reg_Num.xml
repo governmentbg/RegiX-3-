@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.PVGeoAdapter.APIService.IPVGeoAPI.GetREG_GEO_Reg_Num</OperationName>
+  <Code>GetREG_GEO_Reg_Num</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>GetGIByRegNum</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/PatentDepartment/Geo/RegNumRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка по регистров номер на географско означение</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>RegNum</ParameterName>
+        <ParameterLabel>Регистрационен номер</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

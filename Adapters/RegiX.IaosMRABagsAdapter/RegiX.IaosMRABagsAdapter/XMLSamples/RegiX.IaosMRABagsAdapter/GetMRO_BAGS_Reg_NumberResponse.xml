@@ -1,0 +1,13 @@
+<MRO_BAGS_Reg_Number_Response xmlns="http://egov.bg/RegiX/IAOS/MROBags/RegNumberResponse">
+  <Authorization>
+    <Address>ул. "Софийско поле" 3, 1756 София</Address>
+    <CompanyName>Техно Логика</CompanyName>
+    <DistName>област София</DistName>
+    <EIK>131147842</EIK>
+    <FirstName>Иван</FirstName>
+    <LastName>Иванов</LastName>
+    <MidName>Георгиев</MidName>
+    <PopName>София</PopName>
+    <TerName>община София</TerName>
+  </Authorization>
+</MRO_BAGS_Reg_Number_Response>

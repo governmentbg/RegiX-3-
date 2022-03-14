@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<PermanentAddressResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/PNA/PermanentAddressResponse">
+	<DistrictCode>13</DistrictCode>
+	<DistrictName>ПАЗАРДЖИК</DistrictName>
+	<MunicipalityCode>29</MunicipalityCode>
+	<MunicipalityName>СЕПТЕМВРИ</MunicipalityName>
+	<SettlementCode>11154</SettlementCode>
+	<SettlementName>С.ВИНОГРАДЕЦ</SettlementName>	
+	<CityAreaCode>00</CityAreaCode>
+	<LocationCode>05390</LocationCode>
+	<LocationName>жк Люлин</LocationName>
+	<BuildingNumber>024</BuildingNumber>
+	<Entrance />
+	<Floor />
+	<Apartment />
+	<FromDate>2000-07-05</FromDate>
+</PermanentAddressResponse>

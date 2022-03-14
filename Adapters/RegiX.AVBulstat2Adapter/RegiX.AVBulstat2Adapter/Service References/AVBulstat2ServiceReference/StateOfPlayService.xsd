@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ns10="http://www.bulstat.bg/SubjectPropAccountingRecordForm" xmlns:tns="http://www.bulstat.bg/StateOfPlayService" xmlns:ns2="http://www.bulstat.bg/Subject" xmlns:ns12="http://www.bulstat.bg/SubjectPropFundingSource" xmlns:ns15="http://www.bulstat.bg/SubjectRelPartner" xmlns:ns6="http://www.bulstat.bg/SubjectPropActivityKID2008" xmlns:ns17="http://www.bulstat.bg/SubjectRelBelonging" xmlns:ns19="http://www.bulstat.bg/SubjectPropActivityDate" xmlns:ns8="http://www.bulstat.bg/SubjectPropInstallments" xmlns:ns3="http://www.bulstat.bg/Event" xmlns:ns20="http://www.bulstat.bg/SubjectPropProfession" xmlns:ns22="http://www.bulstat.bg/Nomenclatures" xmlns:ns9="http://www.bulstat.bg/SubjectPropLifeTime" xmlns:ns11="http://www.bulstat.bg/SubjectPropOwnershipForm" xmlns:ns14="http://www.bulstat.bg/SubjectRelManager" xmlns:ns13="http://www.bulstat.bg/SubjectPropState" xmlns:ns16="http://www.bulstat.bg/SubjectRelAssignee" xmlns:ns18="http://www.bulstat.bg/SubjectPropCollectiveBody" xmlns:ns5="http://www.bulstat.bg/SubjectPropScopeOfActivity" xmlns:ns4="http://www.bulstat.bg/SubjectPropRepresentationType" xmlns:ns1="http://www.bulstat.bg/GetStateOfPlayRequest" xmlns:ns21="http://www.bulstat.bg/StateOfPlay" xmlns:ns7="http://www.bulstat.bg/SubjectPropActivityKID2003" targetNamespace="http://www.bulstat.bg/StateOfPlayService" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="GetStateOfPlayRequest.xsd" namespace="http://www.bulstat.bg/GetStateOfPlayRequest" />
+  <xs:import schemaLocation="Subject.xsd" namespace="http://www.bulstat.bg/Subject" />
+  <xs:import schemaLocation="Event.xsd" namespace="http://www.bulstat.bg/Event" />
+  <xs:import schemaLocation="SubjectPropRepresentationType.xsd" namespace="http://www.bulstat.bg/SubjectPropRepresentationType" />
+  <xs:import schemaLocation="SubjectPropScopeOfActivity.xsd" namespace="http://www.bulstat.bg/SubjectPropScopeOfActivity" />
+  <xs:import schemaLocation="SubjectPropActivityKID2008.xsd" namespace="http://www.bulstat.bg/SubjectPropActivityKID2008" />
+  <xs:import schemaLocation="SubjectPropActivityKID2003.xsd" namespace="http://www.bulstat.bg/SubjectPropActivityKID2003" />
+  <xs:import schemaLocation="SubjectPropInstallments.xsd" namespace="http://www.bulstat.bg/SubjectPropInstallments" />
+  <xs:import schemaLocation="SubjectPropLifeTime.xsd" namespace="http://www.bulstat.bg/SubjectPropLifeTime" />
+  <xs:import schemaLocation="SubjectPropAccountingRecordForm.xsd" namespace="http://www.bulstat.bg/SubjectPropAccountingRecordForm" />
+  <xs:import schemaLocation="SubjectPropOwnershipForm.xsd" namespace="http://www.bulstat.bg/SubjectPropOwnershipForm" />
+  <xs:import schemaLocation="SubjectPropFundingSource.xsd" namespace="http://www.bulstat.bg/SubjectPropFundingSource" />
+  <xs:import schemaLocation="SubjectPropState.xsd" namespace="http://www.bulstat.bg/SubjectPropState" />
+  <xs:import schemaLocation="SubjectRelManager.xsd" namespace="http://www.bulstat.bg/SubjectRelManager" />
+  <xs:import schemaLocation="SubjectRelPartner.xsd" namespace="http://www.bulstat.bg/SubjectRelPartner" />
+  <xs:import schemaLocation="SubjectRelAssignee.xsd" namespace="http://www.bulstat.bg/SubjectRelAssignee" />
+  <xs:import schemaLocation="SubjectRelBelonging.xsd" namespace="http://www.bulstat.bg/SubjectRelBelonging" />
+  <xs:import schemaLocation="SubjectPropCollectiveBody.xsd" namespace="http://www.bulstat.bg/SubjectPropCollectiveBody" />
+  <xs:import schemaLocation="SubjectPropActivityDate.xsd" namespace="http://www.bulstat.bg/SubjectPropActivityDate" />
+  <xs:import schemaLocation="SubjectPropProfession.xsd" namespace="http://www.bulstat.bg/SubjectPropProfession" />
+  <xs:import schemaLocation="StateOfPlay.xsd" namespace="http://www.bulstat.bg/StateOfPlay" />
+  <xs:import schemaLocation="Nomenclatures.xsd" namespace="http://www.bulstat.bg/Nomenclatures" />
+  <xs:element name="GetStateOfPlay" type="tns:GetStateOfPlay" />
+  <xs:element name="GetStateOfPlayResponse" type="tns:GetStateOfPlayResponse" />
+  <xs:element name="FetchNomenclatures" type="tns:FetchNomenclatures" />
+  <xs:element name="FetchNomenclaturesResponse" type="tns:FetchNomenclaturesResponse" />
+  <xs:complexType name="GetStateOfPlay">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="ns1:GetStateOfPlayRequest" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetStateOfPlayResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="ns21:StateOfPlay" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="FetchNomenclatures">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="FetchNomenclaturesResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="ns22:Nomenclatures" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

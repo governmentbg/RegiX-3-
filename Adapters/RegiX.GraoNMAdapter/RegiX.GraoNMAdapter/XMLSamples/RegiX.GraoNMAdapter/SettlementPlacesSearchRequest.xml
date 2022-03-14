@@ -1,0 +1,5 @@
+<SettlementPlacesRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://egov.bg/RegiX/GRAO/NM/SettlementPlacesRequest">
+  <StartDate>2015-11-01</StartDate>
+  <EndDate>2015-11-19</EndDate>
+  <ActualizationType>ИНМ</ActualizationType>
+</SettlementPlacesRequest>

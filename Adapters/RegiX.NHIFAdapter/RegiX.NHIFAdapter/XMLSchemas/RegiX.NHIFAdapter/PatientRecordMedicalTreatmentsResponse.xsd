@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NHIF/Response" xmlns:common="http://egov.bg/RegiX/NHIF/NHIFCommon" targetNamespace="http://egov.bg/RegiX/NHIF/Response" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/NHIF/NHIFCommon" schemaLocation="NHIFCommon.xsd"/>
+	<xs:element name="PatientRecordMedicalTreatmentsResponse">
+		<xs:annotation>
+			<xs:documentation>Лекарства </xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PatientRecordMedicalTreatments" type="PatientRecordMedicalTreatmentsType" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="PharmacyType">
+		<xs:sequence>
+			<xs:element name="MSPCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на аптека</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MSPName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на аптека</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Address" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Адрес на аптека</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SenderType">
+		<xs:sequence>
+			<xs:element name="MSPCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>РЗИ номер на практика, издала рецептата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MSPName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на практика, издала рецептата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PractitionerType">
+		<xs:sequence>
+			<xs:element name="PractitionerUIN" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>УИН на лекар, издал рецептата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerNames" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Имена на лекар, издал рецептата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PrescriptionType">
+		<xs:sequence>
+			<xs:element name="PresctiptionNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на рецепта</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PresctiptionDate" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на предписване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MedicalSupplyType">
+		<xs:sequence>
+			<xs:element name="MedicalSupplyCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>НЗОК Код на лекарствен продук</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MedicalSupplyDescription" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Описание на лекарствен продукт</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PatientRecordMedicalTreatmentType">
+		<xs:sequence>
+			<xs:element name="Pharmacy" type="PharmacyType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Информация за аптека</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Prescription" type="PrescriptionType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Информация за рецепта</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ICD" type="common:PatientRecordsICDType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Информация за диагноза по МКБ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Practitioner" type="common:MedicalTreatmentsPractitionerType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Информация за лекар издал рецептата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Sender" type="SenderType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Информация за издател</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DispensedDate" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на отпускане</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MedicalSupply" type="MedicalSupplyType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Информация за лекарство</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PrescribedQuantity" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Отпуснато количество в единици (табл., амп., фл. и др.)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="UnitPrice" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Реимбурсна ст-ст на опаковка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Price" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Реимбурсна стойност, платена от НЗОК</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PatientIdentificator" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификарор на пациент</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PatientRecordMedicalTreatmentsType">
+		<xs:sequence>
+			<xs:element name="PatientRecordMedicalTreatment" type="PatientRecordMedicalTreatmentType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

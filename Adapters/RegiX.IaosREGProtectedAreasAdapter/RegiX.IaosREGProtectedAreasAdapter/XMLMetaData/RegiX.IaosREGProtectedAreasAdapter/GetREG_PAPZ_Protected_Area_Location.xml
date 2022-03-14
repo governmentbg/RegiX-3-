@@ -1,0 +1,53 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.IaosREGProtectedAreasAdapter.APIService.IIaosREGProtectedAreasAPI.GetREG_PAPZ_Protected_Area_Location</OperationName>
+  <Code>GetREG_PAPZ_Protected_Area_Location</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>REG_PAPZ_Protected_Area_Location_Request</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/IAOS/REGPapz/ProtectedAreaLocationRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка по местонахождение</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>DistName</ParameterName>
+        <ParameterLabel>Област</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>PopName</ParameterName>
+        <ParameterLabel>Населено място</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>TerName</ParameterName>
+        <ParameterLabel>Община</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

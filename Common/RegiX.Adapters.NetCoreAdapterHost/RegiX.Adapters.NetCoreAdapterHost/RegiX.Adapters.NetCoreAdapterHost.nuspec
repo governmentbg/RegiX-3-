@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$authors$</authors>
+    <owners>$authors$</owners>
+    <description>$description$</description>
+    <releaseNotes>
+      Updated to .net core 3.1
+    </releaseNotes>
+    <dependencies>
+        <dependency id="AspNetCore.HealthChecks.UI.Client" version="3.1.2" />
+		<dependency id="Newtonsoft.Json" version="13.0.1" />
+        <dependency id="RegiX.Adapters.Common" version="1.0.70" />
+	    <dependency id="RegiX.Adapters.LogstashLogger" version="1.0.10" />
+	    <dependency id="RegiX.Processors.PDFResponseProcessor" version="1.0.13" />
+	    <dependency id="RegiX.SecureBlackBox.CertFinder.File" version="1.0.22" />
+	    <dependency id="RegiX.SecureBlackBoxSigner.NetCore" version="1.0.22" />
+		<dependency id="System.Reflection.DispatchProxy" version="4.7.1" />
+		<dependency id="RegiX.Adapters.NetCoreParameterStore" version="3.0.9" />
+    </dependencies>
+  </metadata>
+</package>

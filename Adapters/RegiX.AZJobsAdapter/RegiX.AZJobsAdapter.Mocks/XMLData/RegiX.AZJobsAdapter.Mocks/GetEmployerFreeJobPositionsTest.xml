@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<EmployerFreeJobPositionsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AZ/EmployerFreeJobPositionsResponse">
+  <EmployerData>
+    <EntityID xmlns="http://egov.bg/RegiX/AZ">122541245</EntityID>
+    <EntityName xmlns="http://egov.bg/RegiX/AZ">KoSoft</EntityName>
+  </EmployerData>
+  <FreeJobPositions>
+    <FreeJobPosition>
+      <JobPosition>Software Engineer</JobPosition>
+      <DateFrom>2015-09-25</DateFrom>
+      <DateTo>2015-09-25</DateTo>
+      <AnnouncedFreeJobsCount>4</AnnouncedFreeJobsCount>
+      <JobSeekersDirectedCount>6</JobSeekersDirectedCount>
+      <VacantJobsCount>3</VacantJobsCount>
+      <Minucipality>Burgas</Minucipality>
+      <Area>Burgas</Area>
+      <Town>Burgas</Town>
+      <District>Burgas</District>
+      <Address>st.Gladstone 53</Address>
+      <EducationRequirements>Master</EducationRequirements>
+      <LanguageSkillsRequirements>English</LanguageSkillsRequirements>
+      <ComputerSkillsRequirements>sql</ComputerSkillsRequirements>
+    </FreeJobPosition>
+  </FreeJobPositions>
+</EmployerFreeJobPositionsResponse>

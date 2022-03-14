@@ -1,0 +1,12 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.MtspSimevAdapter.APIService.IMtspSimevAPI.SendInfoForFosterParents</OperationName>
+  <Code>SendInfoForFosterParents</Code>
+  <ControllerName>AspMtspAPI</ControllerName>
+  <Resource>MtspSendInfoFosterParentsRequest</Resource>
+  <RequestObjectName>MtspInfoFosterParentsRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/MTSP/SendInfoForFosterParents/MtspInfoFosterParentsRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Изпращане на данни към СИМЕВ на МТСП за физически лица(родител/дете) относно наличие на вписване в Регистъра на приемните семейства, Регистъра на децата в риск, регистрирано решение на ТЕЛК и данни за участие в проект за период
+  </DisplayOperationName>
+  <Parameters />
+</AdapterOperation>

@@ -1,0 +1,3 @@
+<GetObligationDocumentsByEGNRequest xmlns="http://egov.bg/RegiX/MVR/ObligationDocumentsByEGN/GetObligationDocumentsByEGNRequest">
+	<EGN>1111111110</EGN>
+</GetObligationDocumentsByEGNRequest>

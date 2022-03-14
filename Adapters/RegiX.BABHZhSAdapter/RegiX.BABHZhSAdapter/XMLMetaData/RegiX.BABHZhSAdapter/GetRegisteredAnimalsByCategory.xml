@@ -1,0 +1,40 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.BABHZhSAdapter.APIService.IBABHZhSAPI.GetRegisteredAnimalsByCategory</OperationName>
+  <Code>GetRegisteredAnimalsByCategory</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>RegisteredAnimalsByCategoryRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/BABH/BABHZhS/RegisteredAnimalsByCategoryRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за вписани животни в животновъдни обекти по категории</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>EGN</ParameterName>
+        <ParameterLabel>ЕГН на земеделски производител</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <IdentifierType>1</IdentifierType>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>ValidDate</ParameterName>
+        <ParameterLabel>Дата на актуалност на данните</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

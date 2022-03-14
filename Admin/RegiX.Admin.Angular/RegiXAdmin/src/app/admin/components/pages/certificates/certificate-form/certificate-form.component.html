@@ -1,0 +1,381 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+
+>
+  <div>
+    <div *ngIf="isDataLoading">
+      <div>
+        <igx-circular-bar
+          [animate]="true"
+          [indeterminate]="true"
+          [textVisibility]="true"
+        ></igx-circular-bar>
+      </div>
+    </div>
+    <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isDataLoaded && !isDataLoading && isShowForm()"
+    >
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="name"
+              type="text"
+              formControlName="name"
+              tlFormGroupRef
+            />
+            <label igxLabel for="name">Име</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="description"
+              type="text"
+              formControlName="description"
+              tlFormGroupRef
+            />
+            <label igxLabel for="description">Описание</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="oid"
+              type="text"
+              formControlName="oid"
+              tlFormGroupRef
+            />
+            <label igxLabel for="oid">OID</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="issuedFrom"
+              type="text"
+              formControlName="issuedFrom"
+              tlFormGroupRef
+            />
+            <label igxLabel for="issuedFrom">Издаден от</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="issuedTo"
+              type="text"
+              formControlName="issuedTo"
+              tlFormGroupRef
+            />
+            <label igxLabel for="issuedTo">Издаден на</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="validFrom"
+              type="text"
+              formControlName="validFrom"
+              tlFormGroupRef
+            />
+            <label igxLabel for="validFrom">Валиден от</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="validTo"
+              type="text"
+              formControlName="validTo"
+              tlFormGroupRef
+            />
+            <label igxLabel for="validTo">Валиден до</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="thumbprint"
+              type="text"
+              formControlName="thumbprint"
+              tlFormGroupRef
+            />
+            <label igxLabel for="thumbprint">Thumbprint</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group [displayDensity]="'compact'">
+            <textarea igxInput formControlName="content" tlFormGroupRef>
+            </textarea>
+            <label igxLabel for="content">Съдържание</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+    </form>
+    <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isDataLoaded && !isDataLoading && !isShowForm()"
+    >
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="name"
+              type="text"
+              formControlName="name"
+              tlFormGroupRef
+            />
+            <label igxLabel for="name">Име</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="description"
+              type="text"
+              formControlName="description"
+              tlFormGroupRef
+            />
+            <label igxLabel for="description">Описание</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div igxLayout igxLayoutDir="row">
+        <div class="input-group">
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group>
+              <input
+                class="form-input"
+                igxInput
+                name="filename"
+                type="text"
+                formControlName="filename"
+                tlFormGroupRef
+              />
+              <label igxLabel for="filename">Име на файл</label>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+        <button
+          type="button"
+          class="oid-button"
+          igxButton="icon"
+          title="Избор на сертификат"
+          (click)="openFileChooserDialog()"
+          igxFlex
+        >
+        <igx-icon>card_membership</igx-icon>
+        </button>
+      </div>
+
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group [displayDensity]="'compact'">
+            <textarea  igxInput formControlName="content" tlFormGroupRef>
+            </textarea>
+            <label igxLabel for="content">Съдържание</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <input
+        id="fileChooserInput"
+        type="file"
+        accept=".cer"
+        style="visibility:hidden"
+        (change)="onFileSelectionChange()"
+      />
+      <div
+        class="input-group"
+        igxLayout
+        igxLayoutDir="row"
+        formGroupName="apiServiceConsumer"
+      >
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="displayName"
+              type="text"
+              formControlName="displayName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="displayName">Консуматор</label>
+          </igx-input-group>
+        </tl-form-group>
+        <button igxButton="icon" (click)="showConsumers()" [disabled]="this.isShowForm()">
+          <igx-icon>dns</igx-icon>
+        </button>
+      </div>
+
+      <div igxLayout igxLayoutDir="row">
+        <div class="input-group">
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group>
+              <input
+                class="form-input"
+                igxInput
+                name="oid"
+                type="text"
+                formControlName="oid"
+                tlFormGroupRef
+              />
+              <label igxLabel for="oid">OID</label>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+        <button
+          type="button"
+          class="oid-button"
+          igxButton="icon"
+          title="Попълни OID от консуматор"
+          *ngIf="
+            this.formGroup.controls['apiServiceConsumer'].value &&
+            this.formGroup.controls['apiServiceConsumer'].value.oid &&
+            !formGroup.controls['oid'].value
+          "
+          (click)="onFillOID()"
+          igxFlex
+        ><igx-icon>
+          arrow_drop_down
+        </igx-icon></button
+        ><button
+          type="button"
+          class="oid-button"
+          igxButton="icon"
+          title="Изчисти OID"
+          (click)="onClearOID()"
+          *ngIf="formGroup.controls['oid'].value"
+          igxFlex
+        >
+        <igx-icon>cancel</igx-icon>
+        </button>
+      </div>
+      <igx-checkbox class="input-group" formControlName="active" name="active">
+        Активен
+      </igx-checkbox>
+    </form>
+  </div>
+  <app-title-bar [title]="'Роли'"></app-title-bar>
+      <div class="elements-wrapper">
+        <igx-tree-grid
+          #treeGrid
+          [data]="operationElements"
+          primaryKey="primaryKey"
+          foreignKey="foreignKey"
+          (onRowSelectionChange)="onRowClickChange($event)"
+          [allowFiltering]="true"
+          [rowSelectable]="true"
+          rowSelection="multiple"
+          [height]="null"
+          width="100%"
+        >
+          <igx-column
+            field="name"
+            header="Име"
+            dataType="string"
+            [sortable]="false"
+            [editable]="false"
+            [movable]="false"
+            [resizable]="false"
+            width="30%"
+          ></igx-column>
+          <igx-column
+            field="description"
+            header="Описание"
+            dataType="string"
+            [sortable]="false"
+            [editable]="false"
+            [movable]="false"
+            [resizable]="false"
+          ></igx-column>
+          <igx-column
+            field="comment"
+            header="Коментар"
+            dataType="string"
+            [sortable]="false"
+            [editable]="!isShowForm()"
+            [movable]="false"
+            [resizable]="false"
+          ></igx-column>
+        </igx-tree-grid>
+      </div>
+    </tl-basic-form>
+
+<igx-dialog
+    #dialog
+    title="Грешка"
+    message="Необходимо е да попълните колоната коментар за всички избрани роли!"
+  >
+    <div igxDialogActions class="dialog-container dialog-actions">
+      <button igxButton="raised" (click)="onCommentError()">OK</button>
+    </div>
+  </igx-dialog>
+
+<igx-dialog
+  #consumerFilterDialog
+  title="Администрации"
+  [closeOnOutsideSelect]="true"
+>
+  <div style="height: 90vh; width: 95vw; overflow: auto;">
+    <app-consumer-filter
+      #consumerFilter
+      (selectedValues)="consumerSelected($event)"
+    >
+    </app-consumer-filter>
+  </div>
+</igx-dialog>

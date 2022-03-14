@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>TechnoLogica</Company>
+    <Authors>Dimitar Mitev</Authors>
+    <Description>Certificate finder for windows key storage</Description>
+    <RootNamespace>TechnoLogica.RegiX.SecureBlackBox.CertFinder.WinStore</RootNamespace>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.BaseSigner" Version="1.0.14" />
+    <PackageReference Include="SecureBlackbox" Version="16.0.330" />
+  </ItemGroup>
+
+</Project>

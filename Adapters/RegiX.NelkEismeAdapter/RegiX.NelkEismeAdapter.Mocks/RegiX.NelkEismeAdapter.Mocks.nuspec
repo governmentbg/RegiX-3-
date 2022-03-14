@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <description>$description$</description>
+    <dependencies>
+      <dependency id="RegiX.Adapters.Mocks" version="1.0.43"/>
+      <dependency id="RegiX.NelkEismeAdapter" version="$(Major).$(Minor).$(Patch)"/>
+    </dependencies>
+    <contentFiles>
+      <files include="any/any/XMLData/$title$/GetAllExpertDecisionsByIdentifier/*.xml" buildAction="Content" copyToOutput="true" flatten="false" />
+      <files include="any/any/XMLData/$title$/GetAllExpertDecisionsByPeriod/*.xml" buildAction="Content" copyToOutput="true" flatten="false" />
+      <files include="any/any/XMLData/$title$/GetLastExpertDecisionByIdentifier/*.xml" buildAction="Content" copyToOutput="true" flatten="false" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="XMLData\$title$\GetAllExpertDecisionsByIdentifier\*.xml" target="contentFiles\any\any\XMLData\$title$\GetAllExpertDecisionsByIdentifier" />
+    <file src="XMLData\$title$\GetAllExpertDecisionsByPeriod\*.xml" target="contentFiles\any\any\XMLData\$title$\GetAllExpertDecisionsByPeriod" />
+    <file src="XMLData\$title$\GetLastExpertDecisionByIdentifier\*.xml" target="contentFiles\any\any\XMLData\$title$\GetLastExpertDecisionByIdentifier" />
+  </files>
+</package>

@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.MonChildSchoolStudentsAdapter.Mocks</RootNamespace>
+    <Authors>Dimitar Mitev</Authors>
+    <Company>TechnoLogica</Company>
+    <Description>Mocks for MonChildSchoolStudentsAdapter</Description>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="XMLData\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="XMLData\RegiX.MonChildSchoolStudentsAdapter.Mocks\IMonChildSchoolStudentsAdapter.GetChildStudentStatus.response.xml" />
+    <None Remove="XMLData\RegiX.MonChildSchoolStudentsAdapter.Mocks\IMonChildSchoolStudentsAdapter.GetSchoolStudentStatus.response.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.Adapters.Mocks" Version="1.0.43" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.MonChildSchoolStudentsAdapter\RegiX.MonChildSchoolStudentsAdapter.csproj" />
+  </ItemGroup>
+
+</Project>
+

@@ -1,0 +1,173 @@
+﻿<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.MVRANDAdapter.APIService.IMVRANDAPI.SendPaymentNotification</OperationName>
+  <Code>SendPaymentNotification</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>SendPaymentNotificationRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/MVR/PaymentNotification/SendPaymentNotificationRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Отразяване на онлайн плащане в АИС АНД</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>TransactionNumber</ParameterName>
+        <ParameterLabel>Уникален номер на транзакцията от ePay</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>DocumentType</ParameterName>
+        <ParameterLabel>Тип документ - Фиш, НП</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>SendNotificationDocumentType</Type>
+          <EnumValues>
+            <EnumValue>
+              <Value>TICKET</Value>
+              <DisplayText>ФИШ</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>PENAL_DECREE</Value>
+              <DisplayText>Наказателно постановление</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>AGREEMENT</Value>
+              <DisplayText>Съгласуване</DisplayText>
+            </EnumValue>
+          </EnumValues>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>DocumentSeries</ParameterName>
+        <ParameterLabel>Серия на документ</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>DocumentNumber</ParameterName>
+        <ParameterLabel>Номер на документ</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>3</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>PaymentAmount</ParameterName>
+        <ParameterLabel>Платена сума, BGN</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>4</OrderNumber>
+        <ParameterType>
+          <Type>double</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>PaymentDate</ParameterName>
+        <ParameterLabel>Дата/час на плащането</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>5</OrderNumber>
+        <ParameterType>
+          <Type>DateTime</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  <Parameter>
+    <ParameterInfo>
+      <ParameterName>PayerPin</ParameterName>
+      <ParameterLabel>Идентификатор на наредител (ЕГН/ЛНЧ/ЕИК)</ParameterLabel>
+      <IsRequired>false</IsRequired>
+      <IsXmlElement>true</IsXmlElement>
+      <OrderNumber>6</OrderNumber>
+      <ParameterType>
+        <Type>string</Type>
+        <EnumValues />
+      </ParameterType>
+    </ParameterInfo>
+    <ChildParamteters />
+  </Parameter>
+  <Parameter>
+    <ParameterInfo>
+      <ParameterName>PayerType</ParameterName>
+      <ParameterLabel> Тип на наредител  - (P) „Физическо лице“ (L) „Юридическо лице“</ParameterLabel>
+      <IsRequired>false</IsRequired>
+      <IsXmlElement>true</IsXmlElement>
+      <OrderNumber>7</OrderNumber>
+      <ParameterType>
+        <Type>SendNotificationPayerType</Type>
+        <EnumValues>
+          <EnumValue>
+            <Value>P</Value>
+            <DisplayText>Физическо лице</DisplayText>
+          </EnumValue>
+          <EnumValue>
+            <Value>L</Value>
+            <DisplayText>Юридическо лице</DisplayText>
+          </EnumValue>
+        </EnumValues>
+      </ParameterType>
+    </ParameterInfo>
+    <ChildParamteters />
+  </Parameter>
+  <Parameter>
+    <ParameterInfo>
+      <ParameterName>SystemId</ParameterName>
+      <ParameterLabel>Стойност от номенклатура "Информационни системи"</ParameterLabel>
+      <IsRequired>false</IsRequired>
+      <IsXmlElement>true</IsXmlElement>
+      <OrderNumber>8</OrderNumber>
+      <ParameterType>
+        <Type>int</Type>
+        <EnumValues />
+      </ParameterType>
+    </ParameterInfo>
+    <ChildParamteters />
+  </Parameter>
+  <Parameter>
+    <ParameterInfo>
+      <ParameterName>AdministrationName</ParameterName>
+      <ParameterLabel>Структура/администрация</ParameterLabel>
+      <IsRequired>false</IsRequired>
+      <IsXmlElement>true</IsXmlElement>
+      <OrderNumber>9</OrderNumber>
+      <ParameterType>
+        <Type>string</Type>
+        <EnumValues />
+      </ParameterType>
+    </ParameterInfo>
+    <ChildParamteters />
+  </Parameter>
+  </Parameters>
+</AdapterOperation>

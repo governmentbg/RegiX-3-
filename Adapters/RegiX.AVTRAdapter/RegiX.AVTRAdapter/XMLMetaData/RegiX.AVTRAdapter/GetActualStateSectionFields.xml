@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.AVTRAdapter.APIService.ITRAPI.GetActualStateSectionFields</OperationName>
+  <Code>GetActualStateSectionFields</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>ActualStateSectionFieldsRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/AV/TR/ActualStateSectionFieldsRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за номенклатурата от полета, групи и раздели по чл. 66 и чл. 67 от НАРЕДБА ЗА ВОДЕНЕ, СЪХРАНЯВАНЕ И ДОСТЪП ДО ТЪРГОВСКИЯ РЕГИСТЪР</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>FieldList</ParameterName>
+        <ParameterLabel>Списък с полета(с разделител "," напр: 001, 00020)</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

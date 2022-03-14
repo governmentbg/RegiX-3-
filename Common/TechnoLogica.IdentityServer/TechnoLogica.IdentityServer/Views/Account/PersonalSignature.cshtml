@@ -1,0 +1,34 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <noscript>
+        <p>
+            <strong>Важно:</strong> Моля, натиснете бутон „Изпрати”, за да изпратите формата
+        </p>
+    </noscript>
+
+    <form action="https://eauthn.egov.bg:9445/eAuthenticator/eAuthenticator.seam" method="post">
+        <div>
+            <input type="hidden" name="SAMLRequest" value="@ViewBag.SAMLRequest" />
+            <input type="hidden" name="RelayState" value="@ViewBag.RelayState" />
+        </div>
+        <noscript>
+            <div>
+                <input type="submit" value="Изпрати" />
+            </div>
+        </noscript>
+    </form>
+</div>
+@section scripts {
+    <script>
+        function executeForm() {
+            document.forms[0].submit();
+        }
+
+        $(function () {
+            executeForm();
+        });
+    </script>
+}

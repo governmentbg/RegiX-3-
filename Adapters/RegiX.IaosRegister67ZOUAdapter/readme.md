@@ -1,0 +1,1 @@
+# RegiX.IaosRegister67ZOUAdapter

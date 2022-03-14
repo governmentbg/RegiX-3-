@@ -1,0 +1,653 @@
+﻿<ActualStateResponseV3 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AV/TR/ActualStateResponseV3">
+  <Deed>
+    <DeedStatus xmlns="http://egov.bg/RegiX/AV/TR/SubdeedsCommon">N</DeedStatus>
+    <CompanyName xmlns="http://egov.bg/RegiX/AV/TR/SubdeedsCommon">ТехноЛогика</CompanyName>
+    <GUID xmlns="http://egov.bg/RegiX/AV/TR/SubdeedsCommon">51403567666145acac5988ed269da395</GUID>
+    <UIC xmlns="http://egov.bg/RegiX/AV/TR/SubdeedsCommon">201593301</UIC>
+    <LegalForm xmlns="http://egov.bg/RegiX/AV/TR/SubdeedsCommon">ЕАД</LegalForm>
+    <LiquidationOrInsolvency xmlns="http://egov.bg/RegiX/AV/TR/SubdeedsCommon">InsolvencySecIns</LiquidationOrInsolvency>
+    <Subdeeds xmlns="http://egov.bg/RegiX/AV/TR/SubdeedsCommon">
+      <Subdeed>
+        <Records>
+          <Record>
+            <RecordData>
+              <UIC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" uic="201593301" IsNew="true">
+                <CompanyControl />
+                <BulstatDeed>
+                  <Deed />
+                  <Year />
+                  <CourtCode />
+                </BulstatDeed>
+              </UIC>
+            </RecordData>
+            <RecordId>22201475</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>00010</FieldIdent>
+            <MainField>
+              <GroupId>45</GroupId>
+              <GroupName>Идентификация</GroupName>
+              <SectionId>414</SectionId>
+              <SectionName>Обща информация</SectionName>
+              <MainFieldIdent>00010</MainFieldIdent>
+              <MainFieldCode>1</MainFieldCode>
+              <MainFieldName>ЕИК/ПИК</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">ТехноЛогика</Company>
+            </RecordData>
+            <RecordId>22201613</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>00020</FieldIdent>
+            <MainField>
+              <GroupId>415</GroupId>
+              <GroupName>Основни обстоятелства</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00020</MainFieldIdent>
+              <MainFieldCode>2</MainFieldCode>
+              <MainFieldName>Фирма</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <LegalForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Text="Еднолично акционерно дружество" Code="11" />
+            </RecordData>
+            <RecordId>22201476</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>00030</FieldIdent>
+            <MainField>
+              <GroupId>415</GroupId>
+              <GroupName>Основни обстоятелства</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00030</MainFieldIdent>
+              <MainFieldCode>3</MainFieldCode>
+              <MainFieldName>Правна форма</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <Transliteration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">TechnoLogica ЕAD</Transliteration>
+            </RecordData>
+            <RecordId>22201614</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>00040</FieldIdent>
+            <MainField>
+              <GroupId>415</GroupId>
+              <GroupName>Основни обстоятелства</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00040</MainFieldIdent>
+              <MainFieldCode>4</MainFieldCode>
+              <MainFieldName>Изписване на чужд език</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <Seat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <Address>
+                  <CountryID>1</CountryID>
+                  <CountryCode>BGR</CountryCode>
+                  <Country>БЪЛГАРИЯ</Country>
+                  <IsForeign>false</IsForeign>
+                  <DistrictID>1</DistrictID>
+                  <DistrictEkatte>SOF</DistrictEkatte>
+                  <District>София (столица)</District>
+                  <Municipalityid>1</Municipalityid>
+                  <MunicipalityEkatte>SOF46</MunicipalityEkatte>
+                  <Municipality>Столична</Municipality>
+                  <SettlementID>1</SettlementID>
+                  <SettlementEKATTE>68134</SettlementEKATTE>
+                  <Settlement>гр. София</Settlement>
+                  <AreaID>5351</AreaID>
+                  <Area>р-н Изгрев</Area>
+                  <AreaEkatte>68134-08</AreaEkatte>
+                  <PostCode>1113</PostCode>
+                  <ForeignPlace />
+                  <HousingEstate>Изток</HousingEstate>
+                  <Street />
+                  <StreetNumber />
+                  <Block>4</Block>
+                  <Entrance>А</Entrance>
+                  <Floor>1</Floor>
+                  <Apartment>2</Apartment>
+                </Address>
+                <Contacts>
+                  <Phone>+ 359 2 91 912</Phone>
+                  <Fax>+ 359 2 963 16 10</Fax>
+                  <EMail>office@technologica.com</EMail>
+                  <URL>www.technologica.com</URL>
+                </Contacts>
+              </Seat>
+            </RecordData>
+            <RecordId>22201615</RecordId>
+            <IncomingId>7499183</IncomingId>
+            <FieldIdent>00050</FieldIdent>
+            <MainField>
+              <GroupId>415</GroupId>
+              <GroupName>Основни обстоятелства</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00050</MainFieldIdent>
+              <MainFieldCode>5</MainFieldCode>
+              <MainFieldName>Седалище и адрес на управление</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110801162822</FieldEntryNumber>
+            <FieldActionDate>2011-01-08T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <SeatForCorrespondence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <Address>
+                  <CountryID>1</CountryID>
+                  <CountryCode>BGR</CountryCode>
+                  <Country>БЪЛГАРИЯ</Country>
+                  <IsForeign>false</IsForeign>
+                  <DistrictID>1</DistrictID>
+                  <DistrictEkatte>SOF</DistrictEkatte>
+                  <District>София (столица)</District>
+                  <Municipalityid>1</Municipalityid>
+                  <MunicipalityEkatte>SOF46</MunicipalityEkatte>
+                  <Municipality>Столична</Municipality>
+                  <SettlementID>1</SettlementID>
+                  <SettlementEKATTE>68134</SettlementEKATTE>
+                  <Settlement>гр. София</Settlement>
+                  <AreaID>5352</AreaID>
+                  <Area>р-н Лозенец</Area>
+                  <AreaEkatte>68134-09</AreaEkatte>
+                  <PostCode>1421</PostCode>
+                  <ForeignPlace />
+                  <HousingEstate />
+                  <Street>"Червена стена"</Street>
+                  <StreetNumber>46</StreetNumber>
+                  <Block />
+                  <Entrance />
+                  <Floor />
+                  <Apartment />
+                </Address>
+              </SeatForCorrespondence>
+            </RecordData>
+            <RecordId>22201616</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>00051</FieldIdent>
+            <MainField>
+              <GroupId>415</GroupId>
+              <GroupName>Основни обстоятелства</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00051</MainFieldIdent>
+              <MainFieldCode>5а</MainFieldCode>
+              <MainFieldName>Адрес за кореспонденция с НАП на територията на страната</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <SubjectOfActivity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" IsBank="false" IsBankText="" IsInsurer="false" IsInsurerText="">Разработка на софтуер; създаване, развитие, продажба и внедряване на програмни продукти; консултантска дейност, обучение и трансфер на ноу-хау в областта на информационните технологии; финансиране на дъщерни дружества; търговско представителство и посредничество, маркетингова и рекламна дейност; производствена дейност, както и всякаква друга дейност в страната и в чужбина, която не е забранена от закона.</SubjectOfActivity>
+            </RecordData>
+            <RecordId>22201617</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>00060</FieldIdent>
+            <MainField>
+              <GroupId>415</GroupId>
+              <GroupName>Основни обстоятелства</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00060</MainFieldIdent>
+              <MainFieldCode>6</MainFieldCode>
+              <MainFieldName>Предмет на дейност</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <SubjectOfActivityNKID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" codeNkid="62.01" textNkid="Компютърно програмиране" idNkid="1513" />
+            </RecordData>
+            <RecordId>24401320</RecordId>
+            <IncomingId>7499183</IncomingId>
+            <FieldIdent>00061</FieldIdent>
+            <MainField>
+              <GroupId>415</GroupId>
+              <GroupName>Основни обстоятелства</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00061</MainFieldIdent>
+              <MainFieldCode>6а</MainFieldCode>
+              <MainFieldName>Основна дейност по НКИД</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110801162822</FieldEntryNumber>
+            <FieldActionDate>2011-01-08T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <Representative xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <Subject IsForeignTraderText="0">
+                  <Indent>1111011126</Indent>
+                  <Name>Огнян Георгиев Траянов</Name>
+                  <IndentType>EGN</IndentType>
+                  <CountryID>1</CountryID>
+                  <CountryName>БЪЛГАРИЯ</CountryName>
+                </Subject>
+                <Person IsForeignTraderText="0">
+                  <Indent />
+                  <Name />
+                  <IndentType>Undefined</IndentType>
+                  <CountryID xsi:nil="true" />
+                  <CountryName />
+                </Person>
+              </Representative>
+            </RecordData>
+            <RecordId>22201913</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>001000</FieldIdent>
+            <MainField>
+              <GroupId>415</GroupId>
+              <GroupName>Основни обстоятелства</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00100</MainFieldIdent>
+              <MainFieldCode>10</MainFieldCode>
+              <MainFieldName>Представители</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <Representative xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <Subject IsForeignTraderText="0">
+                  <Indent>1111011147</Indent>
+                  <Name>Марио Божидаров Манджуков</Name>
+                  <IndentType>EGN</IndentType>
+                  <CountryID>1</CountryID>
+                  <CountryName>БЪЛГАРИЯ</CountryName>
+                </Subject>
+                <Person IsForeignTraderText="0">
+                  <Indent />
+                  <Name />
+                  <IndentType>Undefined</IndentType>
+                  <CountryID xsi:nil="true" />
+                  <CountryName />
+                </Person>
+              </Representative>
+            </RecordData>
+            <RecordId>22201917</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>001000</FieldIdent>
+            <MainField>
+              <GroupId>415</GroupId>
+              <GroupName>Основни обстоятелства</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00100</MainFieldIdent>
+              <MainFieldCode>10</MainFieldCode>
+              <MainFieldName>Представители</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <Representative xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <Subject IsForeignTraderText="0">
+                  <Indent>1111011168</Indent>
+                  <Name>Йонко Петков Терзиев</Name>
+                  <IndentType>EGN</IndentType>
+                  <CountryID>1</CountryID>
+                  <CountryName>БЪЛГАРИЯ</CountryName>
+                </Subject>
+                <Person IsForeignTraderText="0">
+                  <Indent />
+                  <Name />
+                  <IndentType>Undefined</IndentType>
+                  <CountryID xsi:nil="true" />
+                  <CountryName />
+                </Person>
+              </Representative>
+            </RecordData>
+            <RecordId>22201918</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>001000</FieldIdent>
+            <MainField>
+              <GroupId>415</GroupId>
+              <GroupName>Основни обстоятелства</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00100</MainFieldIdent>
+              <MainFieldCode>10</MainFieldCode>
+              <MainFieldName>Представители</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <WayOfRepresentation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" jointly="0" severally="0" otherWay="1">Изпълнителният директор Огнян Георгиев Траянов самостоятелно. Всеки двама члена на Съвета на директорите само заедно (чл. 29 от Устава)</WayOfRepresentation>
+            </RecordData>
+            <RecordId>22201914</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>00110</FieldIdent>
+            <MainField>
+              <GroupId>415</GroupId>
+              <GroupName>Основни обстоятелства</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00110</MainFieldIdent>
+              <MainFieldCode>11</MainFieldCode>
+              <MainFieldName>Начин на представляване</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <BoardOfDirectorsMandate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" MandateTypeText="">02.12.2013</BoardOfDirectorsMandate>
+            </RecordData>
+            <RecordId>22201915</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>001200</FieldIdent>
+            <MainField>
+              <GroupId>415</GroupId>
+              <GroupName>Основни обстоятелства</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00120</MainFieldIdent>
+              <MainFieldCode>12</MainFieldCode>
+              <MainFieldName>Съвет на директорите</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <Director xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <Subject IsForeignTraderText="0">
+                  <Indent>1111011126</Indent>
+                  <Name>Огнян Георгиев Траянов</Name>
+                  <IndentType>EGN</IndentType>
+                  <CountryID>1</CountryID>
+                  <CountryName>БЪЛГАРИЯ</CountryName>
+                </Subject>
+              </Director>
+            </RecordData>
+            <RecordId>22201916</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>001201</FieldIdent>
+            <MainField>
+              <GroupId>415</GroupId>
+              <GroupName>Основни обстоятелства</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00120</MainFieldIdent>
+              <MainFieldCode>12</MainFieldCode>
+              <MainFieldName>Съвет на директорите</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <Director xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <Subject IsForeignTraderText="0">
+                  <Indent>1111011147</Indent>
+                  <Name>Марио Божидаров Манджуков</Name>
+                  <IndentType>EGN</IndentType>
+                  <CountryID>1</CountryID>
+                  <CountryName>БЪЛГАРИЯ</CountryName>
+                </Subject>
+              </Director>
+            </RecordData>
+            <RecordId>22201919</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>001201</FieldIdent>
+            <MainField>
+              <GroupId>415</GroupId>
+              <GroupName>Основни обстоятелства</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00120</MainFieldIdent>
+              <MainFieldCode>12</MainFieldCode>
+              <MainFieldName>Съвет на директорите</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <Director xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <Subject IsForeignTraderText="0">
+                  <Indent>1111011168</Indent>
+                  <Name>Йонко Петков Терзиев</Name>
+                  <IndentType>EGN</IndentType>
+                  <CountryID>1</CountryID>
+                  <CountryName>БЪЛГАРИЯ</CountryName>
+                </Subject>
+              </Director>
+            </RecordData>
+            <RecordId>22201920</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>001201</FieldIdent>
+            <MainField>
+              <GroupId>415</GroupId>
+              <GroupName>Основни обстоятелства</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00120</MainFieldIdent>
+              <MainFieldCode>12</MainFieldCode>
+              <MainFieldName>Съвет на директорите</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <SoleCapitalOwner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <Subject IsForeignTraderText="0">
+                  <Indent>1111011126</Indent>
+                  <Name>Огнян Георгиев Траянов</Name>
+                  <IndentType>EGN</IndentType>
+                  <CountryID>1</CountryID>
+                  <CountryName>БЪЛГАРИЯ</CountryName>
+                </Subject>
+              </SoleCapitalOwner>
+            </RecordData>
+            <RecordId>22201948</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>00230</FieldIdent>
+            <MainField>
+              <GroupId>415</GroupId>
+              <GroupName>Основни обстоятелства</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00230</MainFieldIdent>
+              <MainFieldCode>23</MainFieldCode>
+              <MainFieldName>Едноличен собственик на капитала</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <Funds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">1000000</Funds>
+            </RecordData>
+            <RecordId>22202002</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>00310</FieldIdent>
+            <MainField>
+              <GroupId>16</GroupId>
+              <GroupName>Капитал</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00310</MainFieldIdent>
+              <MainFieldCode>31</MainFieldCode>
+              <MainFieldName>Размер</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <Share xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <Type>обикновени, налични, поименни с право на глас</Type>
+                <Count>100000</Count>
+                <NominalValue>10</NominalValue>
+              </Share>
+            </RecordData>
+            <RecordId>22202003</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>003112</FieldIdent>
+            <MainField>
+              <GroupId>16</GroupId>
+              <GroupName>Капитал</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00311</MainFieldIdent>
+              <MainFieldCode>31а</MainFieldCode>
+              <MainFieldName>Акции</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <DepositedFunds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">1000000</DepositedFunds>
+            </RecordData>
+            <RecordId>22202004</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>00320</FieldIdent>
+            <MainField>
+              <GroupId>16</GroupId>
+              <GroupName>Капитал</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00320</MainFieldIdent>
+              <MainFieldCode>32</MainFieldCode>
+              <MainFieldName>Внесен капитал</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <NonMonetaryDeposit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <Description033>МАРКА HERMES И СИСТЕМА ЗА УПРАВЛЕНИЕ НА ЧОВЕШКИ РЕСУРСИ HERMES </Description033>
+                <Value>916193</Value>
+                <OutgoingNumber>
+                  <IncomingNumber />
+                  <OutgoingDate xsi:nil="true" />
+                  <DocNumber xsi:nil="true" />
+                </OutgoingNumber>
+              </NonMonetaryDeposit>
+            </RecordData>
+            <RecordId>22202005</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>003300</FieldIdent>
+            <MainField>
+              <GroupId>16</GroupId>
+              <GroupName>Капитал</GroupName>
+              <SectionId>1</SectionId>
+              <SectionName>Общ статус</SectionName>
+              <MainFieldIdent>00330</MainFieldIdent>
+              <MainFieldCode>33</MainFieldCode>
+              <MainFieldName>Непарична вноска </MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+        </Records>
+      </Subdeed>
+      <Subdeed>
+        <Records>
+          <Record>
+            <RecordData>
+              <FormOfTransforming701 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Influx="0" Fusion="0" Division="0" Separation="0" ChangeLegalForm="1" TransferringProperty="0" />
+            </RecordData>
+            <RecordId>22394086</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>07010</FieldIdent>
+            <MainField>
+              <GroupId>40</GroupId>
+              <GroupName>Преобразуване </GroupName>
+              <SectionId>9</SectionId>
+              <SectionName>Преобразуване</SectionName>
+              <MainFieldIdent>07010</MainFieldIdent>
+              <MainFieldCode>701</MainFieldCode>
+              <MainFieldName>Форма на преобразуване</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <TransformingCompany xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <Subject IsForeignTraderText="0">
+                  <Indent>831446777</Indent>
+                  <Name>ТЕХНОЛОГИКА</Name>
+                  <IndentType>UIC</IndentType>
+                  <CountryID xsi:nil="true" />
+                  <CountryName />
+                </Subject>
+              </TransformingCompany>
+            </RecordData>
+            <RecordId>22394087</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>070200</FieldIdent>
+            <MainField>
+              <GroupId>40</GroupId>
+              <GroupName>Преобразуване </GroupName>
+              <SectionId>9</SectionId>
+              <SectionName>Преобразуване</SectionName>
+              <MainFieldIdent>07020</MainFieldIdent>
+              <MainFieldCode>702</MainFieldCode>
+              <MainFieldName>Преобразуващо се дружество</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+          <Record>
+            <RecordData>
+              <Successor703 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <Subject IsForeignTraderText="0">
+                  <Indent>201593301</Indent>
+                  <Name>ТехноЛогика</Name>
+                  <IndentType>UIC</IndentType>
+                  <CountryID xsi:nil="true" />
+                  <CountryName />
+                </Subject>
+                <legalForm>11</legalForm>
+              </Successor703>
+            </RecordData>
+            <RecordId>22394088</RecordId>
+            <IncomingId>6785177</IncomingId>
+            <FieldIdent>070300</FieldIdent>
+            <MainField>
+              <GroupId>40</GroupId>
+              <GroupName>Преобразуване </GroupName>
+              <SectionId>9</SectionId>
+              <SectionName>Преобразуване</SectionName>
+              <MainFieldIdent>07030</MainFieldIdent>
+              <MainFieldCode>703</MainFieldCode>
+              <MainFieldName>Правоприемник</MainFieldName>
+            </MainField>
+            <FieldEntryNumber>20110611161419</FieldEntryNumber>
+            <FieldActionDate>2011-11-06T00:00:00</FieldActionDate>
+          </Record>
+        </Records>
+      </Subdeed>
+    </Subdeeds>
+  </Deed>
+  <DataValidForDate>2018-02-09T10:50:14.2137978+02:00</DataValidForDate>
+  <DataFound>true</DataFound>
+</ActualStateResponseV3>

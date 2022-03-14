@@ -1,0 +1,12 @@
+<MRO_BAGS_Validity_Check_Response xmlns="http://egov.bg/RegiX/IAOS/MROBags/ValidityCheckResponse">
+  <Authorization>
+    <Address>ул. "Софийско поле" 3, 1756 София</Address>
+    <AuthNum>6547635581</AuthNum>
+    <CompanyName>Техно Логика</CompanyName>
+    <DistName>област София</DistName>
+    <FirstName>Иван</FirstName>
+    <LastName>Иванов</LastName>
+    <PopName>София</PopName>
+    <TerName>община София</TerName>
+  </Authorization>
+</MRO_BAGS_Validity_Check_Response>

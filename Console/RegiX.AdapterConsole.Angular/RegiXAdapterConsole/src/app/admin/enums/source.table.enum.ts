@@ -1,0 +1,6 @@
+export enum ESourceTable {
+  USERS = 'USERS',
+  ROLES = 'ROLES',
+  REPORTS = 'REPORTS',
+  FAVOURITE_REPORTS = 'FAVOURITE_REPORTS'
+}

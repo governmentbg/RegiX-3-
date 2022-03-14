@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.Client.API.DataContracts</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="API.DataContracts" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DTO\AuditExceptions\" />
+    <Folder Include="DTO\AuditSystemReportExecutions\" />
+    <Folder Include="DTO\AuditTables\" />
+    <Folder Include="DTO\AuditValues\" />
+    <Folder Include="DTO\EnumItemsToParameterTypes\" />
+    <Folder Include="DTO\EnumItems\" />
+    <Folder Include="DTO\Reports\" />
+    <Folder Include="DTO\Role\" />
+  </ItemGroup>
+
+</Project>

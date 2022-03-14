@@ -1,0 +1,24 @@
+<div igxLayout igxLayoutDir="row" [formGroup]="formGroup">
+  <igx-circular-bar
+[animate]="false"
+[indeterminate]="true"
+[textVisibility]="false"
+*ngIf="this.isLoading"
+></igx-circular-bar>
+    <igx-select
+      #select
+      igxFlex
+      class="form-group-wrapper"
+      name="enumValues"
+      [formControlName]="parameterName"
+      tlFormGroupRef
+    >
+      <igx-select-item
+        *ngFor="let value of this.values"
+        [value]="value.value"
+      >
+        {{ value.displayText }}
+      </igx-select-item>
+      <label igxLabel for="enumValues">{{ parameterLabel }}</label>
+    </igx-select>
+  </div>

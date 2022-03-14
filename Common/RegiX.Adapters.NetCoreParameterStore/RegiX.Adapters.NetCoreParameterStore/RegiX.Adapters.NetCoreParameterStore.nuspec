@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$authors$</authors>
+    <owners>$authors$</owners>
+    <description>$description$</description>
+    <releaseNotes>Added nuspec file</releaseNotes>
+    <dependencies>
+      <dependency id="Microsoft.AspNetCore.DataProtection.Abstractions" version="5.0.0" />
+      <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="5.0.0" />
+      <dependency id="RegiX.Adapters.Common" version="1.0.70" />
+    </dependencies>    
+  </metadata>
+</package>

@@ -1,0 +1,80 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.NoiROAdapter.APIService.IROAPI.SearchDisabilityCompensationByCompensationPeriod</OperationName>
+  <Code>SearchDisabilityCompensationByCompensationPeriod</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>POVNPOBRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/NOI/RO/POVNPOBRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за изплатено парично обезщетение при временна неработоспособност, трудоустрояване и майчинство и/или помощ по период на обезщетението</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Identifier</ParameterName>
+        <ParameterLabel>ЕГН/ЛНЧ</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <IdentifierType>3</IdentifierType>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>IdentifierType</ParameterName>
+        <ParameterLabel>Тип на идентификатор</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <IdentifierType>7</IdentifierType>
+        <ParameterType>
+          <Type>IdentifierType</Type>
+          <EnumValues>
+            <EnumValue>
+              <Value>ЕГН</Value>
+              <DisplayText>ЕГН</DisplayText>
+              <IdentifierType>1</IdentifierType>
+            </EnumValue>
+            <EnumValue>
+              <Value>ЛНЧ</Value>
+              <DisplayText>ЛНЧ</DisplayText>
+              <IdentifierType>2</IdentifierType>
+            </EnumValue>
+          </EnumValues>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>DateFrom</ParameterName>
+        <ParameterLabel>Начало на период</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>DateTo</ParameterName>
+        <ParameterLabel>Край на период</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>3</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

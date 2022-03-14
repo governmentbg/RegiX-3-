@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://egov.bg/RegiX/IAOS/REG35Reg" targetNamespace="http://egov.bg/RegiX/IAOS/REG35Reg" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="REG35_Info_By_EIK_Request" type="tns:REG35_Info_By_EIK_Request" />
+  <xs:element name="REG35_Info_By_EIK_Response" type="tns:reg35InfoByEIK" />
+  <xs:element name="REG35_License_Validity_Check_Request" type="tns:REG35_License_Validity_Check_Request" />
+  <xs:element name="REG35_License_Validity_Check_Response" type="tns:reg35LicenseValidityCheck" />
+  <xs:element name="REG35_Stage_Info_By_Pop_Name_Request" type="tns:REG35_Stage_Info_By_Pop_Name_Request" />
+  <xs:element name="REG35_Stage_Info_By_Pop_Name_Response" type="tns:reg35StageInfoByPopName" />
+  <xs:element name="REG35_Stage_Info_By_Waste_Code_Request" type="tns:REG35_Stage_Info_By_Waste_Code_Request" />
+  <xs:element name="REG35_Stage_Info_By_Waste_Code_Response" type="tns:reg35StageInfoByWasteCode" />
+  <xs:element name="REG35_Stages_By_Reg_Number_And_Waste_Code_Request" type="tns:REG35_Stages_By_Reg_Number_And_Waste_Code_Request" />
+  <xs:element name="REG35_Stages_By_Reg_Number_And_Waste_Code_Response" type="tns:reg35StagesByRegNumberAndWasteCode" />
+  <xs:element name="REG35_Validity_Check_By_Reg_Number_Request" type="tns:REG35_Validity_Check_By_Reg_Number_Request" />
+  <xs:element name="REG35_Validity_Check_By_Reg_Number_Response" type="tns:reg35ValidityCheckByRegNumber" />
+  <xs:element name="WebServiceException" type="tns:WebServiceException" />
+  <xs:element name="getInfoByEIKResponse" type="tns:getInfoByEIKResponse" />
+  <xs:element name="getLicenseValidityCheckResponse" type="tns:getLicenseValidityCheckResponse" />
+  <xs:element name="getStageInfoByPopNameResponse" type="tns:getStageInfoByPopNameResponse" />
+  <xs:element name="getStageInfoByWasteCodeResponse" type="tns:getStageInfoByWasteCodeResponse" />
+  <xs:element name="getStagesByRegNumberAndWasteCodeResponse" type="tns:getStagesByRegNumberAndWasteCodeResponse" />
+  <xs:element name="getValidityCheckByRegNumResponse" type="tns:getValidityCheckByRegNumResponse" />
+  <xs:complexType name="REG35_License_Validity_Check_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AuthNum" type="xs:string" />
+      <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getLicenseValidityCheckResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:REG35_License_Validity_Check_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reg35LicenseValidityCheck">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="Authorization" type="tns:AuthorizationValidityCheckByDate" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthorizationValidityCheckByDate">
+    <xs:sequence>
+      <xs:element form="qualified" name="AuthType" type="xs:string" />
+      <xs:element form="qualified" name="DateFrom" type="xs:dateTime" />
+      <xs:element form="qualified" name="DateTo" type="xs:dateTime" />
+      <xs:element form="qualified" name="RIOSV" type="xs:string" />
+      <xs:element form="qualified" name="State" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="WebServiceException">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="REG35_Info_By_EIK_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EIK" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getInfoByEIKResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:REG35_Info_By_EIK_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reg35InfoByEIK">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" form="qualified" name="Authorization" type="tns:AuthorizationRegInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthorizationRegInfo">
+    <xs:sequence>
+      <xs:element form="qualified" name="AuthNum" type="xs:string" />
+      <xs:element form="qualified" name="AuthType" type="xs:string" />
+      <xs:element form="qualified" name="Riosv" type="xs:string" />
+      <xs:element form="qualified" name="State" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="REG35_Stage_Info_By_Waste_Code_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EIK" type="xs:string" />
+      <xs:element minOccurs="0" name="WasteOperation" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getStageInfoByWasteCodeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:REG35_Stage_Info_By_Waste_Code_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reg35StageInfoByWasteCode">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" form="qualified" name="Authorization" type="tns:AuthorizationByWasteCode" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthorizationByWasteCode">
+    <xs:sequence>
+      <xs:element form="qualified" name="AuthNum" type="xs:string" />
+      <xs:element form="qualified" name="AuthType" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="ContactPerson" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="Phone" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" form="qualified" name="Stage" type="tns:StageInfoWaste" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StageInfoWaste">
+    <xs:sequence>
+      <xs:element form="qualified" name="StageAddress" type="xs:string" />
+      <xs:element form="qualified" name="StageNum" type="xs:string" />
+      <xs:element maxOccurs="unbounded" form="qualified" name="WasteCode" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="REG35_Validity_Check_By_Reg_Number_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AuthNum" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getValidityCheckByRegNumResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:REG35_Validity_Check_By_Reg_Number_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reg35ValidityCheckByRegNumber">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="Authorization" type="tns:AuthorizationValidityCheck" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthorizationValidityCheck">
+    <xs:sequence>
+      <xs:element form="qualified" name="AuthType" type="xs:string" />
+      <xs:element form="qualified" name="CompanyName" type="xs:string" />
+      <xs:element form="qualified" name="DateIssued" type="xs:dateTime" />
+      <xs:element form="qualified" name="EIK" type="xs:string" />
+      <xs:element form="qualified" name="State" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="REG35_Stages_By_Reg_Number_And_Waste_Code_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AuthNum" type="xs:string" />
+      <xs:element minOccurs="0" name="WasteCode" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getStagesByRegNumberAndWasteCodeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:REG35_Stages_By_Reg_Number_And_Waste_Code_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reg35StagesByRegNumberAndWasteCode">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="Authorization" type="tns:AuthorizationRegNumberWasteCode" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthorizationRegNumberWasteCode">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="ContactPerson" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="Phone" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" form="qualified" name="Stage" type="tns:StageInfoWaste" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="REG35_Stage_Info_By_Pop_Name_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AuthNum" type="xs:string" />
+      <xs:element minOccurs="0" name="PopName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getStageInfoByPopNameResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:REG35_Stage_Info_By_Pop_Name_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reg35StageInfoByPopName">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="Authorization" type="tns:AuthorizationInfoPopName" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthorizationInfoPopName">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="ContactPerson" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="Phone" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" form="qualified" name="Stage" type="tns:StageInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StageInfo">
+    <xs:sequence>
+      <xs:element form="qualified" name="StageAddress" type="xs:string" />
+      <xs:element form="qualified" name="StageNum" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

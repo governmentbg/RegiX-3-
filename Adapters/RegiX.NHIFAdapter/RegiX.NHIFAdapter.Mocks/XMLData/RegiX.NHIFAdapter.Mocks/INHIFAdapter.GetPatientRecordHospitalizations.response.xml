@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PatientRecordHospitalizationsResponse>
+  <PatientRecordHospitalizations>
+    <PatientRecordHospitalization>
+      <PatientIdentificator>PatientIdentificator1</PatientIdentificator>
+      <BranchName>BranchName1</BranchName>
+      <MSP>
+        <MSPCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPCode1</MSPCode>
+        <MSPName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPName1</MSPName>
+      </MSP>
+      <ClinicalPath>
+        <ClinicalPathCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalPathCode1</ClinicalPathCode>
+        <ClinicalPathName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalPathName1</ClinicalPathName>
+      </ClinicalPath>
+      <ICD>
+        <MainICD xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">
+          <ICDName>ICDName1</ICDName>
+          <ICDCode>ICDCode1</ICDCode>
+        </MainICD>
+        <AttachedICD1 xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">
+          <AttachedICD1Code>AttachedICD1Code1</AttachedICD1Code>
+          <AttachedICD1Name>AttachedICD1Name1</AttachedICD1Name>
+        </AttachedICD1>
+        <AttachedICD2 xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">
+          <AttachedICD2Code>AttachedICD2Code1</AttachedICD2Code>
+          <AttachedICD2Name>AttachedICD2Name1</AttachedICD2Name>
+        </AttachedICD2>
+        <AttachedICD3 xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">
+          <AttachedICD3Code>AttachedICD3Code1</AttachedICD3Code>
+          <AttachedICD3Name>AttachedICD3Name1</AttachedICD3Name>
+        </AttachedICD3>
+      </ICD>
+      <DateFrom>DateFrom1</DateFrom>
+      <DateTo>DateTo1</DateTo>
+      <BedDays>BedDays1</BedDays>
+      <ImplantsInfo>ImplantsInfo1</ImplantsInfo>
+    </PatientRecordHospitalization>
+    <PatientRecordHospitalization>
+      <PatientIdentificator>PatientIdentificator2</PatientIdentificator>
+      <BranchName>BranchName2</BranchName>
+      <MSP>
+        <MSPCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPCode2</MSPCode>
+        <MSPName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPName2</MSPName>
+      </MSP>
+      <ClinicalPath>
+        <ClinicalPathCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalPathCode2</ClinicalPathCode>
+        <ClinicalPathName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalPathName2</ClinicalPathName>
+      </ClinicalPath>
+      <ICD>
+        <MainICD xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">
+          <ICDName>ICDName2</ICDName>
+          <ICDCode>ICDCode2</ICDCode>
+        </MainICD>
+        <AttachedICD1 xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">
+          <AttachedICD1Code>AttachedICD1Code2</AttachedICD1Code>
+          <AttachedICD1Name>AttachedICD1Name2</AttachedICD1Name>
+        </AttachedICD1>
+        <AttachedICD2 xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">
+          <AttachedICD2Code>AttachedICD2Code2</AttachedICD2Code>
+          <AttachedICD2Name>AttachedICD2Name2</AttachedICD2Name>
+        </AttachedICD2>
+        <AttachedICD3 xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">
+          <AttachedICD3Code>AttachedICD3Code2</AttachedICD3Code>
+          <AttachedICD3Name>AttachedICD3Name2</AttachedICD3Name>
+        </AttachedICD3>
+      </ICD>
+      <DateFrom>DateFrom2</DateFrom>
+      <DateTo>DateTo2</DateTo>
+      <BedDays>BedDays2</BedDays>
+      <ImplantsInfo>ImplantsInfo2</ImplantsInfo>
+    </PatientRecordHospitalization>
+    <PatientRecordHospitalization>
+      <PatientIdentificator>PatientIdentificator3</PatientIdentificator>
+      <BranchName>BranchName3</BranchName>
+      <MSP>
+        <MSPCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPCode3</MSPCode>
+        <MSPName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">MSPName3</MSPName>
+      </MSP>
+      <ClinicalPath>
+        <ClinicalPathCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalPathCode3</ClinicalPathCode>
+        <ClinicalPathName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ClinicalPathName3</ClinicalPathName>
+      </ClinicalPath>
+      <ICD>
+        <MainICD xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">
+          <ICDName>ICDName3</ICDName>
+          <ICDCode>ICDCode3</ICDCode>
+        </MainICD>
+        <AttachedICD1 xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">
+          <AttachedICD1Code>AttachedICD1Code3</AttachedICD1Code>
+          <AttachedICD1Name>AttachedICD1Name3</AttachedICD1Name>
+        </AttachedICD1>
+        <AttachedICD2 xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">
+          <AttachedICD2Code>AttachedICD2Code3</AttachedICD2Code>
+          <AttachedICD2Name>AttachedICD2Name3</AttachedICD2Name>
+        </AttachedICD2>
+        <AttachedICD3 xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">
+          <AttachedICD3Code>AttachedICD3Code3</AttachedICD3Code>
+          <AttachedICD3Name>AttachedICD3Name3</AttachedICD3Name>
+        </AttachedICD3>
+      </ICD>
+      <DateFrom>DateFrom3</DateFrom>
+      <DateTo>DateTo3</DateTo>
+      <BedDays>BedDays3</BedDays>
+      <ImplantsInfo>ImplantsInfo3</ImplantsInfo>
+    </PatientRecordHospitalization>
+  </PatientRecordHospitalizations>
+</PatientRecordHospitalizationsResponse>

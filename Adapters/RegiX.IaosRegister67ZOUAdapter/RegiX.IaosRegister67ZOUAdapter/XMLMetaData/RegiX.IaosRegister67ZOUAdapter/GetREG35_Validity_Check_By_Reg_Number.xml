@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.IaosRegister67ZOUAdapter.APIService.IIaosRegister67ZOUAPI.GetREG35_Validity_Check_By_Reg_Number</OperationName>
+  <Code>GetREG35_Validity_Check_By_Reg_Number</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>REG35_Validity_Check_By_Reg_Number_Request</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/IAOS/REG35Reg/ValidityCheckByRegNumberRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка по регистрационен номер в регистъра на разрешенията по чл. 67 ЗУО и регистрационните документи по чл. 78 от ЗУО</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>AuthNum</ParameterName>
+        <ParameterLabel>Регистрационен номер</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

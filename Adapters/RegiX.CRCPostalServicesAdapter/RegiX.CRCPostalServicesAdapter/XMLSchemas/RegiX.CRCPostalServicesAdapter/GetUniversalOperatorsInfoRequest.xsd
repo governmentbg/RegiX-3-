@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/PostalServices/GetUniversalOperatorsInfoRequest" targetNamespace="http://egov.bg/RegiX/CRC/PostalServices/GetUniversalOperatorsInfoRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetUniversalOperatorsInfoRequest">
+		<xs:annotation>
+			<xs:documentation>Входни параметри на Справка за универсални оператори</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Holder" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Титуляр</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Type" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Вид</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="URI" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>УРИ</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Address" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Адрес</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="License" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Лицензия</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="LicenseDateFrom" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Дата на лицензия  – от дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="LicenseDateTo" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Дата на лицензия - до дата</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="ActionDateFrom" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Начална дата на действие - от дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="ActionDateTo" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Начална дата на действие - до дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="ActionEndDateFrom" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Крайна дата на действие - от дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="ActionEndDateTo" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Крайна дата на действие - до дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="ShippingServices" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Предоставяни услуги - пратки ("Да" и "Не)"</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="ParcelServices" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Предоставяни услуги - колети("Да" и "Не)"</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="AdditionalServices" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Предоставяни допълнителни услуги ("Да" и "Не)"</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="TransferServices" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Предоставяни услуги за парични преводи ("Да" и "Не)"</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

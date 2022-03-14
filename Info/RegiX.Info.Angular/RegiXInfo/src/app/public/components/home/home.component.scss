@@ -1,0 +1,36 @@
+.administration-chips{
+  padding: 0.5rem;
+}
+.info-section {
+  padding-top: 0rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0rem;
+}
+
+igx-chip {
+  margin-top: 0.4rem;
+  margin-right: 0.4rem;
+}
+
+tl-card{
+  margin-bottom: 1rem;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.euLogo{
+  width : 13rem;
+  height: auto !important;/*to preserve the aspect ratio of the image*/
+}
+
+.search-form{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+.home-wrapper {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}

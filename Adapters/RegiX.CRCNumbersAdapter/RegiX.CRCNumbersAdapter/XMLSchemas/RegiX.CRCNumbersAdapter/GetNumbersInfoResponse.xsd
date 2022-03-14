@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/Numbers/GetNumbersInfoResponse" targetNamespace="http://egov.bg/RegiX/CRC/Numbers/GetNumbersInfoResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetNumbersInfoResponse" type="GetNumbersInfoResponseType">
+		<xs:annotation>
+			<xs:documentation>Резултат от изпълнение на Справка за номера</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="CompanyDataType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="CompanyName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предприятие</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CompanyType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AccessCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код за достъп</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SuppliedGroupOfNumbers" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предоставени номера</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Service" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Услуга</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DecisionNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на решение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DecisionDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на решение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CompaniesDataType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="CompanyData" type="CompanyDataType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GetNumbersInfoResponseType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="CompaniesData" type="CompaniesDataType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

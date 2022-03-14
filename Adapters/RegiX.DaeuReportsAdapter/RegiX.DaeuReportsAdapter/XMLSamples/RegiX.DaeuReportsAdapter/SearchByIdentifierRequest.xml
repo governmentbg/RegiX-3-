@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SearchByIdentifierRequest xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierRequest">
+  <Identifier>3808131296 </Identifier>
+  <IdentifierType>EGN</IdentifierType>
+  <DateFrom>2018-01-01T01:01:01+02:00</DateFrom>
+  <DateTo>2018-01-01T01:01:01+02:00</DateTo>
+</SearchByIdentifierRequest>

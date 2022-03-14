@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.AdapterConsole.API</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>RegiX.AdapterConsole.API.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>RegiX.AdapterConsole.API.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ApiExplorer" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="4.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.OData" Version="7.3.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
+    <PackageReference Include="API.Common" Version="3.1.5" />
+    <PackageReference Include="RegiX.Common" Version="1.0.30" />
+    <PackageReference Include="RegiX.Core.Interfaces" Version="1.0.11" />
+    <PackageReference Include="Scrutor" Version="3.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="System.ServiceModel.Duplex" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Security" Version="4.4.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.AdapterConsole.AutoMapper\RegiX.AdapterConsole.AutoMapper.csproj" />
+    <ProjectReference Include="..\RegiX.AdapterConsole.DataContracts\RegiX.AdapterConsole.DataContracts.csproj" />
+    <ProjectReference Include="..\RegiX.AdapterConsole.Infrastructure\RegiX.AdapterConsole.Infrastructure.csproj" />
+    <ProjectReference Include="..\RegiX.AdapterConsole.IoC.Configuration\RegiX.AdapterConsole.IoC.Configuration.csproj" />
+    <ProjectReference Include="..\RegiX.AdapterConsole.Repositories\RegiX.AdapterConsole.Repositories.csproj" />
+    <ProjectReference Include="..\RegiX.AdapterConsole.Services\RegiX.AdapterConsole.Services.csproj" />
+  </ItemGroup>
+
+</Project>

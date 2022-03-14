@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:T3="http://www.bulstat.bg/NomenclatureEntry" xmlns:tns="http://www.bulstat.bg/Communication" xmlns:E="http://www.bulstat.bg/Entry" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.bulstat.bg/Communication" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="Entry.xsd" namespace="http://www.bulstat.bg/Entry" />
+  <xs:import schemaLocation="NomenclatureEntry.xsd" namespace="http://www.bulstat.bg/NomenclatureEntry" />
+  <xs:complexType name="Communication">
+    <xs:annotation>
+      <xs:documentation>Комуникация</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="E:Entry">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="Type" type="T3:NomenclatureEntry">
+            <xs:annotation>
+              <xs:documentation>Вид
+							</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="1" maxOccurs="1" name="Value">
+            <xs:annotation>
+              <xs:documentation>Стойност</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:maxLength value="100" />
+                <xs:minLength value="1" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>

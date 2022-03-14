@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UP7Request xmlns="http://egov.bg/RegiX/NOI/RP/UP7Request" xmlns:common="http://egov.bg/RegiX/NOI/RP" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Identifier>4010156554</Identifier>
+	<IdentifierType>ЕГН</IdentifierType>
+	<Month>
+		<common:Month>--09</common:Month>
+		<common:Year>2015</common:Year>
+	</Month>
+</UP7Request>

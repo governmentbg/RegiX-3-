@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://egov.bg/RegiX/IAOS/MROBA" targetNamespace="http://egov.bg/RegiX/IAOS/MROBA" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="https://source.gravis.bg:443/egov/services/mro-ba?xsd=1" namespace="http://egov.bg/RegiX/IAOS/MROBA" />
+    </xsd:schema>
+  </types>
+  <message name="getCategory">
+    <part name="parameters" element="tns:MRO_BA_Category_Request" />
+  </message>
+  <message name="getCategoryResponse">
+    <part name="parameters" element="tns:getCategoryResponse" />
+  </message>
+  <message name="WebServiceException">
+    <part name="fault" element="tns:WebServiceException" />
+  </message>
+  <message name="getTradeMarks">
+    <part name="parameters" element="tns:MRO_BA_Trade_Marks_Request" />
+  </message>
+  <message name="getTradeMarksResponse">
+    <part name="parameters" element="tns:getTradeMarksResponse" />
+  </message>
+  <message name="getExecutionType">
+    <part name="parameters" element="tns:MRO_BA_Execution_Type_Request" />
+  </message>
+  <message name="getExecutionTypeResponse">
+    <part name="parameters" element="tns:getExecutionTypeResponse" />
+  </message>
+  <message name="getValidityCheck">
+    <part name="parameters" element="tns:MRO_BA_Validity_Check_Request" />
+  </message>
+  <message name="getValidityCheckResponse">
+    <part name="parameters" element="tns:getValidityCheckResponse" />
+  </message>
+  <portType name="MROBAService">
+    <operation name="getCategory">
+      <input xmlns:ns1="http://www.w3.org/2007/05/addressing/metadata" ns1:Action="http://egov.bg/RegiX/IAOS/MROBA/MROBAService/getCategoryRequest" message="tns:getCategory" />
+      <output xmlns:ns2="http://www.w3.org/2007/05/addressing/metadata" ns2:Action="http://egov.bg/RegiX/IAOS/MROBA/MROBAService/getCategoryResponse" message="tns:getCategoryResponse" />
+      <fault xmlns:ns3="http://www.w3.org/2007/05/addressing/metadata" ns3:Action="http://egov.bg/RegiX/IAOS/MROBA/MROBAService/getCategory/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+    <operation name="getTradeMarks">
+      <input xmlns:ns4="http://www.w3.org/2007/05/addressing/metadata" ns4:Action="http://egov.bg/RegiX/IAOS/MROBA/MROBAService/getTradeMarksRequest" message="tns:getTradeMarks" />
+      <output xmlns:ns5="http://www.w3.org/2007/05/addressing/metadata" ns5:Action="http://egov.bg/RegiX/IAOS/MROBA/MROBAService/getTradeMarksResponse" message="tns:getTradeMarksResponse" />
+      <fault xmlns:ns6="http://www.w3.org/2007/05/addressing/metadata" ns6:Action="http://egov.bg/RegiX/IAOS/MROBA/MROBAService/getTradeMarks/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+    <operation name="getExecutionType">
+      <input xmlns:ns7="http://www.w3.org/2007/05/addressing/metadata" ns7:Action="http://egov.bg/RegiX/IAOS/MROBA/MROBAService/getExecutionTypeRequest" message="tns:getExecutionType" />
+      <output xmlns:ns8="http://www.w3.org/2007/05/addressing/metadata" ns8:Action="http://egov.bg/RegiX/IAOS/MROBA/MROBAService/getExecutionTypeResponse" message="tns:getExecutionTypeResponse" />
+      <fault xmlns:ns9="http://www.w3.org/2007/05/addressing/metadata" ns9:Action="http://egov.bg/RegiX/IAOS/MROBA/MROBAService/getExecutionType/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+    <operation name="getValidityCheck">
+      <input xmlns:ns10="http://www.w3.org/2007/05/addressing/metadata" ns10:Action="http://egov.bg/RegiX/IAOS/MROBA/MROBAService/getValidityCheckRequest" message="tns:getValidityCheck" />
+      <output xmlns:ns11="http://www.w3.org/2007/05/addressing/metadata" ns11:Action="http://egov.bg/RegiX/IAOS/MROBA/MROBAService/getValidityCheckResponse" message="tns:getValidityCheckResponse" />
+      <fault xmlns:ns12="http://www.w3.org/2007/05/addressing/metadata" ns12:Action="http://egov.bg/RegiX/IAOS/MROBA/MROBAService/getValidityCheck/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+  </portType>
+</definitions>

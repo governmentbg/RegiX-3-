@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://bg.org/bpo/register/search/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://egov.bg/RegiX/PatentDepartment" name="BPOSPCSearchService" targetNamespace="http://bg.org/bpo/register/search/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="http://egov.bg/RegiX/PatentDepartment" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://egov.bg/RegiX/PatentDepartment" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="TradeMarkDetails" type="tns:TradeMarkDetailsType" />
+      <xs:element name="getMarkByAppNum" type="tns:getMarkByAppNumType" />
+      <xs:element name="getMarkByOwnersName" type="tns:getMarkByOwnersNameType" />
+      <xs:element name="getMarkByRegNum" type="tns:getMarkByRegNumType" />
+      <xs:element name="getMarksByName" type="tns:getMarksByNameType" />
+      <xs:complexType name="getSPCByRegNumType">
+        <xs:sequence>
+          <xs:element name="appnum" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SPCDetailsType">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" form="unqualified" name="SPC" type="tns:SPCType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SPCType">
+        <xs:sequence>
+          <xs:element form="unqualified" name="ApplicationNumber" type="xs:string" />
+          <xs:element form="unqualified" name="ApplicationDate" type="xs:date" />
+          <xs:element minOccurs="0" form="unqualified" name="RelPatAppNumber" type="xs:string" />
+          <xs:element minOccurs="0" form="unqualified" name="RegistrationDate" type="xs:date" />
+          <xs:element minOccurs="0" form="unqualified" name="ExpiryDate" type="xs:date" />
+          <xs:element minOccurs="0" form="unqualified" name="SPCCurrentStatusCode" type="xs:string" />
+          <xs:element minOccurs="0" form="unqualified" name="SPCCurrentStatusDate" type="xs:date" />
+          <xs:element minOccurs="0" form="unqualified" name="SPCTitle" type="tns:TextType" />
+          <xs:element minOccurs="0" form="unqualified" name="SPCDescription" type="tns:TextType" />
+          <xs:element minOccurs="0" form="unqualified" name="IPCClassDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element maxOccurs="unbounded" form="unqualified" name="IPCClass" type="xs:string" />
+                <xs:element maxOccurs="unbounded" form="unqualified" name="IPCName" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element minOccurs="0" form="unqualified" name="PublicationDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element maxOccurs="unbounded" form="unqualified" name="Publication" type="tns:PublicationType" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element form="unqualified" name="ApplicantDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element form="unqualified" name="Applicant" type="tns:ApplicantType" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element minOccurs="0" form="unqualified" name="RepresentativeDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element form="unqualified" name="Representative" type="tns:RepresentativeType" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element minOccurs="0" form="unqualified" name="InventorDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element maxOccurs="unbounded" form="unqualified" name="Inventor" type="tns:InventorType" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="TextType">
+        <xs:simpleContent>
+          <xs:extension base="xs:string">
+            <xs:attribute name="languageCode" type="xs:language" />
+            <xs:attribute name="sequenceNumber" type="xs:integer" />
+          </xs:extension>
+        </xs:simpleContent>
+      </xs:complexType>
+      <xs:complexType name="PublicationType">
+        <xs:sequence>
+          <xs:element name="PublicationIdentifier" type="xs:string" />
+          <xs:element minOccurs="0" name="PublicationSection" type="xs:string" />
+          <xs:element minOccurs="0" name="PublicationSubsection" type="xs:string" />
+          <xs:element minOccurs="0" name="PublicationDate" type="xs:date" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ApplicantType">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ApplicantIdentifier" type="xs:string" />
+          <xs:element minOccurs="0" name="ApplicantNationalityCode" type="xs:string" />
+          <xs:element minOccurs="0" name="ApplicantAddressBook" type="tns:AddressBookType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="AddressBookType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="FormattedNameAddress" type="tns:FormattedNameAddressType" />
+          <xs:element minOccurs="0" name="ContactInformationDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" name="Phone" type="xs:string" />
+                <xs:element minOccurs="0" maxOccurs="unbounded" name="Fax" type="xs:string" />
+                <xs:element minOccurs="0" maxOccurs="unbounded" name="Email" type="xs:string" />
+                <xs:element minOccurs="0" maxOccurs="unbounded" name="URL" type="xs:anyURI" />
+                <xs:element minOccurs="0" maxOccurs="unbounded" name="OtherElectronicAddress" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="FormattedNameAddressType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" type="tns:NameType" />
+          <xs:element minOccurs="0" name="Address" type="tns:AddressType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="NameType">
+        <xs:sequence>
+          <xs:element name="FormattedName" type="tns:FormattedNameType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="FormattedNameType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="NamePrefix" type="xs:string" />
+          <xs:element minOccurs="0" name="FirstName" type="xs:string" />
+          <xs:element minOccurs="0" name="MiddleName" type="xs:string" />
+          <xs:element minOccurs="0" name="LastName" type="xs:string" />
+          <xs:element minOccurs="0" name="SecondLastName" type="xs:string" />
+          <xs:element minOccurs="0" name="OrganizationName" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="AddressType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="FormattedAddress" type="tns:FormattedAddressType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="FormattedAddressType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AddressStreet" type="xs:string" />
+          <xs:element minOccurs="0" name="AddressCity" type="xs:string" />
+          <xs:element minOccurs="0" name="AddressCounty" type="xs:string" />
+          <xs:element minOccurs="0" name="AddressState" type="xs:string" />
+          <xs:element minOccurs="0" name="AddressPostcode" type="xs:string" />
+          <xs:element minOccurs="0" name="FormattedAddressCountryCode" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="RepresentativeType">
+        <xs:sequence>
+          <xs:element name="RepresentativeIdentifier" type="xs:string" />
+          <xs:element minOccurs="0" name="RepresentativeNationalityCode" type="xs:string" />
+          <xs:element minOccurs="0" name="RepresentativeLegalEntity" type="xs:string" />
+          <xs:element minOccurs="0" name="RepresentativeAddressBook" type="tns:AddressBookType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="InventorType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="InventorNationalityCode" type="xs:string" />
+          <xs:element minOccurs="0" name="InventorLegalEntity" type="xs:string" />
+          <xs:element minOccurs="0" name="InventorAddressBook" type="tns:AddressBookType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getSPCByPatentAppNumType">
+        <xs:sequence>
+          <xs:element name="pat_appnum" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getSPCByOwnersNameType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="fname" type="xs:string" />
+          <xs:element minOccurs="0" name="sname" type="xs:string" />
+          <xs:element minOccurs="0" name="lname" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="DesignerType">
+        <xs:sequence>
+          <xs:element name="DesignerNationalityCode" type="xs:string" />
+          <xs:element minOccurs="0" name="DesignerLegalEntity" type="xs:string" />
+          <xs:element minOccurs="0" name="DesignerAddressBook" type="tns:AddressBookType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ClassDescriptionType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ClassNumber" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="GoodsServicesDescription" type="tns:TextType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="GoodsServicesType">
+        <xs:sequence>
+          <xs:element name="ClassDescriptionDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element maxOccurs="unbounded" name="ClassDescription" type="tns:ClassDescriptionType" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="MarkImageCategoryType">
+        <xs:sequence>
+          <xs:element name="CategoryCodeDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element maxOccurs="unbounded" name="CategoryCode" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="TradeMarkType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="RegistrationOfficeCode" type="xs:string" />
+          <xs:element name="ApplicationNumber" type="xs:string" />
+          <xs:element name="ApplicationDate" type="xs:date" />
+          <xs:element minOccurs="0" name="RegistrationNumber" type="xs:string" />
+          <xs:element minOccurs="0" name="RegistrationDate" type="xs:date" />
+          <xs:element minOccurs="0" name="ApplicationReference" type="xs:string" />
+          <xs:element minOccurs="0" name="ApplicantSideCaseKey" type="xs:string" />
+          <xs:element minOccurs="0" name="ApplicationLanguageCode" type="xs:string" />
+          <xs:element minOccurs="0" name="ExpiryDate" type="xs:date" />
+          <xs:element minOccurs="0" name="MarkCurrentStatusCode" type="tns:MarkCurrentStatusCodeType" />
+          <xs:element minOccurs="0" name="MarkCurrentStatusDate" type="xs:date" />
+          <xs:element minOccurs="0" name="KindMark" type="xs:string" />
+          <xs:element name="MarkFeature" type="xs:string" />
+          <xs:element minOccurs="0" name="MarkDescriptionDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element maxOccurs="unbounded" name="MarkDescription" type="xs:token" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element minOccurs="0" name="MarkDisclaimerDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element maxOccurs="unbounded" name="MarkDisclaimer" type="xs:token" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element minOccurs="0" name="WordMarkSpecification" type="tns:WordMarkSpecificationType" />
+          <xs:element minOccurs="0" name="MarkImageDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MarkImage" type="tns:MarkImageType" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="GoodsServicesDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="GoodsServices" type="tns:GoodsServicesType" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element minOccurs="0" name="PriorityDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element maxOccurs="unbounded" name="Priority" type="tns:PriorityType" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element minOccurs="0" name="ExhibitionPriorityDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element maxOccurs="unbounded" name="ExhibitionPriority" type="tns:ExhibitionPriorityType" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element minOccurs="0" name="PublicationDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element maxOccurs="unbounded" name="Publication" type="tns:PublicationType" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ApplicantDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Applicant" type="tns:ApplicantType" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element minOccurs="0" name="RepresentativeDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Representative" type="tns:RepresentativeType" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="WordMarkSpecificationType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="MarkVerbalElementText" type="tns:TextType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="MarkTranslation" type="tns:TextType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="MarkImageType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="MarkImageFileFormat" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="MarkImageColourClaimedText" type="tns:TextType" />
+          <xs:element minOccurs="0" name="MarkImageCategory" type="tns:MarkImageCategoryType" />
+          <xs:element minOccurs="0" name="MarkImageBinary" type="xs:base64Binary" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="PriorityType">
+        <xs:sequence>
+          <xs:element name="PriorityCountryCode" type="xs:string" />
+          <xs:element minOccurs="0" name="PriorityNumber" type="xs:string" />
+          <xs:element minOccurs="0" name="PriorityDate" type="xs:date" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ExhibitionPriorityType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ExhibitionCountryCode" type="xs:string" />
+          <xs:element minOccurs="0" name="ExhibitionCityName" type="xs:string" />
+          <xs:element minOccurs="0" name="ExhibitionName" type="xs:string" />
+          <xs:element name="ExhibitionDate" type="xs:date" />
+          <xs:element minOccurs="0" name="Comment" type="tns:TextType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="TransactionHeaderType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="SenderDetails">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element minOccurs="0" name="RequestProducer" type="xs:string" />
+                <xs:element name="RequestProducerDateTime" type="xs:dateTime" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getMarkByRegNumType">
+        <xs:sequence>
+          <xs:element name="regnum" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getMarkByOwnersNameType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="fname" type="xs:string" />
+          <xs:element minOccurs="0" name="sname" type="xs:string" />
+          <xs:element minOccurs="0" name="lname" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getMarkByAppNumType">
+        <xs:sequence>
+          <xs:element name="appnum" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getMarksByNameType">
+        <xs:sequence>
+          <xs:element name="markname" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="TradeMarkDetailsType">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" name="TradeMark" type="tns:TradeMarkType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ViewType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ViewIdentifier" type="xs:token" />
+          <xs:element minOccurs="0" name="ViewFileFormat" type="xs:string" />
+          <xs:element minOccurs="0" name="ViewTitle" type="tns:TextType" />
+          <xs:element minOccurs="0" name="ViewBinary" type="xs:base64Binary" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="TransactionErrorType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="TransactionErrorCode" type="xs:token" />
+          <xs:element minOccurs="0" name="TransactionErrorText" type="tns:TextType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="LocarnoClassDescriptionType">
+        <xs:sequence>
+          <xs:element name="ClassNumber" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ProductDescription" type="tns:TextType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:simpleType name="MarkCurrentStatusCodeType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Application filed" />
+          <xs:enumeration value="Filing date accorded" />
+          <xs:enumeration value="Classification checked" />
+          <xs:enumeration value="Application accepted" />
+          <xs:enumeration value="Application published" />
+          <xs:enumeration value="Application opposed" />
+          <xs:enumeration value="Application refused" />
+          <xs:enumeration value="Application deemed withdrawn" />
+          <xs:enumeration value="Application withdrawn" />
+          <xs:enumeration value="Appeal pending" />
+          <xs:enumeration value="Interruption of proceedings" />
+          <xs:enumeration value="Registered" />
+          <xs:enumeration value="Registration opposed" />
+          <xs:enumeration value="Registration cancellation pending" />
+          <xs:enumeration value="Registration cancelled" />
+          <xs:enumeration value="Conversion requested" />
+          <xs:enumeration value="Registration surrendered" />
+          <xs:enumeration value="Revocation proceeding pending" />
+          <xs:enumeration value="Invalidity proceeding pending" />
+          <xs:enumeration value="Action before Court of Justice pending" />
+          <xs:enumeration value="Expired" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="getSPCByRegNum" nillable="true" type="tns:getSPCByRegNumType" />
+      <xs:element name="SPCDetails" nillable="true" type="tns:SPCDetailsType" />
+      <xs:element name="getSPCByOwnersName" nillable="true" type="tns:getSPCByOwnersNameType" />
+      <xs:element name="getSPCByPatentAppNum" nillable="true" type="tns:getSPCByPatentAppNumType" />
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getSPCByAppNum">
+    <wsdl:part name="appNum" element="ns1:getSPCByPatentAppNum" />
+  </wsdl:message>
+  <wsdl:message name="getSPCByOwnersNameResponse">
+    <wsdl:part name="parameters2" element="ns1:SPCDetails" />
+  </wsdl:message>
+  <wsdl:message name="getSPCByRegNum">
+    <wsdl:part name="parameters" element="ns1:getSPCByRegNum" />
+  </wsdl:message>
+  <wsdl:message name="getSPCByAppNumResponse">
+    <wsdl:part name="GetSPCByAppNumResponse" element="ns1:SPCDetails" />
+  </wsdl:message>
+  <wsdl:message name="getSPCByOwnersName">
+    <wsdl:part name="parameters" element="ns1:getSPCByOwnersName" />
+  </wsdl:message>
+  <wsdl:message name="getSPCByRegNumResponse">
+    <wsdl:part name="parameters1" element="ns1:SPCDetails" />
+  </wsdl:message>
+  <wsdl:portType name="BPOSPCSearch">
+    <wsdl:operation name="getSPCByRegNum">
+      <wsdl:input name="getSPCByRegNum" message="tns:getSPCByRegNum" />
+      <wsdl:output name="getSPCByRegNumResponse" message="tns:getSPCByRegNumResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getSPCByAppNum">
+      <wsdl:input name="getSPCByAppNum" message="tns:getSPCByAppNum" />
+      <wsdl:output name="getSPCByAppNumResponse" message="tns:getSPCByAppNumResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getSPCByOwnersName">
+      <wsdl:input name="getSPCByOwnersName" message="tns:getSPCByOwnersName" />
+      <wsdl:output name="getSPCByOwnersNameResponse" message="tns:getSPCByOwnersNameResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BPOSPCSearchServiceSoapBinding" type="tns:BPOSPCSearch">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getSPCByAppNum">
+      <soap:operation soapAction="http://bg.org/bpo/register/search/getSPCByAppNum" style="document" />
+      <wsdl:input name="getSPCByAppNum">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getSPCByAppNumResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSPCByRegNum">
+      <soap:operation soapAction="http://bg.org/bpo/register/search/getSPCByRegNum" style="document" />
+      <wsdl:input name="getSPCByRegNum">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getSPCByRegNumResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSPCByOwnersName">
+      <soap:operation soapAction="http://bg.org/bpo/register/search/getSPCByOwnersName" style="document" />
+      <wsdl:input name="getSPCByOwnersName">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getSPCByOwnersNameResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BPOSPCSearchService">
+    <wsdl:port name="BPOSPCSearchServiceDefaultPort" binding="tns:BPOSPCSearchServiceSoapBinding">
+      <soap:address location="http://93.152.159.78:6668/bpo.register.ws.provider/services/BPOSPCSearchServiceDefaultPort" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,10 @@
+<tl-wrapping-card
+  [title]="routes.REPORT_EXECUTIONS.title"
+  [icon]="routes.REPORT_EXECUTIONS.icon"
+>
+  <app-report-result
+    *ngIf="this.reportResult"
+    [result]="this.reportResult"
+  >
+  </app-report-result>
+</tl-wrapping-card>

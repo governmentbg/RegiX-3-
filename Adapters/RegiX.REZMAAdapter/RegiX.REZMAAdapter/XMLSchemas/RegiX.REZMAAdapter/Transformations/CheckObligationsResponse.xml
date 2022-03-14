@@ -1,0 +1,5 @@
+﻿<CheckObligationsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AM/REZMA/CheckObligationsResponse">
+				<UIN>123456789</UIN>
+				<Name>Technologica</Name>
+				<ReportDate>2017-12-08T13:32:43.4258657+02:00</ReportDate>
+			</CheckObligationsResponse>

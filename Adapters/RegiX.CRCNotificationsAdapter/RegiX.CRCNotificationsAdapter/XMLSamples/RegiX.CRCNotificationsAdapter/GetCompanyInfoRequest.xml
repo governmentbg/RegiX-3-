@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GetCompanyInfoRequest xmlns="http://egov.bg/RegiX/CRC/Notifications/GetCompanyInfoRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CompanyName>TEST COMPANY</CompanyName>
+  <CompanyType>ООД</CompanyType>
+  <EIK>4546789</EIK>
+  <WebPageAddress>company.bg</WebPageAddress>
+  <Address>София</Address>
+</GetCompanyInfoRequest>

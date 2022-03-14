@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetTransferredRightsRequest xmlns="http://egov.bg/RegiX/CRC/TransferredRights/GetTransferredRightsRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PurchaserName>String</PurchaserName>
+  <Type>String</Type>
+  <Permission>String</Permission>
+  <TransferFromDate>1967-08-13</TransferFromDate>
+  <TransferToDate>1967-08-13</TransferToDate>
+  <EndOfActionFromDate>1967-08-13</EndOfActionFromDate>
+  <EndOfActionToDate>1967-08-13</EndOfActionToDate>
+  <AttorneyName>String</AttorneyName>
+  <AttorneyType>String</AttorneyType>
+  <AttorneyPermission>String</AttorneyPermission>
+  <IssueFromDate>1967-08-13</IssueFromDate>
+  <IssueToDate>1967-08-13</IssueToDate>
+</GetTransferredRightsRequest>

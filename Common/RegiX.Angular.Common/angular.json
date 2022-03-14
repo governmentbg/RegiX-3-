@@ -1,0 +1,48 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1, 
+  "newProjectRoot": "projects",
+  "projects": {
+    "rgx-common": {
+      "projectType": "library",
+      "root": "projects/rgx-common",
+      "sourceRoot": "projects/rgx-common/src",
+      "prefix": "tl",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/rgx-common/tsconfig.lib.json",
+            "project": "projects/rgx-common/ng-package.json"
+          }
+        ,
+        "configurations": {
+            "production": {
+              "tsConfig": "projects/rgx-common/tsconfig.lib.prod.json"
+            }
+          }
+},
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/rgx-common/src/test.ts",
+            "tsConfig": "projects/rgx-common/tsconfig.spec.json",
+            "karmaConfig": "projects/rgx-common/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/rgx-common/tsconfig.lib.json",
+              "projects/rgx-common/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }},
+  "defaultProject": "rgx-common"
+}

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<TemporaryAddressResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/PNA/TemporaryAddressResponse">
+	<DistrictCode>03</DistrictCode>
+	<DistrictName>ВАРНА</DistrictName>
+	<MunicipalityCode>14</MunicipalityCode>
+	<MunicipalityName>ДЕВНЯ</MunicipalityName>
+	<SettlementCode>20482</SettlementCode>
+	<SettlementName>ГР.ДЕВНЯ</SettlementName>
+	<CityAreaCode>00</CityAreaCode>
+	<LocationCode>02909</LocationCode>
+	<LocationName>БУЛ.СЪЕДИНЕНИЕ</LocationName>
+	<BuildingNumber>072</BuildingNumber>
+	<Entrance>А</Entrance>
+	<Floor>06</Floor>
+	<Apartment>035</Apartment>
+	<FromDate>2008-02-11</FromDate>
+</TemporaryAddressResponse>

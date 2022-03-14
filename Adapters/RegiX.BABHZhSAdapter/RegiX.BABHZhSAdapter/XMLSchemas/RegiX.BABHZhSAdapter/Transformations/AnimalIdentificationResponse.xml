@@ -1,0 +1,37 @@
+ <AnimalIdentificationResponse xmlns="http://egov.bg/RegiX/BABH/BABHZhS/AnimalIdentificationResponse">
+        <AnimalIdentification>
+          <IdentificationDataList>
+            <Type>ушна марка за ЕПЖ</Type>
+            <Number>BG04075159</Number>
+            <Status>излязъл от употреба</Status>
+            <Foreign>Не</Foreign>
+          </IdentificationDataList>
+          <AnimalProfile>
+            <Type>говедо</Type>
+            <Nationality>България</Nationality>
+            <Breed>Кафяво говедо</Breed>
+            <Sex>Женско</Sex>
+            <Color>Сиво-кафяв</Color>
+            <BirthDate>2005-08-23T00:00:00+03:00</BirthDate>
+            <UniqueNumber>BG31267481</UniqueNumber>
+          </AnimalProfile>
+          <AnimalPassport>
+            <IssueDate>0001-01-01T00:00:00</IssueDate>
+          </AnimalPassport>
+          <AnimalStatus>
+            <StatusDate>0001-01-01T00:00:00</StatusDate>
+          </AnimalStatus>
+          <AnimalResidence>
+          <OEZNumber>"ПЛАНЕТА 98" ЕООД</OEZNumber>
+          <District>Велико Търново</District>
+          <Municipality>Горна Оряховица</Municipality>
+          <Settlement>Поликраище</Settlement>
+          <DateFrom>2017-04-18T00:00:00+03:00</DateFrom>
+        </AnimalResidence>
+        <AnimalOwner>
+          <OwnerNames>"ПЛАНЕТА - 98" ЕООД   </OwnerNames>
+          <OwnerIdentifier>104101752</OwnerIdentifier>
+          <OwnerDate>2013-01-10T00:00:00+02:00</OwnerDate>
+        </AnimalOwner>
+        </AnimalIdentification>
+      </AnimalIdentificationResponse>

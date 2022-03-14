@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SendDataForCollectionDataCorrectionRequest xmlns="http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForCollectionDataCorrectionRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <ActIssurerID>2</ActIssurerID>
+    <SubdivisionID>1</SubdivisionID>
+    <SubdivisionEIK>aaaaaaaaa</SubdivisionEIK>
+    <CollectibleID>1</CollectibleID>
+    <CollectibleType>String</CollectibleType>
+    <PeriodFrom>1967-08-13</PeriodFrom>
+    <PeriodTo>1967-08-13</PeriodTo>
+    <PrincipalAmountInterest>0</PrincipalAmountInterest>
+    <InterestAmount>0</InterestAmount>
+    <PrincipalAmountNoInterest>0</PrincipalAmountNoInterest>
+    <InterestType>03701</InterestType>
+    <InterestFromDate>1967-08-13</InterestFromDate>
+  </Collection>
+</SendDataForCollectionDataCorrectionRequest>

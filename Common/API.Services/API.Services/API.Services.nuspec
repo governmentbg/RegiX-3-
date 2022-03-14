@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <dependencies>
+      <dependency id="API.DataContracts" version="3.1.2"/>
+      <dependency id="API.Repositories" version="3.1.4"/>
+      <dependency id="AutoMapper" version="7.0.1"/>
+      <dependency id="Microsoft.AspNetCore.OData" version="7.3.0"/>
+    </dependencies>
+  </metadata>
+</package>

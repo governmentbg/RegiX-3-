@@ -1,0 +1,195 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <div *ngIf="isDataLoading">
+      <div>
+        <igx-circular-bar
+          [animate]="true"
+          [indeterminate]="true"
+          [textVisibility]="true"
+        ></igx-circular-bar>
+      </div>
+    </div>
+    <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isDataLoaded && !isDataLoading"
+    >
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="name"
+              type="string"
+              formControlName="name"
+              tlFormGroupRef
+            />
+            <label igxLabel for="name">Име</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="requestDate"
+              type="string"
+              formControlName="requestDate"
+              tlFormGroupRef
+            />
+            <label igxLabel for="requestDate">Дата на поискване</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="environment"
+              type="string"
+              formControlName="environment"
+              tlFormGroupRef
+            />
+            <label igxLabel for="environment">Среда</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div
+        class="input-group"
+        igxLayout
+        igxLayoutDir="row"
+        formGroupName="consumerSystem"
+      >
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="displayName"
+              type="text"
+              formControlName="displayName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="displayName">Система</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div
+        class="input-group"
+        igxLayout
+        igxLayoutDir="row"
+        formGroupName="consumerCertificate"
+      >
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="displayName"
+              type="text"
+              formControlName="displayName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="displayName">Сертификати</label>
+          </igx-input-group>
+        </tl-form-group>
+        <button
+          igxButton="icon"
+          (click)="showConsumerSystemCertificates()"
+          [disabled]="this.isShowForm()"
+        >
+          <igx-icon>dns</igx-icon>
+        </button>
+      </div>
+
+      <div class="wrapper" igxLayout igxLayoutDir="row">
+
+        <div class="input-group" igxFlex igxFlexGrow="1">
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group>
+              <textarea
+                igxInput
+                name="csr"
+                formControlName="csr"
+                tlFormGroupRef
+                rows="10"
+                style="overflow: hidden"
+              >
+              </textarea>
+              <label igxLabel for="csr">Csr</label>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+
+        <div igxFlex igxFlexGrow="0">
+          <button
+            type="button"
+            igxButton="icon"
+            (click)="downloadCSR()"
+            title="Сваляне на CSR"
+          >
+            <igx-icon>get_app</igx-icon>
+          </button>
+        </div>
+      </div>
+
+      <div class="wrapper" igxLayout igxLayoutDir="row">
+        <div class="input-group" igxFlex igxFlexGrow="1">
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group>
+              <input
+                class="form-input"
+                igxInput
+                name="content"
+                type="string"
+                formControlName="content"
+                tlFormGroupRef
+              />
+              <label igxLabel for="content">Подписан CSR</label>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+
+        <div igxFlex igxFlexGrow="0">
+          <label igxButton="icon" [disabled]="isShowForm()">
+            <igx-icon title="Качване на подписан CSR">file_upload</igx-icon>
+            <input
+              hidden
+              name="content"
+              type="file"
+              accept="text/plain"
+              (change)="openFile($event)"
+            />
+          </label>
+        </div>
+      </div>
+    </form>
+  </div>
+</tl-basic-form>
+
+<igx-dialog
+  #consumerSystemCertificatesFilterDialog
+  title="Сертификати"
+  [closeOnOutsideSelect]="true"
+>
+  <div style="height: 90vh; width: 95vw; overflow: auto">
+    <app-consumer-system-certificates-filter
+      #consumerSystemCertificatesFilter
+      (selectedValues)="consumerSystemCertificatesSelected($event)"
+    >
+    </app-consumer-system-certificates-filter>
+  </div>
+</igx-dialog>

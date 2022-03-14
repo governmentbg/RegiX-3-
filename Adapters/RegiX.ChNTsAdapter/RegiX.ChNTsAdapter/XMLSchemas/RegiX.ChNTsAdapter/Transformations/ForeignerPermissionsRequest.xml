@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForeignerPermissionsRequest xsi:schemaLocation="http://egov.bg/RegiX/MP/ChNTs/ForeignerPermissionsRequest ForeignerPermissionsRequest.xsd" xmlns="http://egov.bg/RegiX/MP/ChNTs/ForeignerPermissionsRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SearchDate>2001-12-17T09:30:47.0Z</SearchDate>
+	<NamesLatin>String</NamesLatin>
+	<BirthDate>1967-08-13</BirthDate>
+	<LNCh>String</LNCh>
+</ForeignerPermissionsRequest>

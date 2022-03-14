@@ -1,0 +1,53 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.PvPatentsAdapter.APIService.IPvPatentsAPI.GetREG_PATENT_Patent_Owner</OperationName>
+  <Code>GetREG_PATENT_Patent_Owner</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>getPatentByOwnersName</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/PatentDepartment/Patents/PatentOwnerRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за патенти по притежател</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>FirstName</ParameterName>
+        <ParameterLabel>Име</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Surname</ParameterName>
+        <ParameterLabel>Презиме</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>LastName</ParameterName>
+        <ParameterLabel>Фамилия</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

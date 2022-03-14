@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UP8Request xsi:schemaLocation="http://egov.bg/RegiX/NOI/RP/UP8Request UP8Request.xsd" xmlns="http://egov.bg/RegiX/NOI/RP/UP8Request" xmlns:common="http://egov.bg/RegiX/NOI/RP" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Identifier>4010156554</Identifier>
+	<IdentifierType>ЕГН</IdentifierType>
+	<Period>
+		<common:From>
+			<common:Month>--01</common:Month>
+			<common:Year>2015</common:Year>
+		</common:From>
+		<common:To>
+			<common:Month>--09</common:Month>
+			<common:Year>2015</common:Year>
+		</common:To>
+	</Period>
+</UP8Request>

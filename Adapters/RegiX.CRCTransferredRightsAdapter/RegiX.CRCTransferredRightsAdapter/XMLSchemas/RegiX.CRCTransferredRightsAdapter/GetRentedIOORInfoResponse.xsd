@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/TransferredRights/GetRentedIOORInfoResponse" xmlns:common="http://egov.bg/RegiX/CRC/TransferredRights" targetNamespace="http://egov.bg/RegiX/CRC/TransferredRights/GetRentedIOORInfoResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/CRC/TransferredRights" schemaLocation="TransferredRightsCommon.xsd"/>
+	<xs:element name="GetRentedIOORInfoResponse" type="GetRentedIOORInfoResponseType">
+		<xs:annotation>
+			<xs:documentation>Резултат от изпълнението на Справка за отдаден под наем ИООР</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="TenantCompanyDataType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="CompanyName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предприятие</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CompanyType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PermissionNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Разрешение №</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IssueDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на издаване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EndOfActionDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Крайна дата
+на действие
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CRCRentalPermitDecisionType">
+		<xs:sequence>
+			<xs:element name="PermitNumber" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Номер</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PermitDate" type="xs:date">
+				<xs:annotation>
+					<xs:documentation>Дата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RentedLimitedResourceType">
+		<xs:sequence>
+			<xs:element name="TeritorialScope" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Териториален обхват</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="FrequencyRange" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Честотен
+обхват
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BlocksCount" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Брой
+честоти/блокове
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TotalSpectrum" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Общо
+спектър
+(MHz)
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PeriodStartDate" type="xs:date">
+				<xs:annotation>
+					<xs:documentation>Срок
+Начална дата
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PeriodEndDate" type="xs:date">
+				<xs:annotation>
+					<xs:documentation>Срок - крайна дата
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Remark" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Забележка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RentedResourceInfoType">
+		<xs:sequence>
+			<xs:element name="LandlordCompanyData" type="common:CompanyType">
+				<xs:annotation>
+					<xs:documentation>Данни за предприятието - наемодател</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TenantCompanyData" type="TenantCompanyDataType">
+				<xs:annotation>
+					<xs:documentation>Данни за предприятието -
+наемател
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RentedLimitedResource" type="RentedLimitedResourceType">
+				<xs:annotation>
+					<xs:documentation>Отдаден под наем индивидуално определен ограничен ресурс - радиочестотен спектър</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RentedResourcesInfoType">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="RentedResourceInfo" type="RentedResourceInfoType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GetRentedIOORInfoResponseType">
+		<xs:sequence>
+			<xs:element name="RentedResourcesInfo" type="RentedResourcesInfoType">
+				<xs:annotation>
+					<xs:documentation>Информация за отдадения под наем индивидуално определен ограничен ресурс - радиочестотен спектър съгласно чл.123 на ЗЕС</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

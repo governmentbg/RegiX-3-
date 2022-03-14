@@ -1,0 +1,48 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1, 
+  "newProjectRoot": "projects",
+  "projects": {
+    "tl-common": {
+      "projectType": "library",
+      "root": "projects/tl-common",
+      "sourceRoot": "projects/tl-common/src",
+      "prefix": "tl",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/tl-common/tsconfig.lib.json",
+            "project": "projects/tl-common/ng-package.json"
+          }
+        ,
+        "configurations": {
+            "production": {
+              "tsConfig": "projects/tl-common/tsconfig.lib.prod.json"
+            }
+          }
+},
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/tl-common/src/test.ts",
+            "tsConfig": "projects/tl-common/tsconfig.spec.json",
+            "karmaConfig": "projects/tl-common/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/tl-common/tsconfig.lib.json",
+              "projects/tl-common/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }},
+  "defaultProject": "tl-common"
+}

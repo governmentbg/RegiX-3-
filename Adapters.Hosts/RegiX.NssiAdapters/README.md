@@ -1,0 +1,2 @@
+Install-Package RegiX.NoiROAdapter
+Install-Package RegiX.NoiRPAdapter

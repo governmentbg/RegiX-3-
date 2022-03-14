@@ -1,0 +1,170 @@
+<tl-wrapping-card
+  [fabAction]="routes.CONSUMER_ROLE_ACCESS_ROLEID"
+  [title]="routes.CONSUMER_ROLES_CONSUMER_ROLE_OPERATIONS.title"
+  [icon]="routes.CONSUMER_ROLES_CONSUMER_ROLE_OPERATIONS.icon"
+  [subTitle]="subtitle"
+  [actions]="[
+    { reference: excelExportAll }
+  ]"
+>
+    <igx-grid
+      #grid
+      [data]="items$ | async"
+      [paging]="true"
+      [height]="null"
+      width="100%"
+      [clipboardOptions]="{ copyHeaders: false}"
+      [displayDensity]="'cosy'"
+      (onSortingDone)="sortingDone($event)"
+      (onFilteringDone)="filteringDone($event)"
+      (onSelection)="cellSelection($event)"
+      [paginationTemplate]="pager"
+      [allowFiltering]="true"
+      [primaryKey]="'id'"
+    >
+      <igx-column
+        field="administrationDisplayName"
+        header="Администрация"
+        [sortable]="true"
+        [dataType]="'string'"
+      >
+        <ng-template igxCell let-cell="cell">
+          <span [title]="cell.value" class="text-ellipsis">{{
+            cell.value
+          }}</span>
+        </ng-template>
+      </igx-column>
+
+      <igx-column
+        field="registerDisplayName"
+        header="Регистър"
+        [sortable]="true"
+        [dataType]="'string'"
+      >
+        <ng-template igxCell let-cell="cell">
+          <span [title]="cell.value" class="text-ellipsis">{{
+            cell.value
+          }}</span>
+        </ng-template>
+      </igx-column>
+
+      <igx-column
+        field="adapterDisplayName"
+        header="Адаптер"
+        [sortable]="true"
+        [dataType]="'string'"
+      >
+        <ng-template igxCell let-cell="cell">
+          <span [title]="cell.value" class="text-ellipsis">{{
+            cell.value
+          }}
+        </span>
+        </ng-template>
+      </igx-column>
+
+      <igx-column
+        field="adapterOperationDisplayName"
+        header="Операция"
+        [sortable]="true"
+        [dataType]="'string'"
+      >
+        <ng-template igxCell let-cell="cell">
+          <span [title]="cell.value" class="text-ellipsis">{{
+            cell.value
+          }}</span>
+        </ng-template>
+      </igx-column>
+
+      <igx-column
+        field="hasAccess"
+        header="Достъп"
+        width="100px"
+        [sortable]="true"
+        [dataType]="'boolean'"
+      >
+        <ng-template igxCell let-cell="cell">
+          <div
+            class="width-100"
+            igxLayout
+            igxLayoutDir="column"
+            igxLayoutItemAlign="center"
+          >
+            <igx-checkbox disabled="true" [checked]="cell.value === true" igxFlex>
+            </igx-checkbox>
+          </div>
+        </ng-template>
+      </igx-column>
+
+      <!--igx-column
+        field="updatedBy"
+
+        header="Потребител"
+        [sortable]="true"
+        [dataType]="'string'"
+      >
+        <ng-template igxCell let-cell="cell">
+          <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+        </ng-template>
+      </igx-column>
+
+      <igx-column
+        field="updatedOn"
+        header="Променено на"
+
+        [sortable]="true"
+        [dataType]="'string'"
+      >
+        <ng-template igxCell let-cell="cell">
+          <span
+            title="{{ cell.value | date: 'dd.MM.yyyy HH:mm:ss' }}"
+            class="text-ellipsis"
+            >{{ cell.value | date: 'dd.MM.yyyy HH:mm:ss' }}</span
+          >
+        </ng-template>
+      </igx-column-->
+
+      <igx-column
+        header="Действия"
+        width="135px"
+        [sortable]="false"
+        [filterable]="false"
+      >
+        <ng-template igxCell let-cell="cell">
+          <div
+            igxLayout
+            igxLayoutDir="row"
+            igxLayoutJustify="center"
+            class="action-buttons-wrapper"
+          >
+            <!-- <tl-reference-button
+              [routeReference]="this.routes.CONSUMER_ROLE_OPERATIONS_ELEMENTS_ACCESS"
+              [routeArguments]="{':ID': cell.rowData.adapterOperationId.toString(), ':ROLE_ID': cell.rowData.consumerRole.id}"
+              buttonType="action-button"
+              icon='remove_red_eye'
+              title="Преглед на достъп"
+            >
+            </tl-reference-button> -->
+            <tl-reference-button
+              [routeReference]="this.routes.CONSUMER_ROLE_ACCESS_ID_ROLEID"
+              [routeArguments]="{':ID': cell.rowData.adapterOperationId.toString(), ':ROLE_ID': cell.rowData.consumerRole.id}"
+              buttonType="action-button"
+              icon='edit'
+              title="Редактиране на достъп"
+            >
+            </tl-reference-button>
+          </div>
+        </ng-template>
+      </igx-column>
+
+      <ng-template #pager let-grid>
+        <div class="tl-paginator">
+          <tl-grid-pager
+            [page]="remoteService.pagerParams.page"
+            [perPage]="remoteService.pagerParams.perPage"
+            [totalCount]="remoteService.pagerParams.totalCount"
+            (pagerChange)="pagerChange($event)"
+          ></tl-grid-pager>
+        </div>
+      </ng-template>
+    </igx-grid>
+    </tl-wrapping-card>

@@ -1,0 +1,105 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.Client.API</RootNamespace>
+    <Deterministic>false</Deterministic>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ApiExplorer" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="4.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.OData" Version="7.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.SqlServer" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.10" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.10" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+    <PackageReference Include="API.Common" Version="3.1.13" />
+    <PackageReference Include="RegiX.Common.Metadata" Version="1.0.4" />
+    <PackageReference Include="RegiX.Core.Interfaces" Version="1.0.25" />
+    <PackageReference Include="Scrutor" Version="3.1.0" />
+    <PackageReference Include="SoapCore" Version="1.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="System.ServiceModel.Duplex" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.6.0" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Security" Version="4.4.*" />
+    <PackageReference Include="TechnoLogica.HybridCache" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.Client.API.DataContracts\RegiX.Client.API.DataContracts.csproj" />
+    <ProjectReference Include="..\RegiX.Client.Services\RegiX.Client.Services.csproj" />
+    <ProjectReference Include="..\RegiX.Client.IoC.Configuration\RegiX.Client.IoC.Configuration.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Connected Services\" />
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="marked\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="marked\Administrations.md" />
+    <None Remove="marked\AdministrationsSettingsGrid.md" />
+    <None Remove="marked\AdministrationsSettingsGridEdit.md" />
+    <None Remove="marked\AdministrationsSettingsGridNew.md" />
+    <None Remove="marked\AdministrationsSettingsGridView.md" />
+    <None Remove="marked\Audit.md" />
+    <None Remove="marked\AwaitingTasks.md" />
+    <None Remove="marked\FavouriteReports.md" />
+    <None Remove="marked\OperationsSettingsGrid.md" />
+    <None Remove="marked\OperationsSettingsGridEdit.md" />
+    <None Remove="marked\OperationsSettingsGridNew.md" />
+    <None Remove="marked\OperationsSettingsGridView.md" />
+    <None Remove="marked\ReportExecutions.md" />
+    <None Remove="marked\ReportExecutionsView.md" />
+    <None Remove="marked\RolesSettingsGrid.md" />
+    <None Remove="marked\RolesSettingsGridEdit.md" />
+    <None Remove="marked\RolesSettingsGridNew.md" />
+    <None Remove="marked\RolesSettingsGridView.md" />
+    <None Remove="marked\SystemErrors.md" />
+    <None Remove="marked\SystemErrorsView.md" />
+    <None Remove="marked\UserActions.md" />
+    <None Remove="marked\UserActionsView.md" />
+    <None Remove="marked\UsersSettingsGrid.md" />
+    <None Remove="marked\UsersSettingsGridEdit.md" />
+    <None Remove="marked\UsersSettingsGridView.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="GetRegistryAgencies.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

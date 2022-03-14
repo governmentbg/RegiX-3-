@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<PermanentAddressResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/PNA/PermanentAddressResponse">
+	<DistrictCode>22</DistrictCode>
+	<DistrictName>СОФИЯ</DistrictName>
+	<MunicipalityCode>46</MunicipalityCode>
+	<MunicipalityName>СТОЛИЧНА</MunicipalityName>
+	<SettlementCode>68134</SettlementCode>
+	<SettlementName>ГР.СОФИЯ</SettlementName>	
+	<CityAreaCode>00</CityAreaCode>
+	<LocationCode>00084</LocationCode>
+	<LocationName>жк Обеля</LocationName>
+	<BuildingNumber>023А</BuildingNumber>
+	<Entrance>A</Entrance>
+	<Floor>4</Floor>
+	<Apartment>23</Apartment>
+	<FromDate>2004-12-15</FromDate>
+</PermanentAddressResponse>

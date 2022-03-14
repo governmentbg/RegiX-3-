@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListMedicinalProductsResponse xmlns="http://egov.bg/RegiX/NCPR/MedicinalProducts/ListMedicinalProductsResponse" xmlns:common="http://egov.bg/RegiX/NCPR/Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ResultsCount>2</ResultsCount>
+	<MedicinalProducts>
+		<common:MedicinalProduct>
+			<common:RegisterMedicamentId>2147483647</common:RegisterMedicamentId>
+			<common:MedicinalProductIdentifier>2147483647</common:MedicinalProductIdentifier>
+			<common:RegisterCode>String</common:RegisterCode>
+			<common:RegisterName>String</common:RegisterName>
+			<common:NameBG>String</common:NameBG>
+			<common:NameEN>String</common:NameEN>
+			<common:INN>String</common:INN>
+			<common:ATCCodes>
+				<common:ATCCode>String</common:ATCCode>
+			</common:ATCCodes>
+			<common:AuthorizationHolder>String</common:AuthorizationHolder>
+			<common:Producer>String</common:Producer>
+			<common:MedicamentForm>String</common:MedicamentForm>
+			<common:Quantity>String</common:Quantity>
+			<common:MedicamentUnit>String</common:MedicamentUnit>
+			<common:FinalPack>String</common:FinalPack>
+			<common:MerchantFinalPriceBGN>0.0</common:MerchantFinalPriceBGN>
+			<common:RetailerFinalPriceBGN>0.0</common:RetailerFinalPriceBGN>
+			<common:PublishedAt>2001-12-17T09:30:47.0Z</common:PublishedAt>
+		</common:MedicinalProduct>
+	</MedicinalProducts>
+</ListMedicinalProductsResponse>

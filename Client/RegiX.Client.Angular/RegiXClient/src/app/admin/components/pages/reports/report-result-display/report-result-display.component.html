@@ -1,0 +1,5 @@
+<app-encapsulated-html *ngIf="!this.pdf" [Html]="this.html | safeHtml">
+</app-encapsulated-html>
+<div *ngIf="this.pdfSource">
+  <iframe [src]="this.pdfSource" frameborder="0" id="iframePdfViewer" type='application/pdf' width="100%" height="500px"></iframe>
+</div>

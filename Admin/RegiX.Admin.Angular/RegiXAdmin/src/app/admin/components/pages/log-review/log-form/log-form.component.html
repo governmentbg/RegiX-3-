@@ -1,0 +1,411 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <form [formGroup]="formGroup" (submit)="onSubmit($event)">
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="id"
+              type="text"
+              formControlName="id"
+              tlFormGroupRef
+            />
+            <label igxLabel for="id">Идентификатор</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="instanceId"
+              type="text"
+              formControlName="instanceId"
+              tlFormGroupRef
+            />
+            <label igxLabel for="instanceId">Инстанция</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+      <!---->
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="startTime"
+              type="text"
+              formControlName="startTime"
+              tlFormGroupRef
+            />
+            <label igxLabel for="startTime">От дата</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="endTime"
+              type="text"
+              formControlName="endTime"
+              tlFormGroupRef
+            />
+            <label igxLabel for="endTime">До дата</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="callContext"
+              type="text"
+              formControlName="callContext"
+              tlFormGroupRef
+            />
+            <label igxLabel for="callContext">Контекст</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="eidToken"
+              type="text"
+              formControlName="eidToken"
+              tlFormGroupRef
+            />
+            <label igxLabel for="eidToken">EID Token</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="oidToken"
+              type="text"
+              formControlName="oidToken"
+              tlFormGroupRef
+            />
+            <label igxLabel for="oidToken">OID Token</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="clientIpAddress"
+              type="text"
+              formControlName="clientIpAddress"
+              tlFormGroupRef
+            />
+            <label igxLabel for="clientIpAddress">IP адрес на клиента</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="contextSerivceUri"
+              type="text"
+              formControlName="contextSerivceUri"
+              tlFormGroupRef
+            />
+            <label igxLabel for="contextSerivceUri">Context Service URL</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="contextServiceType"
+              type="text"
+              formControlName="contextServiceType"
+              tlFormGroupRef
+            />
+            <label igxLabel for="contextServiceType"
+              >Context Service Type</label
+            >
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="contextEmployeeIdentifier"
+              type="text"
+              formControlName="contextEmployeeIdentifier"
+              tlFormGroupRef
+            />
+            <label igxLabel for="contextEmployeeIdentifier"
+              >Идентификатор на служител</label
+            >
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="contextEmployeeNames"
+              type="text"
+              formControlName="contextEmployeeNames"
+              tlFormGroupRef
+            />
+            <label igxLabel for="contextEmployeeNames">Име на служител</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="contextEmployeeAditionalId"
+              type="text"
+              formControlName="contextEmployeeAditionalId"
+              tlFormGroupRef
+            />
+            <label igxLabel for="contextEmployeeAditionalId"
+              >Допълнителен идентификатор на служител</label
+            >
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="contextEmployeePosition"
+              type="text"
+              formControlName="contextEmployeePosition"
+              tlFormGroupRef
+            />
+            <label igxLabel for="contextEmployeePosition"
+              >Позиция на служител</label
+            >
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="contextAdministrationOid"
+              type="text"
+              formControlName="contextAdministrationOid"
+              tlFormGroupRef
+            />
+            <label igxLabel for="contextAdministrationOid"
+              >OID на администрация</label
+            >
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="contextAdministrationName"
+              type="text"
+              formControlName="contextAdministrationName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="contextAdministrationName"
+              >Администрация</label
+            >
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="contextResponsibleNames"
+              type="text"
+              formControlName="contextResponsibleNames"
+              tlFormGroupRef
+            />
+            <label igxLabel for="contextResponsibleNames">Отговорни лица</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <label for="contextLawReason" class="errorsLabel"
+            >Правно основание</label
+          >
+          <textarea
+            name="contextLawReason"
+            formControlName="contextLawReason"
+            rows="3"
+            tlFormGroupRef
+          ></textarea>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="ipAddress"
+              type="text"
+              formControlName="ipAddress"
+              tlFormGroupRef
+            />
+            <label igxLabel for="ipAddress">IP Адрес</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="appName"
+              type="text"
+              formControlName="appName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="appName">Приложение</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="apiServiceOperationName"
+              type="text"
+              formControlName="apiServiceOperationName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="apiServiceOperationName"
+              >Име на операция</label
+            >
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="consumerCertificateName"
+              type="text"
+              formControlName="consumerCertificateName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="consumerCertificateName">Сертификат</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <label for="errorContent" class="errorsLabel">Грешка</label>
+          <textarea
+            name="errorContent"
+            formControlName="errorContent"
+            rows="5"
+            tlFormGroupRef
+          ></textarea>
+        </tl-form-group>
+      </div>
+
+      <div igxLayout igxLayoutDir="column">
+        <igx-checkbox
+          formControlName="resultReady"
+          name="resultReady"
+          disabled="true"
+        >
+          Готов резултат
+        </igx-checkbox>
+
+        <igx-checkbox
+          formControlName="resultReturned"
+          name="resultReturned"
+          disabled="true"
+        >
+          Върнат резултат
+        </igx-checkbox>
+
+        <igx-checkbox
+          formControlName="hasError"
+          name="hasError"
+          disabled="true"
+        >
+          Грешки
+        </igx-checkbox>
+      </div>
+    </form>
+  </div>
+</tl-basic-form>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<SpouseResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/BR/SpouseResponse">
+  <EGN>4302212564</EGN>
+  <FirstName>Йосиф</FirstName>
+  <SurName>Горанов</SurName>
+  <FamilyName>Димитров</FamilyName>
+  <BirthDate>1943-02-21</BirthDate>
+  <GenderCode>1</GenderCode>
+  <GenderName>Мъж</GenderName>
+  <NationalityCode>BG</NationalityCode>
+  <NationalityName>България</NationalityName>
+</SpouseResponse>

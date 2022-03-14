@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<PermanentAddressResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/PNA/PermanentAddressResponse">
+	<DistrictCode>SF</DistrictCode>
+	<DistrictName>Перник</DistrictName>
+	<MunicipalityCode>SF</MunicipalityCode>
+	<MunicipalityName>Перник</MunicipalityName>
+	<SettlementCode>BG001</SettlementCode>
+	<SettlementName>гр. Перник</SettlementName>
+	<CityAreaCode>SL</CityAreaCode>
+	<CityArea/>
+	<LocationCode/>
+	<LocationName>ул. Радомир</LocationName>
+	<BuildingNumber>1</BuildingNumber>
+	<Entrance>1</Entrance>
+	<Floor>1</Floor>
+	<Apartment>1</Apartment>
+	<FromDate>2005-03-12</FromDate>
+</PermanentAddressResponse>

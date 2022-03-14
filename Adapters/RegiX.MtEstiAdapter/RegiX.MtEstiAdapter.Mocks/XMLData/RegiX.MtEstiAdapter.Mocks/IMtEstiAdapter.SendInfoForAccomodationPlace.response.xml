@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AccomodationPlaceResponse xmlns="http://egov.bg/RegiX/Mt/SendInfoForAccomodationPlace/AccomodationPlaceResponse">
+  <ResponseCode>1</ResponseCode>
+</AccomodationPlaceResponse>

@@ -1,0 +1,27 @@
+﻿<TouristRegisterRequest xmlns="http://egov.bg/RegiX/MVR/SendInfoForTouristRegister/TouristRegisterRequest">
+  <AccomodationPlaceUIN>a</AccomodationPlaceUIN>
+  <Person>
+    <FirstName>a</FirstName>
+    <MiddleName>a</MiddleName>
+    <FamilyName>a</FamilyName>
+    <Sex>M</Sex>
+    <BirthDate>1967-08-13</BirthDate>
+    <Egn>0000000000</Egn>
+    <ForeignNumber>0000000000</ForeignNumber>
+    <IdentityDocumentTypeCode>ICA</IdentityDocumentTypeCode>
+    <IdentityDocumentNumber>a</IdentityDocumentNumber>
+    <IdentityDocumentCountryCode>aa</IdentityDocumentCountryCode>
+  </Person>
+  <Registration>
+    <RegistrationDate>1967-08-13</RegistrationDate>
+    <RegistrationUID>a</RegistrationUID>
+    <CheckInDate>1967-08-13</CheckInDate>
+    <CheckOutDate>1967-08-13</CheckOutDate>
+    <NightsCount>0</NightsCount>
+    <Floor>a</Floor>
+    <Room>a</Room>
+    <TouristPackage>true</TouristPackage>
+    <AveragePrice>0.0</AveragePrice>
+    <IsCanceled>true</IsCanceled>
+  </Registration>
+</TouristRegisterRequest>

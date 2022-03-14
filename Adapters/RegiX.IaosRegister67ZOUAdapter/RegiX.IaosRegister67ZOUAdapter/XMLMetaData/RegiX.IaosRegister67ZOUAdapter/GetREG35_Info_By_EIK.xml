@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.IaosRegister67ZOUAdapter.APIService.IIaosRegister67ZOUAPI.GetREG35_Info_By_EIK</OperationName>
+  <Code>GetREG35_Info_By_EIK</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>REG35_Info_By_EIK_Request</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/IAOS/REG35Reg/InfoByEIKRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка по ЕИК в регистъра на разрешенията по чл. 67 ЗУО и регистрационните документи по чл. 78 от ЗУО</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>EIK</ParameterName>
+        <ParameterLabel>Единен идентификационен код (ЕИК)</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

@@ -1,0 +1,25 @@
+<tl-wrapping-card
+  [title]="routes.FAVOURITES.title"
+  [icon]="routes.FAVOURITES.icon"
+  [subTitle]="'Редакция'"
+>
+  <div class="form-content">
+    <app-reports-for-user-select #reports> </app-reports-for-user-select>
+    <div class="alert alert-danger" *ngIf="errorMessage">
+      <span>{{ errorMessage }}</span>
+    </div>
+    <!-- Fix the style globally-->
+    <div style="float: right; padding-top: 1rem; padding-bottom: 0.5rem;">
+      <button
+        type="button"
+        class="table-button"
+        igxButton="raised"
+        (click)="onSave()"
+        title="Запиши"
+        [disabled]="isPending"
+      >
+        Запиши
+      </button>
+    </div>
+  </div>
+</tl-wrapping-card>

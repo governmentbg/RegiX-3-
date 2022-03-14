@@ -1,0 +1,26 @@
+resources:
+- repo: self
+queue:
+  name: RegiX
+steps:
+- task: Npm@1
+  displayName: 'npm install'
+  inputs:
+    command: 'install'
+    workingDir: '$(Build.Repository.LocalPath)\main'
+- task: Npm@1
+  displayName: 'npm install'
+  inputs:
+    command: 'install'
+    workingDir: '$(Build.Repository.LocalPath)\main\projects\tl-common'
+- task: Npm@1
+  displayName: 'npm build'
+  inputs:
+    command: 'custom'
+    customCommand: 'run tl-common'
+    workingDir: '$(Build.Repository.LocalPath)\main'
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: tl-common'
+  inputs:
+    PathtoPublish: '$(Build.Repository.LocalPath)\main\dist\tl-common'
+    ArtifactName: tl-common

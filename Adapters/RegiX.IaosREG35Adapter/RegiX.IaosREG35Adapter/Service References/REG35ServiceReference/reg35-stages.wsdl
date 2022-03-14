@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://egov.bg/RegiX/IAOS/REG35" targetNamespace="http://egov.bg/RegiX/IAOS/REG35" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="https://source.gravis.bg:443/egov/services/reg35-stages?xsd=1" namespace="http://egov.bg/RegiX/IAOS/REG35" />
+    </xsd:schema>
+  </types>
+  <message name="getLicenses">
+    <part name="parameters" element="tns:REG35_Licenses_By_EIK_Waste_Code_Waste_Operation_Request" />
+  </message>
+  <message name="getLicensesResponse">
+    <part name="parameters" element="tns:getLicensesResponse" />
+  </message>
+  <message name="WebServiceException">
+    <part name="fault" element="tns:WebServiceException" />
+  </message>
+  <message name="getStagesByAuthNum">
+    <part name="parameters" element="tns:REG35_Stages_By_Auth_Num_Request" />
+  </message>
+  <message name="getStagesByAuthNumResponse">
+    <part name="parameters" element="tns:getStagesByAuthNumResponse" />
+  </message>
+  <message name="getStagesValidityPeriod">
+    <part name="parameters" element="tns:REG35_Stages_Validity_Period_Request" />
+  </message>
+  <message name="getStagesValidityPeriodResponse">
+    <part name="parameters" element="tns:getStagesValidityPeriodResponse" />
+  </message>
+  <message name="getAllowedWasteCode">
+    <part name="parameters" element="tns:REG35_Allowed_Waste_Codes_Request" />
+  </message>
+  <message name="getAllowedWasteCodeResponse">
+    <part name="parameters" element="tns:getAllowedWasteCodeResponse" />
+  </message>
+  <portType name="REG35Service">
+    <operation name="getLicenses">
+      <input xmlns:ns1="http://www.w3.org/2007/05/addressing/metadata" ns1:Action="http://egov.bg/RegiX/IAOS/REG35/REG35Service/getLicensesRequest" message="tns:getLicenses" />
+      <output xmlns:ns2="http://www.w3.org/2007/05/addressing/metadata" ns2:Action="http://egov.bg/RegiX/IAOS/REG35/REG35Service/getLicensesResponse" message="tns:getLicensesResponse" />
+      <fault xmlns:ns3="http://www.w3.org/2007/05/addressing/metadata" ns3:Action="http://egov.bg/RegiX/IAOS/REG35/REG35Service/getLicenses/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+    <operation name="getStagesByAuthNum">
+      <input xmlns:ns4="http://www.w3.org/2007/05/addressing/metadata" ns4:Action="http://egov.bg/RegiX/IAOS/REG35/REG35Service/getStagesByAuthNumRequest" message="tns:getStagesByAuthNum" />
+      <output xmlns:ns5="http://www.w3.org/2007/05/addressing/metadata" ns5:Action="http://egov.bg/RegiX/IAOS/REG35/REG35Service/getStagesByAuthNumResponse" message="tns:getStagesByAuthNumResponse" />
+      <fault xmlns:ns6="http://www.w3.org/2007/05/addressing/metadata" ns6:Action="http://egov.bg/RegiX/IAOS/REG35/REG35Service/getStagesByAuthNum/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+    <operation name="getStagesValidityPeriod">
+      <input xmlns:ns7="http://www.w3.org/2007/05/addressing/metadata" ns7:Action="http://egov.bg/RegiX/IAOS/REG35/REG35Service/getStagesValidityPeriodRequest" message="tns:getStagesValidityPeriod" />
+      <output xmlns:ns8="http://www.w3.org/2007/05/addressing/metadata" ns8:Action="http://egov.bg/RegiX/IAOS/REG35/REG35Service/getStagesValidityPeriodResponse" message="tns:getStagesValidityPeriodResponse" />
+      <fault xmlns:ns9="http://www.w3.org/2007/05/addressing/metadata" ns9:Action="http://egov.bg/RegiX/IAOS/REG35/REG35Service/getStagesValidityPeriod/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+    <operation name="getAllowedWasteCode">
+      <input xmlns:ns10="http://www.w3.org/2007/05/addressing/metadata" ns10:Action="http://egov.bg/RegiX/IAOS/REG35/REG35Service/getAllowedWasteCodeRequest" message="tns:getAllowedWasteCode" />
+      <output xmlns:ns11="http://www.w3.org/2007/05/addressing/metadata" ns11:Action="http://egov.bg/RegiX/IAOS/REG35/REG35Service/getAllowedWasteCodeResponse" message="tns:getAllowedWasteCodeResponse" />
+      <fault xmlns:ns12="http://www.w3.org/2007/05/addressing/metadata" ns12:Action="http://egov.bg/RegiX/IAOS/REG35/REG35Service/getAllowedWasteCode/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+  </portType>
+</definitions>

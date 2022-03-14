@@ -1,0 +1,3 @@
+﻿<GetMotorVehicleRegistrationInfoV2Request xmlns="http://egov.bg/RegiX/MVR/MPS/GetMotorVehicleRegistrationInfoV2Request">
+  <Identifier>Identifier1</Identifier>
+</GetMotorVehicleRegistrationInfoV2Request>

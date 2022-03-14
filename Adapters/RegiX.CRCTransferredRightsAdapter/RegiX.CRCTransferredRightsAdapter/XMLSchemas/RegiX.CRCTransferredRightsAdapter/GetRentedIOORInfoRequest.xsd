@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/TransferredRights/GetRentedIOORInfoRequest" targetNamespace="http://egov.bg/RegiX/CRC/TransferredRights/GetRentedIOORInfoRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetRentedIOORInfoRequest">
+		<xs:annotation>
+			<xs:documentation>Входни параметри на Справка за отдаден под наем ИООР</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="LandlordName" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Наименование наемодател</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="LandlordType" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Тип</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Permission" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Разрешение</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="IssueFromDate" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Дата на издаване - от дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="IssueToDate" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Дата на издаване - до дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="EndOfActionFromDate" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Крайна дата на действие - от дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="EndOfActionToDate" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Крайна дата на действие - до дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="TenantName" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Наименование наемател</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="TenantType" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Tип на наемател</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="TenantPermission" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Разрешение</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="RentalFromDate" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Срок на отдаването под наем - от дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="RentalToDate" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Срок на отдаването под наем - до дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

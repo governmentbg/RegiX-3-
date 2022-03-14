@@ -1,0 +1,3 @@
+Install-Package RegiX.KzldAdministratorsAdapter
+Install-Package RegiX.KzldDeniedAdministratorsAdapter
+Install-Package RegiX.KzldExemptAdministratorsAdapter

@@ -1,0 +1,63 @@
+ <PropertyInfoResponse xmlns="http://egov.bg/RegiX/AV/PropertyReg/PropertyInfoResponse">
+              <DateFrom>1990-01-01T00:00:00</DateFrom>
+              <DateTo>2018-01-30T15:58:00</DateTo>
+              <PropertyData>Самостоятелен обект в сграда, пл.No - 83, обект в сгр. - ИЗБА 4.58 КВ.М., № на обект - 34, парцел - 2, площ по док. - 85.040 кв. м., гр.Варна, обл. Варна, общ. Варна, гр.Варна, вх.А, ет.5, ап.43</PropertyData>
+              <LotType>Файлова</LotType>
+              <LotNumber>23</LotNumber>
+              <DateOpened>2008-09-15T00:00:00</DateOpened>
+              <PropertyActDetailList>
+                <PropertyActDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <Sequence>2</Sequence>
+                  <Act>
+                    <IncomingRegistrationNumber>62</IncomingRegistrationNumber>
+                    <IncomingRegistrationDate>2008-09-16T00:00:00</IncomingRegistrationDate>
+                    <DoubleRegisterNumber>13116</DoubleRegisterNumber>
+                    <RegistrationDate>2008-09-16T00:00:00</RegistrationDate>
+                    <BookTypeName>ДОГОВОРНИ ИПОТЕКИ</BookTypeName>
+                    <ActTypeName>Учредяване на договорна ипотека</ActTypeName>
+                    <Volume>13</Volume>
+                    <Page>109</Page>
+                    <ActYear>2008</ActYear>
+                    <ConnectedActs />
+                    <LeftSide>
+                      <Side>Кредитор - ЕИК / БУЛСТАТ 000696969 ТЕСТОВО-ДРУЖЕСТВО</Side>
+                    </LeftSide>
+                    <RightSide>
+                      <Side>Ипотекарен длъжник - ЕГН 8201010101 ИВАН ИВАНОВ ИВАНОВ</Side>
+                      <Side>Ипотекарен длъжник - ЕГН 8301010101 МАРИНА МАРИНОВА МАРИНОВА</Side>
+                    </RightSide>
+                  </Act>
+                  <LotPart>Г,</LotPart>
+                  <ListBookNumber>10650</ListBookNumber>
+                  <ListBookDate>2008-09-16T00:00:00</ListBookDate>
+                </PropertyActDetail>
+                <PropertyActDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <Sequence>1</Sequence>
+                  <Act>
+                    <IncomingRegistrationNumber>39</IncomingRegistrationNumber>
+                    <IncomingRegistrationDate>2008-09-15T00:00:00</IncomingRegistrationDate>
+                    <DoubleRegisterNumber>13015</DoubleRegisterNumber>
+                    <RegistrationDate>2008-09-15T00:00:00</RegistrationDate>
+                    <BookTypeName>ПРЕХВЪРЛЯНИЯ</BookTypeName>
+                    <ActTypeName>Покупко-продажба на недвижим имот с н.а.</ActTypeName>
+                    <Volume>41</Volume>
+                    <Page>84</Page>
+                    <ActYear>2008</ActYear>
+                    <ConnectedActs />
+                    <LeftSide>
+                      <Side>Продавач - ЕИК / БУЛСТАТ 102102102 ТЕСТ-ТЕСТ ООД</Side>
+                    </LeftSide>
+                    <RightSide>
+                      <Side>Купувач(Частна собственост) - ЕГН 8201010101 ИВАН ИВАНОВ ИВАНОВ</Side>
+                      <Side>Купувач(Частна собственост) - ЕГН 8301010101 МАРИНА МАРИНОВА МАРИНОВА</Side>
+                    </RightSide>
+                  </Act>
+                  <LotPart>Б,Б,</LotPart>
+                  <ListBookNumber>10579</ListBookNumber>
+                  <ListBookDate>2008-09-15T00:00:00</ListBookDate>
+                </PropertyActDetail>
+              </PropertyActDetailList>
+              <RegistryAgency>Служба по вписванията - Варна</RegistryAgency>
+              <SiteID>022</SiteID>
+              <SiteStartDate>1997-01-01</SiteStartDate>
+            </PropertyInfoResponse>

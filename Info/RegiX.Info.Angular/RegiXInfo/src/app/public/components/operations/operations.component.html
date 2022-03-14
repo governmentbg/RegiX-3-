@@ -1,0 +1,33 @@
+<div class="agency-data-holder">
+  <h4>Операции</h4>
+
+  <div class="adapter-status-wrapper">
+    <igx-circular-bar
+      *ngIf="isDataLoading"
+      [animate]="true"
+      [indeterminate]="true"
+      [textVisibility]="true"
+    ></igx-circular-bar>
+    <table
+      class="table table-bordered table-hover table-striped"
+      *ngIf="isDataLoaded && !isDataLoading"
+    >
+      <thead>
+        <tr>
+          <th scope="col">Номер</th>
+          <th scope="col">Операция</th>
+          <th scope="col">Заявка</th>
+          <th scope="col">Отговор</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let operation of operations; let i = index">
+          <td class="wrap">{{i+1}}</td>
+          <td class="wrap">{{ operation.Description }}</td>
+          <td class="wrap"><a [href]="this.configurationService.getServiceUrl() + '/api/XSLT/sample/request/' + operation.FullName + '.xml'">Отвори</a></td>
+          <td class="wrap"><a [href]="this.configurationService.getServiceUrl() + '/api/XSLT/sample/response/' + operation.FullName + '.xml'">Отвори</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

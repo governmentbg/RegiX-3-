@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SendDataForCollectionProceedingsTerminationRequest xmlns="http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForCollectionProceedingsTerminationRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <ActIssurerID>2</ActIssurerID>
+    <SubdivisionID>1</SubdivisionID>
+    <CollectibleID>1</CollectibleID>
+    <SubdivisionEIK>aaaaaaaaa</SubdivisionEIK>
+    <CancelDocNo>a</CancelDocNo>
+    <CancelDocDate>1967-08-13</CancelDocDate>
+    <CancelDate>1967-08-13</CancelDate>
+    <CollectibleReason>String</CollectibleReason>
+  </Collection>
+</SendDataForCollectionProceedingsTerminationRequest>

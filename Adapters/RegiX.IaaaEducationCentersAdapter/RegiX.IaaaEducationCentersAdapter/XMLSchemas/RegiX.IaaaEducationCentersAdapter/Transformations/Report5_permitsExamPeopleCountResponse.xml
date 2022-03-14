@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<PermitsExamPeopleCountResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters/PermitsExamPeopleCountReportResponse">
+  <PermitsExamPeopleCounts>
+    <PermitExamPeopleCount>
+      <Number xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">3794</Number>
+      <CompanyFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">"ПАРАЛЕЛ 888" ЕООД</CompanyFullName>
+      <CompanyIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">202571811</CompanyIdentNumber>
+      <ManagerFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ДЕЯН НИКОЛОВ ЖЕЙНОВ</ManagerFullName>
+      <ManagerIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">6002270984</ManagerIdentNumber>
+      <Address xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">УЛ. "КАПИТАН РАЙЧО" № 101, ЕТ. 2, КАБ. 2</Address>
+      <PermitType xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">both</PermitType>
+      <IssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-02-11</IssueDate>
+      <ValidTo xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2020-02-11</ValidTo>
+      <TechAssistantFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ВИОЛЕТА ПЕНЧЕВА МЕТОДИЕВА</TechAssistantFullName>
+      <TechAssistantIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">8412108238</TechAssistantIdentNumber>
+      <OrgUnitShortName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ОО "АА" - Варна</OrgUnitShortName>
+      <Status xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">Подписано</Status>
+      <ExamRoomsCount xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1</ExamRoomsCount>
+      <SeatPlacesCount xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15</SeatPlacesCount>
+      <ExamSeatsCount xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15</ExamSeatsCount>
+      <ExamPeopleCount>19</ExamPeopleCount>
+    </PermitExamPeopleCount>
+    <PermitExamPeopleCount>
+      <Number xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">3515</Number>
+      <CompanyFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">"ПАРАЛЕЛ 888" ЕООД</CompanyFullName>
+      <CompanyIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">202571811</CompanyIdentNumber>
+      <ManagerFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">КАМЕН МАРИНОВ НЕСТОРОВ</ManagerFullName>
+      <ManagerIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">8212176560</ManagerIdentNumber>
+      <Address xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">УЛ. "КАПИТАН РАЙЧО" № 101, ЕТ. 2, КАБ. 2 </Address>
+      <PermitType xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">both</PermitType>
+      <IssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2013-06-04</IssueDate>
+      <ValidTo xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2018-06-04</ValidTo>
+      <TechAssistantFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ВИОЛЕТА ПЕНЧЕВА МЕТОДИЕВА</TechAssistantFullName>
+      <TechAssistantIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">8412108238</TechAssistantIdentNumber>
+      <OrgUnitShortName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ОО "АА" - Варна</OrgUnitShortName>
+      <Status xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">Подписано</Status>
+      <ExamRoomsCount xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</ExamRoomsCount>
+      <SeatPlacesCount xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</SeatPlacesCount>
+      <ExamSeatsCount xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</ExamSeatsCount>
+      <ExamPeopleCount>0</ExamPeopleCount>
+    </PermitExamPeopleCount>
+  </PermitsExamPeopleCounts>
+</PermitsExamPeopleCountResponse>

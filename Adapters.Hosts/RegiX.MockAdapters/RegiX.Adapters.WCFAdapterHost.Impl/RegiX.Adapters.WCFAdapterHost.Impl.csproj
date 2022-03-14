@@ -1,0 +1,498 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{835450D5-3911-48FD-8AA9-346671A6C52A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RegiX.Adapters.WCFAdapterHost.Impl</RootNamespace>
+    <AssemblyName>RegiX.Adapters.WCFAdapterHost.Impl</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="RegiX.Adapters.WCFAdapterHost">
+      <Version>1.0.33</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.ASPFosterParentsAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.ASPFosterParentsAdapter.Mocks">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.ASPSocialAdapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.ASPSocialAdapter.Mocks">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.AVBulstat2Adapter">
+      <Version>1.0.37</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.AVBulstat2Adapter.Mocks">
+      <Version>1.0.37</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.AVTRAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.AVTRAdapter.Mocks">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.AZJobsAdapter">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.AZJobsAdapter.Mocks">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.BABHZhSAdapter">
+      <Version>1.0.31</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.BABHZhSAdapter.Mocks">
+      <Version>1.0.31</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.ChNTsAdapter">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.ChNTsAdapter.Mocks">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.CROZAdapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.CROZAdapter.Mocks">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.DaeuReportsAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.DaeuReportsAdapter.Mocks">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GitActualDeclarationAdapter">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GitActualDeclarationAdapter.Mocks">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GitExplosivesAdapter">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GitExplosivesAdapter.Mocks">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GitPenalProvisionsAdapter">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GitPenalProvisionsAdapter.Mocks">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoBRAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoBRAdapter.Mocks">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoCivilStatusActsAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoCivilStatusActsAdapter.Mocks">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoLEAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoLEAdapter.Mocks">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoNBDAdapter">
+      <Version>1.0.40</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoNBDAdapter.Mock">
+      <Version>1.0.40</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoNMAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoNMAdapter.Mocks">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoPNAAdapter">
+      <Version>1.0.33</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoPNAAdapter.Mocks">
+      <Version>1.0.33</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GvaAircraftsAdapter">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GvaAircraftsAdapter.Mocks">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IAMASeafarersAdapter">
+      <Version>1.0.28</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IAMASeafarersAdapter.Mocks">
+      <Version>1.0.28</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IAMAVesselsAdapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IAMAVesselsAdapter.Mocks">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosMRABagsAdapter">
+      <Version>1.0.31</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosMRABagsAdapter.Mocks">
+      <Version>1.0.31</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosMROBatteriesAdapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosMROBatteriesAdapter.Mocks">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosMROElectricityAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosMROElectricityAdapter.Mocks">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosMROOilAdapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosMROOilAdapter.Mocks">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosMROTyresAdapter">
+      <Version>1.0.31</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosMROTyresAdapter.Mocks">
+      <Version>1.0.31</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosREG35Adapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosREG35Adapter.Mocks">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosTraderBrokerAdapter">
+      <Version>1.0.31</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosTraderBrokerAdapter.Mocks">
+      <Version>1.0.31</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.KzldAdministratorsAdapter">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.KzldAdministratorsAdapter.Mocks">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.KzldDeniedAdministratorsAdapter">
+      <Version>1.0.25</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.KzldDeniedAdministratorsAdapter.Mocks">
+      <Version>1.0.25</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.KzldExemptAdministratorsAdapter">
+      <Version>1.0.25</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.KzldExemptAdministratorsAdapter.Mocks">
+      <Version>1.0.25</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MonChildSchoolStudentsAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MonChildSchoolStudentsAdapter.Mocks">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MonStudentsAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MonStudentsAdapter.Mocks">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MPNPOAdapter">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MPNPOAdapter.Mocks">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MPRNAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MPRNAdapter.Mocks">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MtEstiAdapter">
+      <Version>1.0.32</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MtEstiAdapter.Mocks">
+      <Version>1.0.32</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MtspSimevAdapter">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MtspSimevAdapter.Mocks">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MtTouristRegisterAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MtTouristRegisterAdapter.Mocks">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MVRBDSAdapter">
+      <Version>1.0.35</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MVRBDSAdapter.Mocks">
+      <Version>1.0.35</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MVRERChAdapter">
+      <Version>1.0.28</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MVRERChAdapter.Mocks">
+      <Version>1.0.28</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MVRMPSAdapter">
+      <Version>1.0.32</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MVRMPSAdapter.Mocks">
+      <Version>1.0.32</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MVRTouristRegisterAdapter">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MVRTouristRegisterAdapter.Mocks">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MZHPastureAdapter">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MZHPastureAdapter.Mocks">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NapooStudentDocumentsAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NapooStudentDocumentsAdapter.Mocks">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NelkEismeAdapter">
+      <Version>1.0.33</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NelkEismeAdapter.Mocks">
+      <Version>1.0.33</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NHIFAdapter">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NHIFAdapter.Mocks">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NKPDAdapter">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NKPDAdapter.Mocks">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NoiROAdapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NoiROAdapter.Mocks">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NoiRPAdapter">
+      <Version>1.0.32</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NoiRPAdapter.Mocks">
+      <Version>1.0.32</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NRAEmploymentContractsAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NRAEmploymentContractsAdapter.Mocks">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NRAObligatedPersonsAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NRAObligatedPersonsAdapter.Mocks">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NRSAdapter">
+      <Version>1.0.12</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NRSAdapter.Mock">
+      <Version>1.0.12</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PDVOAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PDVOAdapter.Mocks">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PropertyRegAdapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PropertyRegAdapter.Mocks">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PvDesignAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PvDesignAdapter.Mocks">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PVGeoAdapter">
+      <Version>1.0.28</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PVGeoAdapter.Mocks">
+      <Version>1.0.28</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PvMarksAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PvMarksAdapter.Mocks">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PvPatentsAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PvPatentsAdapter.Mocks">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PvSpcAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PvSpcAdapter.Mocks">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PvUmAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PvUmAdapter.Mocks">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.RasAdapter">
+      <Version>1.0.6</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.RASAdapter.Mock">
+      <Version>1.0.7</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.RDSOAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.RDSOAdapter.Mocks">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.REZMAAdapter">
+      <Version>1.0.28</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.REZMAAdapter.Mocks">
+      <Version>1.0.28</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.RNDAdapter">
+      <Version>1.0.6</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.RNDAdapter.Mock">
+      <Version>1.0.7</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.RTSAdapter">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.RTSAdapter.Mocks">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.ZADSAdapter">
+      <Version>1.0.38</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.ZADSAdapter.Mocks">
+      <Version>1.0.38</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60426</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:60426/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.GraoCommon</RootNamespace>
+    <Authors>Nadya Dimitrova</Authors>
+    <Company>TechnoLogica</Company>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+    <Description>Common functionality for GRAO adapters</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.Adapters.Common" Version="1.0.70" />
+  </ItemGroup>
+
+</Project>

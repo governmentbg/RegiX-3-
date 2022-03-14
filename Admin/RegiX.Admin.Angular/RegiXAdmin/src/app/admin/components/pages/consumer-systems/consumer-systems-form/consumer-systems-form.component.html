@@ -1,0 +1,131 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <div *ngIf="isDataLoading">
+      <div>
+        <igx-circular-bar
+          [animate]="true"
+          [indeterminate]="true"
+          [textVisibility]="true"
+        ></igx-circular-bar>
+      </div>
+    </div>
+    <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isDataLoaded && !isDataLoading"
+    >
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="name"
+              type="text"
+              formControlName="name"
+              tlFormGroupRef
+            />
+            <label igxLabel for="name">Име</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="staticIP"
+              type="text"
+              formControlName="staticIP"
+              tlFormGroupRef
+            />
+            <label igxLabel for="staticIP">IP адрес</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="description"
+              type="text"
+              formControlName="description"
+              tlFormGroupRef
+            />
+            <label igxLabel for="description">Описание</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="consumerProfileName"
+              type="text"
+              formControlName="consumerProfileName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="consumerProfileName"
+              >Профил на консуматор</label
+            >
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      
+      <div
+        class="input-group"
+        igxLayout
+        igxLayoutDir="row"
+        formGroupName="apiServiceConsumer"
+      >
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="displayName"
+              type="text"
+              formControlName="displayName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="displayName">Консумaтор</label>
+          </igx-input-group>
+        </tl-form-group>
+        <button
+          igxButton="icon"
+          (click)="showConsumers()"
+          [disabled]="this.isShowForm()"
+        >
+          <igx-icon>dns</igx-icon>
+        </button>
+      </div>
+    </form>
+  </div>
+</tl-basic-form>
+
+<igx-dialog
+  #consumersFilterDialog
+  title="Консуматори"
+  [closeOnOutsideSelect]="true"
+>
+  <div style="height: 90vh; width: 95vw; overflow: auto;">
+    <app-consumer-systems-filter
+      #consumersFilter
+      (selectedValues)="consumerSelected($event)"
+    >
+    </app-consumer-systems-filter>
+  </div>
+</igx-dialog>

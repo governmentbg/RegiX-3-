@@ -1,0 +1,6 @@
+﻿<CheckObligationsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AM/REZMA/CheckObligationsResponse">
+	<UIN>1234567890</UIN>
+	<Name>Иван Иванов Иванов</Name>
+	<Status>има задължение</Status>
+	<ReportDate>2001-12-17T09:30:47.0Z</ReportDate>
+</CheckObligationsResponse>

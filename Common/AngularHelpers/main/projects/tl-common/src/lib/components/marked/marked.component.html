@@ -1,0 +1,17 @@
+<tl-wrapping-card
+  class="tl-card"
+  [cardHeaderContent]="header"
+  [title]="(title)?title:'Помощ'"
+  [icon]="(icon)?icon:'help_outline'"
+  [subTitle]="subtitle"
+>
+<tl-linear-progress [visible]="!loaded"></tl-linear-progress>
+<div *ngIf="loaded" style="padding: 1rem">
+  <markdown [src]="this.source"></markdown>
+</div>
+<ng-template #header>
+  <button *ngIf="this.source !== this.helpContents" igxButton [routerLink]="contentsRoute">
+    <igx-icon fontSet="material">list_alt</igx-icon>Съдържание</button>
+</ng-template>
+</tl-wrapping-card>
+  

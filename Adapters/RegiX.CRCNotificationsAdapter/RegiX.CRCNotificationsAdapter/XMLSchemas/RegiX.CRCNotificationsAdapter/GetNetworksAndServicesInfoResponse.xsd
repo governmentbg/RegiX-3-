@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/Notifications/GetNetworksAndServicesInfoResponse" xmlns:common="http://egov.bg/RegiX/CRC/Notifications" targetNamespace="http://egov.bg/RegiX/CRC/Notifications/GetNetworksAndServicesInfoResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/CRC/Notifications" schemaLocation="CRCNotificationsCommon.xsd"/>
+	<xs:element name="GetNetworksAndServicesInfoResponse" type="GetNetworksAndServicesInfoResponseType">
+		<xs:annotation>
+			<xs:documentation>Резултат от изпълнението на Справка по мрежа/услуга</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+<!--	<xs:complexType name="SettlementType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="Town" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>гр./с.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Name" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Municipality" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Община</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Region" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Област</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>-->
+	<xs:complexType name="TerritorialScopeType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="EstimatedActivityStartDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предполагаема дата на
+започване на дейност</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Settlement" type="common:SettlementType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Населено място</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GetNetworksInfoResponseType"/>
+	<xs:complexType name="GetNetworksAndServicesInfoResponseType">
+		<xs:complexContent>
+			<xs:extension base="GetNetworksInfoResponseType">
+				<xs:sequence minOccurs="0">
+					<xs:element name="NetworksAndServicesData" type="NetworksAndServicesDataType"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="NetworksAndServicesDataType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="NetworkAndServiceData" type="common:CompanyDataType"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

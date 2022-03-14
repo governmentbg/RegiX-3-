@@ -1,0 +1,5 @@
+<PermitsExamPeopleCountRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters/PermitsExamPeopleCountRequest">
+            <IdentNumber>202571811</IdentNumber>
+            <DateFrom>2012-01-01</DateFrom>
+            <DateTo>2016-01-01</DateTo>
+          </PermitsExamPeopleCountRequest>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/NonUniversalPostalServices/GetNonUniversalOperatorsInfoRequest" targetNamespace="http://egov.bg/RegiX/CRC/NonUniversalPostalServices/GetNonUniversalOperatorsInfoRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetNonUniversalOperatorsInfoRequest">
+		<xs:annotation>
+			<xs:documentation>Входни параметри на Справка за неуниверсални оператори</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Operator" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Оператор</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Type" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Вид</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Address" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Адрес</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Certificate" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Удостоверение</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="StartFromDate" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Дата на започване - от дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="StartToDate" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Дата на започване - до дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="PostalServices" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Пощенски пратки</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="CourierServices" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Куриерски услуги</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="DirectPostalAdvertising" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Пряка пощенска реклама</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

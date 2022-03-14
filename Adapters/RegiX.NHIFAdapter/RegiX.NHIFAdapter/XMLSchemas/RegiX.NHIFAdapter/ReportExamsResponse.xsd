@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NHIF/Response" xmlns:common="http://egov.bg/RegiX/NHIF/NHIFCommon" targetNamespace="http://egov.bg/RegiX/NHIF/Response" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/NHIF/NHIFCommon" schemaLocation="NHIFCommon.xsd"/>
+	<xs:element name="ReportExamsResponse">
+		<xs:annotation>
+			<xs:documentation>Справка за извършените прегледи на пациент</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ReportExams" type="ReportExamsType" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="ReportExamsType">
+		<xs:sequence>
+			<xs:element name="ReportExam" type="ReportExamType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ReportExamType">
+		<xs:sequence>
+			<xs:element name="PatientIdentificator" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор на пациент</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BranchName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>РЗОК име</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Practitioner" type="common:ReportExamsPractitionerType" minOccurs="0"/>
+			<xs:element name="MSP" type="common:MSPType" minOccurs="0"/>
+			<xs:element name="AmbulatoryList" type="common:AmbulatoryListType" minOccurs="0"/>
+			<xs:element name="ExamType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид на преглед</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ICD" type="common:ReportExamsICDType" minOccurs="0"/>
+			<xs:element name="ImmunisationsInfo" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код и име на имунизации</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="VSDInfo" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код и име на ВСД</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

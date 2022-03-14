@@ -1,0 +1,25 @@
+<div class="content-wrap" igxLayout>
+  <igx-nav-drawer
+    id="navigation"
+    #drawer
+    [isOpen]="true"
+    [pin]="true"
+    [pinThreshold]="0"
+    [width]="'30rem'"
+  >
+    <ng-template igxDrawer>
+      <nav>
+        <app-adapter-development-guidelines-recursive
+        [mdFiles]="mdFiles"
+        (selected)="navigate($event)">
+        </app-adapter-development-guidelines-recursive>
+      </nav>
+    </ng-template>
+  </igx-nav-drawer>
+
+  <main igxFlex>
+    <!-- <button (click)="drawer.toggle()"> Menu </button> -->
+    <app-adapter-development-guidelines [source]="this.selected">
+    </app-adapter-development-guidelines>
+  </main>
+</div>

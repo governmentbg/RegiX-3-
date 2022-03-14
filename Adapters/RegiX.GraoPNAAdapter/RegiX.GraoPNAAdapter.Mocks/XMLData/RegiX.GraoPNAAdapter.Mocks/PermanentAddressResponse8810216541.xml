@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<PermanentAddressResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/PNA/PermanentAddressResponse">
+  <DistrictCode>SF</DistrictCode>
+  <DistrictName>Пловдив</DistrictName>
+  <MunicipalityCode>SF</MunicipalityCode>
+  <MunicipalityName>Пловдив</MunicipalityName>
+  <SettlementCode>BG001</SettlementCode>
+  <SettlementName>гр. Пловдив</SettlementName>
+  <CityAreaCode>SL</CityAreaCode>
+  <CityArea/>
+  <LocationCode/>
+  <LocationName>ул. Филипово</LocationName>
+  <BuildingNumber>17</BuildingNumber>
+  <Entrance>1</Entrance>
+  <Floor>3</Floor>
+  <Apartment>9</Apartment>
+  <FromDate>2005-03-12</FromDate>
+</PermanentAddressResponse>

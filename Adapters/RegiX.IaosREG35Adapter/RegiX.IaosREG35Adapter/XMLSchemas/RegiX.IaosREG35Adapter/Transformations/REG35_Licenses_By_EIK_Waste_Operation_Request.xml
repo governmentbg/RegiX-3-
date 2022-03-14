@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REG35_Licenses_By_EIK_Waste_Code_Waste_Operation_Request xsi:schemaLocation="http://egov.bg/RegiX/IAOS/REG35/LicensesByEIKWasteCodeWasteOperationRequest REG35_Licenses_By_EIK_Waste_Code_Waste_Operation_Request.xsd" xmlns="http://egov.bg/RegiX/IAOS/REG35/LicensesByEIKWasteCodeWasteOperationRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<EIK>000000000</EIK>
+	<WasteCode>String</WasteCode>
+	<WasteOperation>String</WasteOperation>
+</REG35_Licenses_By_EIK_Waste_Code_Waste_Operation_Request>

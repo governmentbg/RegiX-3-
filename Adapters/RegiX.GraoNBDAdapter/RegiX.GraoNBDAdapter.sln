@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.GraoNBDAdapter", "RegiX.GraoNBDAdapter\RegiX.GraoNBDAdapter.csproj", "{55B23EA9-0168-4DC9-8687-50FBC1A35A9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.GraoNBDAdapter.Tests", "RegiX.GraoNBDAdapter.Tests\RegiX.GraoNBDAdapter.Tests.csproj", "{83370C40-23CA-43E8-AF05-DFA60CB33D5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.GraoNBDAdapter.Mock", "RegiX.GraoNBDAdapter.Mock\RegiX.GraoNBDAdapter.Mock.csproj", "{5B542712-5494-4404-98B1-FF738C52CCDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C4CE1811-6E3A-4F46-A6F6-05265E6F097E}"
+	ProjectSection(SolutionItems) = preProject
+		azure-devops.yaml = azure-devops.yaml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55B23EA9-0168-4DC9-8687-50FBC1A35A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B23EA9-0168-4DC9-8687-50FBC1A35A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B23EA9-0168-4DC9-8687-50FBC1A35A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B23EA9-0168-4DC9-8687-50FBC1A35A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83370C40-23CA-43E8-AF05-DFA60CB33D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83370C40-23CA-43E8-AF05-DFA60CB33D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83370C40-23CA-43E8-AF05-DFA60CB33D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83370C40-23CA-43E8-AF05-DFA60CB33D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B542712-5494-4404-98B1-FF738C52CCDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B542712-5494-4404-98B1-FF738C52CCDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B542712-5494-4404-98B1-FF738C52CCDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B542712-5494-4404-98B1-FF738C52CCDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {743D7DC6-38AD-4379-B5BE-5BF7A7CC21B5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,94 @@
+import { Component, OnInit, ContentChild } from '@angular/core';
+import { ValidationErrors } from '@angular/forms';
+import { FormGroupRefDirective } from '../../directives/form-group-ref.directive';
+
+enum EValidators {
+  REQUIRED = 'required',
+  MINLENGHT = 'minlength',
+  MUSTMATCH = 'mustMatch',
+  VALIDATEIDENTIFIER = 'validateIdentifier ',
+  STRONGPASS  = 'strongPass',
+  EMAIL  = 'email'
+}
+
+@Component({
+  selector: 'tl-form-group',
+  templateUrl: './form-group.component.html',
+  styleUrls: ['./form-group.component.scss']
+})
+export class FormGroupComponent implements OnInit {
+  @ContentChild(FormGroupRefDirective)
+  input: FormGroupRefDirective;
+
+  constructor() {}
+
+  get isError() {
+    if (this.input) {
+      return this.input.hasError;
+    }
+
+    throw new Error(
+      'За да използвате този компонент, трябва да добавите appFormGroupRef директивата.'
+    );
+  }
+
+  get errorMessages() {
+    const errors = this.input.errors;
+    const messages = [];
+
+    const keys = Object.keys(errors);
+
+    keys.forEach(errorKey => {
+      const message = this.getErrorMessage(errorKey, errors);
+      if (message) {
+        messages.push(message);
+      }
+    });
+
+    return messages;
+  }
+
+  private getErrorMessage(errorKey: string, errors: ValidationErrors | '') {
+    let message: string;
+    const errorMeta = errors[errorKey];
+
+    if (errorMeta) {
+      switch (errorKey) {
+        case EValidators.REQUIRED: {
+          message = 'Полето е задължитено.';
+          break;
+        }
+        case EValidators.MINLENGHT: {
+          message = `Полето трябва да е поне ${
+            errorMeta.requiredLength
+          } символа. Вие сте въвели ${errorMeta.actualLength} символа.`;
+          break;
+        }
+        case EValidators.MUSTMATCH: {
+          message = 'Паролите не съвпадат.';
+          break;
+        }
+        case EValidators.VALIDATEIDENTIFIER: {
+          message = 'Полето трябва да съдържа само цифри.';
+          break;
+        }
+        case EValidators.STRONGPASS: {
+          message = 'Парoлата трябва да съдържа поне една главна буква, малка буква, цифра и поне един специален символ.';
+          break;
+        }
+        case EValidators.EMAIL: {
+          message = 'Полето трябва да съдържа валиден email адрес.';
+          break;
+        }
+        default: {
+          message = `За валидатор ${errorKey} няма добавено съобщение.`;
+        }
+      }
+    }
+
+    return message;
+  }
+
+  ngOnInit() {}
+}
+

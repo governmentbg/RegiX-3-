@@ -1,0 +1,10 @@
+<MaritalStatusResponse xmlns="http://egov.bg/RegiX/GRAO/BR/MaritalStatusResponse">
+  <MaritalStatusCode>2</MaritalStatusCode>
+  <MaritalStatusName>Heпoкaзaнo</MaritalStatusName>
+  <FirstName>Никола</FirstName>
+  <MiddleName>Иванов</MiddleName>
+  <LastName>Първанов</LastName>
+  <EGN>8506258485</EGN>
+  <Gender>1</Gender>
+  <ReportDate>2017-11-20T17:19:48.7205432+02:00</ReportDate>
+</MaritalStatusResponse>

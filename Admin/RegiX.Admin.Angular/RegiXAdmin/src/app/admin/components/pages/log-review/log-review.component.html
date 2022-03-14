@@ -1,0 +1,394 @@
+<igx-card style="margin-top: 1rem; margin-left: 1rem; margin-right: 1rem;">
+  <igx-card-header>
+    <igx-avatar icon="filter_list" roundShape="true" size="small"> </igx-avatar>
+    <h3 igxCardHeaderTitle>Филтър</h3>
+    <igx-input-group
+      class="calendarDropDown"
+      style="min-width: 20rem; padding-top: 0.1rem;"
+      [igxToggleAction]="dropDownCalendar"
+      type="line"
+    >
+      <input
+        #dates
+        igxInput
+        readonly
+        [value]="this.datesInterval"
+        type="text"
+        igxInput
+        name="period"
+        [igxDropDownItemNavigation]="dropDownCalendar"
+      />
+      <label igxLabel for="period">Период</label>
+      <igx-prefix>
+        <igx-icon>today</igx-icon>
+      </igx-prefix>
+    </igx-input-group>
+
+    <igx-drop-down #dropDownCalendar (onClosing)="onClosing()">
+      <igx-calendar
+        #calendar
+        class="calendar"
+        selection="range"
+        [monthsViewNumber]="1"
+        (onSelection)="verifyRange($event)"
+      >
+      </igx-calendar>
+      <div class="buttons">
+        <button igxButton (click)="onDoneSelected(dropDownCalendar)">
+          Затвори
+        </button>
+      </div>
+    </igx-drop-down>
+
+    <!-- timeFrom -->
+    <igx-time-picker
+      [value]="startTime"
+      format="HH:mm"
+      class="time-picker"
+      (onClosed)="setTimeFrom($event)"
+    >
+      <ng-template
+        igxTimePickerTemplate
+        let-openDialog="openDialog"
+        let-value="value"
+        let-displayTime="displayTime"
+      >
+        <igx-input-group (click)="openDialog()">
+          <label igxLabel>Час от</label>
+          <input igxInput [value]="displayTime" />
+          <igx-icon igxPrefix>access_time</igx-icon>
+        </igx-input-group>
+      </ng-template>
+    </igx-time-picker>
+
+    <!-- timeTo -->
+    <igx-time-picker
+      [value]="endTime"
+      format="HH:mm"
+      class="time-picker"
+      (onClosed)="setTimeEnd($event)"
+    >
+      <ng-template
+        igxTimePickerTemplate
+        let-openDialog="openDialog"
+        let-value="value"
+        let-displayTime="displayTime"
+      >
+        <igx-input-group (click)="openDialog()">
+          <label igxLabel>Час до</label>
+          <input igxInput [value]="displayTime" />
+          <igx-icon igxPrefix>access_time</igx-icon>
+        </igx-input-group>
+      </ng-template>
+    </igx-time-picker>
+  </igx-card-header>
+
+  <igx-card-content>
+    <div style="padding-bottom: 1rem;">
+      <form
+        class="right-form-group"
+        [formGroup]="formGroupPrimaryAdministrations"
+      >
+        <h3 class="igx-card-header__subtitle">
+          Първични администратори на данни
+        </h3>
+        <div igxLayout igxLayoutDir="col">
+          <div
+            *ngFor="let controlKey of formGroupPrimaryAdministrationsKeysArray"
+            igxFlex
+            igxLayout
+            igxLayoutDir="row"
+          >
+            <tl-form-group class="form-group-wrapper">
+              <igx-input-group [displayDensity]="'compact'">
+                <input
+                  class="form-input"
+                  igxInput
+                  [name]="controlKey"
+                  type="text"
+                  [formControlName]="controlKey"
+                  tlFormGroupRef
+                />
+                <label igxLabel [for]="controlKey">{{
+                  this.formGroupPrimaryAdministrationsKeys[controlKey].title
+                }}</label>
+              </igx-input-group>
+            </tl-form-group>
+            <button
+              igxButton="icon"
+              (click)="openPrimaryAdministrationFilterForm()"
+              title="Филтър по първични администратори на данни"
+            >
+              <igx-icon>{{
+                this.formGroupPrimaryAdministrationsKeys[controlKey].icon
+              }}</igx-icon>
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <form class="left-form-group" [formGroup]="formGroupAdministrations">
+        <div igxLayout igxLayoutDir="col">
+          <h3 class="igx-card-header__subtitle">
+            Администрации
+          </h3>
+
+          <div
+            *ngFor="let controlKey of formGroupAdministrationsKeysArray"
+            igxFlex
+            igxLayout
+            igxLayoutDir="row"
+          >
+            <tl-form-group class="form-group-wrapper">
+              <igx-input-group [displayDensity]="'compact'">
+                <input
+                  class="form-input"
+                  igxInput
+                  [name]="controlKey"
+                  type="text"
+                  [formControlName]="controlKey"
+                  tlFormGroupRef
+                />
+                <label igxLabel [for]="controlKey">{{
+                  this.formGroupAdministrationsKeys[controlKey].title
+                }}</label>
+              </igx-input-group>
+            </tl-form-group>
+            <button
+              igxButton="icon"
+              (click)="openAdministrationFilterForm()"
+              title="Филтър по администрация"
+            >
+              <igx-icon>{{
+                this.formGroupAdministrationsKeys[controlKey].icon
+              }}</igx-icon>
+            </button>
+          </div>
+        </div>
+        <button
+          *ngIf="this.formGroupPrimaryAdministrations.dirty || this.formGroupAdministrations.dirty"
+          style="padding-left: 0rem; padding-bottom: 0rem;"
+          igxButton
+          igxButtonType="raised"
+          (click)="clearFilters()"
+        >
+          <igx-icon>clear</igx-icon>
+          Изчисти
+        </button>
+      </form>
+    </div>
+  </igx-card-content>
+</igx-card>
+
+<button
+  class="floating-action-button"
+  igxButton="fab"
+  (click)="runReport()"
+  title="Търсене"
+>
+  <igx-icon>search</igx-icon>
+</button>
+<tl-wrapping-card
+  [title]="routes.LOGS.title"
+  [icon]="routes.LOGS.icon"
+  [actions]="[{ reference: excelExportAll }]"
+>
+  <tl-linear-progress
+    [visible]="this.remoteService.isLoading"
+  ></tl-linear-progress>
+  <igx-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    (onSortingDone)="sortingDone($event)"
+    (onFilteringDone)="filteringDone($event)"
+    (onSelection)="cellSelection($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+    <igx-column
+      field="consumerCertificateName"
+      header="Консуматор"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+    </igx-column>
+
+    <igx-column
+      field="apiServiceOperationName"
+      header="Операция"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+    </igx-column>
+
+    <igx-column
+      field="startTime"
+      header="От"
+      [sortable]="true"
+      [dataType]="'date'"
+      width="10%"
+      [formatter]="this.dateFormatService.formatDate"
+    >
+    </igx-column>
+
+    <igx-column
+      field="endTime"
+      header="До"
+      [sortable]="true"
+      [dataType]="'date'"
+      width="10%"
+      [formatter]="this.dateFormatService.formatDate"
+    >
+    </igx-column>
+
+    <igx-column
+      field="contextEmployeeNames"
+      header="Служител"
+      [sortable]="true"
+      [dataType]="'string'"
+      width="15%"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="ipAddress"
+      header="IP Адрес"
+      [sortable]="true"
+      [dataType]="'string'"
+      width="10%"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="resultReady"
+      header="Готов"
+      width="110px"
+      [sortable]="true"
+      [dataType]="'boolean'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          class="width-100"
+          igxLayout
+          igxLayoutDir="column"
+          igxLayoutItemAlign="center"
+        >
+          <igx-checkbox disabled="true" [checked]="cell.value === true" igxFlex>
+          </igx-checkbox>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="resultReturned"
+      header="Върнат"
+      width="110px"
+      [sortable]="true"
+      [dataType]="'boolean'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          class="width-100"
+          igxLayout
+          igxLayoutDir="column"
+          igxLayoutItemAlign="center"
+        >
+          <igx-checkbox disabled="true" [checked]="cell.value === true" igxFlex>
+          </igx-checkbox>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="hasError"
+      header="Грешка"
+      width="110px"
+      [sortable]="true"
+      [dataType]="'boolean'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          class="width-100"
+          igxLayout
+          igxLayoutDir="column"
+          igxLayoutItemAlign="center"
+        >
+          <igx-checkbox disabled="true" [checked]="cell.value === true" igxFlex>
+          </igx-checkbox>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      header="Действия"
+      [sortable]="false"
+      width="120px"
+      [filterable]="false"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          igxLayout
+          igxLayoutDir="row"
+          igxLayoutJustify="center"
+          class="action-buttons-wrapper"
+        >
+          <tl-reference-button
+            [routeReference]="this.routes.LOG_VIEW"
+            [routeArguments]="{ ':ID': cell.rowData.apiServiceCallId }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-grid>
+      <div class="tl-paginator">
+        <tl-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+  </igx-grid>
+</tl-wrapping-card>
+
+<igx-dialog
+  #primaryAdministrationsFilter
+  title="Първични администратори на данни"
+  [closeOnOutsideSelect]="true"
+>
+  <div style="height: 90vh; width: 95vw; overflow: auto;">
+    <app-log-review-primary-filter
+      #logReviewPrimaryFilter
+      (selectedValues)="primaryAdministrationSelected($event)"
+    ></app-log-review-primary-filter>
+  </div>
+</igx-dialog>
+
+<igx-dialog
+  #administrationsFilter
+  title="Филтър по администрации"
+  [closeOnOutsideSelect]="true"
+>
+  <div style="height: 90vh; width: 95vw; overflow: auto;">
+    <app-log-review-administration-filter
+      #logReviewFilter
+      (selectedValues)="administrationSelected($event)"
+    ></app-log-review-administration-filter>
+  </div>
+</igx-dialog>

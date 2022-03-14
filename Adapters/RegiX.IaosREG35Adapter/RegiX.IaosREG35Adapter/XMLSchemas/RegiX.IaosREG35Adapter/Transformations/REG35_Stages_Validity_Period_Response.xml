@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REG35_Stages_Validity_Period_Response xsi:schemaLocation="http://egov.bg/RegiX/IAOS/REG35/StagesValidityPeriodResponse REG35_Stages_Validity_Period_Response.xsd" xmlns="http://egov.bg/RegiX/IAOS/REG35/StagesValidityPeriodResponse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Authorization>
+		<AuthType>B</AuthType>
+		<DateFrom>1967-08-13</DateFrom>
+		<DateTo>1967-08-13</DateTo>
+		<State>00</State>
+		<Waste>
+			<WasteCode xmlns="">String</WasteCode>
+			<WasteType xmlns="">String</WasteType>
+		</Waste>
+		<Waste>
+			<WasteCode xmlns="">String</WasteCode>
+			<WasteType xmlns="">String</WasteType>
+		</Waste>
+		<Waste>
+			<WasteCode xmlns="">String</WasteCode>
+			<WasteType xmlns="">String</WasteType>
+		</Waste>
+	</Authorization>
+</REG35_Stages_Validity_Period_Response>

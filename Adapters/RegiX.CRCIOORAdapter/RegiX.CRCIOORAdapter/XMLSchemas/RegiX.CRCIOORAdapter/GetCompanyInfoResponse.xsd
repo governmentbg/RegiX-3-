@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/IOOR/GetCompanyInfoResponse" targetNamespace="http://egov.bg/RegiX/CRC/IOOR/GetCompanyInfoResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetCompanyInfoResponse" type="GetCompanyInfoResponseType">
+		<xs:annotation>
+			<xs:documentation>Разултат от изпълнението на "Справка за предприятие"</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="CompanyType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="CompanyName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предприятие</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CompType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EIK" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ЕИК</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="HeadquartersAddress" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Седалище и адрес на управление</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="WebPageAddress" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Интернет страница</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NetworkInfo" type="NetworkInfoType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Информация за мрежа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CompaniesType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="Company" type="CompanyType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни за предприятие</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GetCompanyInfoResponseType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="Companies" type="CompaniesType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни за предприятия</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="NetworkInfoType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="NetType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид мрежа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PermissionNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Разрешение №
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IssueDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на
+издаване
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="StartOfActionDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Начална дата
+на действие
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EndOfActionDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Крайна дата
+на действие
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Purpose" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предназначение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Town" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>гр./с</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Name" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Region" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Област</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="LowerFrequencyLimit" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Долна граница
+(MHz)
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="UpperFrequencyLimit" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Горна граница
+(MHz)
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ChannelNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на канала</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="FrequencyRange" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Честотен обхват</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Description" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Описание</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Count" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Брой</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BlocksCount" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Брой блокове</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TotalSpectrum" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Общо спектър (MHz)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NetworkType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Тип на мрежа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="FrequencyBandwidth" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Честотна лента</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MainFrequency" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Носеща честота</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TerritorialScope" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Териториален обхват</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Location" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Местоположение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TransmissionFrequency" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Честота на предаване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TransmissionBandwidth" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Честотна лента на предаване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ReceptionBandwidth" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Честотна лента на получаване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Status" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Статус</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

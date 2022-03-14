@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NRA/PublicDebtsCollection/GetActualStateForIOOrCollectionRequest" targetNamespace="http://egov.bg/RegiX/NRA/PublicDebtsCollection/GetActualStateForIOOrCollectionRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetActualStateForIOOrCollectionRequest" type="GetActualStateForIOOrCollectionRequestType">
+		<xs:annotation>
+			<xs:documentation>Входни параметри на операция "Получаване на информация за актуално състояние по изпълнително основание/вземане от НАП"</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="GetActualStateForIOOrCollectionRequestType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="ActIssurerID">
+				<xs:annotation>
+					<xs:documentation>ID на взискател/актосъставител</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:long">
+						<xs:minInclusive value="2"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="SubdivisionID">
+				<xs:annotation>
+					<xs:documentation>ID на подразделение </xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:long">
+						<xs:minInclusive value="1"/>
+						<xs:maxInclusive value="9999"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="TitulID" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:long">
+						<xs:minInclusive value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="CollectibleID" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ID на вземане </xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:long">
+						<xs:minInclusive value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

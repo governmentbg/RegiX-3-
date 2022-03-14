@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.NRAPublicDebtsCollectionAdapter", "RegiX.NRAPublicDebtsCollectionAdapter\RegiX.NRAPublicDebtsCollectionAdapter.csproj", "{7B73E35B-F2ED-440D-BBF1-79870DEA93A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB4C00FC-ACC4-40B3-BEAE-5D0FF9A6B628}"
+	ProjectSection(SolutionItems) = preProject
+		azure-devops.yaml = azure-devops.yaml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.NRAPublicDebtsCollectionAdapter.Mocks", "RegiX.NRAPublicDebtsCollectionAdapter.Mocks\RegiX.NRAPublicDebtsCollectionAdapter.Mocks.csproj", "{2A6D8B17-9DFD-44E7-A472-45842A4AE4E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.NRAPublicDebtsCollectionAdapter.Tests", "RegiX.NRAPublicDebtsCollectionAdapter.Tests\RegiX.NRAPublicDebtsCollectionAdapter.Tests.csproj", "{9818BCB7-C9AD-4480-AFB3-4B06AC936315}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B73E35B-F2ED-440D-BBF1-79870DEA93A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B73E35B-F2ED-440D-BBF1-79870DEA93A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B73E35B-F2ED-440D-BBF1-79870DEA93A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B73E35B-F2ED-440D-BBF1-79870DEA93A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A6D8B17-9DFD-44E7-A472-45842A4AE4E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A6D8B17-9DFD-44E7-A472-45842A4AE4E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A6D8B17-9DFD-44E7-A472-45842A4AE4E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A6D8B17-9DFD-44E7-A472-45842A4AE4E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9818BCB7-C9AD-4480-AFB3-4B06AC936315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9818BCB7-C9AD-4480-AFB3-4B06AC936315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9818BCB7-C9AD-4480-AFB3-4B06AC936315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9818BCB7-C9AD-4480-AFB3-4B06AC936315}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F5ADF73-4A74-4AA5-9DCA-45C8C30746BF}
+	EndGlobalSection
+EndGlobal

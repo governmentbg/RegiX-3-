@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PatientRecordMedicalTreatmentsResponse xmlns="http://egov.bg/RegiX/NHIF/Response">
+  <PatientRecordMedicalTreatments>
+    <PatientRecordMedicalTreatment>
+      <Pharmacy>
+        <MSPCode>MSPCode1</MSPCode>
+        <MSPName>MSPName1</MSPName>
+        <Address>Address1</Address>
+      </Pharmacy>
+      <Prescription>
+        <PresctiptionNumber>PresctiptionNumber1</PresctiptionNumber>
+        <PresctiptionDate>PresctiptionDate1</PresctiptionDate>
+      </Prescription>
+      <ICD>
+        <ICDCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ICDCode1</ICDCode>
+        <ICDName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ICDName1</ICDName>
+      </ICD>
+      <Practitioner>
+        <PractitionerUIN xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerUIN1</PractitionerUIN>
+        <PractitionerNames xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerNames1</PractitionerNames>
+      </Practitioner>
+      <Sender>
+        <MSPCode>MSPCode1</MSPCode>
+        <MSPName>MSPName1</MSPName>
+      </Sender>
+      <DispensedDate>DispensedDate1</DispensedDate>
+      <MedicalSupply>
+        <MedicalSupplyCode>MedicalSupplyCode1</MedicalSupplyCode>
+        <MedicalSupplyDescription>MedicalSupplyDescription1</MedicalSupplyDescription>
+      </MedicalSupply>
+      <PrescribedQuantity>PrescribedQuantity1</PrescribedQuantity>
+      <UnitPrice>UnitPrice1</UnitPrice>
+      <Price>Price1</Price>
+      <PatientIdentificator>PatientIdentificator1</PatientIdentificator>
+    </PatientRecordMedicalTreatment>
+    <PatientRecordMedicalTreatment>
+      <Pharmacy>
+        <MSPCode>MSPCode2</MSPCode>
+        <MSPName>MSPName2</MSPName>
+        <Address>Address2</Address>
+      </Pharmacy>
+      <Prescription>
+        <PresctiptionNumber>PresctiptionNumber2</PresctiptionNumber>
+        <PresctiptionDate>PresctiptionDate2</PresctiptionDate>
+      </Prescription>
+      <ICD>
+        <ICDCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ICDCode2</ICDCode>
+        <ICDName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ICDName2</ICDName>
+      </ICD>
+      <Practitioner>
+        <PractitionerUIN xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerUIN2</PractitionerUIN>
+        <PractitionerNames xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerNames2</PractitionerNames>
+      </Practitioner>
+      <Sender>
+        <MSPCode>MSPCode2</MSPCode>
+        <MSPName>MSPName2</MSPName>
+      </Sender>
+      <DispensedDate>DispensedDate2</DispensedDate>
+      <MedicalSupply>
+        <MedicalSupplyCode>MedicalSupplyCode2</MedicalSupplyCode>
+        <MedicalSupplyDescription>MedicalSupplyDescription2</MedicalSupplyDescription>
+      </MedicalSupply>
+      <PrescribedQuantity>PrescribedQuantity2</PrescribedQuantity>
+      <UnitPrice>UnitPrice2</UnitPrice>
+      <Price>Price2</Price>
+      <PatientIdentificator>PatientIdentificator2</PatientIdentificator>
+    </PatientRecordMedicalTreatment>
+    <PatientRecordMedicalTreatment>
+      <Pharmacy>
+        <MSPCode>MSPCode3</MSPCode>
+        <MSPName>MSPName3</MSPName>
+        <Address>Address3</Address>
+      </Pharmacy>
+      <Prescription>
+        <PresctiptionNumber>PresctiptionNumber3</PresctiptionNumber>
+        <PresctiptionDate>PresctiptionDate3</PresctiptionDate>
+      </Prescription>
+      <ICD>
+        <ICDCode xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ICDCode3</ICDCode>
+        <ICDName xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">ICDName3</ICDName>
+      </ICD>
+      <Practitioner>
+        <PractitionerUIN xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerUIN3</PractitionerUIN>
+        <PractitionerNames xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon">PractitionerNames3</PractitionerNames>
+      </Practitioner>
+      <Sender>
+        <MSPCode>MSPCode3</MSPCode>
+        <MSPName>MSPName3</MSPName>
+      </Sender>
+      <DispensedDate>DispensedDate3</DispensedDate>
+      <MedicalSupply>
+        <MedicalSupplyCode>MedicalSupplyCode3</MedicalSupplyCode>
+        <MedicalSupplyDescription>MedicalSupplyDescription3</MedicalSupplyDescription>
+      </MedicalSupply>
+      <PrescribedQuantity>PrescribedQuantity3</PrescribedQuantity>
+      <UnitPrice>UnitPrice3</UnitPrice>
+      <Price>Price3</Price>
+      <PatientIdentificator>PatientIdentificator3</PatientIdentificator>
+    </PatientRecordMedicalTreatment>
+  </PatientRecordMedicalTreatments>
+</PatientRecordMedicalTreatmentsResponse>

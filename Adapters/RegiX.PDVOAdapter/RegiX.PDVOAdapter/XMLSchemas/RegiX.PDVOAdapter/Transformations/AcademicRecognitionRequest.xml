@@ -1,0 +1,4 @@
+  <AcademicRecognitionRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NACID/PDVO/AcademicRecognitionRequest">
+            <InternalAppNum>123456789</InternalAppNum>
+            <InternalAppDate>2018-01-31T15:11:00</InternalAppDate>
+          </AcademicRecognitionRequest>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetProcurementDossierRequest xmlns="http://egov.bg/RegiX/CPC/ProcurementDossier/GetProcurementDossierRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ProcurementNumber>text</ProcurementNumber>
+</GetProcurementDossierRequest>

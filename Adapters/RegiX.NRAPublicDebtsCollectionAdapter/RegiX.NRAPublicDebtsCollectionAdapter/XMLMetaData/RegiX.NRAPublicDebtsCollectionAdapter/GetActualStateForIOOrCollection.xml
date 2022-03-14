@@ -1,0 +1,64 @@
+<!--RQ09-->
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.NRAPublicDebtsCollectionAdapter.APIService.INRAPublicDebtsCollectionAPI.GetActualStateForIOOrCollection</OperationName>
+  <Code>GetActualStateForIOOrCollection</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>GetActualStateForIOOrCollectionRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/NRA/PublicDebtsCollection/GetActualStateForIOOrCollectionRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Получаване на информация за актуално състояние по изпълнително основание/вземане от НАП</DisplayOperationName>
+  <Parameters>
+      <Parameter>
+        <ParameterInfo>
+          <ParameterName>ActIssurerID</ParameterName>
+          <ParameterLabel>ID на взискател/актосъставител</ParameterLabel>
+          <IsRequired>true</IsRequired>
+          <IsXmlElement>true</IsXmlElement>
+          <OrderNumber>1</OrderNumber>  
+          <ParameterType>
+            <Type>long</Type>
+            <EnumValues/>
+          </ParameterType>
+        </ParameterInfo>
+      </Parameter>
+      <Parameter>
+        <ParameterInfo>
+          <ParameterName>SubdivisionID</ParameterName>
+          <ParameterLabel>ID на подразделение</ParameterLabel>
+          <IsRequired>true</IsRequired>
+          <IsXmlElement>true</IsXmlElement>
+          <OrderNumber>2</OrderNumber>
+          <ParameterType>
+            <Type>long</Type>
+            <EnumValues/>
+          </ParameterType>
+        </ParameterInfo>
+      </Parameter>
+      <Parameter>
+        <ParameterInfo>
+          <ParameterName>TitulID</ParameterName>
+          <ParameterLabel>ID на ИО</ParameterLabel>
+          <IsRequired>false</IsRequired>
+          <IsXmlElement>true</IsXmlElement>
+          <OrderNumber>3</OrderNumber>
+          <ParameterType>
+            <Type>long</Type>
+            <EnumValues/>
+          </ParameterType>
+        </ParameterInfo>
+      </Parameter>
+      <Parameter>
+        <ParameterInfo>
+          <ParameterName>CollectibleID</ParameterName>
+          <ParameterLabel>ID на вземане</ParameterLabel>
+          <IsRequired>false</IsRequired>
+          <IsXmlElement>true</IsXmlElement>
+          <OrderNumber>4</OrderNumber>  
+          <ParameterType>
+            <Type>long</Type>
+            <EnumValues/>
+          </ParameterType>
+        </ParameterInfo>
+      </Parameter>
+  </Parameters>
+</AdapterOperation>

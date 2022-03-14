@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3dbc09e8-6ffe-438a-b37e-75e82dc4c976" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="D:\Projects\eGov\RegiX\RegiX.AVBulstat2Adapter\XMLSchemas\StateOfPlayService.wsdl" Protocol="file" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="IdentificationDoc.xsd" MetadataType="Schema" ID="08a3774a-59fe-4cdf-abae-944ba4310f36" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/IdentificationDoc.xsd" />
+    <MetadataFile FileName="Case.xsd" MetadataType="Schema" ID="8ed73189-542b-4a0d-9b80-faceb65395ca" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/Case.xsd" />
+    <MetadataFile FileName="SubjectPropActivityKID2008.xsd" MetadataType="Schema" ID="195e3f71-a74b-426a-a2f7-5bd210192840" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectPropActivityKID2008.xsd" />
+    <MetadataFile FileName="SubjectPropState.xsd" MetadataType="Schema" ID="73b2d725-6434-4e01-a978-3419e4c4d482" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectPropState.xsd" />
+    <MetadataFile FileName="Address.xsd" MetadataType="Schema" ID="70637618-c9af-41a7-bfdd-cd894604d0af" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/Address.xsd" />
+    <MetadataFile FileName="SubjectPropScopeOfActivity.xsd" MetadataType="Schema" ID="8f675a8c-b6c4-408e-b499-cc45a2aee517" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectPropScopeOfActivity.xsd" />
+    <MetadataFile FileName="Entry.xsd" MetadataType="Schema" ID="ab3cea64-21a7-46c0-b6b2-f6c3eb7ba617" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/Entry.xsd" />
+    <MetadataFile FileName="SubjectPropAccountingRecordForm.xsd" MetadataType="Schema" ID="04097007-c0c1-4cd8-8860-5446b0a8eb7b" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectPropAccountingRecordForm.xsd" />
+    <MetadataFile FileName="Nomenclatures.xsd" MetadataType="Schema" ID="6c6676b9-f24b-4c98-a07f-2924b86d3589" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/Nomenclatures.xsd" />
+    <MetadataFile FileName="SubjectPropActivityKID2003.xsd" MetadataType="Schema" ID="d8027076-05a9-4735-bf8a-c399c78d61de" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectPropActivityKID2003.xsd" />
+    <MetadataFile FileName="NomenclatureEntry.xsd" MetadataType="Schema" ID="946bf468-9b7e-4e82-9bc0-5a04c60a9b3f" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/NomenclatureEntry.xsd" />
+    <MetadataFile FileName="SubjectPropProfession.xsd" MetadataType="Schema" ID="940b640d-2a56-447d-ab8d-0a11e541fd7a" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectPropProfession.xsd" />
+    <MetadataFile FileName="SubjectPropRepresentationType.xsd" MetadataType="Schema" ID="1bf517a1-8780-4d72-abb1-48940ba61b50" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectPropRepresentationType.xsd" />
+    <MetadataFile FileName="StateOfPlayService.xsd" MetadataType="Schema" ID="5568ec65-f37e-4f13-bb14-a35189872367" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/StateOfPlayService.xsd" />
+    <MetadataFile FileName="UIC.xsd" MetadataType="Schema" ID="b208d995-1227-4553-99ac-053bfba1899d" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/UIC.xsd" />
+    <MetadataFile FileName="SubjectRelManager.xsd" MetadataType="Schema" ID="37616563-bd23-4d05-8e53-23b703c5d01d" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectRelManager.xsd" />
+    <MetadataFile FileName="Document.xsd" MetadataType="Schema" ID="ea4c79b0-d375-464b-a82e-252fad920632" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/Document.xsd" />
+    <MetadataFile FileName="SubjectRelAssignee.xsd" MetadataType="Schema" ID="fbe58655-abb5-4f0b-8bd6-8c3cda28b957" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectRelAssignee.xsd" />
+    <MetadataFile FileName="SubjectPropInstallments.xsd" MetadataType="Schema" ID="9aee0b09-48a9-4313-9567-90461cfca95a" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectPropInstallments.xsd" />
+    <MetadataFile FileName="Subject.xsd" MetadataType="Schema" ID="4c166ca1-915f-449c-b7d9-4d5138a7bcef" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/Subject.xsd" />
+    <MetadataFile FileName="WSException.xsd" MetadataType="Schema" ID="c4d2267f-e3dd-4711-9173-ba8f1c095330" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/WSException.xsd" />
+    <MetadataFile FileName="SubjectPropLifeTime.xsd" MetadataType="Schema" ID="8c00daa5-46cd-42b3-a6f8-c63e6086f3ea" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectPropLifeTime.xsd" />
+    <MetadataFile FileName="Event.xsd" MetadataType="Schema" ID="2b0625f7-5002-4a5a-854c-1affeeb17ae2" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/Event.xsd" />
+    <MetadataFile FileName="SubjectPropFundingSource.xsd" MetadataType="Schema" ID="86361305-54a0-40fe-b06d-804f51d43992" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectPropFundingSource.xsd" />
+    <MetadataFile FileName="NaturalPerson.xsd" MetadataType="Schema" ID="94b5ebbe-4721-444e-b2f2-b8696e82c511" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/NaturalPerson.xsd" />
+    <MetadataFile FileName="SubjectRelCollectiveBodyMember.xsd" MetadataType="Schema" ID="cf870d1d-7eb6-4f9c-9969-9de926ad9e2b" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectRelCollectiveBodyMember.xsd" />
+    <MetadataFile FileName="SubjectRelBelonging.xsd" MetadataType="Schema" ID="a01ed4fa-f158-4045-aca6-f283bc95c1bd" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectRelBelonging.xsd" />
+    <MetadataFile FileName="SubscriptionElement.xsd" MetadataType="Schema" ID="d27c3e42-aa1f-4da2-87ed-fe3417cd0af6" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubscriptionElement.xsd" />
+    <MetadataFile FileName="LegalEntity.xsd" MetadataType="Schema" ID="5adbe8ec-bd2b-4f2e-b928-f1494f2082f1" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/LegalEntity.xsd" />
+    <MetadataFile FileName="StateOfPlayService.wsdl" MetadataType="Wsdl" ID="fff79924-cdcd-4383-9b4b-dfd049e194e9" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/StateOfPlayService.wsdl" />
+    <MetadataFile FileName="GetStateOfPlayRequest.xsd" MetadataType="Schema" ID="1eb9c175-4a5d-4cab-8822-0d5f25d65fe4" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/GetStateOfPlayRequest.xsd" />
+    <MetadataFile FileName="MetaDefinition.xsd" MetadataType="Schema" ID="02334a9a-88e8-43b3-a25d-a3f8dcc7d065" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/MetaDefinition.xsd" />
+    <MetadataFile FileName="StateOfPlay.xsd" MetadataType="Schema" ID="4b65869a-5cda-46e4-a509-d59dc72a3369" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/StateOfPlay.xsd" />
+    <MetadataFile FileName="SubjectPropOwnershipForm.xsd" MetadataType="Schema" ID="699e84a5-70ea-46f3-91a1-1254eb49290a" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectPropOwnershipForm.xsd" />
+    <MetadataFile FileName="SubjectRelPartner.xsd" MetadataType="Schema" ID="9e2b00cb-268c-4dfc-a237-609816db7f55" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectRelPartner.xsd" />
+    <MetadataFile FileName="Communication.xsd" MetadataType="Schema" ID="c5599572-6d59-4513-ac1e-6e4e44ac5706" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/Communication.xsd" />
+    <MetadataFile FileName="SubjectPropActivityDate.xsd" MetadataType="Schema" ID="71608f32-ba03-442d-97be-2bb132581f64" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectPropActivityDate.xsd" />
+    <MetadataFile FileName="SubjectPropCollectiveBody.xsd" MetadataType="Schema" ID="7ccc94a7-eabc-4e7d-a45e-e83e2183ef45" SourceId="1" SourceUrl="file:///D:/Projects/eGov/RegiX/RegiX.AVBulstat2Adapter/XMLSchemas/SubjectPropCollectiveBody.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

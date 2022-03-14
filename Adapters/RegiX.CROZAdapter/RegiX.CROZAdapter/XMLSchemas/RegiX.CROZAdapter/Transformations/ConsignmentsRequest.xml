@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConsignmentsRequest xmlns="http://egov.bg/RegiX/CROZ/CROZ/ConsignmentsRequest">
+  <ParticipantID>284</ParticipantID>
+  <DateFrom>2000-01-01</DateFrom>
+  <DateTo>2013-01-01</DateTo>
+</ConsignmentsRequest>

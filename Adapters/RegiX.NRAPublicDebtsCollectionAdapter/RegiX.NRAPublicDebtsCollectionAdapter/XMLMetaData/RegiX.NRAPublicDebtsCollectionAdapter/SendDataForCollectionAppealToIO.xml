@@ -1,0 +1,153 @@
+<!--RQ04-->
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.NRAPublicDebtsCollectionAdapter.APIService.INRAPublicDebtsCollectionAPI.SendDataForCollectionAppealToIO</OperationName>
+  <Code>SendDataForCollectionAppealToIO</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>SendDataForCollectionAppealToIORequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForCollectionAppealToIORequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Предаване на информация за обжалване на вземане към ИО при взискател/актосъставител</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Collection</ParameterName>
+        <ParameterLabel>Вземане</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>Complex</Type>
+          <EnumValues/>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>ActIssurerID</ParameterName>
+            <ParameterLabel>ID на взискател/актосъставител</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>1</OrderNumber>
+
+            <ParameterType>
+              <Type>long</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SubdivisionID</ParameterName>
+            <ParameterLabel>ID на подразделение</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>2</OrderNumber>
+
+            <ParameterType>
+              <Type>long</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>CollectibleID</ParameterName>
+            <ParameterLabel>ID на вземане</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>3</OrderNumber>
+
+            <ParameterType>
+              <Type>long</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SubdivisionEIK</ParameterName>
+            <ParameterLabel>Идентификатор на взискател/актосъставител</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>4</OrderNumber>
+
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>AppealDocNo</ParameterName>
+            <ParameterLabel>Номер на документ за започване/край на обжалване</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>5</OrderNumber>
+
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>AppealDocDate</ParameterName>
+            <ParameterLabel>Дата на документ за започване/край на обжалване</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>6</OrderNumber>
+
+            <ParameterType>
+              <Type>Date</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>AppealStatus</ParameterName>
+            <ParameterLabel>Статус на обжалване</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>7</OrderNumber>
+
+            <ParameterType>
+              <Type>int</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>AppealDate</ParameterName>
+            <ParameterLabel>Статус на обжалване</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>8</OrderNumber>
+
+            <ParameterType>
+              <Type>Date</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>EnforcementDate</ParameterName>
+            <ParameterLabel>Статус на обжалване</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>9</OrderNumber>
+
+            <ParameterType>
+              <Type>Date</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+      </ChildParamteters>
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

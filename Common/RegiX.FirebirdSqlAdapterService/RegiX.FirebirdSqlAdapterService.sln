@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.FirebirdSqlAdapterService", "RegiX.FirebirdSqlAdapterService\RegiX.FirebirdSqlAdapterService.csproj", "{5B9F1FFA-18FC-488F-AAAA-FDF5E6FC9081}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8DEAF3FE-A7DA-4785-8BE3-A0DAC23D240D}"
+	ProjectSection(SolutionItems) = preProject
+		azure-devops.yaml = azure-devops.yaml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B9F1FFA-18FC-488F-AAAA-FDF5E6FC9081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B9F1FFA-18FC-488F-AAAA-FDF5E6FC9081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B9F1FFA-18FC-488F-AAAA-FDF5E6FC9081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B9F1FFA-18FC-488F-AAAA-FDF5E6FC9081}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8824C74-5CFC-4B4D-81F0-E17A3D013500}
+	EndGlobalSection
+EndGlobal

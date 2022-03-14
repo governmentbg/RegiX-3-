@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.CPCProcurementDossierAdapter.Mocks</RootNamespace>
+    <Authors>Miroslav Marinov</Authors>
+    <Company>TechnoLogica</Company>
+    <Description>Mocks for CPCProcurementDossierAdapter</Description>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <Content Include="XMLData\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  
+    <ItemGroup>
+    <None Remove="XMLData\RegiX.CPCProcurementDossierAdapter.Mocks\ICPCProcurementDossierAdapter.GetProcurementDossier.response.xml" />
+  </ItemGroup>
+
+  
+  <ItemGroup>
+    <Folder Include="XMLData\RegiX.CPCProcurementDossierAdapter.Mocks\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.Adapters.Mocks" Version="1.0.43" />
+  </ItemGroup>
+  
+    <ItemGroup>
+    <ProjectReference Include="..\RegiX.CPCProcurementDossierAdapter\RegiX.CPCProcurementDossierAdapter.csproj" />
+  </ItemGroup>
+  
+
+</Project>

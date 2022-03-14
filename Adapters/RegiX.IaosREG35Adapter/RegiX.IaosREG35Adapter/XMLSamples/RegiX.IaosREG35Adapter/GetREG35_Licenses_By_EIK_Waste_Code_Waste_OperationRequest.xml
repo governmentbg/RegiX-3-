@@ -1,0 +1,5 @@
+<REG35_Licenses_By_EIK_Waste_Code_Waste_Operation_Request xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://egov.bg/RegiX/IAOS/REG35/LicensesByEIKWasteCodeWasteOperationRequest">
+  <EIK>0000018509</EIK>
+  <WasteCode>123</WasteCode>
+  <WasteOperation>123</WasteOperation>
+</REG35_Licenses_By_EIK_Waste_Code_Waste_Operation_Request>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectCategoryByEIKRequest xsi:schemaLocation="http://egov.bg/RegiX/MT/ObjectCategoryByEIKRequest TOTA_REG_CATEGORY_By_EIK_Request.xsd" xmlns="http://egov.bg/RegiX/MT/ObjectCategoryByEIKRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<EIK>String</EIK>
+</ObjectCategoryByEIKRequest>

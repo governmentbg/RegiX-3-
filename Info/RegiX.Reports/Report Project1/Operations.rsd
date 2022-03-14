@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet2">
+    <Query>
+      <DataSourceReference>regix2</DataSourceReference>
+      <CommandText>DECLARE @Names VARCHAR(Max) SELECT        @Names = COALESCE (@Names + ', ', '') + REGISTER_OBJECT_ELEMENTS.NAME
+                                                                              FROM            ADAPTER_OPERATIONS INNER JOIN
+                                                                                                       REGISTER_ADAPTERS ON ADAPTER_OPERATIONS.REGISTER_ADAPTER_ID = REGISTER_ADAPTERS.REGISTER_ADAPTER_ID INNER JOIN
+                                                                                                       REGISTERS ON REGISTER_ADAPTERS.REGISTER_ID = REGISTERS.REGISTER_ID INNER JOIN
+                                                                                                       ADMINISTRATIONS ON REGISTERS.ADMINISTRATION_ID = ADMINISTRATIONS.ADMINISTRATION_ID INNER JOIN
+                                                                                                       CONSUMER_ACCESS_REQUESTS ON ADAPTER_OPERATIONS.ADAPTER_OPERATION_ID = CONSUMER_ACCESS_REQUESTS.ADAPTER_OPERATION_ID INNER JOIN
+                                                                                                       CONSUMER_REQUEST_ELEMENTS ON 
+                                                                                                       CONSUMER_ACCESS_REQUESTS.CONSUMER_ACCESS_REQUEST_ID = CONSUMER_REQUEST_ELEMENTS.CONSUMER_ACCESS_REQUEST_ID INNER JOIN
+                                                                                                       REGISTER_OBJECT_ELEMENTS ON CONSUMER_REQUEST_ELEMENTS.REGISTER_OBJECT_ELEMENT_ID = REGISTER_OBJECT_ELEMENTS.REGISTER_OBJECT_ELEMENT_ID
+                                                                                                           SELECT        @Names</CommandText>
+      <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+    </Query>
+    <Fields>
+      <Field Name="ID">
+        <DataField />
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

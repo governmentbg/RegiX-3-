@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetHospitalSheetsDataResponse" type="GetHospitalSheetsDataResponseType">
+		<xs:annotation>
+			<xs:documentation>Справка за постъпили данни от издадени/ анулирани болнични листове по ЕГН/ ЛНЧ</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="TitleType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="Name" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на справка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EGN" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="FlagEGN" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Тип на идентификатор</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NamesEGN" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Имена на човекът, за когото се отнася справката</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ReportDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата, към която се извършва справката</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ePatChartType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="IssuedHospitalSheetNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Издаден болничен лист №</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TemporaryDisibilityReason" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Причина за временна неработоспособност</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="VacationFromDate" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>В отпуск от</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="VacationToDate" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>В отпуск до</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CanceledHospitalSheetNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Анулиран болничен лист №</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="HospitalSheetIssueDate" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на издаване на болничен лист</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MedicalCentreName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на лечебно заведение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SysDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на постъпване на данните в ЕРБЛРО</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="HospitalSheetOperation" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид на операция</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ePatChartsType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="ePatChart" type="ePatChartType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Информация за болничен лист</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GetHospitalSheetsDataResponseType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="Title" type="TitleType" minOccurs="0"/>
+			<xs:element name="ePatCharts" type="ePatChartsType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Информация за болнични листове</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

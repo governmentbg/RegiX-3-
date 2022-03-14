@@ -1,0 +1,119 @@
+<tl-wrapping-card
+  [fabAction]="routes.SYSTEM_NEW"
+  [title]="routes.SYSTEMS.title"
+  [icon]="routes.SYSTEMS.icon">
+  <tl-linear-progress
+    [visible]="this.remoteService.isLoading"
+  ></tl-linear-progress>
+  <igx-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    (onSortingDone)="sortingDone($event)"
+    (onFilteringDone)="filteringDone($event)"
+    (onSelection)="cellSelection($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+    <igx-column
+      field="name"
+      header="Име"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="description"
+      header="Описание"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="staticIP"
+      header="Статично IP"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      header="Действия"
+      [sortable]="false"
+      width="150px"
+      [filterable]="false"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          igxLayout
+          igxLayoutDir="row"
+          igxLayoutJustify="center"
+          class="action-buttons-wrapper"
+        >
+        <tl-reference-button
+            [routeReference]="this.routes.CERTIFICATES"
+            [routeArguments]="{ ':SYS_ID': cell.rowData.id }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+          <tl-reference-button
+            [routeReference]="this.routes.REQUESTS"
+            [routeArguments]="{ ':SYS_ID': cell.rowData.id }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+          <tl-reference-button
+            [routeReference]="this.routes.SYSTEM_SHOW"
+            [routeArguments]="{ ':ID': cell.rowData.id }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+          <!-- <tl-reference-button
+            [routeReference]="this.routes.SYSTEM_EDIT"
+            [routeArguments]="{ ':ID': cell.rowData.id }"
+            buttonType="action-button"
+          >
+          </tl-reference-button> -->
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-grid>
+      <div class="tl-paginator">
+        <tl-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+  </igx-grid>
+</tl-wrapping-card>
+
+<igx-dialog
+  #dialog
+  title="Изтриване на консуматор?"
+  message="Сигурни ли сте, че искате да изтриете избрания консуматор?"
+>
+  <div igxDialogActions class="dialog-container dialog-actions">
+    <button igxButton (click)="onDeleteCanceled()">НЕ</button>
+    <button igxButton="raised" (click)="onDeleteConfirmed()">ДА</button>
+  </div>
+</igx-dialog>

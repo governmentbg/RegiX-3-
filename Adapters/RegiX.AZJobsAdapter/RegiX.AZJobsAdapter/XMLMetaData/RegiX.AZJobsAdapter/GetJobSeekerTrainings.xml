@@ -1,0 +1,26 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.AZJobsAdapter.APIService.IAZJobsAPI.GetJobSeekerTrainings</OperationName>
+  <Code>GetJobSeekerTrainings</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>JobSeekerTrainingsRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/AZ/JobSeekerTrainingsRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка по ЕГН/ЛНЧ за обучения на търсещо работа лице</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>PersonalID</ParameterName>
+        <ParameterLabel>Идентификатор на лице - ЕГН/ЛНЧ</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <IdentifierType>3</IdentifierType>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

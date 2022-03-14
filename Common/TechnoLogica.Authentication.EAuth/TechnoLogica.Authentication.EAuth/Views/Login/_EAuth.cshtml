@@ -1,0 +1,25 @@
+﻿@model TechnoLogica.Authentication.Common.ExternalProviderViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+    <li>
+        <form id="@Model.AuthenticationScheme"
+              asp-controller="EAuthCall"
+              asp-action="Post"
+              method="post"
+              asp-antiforgery="false"
+              asp-route-returnUrl="@Model.ReturnUrl">
+        </form>
+        <button class="btn btn-default"
+                type="submit"
+                id="btn_@Model.AuthenticationScheme"
+                form="@Model.AuthenticationScheme">
+            @Model.DisplayName
+        </button>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('button[id=\'btn_@Model.AuthenticationScheme\']').on('click', function() {
+                    $("form[id='@Model.AuthenticationScheme']").submit();
+                });
+            });
+        </script>
+    </li>

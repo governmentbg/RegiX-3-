@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.IAMAVesselsAdapter.APIService.IVesselsAPI.GetNomenclatures</OperationName>
+  <Code>GetNomenclatures</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>NomenclaturesRequest</RequestObjectName>
+  <Namespace>http://marad.bg/</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Номенклатури за характеристики на кораб</DisplayOperationName>
+  <!-- <Parameters> -->
+  <!-- <Parameter> -->
+  <!-- <ParameterInfo> -->
+  <!-- <ParameterName>Identifier</ParameterName> -->
+  <!-- <ParameterLabel>Първите 6 символа на идентификатора, като справката връща всички резултати, за които полето ЕИК, ЕГН, БУЛСТАТ, ЛНЧ съдържа тези 6 символа</ParameterLabel> -->
+  <!-- <IsRequired>true</IsRequired> -->
+  <!-- <IsXmlElement>true</IsXmlElement> -->
+  <!-- <OrderNumber>0</OrderNumber> -->
+  <!-- <ParameterType> -->
+  <!-- <Type>string</Type> -->
+  <!-- <EnumValues /> -->
+  <!-- </ParameterType> -->
+  <!-- </ParameterInfo> -->
+  <!-- <ChildParamteters /> -->
+  <!-- </Parameter> -->
+  <!-- </Parameters> -->
+</AdapterOperation>

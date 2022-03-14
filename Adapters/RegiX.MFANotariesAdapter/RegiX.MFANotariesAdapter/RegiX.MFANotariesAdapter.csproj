@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.MFANotariesAdapter</RootNamespace>
+    <Authors>Miroslav Marinov</Authors>
+    <Company>TechnoLogica</Company>
+    <Description>Description for MFANotariesAdapter</Description>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="XMLSamples\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLSchemas\*\Transformations\*.xslt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLSchemas\*\*.xsd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLMetaData\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="XMLMetaData\RegiX.MFANotariesAdapter\SendNotaryDocuments.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="XMLSamples\RegiX.MFANotariesAdapter\" />
+    <Folder Include="XMLSchemas\RegiX.MFANotariesAdapter\Transformations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.NpgsqlAdapterService" Version="1.0.30" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="XMLSchemas\RegiX.MFANotariesAdapter\SendNotaryDocumentsRequest.xsd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PastureMeadowLandResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ExtensionData />
+	<BeneficiaryIdentifier>9999999999999</BeneficiaryIdentifier>
+	<BeneficiaryName>WWWWMWWWW1WWWWMWWWW2WWWWMWWWW3WWWWMWWWW4</BeneficiaryName>
+	<BeneficiaryType>Гражданин</BeneficiaryType>
+	<PastureLands>
+		<PastureMeadowLandData>
+			<ExtensionData />
+			<District>ВЕЛИКО ТЪРНОВО</District>
+			<Municipality>ВЕЛИКО ТЪРНОВО</Municipality>
+			<Territory>с. ГОРСКИ ГОРЕН ТРЪМБЕШ</Territory>
+			<Acreage>5</Acreage>
+			<ReportDate>2015-02-02</ReportDate>
+		</PastureMeadowLandData>
+	</PastureLands>
+</PastureMeadowLandResponse>

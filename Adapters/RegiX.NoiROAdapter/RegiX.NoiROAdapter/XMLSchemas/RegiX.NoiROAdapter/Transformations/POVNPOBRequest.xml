@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POVNPOBRequest xsi:schemaLocation="http://egov.bg/RegiX/NOI/RO/POVNPOBRequest POVNPOBRequest.xsd" xmlns="http://egov.bg/RegiX/NOI/RO/POVNPOBRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Identifier>1111111110</Identifier>
+	<IdentifierType>ЕГН</IdentifierType>
+	<DateFrom>2015-09-13</DateFrom>
+	<DateTo>2015-10-12</DateTo>
+</POVNPOBRequest>

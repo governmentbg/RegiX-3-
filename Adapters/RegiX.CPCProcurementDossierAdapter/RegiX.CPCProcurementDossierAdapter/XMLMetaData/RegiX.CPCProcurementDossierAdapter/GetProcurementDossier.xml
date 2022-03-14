@@ -1,0 +1,25 @@
+﻿<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.CPCProcurementDossier.APIService.ICPCProcurementDossierAPI.GetProcurementDossier</OperationName>
+  <Code>GetProcurementDossier</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>GetProcurementDossierRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/CPC/ProcurementDossier/GetProcurementDossierRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за жалби по ЗОП</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>ProcurementNumber</ParameterName>
+        <ParameterLabel>Уникален номер на поръчка в РОП</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

@@ -1,0 +1,106 @@
+<tl-wrapping-card
+  [title]="routes.RETURNED_CALLS.title"
+  [icon]="routes.RETURNED_CALLS.icon"
+>
+  <tl-linear-progress
+    [visible]="this.remoteService.isLoading"
+  ></tl-linear-progress>
+
+  <igx-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    (onSortingDone)="sortingDone($event)"
+    (onFilteringDone)="filteringDone($event)"
+    (onSelection)="cellSelection($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+  <igx-column
+  field="adapterOperation"
+  header="Име на услугата"
+  title="test"
+  [sortable]="true"
+  [dataType]="'string'"
+  [formatter]="displayValueService.formatDisplayValue"
+  [filters]="displayValueFilteringOperand"
+>
+</igx-column>
+
+    <igx-column
+      field="startTime"
+      header="Дата"
+      [sortable]="true"
+      [dataType]="'date'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span
+          title="{{ cell.value | date: 'dd.MM.yyyy HH:mm:ss' }}"
+          class="text-ellipsis"
+          >{{ cell.value | date: "dd.MM.yyyy HH:mm:ss" }}
+        </span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+  field="returnedBy"
+  header="Съставено от"
+  [sortable]="true"
+  [dataType]="'string'"
+  [formatter]="displayValueService.formatDisplayValue"
+  [filters]="displayValueFilteringOperand"
+>
+</igx-column>
+
+    <!-- buttons -->
+    <igx-column
+      header="Действия"
+      [sortable]="false"
+      width="150px"
+      [filterable]="false"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          igxLayout
+          igxLayoutDir="row"
+          igxLayoutJustify="center"
+          class="action-buttons-wrapper"
+        >
+          <tl-reference-button
+            [routeReference]="this.routes.RETURNED_CALL"
+            [routeArguments]="{ ':ID': cell.rowData.id }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-grid>
+      <div class="tl-paginator">
+        <tl-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+  </igx-grid>
+</tl-wrapping-card>
+
+<igx-dialog
+  #dialog
+  title="Изтриване на услуга?"
+  message="Сигурни ли сте, че искате да изтриете избраната услуга?"
+>
+  <div igxDialogActions class="dialog-container dialog-actions">
+    <button igxButton (click)="onDeleteCanceled()">НЕ</button>
+    <button igxButton="raised" (click)="onDeleteConfirmed()">ДА</button>
+  </div>
+</igx-dialog>

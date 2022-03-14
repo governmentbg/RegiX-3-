@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NHIF/Request" xmlns:common="http://egov.bg/RegiX/NHIF/NHIFCommon" targetNamespace="http://egov.bg/RegiX/NHIF/Request" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/NHIF/NHIFCommon" schemaLocation="NHIFCommon.xsd"/>
+	<xs:element name="ReportExamsRequest">
+		<xs:annotation>
+			<xs:documentation>Входни данни на справка за извършените прегледи на пациент</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Identifier" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>Идентификатор на пациент</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="IdentifierType" type="common:IdentifierType">
+					<xs:annotation>
+						<xs:documentation>Тип на идентификатор</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

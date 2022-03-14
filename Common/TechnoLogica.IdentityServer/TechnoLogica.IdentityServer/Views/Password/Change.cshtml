@@ -1,0 +1,48 @@
+@model ChangePasswordModel
+
+<div class="login-form-wrapper">
+    <div class="login-form">
+        <div class="inner-wrapper">
+
+            <partial name="_ValidationSummary" />
+
+            <div class="row">
+                <div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Промяна на парола</h3>
+                        </div>
+                        <div class="panel-body">
+
+                            <form asp-route="Login">
+                                <input type="hidden" asp-for="ReturnUrl" />
+
+                                <fieldset>
+                                    <div class="form-group">
+                                        <label asp-for="OldPassword">Стара парола</label>
+                                        <input type="password" class="form-control" placeholder="Стара парола" asp-for="OldPassword" autocomplete="off">
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="Password">Нова парола</label>
+                                        <input type="password" class="form-control" placeholder="Нова парола" asp-for="Password" autocomplete="off">
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="NewPassword">Потвърди нова парола</label>
+                                        <input type="password" class="form-control" placeholder="Потвърди нова парола" asp-for="NewPassword" autocomplete="off">
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn btn-primary" name="button" value="change">Промяна</button>
+                                        <button class="btn btn-default" name="button" value="cancel">Отказ</button>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="login-form-logo">
+        <img class="img-logo-right" src="~/logoRight.png" alt="Logo">
+    </div>
+</div>

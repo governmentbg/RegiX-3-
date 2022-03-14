@@ -1,0 +1,39 @@
+﻿<GetBenefitsForHeatingResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/ASP/BenefitsForHeating/GetBenefitsForHeatingResponse">
+	<CurrentTime>2016-08-29T11:41:34.4857068+03:00</CurrentTime>
+	<PersonData>
+		<FirstName xmlns="http://egov.bg/RegiX/ASP/Common">Иван</FirstName>
+		<MiddleName xmlns="http://egov.bg/RegiX/ASP/Common">Иванов</MiddleName>
+		<LastName xmlns="http://egov.bg/RegiX/ASP/Common">Маринов</LastName>
+		<BirthDatе xmlns="http://egov.bg/RegiX/ASP/Common">1955-09-22</BirthDatе>
+		<Gender xmlns="http://egov.bg/RegiX/ASP/Common">
+			<GenderName>Мъж</GenderName>
+			<GenderCode>M</GenderCode>
+		</Gender>
+		<Identifier xmlns="http://egov.bg/RegiX/ASP/Common">9901010101</Identifier>
+		<IdentifierType xmlns="http://egov.bg/RegiX/ASP/Common">EGN</IdentifierType>
+	</PersonData>
+	<DecisionData>
+		<Details xmlns="http://egov.bg/RegiX/ASP/Common">
+			<DecisionNumber>D_BH/332347/24.07.2015</DecisionNumber>
+			<Date>2015-07-20</Date>
+			<OrganizationUnitCode>D_BH</OrganizationUnitCode>
+			<OrganizationUnitName>Дирекция "Социално подпомагане"- Видин</OrganizationUnitName>
+		</Details>
+		<RequestEndDate xmlns="http://egov.bg/RegiX/ASP/Common">2015-12-01</RequestEndDate>
+		<IsArchivedRequest xmlns="http://egov.bg/RegiX/ASP/Common">true</IsArchivedRequest>
+		<LegalGroundCode xmlns="http://egov.bg/RegiX/ASP/Common">ZSP07</LegalGroundCode>
+		<LegalGroundName xmlns="http://egov.bg/RegiX/ASP/Common">Наредба РД-07-5 Целева помощ за отопление</LegalGroundName>
+	</DecisionData>
+	<DecisionData>
+		<Details xmlns="http://egov.bg/RegiX/ASP/Common">
+			<DecisionNumber>D_BH/332347/24.07.2015</DecisionNumber>
+			<Date>2015-07-21</Date>
+			<OrganizationUnitCode>D_BH</OrganizationUnitCode>
+			<OrganizationUnitName>Дирекция "Социално подпомагане"- Видин</OrganizationUnitName>
+		</Details>
+		<RequestEndDate xmlns="http://egov.bg/RegiX/ASP/Common">2015-12-02</RequestEndDate>
+		<IsArchivedRequest xmlns="http://egov.bg/RegiX/ASP/Common">false</IsArchivedRequest>
+		<LegalGroundCode xmlns="http://egov.bg/RegiX/ASP/Common">ZSP07</LegalGroundCode>
+		<LegalGroundName xmlns="http://egov.bg/RegiX/ASP/Common">Наредба РД-07-5 Целева помощ за отопление</LegalGroundName>
+	</DecisionData>
+</GetBenefitsForHeatingResponse>

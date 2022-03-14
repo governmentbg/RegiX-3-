@@ -1,0 +1,6 @@
+{
+  "/RegiX.IdentityServer": {
+    "target": "http://172.16.69.13:8090",
+    "secure": false
+  }
+}

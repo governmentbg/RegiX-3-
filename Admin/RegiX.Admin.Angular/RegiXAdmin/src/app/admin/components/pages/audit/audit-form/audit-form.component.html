@@ -1,0 +1,183 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <form [formGroup]="formGroup" (submit)="onSubmit($event)">
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="id"
+              type="text"
+              formControlName="id"
+              tlFormGroupRef
+            />
+            <label igxLabel for="id">Идентификатор</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="userName"
+              type="text"
+              formControlName="userName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="userName">Потребител</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="auditDate"
+              type="text"
+              formControlName="auditDate"
+              tlFormGroupRef
+            />
+            <label igxLabel for="auditDate">Дата на промяна</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="action"
+              type="text"
+              formControlName="action"
+              tlFormGroupRef
+            />
+            <label igxLabel for="action">Действие</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="tableName"
+              type="text"
+              formControlName="tableName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="tableName">Таблица</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="ipAddress"
+              type="text"
+              formControlName="ipAddress"
+              tlFormGroupRef
+            />
+            <label igxLabel for="ipAddress">IP Адрес</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="appName"
+              type="text"
+              formControlName="appName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="appName">Приложение</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="description"
+              type="text"
+              formControlName="description"
+              tlFormGroupRef
+            />
+            <label igxLabel for="description">Описание</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="table-title-wrapper">
+        <h6>История на промяна</h6>
+      </div>
+      <igx-grid
+        #grid
+        [data]="formObject.auditValues"
+        [paging]="true"
+        [height]="null"
+        width="100%"
+        [displayDensity]="'cosy'"
+        [paginationTemplate]="pager"
+        [allowFiltering]="true"
+      >
+        <igx-column
+          field="columnName"
+          header="Колона"
+          dataType="string"
+          width="20%"
+        ></igx-column>
+        <igx-column
+          field="oldValue"
+          header="Стара стойност"
+          dataType="string"
+        ></igx-column>
+        <igx-column
+          field="newValue"
+          header="Нова стойност"
+          dataType="string"
+        ></igx-column>
+      </igx-grid>
+
+      <ng-template igxCell let-cell="cell">
+        <span class="text-ellipsis">{{ cell }}</span>
+      </ng-template>
+    </form>
+  </div>
+
+  <ng-template #pager let-api>
+    <div class="tl-paginator">
+      <tl-grid-pager
+        [page]="0"
+        [perPage]="15"
+        [totalCount]="formObject.auditValues.length"
+        (pagerChange)="pagerChange($event)"
+      ></tl-grid-pager>
+    </div>
+  </ng-template>
+</tl-basic-form>

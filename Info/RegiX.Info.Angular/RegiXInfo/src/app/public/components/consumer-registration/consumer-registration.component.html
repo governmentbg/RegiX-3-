@@ -1,0 +1,262 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <div *ngIf="isDataLoading">
+      <div>
+        <igx-circular-bar
+          [animate]="true"
+          [indeterminate]="true"
+          [textVisibility]="true"
+        ></igx-circular-bar>
+      </div>
+    </div>
+    <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isDataLoaded && !isDataLoading"
+    >
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <div igxLayout igxLayoutDir="row" igxLayoutWrap="wrap">
+            <div igxFlex igxFlexGrow="1">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="name"
+                  type="text"
+                  formControlName="name"
+                  tlFormGroupRef
+                />
+                <label igxLabel for="name">Име</label>
+              </igx-input-group>
+            </div>
+
+            <div igxFlex igxFlexGrow="0" style="margin-left: 2rem">
+              <igx-select
+                #selectType
+                name="identifierType"
+                formControlName="identifierType"
+                tlFormGroupRef
+              >
+                <igx-select-item
+                  *ngFor="let identifierType of identifierTypes"
+                  [value]="identifierType.value"
+                >
+                  {{ identifierType.name }}
+                </igx-select-item>
+                <label igxLabel for="authority">Тип идентификатор</label>
+              </igx-select>
+            </div>
+
+            <div>
+              <tl-form-group>
+                <div igxFlex igxFlexGrow="0" style="margin-left: 1rem">
+                  <igx-input-group>
+                    <input
+                      class="form-input"
+                      igxInput
+                      name="identifier"
+                      type="text"
+                      formControlName="identifier"
+                      tlFormGroupRef
+                    />
+                    <label igxLabel for="identifier">{{
+                      "Идентификатор"
+                    }}</label>
+                  </igx-input-group>
+                </div>
+              </tl-form-group>
+            </div>
+          </div>
+
+          <div igxLayout igxLayoutDir="row" igxLayoutWrap="wrap">
+            <div igxFlex igxFlexGrow="1">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="address"
+                  type="text"
+                  formControlName="address"
+                  tlFormGroupRef
+                />
+                <label igxLabel for="address">Адрес</label>
+              </igx-input-group>
+            </div>
+
+            <div igxFlex igxFlexGrow="0" style="margin-left: 2rem">
+              <igx-checkbox
+                class="form-input"
+                name="acceptedEULA"
+                formControlName="acceptedEULA"
+                class="input-group"
+              >
+                Приемам общите условия
+              </igx-checkbox>
+            </div>
+          </div>
+
+          <div
+            style="margin-left: -0.5rem; margin-bottom: 1rem"
+            class="igx-card-header"
+          >
+            <div class="igx-card-header__thumbnail">
+              <igx-avatar roundShape="true">
+                <igx-icon>person</igx-icon>
+              </igx-avatar>
+            </div>
+            <div class="igx-card-header__titles">
+              <h3 class="igx-card-header__title">Представител</h3>
+            </div>
+          </div>
+
+          <div igxLayout igxLayoutDir="row" igxLayoutWrap="wrap">
+            <div igxFlex igxFlexGrow="1">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="consumerUserName"
+                  type="text"
+                  formControlName="consumerUserName"
+                  tlFormGroupRef
+                />
+                <label igxLabel for="consumerUserName">Имена</label>
+              </igx-input-group>
+            </div>
+            <div igxFlex igxFlexGrow="0" style="margin-left: 2rem">
+              <igx-select
+                #selectType
+                class="form-group-wrapper"
+                name="consumerUserIdentifierType"
+                formControlName="consumerUserIdentifierType"
+                tlFormGroupRef
+              >
+                <igx-select-item
+                  *ngFor="let identifierType of consumerUserIdentifierType"
+                  [value]="identifierType.value"
+                >
+                  {{ identifierType.name }}
+                </igx-select-item>
+                <label igxLabel for="consumerUserIdentifierType"
+                  >Тип идентификатор</label
+                >
+              </igx-select>
+            </div>
+
+            <div>
+              <tl-form-group>
+                <div igxFlex igxFlexGrow="0">
+                  <igx-input-group style="margin-left: 1rem">
+                    <input
+                      class="form-input"
+                      igxInput
+                      name="consumerUserIdentifier"
+                      type="text"
+                      formControlName="consumerUserIdentifier"
+                      tlFormGroupRef
+                    />
+                    <label igxLabel for="consumerUserIdentifier">{{
+                      "Идентификатор"
+                    }}</label>
+                  </igx-input-group>
+                </div>
+              </tl-form-group>
+            </div>
+          </div>
+
+          <igx-input-group class="input-group-local">
+            <input
+              class="form-input"
+              igxInput
+              name="position"
+              type="text"
+              formControlName="position"
+              tlFormGroupRef
+            />
+            <label igxLabel for="position">Позиция</label>
+          </igx-input-group>
+
+          <igx-input-group class="input-group-local">
+            <input
+              class="form-input"
+              igxInput
+              name="phoneNumber"
+              type="text"
+              formControlName="phoneNumber"
+              tlFormGroupRef
+            />
+            <label igxLabel for="phoneNumber">Телефон</label>
+          </igx-input-group>
+
+          <div class="input-group">
+            <tl-form-group class="form-group-wrapper">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="email"
+                  type="text"
+                  formControlName="email"
+                  tlFormGroupRef
+                />
+                <label igxLabel for="email">Електронна поща</label>
+              </igx-input-group>
+            </tl-form-group>
+          </div>
+
+          <!-- <igx-input-group class="input-group-local">
+            <input
+              class="form-input"
+              igxInput
+              name="password"
+              type="password"
+              formControlName="password"
+              tlFormGroupRef
+            />
+            <label igxLabel for="password">Парола</label>
+          </igx-input-group> -->
+
+          <!-- Add <tl-form-group class="form-group-wrapper"> if you want to show the error under the input field  -->
+          <div class="input-group">
+            <tl-form-group class="form-group-wrapper">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="password"
+                  type="password"
+                  formControlName="password"
+                  tlFormGroupRef
+                />
+                <label igxLabel for="password">Парола</label>
+              </igx-input-group>
+            </tl-form-group>
+          </div>
+
+          <div class="input-group">
+            <tl-form-group class="form-group-wrapper">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="passwordConfirm"
+                  type="password"
+                  formControlName="passwordConfirm"
+                  tlFormGroupRef
+                />
+                <label igxLabel for="passwordConfirm"
+                  >Потвърждение на парола</label
+                >
+              </igx-input-group>
+            </tl-form-group>
+          </div>
+        </tl-form-group>
+      </div>
+    </form>
+  </div>
+</tl-basic-form>

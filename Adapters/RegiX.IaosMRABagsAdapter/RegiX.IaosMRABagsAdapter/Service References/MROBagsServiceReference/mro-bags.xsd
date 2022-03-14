@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://egov.bg/RegiX/IAOS/MROBags" targetNamespace="http://egov.bg/RegiX/IAOS/MROBags" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="MRO_BAGS_Reg_Number_Date_Request" type="tns:MRO_BAGS_Reg_Number_Date_Request" />
+  <xs:element name="MRO_BAGS_Reg_Number_Date_Response" type="tns:mroBagsRegNumberDate" />
+  <xs:element name="MRO_BAGS_Reg_Number_Request" type="tns:MRO_BAGS_Reg_Number_Request" />
+  <xs:element name="MRO_BAGS_Reg_Number_Response" type="tns:mroBagsRegNumber" />
+  <xs:element name="MRO_BAGS_Validity_Check_Request" type="tns:MRO_BAGS_Validity_Check_Request" />
+  <xs:element name="MRO_BAGS_Validity_Check_Response" type="tns:mroBagsValidityCheck" />
+  <xs:element name="WebServiceException" type="tns:WebServiceException" />
+  <xs:element name="getRegNumberDateResponse" type="tns:getRegNumberDateResponse" />
+  <xs:element name="getRegNumberResponse" type="tns:getRegNumberResponse" />
+  <xs:element name="getValidityCheckResponse" type="tns:getValidityCheckResponse" />
+  <xs:complexType name="MRO_BAGS_Reg_Number_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="AuthNum" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRegNumberResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:MRO_BAGS_Reg_Number_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="mroBagsRegNumber">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="Authorization" type="tns:AuthorizationRegNum" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthorizationRegNum">
+    <xs:sequence>
+      <xs:element form="qualified" name="Address" type="xs:string" />
+      <xs:element form="qualified" name="CompanyName" type="xs:string" />
+      <xs:element form="qualified" name="DistName" type="xs:string" />
+      <xs:element form="qualified" name="EIK" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="FirstName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="LastName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="MidName" type="xs:string" />
+      <xs:element form="qualified" name="PopName" type="xs:string" />
+      <xs:element form="qualified" name="TerName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="WebServiceException">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="MRO_BAGS_Reg_Number_Date_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="DateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" form="qualified" name="EIK" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRegNumberDateResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:MRO_BAGS_Reg_Number_Date_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="mroBagsRegNumberDate">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="Authorization" type="tns:AuthorizationRegNumDate" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthorizationRegNumDate">
+    <xs:sequence>
+      <xs:element form="qualified" name="AuthNum" type="xs:string" />
+      <xs:element form="qualified" name="CompanyName" type="xs:string" />
+      <xs:element form="qualified" name="DateFrom" type="xs:dateTime" />
+      <xs:element form="qualified" name="DateTo" type="xs:dateTime" />
+      <xs:element form="qualified" name="State" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="MRO_BAGS_Validity_Check_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="EIK" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getValidityCheckResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:MRO_BAGS_Validity_Check_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="mroBagsValidityCheck">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="Authorization" type="tns:AuthorizationValidityCheck" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthorizationValidityCheck">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="Address" type="xs:string" />
+      <xs:element form="qualified" name="AuthNum" type="xs:string" />
+      <xs:element form="qualified" name="CompanyName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="DistName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="FirstName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="LastName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="MidName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="PopName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="TerName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

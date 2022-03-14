@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ncoocc="http://ereg.egov.bg/value/R-1045" xmlns:ncoosc="http://ereg.egov.bg/value/R-1049" xmlns:ncoogc="http://ereg.egov.bg/value/R-1053" xmlns:ncooigc="http://ereg.egov.bg/value/R-1057" xmlns:ncooeaqlc="http://ereg.egov.bg/value/R-1061" xmlns:ncoopc="http://ereg.egov.bg/value/R-1065" xmlns:ncoopn="http://ereg.egov.bg/value/R-1067" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:import namespace="http://ereg.egov.bg/value/R-1045" schemaLocation="R-1045_NationalClassificationOfOccupationsClassCode.xsd"/>
+  <xs:import namespace="http://ereg.egov.bg/value/R-1049" schemaLocation="R-1049_NationalClassificationOfOccupationsSubclassCode.xsd"/>
+  <xs:import namespace="http://ereg.egov.bg/value/R-1053" schemaLocation="R-1053_NationalClassificationOfOccupationsGroupCode.xsd"/>
+  <xs:import namespace="http://ereg.egov.bg/value/R-1057" schemaLocation="R-1057_NationalClassificationOfOccupationsIndividualGroupCode.xsd"/>
+  <xs:import namespace="http://ereg.egov.bg/value/R-1061" schemaLocation="R-1061_NationalClassificationOfOccupationsEducationalAndQualificationLevelCode.xsd"/>
+  <xs:import namespace="http://ereg.egov.bg/value/R-1065" schemaLocation="R-1065_NationalClassificationOfOccupationsPositionCode.xsd"/>
+  <xs:import namespace="http://ereg.egov.bg/value/R-1067" schemaLocation="R-1067_NationalClassificationOfOccupationsPositionName.xsd"/>
+  <xs:simpleType name="NKPDType">
+    <xs:annotation>
+      <xs:documentation>Тип</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="class"/>
+      <xs:enumeration value="subClass"/>
+      <xs:enumeration value="group"/>
+      <xs:enumeration value="individualGroup"/>
+      <xs:enumeration value="nkpd"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="Code">
+    <xs:annotation>
+      <xs:documentation>Код</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+    </xs:restriction>
+  </xs:simpleType>  
+  <xs:element name="NKPDs">
+    <xs:annotation>
+      <xs:documentation>Данни за национална класификация на професиите и длъжностите в Република България (НКПД)</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence >
+        <xs:element name="VersionName" type="xs:string">
+          <xs:annotation>
+            <xs:documentation>Наименование на версия</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element name="ValidDate" type ="xs:date">
+          <xs:annotation>
+            <xs:documentation>Дата на валидност</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element name="NKPD" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:documentation>Данни за запис от националната класификация на професиите и длъжностите в Република България (НКПД)</xs:documentation>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element name="Type" type="NKPDType" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Тип</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="Code" type="Code" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Код</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="Name" type="ncoopn:NationalClassificationOfOccupationsPositionName" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Наименование</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="ClassCode" type="ncoocc:NationalClassificationOfOccupationsClassCode" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Код на клас</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="SubclassCode" type="ncoosc:NationalClassificationOfOccupationsSubclassCode" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Код на подклас</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="GroupCode" type="ncoogc:NationalClassificationOfOccupationsGroupCode" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Код на група</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="IndividualGroupCode" type="ncooigc:NationalClassificationOfOccupationsIndividualGroupCode" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Код на единична група</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="EducationLevelCode" type="ncooeaqlc:NationalClassificationOfOccupationsEducationalAndQualificationLevelCode" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Код на образователно и квалификационно ниво</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

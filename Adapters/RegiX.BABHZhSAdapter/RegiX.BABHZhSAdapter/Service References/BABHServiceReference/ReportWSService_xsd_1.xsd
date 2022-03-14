@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://ws.nvms.indexbg.com/" targetNamespace="http://ws.nvms.indexbg.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="WebServiceException" nillable="true" type="tns:WSErrorBean" />
+  <xs:element name="getSpravkaJivotni" type="tns:getSpravkaJivotni" />
+  <xs:element name="getSpravkaJivotniResponse" type="tns:getSpravkaJivotniResponse" />
+  <xs:element name="getSpravkaMps" type="tns:getSpravkaMps" />
+  <xs:element name="getSpravkaMpsResponse" type="tns:getSpravkaMpsResponse" />
+  <xs:element name="getSpravkaZemProizv" type="tns:getSpravkaZemProizv" />
+  <xs:element name="getSpravkaZemProizvAllOez" type="tns:getSpravkaZemProizvAllOez" />
+  <xs:element name="getSpravkaZemProizvAllOezResponse" type="tns:getSpravkaZemProizvAllOezResponse" />
+  <xs:element name="getSpravkaZemProizvResponse" type="tns:getSpravkaZemProizvResponse" />
+  <xs:element name="getVersion" type="tns:getVersion" />
+  <xs:element name="getVersionResponse" type="tns:getVersionResponse" />
+  <xs:complexType name="getSpravkaZemProizv">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+      <xs:element minOccurs="0" name="arg1" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getSpravkaZemProizvResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:sprZemedelskiProizv" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sprZemedelskiProizv">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EGN" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="jivObList" nillable="true" type="tns:jivObektSprZem" />
+      <xs:element minOccurs="0" name="name" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="jivObektSprZem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="licaList" nillable="true" type="tns:liceOb" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="markiList" nillable="true" type="tns:markiKatAnimals" />
+      <xs:element minOccurs="0" name="mestoOb" type="xs:string" />
+      <xs:element minOccurs="0" name="nomerOb" type="xs:string" />
+      <xs:element minOccurs="0" name="oblastOb" type="xs:string" />
+      <xs:element minOccurs="0" name="obshtOb" type="xs:string" />
+      <xs:element minOccurs="0" name="oldNomerOb" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="pokList" nillable="true" type="tns:pokazateliKatAnimals" />
+      <xs:element minOccurs="0" name="roliaZemProizv" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="liceOb">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EGN" type="xs:string" />
+      <xs:element minOccurs="0" name="name" type="xs:string" />
+      <xs:element minOccurs="0" name="roliaLice" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="markiKatAnimals">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="kodKat" type="xs:string" />
+      <xs:element minOccurs="0" name="markiKat" type="xs:string" />
+      <xs:element minOccurs="0" name="nameKat" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="pokazateliKatAnimals">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="kodKat" type="xs:string" />
+      <xs:element minOccurs="0" name="nameKat" type="xs:string" />
+      <xs:element minOccurs="0" name="sumaKat" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="WSErrorBean">
+    <xs:sequence>
+      <xs:element name="errorCode" type="xs:long" />
+      <xs:element minOccurs="0" name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getSpravkaZemProizvAllOez">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+      <xs:element minOccurs="0" name="arg1" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getSpravkaZemProizvAllOezResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:sprZemedelskiProizvAllOEZ" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sprZemedelskiProizvAllOEZ">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="addressRegistr" type="xs:string" />
+      <xs:element minOccurs="0" name="dateDanni" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="dateSpravka" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="EGN" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="jivObList" nillable="true" type="tns:jivObektSprZemAllOEZ" />
+      <xs:element minOccurs="0" name="mestoRegistr" type="xs:string" />
+      <xs:element minOccurs="0" name="name" type="xs:string" />
+      <xs:element minOccurs="0" name="oblastRegistr" type="xs:string" />
+      <xs:element minOccurs="0" name="obshtRegistr" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="jivObektSprZemAllOEZ">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="addressOb" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="licaList" nillable="true" type="tns:liceOb" />
+      <xs:element minOccurs="0" name="mestoOb" type="xs:string" />
+      <xs:element minOccurs="0" name="nomerOb" type="xs:string" />
+      <xs:element minOccurs="0" name="oblastOb" type="xs:string" />
+      <xs:element minOccurs="0" name="obshtOb" type="xs:string" />
+      <xs:element minOccurs="0" name="oldNomerOb" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="pokList" nillable="true" type="tns:pokazateliKatAnimalsAllOEZ" />
+      <xs:element minOccurs="0" name="roliaZemProizv" type="xs:string" />
+      <xs:element minOccurs="0" name="vidOb" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="pokazateliKatAnimalsAllOEZ">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="jivEdKat" type="xs:double" />
+      <xs:element minOccurs="0" name="kodKat" type="xs:string" />
+      <xs:element minOccurs="0" name="koefKat" type="xs:double" />
+      <xs:element minOccurs="0" name="nameKat" type="xs:string" />
+      <xs:element minOccurs="0" name="sumaKat" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getSpravkaJivotni">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getSpravkaJivotniResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:animalWsObject" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="animalWsObject">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="adress" type="xs:string" />
+      <xs:element minOccurs="0" name="cvqt" type="xs:string" />
+      <xs:element minOccurs="0" name="dataIzdavanePassport" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="dataRajdane" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="dateBegDom" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="dateBegSobs" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="dateStatus" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="egn" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="identsList" nillable="true" type="tns:identWsObject" />
+      <xs:element minOccurs="0" name="imeSobs" type="xs:string" />
+      <xs:element minOccurs="0" name="nacionalnost" type="xs:string" />
+      <xs:element minOccurs="0" name="nasMesto" type="xs:string" />
+      <xs:element minOccurs="0" name="nomerOez" type="xs:string" />
+      <xs:element minOccurs="0" name="nomerPassport" type="xs:string" />
+      <xs:element minOccurs="0" name="oblast" type="xs:string" />
+      <xs:element minOccurs="0" name="obshtina" type="xs:string" />
+      <xs:element minOccurs="0" name="pol" type="xs:string" />
+      <xs:element minOccurs="0" name="poroda" type="xs:string" />
+      <xs:element minOccurs="0" name="status" type="xs:string" />
+      <xs:element minOccurs="0" name="statusPassport" type="xs:string" />
+      <xs:element minOccurs="0" name="unikalenNomer" type="xs:string" />
+      <xs:element minOccurs="0" name="vid" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="identWsObject">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="chujd" type="xs:string" />
+      <xs:element minOccurs="0" name="nomer" type="xs:string" />
+      <xs:element minOccurs="0" name="status" type="xs:string" />
+      <xs:element minOccurs="0" name="type" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getSpravkaMps">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getSpravkaMpsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:mpsWsObject" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="mpsWsObject">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="dataStatus" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="dopInfo" type="tns:mpsWsDopInfo" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="jivotniMpsList" nillable="true" type="tns:jivotniMpsWsObject" />
+      <xs:element minOccurs="0" name="regNomer" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="sertifikatList" nillable="true" type="tns:setifikatWsObject" />
+      <xs:element minOccurs="0" name="space" type="xs:string" />
+      <xs:element minOccurs="0" name="status" type="xs:string" />
+      <xs:element minOccurs="0" name="vidMps" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="vrazkiLicaOrgMpsList" nillable="true" type="tns:vrazkiLicaOrgMpsWsObject" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="mpsWsDopInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="dopInfo" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="jivotniMpsWsObject">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="broi" type="xs:long" />
+      <xs:element minOccurs="0" name="vidJivotno" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="setifikatWsObject">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="datBeg" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="datEnd" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="prichina" type="xs:string" />
+      <xs:element minOccurs="0" name="regNomer" type="xs:string" />
+      <xs:element minOccurs="0" name="vidSert" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="vrazkiLicaOrgMpsWsObject">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="dataBeg" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="dataEnd" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="egnBulstat" type="xs:string" />
+      <xs:element minOccurs="0" name="liceOrg" type="xs:string" />
+      <xs:element minOccurs="0" name="tipVraz" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getVersion">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getVersionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

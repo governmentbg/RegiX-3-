@@ -1,0 +1,143 @@
+<tl-linear-progress [visible]="this.isLoading"></tl-linear-progress>
+<tl-wrapping-card
+  [title]="route.title"
+  [subTitle]="subtitle"
+  [icon]="route.icon"
+  [cardActions]="reportActions"
+>
+  <app-report-result
+    *ngIf="this.reportResult && !this.reportResult.hasError"
+    [result]="this.reportResult"
+    id="report-result"
+  >
+  </app-report-result>
+  <div class="table-wrapper">
+    <ng-container *ngIf="this.reportResult?.registerErrorMessage">
+      Грешка върната от RegiX:
+      <div class="alert alert-info">
+        {{ this.reportResult.registerErrorMessage }}
+      </div>
+    </ng-container>
+    <ng-container *ngIf="this.reportResult?.registerErrorContent">
+      Съдържание на грешка върната от RegiX:
+      <div class="alert alert-info">
+        {{ this.reportResult.registerErrorMessage }}
+      </div>
+    </ng-container>
+    <ng-container *ngIf="this.reportResult?.unhandledErrorContent">
+      Необработена грешка:
+      <div class="alert alert-info">
+        {{ this.reportResult.registerErrorMessage }}
+      </div>
+    </ng-container>
+    <ng-container *ngIf="this.reportResult?.unhandledErrorMessage">
+      Съдържание на необработена грешка:
+      <div class="alert alert-info">
+        {{ this.reportResult.registerErrorMessage }}
+      </div>
+    </ng-container>
+  </div>
+  <ng-template #reportActions>
+    <div
+      style="padding: 1rem"
+      *ngIf="this.reportResult && !this.reportResult.hasError"
+    >
+      <button igxButton="outlined" igxRipple (buttonClick)="onPrint()">
+        Принтирай&nbsp;
+        <igx-icon fontSet="material">print</igx-icon>
+      </button>
+      <button
+        igxButton="outlined"
+        igxRipple
+        [igxToggleAction]="requestDropdown"
+        [overlaySettings]="menuOverlaySettings"
+        [igxDropDownItemNavigation]="requestDropdown"
+      >
+        XML на заявка
+        <igx-icon fontSet="material">expand_more</igx-icon>
+      </button>
+      <igx-drop-down
+        #requestDropdown
+        (onSelection)="onRequestSaveXML($event)"
+        [width]="'200px'"
+      >
+        <igx-drop-down-item [value]="'Download'">
+          <igx-icon fontSet="material">save</igx-icon>&nbsp;Запази
+        </igx-drop-down-item>
+        <igx-drop-down-item [value]="'Open'">
+          <igx-icon fontSet="material">open_in_new</igx-icon>&nbsp;Отвори
+        </igx-drop-down-item>
+      </igx-drop-down>
+      <button
+        igxButton="outlined"
+        igxRipple
+        [igxToggleAction]="responseDropdown"
+        [overlaySettings]="menuOverlaySettings"
+        [igxDropDownItemNavigation]="responseDropdown"
+      >
+        XML на отговор
+        <igx-icon fontSet="material">expand_more</igx-icon>
+      </button>
+      <igx-drop-down
+        #responseDropdown
+        (onSelection)="onResponseSaveXML($event)"
+        [width]="'200px'"
+      >
+        <igx-drop-down-item [value]="'Download'">
+          <igx-icon fontSet="material">save</igx-icon>&nbsp;Запази
+        </igx-drop-down-item>
+        <igx-drop-down-item [value]="'Open'">
+          <igx-icon fontSet="material">open_in_new</igx-icon>&nbsp;Отвори
+        </igx-drop-down-item>
+      </igx-drop-down>
+      <button
+        *ngIf="this.reportResult.responsePdf"
+        igxButton="outlined"
+        igxRipple
+        [igxToggleAction]="pdfDropdown"
+        [overlaySettings]="menuOverlaySettings"
+        [igxDropDownItemNavigation]="pdfDropdown"
+      >
+        PDF Резултат
+        <igx-icon fontSet="material">expand_more</igx-icon>
+      </button>
+      <igx-drop-down
+        #pdfDropdown
+        (onSelection)="onPDFSave($event)"
+        [width]="'200px'"
+      >
+        <igx-drop-down-item [value]="'Download'">
+          <igx-icon fontSet="material">save</igx-icon>&nbsp;Запази
+        </igx-drop-down-item>
+        <igx-drop-down-item [value]="'Open'">
+          <igx-icon fontSet="material">open_in_new</igx-icon>&nbsp;Отвори
+        </igx-drop-down-item>
+      </igx-drop-down>
+
+      <button
+        *ngIf="this.reportResult.signatureVerified !== null && this.reportResult.signatureVerified !== undefined"
+        igxButton="outlined"
+        igxRipple
+        [igxToggleAction]="certDropdown"
+        [overlaySettings]="menuOverlaySettings"
+        [igxDropDownItemNavigation]="certDropdown"
+      >
+        Подпис
+        <igx-icon *ngIf="!this.reportResult.signatureVerified" fontSet="material" color="red">gpp_bad</igx-icon>
+        <igx-icon *ngIf="this.reportResult.signatureVerified" fontSet="material" color="green">gpp_good</igx-icon>
+      </button>
+      <igx-drop-down
+        #certDropdown
+        (onSelection)="onCertSave($event)"
+        [width]="'200px'"
+      >
+        <igx-drop-down-item [value]="'Certificate'">
+          <igx-icon fontSet="material">card_membership</igx-icon>&nbsp;Сертификат
+        </igx-drop-down-item>
+        <igx-drop-down-item [value]="'RawResponse'">
+          <igx-icon fontSet="material">text_snippet</igx-icon>&nbsp;Пълен отговор
+        </igx-drop-down-item>
+      </igx-drop-down>
+    </div>
+  </ng-template>
+</tl-wrapping-card>

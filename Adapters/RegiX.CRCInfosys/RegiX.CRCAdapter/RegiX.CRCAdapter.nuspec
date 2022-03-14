@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="13.0.1" />
+      <dependency id="RegiX.Adapters.Common" version="1.0.70" />
+    </dependencies>
+    <contentFiles>
+      <files include="any/any/XMLSchemas/$title$/*.xsd" buildAction="Content" copyToOutput="true" flatten="false" />
+      <files include="any/any/XMLSchemas/$title$/Transformations/*.xslt" buildAction="Content" copyToOutput="true" flatten="false" />
+      <files include="any/any/XMLSamples/$title$/*.xml" buildAction="Content" copyToOutput="true" flatten="false" />
+      <files include="any/any/XMLMetaData/$title$/*.xml" buildAction="Content" copyToOutput="true" flatten="false" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="XMLSchemas\$title$\*.xsd" target="contentFiles\any\any\XMLSchemas\$title$" />
+    <file src="XMLSchemas\$title$\Transformations\*.xslt" target="contentFiles\any\any\XMLSchemas\$title$\Transformations" />
+    <file src="XMLSamples\$title$\*.xml" target="contentFiles\any\any\XMLSamples\$title$" />
+    <file src="XMLMetaData\$title$\*.xml" target="contentFiles\any\any\XMLMetaData\$title$" />
+  </files>
+</package>

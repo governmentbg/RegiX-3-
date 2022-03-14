@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<EmploymentProgramContractResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AZ/EmploymentProgramContractResponse" xsi:schemaLocation="http://egov.bg/RegiX/AZ/EmploymentProgramContractResponse D:\Projects\eGov\RegiX\RegiX.AZJobsAdapter\XMLSchemas\EmploymentProgramContractResponse.xsd">
+	<EmployerData>
+		<EntityID xmlns="http://egov.bg/RegiX/AZ">1235</EntityID>
+		<EntityName xmlns="http://egov.bg/RegiX/AZ">Speedy OOD</EntityName>
+	</EmployerData>
+	<EmploymentProgramContracts>
+		<EmploymentProgramContract>
+			<ContractNumber>255</ContractNumber>
+			<EmploymentProgramName>постоянна</EmploymentProgramName>
+			<ContractDate>2015-06-06</ContractDate>
+			<ContractStatus>прекратен</ContractStatus>
+		</EmploymentProgramContract>
+		<EmploymentProgramContract>
+			<ContractNumber>522</ContractNumber>
+			<EmploymentProgramName>временна</EmploymentProgramName>
+			<ContractDate>2015-08-08</ContractDate>
+			<ContractStatus>изтекъл</ContractStatus>
+		</EmploymentProgramContract>
+	</EmploymentProgramContracts>
+</EmploymentProgramContractResponse>

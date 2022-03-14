@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Description>EAuth integration implementation</Description>
+    <Authors>Milen Donchev, Dimitar Mitev</Authors>
+    <Company>TechnoLogica</Company>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+    <Copyright>TechnoLogica 2020</Copyright>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="TechnoLogica.Authentication.Common" Version="1.0.39" />
+    <PackageReference Include="TechnoLogica.Common" Version="1.0.4" />
+  </ItemGroup>
+  
+</Project>

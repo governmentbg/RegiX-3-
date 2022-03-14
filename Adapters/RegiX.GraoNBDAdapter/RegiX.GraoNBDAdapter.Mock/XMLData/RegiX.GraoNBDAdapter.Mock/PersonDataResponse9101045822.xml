@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<PersonDataResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/NBD/PersonDataResponse">
+	<PersonNames>
+		<FirstName xsi:type="xsd:string" xmlns="http://egov.bg/RegiX/GRAO/NBD">Велин</FirstName>
+		<SurName xsi:type="xsd:string" xmlns="http://egov.bg/RegiX/GRAO/NBD">Петров</SurName>
+		<FamilyName xsi:type="xsd:string" xmlns="http://egov.bg/RegiX/GRAO/NBD">Иванов</FamilyName>
+	</PersonNames>
+	<Alias/>
+	<LatinNames>
+		<FirstName xsi:type="xsd:string" xmlns="http://egov.bg/RegiX/GRAO/NBD">Nikola</FirstName>
+		<SurName xsi:type="xsd:string" xmlns="http://egov.bg/RegiX/GRAO/NBD">Ivanov</SurName>
+		<FamilyName xsi:type="xsd:string" xmlns="http://egov.bg/RegiX/GRAO/NBD">Parvanov</FamilyName>
+	</LatinNames>
+	<ForeignNames>
+		<FirstName xsi:type="xsd:string" xmlns="http://egov.bg/RegiX/GRAO/NBD">Nikola</FirstName>
+		<SurName xsi:type="xsd:string" xmlns="http://egov.bg/RegiX/GRAO/NBD">Ivanov</SurName>
+		<FamilyName xsi:type="xsd:string" xmlns="http://egov.bg/RegiX/GRAO/NBD">Parvanov</FamilyName>
+	</ForeignNames>
+	<Gender>
+		<GenderCode xmlns="http://egov.bg/RegiX/GRAO/NBD">1</GenderCode>
+		<GenderName xmlns="http://egov.bg/RegiX/GRAO/NBD">Мъж</GenderName>
+	</Gender>
+	<EGN>9101045822</EGN>
+	<BirthDate>1960-08-20</BirthDate>
+	<PlaceBirth>София</PlaceBirth>
+	<Nationality>
+		<NationalityCode xmlns="http://egov.bg/RegiX/GRAO/NBD">BG</NationalityCode>
+		<NationalityName xmlns="http://egov.bg/RegiX/GRAO/NBD">България</NationalityName>
+		<NationalityCode2 xmlns="http://egov.bg/RegiX/GRAO/NBD">US</NationalityCode2>
+		<NationalityName2 xmlns="http://egov.bg/RegiX/GRAO/NBD">САЩ</NationalityName2>
+	</Nationality>
+	<DeathDate>2005-12-12</DeathDate>
+</PersonDataResponse>
+

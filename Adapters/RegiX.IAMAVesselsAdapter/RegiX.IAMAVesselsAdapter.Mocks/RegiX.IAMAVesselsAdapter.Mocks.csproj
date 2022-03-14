@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.IAMAVesselsAdapter.Mocks</RootNamespace>
+    <Authors>Dimitar Mitev</Authors>
+    <Company>TechnoLogica</Company>
+    <Description>Mocks for IAMAVesselsAdapter</Description>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="XMLData\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="XMLData\RegiX.IAMAVesselsAdapter.Mocks\IVesselsAdapter.GetNomenclatures.response.xml" />
+    <None Remove="XMLData\RegiX.IAMAVesselsAdapter.Mocks\IVesselsAdapter.RegistrationByCharacteristicsSearch.response.xml" />
+    <None Remove="XMLData\RegiX.IAMAVesselsAdapter.Mocks\IVesselsAdapter.RegistrationSearchByOwner.response.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.Adapters.Mocks" Version="1.0.43" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.IAMAVesselsAdapter\RegiX.IAMAVesselsAdapter.csproj" />
+  </ItemGroup>
+
+</Project>
+

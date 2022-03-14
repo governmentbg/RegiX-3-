@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Dimitar Mitev</authors>
+    <owners>$author$</owners>
+    <description>Signer implementing xades XML signing with timestamp</description>
+    <dependencies>
+      <dependency id="RegiX.BaseSigner" version="1.0.14" />
+      <dependency id="SecureBlackbox" version="16.0.330" />
+    </dependencies>
+  </metadata>
+</package>

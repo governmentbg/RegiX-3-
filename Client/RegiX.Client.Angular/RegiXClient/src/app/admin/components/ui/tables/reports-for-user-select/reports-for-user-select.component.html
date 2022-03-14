@@ -1,0 +1,85 @@
+<div class="roles-table-wrapper">
+    <div *ngIf="isDataLoading">
+        <div>
+          <igx-circular-bar
+            [animate]="true"
+            [indeterminate]="true"
+            [textVisibility]="true"
+          ></igx-circular-bar>
+        </div>
+    </div>
+  <tl-linear-progress [visible]="this.service.isLoading"></tl-linear-progress>
+  <igx-grid
+    #grid
+    [data]="items$"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    [paginationTemplate]="pager"
+    [rowSelectable]="true"
+    [allowFiltering]="true"
+    [primaryKey]="'reportId'"
+    [hidden]="!isDataLoaded && isDataLoading"
+  >
+    <igx-column
+      field="reportName"
+      header="Услуга"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="operationName"
+      header="Операция на адаптер"
+      width="20%"
+      [sortable]="true"
+      [filterable]="false"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="registerName"
+      header="Регистър"
+      [sortable]="true"
+      [filterable]="false"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="authorityName"
+      header="Администрация"
+      [sortable]="true"
+      [filterable]="false"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-api>
+      <div class="tl-paginator">
+        <app-grid-pager
+          [page]="0"
+          [perPage]="15"
+          [totalCount]="items$.length"
+          (pagerChange)="pagerChange($event)"
+        ></app-grid-pager>
+      </div>
+    </ng-template>
+  </igx-grid>
+</div>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet2">
+    <Query>
+      <DataSourceReference>regix2</DataSourceReference>
+      <CommandText>SELECT        REGISTERS.NAME AS REGISTERS_NAME, ADMINISTRATIONS.NAME AS ADMINISTRATION_NAME, ADAPTER_OPERATIONS.ADAPTER_OPERATION_ID, 
+                         CONSUMER_ACCESS_REQUESTS.ADAPTER_OPERATION_ID AS REQUEST_ADAPTER_OPERATION_ID, CONSUMER_ACCESS_REQUESTS.LAW_REASON, ADAPTER_OPERATIONS.DESCRIPTION AS ADAPTER_OPERATION_NAME, 
+                         CONSUMER_ACCESS_REQUESTS.RELATED_SERVICES, CONSUMER_ACCESS_REQUESTS.RELATED_SERVICES_CODE, REGISTER_OBJECT_ELEMENTS.NAME, REGISTER_OBJECT_ELEMENTS.DESCRIPTION, 
+                         REGISTER_OBJECT_ELEMENTS.PATH_TO_ROOT, (LEN(REGISTER_OBJECT_ELEMENTS.PATH_TO_ROOT) - LEN(REPLACE(REGISTER_OBJECT_ELEMENTS.PATH_TO_ROOT, '.', ''))) / LEN('.') AS NumberOfDots, 
+                         CONSUMER_ACCESS_REQUESTS.CONSUMER_ACCESS_REQUEST_ID, CONSUMER_REQUESTS.CONSUMER_REQUEST_ID, CONSUMER_REQUESTS.STATUS, CONSUMER_REQUESTS.CONSUMER_SYSTEM_ID, 
+                         CONSUMER_SYSTEMS.NAME AS CONSUMER_SYSTEMS_NAME, CONSUMER_SYSTEMS.STATIC_IP
+FROM            ADAPTER_OPERATIONS INNER JOIN
+                         REGISTER_ADAPTERS ON ADAPTER_OPERATIONS.REGISTER_ADAPTER_ID = REGISTER_ADAPTERS.REGISTER_ADAPTER_ID INNER JOIN
+                         REGISTERS ON REGISTER_ADAPTERS.REGISTER_ID = REGISTERS.REGISTER_ID INNER JOIN
+                         ADMINISTRATIONS ON REGISTERS.ADMINISTRATION_ID = ADMINISTRATIONS.ADMINISTRATION_ID INNER JOIN
+                         CONSUMER_ACCESS_REQUESTS ON ADAPTER_OPERATIONS.ADAPTER_OPERATION_ID = CONSUMER_ACCESS_REQUESTS.ADAPTER_OPERATION_ID INNER JOIN
+                         CONSUMER_REQUEST_ELEMENTS ON CONSUMER_ACCESS_REQUESTS.CONSUMER_ACCESS_REQUEST_ID = CONSUMER_REQUEST_ELEMENTS.CONSUMER_ACCESS_REQUEST_ID INNER JOIN
+                         REGISTER_OBJECT_ELEMENTS ON CONSUMER_REQUEST_ELEMENTS.REGISTER_OBJECT_ELEMENT_ID = REGISTER_OBJECT_ELEMENTS.REGISTER_OBJECT_ELEMENT_ID INNER JOIN
+                         CONSUMER_REQUESTS ON CONSUMER_ACCESS_REQUESTS.CONSUMER_REQUEST_ID = CONSUMER_REQUESTS.CONSUMER_REQUEST_ID INNER JOIN
+                         CONSUMER_SYSTEMS ON CONSUMER_REQUESTS.CONSUMER_SYSTEM_ID = CONSUMER_SYSTEMS.CONSUMER_SYSTEM_ID
+ORDER BY REGISTER_OBJECT_ELEMENTS.PATH_TO_ROOT</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="REGISTERS_NAME">
+        <DataField>REGISTERS_NAME</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ADMINISTRATION_NAME">
+        <DataField>ADMINISTRATION_NAME</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ADAPTER_OPERATION_ID">
+        <DataField>ADAPTER_OPERATION_ID</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="REQUEST_ADAPTER_OPERATION_ID">
+        <DataField>REQUEST_ADAPTER_OPERATION_ID</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="LAW_REASON">
+        <DataField>LAW_REASON</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ADAPTER_OPERATION_NAME">
+        <DataField>ADAPTER_OPERATION_NAME</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="RELATED_SERVICES">
+        <DataField>RELATED_SERVICES</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="RELATED_SERVICES_CODE">
+        <DataField>RELATED_SERVICES_CODE</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="NAME">
+        <DataField>NAME</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DESCRIPTION">
+        <DataField>DESCRIPTION</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="PATH_TO_ROOT">
+        <DataField>PATH_TO_ROOT</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="NumberOfDots">
+        <DataField>NumberOfDots</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="CONSUMER_ACCESS_REQUEST_ID">
+        <DataField>CONSUMER_ACCESS_REQUEST_ID</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="CONSUMER_REQUEST_ID">
+        <DataField>CONSUMER_REQUEST_ID</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="STATUS">
+        <DataField>STATUS</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="CONSUMER_SYSTEM_ID">
+        <DataField>CONSUMER_SYSTEM_ID</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="CONSUMER_SYSTEMS_NAME">
+        <DataField>CONSUMER_SYSTEMS_NAME</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="STATIC_IP">
+        <DataField>STATIC_IP</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

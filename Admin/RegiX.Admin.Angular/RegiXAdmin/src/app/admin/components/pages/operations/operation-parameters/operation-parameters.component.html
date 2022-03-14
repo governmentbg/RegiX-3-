@@ -1,0 +1,70 @@
+<div class="form-wrapper">
+  <div class="title-wrapper">
+      <app-title-bar title="Редакция на параметри"></app-title-bar>
+  </div>
+  <div class="form-content">
+    <div class="input-group-form">
+
+<div>
+  <!-- TODO: Progress too big!!! -->
+  <!-- <div *ngIf="isDataLoading">
+    <div>
+      <igx-circular-bar
+        [animate]="true"
+        [indeterminate]="true"
+        [textVisibility]="true"
+      ></igx-circular-bar>
+    </div>
+  </div> -->
+  <form
+    [formGroup]="formGroup"
+    *ngIf="!isDataLoading"
+  >
+
+  <!-- <div >
+    <igx-input-group>
+      <label igxLabel [for]="item.key">{{item.description}}</label>
+      <input igxInput [name]="item.key" type="text" [(ngModel)]="item.value" />
+    </igx-input-group>
+  </div> -->
+
+    <div class="input-group" *ngFor="let item of items$">
+      <igx-input-group>
+        <input
+          class="form-group-wrapper"
+          igxInput
+          [name]="item.key"
+          type="text"
+          [formControlName]="item.key"
+          tlFormGroupRef
+        />
+        <label igxLabel [for]="item.key">{{item.description}}</label>
+      </igx-input-group>
+    </div>
+  </form>
+
+  <div class="buttons-wrapper">
+    <button
+      type="button"
+      class="table-button"
+      igxButton="raised"
+      (click)="onCancel()"
+      title="Назад"
+    >
+      Назад
+    </button>
+    <button
+      type="button"
+      class="table-button"
+      igxButton="raised"
+      (click)="onSubmit(null)"
+      [disabled]="!isFormValid()"
+      title="Запиши"
+    >
+      Запиши
+    </button>
+  </div>
+</div>
+</div>
+</div>
+</div>

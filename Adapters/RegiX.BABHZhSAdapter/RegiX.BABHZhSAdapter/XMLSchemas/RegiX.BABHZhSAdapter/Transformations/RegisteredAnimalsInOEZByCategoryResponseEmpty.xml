@@ -1,0 +1,7 @@
+<RegisteredAnimalsInOEZByCategoryResponse xmlns="http://egov.bg/RegiX/BABH/BABHZhS/RegisteredAnimalsInOEZByCategoryResponse">
+	<FarmerData>
+		<FarmerIdentifier>null</FarmerIdentifier>
+		<Address />
+	</FarmerData>
+	<FarmsData />
+</RegisteredAnimalsInOEZByCategoryResponse>

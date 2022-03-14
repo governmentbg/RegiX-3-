@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetActualUICInfoRequest xsi:schemaLocation="http://egov.bg/RegiX/AV/BULSTAT/GetActualUICInfoRequest GetActualUICInfoRequest.xsd" xmlns="http://egov.bg/RegiX/AV/BULSTAT/GetActualUICInfoRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<UIC>a</UIC>
+</GetActualUICInfoRequest>

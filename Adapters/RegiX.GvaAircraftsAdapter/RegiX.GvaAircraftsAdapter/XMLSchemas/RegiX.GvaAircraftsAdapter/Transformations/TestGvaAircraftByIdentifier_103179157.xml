@@ -1,0 +1,109 @@
+﻿<?xml version="1.0"?>
+<AircraftsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GVA/AircraftsResponse">
+  <Aircraft>
+    <Producer>
+      <Name>FlySynthesis, Р. Италия</Name>
+      <NameEn>FlySynthesis, R.of Italy</NameEn>
+      <CountryCode>IT</CountryCode>
+      <CountryName>Italy</CountryName>
+    </Producer>
+    <AirCategory>
+      <Code>VLA</Code>
+      <Name>Very Light Aeroplane</Name>
+    </AirCategory>
+    <ICAO>STOR</ICAO>
+    <BGModelName>Storch</BGModelName>
+    <ENModelName>Storch</ENModelName>
+    <MSNSerialNumber>11015506</MSNSerialNumber>
+    <Registrations>
+      <Registration>
+        <ActNumber>120</ActNumber>
+        <RegistrationNumber>120</RegistrationNumber>
+        <RegistrationDate>2011-05-28</RegistrationDate>
+        <RegistrationMark>LZ-BIK</RegistrationMark>
+        <IsLastRegistration>true</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>true</IsActiveRegistration>
+          <StatusCode>9</StatusCode>
+          <StatusName>Последна (действаща) регистрация</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-31</DocNumber>
+          <DocDate>2011-05-26</DocDate>
+          <Description>Договор покупко-продажба; Разписка</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>Тодор Петров Тодоров</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>Тодор Петров Тодоров</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>18</ActNumber>
+        <RegistrationNumber>18</RegistrationNumber>
+        <RegistrationDate>2003-07-11</RegistrationDate>
+        <RegistrationMark>LZ-BIK</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-45</DocNumber>
+          <DocDate>2003-04-16</DocDate>
+          <Description>Договор за покупко-продажба от 10.12.2002
+</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>103179157</Identifier>
+              <Name>“Морски криле” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>103179157</Identifier>
+              <Name>“Морски криле” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+    </Registrations>
+    <Debts />
+  </Aircraft>
+</AircraftsResponse>

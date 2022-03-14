@@ -1,0 +1,3 @@
+﻿<GetMotorVehicleRegistrationInfoV3Request xmlns="http://egov.bg/RegiX/MVR/MPS/GetMotorVehicleRegistrationInfoV3Request">
+  <Identifier>CA8034MP</Identifier>
+</GetMotorVehicleRegistrationInfoV3Request>

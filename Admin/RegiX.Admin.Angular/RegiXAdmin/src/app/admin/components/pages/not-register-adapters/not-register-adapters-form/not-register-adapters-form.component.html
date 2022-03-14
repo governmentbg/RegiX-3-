@@ -1,0 +1,260 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+<div class="table-wrapper">
+    <div>
+      <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isDataLoaded && !isDataLoading"
+    >
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="name"
+              type="text"
+              formControlName="name"
+              tlFormGroupRef
+            />
+            <label igxLabel for="name">Име</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="description"
+              type="text"
+              formControlName="description"
+              tlFormGroupRef
+            />
+            <label igxLabel for="description">Описание</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="contract"
+              type="text"
+              formControlName="contract"
+              tlFormGroupRef
+            />
+            <label igxLabel for="contract">Интерфейс</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group>
+              <input
+                class="form-input"
+                igxInput
+                name="bindingType"
+                type="text"
+                formControlName="bindingType"
+                tlFormGroupRef
+              />
+              <label igxLabel for="bindingType">Binding тип</label>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+
+        <div class="input-group">
+            <tl-form-group class="form-group-wrapper">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="bindingConfigName"
+                  type="text"
+                  formControlName="bindingConfigName"
+                  tlFormGroupRef
+                />
+                <label igxLabel for="bindingConfigName">Binding конфигурация</label>
+              </igx-input-group>
+            </tl-form-group>
+          </div>
+
+          <div class="input-group">
+              <tl-form-group class="form-group-wrapper">
+                <igx-input-group>
+                  <input
+                    class="form-input"
+                    igxInput
+                    name="assembly"
+                    type="text"
+                    formControlName="assembly"
+                    tlFormGroupRef
+                  />
+                  <label igxLabel for="assembly">Assembly</label>
+                </igx-input-group>
+              </tl-form-group>
+            </div>
+
+            <div class="input-group">
+                <tl-form-group class="form-group-wrapper">
+                  <igx-input-group>
+                    <input
+                      class="form-input"
+                      igxInput
+                      name="adapterUrl"
+                      type="text"
+                      formControlName="adapterUrl"
+                      tlFormGroupRef
+                    />
+                    <label igxLabel for="adapterUrl">Адрес</label>
+                  </igx-input-group>
+                </tl-form-group>
+              </div>
+
+              <div
+              class="input-group"
+              igxLayout
+              igxLayoutDir="row"
+            >
+              <tl-form-group class="form-group-wrapper">
+                <igx-input-group>
+                  <input
+                    class="form-input"
+                    igxInput
+                    name="registerDisplay"
+                    type="text"
+                    formControlName="registerDisplay"
+                    tlFormGroupRef
+                  />
+                  <label igxLabel for="registerDisplay">Регистър</label>
+                </igx-input-group>
+              </tl-form-group>
+              <button igxButton="icon" (click)="showRegisters()" [disabled]="this.isShowForm()">
+                <igx-icon>{{registerIcon}}</igx-icon>
+                  </button>
+                </div>
+    </form>
+  </div>
+  <div
+  *ngIf="isDataLoaded && !isDataLoading"
+  >
+  <app-title-bar [title]="adapterOparationsTitle"> </app-title-bar>
+    <igx-grid
+      #grid
+      [data]="formObject.notRegisterAdapterInfo.adapterOperations"
+
+      [height]="null"
+      width="100%"
+      [displayDensity]="'cosy'"
+      [allowFiltering]="true"
+
+    >
+      <igx-column
+        field="name"
+        header="Име на операцията"
+        [sortable]="true"
+        [dataType]="'string'"
+      >
+      </igx-column>
+
+      <igx-column
+        field="description"
+        header="Описание на операцията"
+        [sortable]="true"
+        [dataType]="'string'"
+      >
+      </igx-column>
+    </igx-grid>
+
+    <app-title-bar [title]="registerObjectsTitle"> </app-title-bar>
+    <igx-grid
+      #grid
+      [data]="formObject.notRegisterAdapterInfo.registerObjects"
+
+      [height]="null"
+      width="100%"
+      [displayDensity]="'cosy'"
+      [allowFiltering]="true"
+
+    >
+      <igx-column
+        field="name"
+        header="Име"
+        [sortable]="true"
+        [dataType]="'string'"
+      >
+      </igx-column>
+
+      <igx-column
+        field="fullName"
+        header="Пълно име"
+        [sortable]="true"
+        [dataType]="'string'"
+      >
+      </igx-column>
+    </igx-grid>
+
+    <app-title-bar [title]="apiOperationsTitle"> </app-title-bar>
+    <igx-grid
+      #grid
+      [data]="apiOperationsWithAdapterName"
+      [height]="null"
+      width="100%"
+      [displayDensity]="'cosy'"
+      [allowFiltering]="true"
+
+    >
+      <igx-column
+        field="name"
+        header="Име"
+        [sortable]="true"
+        [dataType]="'string'"
+      >
+      </igx-column>
+
+      <igx-column
+        field="description"
+        header="Описание"
+        [sortable]="true"
+        [dataType]="'string'"
+      >
+      </igx-column>
+
+      <igx-column
+        field="adapterFullName"
+        header="Пълно име"
+        [sortable]="true"
+        [dataType]="'string'"
+      >
+      </igx-column>
+    </igx-grid>
+  </div>
+</div>
+</tl-basic-form>
+
+<igx-dialog
+  #registersFilterDialog
+  title="Администрации"
+  [closeOnOutsideSelect]="true"
+>
+  <div style="height: 90vh; width: 95vw; overflow: auto;">
+    <app-register-filter
+      #registersFilter
+      (selectedValues)="registerSelected($event)"
+    >
+    </app-register-filter>
+  </div>
+</igx-dialog>
+
+

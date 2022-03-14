@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<ParticipantsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CROZ/CROZ/ParticipantsResponse">
+  <participantsList>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>188</particip_id>
+      <particip_id_code>~~~~~~~0100</particip_id_code>
+      <name></name>
+      <full_name>Митница Аерогара-София</full_name>
+      <city>София</city>
+      <address>Летище София</address>
+      <zip>1000</zip>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>109</particip_id>
+      <particip_id_code>~0102039287</particip_id_code>
+      <name />
+      <full_name>Георги Иванов Димитров</full_name>
+      <city>гр.София</city>
+      <address>бл.102, ап.25, вх.2</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>225</particip_id>
+      <particip_id_code>~~~~~~~0206</particip_id_code>
+      <name />
+      <full_name>Митн. бюро Сливен</full_name>
+      <city>2</city>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>72</particip_id>
+      <particip_id_code>~~040202522</particip_id_code>
+      <name />
+      <full_name>Българо-Американски инвестиционен фонд</full_name>
+      <city>София</city>
+      <address>ул. "Шипка" Nо. 3</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>167</particip_id>
+      <particip_id_code>10100001373</particip_id_code>
+      <name />
+      <full_name>"Елпром-Трафо СН" ЕАД</full_name>
+      <city>Кюстендил</city>
+      <address>ул."Дондуков"14</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>322</particip_id>
+      <particip_id_code>~~~~~~~~124</particip_id_code>
+      <name />
+      <full_name>Работа по отстраняване на некоректност по т.I.2 от протокол от 2012 год.</full_name>
+      <city>Торонто</city>
+      <address>Няма да се посочва</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>108</particip_id>
+      <particip_id_code>17100001060</particip_id_code>
+      <name />
+      <full_name>МИЛЪР ПРОДУКТ ООД</full_name>
+      <city>ssssssssssssss</city>
+      <address>sssssssssssss Русенска област</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>104</particip_id>
+      <particip_id_code>17100001060</particip_id_code>
+      <name />
+      <full_name>МИЛЪР ПРОДУКТ ООД</full_name>
+      <city>с.Острово</city>
+      <address>с.Острово Русенска област</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>285</particip_id>
+      <particip_id_code>1~821001040</particip_id_code>
+      <name />
+      <full_name>Роза Хитцфелд Щайнцингер</full_name>
+      <city>Инсбрук</city>
+      <address>Stadtmagistrat Innsbruck - Sportamt</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>272</particip_id>
+      <particip_id_code>~2001010101</particip_id_code>
+      <name />
+      <full_name>Стоян Петров Иванов</full_name>
+      <city>София</city>
+      <address>адрес</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>147</particip_id>
+      <particip_id_code>22100153109</particip_id_code>
+      <name />
+      <full_name>МЕГАТРОН ЕООД</full_name>
+      <city>София</city>
+      <address>бул."Дондуков"11</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>59</particip_id>
+      <particip_id_code>~3111032440</particip_id_code>
+      <name />
+      <full_name>1234567890123456789012345</full_name>
+      <city>гр.София</city>
+      <address>ж.к. "Младост 3" бл.332, вх.2, ап.45</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>70</particip_id>
+      <particip_id_code>~3111032440</particip_id_code>
+      <name />
+      <full_name>Стефан Иванов Грозданов</full_name>
+      <city>гр.София</city>
+      <address>ж.к. "Младост 1" бл.54, вх.1, ап.10</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>19</particip_id>
+      <particip_id_code>~3802032039</particip_id_code>
+      <name />
+      <full_name>Биляна Иванова Петрова</full_name>
+      <city>гр.Казанлък</city>
+      <address>ж.к."Изток" бл.10, ап.23, ет.4, вх.1</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>18</particip_id>
+      <particip_id_code>~3804302039</particip_id_code>
+      <name />
+      <full_name>Ива Петрова Данева</full_name>
+      <city>гр.Благоевград</city>
+      <address>ж.к."Еленово" бл.30, ап.24., ет.5</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>20</particip_id>
+      <particip_id_code>~3903042304</particip_id_code>
+      <name />
+      <full_name>Петър Стефанов Чавдаров</full_name>
+      <city>гр.Казанлък</city>
+      <address>кв. "Запад" бл.20, ап.31, ет.5, вх.3</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>53</particip_id>
+      <particip_id_code>~5111010840</particip_id_code>
+      <name />
+      <full_name>Росен Георгиев Димитров</full_name>
+      <city>с. Пелатиково</city>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>54</particip_id>
+      <particip_id_code>~5111010840</particip_id_code>
+      <name />
+      <full_name>Росен Георгиев Димитров</full_name>
+      <city>с. Пелатиково</city>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>64</particip_id>
+      <particip_id_code>~5409023782</particip_id_code>
+      <name />
+      <full_name>Павел Босев Бъчваров</full_name>
+      <city>гр. София</city>
+      <address>ул. "Малина" 31</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>7</particip_id>
+      <particip_id_code>~5411031236</particip_id_code>
+      <name />
+      <full_name>Росица Радева Въжарова</full_name>
+      <city>гр. Варна</city>
+      <address>ж.к. "Левски", бл.2, вх.3, ап.34</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>11</particip_id>
+      <particip_id_code>~5411031236</particip_id_code>
+      <name />
+      <full_name>Росица Радева Въжарова</full_name>
+      <city>гр. Кюстендил</city>
+      <address>ж.к. "Запад", бл.63, вх.3, ап.34</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>90</particip_id>
+      <particip_id_code>~5412234016</particip_id_code>
+      <name />
+      <full_name>Емил Димитров Димитров</full_name>
+      <city>София</city>
+      <address>ул. Петър Берон, 71</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>89</particip_id>
+      <particip_id_code>~5412235016</particip_id_code>
+      <name />
+      <full_name>Димитър Петров Димитров</full_name>
+      <city>София</city>
+      <address>ул. Д. Благоев, 14</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>38</particip_id>
+      <particip_id_code>~5605022080</particip_id_code>
+      <name />
+      <full_name>Росен  Димов</full_name>
+      <city>с. Олтоманци</city>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>40</particip_id>
+      <particip_id_code>~5605022080</particip_id_code>
+      <name />
+      <full_name>Росен  Димов</full_name>
+      <city>с. Долно Уйно</city>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>17</particip_id>
+      <particip_id_code>~6003082780</particip_id_code>
+      <name />
+      <full_name>Георги Стоянов Петров</full_name>
+      <city>гр.Плевен</city>
+      <address>ж.к. "В.Левски" бл.2, ап.28, ет 7</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>3</particip_id>
+      <particip_id_code>~6212126327</particip_id_code>
+      <name />
+      <full_name>Стефан Софрониев Христов</full_name>
+      <city>София</city>
+      <address>ул. Атанас Далчев 22</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>62</particip_id>
+      <particip_id_code>~6304303040</particip_id_code>
+      <name />
+      <full_name>Георги Цветков Петров</full_name>
+      <city>гр.София</city>
+      <address>ул. "Минзухар" 21</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>63</particip_id>
+      <particip_id_code>~6506054038</particip_id_code>
+      <name />
+      <full_name>Милан Робов Денев</full_name>
+      <city>гр.София</city>
+      <address>ж.к."Младост 1А" бл.102, вх.2, ет.5, ап.45</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>1</particip_id>
+      <particip_id_code>~6607116290</particip_id_code>
+      <name />
+      <full_name>Ирина Иванова Петрова</full_name>
+      <city>София</city>
+      <address>Младост 1 бл.131 вх. А</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>42</particip_id>
+      <particip_id_code>~6607116290</particip_id_code>
+      <name />
+      <full_name>Ирина Иванова Петрова</full_name>
+      <city>София</city>
+      <address>Младост 1A бл.31 вх. B, ап. 23</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>29</particip_id>
+      <particip_id_code>~6612316329</particip_id_code>
+      <name />
+      <full_name>Иван Петров Иванов</full_name>
+      <city>Бургас</city>
+      <address>ж.к. "Славейков" бл.45, ап.78</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>2</particip_id>
+      <particip_id_code>~6612316329</particip_id_code>
+      <name />
+      <full_name>Иван Петров Иванов</full_name>
+      <city>София</city>
+      <address>ул. Аксаков 22</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>165</particip_id>
+      <particip_id_code>~7008185536</particip_id_code>
+      <name />
+      <full_name>Иво Петров Иванов</full_name>
+      <city>София</city>
+      <address>ddddddddddd</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>23</particip_id>
+      <particip_id_code>~7109083839</particip_id_code>
+      <name />
+      <full_name>Гергана Петрова Димитрова</full_name>
+      <city>гр.София</city>
+      <address>ул. "Роса" 3</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>110</particip_id>
+      <particip_id_code>~7111032820</particip_id_code>
+      <name />
+      <full_name>Петър Петров Дюстабанов</full_name>
+      <city>гр.Чепеларе</city>
+      <address>ул.Горска 2</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>282</particip_id>
+      <particip_id_code>~7111032840</particip_id_code>
+      <name />
+      <full_name>ЕТ "Петър Петров"</full_name>
+      <city>гр. София</city>
+      <address>ж.к. "Младост" 3, бл.356, вх. 2, ап. 38</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>92</particip_id>
+      <particip_id_code>~7111032840</particip_id_code>
+      <name />
+      <full_name>Иван Драганов Петров</full_name>
+      <city>гр. Пловдив</city>
+      <address>ж.к. "Младост" 1, бл.74, вх. A, ап. 18</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>52</particip_id>
+      <particip_id_code>~7111032840</particip_id_code>
+      <name />
+      <full_name>Иван Драганов Петров</full_name>
+      <city>гр. София</city>
+      <address>ж.к. "Младост" 1, бл.74, вх. A, ап. 18</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>4</particip_id>
+      <particip_id_code>~7111032840</particip_id_code>
+      <name />
+      <full_name>Иван Драганов Петров</full_name>
+      <city>гр. София</city>
+      <address>ж.к. "Младост" 3, бл.356, вх. 2, ап. 38</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>55</particip_id>
+      <particip_id_code>~7703174004</particip_id_code>
+      <name />
+      <full_name>Михаил Димитров Даскалов</full_name>
+      <city>Левски</city>
+      <address>Захари Стоянов, 4</address>
+    </participant>
+    <participant xmlns="http://egov.bg/RegiX/CROZ/CROZ">
+      <particip_id>252</particip_id>
+      <particip_id_code>~~~~~~~~840</particip_id_code>
+      <name />
+      <full_name>Международен Олимпийски комитет</full_name>
+      <city>Ню Йорк</city>
+    </participant>
+  </participantsList>
+</ParticipantsResponse>

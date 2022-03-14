@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.lib.json",
+  "angularCompilerOptions": {
+    "enableIvy": false
+  },  
+  "assets": [
+    "src/assets/**/*",
+    "src/stylesheets/**/*.scss"
+  ]
+}

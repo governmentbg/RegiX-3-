@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetNumbersInfoRequest xmlns="http://egov.bg/RegiX/CRC/Numbers/GetNumbersInfoRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CompanyName>String</CompanyName>
+  <CompanyType>String</CompanyType>
+  <Code>String</Code>
+  <NumbersGroup>String</NumbersGroup>
+  <Decision>String</Decision>
+  <DecisionDateFrom>1967-08-13</DecisionDateFrom>
+  <DecisionDateTo>1967-08-13</DecisionDateTo>
+</GetNumbersInfoRequest>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AdapterAdditionalParameters xmlns="http://schemas.datacontract.org/2004/07/TechnoLogica.RegiX.Common.DataContracts"
+    xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <_x003C_ApiServiceCallId_x003E_k__BackingField>0</_x003C_ApiServiceCallId_x003E_k__BackingField>
+  <_x003C_CallContext_x003E_k__BackingField i:nil="true"
+      xmlns:a="http://schemas.datacontract.org/2004/07/TechnoLogica.RegiX.Common.TransportObject"/>
+  <_x003C_CitizenEGN_x003E_k__BackingField i:nil="true"/>
+  <_x003C_ClientIPAddress_x003E_k__BackingField i:nil="true"/>
+  <_x003C_ConsumerCertificateThumbprint_x003E_k__BackingField i:nil="true"/>
+  <_x003C_EIDToken_x003E_k__BackingField i:nil="true"/>
+  <_x003C_EmployeeEGN_x003E_k__BackingField i:nil="true"/>
+  <_x003C_OrganizationEIK_x003E_k__BackingField i:nil="true"/>
+  <_x003C_OrganizationUnit_x003E_k__BackingField i:nil="true"/>
+  <_x003C_ReturnAccessMatrix_x003E_k__BackingField>false</_x003C_ReturnAccessMatrix_x003E_k__BackingField>
+  <_x003C_SignResult_x003E_k__BackingField>false</_x003C_SignResult_x003E_k__BackingField>
+</AdapterAdditionalParameters>

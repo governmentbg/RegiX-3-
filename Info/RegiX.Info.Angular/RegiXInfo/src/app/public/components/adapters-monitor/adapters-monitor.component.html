@@ -1,0 +1,43 @@
+<div class="agency-data-holder">
+  <!-- <igx-card> -->
+  <!-- <igx-navbar title="Статус на адаптери"></igx-navbar> -->
+  <h4>Статус на адаптери</h4>
+
+  <!-- <igx-card-content> -->
+  <div class="adapter-status-wrapper">
+    <!-- <h6 class="pb-2">Обща информация</h6>
+    <p style="margin-top: 0px">
+      Тук могат да се видят интегрираните в RegiX адаптери и тяхното моментно
+      състояние.
+    </p> -->
+    <igx-circular-bar
+      *ngIf="isDataLoading"
+      [animate]="true"
+      [indeterminate]="true"
+      [textVisibility]="true"
+    ></igx-circular-bar>
+    <table
+      class="table table-bordered table-hover table-striped"
+      *ngIf="isDataLoaded && !isDataLoading"
+    >
+      <thead>
+        <tr>
+          <th scope="col">Адаптер</th>
+          <th scope="col">Интерфейс</th>
+          <th scope="col">Версия</th>
+          <!-- <th scope="col">Статус</th> -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let adapter of adapters">
+          <td class="wrap">{{ adapter.Name }}</td>
+          <td class="wrap">{{ adapter.Interface }}</td>
+          <td class="wrap">{{ adapter.Version }}</td>
+          <!-- <td>Unknown</td> -->
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- </igx-card-content>
+  </igx-card> -->
+</div>

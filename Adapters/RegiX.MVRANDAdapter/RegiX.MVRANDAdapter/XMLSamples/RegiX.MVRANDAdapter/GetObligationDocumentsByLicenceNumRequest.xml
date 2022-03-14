@@ -1,0 +1,4 @@
+<GetObligationDocumentsByLicenceNumRequest xmlns="http://egov.bg/RegiX/MVR/ObligationDocumentsByLicenceNum/GetObligationDocumentsByLicenceNumRequest">
+	<EGN>1111111110</EGN>
+	<LicenceNum>1234567890</LicenceNum>
+</GetObligationDocumentsByLicenceNumRequest>

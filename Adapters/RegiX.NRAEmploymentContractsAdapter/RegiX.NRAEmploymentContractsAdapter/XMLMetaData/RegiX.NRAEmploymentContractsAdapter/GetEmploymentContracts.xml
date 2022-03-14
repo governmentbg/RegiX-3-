@@ -1,0 +1,100 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.NRAEmploymentContractsAdapter.APIService.INRAEmploymentContractsAPI.GetEmploymentContracts</OperationName>
+  <Code>GetEmploymentContracts</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>EmploymentContractsRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/NRA/EmploymentContracts/Request</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за сключване, изменение или прекратяване на трудовите договори и уведомления за промяна на работодател</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Identity</ParameterName>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>Complex</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>ID</ParameterName>
+            <ParameterLabel>Идентификатор(с дължина от 6 до 16 символа)</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>0</OrderNumber>
+            <IdentifierType>7</IdentifierType>
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>TYPE</ParameterName>
+            <ParameterLabel>Вид на идентификатора</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>1</OrderNumber>
+            <ParameterType>
+              <Type>EikTypeTypeRequest</Type>
+              <EnumValues>
+                <EnumValue>
+                  <Value>Bulstat</Value>
+                  <DisplayText>БУЛСТАТ</DisplayText>
+                  <IdentifierType>4</IdentifierType>
+                </EnumValue>
+                <EnumValue>
+                  <Value>EGN</Value>
+                  <DisplayText>ЕГН</DisplayText>
+                  <IdentifierType>1</IdentifierType>
+                </EnumValue>
+                <EnumValue>
+                  <Value>LNC</Value>
+                  <DisplayText>ЛНЧ</DisplayText>
+                  <IdentifierType>2</IdentifierType>
+                </EnumValue>
+                <EnumValue>
+                  <Value>SystemNo</Value>
+                  <DisplayText>Сл. номер</DisplayText>
+                </EnumValue>
+                <EnumValue>
+                  <Value>BulstatCL</Value>
+                  <DisplayText>БУЛСТАТ(СЛ)</DisplayText>
+                </EnumValue>
+              </EnumValues>
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+      </ChildParamteters>
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>ContractsFilter</ParameterName>
+        <ParameterLabel>Филтър за трудови договори</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>3</OrderNumber>
+        <ParameterType>
+          <Type>ContractsFilterType</Type>
+          <EnumValues>
+            <EnumValue>
+              <Value>All</Value>
+              <DisplayText>Всички трудови договори</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>Active</Value>
+              <DisplayText>Действащи трудови договори</DisplayText>
+            </EnumValue>
+          </EnumValues>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

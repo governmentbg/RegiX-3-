@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.IdentityServer", "RegiX.IdentityServer\RegiX.IdentityServer.csproj", "{599D081F-B000-4516-940A-9B0B42F4793C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{646D94B9-E495-45AB-9C47-AEF67A0ACDB5}"
+	ProjectSection(SolutionItems) = preProject
+		azure-devops.yaml = azure-devops.yaml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.IdentityServer.AdminAppCredentials", "RegiX.IdentityServer.AdminAppCredentials\RegiX.IdentityServer.AdminAppCredentials.csproj", "{5B634558-4482-4590-9F1F-BF7C3B0B6702}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.IdentityServer.ClientAppCredentials", "RegiX.IdentityServer.ClientAppCredentials\RegiX.IdentityServer.ClientAppCredentials.csproj", "{88419954-5713-4DBC-AFBD-EDF6BDE92C54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.IdentityServer.ClientAppCredentials.Tests", "RegiX.IdentityServer.ClientAppCredentials.Tests\RegiX.IdentityServer.ClientAppCredentials.Tests.csproj", "{DA381332-F62D-42CD-A2FC-EB92AE673C59}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.IdentityServer.AdminAppCredentials.Tests", "RegiX.IdentityServer.AdminAppCredentials.Tests\RegiX.IdentityServer.AdminAppCredentials.Tests.csproj", "{6F557A91-E727-474A-B930-5D7018913A55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.IdentityServer.AdapterConsoleAppCredentials", "RegiX.IdentityServer.AdapterConsoleAppCredentials\RegiX.IdentityServer.AdapterConsoleAppCredentials.csproj", "{781E84C9-5E02-4D0D-8821-EDBBBD90E4D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.IdentityServer.TestClientClaims", "RegiX.IdentityServer.TestClientClaims\RegiX.IdentityServer.TestClientClaims.csproj", "{10CEF4A2-1937-4BF8-877A-696049045E30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.IdentityServer.ConsumerProfileCredentials", "RegiX.IdentityServer.ConsumerProfileCredentials\RegiX.IdentityServer.ConsumerProfileCredentials.csproj", "{BEC294E3-434D-4F2F-888A-454E00F41F65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.IdentityServer.ConsumerProfileCredentials.Tests", "RegiX.IdentityServer.ConsumerProfileCredentials.Tests\RegiX.IdentityServer.ConsumerProfileCredentials.Tests.csproj", "{CA78E44F-20EE-499F-A944-96B12CDFE0EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{599D081F-B000-4516-940A-9B0B42F4793C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{599D081F-B000-4516-940A-9B0B42F4793C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{599D081F-B000-4516-940A-9B0B42F4793C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{599D081F-B000-4516-940A-9B0B42F4793C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B634558-4482-4590-9F1F-BF7C3B0B6702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B634558-4482-4590-9F1F-BF7C3B0B6702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B634558-4482-4590-9F1F-BF7C3B0B6702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B634558-4482-4590-9F1F-BF7C3B0B6702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88419954-5713-4DBC-AFBD-EDF6BDE92C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88419954-5713-4DBC-AFBD-EDF6BDE92C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88419954-5713-4DBC-AFBD-EDF6BDE92C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88419954-5713-4DBC-AFBD-EDF6BDE92C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA381332-F62D-42CD-A2FC-EB92AE673C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA381332-F62D-42CD-A2FC-EB92AE673C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA381332-F62D-42CD-A2FC-EB92AE673C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA381332-F62D-42CD-A2FC-EB92AE673C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F557A91-E727-474A-B930-5D7018913A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F557A91-E727-474A-B930-5D7018913A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F557A91-E727-474A-B930-5D7018913A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F557A91-E727-474A-B930-5D7018913A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{781E84C9-5E02-4D0D-8821-EDBBBD90E4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781E84C9-5E02-4D0D-8821-EDBBBD90E4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781E84C9-5E02-4D0D-8821-EDBBBD90E4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781E84C9-5E02-4D0D-8821-EDBBBD90E4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10CEF4A2-1937-4BF8-877A-696049045E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10CEF4A2-1937-4BF8-877A-696049045E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10CEF4A2-1937-4BF8-877A-696049045E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10CEF4A2-1937-4BF8-877A-696049045E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC294E3-434D-4F2F-888A-454E00F41F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC294E3-434D-4F2F-888A-454E00F41F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC294E3-434D-4F2F-888A-454E00F41F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC294E3-434D-4F2F-888A-454E00F41F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA78E44F-20EE-499F-A944-96B12CDFE0EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA78E44F-20EE-499F-A944-96B12CDFE0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA78E44F-20EE-499F-A944-96B12CDFE0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA78E44F-20EE-499F-A944-96B12CDFE0EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EFEB59E-B9F5-446A-90E8-D5B81295B67C}
+	EndGlobalSection
+EndGlobal

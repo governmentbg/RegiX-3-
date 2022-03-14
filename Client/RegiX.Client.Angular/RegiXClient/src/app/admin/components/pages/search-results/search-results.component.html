@@ -1,0 +1,22 @@
+<div class="table-title-wrapper">
+  <igx-linear-bar
+    *ngIf="isDataLoading"
+    [indeterminate]="true"
+  ></igx-linear-bar>
+  <div
+    class="page-wrapper"
+    igxLayout
+    igxLayoutDir="column"
+    *ngIf="!isDataLoading"
+  >
+<tl-card
+  [title]="'Резултати от търсене'"
+  [listItems]="items"
+  [icon]="'search'"
+  [subTitle]="term"
+  [displayDensity]="'cosy'"
+  [permissions]="[]"
+>
+</tl-card>
+</div>
+</div>

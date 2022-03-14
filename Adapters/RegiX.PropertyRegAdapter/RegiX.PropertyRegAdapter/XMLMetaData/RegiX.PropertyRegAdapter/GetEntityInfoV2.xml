@@ -1,0 +1,54 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.PropertyRegAdapter.APIService.IPropertyRegAPI.GetEntityInfoV2</OperationName>
+  <Code>GetEntityInfoV2</Code>
+  <ControllerName>AVPropertyRegAPI</ControllerName>
+  <Resource>GetEntityInfoV2Request</Resource>
+  <RequestObjectName>EntityInfoV2Request</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/AV/PropertyReg/EntityInfoV2Request</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка по персонална партида на юридическо лице - V2</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>EIK</ParameterName>
+        <ParameterLabel>ЕИК</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>DateFrom</ParameterName>
+        <ParameterLabel>От дата</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>DateTime</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>DateTo</ParameterName>
+        <ParameterLabel>До дата</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>DateTime</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

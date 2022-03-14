@@ -1,0 +1,194 @@
+<ActualStateResponseV2 xmlns="http://egov.bg/RegiX/AV/TR/ActualStateResponseV2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <Deed>
+                <DeedStatus>N</DeedStatus>
+                <CompanyName>ФАТМЕ МОЛЛОВА - 72</CompanyName>
+                <GUID>93769a452b2643938d6c130b35eff082</GUID>
+                <UIC>204570416</UIC>
+                <LegalForm>ET</LegalForm>
+                <Records>
+                  <Record>
+                    <RecordData>
+                      <UIC uic="204570416" IsNew="true">
+                        <CompanyControl />
+                        <BulstatDeed>
+                          <Deed />
+                          <Year />
+                          <CourtCode />
+                        </BulstatDeed>
+                      </UIC>
+                    </RecordData>
+                    <RecordId>150627966</RecordId>
+                    <IncomingId>22967144</IncomingId>
+                    <FieldIdent>00010</FieldIdent>
+                    <MainField>
+                      <GroupId>45</GroupId>
+                      <GroupName>Идентификация</GroupName>
+                      <SectionId>414</SectionId>
+                      <SectionName>Обща информация</SectionName>
+                      <MainFieldIdent>00010</MainFieldIdent>
+                      <MainFieldCode>1</MainFieldCode>
+                      <MainFieldName>ЕИК/ПИК</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170428134002</FieldEntryNumber>
+                    <FieldActionDate>2017-04-28T13:40:02</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Company>ФАТМЕ МОЛЛОВА - 72</Company>
+                    </RecordData>
+                    <RecordId>150628066</RecordId>
+                    <IncomingId>22967144</IncomingId>
+                    <FieldIdent>00020</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00020</MainFieldIdent>
+                      <MainFieldCode>2</MainFieldCode>
+                      <MainFieldName>Фирма</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170428134002</FieldEntryNumber>
+                    <FieldActionDate>2017-04-28T13:40:02</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <LegalForm Text="Едноличен търговец" Code="1" />
+                    </RecordData>
+                    <RecordId>150627967</RecordId>
+                    <IncomingId>22967144</IncomingId>
+                    <FieldIdent>00030</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00030</MainFieldIdent>
+                      <MainFieldCode>3</MainFieldCode>
+                      <MainFieldName>Правна форма</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170428134002</FieldEntryNumber>
+                    <FieldActionDate>2017-04-28T13:40:02</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Seat>
+                        <Address>
+                          <CountryID>1</CountryID>
+                          <CountryCode>BGR</CountryCode>
+                          <Country>БЪЛГАРИЯ</Country>
+                          <IsForeign>false</IsForeign>
+                          <DistrictID>50</DistrictID>
+                          <DistrictEkatte>SML</DistrictEkatte>
+                          <District>Смолян</District>
+                          <Municipalityid>138</Municipalityid>
+                          <MunicipalityEkatte>SML16</MunicipalityEkatte>
+                          <Municipality>Мадан</Municipality>
+                          <SettlementID>1916</SettlementID>
+                          <SettlementEKATTE>46045</SettlementEKATTE>
+                          <Settlement>гр. Мадан</Settlement>
+                          <AreaID xsi:nil="true" />
+                          <Area />
+                          <AreaEkatte />
+                          <PostCode>4900</PostCode>
+                          <ForeignPlace />
+                          <HousingEstate />
+                          <Street>УЛ. ГЕОЛОЖКА</Street>
+                          <StreetNumber />
+                          <Block>16</Block>
+                          <Entrance />
+                          <Floor />
+                          <Apartment>23</Apartment>
+                        </Address>
+                        <Contacts>
+                          <Phone />
+                          <Fax />
+                          <EMail />
+                          <URL />
+                        </Contacts>
+                      </Seat>
+                    </RecordData>
+                    <RecordId>150628067</RecordId>
+                    <IncomingId>22967144</IncomingId>
+                    <FieldIdent>00050</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00050</MainFieldIdent>
+                      <MainFieldCode>5</MainFieldCode>
+                      <MainFieldName>Седалище и адрес на управление</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170428134002</FieldEntryNumber>
+                    <FieldActionDate>2017-04-28T13:40:02</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <SubjectOfActivity IsBank="false" IsBankText="" IsInsurer="false" IsInsurerText="">ТЪРГОВИЯ НА ДРЕБНО И ЕДРО  С ХРАНИТЕЛНИ, ПРОМИШЛЕНИ И ДРУГИ РАЗНООБРАЗНИ СТОКИ, РЕСТОРАНТЬОРСКИ ДЕЙНОСТИ, ПИТЕЙНИ ЗАВЕДЕНИЯ, ХОТЕЛИЕРСКИ УСЛУГИ. ОСЪЩЕСТВЯВАНЕ НА ДЕЙНОСТИ И УСЛУГИ БЕЗ ЗАБРАНЕНИТЕ ОТ ЗАКОНА.</SubjectOfActivity>
+                    </RecordData>
+                    <RecordId>150628068</RecordId>
+                    <IncomingId>22967144</IncomingId>
+                    <FieldIdent>00060</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00060</MainFieldIdent>
+                      <MainFieldCode>6</MainFieldCode>
+                      <MainFieldName>Предмет на дейност</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170428134002</FieldEntryNumber>
+                    <FieldActionDate>2017-04-28T13:40:02</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <SubjectOfActivityNKID codeNkid="5630" textNkid="ДЕЙНОСТ НА ПИТЕЙНИ ЗАВЕДЕНИЯ" idNkid="" />
+                    </RecordData>
+                    <RecordId>150628069</RecordId>
+                    <IncomingId>22967144</IncomingId>
+                    <FieldIdent>00061</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00061</MainFieldIdent>
+                      <MainFieldCode>6а</MainFieldCode>
+                      <MainFieldName>Основна дейност по НКИД</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170428134002</FieldEntryNumber>
+                    <FieldActionDate>2017-04-28T13:40:02</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <PhysicalPersonTrader>
+                        <Person CompetentAuthorityForRegistration="" RegistrationNumber="" IsForeignTraderText="0">
+                          <Indent>2244224422</Indent>
+                          <Name>ФАТМЕ ТАХИРОВА МОЛЛОВА</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID>1</CountryID>
+                          <CountryName>БЪЛГАРИЯ</CountryName>
+                        </Person>
+                      </PhysicalPersonTrader>
+                    </RecordData>
+                    <RecordId>150628072</RecordId>
+                    <IncomingId>22967144</IncomingId>
+                    <FieldIdent>00180</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00180</MainFieldIdent>
+                      <MainFieldCode>18</MainFieldCode>
+                      <MainFieldName>Физическо лице-търговец</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170428134002</FieldEntryNumber>
+                    <FieldActionDate>2017-04-28T13:40:02</FieldActionDate>
+                  </Record>
+                </Records>
+              </Deed>
+              <DataValidForDate>2017-06-05T14:46:22.7242942+03:00</DataValidForDate>
+            </ActualStateResponseV2>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SendDataForCollectionAppealToIORequest xmlns="http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForCollectionAppealToIORequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Collection>
+    <ActIssurerID>2</ActIssurerID>
+    <SubdivisionID>1</SubdivisionID>
+    <CollectibleID>1</CollectibleID>
+    <SubdivisionEIK>aaaaaaaaa</SubdivisionEIK>
+    <AppealDocNo>a</AppealDocNo>
+    <AppealDocDate>1967-08-13</AppealDocDate>
+    <AppealStatus>1</AppealStatus>
+    <AppealDate>1967-08-13</AppealDate>
+    <EnforcementDate>1967-08-13</EnforcementDate>
+  </Collection>
+</SendDataForCollectionAppealToIORequest>

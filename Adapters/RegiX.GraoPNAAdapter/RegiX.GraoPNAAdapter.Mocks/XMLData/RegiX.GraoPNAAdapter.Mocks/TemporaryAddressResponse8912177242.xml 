@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<TemporaryAddressResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/PNA/TemporaryAddressResponse">
+  <DistrictCode>SF</DistrictCode>
+  <DistrictName>Бургас</DistrictName>
+  <MunicipalityCode>SF</MunicipalityCode>
+  <MunicipalityName>Бургас</MunicipalityName>
+  <SettlementCode>BG001</SettlementCode>
+  <SettlementName>гр. Бургас</SettlementName>
+  <CityAreaCode>SL</CityAreaCode>
+  <CityArea/>
+  <LocationCode/>
+  <LocationName>ул. Цар Самуил</LocationName>
+  <BuildingNumber>15</BuildingNumber>
+  <Entrance>2</Entrance>
+  <Floor>2</Floor>
+  <Apartment>4</Apartment>
+  <FromDate>2005-03-12</FromDate>
+</TemporaryAddressResponse>

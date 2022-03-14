@@ -1,0 +1,21 @@
+
+        <div style="padding: 1rem; margin: 1">
+          <tl-card
+            class="tl-card"
+            [cardContent]="content"
+            [title]="adapterDevelopmentRoute.title"
+            [icon]="adapterDevelopmentRoute.icon"
+            [permissions]="[]"
+          >
+            <ng-template #content>
+              <div style="padding: 1rem">
+                <markdown [src]="source"></markdown>
+              </div>
+            </ng-template>
+          </tl-card>
+        </div>
+
+
+
+
+

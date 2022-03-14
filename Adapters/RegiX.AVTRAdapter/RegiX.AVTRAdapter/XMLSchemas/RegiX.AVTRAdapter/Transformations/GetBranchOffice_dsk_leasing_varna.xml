@@ -1,0 +1,790 @@
+﻿<GetBranchOfficeResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AV/TR/GetBranchOfficeResponse">
+	<Deed>
+		<DeedStatus xmlns="http://egov.bg/RegiX/AV/TR/SubdeedsCommon">N</DeedStatus>
+		<CompanyName xmlns="http://egov.bg/RegiX/AV/TR/SubdeedsCommon">ДСК ЛИЗИНГ АД</CompanyName>
+		<GUID xmlns="http://egov.bg/RegiX/AV/TR/SubdeedsCommon">94CE5DE4A60D44B995380BC7AA273925</GUID>
+		<UIC xmlns="http://egov.bg/RegiX/AV/TR/SubdeedsCommon">131413749</UIC>
+		<LegalForm xmlns="http://egov.bg/RegiX/AV/TR/SubdeedsCommon">ET</LegalForm>
+		<CaseNo xmlns="http://egov.bg/RegiX/AV/TR/SubdeedsCommon">4821</CaseNo>
+		<CaseYear xmlns="http://egov.bg/RegiX/AV/TR/SubdeedsCommon">2005</CaseYear>
+		<CourtNo xmlns="http://egov.bg/RegiX/AV/TR/SubdeedsCommon">110</CourtNo>
+		<LiquidationOrInsolvency xmlns="http://egov.bg/RegiX/AV/TR/SubdeedsCommon">InsolvencySecIns</LiquidationOrInsolvency>
+		<Subdeeds xmlns="http://egov.bg/RegiX/AV/TR/SubdeedsCommon">
+			<Subdeed SubUIC="0011" SubUICType="1" SubdeedStatus="A">
+				<Records>
+					<Record>
+						<RecordData>
+							<UIC uic="131413749" IsNew="true">
+								<CompanyControl>ДСК ЛИЗИНГ</CompanyControl>
+								<BulstatDeed>
+									<Deed>4821</Deed>
+									<Year>2005</Year>
+									<CourtCode>110</CourtCode>
+								</BulstatDeed>
+							</UIC>
+						</RecordData>
+						<RecordId>10187415</RecordId>
+						<IncomingId>3182331</IncomingId>
+						<FieldIdent>00010</FieldIdent>
+						<MainField>
+							<GroupId>45</GroupId>
+							<GroupName>Идентификация</GroupName>
+							<SectionId>414</SectionId>
+							<SectionName>Обща информация</SectionName>
+							<MainFieldIdent>00010</MainFieldIdent>
+							<MainFieldCode>1</MainFieldCode>
+							<MainFieldName>ЕИК/ПИК</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20090916161437</FieldEntryNumber>
+						<FieldActionDate>2009-09-16T16:14:37</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<Company>ДСК ЛИЗИНГ</Company>
+						</RecordData>
+						<RecordId>10187416</RecordId>
+						<IncomingId>3182331</IncomingId>
+						<FieldIdent>00020</FieldIdent>
+						<MainField>
+							<GroupId>415</GroupId>
+							<GroupName>Основни обстоятелства</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00020</MainFieldIdent>
+							<MainFieldCode>2</MainFieldCode>
+							<MainFieldName>Фирма</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20090916161437</FieldEntryNumber>
+						<FieldActionDate>2009-09-16T16:14:37</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<LegalForm Text="Акционерно дружество" Code="5" />
+						</RecordData>
+						<RecordId>10187418</RecordId>
+						<IncomingId>3182331</IncomingId>
+						<FieldIdent>00030</FieldIdent>
+						<MainField>
+							<GroupId>415</GroupId>
+							<GroupName>Основни обстоятелства</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00030</MainFieldIdent>
+							<MainFieldCode>3</MainFieldCode>
+							<MainFieldName>Правна форма</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20090916161437</FieldEntryNumber>
+						<FieldActionDate>2009-09-16T16:14:37</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<Transliteration>DSK LEASING AD</Transliteration>
+						</RecordData>
+						<RecordId>10187422</RecordId>
+						<IncomingId>3182331</IncomingId>
+						<FieldIdent>00040</FieldIdent>
+						<MainField>
+							<GroupId>415</GroupId>
+							<GroupName>Основни обстоятелства</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00040</MainFieldIdent>
+							<MainFieldCode>4</MainFieldCode>
+							<MainFieldName>Изписване на чужд език</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20090916161437</FieldEntryNumber>
+						<FieldActionDate>2009-09-16T16:14:37</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<Seat>
+								<Address>
+									<CountryID>1</CountryID>
+									<CountryCode>BGR</CountryCode>
+									<Country>БЪЛГАРИЯ</Country>
+									<IsForeign>false</IsForeign>
+									<DistrictID>1</DistrictID>
+									<DistrictEkatte>SOF</DistrictEkatte>
+									<District>София (столица)</District>
+									<Municipalityid>1</Municipalityid>
+									<MunicipalityEkatte>SOF46</MunicipalityEkatte>
+									<Municipality>Столична</Municipality>
+									<SettlementID>1</SettlementID>
+									<SettlementEKATTE>68134</SettlementEKATTE>
+									<Settlement>гр. София</Settlement>
+									<AreaID>5346</AreaID>
+									<Area>р-н Възраждане</Area>
+									<AreaEkatte>68134-03</AreaEkatte>
+									<PostCode>1303</PostCode>
+									<ForeignPlace />
+									<HousingEstate />
+									<Street>бул. АЛ. СТАМБОЛИЙСКИ</Street>
+									<StreetNumber>101, Мол София, София Тауър</StreetNumber>
+									<Block />
+									<Entrance />
+									<Floor>4</Floor>
+									<Apartment />
+								</Address>
+								<Contacts>
+									<Phone>8100511</Phone>
+									<Fax>9802291</Fax>
+									<EMail>auto@dskleasing.bg</EMail>
+									<URL>www.dskleasing.bg</URL>
+								</Contacts>
+							</Seat>
+						</RecordData>
+						<RecordId>10187417</RecordId>
+						<IncomingId>3206633</IncomingId>
+						<FieldIdent>00050</FieldIdent>
+						<MainField>
+							<GroupId>415</GroupId>
+							<GroupName>Основни обстоятелства</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00050</MainFieldIdent>
+							<MainFieldCode>5</MainFieldCode>
+							<MainFieldName>Седалище и адрес на управление</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20090924164156</FieldEntryNumber>
+						<FieldActionDate>2009-09-24T16:41:56</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<SeatForCorrespondence>
+								<Address>
+									<CountryID>1</CountryID>
+									<CountryCode>BGR</CountryCode>
+									<Country>БЪЛГАРИЯ</Country>
+									<IsForeign>false</IsForeign>
+									<DistrictID>1</DistrictID>
+									<DistrictEkatte>SOF</DistrictEkatte>
+									<District>София (столица)</District>
+									<Municipalityid>1</Municipalityid>
+									<MunicipalityEkatte>SOF46</MunicipalityEkatte>
+									<Municipality>Столична</Municipality>
+									<SettlementID>1</SettlementID>
+									<SettlementEKATTE>68134</SettlementEKATTE>
+									<Settlement>гр. София</Settlement>
+									<AreaID>5345</AreaID>
+									<Area>р-н Красно село</Area>
+									<AreaEkatte>68134-02</AreaEkatte>
+									<PostCode>1303</PostCode>
+									<ForeignPlace />
+									<HousingEstate />
+									<Street>бул. АЛ.СТАМБОЛИЙСКИ</Street>
+									<StreetNumber>101</StreetNumber>
+									<Block>Мол София</Block>
+									<Entrance>София Тауър</Entrance>
+									<Floor>4</Floor>
+									<Apartment />
+								</Address>
+							</SeatForCorrespondence>
+						</RecordData>
+						<RecordId>10187423</RecordId>
+						<IncomingId>3182331</IncomingId>
+						<FieldIdent>00051</FieldIdent>
+						<MainField>
+							<GroupId>415</GroupId>
+							<GroupName>Основни обстоятелства</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00051</MainFieldIdent>
+							<MainFieldCode>5а</MainFieldCode>
+							<MainFieldName>Адрес за кореспонденция с НАП на територията на страната</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20090916161437</FieldEntryNumber>
+						<FieldActionDate>2009-09-16T16:14:37</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<SubjectOfActivity IsBank="false" IsBankText="" IsInsurer="false" IsInsurerText="">Финансов лизинг</SubjectOfActivity>
+						</RecordData>
+						<RecordId>10187424</RecordId>
+						<IncomingId>15424089</IncomingId>
+						<FieldIdent>00060</FieldIdent>
+						<MainField>
+							<GroupId>415</GroupId>
+							<GroupName>Основни обстоятелства</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00060</MainFieldIdent>
+							<MainFieldCode>6</MainFieldCode>
+							<MainFieldName>Предмет на дейност</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20140828104704</FieldEntryNumber>
+						<FieldActionDate>2014-08-28T10:47:04</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<SubjectOfActivityNKID codeNkid="64.91" textNkid="Финансов лизинг" idNkid="1533" />
+						</RecordData>
+						<RecordId>10187425</RecordId>
+						<IncomingId>3182331</IncomingId>
+						<FieldIdent>00061</FieldIdent>
+						<MainField>
+							<GroupId>415</GroupId>
+							<GroupName>Основни обстоятелства</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00061</MainFieldIdent>
+							<MainFieldCode>6а</MainFieldCode>
+							<MainFieldName>Основна дейност по НКИД</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20090916161437</FieldEntryNumber>
+						<FieldActionDate>2009-09-16T16:14:37</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<Representative>
+								<Subject IsForeignTraderText="0">
+									<Indent>7009116545</Indent>
+									<Name>Костадин Димитров Караджов</Name>
+									<IndentType>EGN</IndentType>
+									<CountryID>1</CountryID>
+									<CountryName>БЪЛГАРИЯ</CountryName>
+								</Subject>
+								<Person IsForeignTraderText="0">
+									<Indent />
+									<Name />
+									<IndentType>Undefined</IndentType>
+									<CountryID xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+									<CountryName />
+								</Person>
+							</Representative>
+						</RecordData>
+						<RecordId>18495284</RecordId>
+						<IncomingId>5524238</IncomingId>
+						<FieldIdent>001000</FieldIdent>
+						<MainField>
+							<GroupId>415</GroupId>
+							<GroupName>Основни обстоятелства</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00100</MainFieldIdent>
+							<MainFieldCode>10</MainFieldCode>
+							<MainFieldName>Представители</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20101130133048</FieldEntryNumber>
+						<FieldActionDate>2010-11-30T13:30:48</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<ManagerMandate2 MandateTypeText="3(три) години, считано от 01.12.2016 г." />
+						</RecordData>
+						<RecordId>10187431</RecordId>
+						<IncomingId>21982166</IncomingId>
+						<FieldIdent>001320</FieldIdent>
+						<MainField>
+							<GroupId>415</GroupId>
+							<GroupName>Основни обстоятелства</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00132</MainFieldIdent>
+							<MainFieldCode>13</MainFieldCode>
+							<MainFieldName>Управителен съвет</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20161108171316</FieldEntryNumber>
+						<FieldActionDate>2016-11-08T17:13:16</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<BoardManager2>
+								<Subject IsForeignTraderText="0">
+									<Indent>750802</Indent>
+									<Name>Жолт Бакшай</Name>
+									<IndentType>BirthDate</IndentType>
+									<CountryID>99</CountryID>
+									<CountryName>УНГАРИЯ</CountryName>
+								</Subject>
+							</BoardManager2>
+						</RecordData>
+						<RecordId>11242290</RecordId>
+						<IncomingId>3518760</IncomingId>
+						<FieldIdent>001321</FieldIdent>
+						<MainField>
+							<GroupId>415</GroupId>
+							<GroupName>Основни обстоятелства</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00132</MainFieldIdent>
+							<MainFieldCode>13</MainFieldCode>
+							<MainFieldName>Управителен съвет</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20161108171316</FieldEntryNumber>
+						<FieldActionDate>2016-11-08T17:13:16</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<BoardManager2>
+								<Subject IsForeignTraderText="0">
+									<Indent>7009116545</Indent>
+									<Name>Костадин Димитров Караджов</Name>
+									<IndentType>EGN</IndentType>
+									<CountryID>1</CountryID>
+									<CountryName>БЪЛГАРИЯ</CountryName>
+								</Subject>
+							</BoardManager2>
+						</RecordData>
+						<RecordId>18495338</RecordId>
+						<IncomingId>5524238</IncomingId>
+						<FieldIdent>001321</FieldIdent>
+						<MainField>
+							<GroupId>415</GroupId>
+							<GroupName>Основни обстоятелства</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00132</MainFieldIdent>
+							<MainFieldCode>13</MainFieldCode>
+							<MainFieldName>Управителен съвет</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20161108171316</FieldEntryNumber>
+						<FieldActionDate>2016-11-08T17:13:16</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<BoardManager2>
+								<Subject IsForeignTraderText="0">
+									<Indent>7705246839</Indent>
+									<Name>Лилия Христова Стефанова</Name>
+									<IndentType>EGN</IndentType>
+									<CountryID>1</CountryID>
+									<CountryName>БЪЛГАРИЯ</CountryName>
+								</Subject>
+							</BoardManager2>
+						</RecordData>
+						<RecordId>21914720</RecordId>
+						<IncomingId>6674302</IncomingId>
+						<FieldIdent>001321</FieldIdent>
+						<MainField>
+							<GroupId>415</GroupId>
+							<GroupName>Основни обстоятелства</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00132</MainFieldIdent>
+							<MainFieldCode>13</MainFieldCode>
+							<MainFieldName>Управителен съвет</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20161108171316</FieldEntryNumber>
+						<FieldActionDate>2016-11-08T17:13:16</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<SupervisingBoardMandate MandateTypeText="">22.12.2019</SupervisingBoardMandate>
+						</RecordData>
+						<RecordId>10187435</RecordId>
+						<IncomingId>20415943</IncomingId>
+						<FieldIdent>001400</FieldIdent>
+						<MainField>
+							<GroupId>415</GroupId>
+							<GroupName>Основни обстоятелства</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00140</MainFieldIdent>
+							<MainFieldCode>14</MainFieldCode>
+							<MainFieldName>Надзорен съвет</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20160419160019</FieldEntryNumber>
+						<FieldActionDate>2016-04-19T16:00:19</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<Supervisor>
+								<Subject IsForeignTraderText="0">
+									<Indent>701219</Indent>
+									<Name>Золтан Тубой</Name>
+									<IndentType>BirthDate</IndentType>
+									<CountryID>99</CountryID>
+									<CountryName>УНГАРИЯ</CountryName>
+								</Subject>
+							</Supervisor>
+						</RecordData>
+						<RecordId>10238410</RecordId>
+						<IncomingId>3198092</IncomingId>
+						<FieldIdent>001401</FieldIdent>
+						<MainField>
+							<GroupId>415</GroupId>
+							<GroupName>Основни обстоятелства</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00140</MainFieldIdent>
+							<MainFieldCode>14</MainFieldCode>
+							<MainFieldName>Надзорен съвет</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20160419160019</FieldEntryNumber>
+						<FieldActionDate>2016-04-19T16:00:19</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<Supervisor>
+								<Subject IsForeignTraderText="0">
+									<Indent>770527</Indent>
+									<Name>Кристиян Шелмеци</Name>
+									<IndentType>BirthDate</IndentType>
+									<CountryID>99</CountryID>
+									<CountryName>УНГАРИЯ</CountryName>
+								</Subject>
+							</Supervisor>
+						</RecordData>
+						<RecordId>20112503</RecordId>
+						<IncomingId>5935947</IncomingId>
+						<FieldIdent>001401</FieldIdent>
+						<MainField>
+							<GroupId>415</GroupId>
+							<GroupName>Основни обстоятелства</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00140</MainFieldIdent>
+							<MainFieldCode>14</MainFieldCode>
+							<MainFieldName>Надзорен съвет</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20160419160019</FieldEntryNumber>
+						<FieldActionDate>2016-04-19T16:00:19</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<Supervisor>
+								<Subject CompetentAuthorityForRegistration="" RegistrationNumber="" IsForeignTraderText="0">
+									<Indent>7708096943</Indent>
+									<Name>Иван Атанасов Атев</Name>
+									<IndentType>EGN</IndentType>
+									<CountryID>1</CountryID>
+									<CountryName>БЪЛГАРИЯ</CountryName>
+								</Subject>
+							</Supervisor>
+						</RecordData>
+						<RecordId>48854373</RecordId>
+						<IncomingId>19509282</IncomingId>
+						<FieldIdent>001401</FieldIdent>
+						<MainField>
+							<GroupId>415</GroupId>
+							<GroupName>Основни обстоятелства</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00140</MainFieldIdent>
+							<MainFieldCode>14</MainFieldCode>
+							<MainFieldName>Надзорен съвет</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20160419160019</FieldEntryNumber>
+						<FieldActionDate>2016-04-19T16:00:19</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<Funds euro="0">3334000</Funds>
+						</RecordData>
+						<RecordId>10187440</RecordId>
+						<IncomingId>15424089</IncomingId>
+						<FieldIdent>00310</FieldIdent>
+						<MainField>
+							<GroupId>16</GroupId>
+							<GroupName>Капитал</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00310</MainFieldIdent>
+							<MainFieldCode>31</MainFieldCode>
+							<MainFieldName>Размер</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20140828104704</FieldEntryNumber>
+						<FieldActionDate>2014-08-28T10:47:04</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<CredentialsForDifferentTypes>на глас, на дивидент</CredentialsForDifferentTypes>
+						</RecordData>
+						<RecordId>10187441</RecordId>
+						<IncomingId>3182331</IncomingId>
+						<FieldIdent>003110</FieldIdent>
+						<MainField>
+							<GroupId>16</GroupId>
+							<GroupName>Капитал</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00311</MainFieldIdent>
+							<MainFieldCode>31а</MainFieldCode>
+							<MainFieldName>Акции</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20140828104704</FieldEntryNumber>
+						<FieldActionDate>2014-08-28T10:47:04</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<Share>
+								<Type>безналични, поименни</Type>
+								<Count>334</Count>
+								<NominalValue>1000</NominalValue>
+							</Share>
+						</RecordData>
+						<RecordId>10238411</RecordId>
+						<IncomingId>3198092</IncomingId>
+						<FieldIdent>003112</FieldIdent>
+						<MainField>
+							<GroupId>16</GroupId>
+							<GroupName>Капитал</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00311</MainFieldIdent>
+							<MainFieldCode>31а</MainFieldCode>
+							<MainFieldName>Акции</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20140828104704</FieldEntryNumber>
+						<FieldActionDate>2014-08-28T10:47:04</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<Share>
+								<Type>безналични,поименни</Type>
+								<Count>3334</Count>
+								<NominalValue>1000</NominalValue>
+							</Share>
+						</RecordData>
+						<RecordId>42622089</RecordId>
+						<IncomingId>15424089</IncomingId>
+						<FieldIdent>003112</FieldIdent>
+						<MainField>
+							<GroupId>16</GroupId>
+							<GroupName>Капитал</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00311</MainFieldIdent>
+							<MainFieldCode>31а</MainFieldCode>
+							<MainFieldName>Акции</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20140828104704</FieldEntryNumber>
+						<FieldActionDate>2014-08-28T10:47:04</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<DepositedFunds euro="0">3334000</DepositedFunds>
+						</RecordData>
+						<RecordId>10187443</RecordId>
+						<IncomingId>15424089</IncomingId>
+						<FieldIdent>00320</FieldIdent>
+						<MainField>
+							<GroupId>16</GroupId>
+							<GroupName>Капитал</GroupName>
+							<SectionId>1</SectionId>
+							<SectionName>Общ статус</SectionName>
+							<MainFieldIdent>00320</MainFieldIdent>
+							<MainFieldCode>32</MainFieldCode>
+							<MainFieldName>Внесен капитал</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20140828104704</FieldEntryNumber>
+						<FieldActionDate>2014-08-28T10:47:04</FieldActionDate>
+					</Record>
+				</Records>
+			</Subdeed>
+			<Subdeed SubUIC="0026" SubUICType="3" SubdeedStatus="A" SubUICName="ДСК ЛИЗИНГ АД - КЛОН ВАРНА">
+				<Records>
+					<Record>
+						<RecordData>
+							<BranchSeat>
+								<Address>
+									<CountryID>1</CountryID>
+									<CountryCode>BGR</CountryCode>
+									<Country>БЪЛГАРИЯ</Country>
+									<IsForeign>false</IsForeign>
+									<DistrictID>32</DistrictID>
+									<DistrictEkatte>VAR</DistrictEkatte>
+									<District>Варна</District>
+									<Municipalityid>42</Municipalityid>
+									<MunicipalityEkatte>VAR06</MunicipalityEkatte>
+									<Municipality>Варна</Municipality>
+									<SettlementID>1127</SettlementID>
+									<SettlementEKATTE>10135</SettlementEKATTE>
+									<Settlement>гр. Варна</Settlement>
+									<AreaID>5334</AreaID>
+									<Area>р-н Приморски</Area>
+									<AreaEkatte>10135-02</AreaEkatte>
+									<PostCode>9000</PostCode>
+									<ForeignPlace />
+									<HousingEstate />
+									<Street>бул. "Чаталджа"</Street>
+									<StreetNumber>20</StreetNumber>
+									<Block />
+									<Entrance>В</Entrance>
+									<Floor />
+									<Apartment>15</Apartment>
+								</Address>
+								<Contacts>
+									<Phone />
+									<Fax />
+									<EMail />
+									<URL />
+								</Contacts>
+							</BranchSeat>
+						</RecordData>
+						<RecordId>10187495</RecordId>
+						<IncomingId>22415863</IncomingId>
+						<FieldIdent>00510</FieldIdent>
+						<MainField>
+							<GroupId>18</GroupId>
+							<GroupName>Клон</GroupName>
+							<SectionId>3</SectionId>
+							<SectionName>Клонове</SectionName>
+							<MainFieldIdent>00510</MainFieldIdent>
+							<MainFieldCode>51</MainFieldCode>
+							<MainFieldName>Седалище и адрес на управление на клон</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20170127112325</FieldEntryNumber>
+						<FieldActionDate>2017-01-27T11:23:25</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<BranchFirm>ДСК ЛИЗИНГ АД - КЛОН ВАРНА</BranchFirm>
+						</RecordData>
+						<RecordId>10187493</RecordId>
+						<IncomingId>3182331</IncomingId>
+						<FieldIdent>00511</FieldIdent>
+						<MainField>
+							<GroupId>18</GroupId>
+							<GroupName>Клон</GroupName>
+							<SectionId>3</SectionId>
+							<SectionName>Клонове</SectionName>
+							<MainFieldIdent>00511</MainFieldIdent>
+							<MainFieldCode>51а</MainFieldCode>
+							<MainFieldName>Фирма на клон</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20090916161437</FieldEntryNumber>
+						<FieldActionDate>2009-09-16T16:14:37</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<BranchIdentifier>0026</BranchIdentifier>
+						</RecordData>
+						<RecordId>10187494</RecordId>
+						<IncomingId>3182331</IncomingId>
+						<FieldIdent>00512</FieldIdent>
+						<MainField>
+							<GroupId>18</GroupId>
+							<GroupName>Клон</GroupName>
+							<SectionId>3</SectionId>
+							<SectionName>Клонове</SectionName>
+							<MainFieldIdent>00512</MainFieldIdent>
+							<MainFieldCode>51б</MainFieldCode>
+							<MainFieldName>ЕИК на клон</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20090916161437</FieldEntryNumber>
+						<FieldActionDate>2009-09-16T16:14:37</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<BranchSubjectOfActivity>придобиване на промишлено и търговско оборудване, превозни средства и недвижимо имущество чрез договори за покупко-продажба или лизингови сделки и предоставянето му впоследствие чрез всички видове лизингови сделки на физически лица или дружества потребители от всякакъв вид, всички обслужващи дейности, свързани с изпълнението на договорите за лизинг, вкл. транспортна и спедиторска дейност в страната и в чужбина, търговско представителство и посредничество на български и чуждестранни физически и юридически лица в страната и в чужбина, както и всякакви други дейности, незабранени от българските закони</BranchSubjectOfActivity>
+						</RecordData>
+						<RecordId>10187496</RecordId>
+						<IncomingId>3182331</IncomingId>
+						<FieldIdent>00520</FieldIdent>
+						<MainField>
+							<GroupId>18</GroupId>
+							<GroupName>Клон</GroupName>
+							<SectionId>3</SectionId>
+							<SectionName>Клонове</SectionName>
+							<MainFieldIdent>00520</MainFieldIdent>
+							<MainFieldCode>52</MainFieldCode>
+							<MainFieldName>Предмет на дейност на клон</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20090916161437</FieldEntryNumber>
+						<FieldActionDate>2009-09-16T16:14:37</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<MainActivityNKID codeNkid="64.91" textNkid="Финансов лизинг" idNkid="1533" />
+						</RecordData>
+						<RecordId>10187497</RecordId>
+						<IncomingId>3182331</IncomingId>
+						<FieldIdent>00521</FieldIdent>
+						<MainField>
+							<GroupId>18</GroupId>
+							<GroupName>Клон</GroupName>
+							<SectionId>3</SectionId>
+							<SectionName>Клонове</SectionName>
+							<MainFieldIdent>00521</MainFieldIdent>
+							<MainFieldCode>52а</MainFieldCode>
+							<MainFieldName>Основна дейност по НКИД</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20090916161437</FieldEntryNumber>
+						<FieldActionDate>2009-09-16T16:14:37</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<BranchManager>
+								<Person IsForeignTraderText="0">
+									<Indent>7009116545</Indent>
+									<Name>Костадин Димитров Караджов</Name>
+									<IndentType>EGN</IndentType>
+									<CountryID xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+									<CountryName />
+								</Person>
+								<Address>
+									<CountryID>1</CountryID>
+									<CountryCode>BGR</CountryCode>
+									<Country>БЪЛГАРИЯ</Country>
+									<IsForeign>false</IsForeign>
+									<DistrictID>1</DistrictID>
+									<DistrictEkatte>SOF</DistrictEkatte>
+									<District>София (столица)</District>
+									<Municipalityid>1</Municipalityid>
+									<MunicipalityEkatte>SOF46</MunicipalityEkatte>
+									<Municipality>Столична</Municipality>
+									<SettlementID>1</SettlementID>
+									<SettlementEKATTE>68134</SettlementEKATTE>
+									<Settlement>гр. София</Settlement>
+									<AreaID>5358</AreaID>
+									<Area>р-н Младост</Area>
+									<AreaEkatte>68134-15</AreaEkatte>
+									<PostCode>1750</PostCode>
+									<ForeignPlace />
+									<HousingEstate>Младост 1</HousingEstate>
+									<Street />
+									<StreetNumber>14А</StreetNumber>
+									<Block />
+									<Entrance>1</Entrance>
+									<Floor>4</Floor>
+									<Apartment>16</Apartment>
+								</Address>
+								<Passport>
+									<Number>624388854</Number>
+									<IssueDate>19.09.2007</IssueDate>
+									<IssuedFrom>МВР София</IssuedFrom>
+								</Passport>
+							</BranchManager>
+						</RecordData>
+						<RecordId>21209087</RecordId>
+						<IncomingId>6383268</IncomingId>
+						<FieldIdent>005300</FieldIdent>
+						<MainField>
+							<GroupId>18</GroupId>
+							<GroupName>Клон</GroupName>
+							<SectionId>3</SectionId>
+							<SectionName>Клонове</SectionName>
+							<MainFieldIdent>00530</MainFieldIdent>
+							<MainFieldCode>53</MainFieldCode>
+							<MainFieldName>Управител на клон</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20110330123453</FieldEntryNumber>
+						<FieldActionDate>2011-03-30T12:34:53</FieldActionDate>
+					</Record>
+					<Record>
+						<RecordData>
+							<VolumeOfRepresentationPower>пълен</VolumeOfRepresentationPower>
+						</RecordData>
+						<RecordId>10187499</RecordId>
+						<IncomingId>3182331</IncomingId>
+						<FieldIdent>00540</FieldIdent>
+						<MainField>
+							<GroupId>18</GroupId>
+							<GroupName>Клон</GroupName>
+							<SectionId>3</SectionId>
+							<SectionName>Клонове</SectionName>
+							<MainFieldIdent>00540</MainFieldIdent>
+							<MainFieldCode>54</MainFieldCode>
+							<MainFieldName>Обем на представителна власт</MainFieldName>
+						</MainField>
+						<FieldEntryNumber>20090916161437</FieldEntryNumber>
+						<FieldActionDate>2009-09-16T16:14:37</FieldActionDate>
+					</Record>
+				</Records>
+			</Subdeed>
+		</Subdeeds>
+	</Deed>
+	<DataValidForDate>2018-02-09T10:50:15.593139+02:00</DataValidForDate>
+	<DataFound>true</DataFound>
+</GetBranchOfficeResponse>

@@ -1,0 +1,10 @@
+<MarriageCertificateResponse xmlns="http://egov.bg/RegiX/GRAO/MarriageCertificate/MarriageCertificateResponse">
+  <ManData />
+  <WomanData />
+  <MarriageData>
+	<MarriagePlace />
+  </MarriageData>
+  <MarriageActData>
+	<ActPlace />
+  </MarriageActData>
+</MarriageCertificateResponse>

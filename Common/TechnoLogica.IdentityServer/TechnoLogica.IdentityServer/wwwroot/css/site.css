@@ -1,0 +1,228 @@
+﻿html, body {
+    /*  margin-top: 65px;*/
+    height: 100%;
+    width: 100%
+}
+
+.navbar-header {
+    /* position: relative;
+  top: -4px;*/
+}
+
+.navbar-brand > .icon-banner {
+    position: relative;
+    top: -2px;
+    display: inline;
+}
+
+.icon {
+    position: relative;
+    top: -10px;
+}
+
+.logged-out iframe {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.page-consent .client-logo {
+    float: left;
+}
+
+    .page-consent .client-logo img {
+        width: 80px;
+        height: 80px;
+    }
+
+.page-consent .consent-buttons {
+    margin-top: 25px;
+}
+
+.page-consent .consent-form .consent-scopecheck {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.page-consent .consent-form .consent-description {
+    margin-left: 25px;
+}
+
+    .page-consent .consent-form .consent-description label {
+        font-weight: normal;
+    }
+
+.page-consent .consent-form .consent-remember {
+    padding-left: 16px;
+}
+
+.grants .page-header {
+    margin-bottom: 10px;
+}
+
+.grants .grant {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+    .grants .grant img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .grants .grant .clientname {
+        font-size: 140%;
+        font-weight: bold;
+    }
+
+    .grants .grant .granttype {
+        font-size: 120%;
+        font-weight: bold;
+    }
+
+    .grants .grant .created {
+        font-size: 120%;
+        font-weight: bold;
+    }
+
+    .grants .grant .expires {
+        font-size: 120%;
+        font-weight: bold;
+    }
+
+    .grants .grant li {
+        list-style-type: none;
+        display: inline;
+    }
+
+        .grants .grant li:after {
+            content: ', ';
+        }
+
+        .grants .grant li:last-child:after {
+            content: '';
+        }
+
+@media (max-width: 500px) {
+    .igx-navbar__title {
+        display: inline !important;
+    }
+}
+
+.login-form {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form-logo {
+    width: 50%;
+    height: 100%;
+}
+
+@media (orientation:portrait), (orientation:landscape) and (max-width: 800px) {
+    .login-form-logo {
+        display: none;
+    }
+
+    .login-form {
+        width: 100%;
+    }
+}
+
+.login-form-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inner-wrapper {
+    width: 70%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.buttons-wrapper {
+    width: 100%;
+    padding: 0rem;
+    margin-bottom: 1rem;
+}
+
+.login-button {
+    margin-left: 2px;
+    font-size: 12pt;
+    padding: 15px;
+}
+
+.img-logo-right {
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    object-fit: contain
+}
+
+.redirecting-text {
+    left: 1rem;
+    bottom: 1rem;
+    position: absolute;
+}
+
+.spinner {
+    width: 7rem;
+    height: 2rem;
+    transform-origin: center center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+    .spinner > div {
+        width: 2rem;
+        height: 2rem;
+        background-color: #014F86;
+        border-radius: 100%;
+        display: inline-block;
+        -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+        animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    }
+
+    .spinner .bounce1 {
+        -webkit-animation-delay: -0.32s;
+        animation-delay: -0.32s;
+    }
+
+    .spinner .bounce2 {
+        -webkit-animation-delay: -0.16s;
+        animation-delay: -0.16s;
+    }
+
+@-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0)
+    }
+
+    40% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}

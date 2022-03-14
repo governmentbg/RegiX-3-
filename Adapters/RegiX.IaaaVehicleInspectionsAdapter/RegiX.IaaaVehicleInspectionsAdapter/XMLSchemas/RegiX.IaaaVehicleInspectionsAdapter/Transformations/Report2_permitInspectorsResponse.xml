@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<PermitInspectorsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections/PermitInspectorsResponse">
+  <Inspectors>
+    <Inspector>
+      <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">5104257561</SubjectIdentNumber>
+      <SubjectFullName xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">ДАНАИЛ АСЕНОВ ДИМИТРОВ</SubjectFullName>
+      <CurrentStatus xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">В</CurrentStatus>
+      <IsChairman xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">true</IsChairman>
+      <Permit>
+        <KtpName xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">данаил димитров и сие оод</KtpName>
+        <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">123594602</SubjectIdentNumber>
+        <KtpCityName xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">гр.Стара Загора</KtpCityName>
+        <KtpAddress xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">кв. индустриален кв. 13</KtpAddress>
+        <KtpCategoryLabel xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">II КАТЕГОРИЯ</KtpCategoryLabel>
+        <PermitNumber xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">1157</PermitNumber>
+        <OrgUnitShortName xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">ОО "АА" - Стара Загора</OrgUnitShortName>
+        <PermitStatusCode xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">ВЛ</PermitStatusCode>
+        <PermitStatus xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">Валиден</PermitStatus>
+        <FirstRegDate xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2011-12-07</FirstRegDate>
+        <ValidTo xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2016-12-07</ValidTo>
+        <LastChangeDate xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2012-09-20</LastChangeDate>
+        <ListChangeDate xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2014-11-24</ListChangeDate>
+        <InspectionProtocols xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">8</InspectionProtocols>
+        <InspectionDate xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2011-11-18</InspectionDate>
+        <CloseReason xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections" />
+        <StampNumber xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">1157</StampNumber>
+        <Remarks xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections" />
+        <LineCount xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">1</LineCount>
+      </Permit>
+    </Inspector>
+    <Inspector>
+      <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">5104257561</SubjectIdentNumber>
+      <SubjectFullName xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">ДАНАИЛ АСЕНОВ ДИМИТРОВ</SubjectFullName>
+      <CurrentStatus xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">В</CurrentStatus>
+      <IsChairman xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">true</IsChairman>
+      <Permit>
+        <KtpName xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">данаил димитров и сие оод</KtpName>
+        <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">123594602</SubjectIdentNumber>
+        <KtpCityName xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">гр.Стара Загора</KtpCityName>
+        <KtpAddress xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">кв. индустриален кв. 13</KtpAddress>
+        <KtpCategoryLabel xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">II КАТЕГОРИЯ</KtpCategoryLabel>
+        <PermitNumber xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">1157</PermitNumber>
+        <OrgUnitShortName xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">ОО "АА" - Стара Загора</OrgUnitShortName>
+        <PermitStatusCode xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">ВЛ</PermitStatusCode>
+        <PermitStatus xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">Валиден</PermitStatus>
+        <FirstRegDate xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2011-12-07</FirstRegDate>
+        <ValidTo xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2016-12-07</ValidTo>
+        <LastChangeDate xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2012-09-20</LastChangeDate>
+        <ListChangeDate xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2014-11-24</ListChangeDate>
+        <InspectionProtocols xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">8</InspectionProtocols>
+        <InspectionDate xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">2011-11-18</InspectionDate>
+        <CloseReason xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections" />
+        <StampNumber xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">1157</StampNumber>
+        <Remarks xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections" />
+        <LineCount xmlns="http://egov.bg/RegiX/Iaaa/VehicleInspections">1</LineCount>
+      </Permit>
+    </Inspector>
+  </Inspectors>
+</PermitInspectorsResponse>

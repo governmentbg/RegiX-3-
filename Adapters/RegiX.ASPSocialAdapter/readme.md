@@ -1,0 +1,5 @@
+# RegiX.ASPSocialAdapter
+
+Auto generated XML for GetPersonWithDisabilitiesSocialBenefitsListRequest and GetPersonWithDisabilitiesSocialBenefitsListResponse
+
+//No metadata for GetPersonWithDisabilitiesSocialBenefitsList

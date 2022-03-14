@@ -1,0 +1,118 @@
+ <ActualStateResponse xmlns="http://egov.bg/RegiX/AV/TR/ActualStateResponse">
+	<Status>Нова закрита партида</Status>
+	<UIC>201593303</UIC>
+	<Company>Т.Т.Тестови - СИЕ</Company>
+	<LegalForm>
+		<LegalFormAbbr xmlns="http://egov.bg/RegiX/AV/TR">СД</LegalFormAbbr>
+		<LegalFormName xmlns="http://egov.bg/RegiX/AV/TR">Събирателно дружество</LegalFormName>
+	</LegalForm>
+	<Transliteration>T.T.Testing - SIE</Transliteration>
+	<Seat>
+		<Address xmlns="http://egov.bg/RegiX/AV/TR">
+			<CountryCode>BGR</CountryCode>
+			<Country>БЪЛГАРИЯ</Country>
+			<IsForeign>false</IsForeign>
+			<DistrictEkatte>SOF</DistrictEkatte>
+			<District>София (столица)</District>
+			<MunicipalityEkatte>SOF46</MunicipalityEkatte>
+			<Municipality>Столична</Municipality>
+			<SettlementEKATTE>68134</SettlementEKATTE>
+			<Settlement>гр. Тест</Settlement>
+			<Area>р-н Тест</Area>
+			<AreaEkatte>68134-08</AreaEkatte>
+			<PostCode>1113</PostCode>
+			<HousingEstate>Тест</HousingEstate>
+			<Block>32</Block>
+			<Entrance>Г</Entrance>
+			<Floor>1</Floor>
+			<Apartment>33</Apartment>
+		</Address>
+		<Contacts xmlns="http://egov.bg/RegiX/AV/TR">
+			<Phone>+ 359 2 22 333</Phone>
+			<Fax>+ 359 2 365 69 13</Fax>
+			<EMail>office@testing-SD.com</EMail>
+			<URL>www.t.t.testing.com</URL>
+		</Contacts>
+	</Seat>
+	<SeatForCorrespondence>
+		<CountryCode xmlns="http://egov.bg/RegiX/AV/TR">BGR</CountryCode>
+		<Country xmlns="http://egov.bg/RegiX/AV/TR">БЪЛГАРИЯ</Country>
+		<IsForeign xmlns="http://egov.bg/RegiX/AV/TR">false</IsForeign>
+		<DistrictEkatte xmlns="http://egov.bg/RegiX/AV/TR">SOF</DistrictEkatte>
+		<District xmlns="http://egov.bg/RegiX/AV/TR">София (столица)</District>
+		<MunicipalityEkatte xmlns="http://egov.bg/RegiX/AV/TR">SOF46</MunicipalityEkatte>
+		<Municipality xmlns="http://egov.bg/RegiX/AV/TR">Столична</Municipality>
+		<SettlementEKATTE xmlns="http://egov.bg/RegiX/AV/TR">68134</SettlementEKATTE>
+		<Settlement xmlns="http://egov.bg/RegiX/AV/TR">гр. София</Settlement>
+		<Area xmlns="http://egov.bg/RegiX/AV/TR">р-н Test</Area>
+		<AreaEkatte xmlns="http://egov.bg/RegiX/AV/TR">68134-09</AreaEkatte>
+		<PostCode xmlns="http://egov.bg/RegiX/AV/TR">1421</PostCode>
+		<Street xmlns="http://egov.bg/RegiX/AV/TR">"Тест тесттт"</Street>
+		<StreetNumber xmlns="http://egov.bg/RegiX/AV/TR">23</StreetNumber>
+	</SeatForCorrespondence>
+	<SubjectOfActivity>
+		<Subject xmlns="http://egov.bg/RegiX/AV/TR">ХОТЕЛИЕРСТВО, РЕСТОРАНТЬОРСТВО, СЛАДКАРСТВО, ОРГАНИЗИРАНЕ НА СВАТБЕНИ  ТЪРЖЕСТВА И ДР. СЕМЕЙНИ ТЪРЖЕСТВА, ВИДЕО И ДИСКО УВЕСЕЛЕНИЯ,  БРЪСНАРО-ФРИЗЬОРСКИ УСЛУГИ,  ШИВАШКИ УСЛУГИ, КОЗМЕТИКА, ТАКСИМЕТРОВИ УСЛУГИ, АВТОМОНТЬОРСКИ УСЛУГИ, ПОКУПКО-ПРОДАЖБА НА НЕДВИЖИМИ ИМОТИ И ЛЕКИ И ТОВАРНИ АВТОМОБИЛИ, ДАВАНЕ ПОД НАЕМ НА АВТОМОБИЛИ, ПРОИЗВОДСТВО И ПРОДАЖБА НА СЕЛСКОСТОПАНСКА, РАСТИТЕЛНА И ЖИВОТИНСКА ПРОДУКЦИЯ,  ТЪРГОВИЯ С КИНКАЛЕРИЯ, ГАЛАНТЕРИЯ, ПАРФЮМЕРИЯ, КОЗМЕТИКА, ЕКСПЛОАТАЦИЯ НА МЕХАНИЧНИ И ЕЛЕКТРОННИ ИГРИ, ОКАЗИОН,  ДАВАНЕ ВЕЩИ ПОД НАЕМ,  МАШИНОПИС И КОПИРНИ УСЛУГИ, ИЗВЪРШВАНЕ НА ДОВЪРШИТЕЛНИ СТРОИТЕЛНИ РАБОТИ /БОЯДЖИЙСТВО, ФАЯНС И ДР./, ТЪРГОВИЯ С ВСИЧКИ ВИДОВЕ СТОКИ С ИЗКЛЮЧЕНИЕ НА ЗАБРАНЕНИТЕ ОТ ЗАКОНА, ТЪРГОВСКО ПОСРЕДНИЧЕСТВО, ПРЕДСТАВИТЕЛСТВО, РЕКЛАМНА ДЕЙНОСТ НА ФИРМАТА, ПРОИЗВОДСТВО И ПРОДАЖБА НА СТУДЕНИ И ТОПЛИ САНДВИЧИ, СОКОВЕ, БЕЗАЛКОХОЛНИ НАПИТКИ, БИРА, СКАРА, ВСИЧКИ ВИДОВЕ ЯДКИ.</Subject>
+		<IsBank xmlns="http://egov.bg/RegiX/AV/TR">false</IsBank>
+		<IsInsurer xmlns="http://egov.bg/RegiX/AV/TR">false</IsInsurer>
+	</SubjectOfActivity>
+	<SubjectOfActivityNKID />
+	<AddemptionOfTraderSeatChange>
+		<Address xmlns="http://egov.bg/RegiX/AV/TR" />
+		<Contacts xmlns="http://egov.bg/RegiX/AV/TR" />
+	</AddemptionOfTraderSeatChange>
+	<Funds />
+	<Shares />
+	<MinimumAmount />
+	<DepositedFunds />
+	<NonMonetaryDeposits />
+	<BoardOfDirectorsMandate />
+	<AdministrativeBoardMandate />
+	<BoardOfManagersMandate />
+	<BoardOfManagers2Mandate />
+	<LeadingBoardMandate />
+	<SupervisingBoardMandate />
+	<SupervisingBoard2Mandate />
+	<ControllingBoardMandate />
+	<Details>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Представители</FieldName>
+			<FieldCode>10</FieldCode>
+			<FieldOrder>00101</FieldOrder>
+			<Subject>
+				<Indent>1212110366</Indent>
+				<Name>Тест Тест Тест</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Неограничено отговорни съдружници</FieldName>
+			<FieldCode>20</FieldCode>
+			<FieldOrder>00200</FieldOrder>
+			<Subject>
+				<Indent>2312110336</Indent>
+				<Name>Мария Иванова Иванова</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Лица, на които е възложено управлението</FieldName>
+			<FieldCode>7а</FieldCode>
+			<FieldOrder>00071</FieldOrder>
+			<Subject>
+				<Indent>1212110366</Indent>
+				<Name>Тест Тест Тест</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Неограничено отговорни съдружници</FieldName>
+			<FieldCode>20</FieldCode>
+			<FieldOrder>00200</FieldOrder>
+			<Subject>
+				<Indent>1212110366</Indent>
+				<Name>Тест Тест Тест</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+	</Details>
+</ActualStateResponse>

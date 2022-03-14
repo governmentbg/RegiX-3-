@@ -1,0 +1,229 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.NRAObligatedPersonsAdapter.APIService.INRAObligatedPersonsAPI.GetSocialSecurityDataFromDeclarations</OperationName>
+  <Code>GetSocialSecurityDataFromDeclarations</Code>
+  <ControllerName>NRAObligatedPersonsSocialSecurityData</ControllerName>
+  <Resource>GetSocialSecurityDataFromDeclarationsFillForm</Resource>
+  <RequestObjectName>GetSocialSecurityDataFromDeclarationsRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/NRA/SocialSecurityDataFromDeclarations/Request</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка с данни за осигурените лица от подадени декларации по Наредба Н-13 към Кодекса за социално осигуряване</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>PersonIdentifier</ParameterName>
+        <ParameterLabel>Идентификатор за осигуреното физическо лице – с ограничение до 10 разряда</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>PersonIdentifierType</ParameterName>
+        <ParameterLabel>Тип на идентификатор за физическо лице</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>PersonIdentifierTypeEnumeration</Type>
+          <EnumValues>
+            <EnumValue>
+              <Value>NOT_SPECIFIED</Value>
+              <DisplayText>-</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>EGN</Value>
+              <DisplayText>ЕГН</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>LNCh</Value>
+              <DisplayText>ЛНЧ</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>NRASystemNo</Value>
+              <DisplayText>Служебен номер от регистъра на НАП</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>EIK_BULSTAT</Value>
+              <DisplayText>ЕИК по БУЛСТАТ</DisplayText>
+            </EnumValue>
+          </EnumValues>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>InsurerIdentificator</ParameterName>
+        <ParameterLabel>Идентификатор на осигурителя (ЕИК/сл.№ от регистъра на НАП) -  с ограничение до 13 разряда</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>MonthFrom</ParameterName>
+        <ParameterLabel>Месец от</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>3</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues>
+            <EnumValue>
+              <Value>--01</Value>
+              <DisplayText>Януари</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--02</Value>
+              <DisplayText>Февруари</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--03</Value>
+              <DisplayText>Март</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--04</Value>
+              <DisplayText>Април</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--05</Value>
+              <DisplayText>Май</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--06</Value>
+              <DisplayText>Юни</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--07</Value>
+              <DisplayText>Юли</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--08</Value>
+              <DisplayText>Август</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--09</Value>
+              <DisplayText>Септември</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--10</Value>
+              <DisplayText>Октомври</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--11</Value>
+              <DisplayText>Ноември</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--12</Value>
+              <DisplayText>Декември</DisplayText>
+            </EnumValue>
+          </EnumValues>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>YearFrom</ParameterName>
+        <ParameterLabel>Година от</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>4</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>MonthTo</ParameterName>
+        <ParameterLabel>Месец до</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>5</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues>
+            <EnumValue>
+              <Value>--01</Value>
+              <DisplayText>Януари</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--02</Value>
+              <DisplayText>Февруари</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--03</Value>
+              <DisplayText>Март</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--04</Value>
+              <DisplayText>Април</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--05</Value>
+              <DisplayText>Май</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--06</Value>
+              <DisplayText>Юни</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--07</Value>
+              <DisplayText>Юли</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--08</Value>
+              <DisplayText>Август</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--09</Value>
+              <DisplayText>Септември</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--10</Value>
+              <DisplayText>Октомври</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--11</Value>
+              <DisplayText>Ноември</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>--12</Value>
+              <DisplayText>Декември</DisplayText>
+            </EnumValue>
+          </EnumValues>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>YearTo</ParameterName>
+        <ParameterLabel>Година до</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>6</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

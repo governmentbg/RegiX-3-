@@ -1,0 +1,1 @@
+<PersonInfoRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://egov.bg/RegiX/AV/PropertyReg/PersonInfoRequest"><EGN>5201010101</EGN><DateFrom>1990-01-01T00:00:00</DateFrom><DateTo>2018-01-30T15:55:00</DateTo></PersonInfoRequest>

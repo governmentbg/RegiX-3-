@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObligationResponse xsi:schemaLocation="http://egov.bg/RegiX/NRA/Obligations/Response ObligatedPersonsResponse.xsd" xmlns="http://egov.bg/RegiX/NRA/Obligations/Response" xmlns:common="http://egov.bg/RegiX/NRA/Obligations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Identity>
+		<common:ID>String</common:ID>
+		<common:TYPE>Bulstat</common:TYPE>
+	</Identity>
+	<Threshold>0</Threshold>
+	<ObligationStatus>ABSENT</ObligationStatus>
+	<Status>
+		<common:Code>0</common:Code>
+		<common:Message>String</common:Message>
+	</Status>
+</ObligationResponse>

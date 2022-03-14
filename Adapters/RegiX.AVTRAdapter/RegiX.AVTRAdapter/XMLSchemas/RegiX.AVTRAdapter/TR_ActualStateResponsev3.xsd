@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns="http://egov.bg/RegiX/AV/TR/ActualStateResponseV3" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://egov.bg/RegiX/AV/TR/SubdeedsCommon" targetNamespace="http://egov.bg/RegiX/AV/TR/ActualStateResponseV3" elementFormDefault="qualified">
+	<xs:import namespace="http://egov.bg/RegiX/AV/TR/SubdeedsCommon" schemaLocation="TRSubdeedsCommon.xsd"/>
+	<xs:complexType name="ActualStateResponseV3">
+		<xs:sequence>
+			<xs:element name="Deed" type="common:DeedType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вписани обстоятелства по партида на търговец</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DataValidForDate" type="xs:dateTime" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на валидност на данните</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DataFound" type="xs:boolean" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Указва дали в регистъра са намерени данни по зададените параметри</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="ActualStateResponseV3" type="ActualStateResponseV3">
+		<xs:annotation>
+			<xs:documentation>Справка за актуално състояние за всички вписани обстоятелства по раздели</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

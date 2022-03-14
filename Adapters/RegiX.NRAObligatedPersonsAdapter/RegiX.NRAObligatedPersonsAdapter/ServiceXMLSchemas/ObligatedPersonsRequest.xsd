@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="ObligationRequest">
+		<xs:annotation>
+			<xs:documentation>Root element for the request</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Identity" type="IdentityType"/>
+				<xs:element name="Threshold" type="ThresholdType" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>
+              The service reports present obligation only if the later is greater than this threshold value
+            </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="ThresholdType">
+		<xs:restriction base="xs:unsignedShort">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="1000"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="EikTypeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Bulstat"/>
+			<xs:enumeration value="EGN"/>
+			<xs:enumeration value="LNC"/>
+			<xs:enumeration value="SystemNo"/>
+			<xs:enumeration value="BulstatCL"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ObligationStatusType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ABSENT"/>
+			<xs:enumeration value="PRESENT"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="IdentityType">
+		<xs:sequence>
+			<xs:element name="ID" type="xs:string"/>
+			<xs:element name="TYPE" type="EikTypeType"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

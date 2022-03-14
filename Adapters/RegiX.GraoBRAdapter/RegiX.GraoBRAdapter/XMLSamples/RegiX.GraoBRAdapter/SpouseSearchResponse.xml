@@ -1,0 +1,11 @@
+<SpouseResponse xmlns="http://egov.bg/RegiX/GRAO/BR/SpouseResponse">
+  <EGN>3701111534</EGN>
+  <FirstName>Гергана</FirstName>
+  <SurName>Симеонова</SurName>
+  <FamilyName>Делева</FamilyName>
+  <BirthDate>1937-01-11</BirthDate>
+  <GenderCode>2</GenderCode>
+  <GenderName>Жена</GenderName>
+  <NationalityCode>BG</NationalityCode>
+  <NationalityName>България</NationalityName>
+</SpouseResponse>

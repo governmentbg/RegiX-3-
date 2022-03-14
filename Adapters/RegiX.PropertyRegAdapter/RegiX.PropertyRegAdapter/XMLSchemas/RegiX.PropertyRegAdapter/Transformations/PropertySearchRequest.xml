@@ -1,0 +1,16 @@
+ <PropertySearchRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AV/PropertyReg/PropertySearchRequest">
+            <PropertyLot>1</PropertyLot>
+            <OldPropertyLot>1</OldPropertyLot>
+            <CadastreNumber>1</CadastreNumber>
+            <SecondCadastreNumber>1</SecondCadastreNumber>
+<!--            <SiteID>023</SiteID>-->
+            <HousingEstate>1</HousingEstate>
+            <NeighborhoodName>1</NeighborhoodName>
+            <StreetName>1</StreetName>
+            <StreetNumber>1</StreetNumber>
+<!--            <Block>1</Block>
+            <Entrance>1</Entrance>-->
+            <Floor>1</Floor>
+            <Appartment>1</Appartment>
+            <PostBox>1</PostBox>
+          </PropertySearchRequest>

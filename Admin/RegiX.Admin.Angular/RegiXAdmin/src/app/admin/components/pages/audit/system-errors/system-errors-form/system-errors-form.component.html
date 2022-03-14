@@ -1,0 +1,101 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <form [formGroup]="formGroup" (submit)="onSubmit($event)">
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="userName"
+              type="text"
+              formControlName="userName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="userName">Потребител</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="controller"
+              type="text"
+              formControlName="controller"
+              tlFormGroupRef
+            />
+            <label igxLabel for="controller">Контролер</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="actionMethod"
+              type="text"
+              formControlName="actionMethod"
+              tlFormGroupRef
+            />
+            <label igxLabel for="actionMethod">Метод</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="ipAddress"
+              type="text"
+              formControlName="ipAddress"
+              tlFormGroupRef
+            />
+            <label igxLabel for="ipAddress">IP Адрес</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="exceptionTime"
+              type="text"
+              formControlName="exceptionTime"
+              tlFormGroupRef
+            />
+            <label igxLabel for="exceptionTime">Дата на грешката</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <label for="exceptionText" class="errorsLabel">Грешка</label>
+          <textarea
+            name="exceptionText"
+            formControlName="exceptionText"
+            rows="10"
+            tlFormGroupRef
+          ></textarea>
+        </tl-form-group>
+      </div>
+    </form>
+  </div>
+</tl-basic-form>

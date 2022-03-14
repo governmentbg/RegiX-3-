@@ -1,0 +1,368 @@
+﻿<?xml version="1.0"?>
+<PermitVehiclesResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters/PermitVehiclesResponse">
+  <Permits>
+    <Permit>
+      <Number>3794</Number>
+      <IssueDate>2015-02-11</IssueDate>
+      <ValidTo>2020-02-11</ValidTo>
+      <CompanyFullName>"ПАРАЛЕЛ 888" ЕООД</CompanyFullName>
+      <CompanyIdentNumber>202571811</CompanyIdentNumber>
+      <Vehicles>
+        <Vehicle>
+          <RegNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B3124PP</RegNumber>
+          <Make xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ПЕЖО 206 1.4 Д</Make>
+          <IdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">VF32A8HZF44376473</IdentNumber>
+          <Categories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B</Categories>
+          <ProtocolNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">11-0449</ProtocolNumber>
+          <ProtocolDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2011-03-14</ProtocolDate>
+          <MaximumDesignSpeed xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">168</MaximumDesignSpeed>
+          <MaxPermittedDefinedMass xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1525</MaxPermittedDefinedMass>
+          <SeatPlaces xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">4+1</SeatPlaces>
+          <Width xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Width>
+          <Length xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Length>
+          <Gears xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Gears>
+          <HasABS xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasABS>
+          <HasTachograph xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasTachograph>
+          <CargoDepartmentWidth xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentWidth>
+          <CargoDepartmentHeight xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentHeight>
+          <MaxPower xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">51</MaxPower>
+          <Code78 xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</Code78>
+          <EngineCapacity xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1398</EngineCapacity>
+          <PowerToWeightRatio xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.0334426239</PowerToWeightRatio>
+          <CertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">16518</CertificateNumber>
+          <CertificateDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-02-16</CertificateDate>
+        </Vehicle>
+        <Vehicle>
+          <RegNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B8989PK</RegNumber>
+          <Make xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ПЕЖО 207</Make>
+          <IdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">VF3WC8HZC34097798</IdentNumber>
+          <Categories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B</Categories>
+          <ProtocolNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">11-0448</ProtocolNumber>
+          <ProtocolDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2011-03-14</ProtocolDate>
+          <MaximumDesignSpeed xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">210</MaximumDesignSpeed>
+          <MaxPermittedDefinedMass xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1660</MaxPermittedDefinedMass>
+          <SeatPlaces xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">4+1</SeatPlaces>
+          <Width xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Width>
+          <Length xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Length>
+          <Gears xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Gears>
+          <HasABS xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasABS>
+          <HasTachograph xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasTachograph>
+          <CargoDepartmentWidth xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentWidth>
+          <CargoDepartmentHeight xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentHeight>
+          <MaxPower xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">50</MaxPower>
+          <Code78 xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</Code78>
+          <EngineCapacity xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1398</EngineCapacity>
+          <PowerToWeightRatio xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.0301204827</PowerToWeightRatio>
+          <CertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">16517</CertificateNumber>
+          <CertificateDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-02-16</CertificateDate>
+        </Vehicle>
+        <Vehicle>
+          <RegNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B5504HB</RegNumber>
+          <Make xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ПЕЖО 207</Make>
+          <IdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">VF3WC8HZC33364724</IdentNumber>
+          <Categories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B</Categories>
+          <ProtocolNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">12-1936</ProtocolNumber>
+          <ProtocolDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2012-11-30</ProtocolDate>
+          <MaximumDesignSpeed xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">166</MaximumDesignSpeed>
+          <MaxPermittedDefinedMass xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1660</MaxPermittedDefinedMass>
+          <SeatPlaces xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">4+1</SeatPlaces>
+          <Width xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Width>
+          <Length xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Length>
+          <Gears xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Gears>
+          <HasABS xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasABS>
+          <HasTachograph xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasTachograph>
+          <CargoDepartmentWidth xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentWidth>
+          <CargoDepartmentHeight xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentHeight>
+          <MaxPower xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">50</MaxPower>
+          <Code78 xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</Code78>
+          <EngineCapacity xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1398</EngineCapacity>
+          <PowerToWeightRatio xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.0301204827</PowerToWeightRatio>
+          <CertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">16516</CertificateNumber>
+          <CertificateDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-02-16</CertificateDate>
+        </Vehicle>
+        <Vehicle>
+          <RegNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B0533BA</RegNumber>
+          <Make xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">МЕРЦЕДЕС Ц 200 ЦДИ</Make>
+          <IdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">WDD2040011F718779</IdentNumber>
+          <Categories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B</Categories>
+          <ProtocolNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">H37-15-0039</ProtocolNumber>
+          <ProtocolDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-01-14</ProtocolDate>
+          <MaximumDesignSpeed xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">218</MaximumDesignSpeed>
+          <MaxPermittedDefinedMass xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2080</MaxPermittedDefinedMass>
+          <SeatPlaces xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">4+1</SeatPlaces>
+          <Width xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Width>
+          <Length xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Length>
+          <Gears xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Gears>
+          <HasABS xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasABS>
+          <HasTachograph xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasTachograph>
+          <CargoDepartmentWidth xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentWidth>
+          <CargoDepartmentHeight xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentHeight>
+          <MaxPower xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">100</MaxPower>
+          <Code78 xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</Code78>
+          <EngineCapacity xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2143</EngineCapacity>
+          <PowerToWeightRatio xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.0480769239</PowerToWeightRatio>
+          <CertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">16515</CertificateNumber>
+          <CertificateDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-02-16</CertificateDate>
+        </Vehicle>
+        <Vehicle>
+          <RegNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B4644PC</RegNumber>
+          <Make xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ИВЕКО 135-17</Make>
+          <IdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ZCFA1HDH001145726</IdentNumber>
+          <Categories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C</Categories>
+          <ProtocolNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">13-0346</ProtocolNumber>
+          <ProtocolDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2013-06-03</ProtocolDate>
+          <MaximumDesignSpeed xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">85</MaximumDesignSpeed>
+          <MaxPermittedDefinedMass xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">13300</MaxPermittedDefinedMass>
+          <SeatPlaces xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">4+1</SeatPlaces>
+          <Width xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2.5</Width>
+          <Length xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">8.3</Length>
+          <Gears xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">12</Gears>
+          <HasABS xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">true</HasABS>
+          <HasTachograph xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">true</HasTachograph>
+          <CargoDepartmentWidth xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentWidth>
+          <CargoDepartmentHeight xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentHeight>
+          <MaxPower xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">130</MaxPower>
+          <Code78 xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</Code78>
+          <EngineCapacity xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">5861</EngineCapacity>
+          <PowerToWeightRatio xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.009774436</PowerToWeightRatio>
+          <CertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">16514</CertificateNumber>
+          <CertificateDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-02-16</CertificateDate>
+        </Vehicle>
+        <Vehicle>
+          <RegNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B8597EK</RegNumber>
+          <Make xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">РЕМАРКЕ</Make>
+          <IdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">129222987</IdentNumber>
+          <Categories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C+E</Categories>
+          <ProtocolNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">13-0691</ProtocolNumber>
+          <ProtocolDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2013-10-22</ProtocolDate>
+          <MaximumDesignSpeed xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</MaximumDesignSpeed>
+          <MaxPermittedDefinedMass xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">9800</MaxPermittedDefinedMass>
+          <SeatPlaces xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters" />
+          <Width xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2.48</Width>
+          <Length xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">7.75</Length>
+          <Gears xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Gears>
+          <HasABS xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">true</HasABS>
+          <HasTachograph xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasTachograph>
+          <CargoDepartmentWidth xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentWidth>
+          <CargoDepartmentHeight xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentHeight>
+          <MaxPower xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">-1</MaxPower>
+          <Code78 xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</Code78>
+          <EngineCapacity xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">-1</EngineCapacity>
+          <PowerToWeightRatio xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</PowerToWeightRatio>
+          <CertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">16513</CertificateNumber>
+          <CertificateDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-02-16</CertificateDate>
+        </Vehicle>
+        <Vehicle>
+          <RegNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B1923HC</RegNumber>
+          <Make xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">МЕРЦЕДЕС АТЕГО 1528</Make>
+          <IdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">WDB9702781K726022</IdentNumber>
+          <Categories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C</Categories>
+          <ProtocolNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">H37-15-0041</ProtocolNumber>
+          <ProtocolDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-01-14</ProtocolDate>
+          <MaximumDesignSpeed xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">85</MaximumDesignSpeed>
+          <MaxPermittedDefinedMass xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15000</MaxPermittedDefinedMass>
+          <SeatPlaces xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">5+1</SeatPlaces>
+          <Width xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2.48</Width>
+          <Length xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">9.78</Length>
+          <Gears xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Gears>
+          <HasABS xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">true</HasABS>
+          <HasTachograph xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">true</HasTachograph>
+          <CargoDepartmentWidth xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentWidth>
+          <CargoDepartmentHeight xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentHeight>
+          <MaxPower xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">205</MaxPower>
+          <Code78 xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</Code78>
+          <EngineCapacity xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">6374</EngineCapacity>
+          <PowerToWeightRatio xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.013666667</PowerToWeightRatio>
+          <CertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">16512</CertificateNumber>
+          <CertificateDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-02-16</CertificateDate>
+        </Vehicle>
+        <Vehicle>
+          <RegNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B0076EH</RegNumber>
+          <Make xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ОБЕРМАЙЕР ОС 2 - Л105Л</Make>
+          <IdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">W0D2000004E004939</IdentNumber>
+          <Categories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C+E</Categories>
+          <ProtocolNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">H37-15-0041</ProtocolNumber>
+          <ProtocolDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-01-14</ProtocolDate>
+          <MaximumDesignSpeed xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</MaximumDesignSpeed>
+          <MaxPermittedDefinedMass xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">10000</MaxPermittedDefinedMass>
+          <Width xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2.51</Width>
+          <Length xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">8</Length>
+          <Gears xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Gears>
+          <HasABS xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">true</HasABS>
+          <HasTachograph xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasTachograph>
+          <CargoDepartmentWidth xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentWidth>
+          <CargoDepartmentHeight xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentHeight>
+          <Code78 xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</Code78>
+          <PowerToWeightRatio xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</PowerToWeightRatio>
+          <CertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">16511</CertificateNumber>
+          <CertificateDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-02-16</CertificateDate>
+        </Vehicle>
+      </Vehicles>
+    </Permit>
+    <Permit>
+      <Number>3515</Number>
+      <IssueDate>2013-06-04</IssueDate>
+      <ValidTo>2018-06-04</ValidTo>
+      <CompanyFullName>"ПАРАЛЕЛ 888" ЕООД</CompanyFullName>
+      <CompanyIdentNumber>202571811</CompanyIdentNumber>
+      <Vehicles>
+        <Vehicle>
+          <RegNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C1033X</RegNumber>
+          <Make xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ХОНДА ХОРНЕТ 600 С</Make>
+          <IdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ZDCPC36A02F008920</IdentNumber>
+          <Categories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A</Categories>
+          <ProtocolNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters" />
+          <MaximumDesignSpeed xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">150</MaximumDesignSpeed>
+          <MaxPermittedDefinedMass xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">384</MaxPermittedDefinedMass>
+          <SeatPlaces xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1+1</SeatPlaces>
+          <Width xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Width>
+          <Length xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Length>
+          <Gears xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Gears>
+          <HasABS xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasABS>
+          <HasTachograph xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasTachograph>
+          <CargoDepartmentWidth xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentWidth>
+          <CargoDepartmentHeight xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentHeight>
+          <MaxPower xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">70</MaxPower>
+          <Code78 xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</Code78>
+          <EngineCapacity xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">600</EngineCapacity>
+          <PowerToWeightRatio xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.182291672</PowerToWeightRatio>
+          <CertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters" />
+        </Vehicle>
+        <Vehicle>
+          <RegNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">CA5172TH</RegNumber>
+          <Make xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">СУБАРУ ИМПРЕ3А</Make>
+          <IdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">JF1GF8LD3VG045862</IdentNumber>
+          <Categories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A,B,Ткт,Ттб,Ттм</Categories>
+          <ProtocolNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters" />
+          <MaximumDesignSpeed xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">150</MaximumDesignSpeed>
+          <MaxPermittedDefinedMass xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1800</MaxPermittedDefinedMass>
+          <SeatPlaces xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">4+1</SeatPlaces>
+          <Width xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">3</Width>
+          <Length xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15</Length>
+          <Gears xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15</Gears>
+          <HasABS xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">true</HasABS>
+          <HasTachograph xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">true</HasTachograph>
+          <CargoDepartmentWidth xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">3</CargoDepartmentWidth>
+          <CargoDepartmentHeight xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15</CargoDepartmentHeight>
+          <MaxPower xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">155</MaxPower>
+          <Code78 xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</Code78>
+          <EngineCapacity xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1994</EngineCapacity>
+          <PowerToWeightRatio xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.08611111</PowerToWeightRatio>
+          <CertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters" />
+        </Vehicle>
+        <Vehicle>
+          <RegNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">CA5172TH</RegNumber>
+          <Make xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">СУБАРУ ИМПРЕ3А</Make>
+          <IdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">JF1GF8LD3VG045862</IdentNumber>
+          <Categories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A,B,Ткт,Ттб,Ттм</Categories>
+          <ProtocolNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters" />
+          <MaximumDesignSpeed xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">150</MaximumDesignSpeed>
+          <MaxPermittedDefinedMass xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1800</MaxPermittedDefinedMass>
+          <SeatPlaces xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">4+1</SeatPlaces>
+          <Width xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">3</Width>
+          <Length xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15</Length>
+          <Gears xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15</Gears>
+          <HasABS xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">true</HasABS>
+          <HasTachograph xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">true</HasTachograph>
+          <CargoDepartmentWidth xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">3</CargoDepartmentWidth>
+          <CargoDepartmentHeight xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15</CargoDepartmentHeight>
+          <MaxPower xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">155</MaxPower>
+          <Code78 xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</Code78>
+          <EngineCapacity xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1994</EngineCapacity>
+          <PowerToWeightRatio xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.08611111</PowerToWeightRatio>
+          <CertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters" />
+        </Vehicle>
+        <Vehicle>
+          <RegNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">CA5172TH</RegNumber>
+          <Make xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">СУБАРУ ИМПРЕ3А</Make>
+          <IdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">JF1GF8LD3VG045862</IdentNumber>
+          <Categories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A,B,Ткт,Ттб,Ттм</Categories>
+          <ProtocolNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters" />
+          <MaximumDesignSpeed xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">150</MaximumDesignSpeed>
+          <MaxPermittedDefinedMass xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1800</MaxPermittedDefinedMass>
+          <SeatPlaces xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">4+1</SeatPlaces>
+          <Width xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">3</Width>
+          <Length xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15</Length>
+          <Gears xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15</Gears>
+          <HasABS xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">true</HasABS>
+          <HasTachograph xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">true</HasTachograph>
+          <CargoDepartmentWidth xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">3</CargoDepartmentWidth>
+          <CargoDepartmentHeight xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15</CargoDepartmentHeight>
+          <MaxPower xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">155</MaxPower>
+          <Code78 xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</Code78>
+          <EngineCapacity xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1994</EngineCapacity>
+          <PowerToWeightRatio xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.08611111</PowerToWeightRatio>
+          <CertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters" />
+        </Vehicle>
+        <Vehicle>
+          <RegNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">CA5172TH</RegNumber>
+          <Make xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">СУБАРУ ИМПРЕ3А</Make>
+          <IdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">JF1GF8LD3VG045862</IdentNumber>
+          <Categories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A,B,Ткт,Ттб,Ттм</Categories>
+          <ProtocolNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters" />
+          <MaximumDesignSpeed xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">150</MaximumDesignSpeed>
+          <MaxPermittedDefinedMass xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1800</MaxPermittedDefinedMass>
+          <SeatPlaces xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">4+1</SeatPlaces>
+          <Width xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">3</Width>
+          <Length xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15</Length>
+          <Gears xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15</Gears>
+          <HasABS xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">true</HasABS>
+          <HasTachograph xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">true</HasTachograph>
+          <CargoDepartmentWidth xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">3</CargoDepartmentWidth>
+          <CargoDepartmentHeight xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15</CargoDepartmentHeight>
+          <MaxPower xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">155</MaxPower>
+          <Code78 xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</Code78>
+          <EngineCapacity xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1994</EngineCapacity>
+          <PowerToWeightRatio xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.08611111</PowerToWeightRatio>
+          <CertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters" />
+        </Vehicle>
+        <Vehicle>
+          <RegNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">CA5172TH</RegNumber>
+          <Make xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">СУБАРУ ИМПРЕ3А</Make>
+          <IdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">JF1GF8LD3VG045862</IdentNumber>
+          <Categories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A,B,Ткт,Ттб,Ттм</Categories>
+          <ProtocolNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters" />
+          <MaximumDesignSpeed xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">150</MaximumDesignSpeed>
+          <MaxPermittedDefinedMass xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1800</MaxPermittedDefinedMass>
+          <SeatPlaces xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">4+1</SeatPlaces>
+          <Width xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">3</Width>
+          <Length xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15</Length>
+          <Gears xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15</Gears>
+          <HasABS xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">true</HasABS>
+          <HasTachograph xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">true</HasTachograph>
+          <CargoDepartmentWidth xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">3</CargoDepartmentWidth>
+          <CargoDepartmentHeight xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">15</CargoDepartmentHeight>
+          <MaxPower xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">155</MaxPower>
+          <Code78 xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</Code78>
+          <EngineCapacity xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1994</EngineCapacity>
+          <PowerToWeightRatio xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.08611111</PowerToWeightRatio>
+          <CertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters" />
+        </Vehicle>
+        <Vehicle>
+          <RegNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">CA1970PA</RegNumber>
+          <Make xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ПЕЖО 404</Make>
+          <IdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">5618499</IdentNumber>
+          <Categories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B+E</Categories>
+          <ProtocolNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1234</ProtocolNumber>
+          <ProtocolDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-06-25</ProtocolDate>
+          <MaximumDesignSpeed xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</MaximumDesignSpeed>
+          <MaxPermittedDefinedMass xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1580</MaxPermittedDefinedMass>
+          <SeatPlaces xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">4+1</SeatPlaces>
+          <Width xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Width>
+          <Length xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Length>
+          <Gears xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</Gears>
+          <HasABS xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasABS>
+          <HasTachograph xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</HasTachograph>
+          <CargoDepartmentWidth xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentWidth>
+          <CargoDepartmentHeight xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0</CargoDepartmentHeight>
+          <MaxPower xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">55</MaxPower>
+          <Code78 xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">false</Code78>
+          <EngineCapacity xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1600</EngineCapacity>
+          <PowerToWeightRatio xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0.0348101258</PowerToWeightRatio>
+          <CertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1234</CertificateNumber>
+          <CertificateDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-06-25</CertificateDate>
+        </Vehicle>
+      </Vehicles>
+    </Permit>
+  </Permits>
+</PermitVehiclesResponse>

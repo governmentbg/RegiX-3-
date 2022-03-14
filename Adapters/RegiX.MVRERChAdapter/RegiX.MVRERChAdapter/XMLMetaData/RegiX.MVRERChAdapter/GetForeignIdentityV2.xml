@@ -1,0 +1,52 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.MVRERChAdapter.APIService.IMVRERChAPI.GetForeignIdentityV2</OperationName>
+  <Code>GetForeignIdentityV2</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>ForeignIdentityInfoRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/MVR/RCH/ForeignIdentityInfoRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за физическо лице – чужденец V2</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>IdentifierType</ParameterName>
+        <ParameterLabel>Тип на идентификатор</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <IdentifierType>7</IdentifierType>
+        <ParameterType>
+          <Type>IdentifierType</Type>
+          <EnumValues>
+            <EnumValue>
+              <Value>LNCh</Value>
+              <DisplayText>ЛНЧ</DisplayText>
+              <IdentifierType>2</IdentifierType>
+            </EnumValue>
+            <EnumValue>
+              <Value>EGN</Value>
+              <DisplayText>ЕГН</DisplayText>
+              <IdentifierType>1</IdentifierType>
+            </EnumValue>
+          </EnumValues>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Identifier</ParameterName>
+        <ParameterLabel>ЕГН или ЛНЧ</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <IdentifierType>3</IdentifierType>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

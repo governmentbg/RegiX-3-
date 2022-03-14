@@ -1,0 +1,191 @@
+<form class="search-form" (submit)="searchWithClear(input)">
+  <igx-input-group type="search" [displayDensity]="'compact'">
+    <input #input igxInput placeholder="Търсене" />
+    <igx-suffix>
+      <igx-icon style="color: black" (click)="searchWithClear(input)"
+        >search</igx-icon
+      >
+    </igx-suffix>
+  </igx-input-group>
+</form>
+
+<div
+  class="home-wrapper"
+  igxLayout
+  igxLayoutDir="row"
+  igxLayoutWrap="wrap"
+  igxLayoutItemAlign="flex-start"
+  igxLayoutJustify="center"
+>
+  <tl-card
+    [icon]="'info'"
+    title="Информация за регистрите"
+    [cardContent]="contentRegistries"
+    [permissions]="[]"
+  >
+    <ng-template #contentRegistries>
+      <div style="margin: 0.5rem">
+        Вие се намирате на информационния сайт на RegiX.<br />
+        Тук се намира информация кои държавни администрации са присъединили
+        регистри към системата. Всеки един регистър има операции, чрез които се
+        достъпват данните от него, като всяка операция може да се приема като
+        справка. Всички операции за всички регистри се извикват през една
+        единствена уеб услуга, на която се подава името на операцията и по него
+        се определя кой е регистъра и коя операция ще бъде извикана. Входните
+        параметри за всяка справка(операция), както и резултата са в XML формат,
+        който е описан чрез XML Schema Definition (XSD).<br />
+        За всяка операция могат да се видят и изтеглят:
+        <li>XSD схемите, на входните параметри и резултатите</li>
+        <li>Примерни XML файлове с валидни заявки и отговори</li>
+        Текущо присъединени администрации (изписани с техните акроними) към
+        RegiX:
+        <tl-linear-progress [visible]="isAdministrationsLoading"></tl-linear-progress>
+        <div class="administration-chips">
+          <igx-chip
+            *ngFor="let adm of administrations"
+            (click)="filterAdministrations(adm.code)"
+            [title]="adm.name"
+            >{{ adm.acronym }}</igx-chip
+          >
+        </div>
+        Списък с пълните имена на всички администрации може да намерите на
+        <igx-chip
+          [routerLink]="['administrations']"
+          [title]="'Преглед на всички администрации'"
+        >
+          <igx-icon igxPrefix>{{ this.routes.ADMINISTRATIONS.icon }}</igx-icon>
+          Всички администрации</igx-chip
+        >
+      </div>
+    </ng-template>
+  </tl-card>
+
+  <tl-card
+    [icon]="this.routes.DEVELOPERS.icon"
+    title="Информация за разработчици"
+    [cardContent]="contentDevelopers"
+    [permissions]="[]"
+  >
+    <ng-template #contentDevelopers>
+      <div style="margin: 0.5rem">
+        Ръководства и инструкции за консуматори на RegiX може да откриете на
+        <igx-chip [routerLink]="['guides', 'Guides.md']">
+          <igx-icon igxPrefix>{{ this.routes.GUIDES.icon }}</igx-icon>
+          {{ this.routes.GUIDES.title}}</igx-chip
+        >
+      </div>
+    </ng-template>
+  </tl-card>
+
+  <tl-card
+    [icon]="this.routes.DEVELOPERS.icon"
+    title="Информация за уеб услугата"
+    [cardContent]="contentWebService"
+    [permissions]="[]"
+  >
+    <ng-template #contentWebService>
+      <div style="margin: 0.5rem">
+        <li>
+          <igx-chip
+            (click)="
+              openHref('https://service-regix.egov.bg/RegiXEntryPointV2.svc')
+            "
+            [title]="
+              'https://service-regix.egov.bg/RegiXEntryPointV2.svc - Актуален адрес на уеб услугата (версия 2)'
+            "
+          >
+            <igx-icon igxPrefix>multiple_stop</igx-icon>
+            https://service-regix.egov.bg/RegiXEntryPointV2.svc</igx-chip
+          >
+          Актуален адрес на уеб услугата (версия 2)
+        </li>
+        <li>
+          <igx-chip
+            (click)="
+              openHref('https://service-regix.egov.bg/RegiXEntryPoint.svc')
+            "
+            [title]="
+              'https://service-regix.egov.bg/RegiXEntryPoint.svc - Актуален адрес на услуга (версия 1) за съвместимост'
+            "
+          >
+            <igx-icon igxPrefix>multiple_stop</igx-icon>
+            https://service-regix.egov.bg/RegiXEntryPointV2.svc</igx-chip
+          >
+          Актуален адрес на уеб услугата (версия 1 за съвместимост)
+        </li>
+        <li>
+          <igx-chip
+            href="https://regix-service.egov.bg/regix/RegixEntryPoint.svc"
+            (click)="
+              openHref(
+                'https://regix-service.egov.bg/regix/RegixEntryPoint.svc'
+              )
+            "
+            [title]="
+              'https://regix-service.egov.bg/regix/RegixEntryPoint.svc - Адрес на предходната версия на уеб услугата (версия 1)'
+            "
+          >
+            <igx-icon igxPrefix>multiple_stop</igx-icon>
+            https://regix-service.egov.bg/regix/RegixEntryPoint.svc</igx-chip
+          >
+          Адрес на предходната версия на уеб услугата
+        </li>
+      </div>
+    </ng-template>
+  </tl-card>
+
+  <tl-card
+    [icon]="this.routes.STATISTICS.icon"
+    title="Статистика от използване"
+    [cardContent]="content"
+    [permissions]="[]"
+  >
+    <ng-template #content>
+      <div style="margin: 0.5rem">
+        Статистическа информация за използването на RegiX може да откриете:
+        <li>
+          <igx-chip
+            [routerLink]="['statistics', 'hour']"
+            [title]="'Преглед на статистиката за последния час'"
+          >
+            <igx-icon igxPrefix>{{
+              this.routes.STATISTICS_HOUR.icon
+            }}</igx-icon>
+            Последен час</igx-chip
+          >
+        </li>
+        <li>
+          <igx-chip
+            [routerLink]="['statistics', 'day']"
+            [title]="'Преглед на статистиката за последния ден'"
+          >
+            <igx-icon igxPrefix>{{ this.routes.STATISTICS_DAY.icon }}</igx-icon>
+            Последен ден</igx-chip
+          >
+        </li>
+        <li>
+          <igx-chip
+            [routerLink]="['statistics', 'week']"
+            [title]="'Преглед на статистиката за последната седмица'"
+          >
+            <igx-icon igxPrefix>{{
+              this.routes.STATISTICS_WEEK.icon
+            }}</igx-icon>
+            Последна седмица</igx-chip
+          >
+        </li>
+        <li>
+          <igx-chip
+            [routerLink]="['statistics', 'month']"
+            [title]="'Преглед на статистиката за последния месец'"
+          >
+            <igx-icon igxPrefix>{{
+              this.routes.STATISTICS_MONTH.icon
+            }}</igx-icon>
+            Последен месец</igx-chip
+          >
+        </li>
+      </div>
+    </ng-template>
+  </tl-card>
+</div>

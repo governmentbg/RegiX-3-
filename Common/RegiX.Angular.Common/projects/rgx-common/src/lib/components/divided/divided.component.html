@@ -1,0 +1,18 @@
+<div class="container">
+    <div>
+      <rgx-header></rgx-header>
+      <igx-navbar [title]="applicationName">
+      </igx-navbar>
+    </div>
+    <div class="content">
+        <div
+          class="left"
+        >
+          <ng-template [ngTemplateOutlet]="leftContent"></ng-template>
+        </div>
+        <div
+          class="right">
+          <ng-template [ngTemplateOutlet]="rightContent"></ng-template>
+        </div>
+    </div>
+</div>

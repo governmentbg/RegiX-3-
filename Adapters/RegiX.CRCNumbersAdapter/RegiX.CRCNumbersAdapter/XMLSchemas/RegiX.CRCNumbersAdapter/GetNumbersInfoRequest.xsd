@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/Numbers/GetNumbersInfoRequest" targetNamespace="http://egov.bg/RegiX/CRC/Numbers/GetNumbersInfoRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetNumbersInfoRequest">
+		<xs:annotation>
+			<xs:documentation>Входни параметри на Справка за номера</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+		<xs:sequence>
+				<xs:element name="CompanyName" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Наименование</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="CompanyType" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Тип</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Code" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Код</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="NumbersGroup" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Група номера</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Decision" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Решение</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="DecisionDateFrom" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Дата на решение - от дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="DecisionDateTo" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Дата на решение - до дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

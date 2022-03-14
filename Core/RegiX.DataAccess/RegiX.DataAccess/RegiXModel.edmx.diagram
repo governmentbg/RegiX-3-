@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6d0d697f6b6f40acb42d84a86be9818d" Name="Diagram1" ZoomLevel="35">
+        <EntityTypeShape EntityType="RegiXModel.ADAPTER_HEALTH_FUNCTIONS" Width="1.5" PointX="7.5" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegiXModel.ADAPTER_HEALTH_RESULTS" Width="1.5" PointX="9.75" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegiXModel.ADAPTER_OPERATION_LOG" Width="1.5" PointX="12" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegiXModel.ADAPTER_OPERATIONS" Width="1.5" PointX="9.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegiXModel.ADAPTER_PING_RESULTS" Width="1.5" PointX="7.5" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegiXModel.API_SERVICE_CONSUMERS" Width="1.5" PointX="9.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegiXModel.API_SERVICE_OPERATION_LOG" Width="1.5" PointX="14.25" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegiXModel.API_SERVICE_OPERATIONS" Width="1.5" PointX="12" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegiXModel.API_SERVICES" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegiXModel.CERTIFICATE_ELEMENT_ACCESS" Width="1.5" PointX="12" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegiXModel.CERTIFICATE_OPERATION_ACCESS" Width="1.5" PointX="15" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegiXModel.CONSUMER_CERTIFICATE_EIDS" Width="1.5" PointX="14.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegiXModel.CONSUMER_CERTIFICATES" Width="1.5" PointX="12" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegiXModel.OPERATIONS_ERROR_LOG" Width="1.5" PointX="14.25" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegiXModel.REGISTER_ADAPTERS" Width="1.5" PointX="5.25" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegiXModel.REGISTER_OBJECT_ELEMENTS" Width="1.5" PointX="9.75" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegiXModel.REGISTER_OBJECTS" Width="1.5" PointX="7.5" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegiXModel.REGISTER_OBJECTS_LOG" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="RegiXModel.FK_HEALTH_FUNCTION_ADAPTER" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_HEALTH_RESULT_FUNCTION" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_HEALTH_RESULT_ADAPTER" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_LOG_ADAPTER_OPERATION" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_ADAPTER_OBJECT" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_ERROR_ADAPTER_OPERATIONS" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_OPERATION_ADAPTER" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_OPERATON_CERTIFICATE_ACCESS" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_PING_RESULT_ADAPTER" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_CERTIFICATE_CONSUMER" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_LOG_SERVICE_OPERATION" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_ERROR_SERVICE_OPERATIONS" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_OPERATON_SERVICE" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_CERTIFICATE_ELEMENT_ACCESS" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_ELEMENT_CERTIFICATE_ACCESS" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_CERTIFICATE_OPERATON_ACCESS" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_CONSUMER_CERTIFICATE_EIDS" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_REGISTER_OBJECT_ADAPTER" ManuallyRouted="false" />
+        <AssociationConnector Association="RegiXModel.FK_ELEMENT_OBJECT" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="RegiXModel.ADMINISTRATIONS" Width="1.5" PointX="0.75" PointY="14.75" />
+        <EntityTypeShape EntityType="RegiXModel.REGISTERS" Width="1.5" PointX="3" PointY="18.375" />
+        <EntityTypeShape EntityType="RegiXModel.USERS" Width="1.5" PointX="3" PointY="22" />
+        <AssociationConnector Association="RegiXModel.FK_REGISTER_ADMINISTRATION" />
+        <AssociationConnector Association="RegiXModel.FK_SERVICE_ADMINISTRATION" />
+        <AssociationConnector Association="RegiXModel.FK_USER_ADMINISTRATION" />
+        <AssociationConnector Association="RegiXModel.FK_ADAPTER_REGISTER" />
+        <EntityTypeShape EntityType="RegiXModel.AUDIT_TABLES" Width="1.5" PointX="3.375" PointY="4" />
+        <EntityTypeShape EntityType="RegiXModel.AUDIT_VALUES" Width="1.5" PointX="5.625" PointY="4.125" />
+        <AssociationConnector Association="RegiXModel.FK_AUDIT_VALUES_AUDIT_TABLES" />
+        <EntityTypeShape EntityType="RegiXModel.AUDIT_USER_ACTIONS" Width="1.875" PointX="7.625" PointY="0.625" />
+        <EntityTypeShape EntityType="RegiXModel.AUDIT_EXCEPTIONS" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="RegiXModel.API_SERVICE_ADAPTER_OPERATIONS" Width="1.5" PointX="11.625" PointY="19.25" />
+        <AssociationConnector Association="RegiXModel.FK_ADAPTER_OPERATION_SERVICE" />
+        <AssociationConnector Association="RegiXModel.FK_SERVICE_ADAPTER_OPERATION" />
+        <EntityTypeShape EntityType="RegiXModel.OPERATION_PARAMETERS" Width="1.5" PointX="17.25" PointY="18.375" />
+        <EntityTypeShape EntityType="RegiXModel.PARAMETER_TYPES" Width="1.5" PointX="15" PointY="27.875" />
+        <EntityTypeShape EntityType="RegiXModel.REPORT" Width="1.5" PointX="17.25" PointY="14.25" />
+        <EntityTypeShape EntityType="RegiXModel.CUSTOM_PARAMETERS" Width="1.5" PointX="19.5" PointY="16.5" />
+        <AssociationConnector Association="RegiXModel.FK_ADMINISTRATIONS_ADMINISTRATIONS" />
+        <AssociationConnector Association="RegiXModel.FK_API_SERVICE_CONSUMERS_ADMINISTRATIONS" />
+        <AssociationConnector Association="RegiXModel.FK_REPORTS_API_SERVICE_CONSUMERS" />
+        <AssociationConnector Association="RegiXModel.FK_OPERATION_PARAMETERS_API_SERVICE_OPERATIONS" />
+        <AssociationConnector Association="RegiXModel.FK_REPORTS_API_SERVICE_OPERATIONS" />
+        <AssociationConnector Association="RegiXModel.FK_CUSTOM_PARAMETERS_OPERATION_PARAMETERS" />
+        <AssociationConnector Association="RegiXModel.FK_OPERATION_PARAMETERS_PARAMETER_TYPES" />
+        <AssociationConnector Association="RegiXModel.FK_CUSTOM_PARAMETERS_REPORTS" />
+        <EntityTypeShape EntityType="RegiXModel.CONSUMER_CERTIFICATES_REPORTS" Width="1.5" PointX="19.5" PointY="13" />
+        <AssociationConnector Association="RegiXModel.FK_CONSUMER_CERTIFICATES_REPORTS_CONSUMER_CERTIFICATES" />
+        <AssociationConnector Association="RegiXModel.FK_CONSUMER_CERTIFICATES_REPORTS_REPORTS" />
+        <EntityTypeShape EntityType="RegiXModel.API_SERVICE_CALLS" Width="1.5" PointX="17.25" PointY="7" />
+        <AssociationConnector Association="RegiXModel.FK_CALL_CERTIFICATE" />
+        <AssociationConnector Association="RegiXModel.FK_CALL_SERVICE_OPERATION" />
+        <AssociationConnector Association="RegiXModel.FK_OPERATIONS_ERROR_LOG_API_SERVICE_CALLS" />
+        <EntityTypeShape EntityType="RegiXModel.CERTIFICATE_ACCESS_COMMENTS" Width="1.5" PointX="14.25" PointY="13.75" />
+        <AssociationConnector Association="RegiXModel.FK_CERTIFICATE_ACCESS_COMMENTS_ADAPTER_OPERATIONS" />
+        <AssociationConnector Association="RegiXModel.FK_CERTIFICATE_ACCESS_COMMENTS_CONSUMER_CERTIFICATES" />
+        <AssociationConnector Association="RegiXModel.FK_CERTIFICATE_ACCESS_COMMENTS_USERS" />
+        <EntityTypeShape EntityType="RegiXModel.HEALTH_SERVICE_LOG" Width="1.5" PointX="0.75" PointY="5.75" />
+        <EntityTypeShape EntityType="RegiXModel.HEALTH_SERVICE_OFFLINE" Width="1.5" PointX="2.75" PointY="7.75" />
+        <EntityTypeShape EntityType="RegiXModel.HEALTH_SERVICE_PING" Width="1.5" PointX="4.75" PointY="7.75" />
+        <EntityTypeShape EntityType="RegiXModel.PARAMETERS_VALUES_LOG" Width="1.5" PointX="7.5" PointY="18.375" />
+        <AssociationConnector Association="RegiXModel.FK_PARAMETERS_VALUES_EDIT_USERS" />
+        <AssociationConnector Association="RegiXModel.FK_PARAMETERS_VALUES_LOG_REGISTER_ADAPTERS" />
+        <EntityTypeShape EntityType="RegiXModel.ADMINISTRATION_TYPES" Width="1.5" PointX="0.75" PointY="11.375" />
+        <AssociationConnector Association="RegiXModel.FK_ADMINISTRATION_ADMINISTRATION_TYPE" />
+        <EntityTypeShape EntityType="RegiXModel.CERTIFICATE_CONSUMER_ROLE" Width="1.5" PointX="22.625" PointY="17.5" />
+        <EntityTypeShape EntityType="RegiXModel.CONSUMER_ROLE_ELEMENT_ACCESS" Width="1.5" PointX="25.625" PointY="15.375" />
+        <EntityTypeShape EntityType="RegiXModel.CONSUMER_ROLE_OPERATION_ACCESS" Width="1.5" PointX="22.625" PointY="13.375" />
+        <EntityTypeShape EntityType="RegiXModel.CONSUMER_ROLES" Width="1.5" PointX="19.375" PointY="4.5" />
+        <AssociationConnector Association="RegiXModel.FK_OPERATON_CONSUMER_ROLE_ACCESS" />
+        <AssociationConnector Association="RegiXModel.FK_CERTIFICATE_CONSUMER_ROLE_CONSUMER_CERTIFICATES" />
+        <AssociationConnector Association="RegiXModel.FK_CERTIFICATE_CONSUMER_ROLE_CONSUMER_ROLES" />
+        <AssociationConnector Association="RegiXModel.FK_CERTIFICATE_CONSUMER_ROLE_USERS" />
+        <AssociationConnector Association="RegiXModel.FK_CONSUMER_ROLE_ELEMENT_ACCESS" />
+        <AssociationConnector Association="RegiXModel.FK_ELEMENT_CONSUMER_ROLE_ACCESS" />
+        <AssociationConnector Association="RegiXModel.FK_CONSUMER_ROLE_OPERATON_ACCESS" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

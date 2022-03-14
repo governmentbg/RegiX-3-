@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<SearchByIdentifierResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierResponse">
+      <MaxAllowedResults xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierResponse">50</MaxAllowedResults>
+      <TotalResults xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierResponse">3</TotalResults>
+      <ExecutedCalls xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierResponse">
+        <ApiServiceCallID>8736943</ApiServiceCallID>
+        <StartTime>2019-01-03T18:35:13.09+02:00</StartTime>
+        <ReportName>Персонална справка на физическо лице за достъп до лични данни по идентификатор и период</ReportName>
+        <LawReason>Предоставяне на информация на граждани</LawReason>
+        <Consumer>ДАЕУ-Информационна система за предоставяне на достъп на граждани до справки от регистри</Consumer>
+        <ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+        <Producer>Регистър на извършваните операции в средата за междурегистров обмен - RegiX</Producer>
+        <ProducerAdministration>Държавна агенция "Електронно Управление"</ProducerAdministration>
+      </ExecutedCalls>
+      <ExecutedCalls xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierResponse">
+        <ApiServiceCallID>8736940</ApiServiceCallID>
+        <StartTime>2019-01-03T18:35:00.287+02:00</StartTime>
+        <ReportName>Персонална справка на физическо лице за достъп до лични данни по идентификатор и период</ReportName>
+        <LawReason>Предоставяне на информация на граждани</LawReason>
+        <Consumer>ДАЕУ-Информационна система за предоставяне на достъп на граждани до справки от регистри</Consumer>
+        <ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+        <Producer>Регистър на извършваните операции в средата за междурегистров обмен - RegiX</Producer>
+        <ProducerAdministration>Държавна агенция "Електронно Управление"</ProducerAdministration>
+      </ExecutedCalls>
+      <ExecutedCalls xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierResponse">
+        <ApiServiceCallID>8734843</ApiServiceCallID>
+        <StartTime>2019-01-03T16:30:47.033+02:00</StartTime>
+        <ReportName>Персонална справка на физическо лице за достъп до лични данни по идентификатор и период</ReportName>
+        <LawReason>Предоставяне на информация на граждани</LawReason>
+        <Consumer>ДАЕУ-Информационна система за предоставяне на достъп на граждани до справки от регистри</Consumer>
+        <ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+        <Producer>Регистър на извършваните операции в средата за междурегистров обмен - RegiX</Producer>
+        <ProducerAdministration>Държавна агенция "Електронно Управление"</ProducerAdministration>
+      </ExecutedCalls>
+</SearchByIdentifierResponse>
+

@@ -1,0 +1,540 @@
+<ActualStateResponseV2 xmlns="http://egov.bg/RegiX/AV/TR/ActualStateResponseV2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <Deed>
+                <DeedStatus>E</DeedStatus>
+                <CompanyName>СЪГЛАСИЕ</CompanyName>
+                <GUID>b4d5b575ec3045718623055b8e353500</GUID>
+                <UIC>820185386</UIC>
+                <LegalForm>K</LegalForm>
+                <CaseNo>315</CaseNo>
+                <CaseYear>1994</CaseYear>
+                <CourtNo>430</CourtNo>
+                <Records>
+                  <Record>
+                    <RecordData>
+                      <UIC uic="820185386" IsNew="true">
+                        <CompanyControl>КООПЕРАЦИЯ "СЪГЛАСИЕ"</CompanyControl>
+                        <BulstatDeed>
+                          <Deed>315</Deed>
+                          <Year>1994</Year>
+                          <CourtCode>430</CourtCode>
+                        </BulstatDeed>
+                      </UIC>
+                    </RecordData>
+                    <RecordId>1046839</RecordId>
+                    <IncomingId>184316</IncomingId>
+                    <FieldIdent>00010</FieldIdent>
+                    <MainField>
+                      <GroupId>45</GroupId>
+                      <GroupName>Идентификация</GroupName>
+                      <SectionId>414</SectionId>
+                      <SectionName>Обща информация</SectionName>
+                      <MainFieldIdent>00010</MainFieldIdent>
+                      <MainFieldCode>1</MainFieldCode>
+                      <MainFieldName>ЕИК/ПИК</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080508165133</FieldEntryNumber>
+                    <FieldActionDate>2008-05-08T16:51:33</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Company>СЪГЛАСИЕ</Company>
+                    </RecordData>
+                    <RecordId>1047650</RecordId>
+                    <IncomingId>184316</IncomingId>
+                    <FieldIdent>00020</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00020</MainFieldIdent>
+                      <MainFieldCode>2</MainFieldCode>
+                      <MainFieldName>Фирма</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080508165133</FieldEntryNumber>
+                    <FieldActionDate>2008-05-08T16:51:33</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <LegalForm Text="Кооперация" Code="7" />
+                    </RecordData>
+                    <RecordId>1046064</RecordId>
+                    <IncomingId>184170</IncomingId>
+                    <FieldIdent>00030</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00030</MainFieldIdent>
+                      <MainFieldCode>3</MainFieldCode>
+                      <MainFieldName>Правна форма</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080508163807</FieldEntryNumber>
+                    <FieldActionDate>2008-05-08T16:38:07</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Seat>
+                        <Address>
+                          <CountryID>1</CountryID>
+                          <CountryCode>BGR</CountryCode>
+                          <Country>БЪЛГАРИЯ</Country>
+                          <IsForeign>false</IsForeign>
+                          <DistrictID>40</DistrictID>
+                          <DistrictEkatte>LOV</DistrictEkatte>
+                          <District>Ловеч</District>
+                          <Municipalityid>131</Municipalityid>
+                          <MunicipalityEkatte>LOV18</MunicipalityEkatte>
+                          <Municipality>Ловеч</Municipality>
+                          <SettlementID>3889</SettlementID>
+                          <SettlementEKATTE>67218</SettlementEKATTE>
+                          <Settlement>с. Слатина</Settlement>
+                          <AreaID xsi:nil="true" />
+                          <Area />
+                          <AreaEkatte />
+                          <PostCode>5564</PostCode>
+                          <ForeignPlace />
+                          <HousingEstate />
+                          <Street>ул.В. ЛЕВСКИ</Street>
+                          <StreetNumber>21</StreetNumber>
+                          <Block />
+                          <Entrance />
+                          <Floor />
+                          <Apartment />
+                        </Address>
+                        <Contacts>
+                          <Phone />
+                          <Fax />
+                          <EMail />
+                          <URL />
+                        </Contacts>
+                      </Seat>
+                    </RecordData>
+                    <RecordId>1047651</RecordId>
+                    <IncomingId>184316</IncomingId>
+                    <FieldIdent>00050</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00050</MainFieldIdent>
+                      <MainFieldCode>5</MainFieldCode>
+                      <MainFieldName>Седалище и адрес на управление</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080508165133</FieldEntryNumber>
+                    <FieldActionDate>2008-05-08T16:51:33</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <SubjectOfActivity>ПРОИЗВОДСТВО НА ХЛЕБНО И ФУРАЖНО ЗЪРНО, ТЕХНИЧЕСКИ, ЕНЕРГИЙНИ И ФУРАЖНИ КУЛТУРИ, ПЛОДОВЕ И ЗЕЛЕНЧУЦИ ВЪРХУ АРЕНДУВАНИ ЗЕМИ, ЗЕМИ ПОД НАЕМ И ПРЕДОСТАВЕНИТЕ ЗА СЪВМЕСТНА ОБРАБОТКА ЗЕМЯ, ТЯХНАТА ПРЕРАБОТКА И РЕАЛИЗАЦИЯ. СПОМАГАТЕЛНАТА ДЕЙНОСТ ПО ОТНОШЕНИЕ НА ПРОИЗВОДСТВОТО И РЕАЛИЗАЦИЯТА НА ХЛЯБ, ОБРАБОТКА НА ФУРАЖИ НА СВОИТЕ ЧЛЕНОВЕ, ИЗКУПУВАНЕ НА ЖИВОТИНСКА ПРОДУКЦИЯ НА КОМИСИОННИ НАЧЕЛА И СТРОИТЕЛНИ И ТЪРГОВСКИ УСЛУГИ, ПРИГОТОВЛЯВАНЕ НА ХРАНИ КУХНЯ-МАЙКА. ИЗВЪРШВАНЕ НА КОМПЛЕКСНИ УСЛУГИ НА СТОПАНСТВАТА НА СВОИТЕ ЧЛЕНОВЕ ЧРЕЗ ВЪЗЛАГАНЕ  ЧРЕЗ ДОГОВОР ОТ ЗЕМЕДЕЛСКИТЕ СТОПАНИ. КООПЕРАЦИЯТА ОРГАНИЗИРА И ОСЪЩЕСТВЯВА ПРОМИШЛЕНИ И ДРУГИ ДЕЙНОСТИ РАЗРЕШЕНИ ОТ ЗАКОНА, С ЦЕЛ ПО-ПЪЛНОТО ИЗПОЛЗВАНЕ НА МАТЕРИАЛИТЕ, ТРУДОВИ И ФИНАНСОВИ РЕСУРСИ.</SubjectOfActivity>
+                    </RecordData>
+                    <RecordId>1047652</RecordId>
+                    <IncomingId>184316</IncomingId>
+                    <FieldIdent>00060</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00060</MainFieldIdent>
+                      <MainFieldCode>6</MainFieldCode>
+                      <MainFieldName>Предмет на дейност</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080508165133</FieldEntryNumber>
+                    <FieldActionDate>2008-05-08T16:51:33</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <ChairMan>
+                        <Person IsForeignTraderText="0">
+                          <Indent>2255225522</Indent>
+                          <Name>ТОШО ГЕОРГИЕВ ЦВЯТКОВ</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID>1</CountryID>
+                          <CountryName>БЪЛГАРИЯ</CountryName>
+                        </Person>
+                      </ChairMan>
+                    </RecordData>
+                    <RecordId>19520754</RecordId>
+                    <IncomingId>5755915</IncomingId>
+                    <FieldIdent>00090</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00090</MainFieldIdent>
+                      <MainFieldCode>9</MainFieldCode>
+                      <MainFieldName>Председател</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20110209105716</FieldEntryNumber>
+                    <FieldActionDate>2011-02-09T10:57:16</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <ManagerMandate MandateTypeText="ЧЕТИРИ ГОДИНИ ОТ ВПИСВАНЕТО В АГЕНЦИЯ ПО ВПИСВАНИЯТА" />
+                    </RecordData>
+                    <RecordId>150400715</RecordId>
+                    <IncomingId>22872097</IncomingId>
+                    <FieldIdent>001300</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00130</MainFieldIdent>
+                      <MainFieldCode>13</MainFieldCode>
+                      <MainFieldName>Управителен съвет</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170412104629</FieldEntryNumber>
+                    <FieldActionDate>2017-04-12T10:46:29</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <BoardManager>
+                        <Person IsForeignTraderText="0">
+                          <Indent>2266226622</Indent>
+                          <Name>РАДКА ТОДОРОВА ИВАНОВА</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID xsi:nil="true" />
+                          <CountryName />
+                        </Person>
+                      </BoardManager>
+                    </RecordData>
+                    <RecordId>1047904</RecordId>
+                    <IncomingId>184316</IncomingId>
+                    <FieldIdent>001301</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00130</MainFieldIdent>
+                      <MainFieldCode>13</MainFieldCode>
+                      <MainFieldName>Управителен съвет</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170412104629</FieldEntryNumber>
+                    <FieldActionDate>2017-04-12T10:46:29</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <BoardManager>
+                        <Person IsForeignTraderText="0">
+                          <Indent>2255225522</Indent>
+                          <Name>ТОШО ГЕОРГИЕВ ЦВЯТКОВ</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID xsi:nil="true" />
+                          <CountryName />
+                        </Person>
+                      </BoardManager>
+                    </RecordData>
+                    <RecordId>1047905</RecordId>
+                    <IncomingId>184316</IncomingId>
+                    <FieldIdent>001301</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00130</MainFieldIdent>
+                      <MainFieldCode>13</MainFieldCode>
+                      <MainFieldName>Управителен съвет</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170412104629</FieldEntryNumber>
+                    <FieldActionDate>2017-04-12T10:46:29</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <BoardManager>
+                        <Person IsForeignTraderText="0">
+                          <Indent>2277227722</Indent>
+                          <Name>ИВАН ХРИСТОВ БЕНЧЕВ</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID>1</CountryID>
+                          <CountryName>БЪЛГАРИЯ</CountryName>
+                        </Person>
+                      </BoardManager>
+                    </RecordData>
+                    <RecordId>7817682</RecordId>
+                    <IncomingId>2360727</IncomingId>
+                    <FieldIdent>001301</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00130</MainFieldIdent>
+                      <MainFieldCode>13</MainFieldCode>
+                      <MainFieldName>Управителен съвет</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170412104629</FieldEntryNumber>
+                    <FieldActionDate>2017-04-12T10:46:29</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <BoardManager>
+                        <Person IsForeignTraderText="0">
+                          <Indent>2288228822</Indent>
+                          <Name>ИВАН ПЕТРОВ КОНОВ</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID>1</CountryID>
+                          <CountryName>БЪЛГАРИЯ</CountryName>
+                        </Person>
+                      </BoardManager>
+                    </RecordData>
+                    <RecordId>7817684</RecordId>
+                    <IncomingId>2360727</IncomingId>
+                    <FieldIdent>001301</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00130</MainFieldIdent>
+                      <MainFieldCode>13</MainFieldCode>
+                      <MainFieldName>Управителен съвет</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170412104629</FieldEntryNumber>
+                    <FieldActionDate>2017-04-12T10:46:29</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <BoardManager>
+                        <Person CompetentAuthorityForRegistration="" RegistrationNumber="" IsForeignTraderText="0">
+                          <Indent>2299229922</Indent>
+                          <Name>НЕТО ДИМИТРОВ НЕТОВ</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID>1</CountryID>
+                          <CountryName>БЪЛГАРИЯ</CountryName>
+                        </Person>
+                      </BoardManager>
+                    </RecordData>
+                    <RecordId>33828023</RecordId>
+                    <IncomingId>11618566</IncomingId>
+                    <FieldIdent>001301</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00130</MainFieldIdent>
+                      <MainFieldCode>13</MainFieldCode>
+                      <MainFieldName>Управителен съвет</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170412104629</FieldEntryNumber>
+                    <FieldActionDate>2017-04-12T10:46:29</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <BoardManager>
+                        <Person CompetentAuthorityForRegistration="" RegistrationNumber="" IsForeignTraderText="0">
+                          <Indent>2200220022</Indent>
+                          <Name>ВАСИЛ АТАНАСОВ ВАСИЛЕВ</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID>1</CountryID>
+                          <CountryName>БЪЛГАРИЯ</CountryName>
+                        </Person>
+                      </BoardManager>
+                    </RecordData>
+                    <RecordId>150400716</RecordId>
+                    <IncomingId>22872097</IncomingId>
+                    <FieldIdent>001301</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00130</MainFieldIdent>
+                      <MainFieldCode>13</MainFieldCode>
+                      <MainFieldName>Управителен съвет</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170412104629</FieldEntryNumber>
+                    <FieldActionDate>2017-04-12T10:46:29</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <BoardManager>
+                        <Person CompetentAuthorityForRegistration="" RegistrationNumber="" IsForeignTraderText="0">
+                          <Indent>3300330033</Indent>
+                          <Name>ИВАН ХРИСТОВ ЗЛАТАНОВ</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID>1</CountryID>
+                          <CountryName>БЪЛГАРИЯ</CountryName>
+                        </Person>
+                      </BoardManager>
+                    </RecordData>
+                    <RecordId>150400717</RecordId>
+                    <IncomingId>22872097</IncomingId>
+                    <FieldIdent>001301</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00130</MainFieldIdent>
+                      <MainFieldCode>13</MainFieldCode>
+                      <MainFieldName>Управителен съвет</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170412104629</FieldEntryNumber>
+                    <FieldActionDate>2017-04-12T10:46:29</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <BoardOfManagersSupportersPerson>
+                        <Person CompetentAuthorityForRegistration="" RegistrationNumber="" IsForeignTraderText="0">
+                          <Indent>3311331133</Indent>
+                          <Name>РУМЕН ЦАНОВ ЙОЛОВ</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID>1</CountryID>
+                          <CountryName>БЪЛГАРИЯ</CountryName>
+                        </Person>
+                      </BoardOfManagersSupportersPerson>
+                    </RecordData>
+                    <RecordId>33828024</RecordId>
+                    <IncomingId>11618566</IncomingId>
+                    <FieldIdent>001310</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00131</MainFieldIdent>
+                      <MainFieldCode>13а</MainFieldCode>
+                      <MainFieldName>Подгласници в управителния  съвет</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20130405154627</FieldEntryNumber>
+                    <FieldActionDate>2013-04-05T15:46:27</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <BoardOfManagersSupportersPerson>
+                        <Person CompetentAuthorityForRegistration="" RegistrationNumber="" IsForeignTraderText="0">
+                          <Indent>3344334433</Indent>
+                          <Name>ИВАЙЛО СТЕФАНОВ СИМЕОНОВ</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID>1</CountryID>
+                          <CountryName>БЪЛГАРИЯ</CountryName>
+                        </Person>
+                      </BoardOfManagersSupportersPerson>
+                    </RecordData>
+                    <RecordId>33828025</RecordId>
+                    <IncomingId>11618566</IncomingId>
+                    <FieldIdent>001310</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00131</MainFieldIdent>
+                      <MainFieldCode>13а</MainFieldCode>
+                      <MainFieldName>Подгласници в управителния  съвет</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20130405154627</FieldEntryNumber>
+                    <FieldActionDate>2013-04-05T15:46:27</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <ControllingBoardMandate MandateTypeText="ЧЕТИРИ ГОДИНИ ОТ ВПИСВАНЕТО В АГЕНЦИЯ ПО ВПИСВАНИЯТА" />
+                    </RecordData>
+                    <RecordId>150400708</RecordId>
+                    <IncomingId>22872097</IncomingId>
+                    <FieldIdent>001500</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00150</MainFieldIdent>
+                      <MainFieldCode>15</MainFieldCode>
+                      <MainFieldName>Контролен съвет</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170412104629</FieldEntryNumber>
+                    <FieldActionDate>2017-04-12T10:46:29</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <ControllingBoardPerson>
+                        <Person xsi:type="Subject" IsForeignTraderText="0">
+                          <Indent>3355335533</Indent>
+                          <Name>ДАВИД АНГЕЛОВ СТАНЧЕВ</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID xsi:nil="true" />
+                          <CountryName />
+                        </Person>
+                      </ControllingBoardPerson>
+                    </RecordData>
+                    <RecordId>1047956</RecordId>
+                    <IncomingId>184316</IncomingId>
+                    <FieldIdent>001501</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00150</MainFieldIdent>
+                      <MainFieldCode>15</MainFieldCode>
+                      <MainFieldName>Контролен съвет</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170412104629</FieldEntryNumber>
+                    <FieldActionDate>2017-04-12T10:46:29</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <ControllingBoardPerson>
+                        <Person xsi:type="Subject" CompetentAuthorityForRegistration="" RegistrationNumber="" IsForeignTraderText="0">
+                          <Indent>3366336633</Indent>
+                          <Name>ИВАН ГЕОРГИЕВ СТАЙКОВ</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID>1</CountryID>
+                          <CountryName>БЪЛГАРИЯ</CountryName>
+                        </Person>
+                      </ControllingBoardPerson>
+                    </RecordData>
+                    <RecordId>33828095</RecordId>
+                    <IncomingId>11618566</IncomingId>
+                    <FieldIdent>001501</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00150</MainFieldIdent>
+                      <MainFieldCode>15</MainFieldCode>
+                      <MainFieldName>Контролен съвет</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170412104629</FieldEntryNumber>
+                    <FieldActionDate>2017-04-12T10:46:29</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <ControllingBoardPerson>
+                        <Person xsi:type="Subject" CompetentAuthorityForRegistration="" RegistrationNumber="" IsForeignTraderText="0">
+                          <Indent>3377337733</Indent>
+                          <Name>НАДКА БОРИСОВА МИТЕВА</Name>
+                          <IndentType>EGN</IndentType>
+                          <CountryID>1</CountryID>
+                          <CountryName>БЪЛГАРИЯ</CountryName>
+                        </Person>
+                      </ControllingBoardPerson>
+                    </RecordData>
+                    <RecordId>33828096</RecordId>
+                    <IncomingId>11618566</IncomingId>
+                    <FieldIdent>001501</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00150</MainFieldIdent>
+                      <MainFieldCode>15</MainFieldCode>
+                      <MainFieldName>Контролен съвет</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20170412104629</FieldEntryNumber>
+                    <FieldActionDate>2017-04-12T10:46:29</FieldActionDate>
+                  </Record>
+                </Records>
+              </Deed>
+              <DataValidForDate>2017-06-05T14:46:54.53275+03:00</DataValidForDate>
+            </ActualStateResponseV2>

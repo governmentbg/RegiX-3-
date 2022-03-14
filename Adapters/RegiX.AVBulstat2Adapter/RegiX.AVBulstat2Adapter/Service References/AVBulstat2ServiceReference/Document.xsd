@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:T10="http://www.bulstat.bg/Subject" xmlns:T3="http://www.bulstat.bg/NomenclatureEntry" xmlns:tns="http://www.bulstat.bg/Document" xmlns:E="http://www.bulstat.bg/Entry" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.bulstat.bg/Document" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="Entry.xsd" namespace="http://www.bulstat.bg/Entry" />
+  <xs:import schemaLocation="NomenclatureEntry.xsd" namespace="http://www.bulstat.bg/NomenclatureEntry" />
+  <xs:import schemaLocation="Subject.xsd" namespace="http://www.bulstat.bg/Subject" />
+  <xs:complexType name="Document">
+    <xs:annotation>
+      <xs:documentation>Документ</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="E:Entry">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="DocumentType" type="T3:NomenclatureEntry">
+            <xs:annotation>
+              <xs:documentation>Вид документ (заявление, решение и т.н.)
+							</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="0" maxOccurs="1" name="DocumentNumber">
+            <xs:annotation>
+              <xs:documentation>Номер на документ</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:maxLength value="20" />
+                <xs:minLength value="1" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:element>
+          <xs:element minOccurs="0" maxOccurs="1" name="DocumentDate" type="xs:anySimpleType">
+            <xs:annotation>
+              <xs:documentation>Дата на документа във формат
+								(yyyy-MM-dd)
+							</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="0" maxOccurs="1" name="ValidFromDate" type="xs:anySimpleType">
+            <xs:annotation>
+              <xs:documentation>Дата, на която влиза в сила във формат
+								(yyyy-MM-dd)
+							</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="0" maxOccurs="1" name="DocumentName">
+            <xs:annotation>
+              <xs:documentation>Име на документа (попълва се, когато документът
+								е
+								с вид "друг вид")
+							</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:maxLength value="255" />
+                <xs:minLength value="1" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:element>
+          <xs:element minOccurs="0" maxOccurs="1" name="Author" type="T10:Subject">
+            <xs:annotation>
+              <xs:documentation>Автор
+							</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="0" maxOccurs="1" name="AuthorName">
+            <xs:annotation>
+              <xs:documentation>Име на автора (Попълва се, когато авторът е
+								неизвестен субект)
+							</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:maxLength value="255" />
+                <xs:minLength value="1" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>

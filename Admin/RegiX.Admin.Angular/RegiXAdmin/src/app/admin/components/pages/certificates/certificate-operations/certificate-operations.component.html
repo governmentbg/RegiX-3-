@@ -1,0 +1,219 @@
+<tl-wrapping-card
+  [fabAction]="certificateOperationAccess"
+  [fabArguments]="certificateOperationAccessArgs"
+  [icon]="icon"
+  [subTitle]="subtitle"
+  [title]="title"
+  [actions]="[
+    {
+      reference: this.routes.AUDIT,
+      args: { ':TABLE_NAME': this.CERTIFICATE_OPERATION_ACCESS }
+    },
+    { reference: excelExportAll }
+  ]"
+>
+  <tl-linear-progress [visible]="this.service.isLoading"></tl-linear-progress>
+  <igx-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false }"
+    [displayDensity]="'cosy'"
+    (onSortingDone)="sortingDone($event)"
+    (onFilteringDone)="filteringDone($event)"
+    (onSelection)="cellSelection($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+    <igx-column
+      *ngIf="
+        !this.filter ||
+        (this.filter && !this.isIDFilter && !this.isFilterFieldFromData)
+      "
+      field="adapterOperationDescription"
+      header="Описание на операцията"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{
+          cell.value
+        }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      *ngIf="
+        !this.filter ||
+        (this.filter && !this.isIDFilter && !this.isFilterFieldFromData)
+      "
+      field="adapterOperation"
+      width="20%"
+      header="Операция"
+      [sortable]="true"
+      [dataType]="'string'"
+      [formatter]="displayValueService.formatDisplayValue"
+      [filters]="displayValueFilteringOperand"
+    >
+    </igx-column>
+
+    <igx-column
+      field="consumerCertificate"
+      *ngIf="
+        !this.filter ||
+        (this.filter && !this.isIDFilter && this.isFilterFieldFromData)
+      "
+      header="Сертификат"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value?.name" class="text-ellipsis">{{
+          cell.value?.name
+        }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="hasAccess"
+      header="Има достъп"
+      width="140px"
+      [sortable]="true"
+      [dataType]="'boolean'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          class="width-100"
+          igxLayout
+          igxLayoutDir="column"
+          igxLayoutItemAlign="center"
+        >
+          <igx-checkbox disabled="true" [checked]="cell.value === true" igxFlex>
+          </igx-checkbox>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="updatedBy"
+      width="10%"
+      header="Потребител"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="updatedOn"
+      header="Променено на"
+      width="10%"
+      [sortable]="true"
+      [dataType]="'date'"
+      [formatter]="this.dateFormatService.formatDate"
+    >
+    </igx-column>
+
+    <igx-column
+      field="editComment"
+      header="Коментар"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      header="Действия"
+      [sortable]="false"
+      width="150px"
+      [filterable]="false"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          igxLayout
+          igxLayoutDir="row"
+          igxLayoutJustify="center"
+          class="action-buttons-wrapper"
+        >
+          <tl-reference-button
+            [routeReference]="this.routes.CERTIFICATE_OPERATION_SHOW"
+            [routeArguments]="{ ':ID': cell.rowData.id }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+          <button
+            type="button"
+            [igxToggleAction]="showDropdown"
+            [overlaySettings]="menuOverlaySettings"
+            [igxDropDownItemNavigation]="showDropdown"
+            type="button"
+            title="Покажи"
+            igxButton="icon"
+            class="table-action-button"
+          >
+            <igx-icon>more_vert</igx-icon>
+          </button>
+          <igx-drop-down
+            #showDropdown
+            (onSelection)="onShowMenuSelected($event)"
+            [width]="'200px'"
+          >
+            <!-- <igx-drop-down-item (click)="showAccessEdit(cell.rowData)">
+              Редактиране на достъп
+            </igx-drop-down-item> -->
+            <tl-reference-button
+              [routeReference]="
+                this.routes.CERTIFICATE_OPERATION_ELEMENTS_ACCESS_FILTER
+              "
+              [routeArguments]="{
+                ':CER_ID': cell.rowData.consumerCertificate.id,
+                ':FILTER_FIELD': cell.rowData.registerObjectId
+              }"
+              buttonType="drop-down"
+              title="Достъп до елементи"
+            >
+            </tl-reference-button>
+            <tl-reference-button
+              [routeReference]="this.routes.CERTIFICATE_SHOW"
+              [routeArguments]="{
+                ':ID': cell.rowData.consumerCertificate.id + ''
+              }"
+              buttonType="drop-down"
+              icon="card_membership"
+              title="Сертификат"
+            >
+            </tl-reference-button>
+          </igx-drop-down>
+          <tl-reference-button
+            [routeReference]="this.routes.CERTIFICATE_OPERATION_ACCESS_EDIT"
+            [routeArguments]="{
+              ':ID': cell.rowData.adapterOperation.id + '',
+              ':CertificeteId': cell.rowData.consumerCertificate.id + ''
+            }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-grid>
+      <div class="tl-paginator">
+        <tl-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+  </igx-grid>
+</tl-wrapping-card>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CRCFindAllRequest xmlns="http://egov.bg/RegiX/CRC/CRCFindAllRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DateFrom>2021-06-01</DateFrom>
+	<DateTo>2021-06-14</DateTo>
+</CRCFindAllRequest>

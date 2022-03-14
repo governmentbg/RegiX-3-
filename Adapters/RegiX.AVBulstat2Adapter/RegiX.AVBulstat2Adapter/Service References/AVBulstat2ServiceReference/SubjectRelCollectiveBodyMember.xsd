@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:T40="http://www.bulstat.bg/SubscriptionElement" xmlns:T3="http://www.bulstat.bg/NomenclatureEntry" xmlns:tns="http://www.bulstat.bg/SubjectRelCollectiveBodyMember" xmlns:T25="http://www.bulstat.bg/Subject" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.bulstat.bg/SubjectRelCollectiveBodyMember" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="NomenclatureEntry.xsd" namespace="http://www.bulstat.bg/NomenclatureEntry" />
+  <xs:import schemaLocation="Subject.xsd" namespace="http://www.bulstat.bg/Subject" />
+  <xs:import schemaLocation="SubscriptionElement.xsd" namespace="http://www.bulstat.bg/SubscriptionElement" />
+  <xs:complexType name="SubjectRelCollectiveBodyMember">
+    <xs:annotation>
+      <xs:documentation>Член на колективен орган</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="T40:SubscriptionElement">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="RelatedSubject" type="T25:Subject">
+            <xs:annotation>
+              <xs:documentation>Член на колективен орган
+							</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="0" maxOccurs="1" name="Position" type="T3:NomenclatureEntry">
+            <xs:annotation>
+              <xs:documentation>Длъжност
+							</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="RepresentedSubjects" type="T25:Subject">
+            <xs:annotation>
+              <xs:documentation>Представлявани субекти
+							</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>

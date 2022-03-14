@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.IaaaVehicleInspectionsAdapter.APIService.IIaaaVehicleInspectionsAPI.GetReport2PermitInspectors</OperationName>
+  <Code>GetReport2PermitInspectors</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>PermitInspectorsRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/Iaaa/VehicleInspections/PermitInspectorsRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка по лице за вписвания като председател на комисия/технически специалист в регистрирани пунктове за технически прегледи.</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>IdentNumber</ParameterName>
+        <ParameterLabel>ЕГН на търсеният специалист в пункт за технически преглед</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

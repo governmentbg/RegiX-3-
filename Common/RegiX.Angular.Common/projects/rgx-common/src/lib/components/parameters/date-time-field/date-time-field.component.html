@@ -1,0 +1,35 @@
+<div *ngIf="isControlReady" [formGroup]="formGroup" class="datetime-wrapper">
+  <tl-form-group style="width: 50%; padding-bottom: 2rem;">
+    <igx-date-picker
+      [formControlName]="parameterName"
+      [label]="parameterLabel"
+      tlFormGroupRef
+      locale="bg-BG"
+      [weekStart]="WEEKDAYS.MONDAY"
+      (onClosed)="fillTime()"
+    >
+    </igx-date-picker>
+  </tl-form-group>
+  <tl-form-group style="width: 50%; padding-bottom: 2rem;">
+    <igx-time-picker
+      #timePicker
+      [formControlName]="parameterName"
+      tlFormGroupRef
+      format="HH:mm">
+      <ng-template
+          igxTimePickerTemplate
+          let-openDialog="openDialog"
+          let-value="value"
+          let-displayTime="displayTime">
+          <igx-input-group (click)="openDialog()">
+            <igx-prefix>
+                <igx-icon>schedule</igx-icon>
+            </igx-prefix>
+              <label igxLabel>час</label>
+              <input igxInput [value]="displayTime" />
+          </igx-input-group>
+      </ng-template>
+  </igx-time-picker>
+  </tl-form-group>
+
+</div>

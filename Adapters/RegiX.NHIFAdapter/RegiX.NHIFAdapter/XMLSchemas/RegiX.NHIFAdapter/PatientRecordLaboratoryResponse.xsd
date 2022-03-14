@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NHIF/Response" xmlns:common="http://egov.bg/RegiX/NHIF/NHIFCommon" targetNamespace="http://egov.bg/RegiX/NHIF/Response" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/NHIF/NHIFCommon" schemaLocation="NHIFCommon.xsd"/>
+	<xs:element name="PatientRecordLaboratoryResponse">
+		<xs:annotation>
+			<xs:documentation>Справка за извършените МДД на пациент</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PatientRecordLaboratories" type="PatientRecordLaboratoriesType" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="LaboratoryType">
+		<xs:sequence>
+			<xs:element name="MSPCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>РЗИ № на лечебно заведение, изпълнител на изследването (МДД)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MSPName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на лечебно заведение, изпълнител на изследването (МДД)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="UINNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>УИН на лекар, извършил изследването</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitioneerName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име лекар, извършил изследването</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerSpecialityCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на специалност на лекар, извършил изследването</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerSpecialityName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на специалност на лекар, извършил изследването</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ObservationType">
+		<xs:sequence>
+			<xs:element name="ObservationCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на изследване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ObservationName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на изследване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PatientRecordLaboratoryType">
+		<xs:sequence>
+			<xs:element name="PatientIdentificator" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификарор на пациент</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BranchName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>РЗОК име</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Lab" type="LaboratoryType" minOccurs="0"/>
+			<xs:element name="AmbulatoryList" type="common:AmbulatoryListType" minOccurs="0"/>
+			<xs:element name="ReferralNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>N на направление</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Observation" type="ObservationType" minOccurs="0"/>
+			<xs:element name="Practitioner" type="common:LaboratoryPractitionerType" minOccurs="0"/>
+			<xs:element name="MSP" type="common:LabMSPType" minOccurs="0"/>
+			<xs:element name="ActivityDate" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на изпълнение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PatientRecordLaboratoriesType">
+		<xs:sequence>
+			<xs:element name="PatientRecordLaboratory" type="PatientRecordLaboratoryType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

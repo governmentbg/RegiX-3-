@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<SpouseResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/BR/SpouseResponse">
+  <EGN>2612123354</EGN>
+  <FirstName>Йоана</FirstName>
+  <SurName>Борисова</SurName>
+  <FamilyName>Колева</FamilyName>
+  <BirthDate>1926-12-12</BirthDate>
+  <DeathDate>2012-05-09</DeathDate>
+  <GenderCode>2</GenderCode>
+  <GenderName>Жена</GenderName>
+  <NationalityCode>BG</NationalityCode>
+  <NationalityName>България</NationalityName>
+  <SecondNationalityCode />
+  <SecondNationalityName />
+</SpouseResponse>

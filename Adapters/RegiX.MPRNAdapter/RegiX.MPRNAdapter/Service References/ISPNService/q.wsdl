@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:intf="urn:DefaultNamespace" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:impl="urn:DefaultNamespace" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:DefaultNamespace" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:DefaultNamespace">
+      <xsd:simpleType name="RESPONSETYPE">
+        <xsd:restriction base="xsd:int">
+          <xsd:enumeration value="0" />
+          <xsd:enumeration value="1" />
+          <xsd:enumeration value="10" />
+          <xsd:enumeration value="11" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="ERRORCLASS">
+        <xsd:sequence>
+          <xsd:element name="ID" type="xsd:int" />
+          <xsd:element name="DESCRIPTION" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="SESSION">
+        <xsd:sequence>
+          <xsd:element name="ID" type="xsd:string" />
+          <xsd:element name="USERNAME" type="xsd:string" />
+          <xsd:element name="TTL" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ISPNSIDE">
+        <xsd:sequence>
+          <xsd:element name="NAME" type="xsd:string" />
+          <xsd:element name="ISPERSON" type="xsd:boolean" />
+          <xsd:element name="STATENUMBER" type="xsd:string" />
+          <xsd:element name="INVOLVEMENT" type="xsd:int" />
+          <xsd:element name="INVOLVEMENTTEXT" type="xsd:string" />
+          <xsd:element name="LASTUPDATE" nillable="true" type="xsd:dateTime" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ISPNCASE">
+        <xsd:sequence>
+          <xsd:element name="NUMBER" type="xsd:int" />
+          <xsd:element name="YEAR" type="xsd:int" />
+          <xsd:element name="DATE" nillable="true" type="xsd:dateTime" />
+          <xsd:element name="COURT" type="xsd:string" />
+          <xsd:element name="COURTNAME" type="xsd:string" />
+          <xsd:element name="LASTUPDATE" nillable="true" type="xsd:dateTime" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="RESULT">
+        <xsd:sequence>
+          <xsd:element name="SIDE" nillable="true" type="impl:ISPNSIDE" />
+          <xsd:element name="CASE" nillable="true" type="impl:ISPNCASE" />
+          <xsd:element name="LASTUPDATE" nillable="true" type="xsd:dateTime" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="RESULTSET">
+        <xsd:sequence>
+          <xsd:element name="COUNT" type="xsd:int" />
+          <xsd:element name="RESULTSCOUNT" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="RESULTS" nillable="true" type="impl:RESULT" />
+          <xsd:element name="LASTID" type="xsd:string" />
+          <xsd:element name="LASTUPDATE" nillable="true" type="xsd:dateTime" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="RESPONSE">
+        <xsd:sequence>
+          <xsd:element name="TYPE" nillable="true" type="impl:RESPONSETYPE" />
+          <xsd:element name="ERROR" nillable="true" type="impl:ERRORCLASS" />
+          <xsd:element name="SESSION" nillable="true" type="impl:SESSION" />
+          <xsd:element name="RESULTSET" nillable="true" type="impl:RESULTSET" />
+          <xsd:element name="NUMBER" type="xsd:double" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="LOGINRequest">
+    <wsdl:part name="USER" type="xsd:string" />
+    <wsdl:part name="PASS" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="QUERYRequest">
+    <wsdl:part name="SESSIONID" type="xsd:string" />
+    <wsdl:part name="STATENUMBER" type="xsd:string" />
+    <wsdl:part name="INVOLVEMENT" type="xsd:int" />
+    <wsdl:part name="STARTID" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="QUERYResponse">
+    <wsdl:part name="QUERYReturn" type="impl:RESPONSE" />
+  </wsdl:message>
+  <wsdl:message name="PLUSResponse">
+    <wsdl:part name="PLUSReturn" type="impl:RESPONSE" />
+  </wsdl:message>
+  <wsdl:message name="PLUSRequest">
+    <wsdl:part name="SESSIONID" type="xsd:string" />
+    <wsdl:part name="X" type="xsd:double" />
+    <wsdl:part name="Y" type="xsd:double" />
+  </wsdl:message>
+  <wsdl:message name="LOGINResponse">
+    <wsdl:part name="LOGINReturn" type="impl:RESPONSE" />
+  </wsdl:message>
+  <wsdl:portType name="ispn">
+    <wsdl:operation name="PLUS" parameterOrder="SESSIONID X Y">
+      <wsdl:input name="PLUSRequest" message="impl:PLUSRequest" />
+      <wsdl:output name="PLUSResponse" message="impl:PLUSResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="LOGIN" parameterOrder="USER PASS">
+      <wsdl:input name="LOGINRequest" message="impl:LOGINRequest" />
+      <wsdl:output name="LOGINResponse" message="impl:LOGINResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="QUERY" parameterOrder="SESSIONID STATENUMBER INVOLVEMENT STARTID">
+      <wsdl:input name="QUERYRequest" message="impl:QUERYRequest" />
+      <wsdl:output name="QUERYResponse" message="impl:QUERYResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DominoSoapBinding" type="impl:ispn">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="PLUS">
+      <wsdlsoap:operation soapAction="PLUS" />
+      <wsdl:input name="PLUSRequest">
+        <wsdlsoap:body use="literal" namespace="urn:DefaultNamespace" />
+      </wsdl:input>
+      <wsdl:output name="PLUSResponse">
+        <wsdlsoap:body use="literal" namespace="urn:DefaultNamespace" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LOGIN">
+      <wsdlsoap:operation soapAction="LOGIN" />
+      <wsdl:input name="LOGINRequest">
+        <wsdlsoap:body use="literal" namespace="urn:DefaultNamespace" />
+      </wsdl:input>
+      <wsdl:output name="LOGINResponse">
+        <wsdlsoap:body use="literal" namespace="urn:DefaultNamespace" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QUERY">
+      <wsdlsoap:operation soapAction="QUERY" />
+      <wsdl:input name="QUERYRequest">
+        <wsdlsoap:body use="literal" namespace="urn:DefaultNamespace" />
+      </wsdl:input>
+      <wsdl:output name="QUERYResponse">
+        <wsdlsoap:body use="literal" namespace="urn:DefaultNamespace" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ispnService">
+    <wsdl:port name="Domino" binding="impl:DominoSoapBinding">
+      <wsdlsoap:address location="http://ispn.perfectbg.com:80/MJ/ispn.nsf/q?OpenWebService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

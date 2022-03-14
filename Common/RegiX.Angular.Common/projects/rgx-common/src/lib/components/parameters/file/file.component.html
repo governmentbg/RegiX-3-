@@ -1,0 +1,30 @@
+<div class="input-group" *ngIf="isControlReady" [formGroup]="formGroup" igxLayout igxLayoutDir="row">
+  <div class="input-group" igxFlex igxFlexGrow="1">
+    <tl-form-group class="form-group-wrapper">
+      <igx-input-group>
+        <input
+          class="form-input"
+          igxInput
+          [name]="parameterName+'_dismiss'"
+          type="text"
+          [formControlName]="parameterName+'_dismiss'"
+          tlFormGroupRef
+        />
+        <label igxLabel [for]="parameterName+'_dismiss'">{{ parameterLabel }}</label>
+      </igx-input-group>
+    </tl-form-group>
+  </div>
+
+  <div igxFlex igxFlexGrow="0">
+    <label igxButton="icon">
+      <igx-icon title="Избор на документ">file_upload</igx-icon>
+      <input
+        hidden
+        [name]="parameterName"
+        type="file"
+        accept="application/msword, text/plain, application/pdf"
+        (change)="openFile($event)"
+      />
+    </label>
+  </div>
+</div>

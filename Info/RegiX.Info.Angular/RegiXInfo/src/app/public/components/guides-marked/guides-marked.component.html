@@ -1,0 +1,20 @@
+<div style="padding: 1rem; margin: 1">
+  <tl-card
+    class="tl-card"
+    [cardContent]="content"
+    [cardHeaderContent]="header"
+    [title]="this.routes.GUIDES.title"
+    [icon]="this.routes.GUIDES.icon"
+    [permissions]="[]"
+  >
+  <ng-template #header>
+    <button *ngIf="this.source !== this.guidesSource" igxButton routerLink="/public/guides/Guides.md">
+      <igx-icon fontSet="material">list_alt</igx-icon>Съдържание</button>
+  </ng-template>
+    <ng-template #content>
+      <div style="padding: 1rem">
+        <markdown [src]="this.source"></markdown>
+      </div>
+    </ng-template>
+  </tl-card>
+</div>

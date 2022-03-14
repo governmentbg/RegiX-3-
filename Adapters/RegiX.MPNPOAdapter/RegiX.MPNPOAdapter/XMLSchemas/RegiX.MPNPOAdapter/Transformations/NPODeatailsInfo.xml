@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<NPODetailsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/MP/NPODetailsResponse">
+  <RegistrationNumber>123</RegistrationNumber>
+  <Name>Наименование на ЮЛ с нестопанска цел</Name>
+  <OrgForm>фондация</OrgForm>
+  <Address>Някакъв адрес</Address>
+  <ContactInfo>тел.2111, e-mail: test@test.bg</ContactInfo>
+  <CourtName>тест</CourtName>
+  <NationalityCode>BG</NationalityCode>
+  <Nationality>България</Nationality>
+  <BoardType>Управителен съвет</BoardType>
+  <BoardMembers>
+    <BoardMember>
+      <Name>Петър Петров</Name>
+      <DateFrom>2000-02-21</DateFrom>
+      <DateTo>2010-02-21</DateTo>
+    </BoardMember>
+    <BoardMember>
+      <Name>Иван Иванов</Name>
+      <DateFrom>2003-03-12</DateFrom>
+      <DateTo>2015-06-15</DateTo>
+    </BoardMember>
+  </BoardMembers>
+</NPODetailsResponse>

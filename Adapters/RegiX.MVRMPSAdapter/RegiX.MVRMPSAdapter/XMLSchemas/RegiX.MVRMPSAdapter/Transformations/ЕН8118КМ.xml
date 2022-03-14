@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tse:RegixVehicleResponse xmlns:tse="http://bg.mvr.ict/typereg2" xmlns:h="http://bg.mvr.ict/shared/regheader" xmlns:r="http://bg.mvr.ict/shared/regreturn" xmlns:td2="http://bg.mvr.ict/shared/retype">
+	<tse:Header>
+		<h:MessageID>1669944d-367b-4da4-938e-bd2748dfefed</h:MessageID>
+		<h:MessageRefID>97e70b0a-a1f5-40f8-aafc-b7643c844d8c</h:MessageRefID>
+		<h:DateTime>2019-06-13T09:53:21.76</h:DateTime>
+		<h:Operation>003</h:Operation>
+	</tse:Header>
+	<tse:Response>
+		<tse:Results>
+			<tse:Result>
+				<tse:VehicleData>
+					<tse:RegistrationNumber>ЕН8118КМ</tse:RegistrationNumber>
+					<tse:FirstRegistrationDate>2018-01-02</tse:FirstRegistrationDate>
+					<tse:VIN>VF1RFB00657677228</tse:VIN>
+					<tse:EngineNumber>K9KG656R005731</tse:EngineNumber>
+					<tse:VehicleType>ЛЕК АВТОМОБИЛ</tse:VehicleType>
+					<tse:Model>РЕНО МЕГАН</tse:Model>
+					<tse:TypeApprovalNumber>e2*2007/46*0546*06</tse:TypeApprovalNumber>
+					<tse:ApprovalType>RFB LH2 A366SA010000</tse:ApprovalType>
+					<tse:TradeDescription>МЕГАН</tse:TradeDescription>
+					<tse:Color>КАФЯВ</tse:Color>
+					<tse:Category>M1</tse:Category>
+					<tse:MassG>1395</tse:MassG>
+					<tse:MassF1>1864</tse:MassF1>
+					<tse:Capacity>1461</tse:Capacity>
+					<tse:MaxPower>81</tse:MaxPower>
+					<tse:Fuel>ДИЗЕЛ</tse:Fuel>
+					<tse:EnvironmentalCategory>ЕВРО 6B</tse:EnvironmentalCategory>
+					<tse:VehicleDocument>
+						<tse:VehDocumentNumber>008090336</tse:VehDocumentNumber>
+						<tse:VehDocumentDate>2018-01-02</tse:VehDocumentDate>
+					</tse:VehicleDocument>
+				</tse:VehicleData>
+				<tse:OwnersData>
+					<tse:Owner>
+						<td2:Company>
+							<td2:ID>1313913690083</td2:ID>
+							<td2:Name>СОЖЕЛИЗ- БЪЛГАРИЯ ЕООД- КЛОН ПЛЕВЕН</td2:Name>
+						</td2:Company>
+					</tse:Owner>
+				</tse:OwnersData>
+				<tse:UsersData>
+					<tse:User>
+						<td2:BulgarianCitizen>
+							<td2:PIN>6008233226</td2:PIN>
+							<td2:Names>
+								<td2:First>ПЕШО</td2:First>
+								<td2:Surname>ГЕОРГИЕВ</td2:Surname>
+								<td2:Family>КАРТАЛСКИ</td2:Family>
+							</td2:Names>
+						</td2:BulgarianCitizen>
+					</tse:User>
+				</tse:UsersData>
+			</tse:Result>
+		</tse:Results>
+		<tse:ReturnInformation>
+			<r:ReturnCode>0</r:ReturnCode>
+			<r:Info>OK</r:Info>
+		</tse:ReturnInformation>
+	</tse:Response>
+</tse:RegixVehicleResponse>

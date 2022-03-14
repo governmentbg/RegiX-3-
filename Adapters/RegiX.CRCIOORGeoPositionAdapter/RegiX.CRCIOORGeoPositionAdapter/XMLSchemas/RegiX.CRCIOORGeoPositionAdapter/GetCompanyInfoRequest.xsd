@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/IOORGeoPosition/GetCompanyInfoRequest" targetNamespace="http://egov.bg/RegiX/CRC/IOORGeoPosition/GetCompanyInfoRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetCompanyInfoRequest">
+		<xs:annotation>
+			<xs:documentation>Входни параметри на Справка за предприятие</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="CompanyName" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Наименование</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="CompanyType" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Тип</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="EIK" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>ЕИК</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Address" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Адрес</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="WebPageAddress" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Интернет страница</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="PermissionNumber" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Номер на разрешение</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="IssueDateFrom" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Дата на издаване – от дата </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="IssueDateTo" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Дата на издаване - до дата</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="EndOfActionFromDate" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Крайна дата на действие – от дата</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="EndOfActionToDate" type="xs:date" nillable="true" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Крайна дата на действие – до дата</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

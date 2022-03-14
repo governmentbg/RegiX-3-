@@ -1,0 +1,26 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.MonStudentsAdapter.APIService.IMonStudentsAPI.GetHigherEduStudent</OperationName>
+  <Code>GetHigherEduStudent</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>HigherEduStudentRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/MON/HigherEdu/HigherEduStudentRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за всички студенти или докторанти с всички статуси без ограничение по подаден идентификатор</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>StudentIdentifier</ParameterName>
+        <ParameterLabel>ЕГН/ЛНЧ/Друг вид идентификатор</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <IdentifierType>7</IdentifierType>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

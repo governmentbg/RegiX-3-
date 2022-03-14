@@ -1,0 +1,205 @@
+<rgx-divided
+  [leftContent]="login"
+  [rightContent]="logo"
+  [applicationName]="applicationName"
+>
+  <ng-template #login>
+    <div class="inner-wrapper" igxFlex>
+      <h4 class="login-title">Регистрация</h4>
+
+      <div class="report-content-wrapper" *ngIf="isDataLoading">
+        <div>
+          <igx-circular-bar
+            [animate]="true"
+            [indeterminate]="true"
+            [textVisibility]="true"
+          ></igx-circular-bar>
+        </div>
+      </div>
+
+      <div>
+        <form [formGroup]="signupForm">
+          <div class="input-group">
+            <app-form-group class="form-group-wrapper">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="name"
+                  type="text"
+                  formControlName="name"
+                  appFormGroupRef
+                />
+                <label igxLabel for="name">Име</label>
+              </igx-input-group>
+            </app-form-group>
+          </div>
+
+          <div class="input-group">
+            <app-form-group class="form-group-wrapper">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="email"
+                  type="email"
+                  formControlName="email"
+                  appFormGroupRef
+                />
+                <label igxLabel for="email">Email</label>
+              </igx-input-group>
+            </app-form-group>
+          </div>
+
+          <div class="input-group">
+            <app-form-group class="form-group-wrapper">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="password"
+                  type="password"
+                  formControlName="password"
+                  appFormGroupRef
+                />
+                <label igxLabel for="password">Парола</label>
+              </igx-input-group>
+            </app-form-group>
+          </div>
+
+          <div class="input-group">
+            <app-form-group class="form-group-wrapper">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="confirmPassword"
+                  type="password"
+                  formControlName="confirmPassword"
+                  appFormGroupRef
+                />
+                <label igxLabel for="confirmPassword"
+                  >Потвърди парола</label
+                >
+              </igx-input-group>
+            </app-form-group>
+          </div>
+
+          <div>
+            <app-form-group class="form-group-wrapper">
+              <igx-select
+              name="identifierType"
+              formControlName="identifierType"
+              appFormGroupRef
+            >
+              <igx-select-item value="PNOBG">ЕГН</igx-select-item>
+              <igx-select-item value="PI:BG">ЛНЧ</igx-select-item>
+              <label igxLabel for="identifierType">Тип идентификатор (за вход с ЕАвт)</label>
+            </igx-select>
+            </app-form-group>
+          </div>
+
+          <div class="input-group">
+            <app-form-group class="form-group-wrapper">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="identifier"
+                  type="text"
+                  formControlName="identifier"
+                  appFormGroupRef
+                />
+                <label igxLabel for="identifier">Идентификатор (за вход с ЕАвт)</label>
+              </igx-input-group>
+            </app-form-group>
+          </div>
+
+          <div
+          class="input-group"
+          igxLayout
+          igxLayoutDir="row"
+          formGroupName="administration"
+        >
+        <app-form-group class="form-group-wrapper">
+            <igx-input-group>
+              <input
+                class="form-input"
+                igxInput
+                name="displayName"
+                type="text"
+                formControlName="displayName"
+                appFormGroupRef
+              />
+              <label igxLabel for="displayName">Администрация</label>
+            </igx-input-group>
+          </app-form-group>
+          <button
+            igxButton="icon"
+            (click)="showAdministraions()"
+          >
+            <igx-icon>account_balance</igx-icon>
+          </button>
+        </div>
+
+          <!-- Buttons  -->
+          <div class="buttons-wrapper">
+            <button
+              type="button"
+              class="table-button"
+              igxButton="raised"
+              (click)="onCancel()"
+              title="Назад"
+            >
+              Назад
+            </button>
+            <button
+              type="button"
+              class="table-button"
+              igxButton="raised"
+              (click)="onSubmit()"
+              [disabled]="!isFormValid()"
+              title="Създай профил"
+            >
+            Създай профил
+            </button>
+          </div>
+
+          <div class="error" *ngIf="errorMessage">{{ errorMessage }}</div>
+        </form>
+      </div>
+    </div>
+
+  </ng-template>
+  <ng-template #logo>
+    <img
+      class="login-right"
+      src="assets/RegiXClient.png"
+      alt="RegiX"
+    />
+  </ng-template>
+</rgx-divided>
+
+<igx-dialog
+  #dialog
+  title="Успешна регистрация!"
+  message="Вашата регистрация завърши успешно! Необходимо е профилът ви да бъде активиран от администратор."
+>
+  <div igxDialogActions class="dialog-container dialog-actions">
+    <button igxButton="raised" (click)="onSuccessConfirm()">ОК</button>
+  </div>
+</igx-dialog>
+
+<igx-dialog
+  #administraionsFilterDialog
+  title="Избор на администрация"
+  [closeOnOutsideSelect]="true"
+>
+  <div style="height: 90vh; width: 95vw; overflow: auto;">
+    <app-administrations-filter
+      #administrationsFilter
+      (selectedValues)="administraionSelected($event)"
+    >
+    </app-administrations-filter>
+  </div>
+</igx-dialog>

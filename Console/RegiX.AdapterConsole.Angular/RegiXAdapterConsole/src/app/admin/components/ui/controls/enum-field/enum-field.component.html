@@ -1,0 +1,19 @@
+<div igxLayout igxLayoutDir="row" [formGroup]="formGroup">
+  <igx-select
+    #select
+    igxFlex
+    class="form-group-wrapper"
+    name="enumValues"
+    [formControlName]="parameterName"
+    tlFormGroupRef
+    [disabled] = "isDisabled"
+  >
+    <igx-select-item
+      *ngFor="let value of parameter.parameterInfo.parameterType.enumValues"
+      [value]="value.value"
+    >
+      {{ value.displayText }}
+    </igx-select-item>
+    <label igxLabel for="enumValues">{{ parameterLabel }}</label>
+  </igx-select>
+</div>

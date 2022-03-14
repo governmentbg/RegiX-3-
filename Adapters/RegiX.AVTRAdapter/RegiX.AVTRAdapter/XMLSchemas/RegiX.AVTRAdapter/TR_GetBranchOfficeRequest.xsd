@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://egov.bg/RegiX/AV/TR" xmlns="http://egov.bg/RegiX/AV/TR/GetBranchOfficeRequest" targetNamespace="http://egov.bg/RegiX/AV/TR/GetBranchOfficeRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="GetBranchOfficeRequest">
+		<xs:annotation>
+			<xs:documentation>Справка за актуално състояние на клон на търговско дружество</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="UIC">
+				<xs:annotation>
+					<xs:documentation>ЕИК номер на клон на търговско дружество (13-цифров номер. Първите 9 цифри са ЕИК на основното дружество, Последните 4 цифри са номера на клона)</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:length value="13"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="GetBranchOfficeRequest" type="GetBranchOfficeRequest">
+		<xs:annotation>
+			<xs:documentation>Справка за актуално състояние на клон на търговско дружество</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Miroslav Marinov</Authors>
+    <Company>TechnoLogica</Company>
+    <Description>NOIHospitalSheetsAdapter</Description>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="XMLSamples\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLSchemas\*\Transformations\*.xslt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLSchemas\*\*.xsd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLMetaData\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="azure-devops.yaml" />
+    <None Remove="README.md" />
+    <None Remove="XMLMetaData\RegiX.NOIHospitalSheetsAdapter\GetHospitalSheetsData.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="XMLSamples\RegiX.NOIHospitalSheetsAdapter\" />
+    <Folder Include="XMLSchemas\RegiX.NOIHospitalSheetsAdapter\Transformations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.WebServiceAdapterService" Version="1.0.43" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+</Project>

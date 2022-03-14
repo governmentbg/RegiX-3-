@@ -1,0 +1,55 @@
+variables:
+  BuildConfiguration: debug
+resources:
+- repo: self
+queue:
+  name: RegiX
+steps:
+- checkout: self
+  submodules: true
+- task: VisualStudioTestPlatformInstaller@1
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/*.sln'
+    feedsToUse: 'select'
+    vstsFeed: 'RegiX'
+- task: MSBuild@1
+  displayName: 'Build'
+  inputs:
+    configuration: '$(BuildConfiguration)' 
+    solution: '**/*.sln' 
+- task: MSBuild@1
+  displayName: 'Publish project RegiX.Client.API/RegiX.Client.API.proj'
+  inputs:
+    project: '$(Build.Repository.LocalPath)\RegiX.Client.API\RegiX.Client.API.csproj'
+    msbuildArguments: '/p:DeployOnBuild=true /p:PublishProfile="$(Build.Repository.LocalPath)\RegiX.Client.API\Properties\PublishProfiles\FolderProfile.pubxml"'
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+        $productVersion = Get-Item $(Build.Repository.LocalPath)\RegiX.Client.API\bin\Release\Publish\RegiX.Client.API.dll |Select-Object -ExpandProperty VersionInfo|Select-Object -ExpandProperty ProductVersion
+        Remove-Item $(Build.Repository.LocalPath)\RegiX.Client.API\bin\Release\Publish\*.ver
+        New-Item -Path $(Build.Repository.LocalPath)\RegiX.Client.API\bin\Release\Publish -Name "$productVersion.ver"   
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
+  inputs:
+    artifactName: 'RegiX.Client.API'
+    PathtoPublish: '$(Build.Repository.LocalPath)\RegiX.Client.API\bin\Release\Publish'
+- task: MSBuild@1
+  displayName: 'Publish project RegiX.Client.UpdateMetadata/RegiX.Client.UpdateMetadata.proj'
+  inputs:
+    solution: '$(Build.Repository.LocalPath)\RegiX.Client.UpdateMetadata\RegiX.Client.UpdateMetadata.csproj'
+    msbuildArguments: '/p:DeployOnBuild=true /p:PublishProfile="$(Build.Repository.LocalPath)\RegiX.Client.UpdateMetadata\Properties\PublishProfiles\FolderProfile.pubxml"'
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+        $productVersion = Get-Item $(Build.Repository.LocalPath)\RegiX.Client.UpdateMetadata\bin\Debug\netcoreapp3.1\RegiX.Client.UpdateMetadata.dll |Select-Object -ExpandProperty VersionInfo|Select-Object -ExpandProperty ProductVersion
+        Remove-Item $(Build.Repository.LocalPath)\RegiX.Client.UpdateMetadata\bin\Debug\netcoreapp3.1\*.ver
+        New-Item -Path $(Build.Repository.LocalPath)\RegiX.Client.UpdateMetadata\bin\Debug\netcoreapp3.1 -Name "$productVersion.ver"   
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: updateApp'
+  inputs:
+    artifactName: 'RegiX.Client.UpdateMetadata'
+    PathtoPublish: '$(Build.Repository.LocalPath)\RegiX.Client.UpdateMetadata\bin\Debug\netcoreapp3.1'

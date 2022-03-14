@@ -1,0 +1,25 @@
+<tl-layout
+  [navBarContent]="navBarContent"
+  [mainContent]="mainContent"
+  [defaultBaseSegment]="'public'"
+  [applicationTitle]="applicationTitle"
+  [headerContent]="headerContent"
+  [drawerItems]="this.drawerItems">
+  <ng-template #headerContent>
+    <rgx-header></rgx-header>
+  </ng-template>
+  <ng-template #navBarContent>
+    <button
+      type="button"
+      title="Към началната страница"
+      class="navbar-button"
+      igxButton="outlined"
+      routerLink="/main"
+    >
+      <igx-icon>exit_to_app</igx-icon>
+    </button>
+  </ng-template>
+    <ng-template #mainContent>
+    <router-outlet></router-outlet>
+    </ng-template>
+</tl-layout>

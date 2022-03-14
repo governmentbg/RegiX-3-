@@ -1,0 +1,3 @@
+﻿<TouristRegisterResponse xmlns="http://egov.bg/RegiX/MVR/SendInfoForTouristRegister/TouristRegisterResponse">
+  <ResponseCode>1</ResponseCode>
+</TouristRegisterResponse>

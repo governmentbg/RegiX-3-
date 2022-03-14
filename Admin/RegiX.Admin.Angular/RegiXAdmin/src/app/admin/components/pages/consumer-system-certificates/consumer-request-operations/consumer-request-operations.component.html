@@ -1,0 +1,107 @@
+<tl-wrapping-card
+  [title]="routes.CONSUMER_REQUEST_OPERATIONS.title"
+  [icon]="routes.CONSUMER_REQUEST_OPERATIONS.icon"
+  [subTitle]="subtitle"
+>
+  <igx-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    (onSortingDone)="sortingDone($event)"
+    (onFilteringDone)="filteringDone($event)"
+    (onSelection)="cellSelection($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+    <igx-column
+      field="adapterOperation"
+      header="Операция"
+      [sortable]="true"
+      [dataType]="'string'"
+      [formatter]="displayValueService.formatDisplayValue"
+      [filters]="displayValueFilteringOperand"
+    >
+    </igx-column>
+
+    <igx-column
+      field="consumerAccessRequestStatus"
+      header="Статус"
+      [sortable]="true"
+      [filterable]="false"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span title="Статус" class="text-ellipsis">{{Status[+cell.value]}}</span>
+      </ng-template>
+
+    </igx-column>
+
+    <igx-column
+      header="Действия"
+      [sortable]="false"
+      width="150px"
+      [filterable]="false"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          igxLayout
+          igxLayoutDir="row"
+          igxLayoutJustify="center"
+          class="action-buttons-wrapper"
+        >
+          <tl-reference-button
+            [routeReference]="this.routes.CONSUMER_REQUEST_OPERATIONS_SHOW"
+            [routeArguments]="{ ':ID': cell.rowData.id }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+
+          <tl-reference-button
+            [routeReference]="this.routes.CONSUMER_REQUEST_OPERATIONS_EDIT"
+            [routeArguments]="{ ':ID': cell.rowData.id }"
+            buttonType="action-button"
+            [isDisabled]="!(((cell.rowData.consumerAccessRequest.status != 2 && cell.rowData.consumerAccessRequest.status != 4)
+            &&  ((cell.rowData.consumerAccessRequest.status == 3 && currentUserRole == 'ADMIN') ? false : true)))"
+          >
+          </tl-reference-button>
+          <button
+            type="button"
+            title="Изтрий"
+            igxButton="icon"
+            class="table-action-button"
+            (click)="prepareForDelete(cell.rowData)"
+          >
+            <igx-icon>delete</igx-icon>
+          </button>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-grid>
+      <div class="tl-paginator">
+        <tl-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+  </igx-grid>
+</tl-wrapping-card>
+
+<igx-dialog
+  #dialog
+  title="Изтриване на консуматор?"
+  message="Сигурни ли сте, че искате да изтриете избрания консуматор?"
+>
+  <div igxDialogActions class="dialog-container dialog-actions">
+    <button igxButton (click)="onDeleteCanceled()">НЕ</button>
+    <button igxButton="raised" (click)="onDeleteConfirmed()">ДА</button>
+  </div>
+</igx-dialog>

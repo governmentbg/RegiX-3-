@@ -1,0 +1,46 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using TechnoLogica.API.Common.Controllers;
+using TechnoLogica.RegiX.Client.API.DataContracts.DTO.UsersFavouriteReport;
+using TechnoLogica.RegiX.Client.API.DataContracts.DTO.UserToReport;
+using TechnoLogica.RegiX.Client.Infrastructure.Models;
+using TechnoLogica.RegiX.Client.Services.Contracts;
+
+namespace TechnoLogica.RegiX.Client.API.Controllers.V1
+{
+    [ApiController]
+    [ApiVersion("1.0")]
+    [Route("api/users-favourite-reports")] //required for default versioning
+    [Route("api/v{version:apiVersion}/users-favourite-reports")]
+    [Authorize]
+    public class UsersFavouriteReportsController : ABaseGetAllController<UsersFavouriteReportInDto,
+        UsersFavouriteReportOutDto, UsersFavouriteReports, int>
+    {
+        public UsersFavouriteReportsController(IUserFavouriteReportService aBaseService)
+            : base(aBaseService)
+        {
+        }
+
+        [HttpPost("single/{reportId}")]
+        public IActionResult PostSignle(int reportId, [FromBody]UsersFavouriteReportSingleInDto favoruite)
+        {
+            (this.baseService as IUserFavouriteReportService).ChangeReportFavouriteStatus(reportId, favoruite.value);
+            return Ok();
+        }
+
+
+        [ApiExplorerSettings(IgnoreApi = true)]
+        [HttpPut("{aId}")]
+        public override IActionResult Put(int aId, [FromBody] UsersFavouriteReportInDto aInDto)
+        {
+            return StatusCode(405);
+        }
+
+        [ApiExplorerSettings(IgnoreApi = true)]
+        [HttpDelete("{aId}")]
+        public override IActionResult Delete(int aId)
+        {
+            return StatusCode(405);
+        }
+    }
+}

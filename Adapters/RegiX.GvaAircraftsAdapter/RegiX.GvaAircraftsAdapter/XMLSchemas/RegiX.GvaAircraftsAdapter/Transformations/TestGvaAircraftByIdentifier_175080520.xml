@@ -1,0 +1,1309 @@
+﻿<?xml version="1.0"?>
+<AircraftsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GVA/AircraftsResponse">
+  <Aircraft>
+    <Producer>
+      <Name>Bombardier Inc, Канада</Name>
+      <NameEn>Bombardier Inc, Canada</NameEn>
+      <CountryCode>CA</CountryCode>
+      <CountryName>Канада</CountryName>
+    </Producer>
+    <AirCategory>
+      <Code>LA</Code>
+      <Name>Large Aeroplane</Name>
+    </AirCategory>
+    <ICAO>CL60</ICAO>
+    <BGModelName>CL-600-2B16</BGModelName>
+    <ENModelName>CL-600-2B16</ENModelName>
+    <MSNSerialNumber>5768</MSNSerialNumber>
+    <Registrations>
+      <Registration>
+        <ActNumber>2485</ActNumber>
+        <RegistrationNumber>2320</RegistrationNumber>
+        <RegistrationDate>2014-03-25</RegistrationDate>
+        <RegistrationMark>LZ-BVD</RegistrationMark>
+        <IsLastRegistration>true</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>true</IsActiveRegistration>
+          <StatusCode>9</StatusCode>
+          <StatusName>Последна (действаща) регистрация</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-7</DocNumber>
+          <DocDate>2014-02-14</DocDate>
+          <Description>Заявление; Договор за лизинг;</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber>R-83-04</DocNumber>
+          <DocDate>2014-02-24</DocDate>
+          <EndDate>2024-02-11</EndDate>
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity>
+              <Identifier>200731530</Identifier>
+              <Name>“Чаленджър 605” ЕАД</Name>
+            </Entity>
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>АВБ-2012</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200731530</Identifier>
+              <Name>“Чаленджър 605” ЕАД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2407</ActNumber>
+        <RegistrationNumber>2320</RegistrationNumber>
+        <RegistrationDate>2012-10-03</RegistrationDate>
+        <RegistrationMark>LZ-BVD</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-84</DocNumber>
+          <DocDate>2012-09-28</DocDate>
+          <Description>R-83-37/03.10.2012; 55-01-77/29.09.2012.</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber>R-83-37</DocNumber>
+          <DocDate>2012-10-03</DocDate>
+          <EndDate>2013-09-20</EndDate>
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity>
+              <Identifier>200731530</Identifier>
+              <Name>“Чаленджър 605” ЕАД</Name>
+            </Entity>
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>130053091</Identifier>
+              <Name>ЕЪР  ЛАЗУР-ДЖЕНЕРАЛ  АВИЕЙШЪН</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200731530</Identifier>
+              <Name>“Чаленджър 605” ЕАД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2320</ActNumber>
+        <RegistrationNumber>2320</RegistrationNumber>
+        <RegistrationDate>2011-02-10</RegistrationDate>
+        <RegistrationMark>LZ-BVD</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-71</DocNumber>
+          <DocDate>2010-12-01</DocDate>
+          <Description>Заповед R-83-31 / 07.12.201; Договор за лизинг от 03.11.2010г; Протокол заседание Съвет директори; Устав на Челинджър; Счетоводни записи</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber>R-83-31</DocNumber>
+          <DocDate>2010-12-07</DocDate>
+          <Agreement>Договор за лизинг от 03.11.2010 за срок от 1 година</Agreement>
+          <Lessor>
+            <Person />
+            <Entity>
+              <Identifier>200731530</Identifier>
+              <Name>“Чаленджър 605” ЕАД</Name>
+            </Entity>
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>201320396</Identifier>
+              <Name>“АВБ-2010” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200731530</Identifier>
+              <Name>“Чаленджър 605” ЕАД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2237</ActNumber>
+        <RegistrationNumber>2237</RegistrationNumber>
+        <RegistrationDate>2008-12-29</RegistrationDate>
+        <RegistrationMark>LZ-BVD</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-91</DocNumber>
+          <DocDate>2008-12-03</DocDate>
+          <Description>Bill of Sale</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>175080520</Identifier>
+              <Name>“АВБ-2004” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>175080520</Identifier>
+              <Name>“АВБ-2004” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+    </Registrations>
+    <Debts>
+      <Debt>
+        <InputDate>2014-08-12</InputDate>
+        <DebtType>ЗАЛОГ</DebtType>
+        <IsActive>true</IsActive>
+        <Applicant>
+          <Identifier>200731530</Identifier>
+          <Name>“Чаленджър 605” ЕАД</Name>
+        </Applicant>
+        <Document>
+          <IncomingNumber>18-00-309</IncomingNumber>
+          <IncomingDate>2014-08-12</IncomingDate>
+          <ExternalNumber>-</ExternalNumber>
+          <ExternalDate>2014-08-12</ExternalDate>
+        </Document>
+        <Repayment>
+          <RepaymentDocument />
+        </Repayment>
+        <Notes>Договор за залог на движима вещ No. 548А/12.08.2014 г. в полза на Интернешънъл Асет Банк АД; На 06.04.2015 г. Допълнително пвисан Анекс 1 от 03.04.2015 г.  На 31.08.2015 г. допълнително всипсан Анекс No. 2 от 28.08.2015 г.</Notes>
+      </Debt>
+    </Debts>
+  </Aircraft>
+  <Aircraft>
+    <Producer>
+      <Name>Bombardier Inc, Канада</Name>
+      <NameEn>Bombardier Inc, Canada</NameEn>
+      <CountryCode>CA</CountryCode>
+      <CountryName>Канада</CountryName>
+    </Producer>
+    <AirCategory>
+      <Code>LA</Code>
+      <Name>Large Aeroplane</Name>
+    </AirCategory>
+    <ICAO>CL60</ICAO>
+    <BGModelName>CL-600-2B19</BGModelName>
+    <ENModelName>CL-600-2B19</ENModelName>
+    <MSNSerialNumber>8087</MSNSerialNumber>
+    <Registrations>
+      <Registration>
+        <ActNumber>2271</ActNumber>
+        <RegistrationNumber>2271</RegistrationNumber>
+        <RegistrationDate>2009-09-17</RegistrationDate>
+        <RegistrationMark>LZ-BVH</RegistrationMark>
+        <IsLastRegistration>true</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>40-01-599</DocNumber>
+          <DocDate>2009-09-29</DocDate>
+          <Description>Експорт в Либия</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo>
+          <DeregistrationDate>2009-10-09</DeregistrationDate>
+          <DeregistrationReason>Смяна собственост</DeregistrationReason>
+          <DeregistrationDescription>Експорт в Либия</DeregistrationDescription>
+        </DeregistrationInfo>
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>175080520</Identifier>
+              <Name>“АВБ-2004” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>175080520</Identifier>
+              <Name>“АВБ-2004” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+    </Registrations>
+    <Debts />
+  </Aircraft>
+  <Aircraft>
+    <Producer>
+      <Name>Cessna Aircraft Company, САЩ</Name>
+      <NameEn>Cessna Aircraft Company, USA</NameEn>
+      <CountryCode>US</CountryCode>
+      <CountryName>USA</CountryName>
+    </Producer>
+    <AirCategory>
+      <Code>LA</Code>
+      <Name>Large Aeroplane</Name>
+    </AirCategory>
+    <ICAO>C550</ICAO>
+    <BGModelName>Cessna 550 Bravo</BGModelName>
+    <ENModelName>Cessna 550 Bravo</ENModelName>
+    <MSNSerialNumber>550-1103</MSNSerialNumber>
+    <Registrations>
+      <Registration>
+        <ActNumber>2358</ActNumber>
+        <RegistrationNumber>2358</RegistrationNumber>
+        <RegistrationDate>2011-12-27</RegistrationDate>
+        <RegistrationMark>LZ-ABV</RegistrationMark>
+        <IsLastRegistration>true</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>15-00-30</DocNumber>
+          <DocDate>2012-09-27</DocDate>
+          <Description>Експорт за Тайланд</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo>
+          <DeregistrationDate>2012-10-02</DeregistrationDate>
+          <DeregistrationReason>Смяна собственост</DeregistrationReason>
+          <DeregistrationDescription>Експорт за Тайланд</DeregistrationDescription>
+          <DeregistrationCountryCode>TH</DeregistrationCountryCode>
+          <DeregistrationCountryName>Кралство Тайланд</DeregistrationCountryName>
+        </DeregistrationInfo>
+        <LeasingInfo>
+          <DocNumber>R-83-35</DocNumber>
+          <DocDate>2011-12-09</DocDate>
+          <EndDate>2012-11-06</EndDate>
+          <Agreement>Договор за лизинг от 07.11.2011</Agreement>
+          <Lessor>
+            <Person />
+            <Entity>
+              <Identifier>000694959</Identifier>
+              <Name>Обединена Българска Банка АД</Name>
+            </Entity>
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>160131051</Identifier>
+              <Name>ВИКТОРИЯ  ЕЪР  ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>000694959</Identifier>
+              <Name>Обединена Българска Банка АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2341</ActNumber>
+        <RegistrationNumber>2341</RegistrationNumber>
+        <RegistrationDate>2011-07-05</RegistrationDate>
+        <RegistrationMark>LZ-ABV</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-38</DocNumber>
+          <DocDate>2011-07-05</DocDate>
+          <Description>Заявление от Т.Найденов - синдик на “АВБ-2004”; Заповед R-83-19 от 24.06.2011</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber>R-83-19</DocNumber>
+          <DocDate>2011-06-24</DocDate>
+          <Agreement>Договор за лизинг от 01.05.2011</Agreement>
+          <Lessor>
+            <Person />
+            <Entity>
+              <Identifier>175080520</Identifier>
+              <Name>“АВБ-2004” АД</Name>
+            </Entity>
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>201320396</Identifier>
+              <Name>“АВБ-2010” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>175080520</Identifier>
+              <Name>“АВБ-2004” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>1982</ActNumber>
+        <RegistrationNumber>1982</RegistrationNumber>
+        <RegistrationDate>2005-05-17</RegistrationDate>
+        <RegistrationMark>LZ-ABV</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-47</DocNumber>
+          <DocDate>2005-05-09</DocDate>
+          <Description>Договор за покупка СА-581-CJ-B; Statement of origin Mrch 23/05; Документ за отписване от 02.05.2005 на FAA</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>175080520</Identifier>
+              <Name>“АВБ-2004” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>175080520</Identifier>
+              <Name>“АВБ-2004” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+    </Registrations>
+    <Debts>
+      <Debt>
+        <InputDate>2010-10-15</InputDate>
+        <DebtType>ЗАПОР</DebtType>
+        <IsActive>false</IsActive>
+        <Applicant>
+          <Name>Ренета Милчева - Частен съдебен изпълнител</Name>
+        </Applicant>
+        <Document>
+          <IncomingNumber>10-00-12</IncomingNumber>
+          <IncomingDate>2010-10-15</IncomingDate>
+          <ExternalNumber>20444 </ExternalNumber>
+          <ExternalDate>2010-10-13</ExternalDate>
+        </Document>
+        <Repayment>
+          <RepaymentDate>2011-07-11</RepaymentDate>
+          <RepaymentDocument>
+            <IncomingNumber>10-00-12</IncomingNumber>
+            <IncomingDate>2011-07-12</IncomingDate>
+            <ExternalNumber>13392</ExternalNumber>
+            <ExternalDate>2011-06-29</ExternalDate>
+          </RepaymentDocument>
+          <Notes>Изп.дело 20107900401527</Notes>
+        </Repayment>
+        <Notes>изпълнително дело № 20107900401527 във връзка със Залог към ОББ</Notes>
+      </Debt>
+      <Debt>
+        <InputDate>2005-05-20</InputDate>
+        <DebtType>ЗАЛОГ</DebtType>
+        <IsActive>false</IsActive>
+        <Applicant>
+          <Name>ОББ АД</Name>
+        </Applicant>
+        <Document>
+          <IncomingNumber>15-00-95</IncomingNumber>
+          <IncomingDate>2005-05-18</IncomingDate>
+          <ExternalNumber />
+        </Document>
+        <Repayment>
+          <RepaymentDate>2011-11-29</RepaymentDate>
+          <RepaymentDocument>
+            <IncomingNumber>55-02-59</IncomingNumber>
+            <IncomingDate>2011-11-29</IncomingDate>
+            <ExternalNumber />
+          </RepaymentDocument>
+          <Notes>Търговско отделение-VІ-3 състав постановление 2552/2010 </Notes>
+        </Repayment>
+        <Notes>Договор от 18.05.2005</Notes>
+      </Debt>
+    </Debts>
+  </Aircraft>
+  <Aircraft>
+    <Producer>
+      <Name>Learjet Inc., САЩ</Name>
+      <NameEn>Learjet Inc., USA</NameEn>
+      <CountryCode>US</CountryCode>
+      <CountryName>USA</CountryName>
+    </Producer>
+    <AirCategory>
+      <Code>LA</Code>
+      <Name>Large Aeroplane</Name>
+    </AirCategory>
+    <ICAO>LJ60</ICAO>
+    <BGModelName>Learjet 60</BGModelName>
+    <ENModelName>Learjet 60</ENModelName>
+    <MSNSerialNumber>60-329</MSNSerialNumber>
+    <Registrations>
+      <Registration>
+        <ActNumber>2463</ActNumber>
+        <RegistrationNumber>2395</RegistrationNumber>
+        <RegistrationDate>2013-11-08</RegistrationDate>
+        <RegistrationMark>LZ-BVE</RegistrationMark>
+        <IsLastRegistration>true</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>true</IsActiveRegistration>
+          <StatusCode>9</StatusCode>
+          <StatusName>Последна (действаща) регистрация</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-58</DocNumber>
+          <DocDate>2013-11-08</DocDate>
+          <Description>Заявление за издаване УРВС, платена такса</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>202785263</Identifier>
+              <Name>“ЕЪР ВОЛТА” ЕООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>ЕН ЕМ БИ ЕЙР Лтд.</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2416</ActNumber>
+        <RegistrationNumber>2395</RegistrationNumber>
+        <RegistrationDate>2013-01-29</RegistrationDate>
+        <RegistrationMark>LZ-BVE</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-6</DocNumber>
+          <DocDate>2013-01-28</DocDate>
+          <Description>R-83-01/23.01.2013;40-01-84/28.01.2013;55-02-4/17.01.2013</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber>R-83-01</DocNumber>
+          <DocDate>2013-01-23</DocDate>
+          <Agreement>Договор от 18.12.2012</Agreement>
+          <Lessor>
+            <Person />
+            <Entity>
+              <Name>ЕН ЕМ БИ ЕЙР Лтд.</Name>
+            </Entity>
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>202785263</Identifier>
+              <Name>А Л К</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>ЕН ЕМ БИ ЕЙР Лтд.</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2395</ActNumber>
+        <RegistrationNumber>2395</RegistrationNumber>
+        <RegistrationDate>2012-06-28</RegistrationDate>
+        <RegistrationMark>LZ-BVE</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-61</DocNumber>
+          <DocDate>2012-06-25</DocDate>
+          <Description>Заявление; Договор за покупко-продажба; Фактура; Платени такси по тарифа 5</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber>R-83-27</DocNumber>
+          <DocDate>2012-06-27</DocDate>
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity>
+              <Name>ЕН ЕМ БИ ЕЙР Лтд.</Name>
+            </Entity>
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>201320396</Identifier>
+              <Name>“АВБ-2010” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>ЕН ЕМ БИ ЕЙР Лтд.</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2385</ActNumber>
+        <RegistrationNumber>2385</RegistrationNumber>
+        <RegistrationDate>2012-05-31</RegistrationDate>
+        <RegistrationMark>LZ-BVE</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-51</DocNumber>
+          <DocDate>2012-05-29</DocDate>
+          <Description>Договор за покупко-продажба</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>130540291</Identifier>
+              <Name>“Би Ейч Еър “ ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>GOFF HOTELS MANAGEMENT LIMITED</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2342</ActNumber>
+        <RegistrationNumber>2342</RegistrationNumber>
+        <RegistrationDate>2011-07-05</RegistrationDate>
+        <RegistrationMark>LZ-BVE</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-38</DocNumber>
+          <DocDate>2011-06-28</DocDate>
+          <Description>Заповед R-83-19 от 24.06.2011; Договор за лизинг от 01.05.2011</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber>R-83-19</DocNumber>
+          <DocDate>2011-06-24</DocDate>
+          <Agreement>Договор за лизинг от 01.05.2011</Agreement>
+          <Lessor>
+            <Person />
+            <Entity>
+              <Identifier>175080520</Identifier>
+              <Name>“АВБ-2004” АД</Name>
+            </Entity>
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>201320396</Identifier>
+              <Name>“АВБ-2010” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>175080520</Identifier>
+              <Name>“АВБ-2004” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2186</ActNumber>
+        <RegistrationNumber>2186</RegistrationNumber>
+        <RegistrationDate>2007-12-04</RegistrationDate>
+        <RegistrationMark>LZ-BVE</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-36</DocNumber>
+          <DocDate>2007-04-24</DocDate>
+          <Description />
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>175080520</Identifier>
+              <Name>“АВБ-2004” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>175080520</Identifier>
+              <Name>“АВБ-2004” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+    </Registrations>
+    <Debts>
+      <Debt>
+        <InputDate>2012-06-28</InputDate>
+        <DebtType>ЗАЛОГ</DebtType>
+        <IsActive>true</IsActive>
+        <Applicant>
+          <Name>Първа Инвестиционна Банка</Name>
+        </Applicant>
+        <Document>
+          <IncomingNumber>15-00-23</IncomingNumber>
+          <IncomingDate>2012-06-25</IncomingDate>
+          <ExternalNumber />
+        </Document>
+        <Repayment>
+          <RepaymentDocument />
+        </Repayment>
+        <Notes>Договор за банков кредит № 000LD-L-000352/21.06.2012г.</Notes>
+      </Debt>
+      <Debt>
+        <InputDate>2010-01-11</InputDate>
+        <DebtType>ЗАЛОГ</DebtType>
+        <IsActive>false</IsActive>
+        <Applicant>
+          <Name>Първа Инвестиционна Банка</Name>
+        </Applicant>
+        <Document>
+          <IncomingNumber>15-00-1</IncomingNumber>
+          <IncomingDate>2010-01-07</IncomingDate>
+          <ExternalNumber />
+          <ExternalDate>2010-01-04</ExternalDate>
+        </Document>
+        <Repayment>
+          <RepaymentDate>2012-05-31</RepaymentDate>
+          <RepaymentDocument>
+            <IncomingNumber>15-00-20</IncomingNumber>
+            <IncomingDate>2012-05-31</IncomingDate>
+            <ExternalNumber />
+          </RepaymentDocument>
+          <Notes>Писмо за заличаване на залога след пререгистрация на новия собственик</Notes>
+        </Repayment>
+        <Notes>Договор 000LD-L-000111/28.12.2009</Notes>
+      </Debt>
+      <Debt>
+        <InputDate>2007-12-10</InputDate>
+        <DebtType>ЗАЛОГ</DebtType>
+        <IsActive>false</IsActive>
+        <Applicant>
+          <Name>Първа Инвестиционна Банка</Name>
+        </Applicant>
+        <Document>
+          <IncomingNumber>15-00-67</IncomingNumber>
+          <IncomingDate>2007-12-06</IncomingDate>
+          <ExternalNumber />
+          <ExternalDate>2007-12-05</ExternalDate>
+        </Document>
+        <Repayment>
+          <RepaymentDate>2010-01-19</RepaymentDate>
+          <RepaymentDocument>
+            <IncomingNumber>15-00-2</IncomingNumber>
+            <IncomingDate>2010-01-21</IncomingDate>
+            <ExternalNumber>11-12</ExternalNumber>
+            <ExternalDate>2010-01-04</ExternalDate>
+          </RepaymentDocument>
+          <Notes />
+        </Repayment>
+        <Notes>Договор за залог: 00KP-AA-3084/19.10.2007</Notes>
+      </Debt>
+      <Debt>
+        <InputDate>2007-12-10</InputDate>
+        <DebtType>ЗАЛОГ</DebtType>
+        <IsActive>false</IsActive>
+        <Applicant>
+          <Name>Първа Инвестиционна Банка</Name>
+        </Applicant>
+        <Document>
+          <IncomingNumber>15-00-67</IncomingNumber>
+          <IncomingDate>2007-12-06</IncomingDate>
+          <ExternalNumber />
+          <ExternalDate>2007-12-05</ExternalDate>
+        </Document>
+        <Repayment>
+          <RepaymentDate>2010-01-19</RepaymentDate>
+          <RepaymentDocument>
+            <IncomingNumber>15-00-2</IncomingNumber>
+            <IncomingDate>2010-01-21</IncomingDate>
+            <ExternalNumber>11-12</ExternalNumber>
+            <ExternalDate>2010-01-04</ExternalDate>
+          </RepaymentDocument>
+          <Notes>Заличаване на залози по два договора aa-3084 и aa-3104</Notes>
+        </Repayment>
+        <Notes>Договор за залог: 00KP-AA-3104/26.11.2007</Notes>
+      </Debt>
+    </Debts>
+  </Aircraft>
+  <Aircraft>
+    <Producer>
+      <Name>Learjet Inc., САЩ</Name>
+      <NameEn>Learjet Inc., USA</NameEn>
+      <CountryCode>US</CountryCode>
+      <CountryName>USA</CountryName>
+    </Producer>
+    <AirCategory>
+      <Code>LA</Code>
+      <Name>Large Aeroplane</Name>
+    </AirCategory>
+    <ICAO>LJ60</ICAO>
+    <BGModelName>Learjet 60</BGModelName>
+    <ENModelName>Learjet 60</ENModelName>
+    <MSNSerialNumber>60-203</MSNSerialNumber>
+    <Registrations>
+      <Registration>
+        <ActNumber>2594</ActNumber>
+        <RegistrationNumber>2100</RegistrationNumber>
+        <RegistrationDate>2016-01-27</RegistrationDate>
+        <RegistrationMark>LZ-BVV</RegistrationMark>
+        <IsLastRegistration>true</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>true</IsActiveRegistration>
+          <StatusCode>9</StatusCode>
+          <StatusName>Последна (действаща) регистрация</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-5</DocNumber>
+          <DocDate>2016-01-14</DocDate>
+          <Description>Заявление; Върнати оригинални документи на ВС; платена такса по Тарифа 5; Писмо 55-02-4/14.01.2016; Писмо 18-00-48/25.01.2016; Писмо 15-00-1/25.01.2016;</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber>R-83-1</DocNumber>
+          <DocDate>2016-01-25</DocDate>
+          <Agreement>БЕЗСРОЧЕН ДОГОВОР; Договор за лизинг на самолет от 12.01.2016 г.</Agreement>
+          <Lessor>
+            <Person />
+            <Entity>
+              <Identifier>200583932</Identifier>
+              <Name>“МОРАН  ТРЕЙД”  ЕООД</Name>
+            </Entity>
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>202785263</Identifier>
+              <Name>“ЕЪР ВОЛТА” ЕООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200583932</Identifier>
+              <Name>“МОРАН  ТРЕЙД”  ЕООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2547</ActNumber>
+        <RegistrationNumber>2100</RegistrationNumber>
+        <RegistrationDate>2015-05-08</RegistrationDate>
+        <RegistrationMark>LZ-BVV</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>4</StatusCode>
+          <StatusName>Пререгистриран</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-24</DocNumber>
+          <DocDate>2015-04-27</DocDate>
+          <Description>55-02-29/08.05.2015; 55-02-23/27.04.2015; платена такса</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber>R-83-12</DocNumber>
+          <DocDate>2015-04-30</DocDate>
+          <EndDate>2016-04-21</EndDate>
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity>
+              <Name>ФИНАНС ЛИЗИНГ ЕАД ул. “Джеймс Баучер" 2 1164 София БОРДОН ДЖЕТС ООД ул. “Уилям Гладстон" 9 1000 София</Name>
+            </Entity>
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>202785263</Identifier>
+              <Name>“ЕЪР ВОЛТА” ЕООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200355672</Identifier>
+              <Name>ФИНАНС  ЛИЗИНГ</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2421</ActNumber>
+        <RegistrationNumber>2100</RegistrationNumber>
+        <RegistrationDate>2013-03-20</RegistrationDate>
+        <RegistrationMark>LZ-BVV</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-03-43</DocNumber>
+          <DocDate>2013-03-07</DocDate>
+          <Description>R-83-09/06.03.2013</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber>R-83-09</DocNumber>
+          <DocDate>2013-03-06</DocDate>
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity>
+              <Name>ФИНАНС ЛИЗИНГ ЕАД ул. “Джеймс Баучер" 2 1164 София БОРДОН ДЖЕТС ООД ул. “Уилям Гладстон" 9 1000 София</Name>
+            </Entity>
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>123089443</Identifier>
+              <Name>"Авио Делта" ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200355672</Identifier>
+              <Name>ФИНАНС  ЛИЗИНГ</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2409</ActNumber>
+        <RegistrationNumber>2100</RegistrationNumber>
+        <RegistrationDate>2012-10-09</RegistrationDate>
+        <RegistrationMark>LZ-BVV</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-83</DocNumber>
+          <DocDate>2012-09-24</DocDate>
+          <Description>R-83-36/09.10.2012; UBB Letter 15-00-31/08.10.2012; Договор покупко-продажба</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber>R-83-36</DocNumber>
+          <DocDate>2012-10-09</DocDate>
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity>
+              <Identifier>200355672</Identifier>
+              <Name>ФИНАНС  ЛИЗИНГ</Name>
+            </Entity>
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>201320396</Identifier>
+              <Name>“АВБ-2010” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200355672</Identifier>
+              <Name>ФИНАНС  ЛИЗИНГ</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2408</ActNumber>
+        <RegistrationNumber>2100</RegistrationNumber>
+        <RegistrationDate>2012-10-04</RegistrationDate>
+        <RegistrationMark>LZ-BVV</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-79</DocNumber>
+          <DocDate>2012-09-14</DocDate>
+          <Description>Договор за покупко-продажба; Заявление от синдик.</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200583932</Identifier>
+              <Name>“МОРАН  ТРЕЙД”  ЕООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>200583932</Identifier>
+              <Name>“МОРАН  ТРЕЙД”  ЕООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2343</ActNumber>
+        <RegistrationNumber>2100</RegistrationNumber>
+        <RegistrationDate>2011-07-07</RegistrationDate>
+        <RegistrationMark>LZ-BVV</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>55-02-38</DocNumber>
+          <DocDate>2011-06-28</DocDate>
+          <Description>Заявления от “АВБ-2004” и “АВБ-2010”, Заповед R-83-19/24.06.2011, Договор за лизинг</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber>R-83-19</DocNumber>
+          <DocDate>2011-06-24</DocDate>
+          <Agreement>Договор от 1.5.2011</Agreement>
+          <Lessor>
+            <Person />
+            <Entity>
+              <Identifier>175080520</Identifier>
+              <Name>“АВБ-2004” АД</Name>
+            </Entity>
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>201320396</Identifier>
+              <Name>“АВБ-2010” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>175080520</Identifier>
+              <Name>“АВБ-2004” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>2100</ActNumber>
+        <RegistrationNumber>2100</RegistrationNumber>
+        <RegistrationDate>2006-07-17</RegistrationDate>
+        <RegistrationMark>LZ-BVV</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber />
+          <Description />
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>175080520</Identifier>
+              <Name>“АВБ-2004” АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>Лиър Къмпани АД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+    </Registrations>
+    <Debts>
+      <Debt>
+        <InputDate>2016-01-05</InputDate>
+        <DebtType>ЗАЛОГ</DebtType>
+        <IsActive>true</IsActive>
+        <Applicant>
+          <Identifier>000694329</Identifier>
+          <Name>Интернешънъл Асет Банк</Name>
+        </Applicant>
+        <Document>
+          <IncomingNumber>18-00-4</IncomingNumber>
+          <IncomingDate>2016-01-05</IncomingDate>
+          <ExternalNumber>11-B-135</ExternalNumber>
+          <ExternalDate>2016-01-04</ExternalDate>
+        </Document>
+        <Repayment>
+          <RepaymentDocument />
+        </Repayment>
+        <Notes>Вписан залог съгласно Договор за залог на движима вещ № ДЗ-098-01903-805 от 29.12.2015 г.</Notes>
+      </Debt>
+      <Debt>
+        <InputDate>2010-09-29</InputDate>
+        <DebtType>ЗАПОР</DebtType>
+        <IsActive>false</IsActive>
+        <Applicant>
+          <Name>Частен съдебен изпълнител - Ренета Милчева</Name>
+        </Applicant>
+        <Document>
+          <IncomingNumber>10-00-11</IncomingNumber>
+          <IncomingDate>2010-09-24</IncomingDate>
+          <ExternalNumber />
+          <ExternalDate>2010-09-24</ExternalDate>
+        </Document>
+        <Repayment>
+          <RepaymentDate>2011-07-11</RepaymentDate>
+          <RepaymentDocument>
+            <IncomingNumber>10-00-11</IncomingNumber>
+            <IncomingDate>2011-07-12</IncomingDate>
+            <ExternalNumber>13376</ExternalNumber>
+            <ExternalDate>2011-06-29</ExternalDate>
+          </RepaymentDocument>
+          <Notes>Изх. №  /  по изп.дело 
+20107900401380</Notes>
+        </Repayment>
+        <Notes>Изпълнително дело № 20107900401380</Notes>
+      </Debt>
+      <Debt>
+        <InputDate>2006-08-17</InputDate>
+        <DebtType>ЗАЛОГ</DebtType>
+        <IsActive>false</IsActive>
+        <Applicant>
+          <Name>ОББ АД</Name>
+        </Applicant>
+        <Document>
+          <IncomingNumber>15-00-51</IncomingNumber>
+          <IncomingDate>2006-08-04</IncomingDate>
+          <ExternalNumber />
+          <ExternalDate>2006-08-04</ExternalDate>
+        </Document>
+        <Repayment>
+          <RepaymentDate>2012-11-07</RepaymentDate>
+          <RepaymentDocument>
+            <IncomingNumber>15-00-39</IncomingNumber>
+            <IncomingDate>2012-11-07</IncomingDate>
+            <ExternalNumber>300-490</ExternalNumber>
+            <ExternalDate>2012-11-07</ExternalDate>
+          </RepaymentDocument>
+          <Notes />
+        </Repayment>
+        <Notes>Договор от 24.07.2006г.</Notes>
+      </Debt>
+    </Debts>
+  </Aircraft>
+</AircraftsResponse>

@@ -1,0 +1,39 @@
+<button
+  type="button"
+  [igxToggleAction]="userDropdown"
+  [overlaySettings]="menuOverlaySettings"
+  [igxDropDownItemNavigation]="userDropdown"
+  title="Потребителски настройки"
+  class="user-button"
+  igxButton="outlined"
+>
+  <igx-icon>account_circle</igx-icon>&nbsp;{{ user }}
+  <!-- <i class="fa fa-arrow-down" aria-hidden="true"></i> -->
+</button>
+<igx-drop-down
+  #userDropdown
+  (onSelection)="onUserMenuSelected($event)"
+>
+  <tl-reference-button
+    [routeReference]="this.routes.CONSUMER_PROFILE_EDIT"
+    [routeArguments]="{ ':ID': this.consumerProfileId }"
+    [icon]="'person'"
+    buttonType="drop-down"
+    title="Редакция на консуматор"
+  >
+  </tl-reference-button>
+  <tl-reference-button
+    [routeReference]="this.routes.CONSUMER_PROFILE_USERS_EDIT"
+    [routeArguments]="{ ':ID': this.consumerUserId }"
+    [icon]="'people'"
+    buttonType="drop-down"
+    title="Редакция  на представител"
+  >
+  </tl-reference-button>
+  <igx-drop-down-item (click)="onChangePassword()">
+    <igx-icon>vpn_key</igx-icon>&nbsp;Промяна на парола
+  </igx-drop-down-item>
+  <igx-drop-down-item (click)="onLogOut()">
+    <igx-icon>exit_to_app</igx-icon>&nbsp;Изход
+  </igx-drop-down-item>
+</igx-drop-down>

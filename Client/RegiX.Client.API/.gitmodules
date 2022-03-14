@@ -1,0 +1,3 @@
+[submodule "RegiX.Client.API/marked"]
+	path = RegiX.Client.API/marked
+	url = https://azure-devops.technologica.com/tfs/DefaultCollection/RegiX/_git/RegiX.Client.Help

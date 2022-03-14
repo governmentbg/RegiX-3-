@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/MVR/ObligationDocuments/GetObligationDocumentsRequest" targetNamespace="http://egov.bg/RegiX/MVR/ObligationDocuments/GetObligationDocumentsRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="ObligationDocumentsRequestType">
+		<xs:sequence>
+			<xs:element name="documentType" type="DocumentType">
+				<xs:annotation>
+					<xs:documentation>Тип документ.
+Документ от тип АУАН, Фиш, НП</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="documentSeries" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Серия на документ.
+Задължително се посочва за документи от тип АУАН и фиш</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="documentNumber" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Номер на документ.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="initialAmount" type="xs:double">
+				<xs:annotation>
+					<xs:documentation>Сума за плащане.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="DocumentType">
+		<xs:annotation>
+			<xs:documentation>Тип документ</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="TICKET"/>
+			<xs:enumeration value="ACT"/>
+			<xs:enumeration value="PENAL_DECREE"/>
+			<!--ФИШ-->
+			<!--АУАН-->
+			<!--Наказателно постановление-->
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="GetObligationDocumentsRequest" type="ObligationDocumentsRequestType">
+		<xs:annotation>
+			<xs:documentation>Входни параметри на спраквата  Проверка на задълженията по конкретен документ, издаден от Пътна полиция</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,232 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <div *ngIf="isDataLoading">
+      <div>
+        <igx-circular-bar
+          [animate]="true"
+          [indeterminate]="true"
+          [textVisibility]="true"
+        ></igx-circular-bar>
+      </div>
+    </div>
+    <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isDataLoaded && !isDataLoading"
+    >
+      <div
+        class="input-group"
+        igxLayout
+        igxLayoutDir="row"
+        formGroupName="consumerSystemCertificate"
+      >
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="displayName"
+              type="text"
+              formControlName="displayName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="displayName">Сертификати</label>
+          </igx-input-group>
+        </tl-form-group>
+        <button
+          igxButton="icon"
+          (click)="showConsumerSystemCertificates()"
+          [disabled]="this.isShowForm()"
+        >
+          <igx-icon>card_membership</igx-icon>
+        </button>
+      </div>
+
+      <form class="left-form-group" [formGroup]="formGroupAdministrations" >
+        <div igxLayout igxLayoutDir="col">
+          <h3 class="igx-card-header__subtitle">
+            Първични администратори на данни
+          </h3>
+
+          <div
+            *ngFor="let controlKey of formGroupAdministrationsKeysArray"
+            igxFlex
+            igxLayout
+            igxLayoutDir="row"
+            style="margin-bottom: 1rem;"
+          >
+            <tl-form-group class="form-group-wrapper">
+              <igx-input-group [displayDensity]="'comfortable'">
+                <input
+                  class="form-input"
+                  igxInput
+                  [name]="controlKey"
+                  type="text"
+                  [formControlName]="controlKey"
+                  tlFormGroupRef
+                />
+                <label igxLabel [for]="controlKey">{{
+                  this.formGroupAdministrationsKeys[controlKey].title
+                }}</label>
+              </igx-input-group>
+            </tl-form-group>
+            <button
+              igxButton="icon"
+              (click)="openPrimaryAdministraionsForm()"
+              title="Филтър по първичен администратор на данни"
+              
+            >
+              <igx-icon>{{
+                this.formGroupAdministrationsKeys[controlKey].icon
+              }}</igx-icon>
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <!-- lawReason -->
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="lawReason"
+              type="textarea"
+              formControlName="lawReason"
+              tlFormGroupRef
+            />
+            <label igxLabel for="lawReason">Правно основание</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <!-- relatedServices -->
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="relatedServices"
+              type="textarea"
+              formControlName="relatedServices"
+              tlFormGroupRef
+            />
+            <label igxLabel for="relatedServices"
+              >Наименование на услугата</label
+            >
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <!-- relatedServicesCode -->
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="relatedServicesCode"
+              type="textarea"
+              formControlName="relatedServicesCode"
+              tlFormGroupRef
+            />
+            <label igxLabel for="relatedServicesCode">Код на услугата</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+    </form>
+    <div class="tabs-wrapper">
+      <h3 class="igx-card-header__title elements-header">Достъп до елементи</h3>
+      <div
+        class="elements-wrapper"
+        igxLayout
+        igxLayoutDir="row"
+        igxLayoutJustify="space-between"
+      >
+        <tl-linear-progress [visible]="this.isDataLoading"></tl-linear-progress>
+        
+        <igx-tree-grid
+          #treeGrid
+          [data]="operationElements"
+          [allowFiltering]="true"
+          (onRowSelectionChange)="
+                  this.isShowForm()
+                    ? onRowClickChangeEditDisable($event)
+                    : onRowClickChangeEditEnable($event)
+                "
+          [primaryKey]="'primaryKey'"
+          [foreignKey]="'foreignKey'"
+          [rowSelectable]="true"
+          [rowSelection]="'multiple'"
+          [height]="null"
+          igxFlex
+        >
+          <igx-column
+            field="name"
+            header="Елемент"
+            dataType="string"
+            [sortable]="false"
+            [editable]="false"
+            [movable]="false"
+            [resizable]="true"
+          >
+            <ng-template igxCell let-cell="cell">
+              <span [title]="cell.value" class="text-ellipsis">{{
+                cell.value
+              }}</span>
+            </ng-template>
+          </igx-column>
+          <igx-column
+            field="description"
+            header="Описание"
+            dataType="string"
+            [sortable]="false"
+            [editable]="false"
+            [movable]="false"
+            [resizable]="true"
+          >
+            <ng-template igxCell let-cell="cell">
+              <span [title]="cell.value" class="text-ellipsis">{{
+                cell.value
+              }}</span>
+            </ng-template>
+          </igx-column>
+        </igx-tree-grid>
+      </div>
+    </div>
+  </div>
+</tl-basic-form>
+
+<igx-dialog
+  #primaryAdministrationsFilter
+  title="Филтър по първичен администратор на данни"
+  [closeOnOutsideSelect]="true"
+>
+  <div style="height: 90vh; width: 95vw; overflow: auto;">
+    <app-operation-filter
+      #operationFilter
+      [lastLevelChoiceOnly]="true"
+      (selectedValues)="operationSelected($event)"
+    ></app-operation-filter>
+  </div>
+</igx-dialog>
+
+<igx-dialog
+  #consumerSystemCertificatesFilterDialog
+  title="Сертификати"
+  [closeOnOutsideSelect]="true"
+>
+  <div style="height: 90vh; width: 95vw; overflow: auto;">
+    <app-consumer-system-certificates-filter
+      #consumerSystemCertificatesFilter
+      (selectedValues)="consumerSystemCertificatesSelected($event)"
+    >
+    </app-consumer-system-certificates-filter>
+  </div>
+</igx-dialog>

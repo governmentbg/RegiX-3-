@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRADER_BROKER_Waste_Codes_By_EIK_RequestV2 xsi:schemaLocation="http://egov.bg/RegiX/IAOS/TraderBroker/WasteCodesByEIKRequestV2 TRADER_BROKER_Waste_Codes_By_EIK_RequestV2.xsd" xmlns="http://egov.bg/RegiX/IAOS/TraderBroker/WasteCodesByEIKRequestV2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<EIK>000000000</EIK>
+</TRADER_BROKER_Waste_Codes_By_EIK_RequestV2>

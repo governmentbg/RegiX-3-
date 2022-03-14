@@ -1,0 +1,22 @@
+<MaritalStatusSpouseChildrenResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/BR/MaritalStatusSpouseChildrenResponse">
+<!--				<MaritalStatusCode>3</MaritalStatusCode>
+				<MaritalStatusName>Heпoкaзaнo</MaritalStatusName>
+				<FirstName>Никола</FirstName>
+				<MiddleName>Иванов</MiddleName>
+				<LastName>Първанов</LastName>
+				<EGN>8506258485</EGN>
+				<Gender>1</Gender>
+				<Relatives>
+					<Relative>
+						<OrderNumber>1</OrderNumber>
+						<FirstName>Валентина</FirstName>
+						<MiddleName>Колева</MiddleName>
+						<LastName>Иванова</LastName>
+						<EGN>6801111420</EGN>
+						<RelativeType>СЪПРУГА</RelativeType>
+						<DateOfDeath>2017-11-14</DateOfDeath>
+					</Relative>
+				</Relatives>-->
+				<ReportDate>2017-11-14T18:22:41.0044975+02:00</ReportDate>
+			</MaritalStatusSpouseChildrenResponse>
+<!--			      <MaritalStatusSpouseChildrenResponse xmlns="http://egov.bg/RegiX/GRAO/BR/MaritalStatusSpouseChildrenResponse" />-->

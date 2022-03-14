@@ -1,0 +1,14 @@
+<ng-container *ngxPermissionsOnly="permissions">
+  <igx-list-item
+    igxRipple
+    igxListAction
+    igxlist
+    igxRippleTarget=".igx-list__item-content"
+    #item
+    class="link"
+    (click)="onClick()"
+  >
+    <igx-icon *ngIf="this.icon" igxListThumbnail>{{ this.icon }}</igx-icon>
+    <span igxListLineTitle> {{ this.title }}</span>
+  </igx-list-item>
+</ng-container>

@@ -1,0 +1,44 @@
+variables:
+  Major: '1'
+  Minor: '0'
+  Patch: '74'
+  BuildConfiguration: release
+resources:
+- repo: self
+queue:
+  name: TLTTS
+steps:
+- task: VisualStudioTestPlatformInstaller@1
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/*.sln'
+    feedsToUse: 'select'
+    vstsFeed: 'TechnoLogica.Common'
+- task: MSBuild@1
+  displayName: 'Build'
+  inputs:
+    configuration: '$(BuildConfiguration)' 
+    solution: '**/*.sln' 
+- task: VSTest@2
+  inputs:    
+    codeCoverageEnabled: True
+    vsTestVersion: 'toolsInstaller'
+    testAssemblyVer2: |
+     **\$(BuildConfiguration)\*test*.dll
+     **\$(BuildConfiguration)\**\*test*.dll
+     !**\*Microsoft.VisualStudio.TestPlatform*
+     !**\obj\**
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+        dotnet pack TechnoLogica.IdentityServer/TechnoLogica.IdentityServer.csproj -o $(Build.ArtifactStagingDirectory)
+- task: NuGetCommand@2
+  displayName: 'NuGet push'
+  inputs:
+    command: push
+    publishVstsFeed: 'TechnoLogica.Common'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg' # Required when command == Push
+
+

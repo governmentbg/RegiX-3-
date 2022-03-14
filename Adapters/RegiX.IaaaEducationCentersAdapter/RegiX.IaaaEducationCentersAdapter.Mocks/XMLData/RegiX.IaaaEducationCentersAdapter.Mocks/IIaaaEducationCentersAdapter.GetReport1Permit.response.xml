@@ -1,0 +1,23 @@
+<PermitResponse xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters/PermitsResponse">
+  <Permits>
+    <Permit>
+      <Number xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1</Number>
+      <CompanyFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">full name</CompanyFullName>
+      <CompanyIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">identity number</CompanyIdentNumber>
+      <ManagerFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">full name</ManagerFullName>
+      <ManagerIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">identity number</ManagerIdentNumber>
+      <Address xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">address</Address>
+      <PermitType xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">type</PermitType>
+      <IssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-08-21</IssueDate>
+      <ValidTo xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-08-21</ValidTo>
+      <CeaseDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2015-08-21</CeaseDate>
+      <TechAssistantFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">full name</TechAssistantFullName>
+      <TechAssistantIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">identity number</TechAssistantIdentNumber>
+      <OrgUnitShortName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">short name</OrgUnitShortName>
+      <Status xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">status</Status>
+      <ExamRoomsCount xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1</ExamRoomsCount>
+      <SeatPlacesCount xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1</SeatPlacesCount>
+      <ExamSeatsCount xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1</ExamSeatsCount>
+    </Permit>
+  </Permits>
+</PermitResponse>

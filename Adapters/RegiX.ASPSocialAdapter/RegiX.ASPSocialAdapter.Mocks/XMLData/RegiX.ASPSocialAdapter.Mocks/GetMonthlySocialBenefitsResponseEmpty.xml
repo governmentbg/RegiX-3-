@@ -1,0 +1,14 @@
+﻿<GetMonthlySocialBenefitsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/ASP/MonthlyBenefits/GetMonthlySocialBenefitsResponse">
+	<CurrentTime>2016-08-29T11:41:34.5643546+03:00</CurrentTime>
+	<PersonData>
+		<FirstName xmlns="http://egov.bg/RegiX/ASP/Common">Иван</FirstName>
+		<MiddleName xmlns="http://egov.bg/RegiX/ASP/Common">Иванов</MiddleName>
+		<BirthDatе xmlns="http://egov.bg/RegiX/ASP/Common">1981-12-24</BirthDatе>
+		<Gender xmlns="http://egov.bg/RegiX/ASP/Common">
+			<GenderName>Мъж</GenderName>
+			<GenderCode>M</GenderCode>
+		</Gender>
+		<Identifier xmlns="http://egov.bg/RegiX/ASP/Common">9901010101</Identifier>
+		<IdentifierType xmlns="http://egov.bg/RegiX/ASP/Common">EGN</IdentifierType>
+	</PersonData>
+</GetMonthlySocialBenefitsResponse>

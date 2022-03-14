@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.CRCAdapter.Test", "RegiX.CRCAdapter.Test\RegiX.CRCAdapter.Test.csproj", "{37DF56A3-FBE6-4952-B812-C1BA17C18AA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.CRCAdapter", "RegiX.CRCAdapter\RegiX.CRCAdapter.csproj", "{92489211-CDD4-4745-907D-144EC3A513E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.CRCAdapter.Mock", "RegiX.CRCAdapter.Mock\RegiX.CRCAdapter.Mock.csproj", "{5E13A747-96E2-42A1-A562-500A1C27D81B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5E4311EA-6DF2-4EFC-80CE-498702959F93}"
+	ProjectSection(SolutionItems) = preProject
+		azure-devops.yaml = azure-devops.yaml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37DF56A3-FBE6-4952-B812-C1BA17C18AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37DF56A3-FBE6-4952-B812-C1BA17C18AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37DF56A3-FBE6-4952-B812-C1BA17C18AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37DF56A3-FBE6-4952-B812-C1BA17C18AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92489211-CDD4-4745-907D-144EC3A513E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92489211-CDD4-4745-907D-144EC3A513E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92489211-CDD4-4745-907D-144EC3A513E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92489211-CDD4-4745-907D-144EC3A513E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E13A747-96E2-42A1-A562-500A1C27D81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E13A747-96E2-42A1-A562-500A1C27D81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E13A747-96E2-42A1-A562-500A1C27D81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E13A747-96E2-42A1-A562-500A1C27D81B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCCE3C11-225A-4DEA-B673-F68BB62F85DF}
+	EndGlobalSection
+EndGlobal

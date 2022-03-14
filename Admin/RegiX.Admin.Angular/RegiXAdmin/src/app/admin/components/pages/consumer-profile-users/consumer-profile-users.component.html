@@ -1,0 +1,86 @@
+<tl-linear-progress
+  [visible]="this.remoteService.isLoading"
+></tl-linear-progress>
+<igx-grid
+  #grid
+  [data]="items$ | async"
+  [paging]="true"
+  [height]="null"
+  width="100%"
+  [clipboardOptions]="{ copyHeaders: false}"
+  [displayDensity]="'cosy'"
+  (onSortingDone)="sortingDone($event)"
+  (onFilteringDone)="filteringDone($event)"
+  (onSelection)="cellSelection($event)"
+  [paginationTemplate]="pager"
+  [allowFiltering]="true"
+  [primaryKey]="'id'"
+>
+  <igx-column field="name" header="Име" [sortable]="true" [dataType]="'string'">
+    <ng-template igxCell let-cell="cell">
+      <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+    </ng-template>
+  </igx-column>
+
+  <igx-column
+    field="position"
+    header="Позиция"
+    [sortable]="true"
+    [dataType]="'string'"
+  >
+    <ng-template igxCell let-cell="cell">
+      <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+    </ng-template>
+  </igx-column>
+
+  <igx-column
+    field="email"
+    header="E-mail"
+    [sortable]="true"
+    [dataType]="'string'"
+  >
+    <ng-template igxCell let-cell="cell">
+      <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+    </ng-template>
+  </igx-column>
+
+  <igx-column field="isActive" header="Активен" [dataType]="'boolean'">
+    <ng-template igxCell let-cell="cell">
+      <igx-checkbox disabled="true" [checked]="cell.value === true">
+      </igx-checkbox>
+    </ng-template>
+  </igx-column>
+
+  <igx-column
+    field="identifier"
+    header="Идентификатор"
+    [sortable]="true"
+    [dataType]="'string'"
+  >
+    <ng-template igxCell let-cell="cell">
+      <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+    </ng-template>
+  </igx-column>
+
+  <!-- <igx-column
+    field="identifierType"
+    header="Тип идентификатор"
+    [sortable]="true"
+    [dataType]="'string'"
+  >
+    <ng-template igxCell let-cell="cell">
+      <span [title]="cell.value" class="text-ellipsis">{{ identifierType[+cell.value] }}</span>
+    </ng-template>
+  </igx-column> -->
+
+  <ng-template #pager let-api>
+    <div class="tl-paginator">
+      <tl-grid-pager
+        [page]="remoteService.pagerParams.page"
+        [perPage]="remoteService.pagerParams.perPage"
+        [totalCount]="remoteService.pagerParams.totalCount"
+        (pagerChange)="pagerChange($event)"
+      ></tl-grid-pager>
+    </div>
+  </ng-template>
+</igx-grid>

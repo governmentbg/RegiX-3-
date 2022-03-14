@@ -1,0 +1,6 @@
+<GetObligationDocumentsRequest xmlns="http://egov.bg/RegiX/MVR/ObligationDocuments/GetObligationDocumentsRequest">
+	<documentType>TICKET</documentType>
+	<documentSeries>K</documentSeries>
+	<documentNumber>64561</documentNumber>
+	<initialAmount>240</initialAmount>
+</GetObligationDocumentsRequest>

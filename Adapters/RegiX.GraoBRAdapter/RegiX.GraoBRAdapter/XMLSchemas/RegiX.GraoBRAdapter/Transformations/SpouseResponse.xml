@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<SpouseResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/BR/SpouseResponse">
+  <EGN>6801111420</EGN>
+  <FirstName>Валентина   </FirstName>
+  <SurName>Колева         </SurName>
+  <FamilyName>Иванова</FamilyName>
+  <BirthDate>1968-01-11</BirthDate>
+<!--  <DeathDate>1969-01-11</DeathDate>-->
+  <GenderCode>2</GenderCode>
+  <GenderName>Жена</GenderName>
+  <NationalityCode>BG</NationalityCode>
+  <NationalityName>България</NationalityName>
+<!--  <SecondNationalityCode>  </SecondNationalityCode>-->
+</SpouseResponse>

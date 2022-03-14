@@ -1,0 +1,15 @@
+﻿using System;
+
+namespace TechnoLogica.RegiX.Client.API.DataContracts.DTO.BaseDtos
+{
+    public abstract class ABaseOutDto : BaseOutDto
+    {
+        public string CreatedBy { get; set; }
+
+        public DateTime CreatedOn { get; set; }
+
+        public string ModifiedBy { get; set; }
+
+        public DateTime? ModifiedOn { get; set; }
+    }
+}

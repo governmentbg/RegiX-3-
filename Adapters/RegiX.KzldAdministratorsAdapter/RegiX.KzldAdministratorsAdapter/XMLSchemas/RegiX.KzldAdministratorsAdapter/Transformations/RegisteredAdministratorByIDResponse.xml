@@ -1,0 +1,323 @@
+﻿<?xml version="1.0"?>
+<RegisteredAdministratorByIDResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/KZLD/Administrators/RegisteredAdministratorByIDResponse">
+  <PDCData>
+    <Identifier xmlns="http://egov.bg/RegiX/KZLD/Common">1709388</Identifier>
+    <Name xmlns="http://egov.bg/RegiX/KZLD/Common">БЪЛГАРСКА НАРОДНА БАНКА</Name>
+    <LegalForm xmlns="http://egov.bg/RegiX/KZLD/Common">ЦЕНТРАЛНА БАНКА</LegalForm>
+    <Location xmlns="http://egov.bg/RegiX/KZLD/Common">гр.СОФИЯ</Location>
+    <Address xmlns="http://egov.bg/RegiX/KZLD/Common">ПЛ. КНЯЗ АЛЕКСАНДЪР I   1</Address>
+    <LocationCode xmlns="http://egov.bg/RegiX/KZLD/Common">68134</LocationCode>
+  </PDCData>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР НА МЕСТНИТЕ СТАТИСТИЧЕСКИ ЕДИНИЦИ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_FROM_16_TO_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ЛИЧНИ ДАННИ НА СЛУЖИТЕЛИТЕ ВЪВ ВЕДОМСТВЕН СТОЛ И БЮФЕТИ НА БНБ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">от 16 до 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">БНБ - ПРОБЕН</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2012-01-27</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ЛИЧНИ ДАННИ НА ЛИЦА ПО ИЗВЪНТРУДОВИ ВЗАИМООТНОШЕНИЯ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ЛИЧНИ ДАННИ НА ПОЧИВАЩИТЕ В ПОЧИВНИ БАЗИ НА БНБ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР ЗА ЛИЧНИ ДАННИ СВЪРЗАН СЛИЦЕНЗИОННА ПРОЦЕДУРА ЗА ПЛАТЕЖНИ СИСТЕМИ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2012-02-03</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР С ИЗДАДЕНИ ЦИФРОВИ СЕРТИФИКАТИ ЗА НУЖДАТА НА СБСРВ РИНГС</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР НА ЛИЧНИ ДАННИ, СВЪРЗАН С НАДЗОРА НА ПЛАТЕЖНИТЕ СИСТЕМИ И ДОСТАВЧИЦИТЕ НА ПЛАТЕЖНИ УСЛУГИ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕЗЕРВНИ КЛЮЧОВЕ НА БНБ, КП НА БНБ И ОБЩЕСТВЕН ТРЕЗОР</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ОБЩЕСТВЕН ТРЕЗОР - ПОСЕЩЕНИЯ И ПРОМЕНИ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ДЕПОЗИТНИ ДОСИЕТА ЗА ПРИЕМАНЕТО НА СЪХРАНЕНИЕ НА ЦЕННОСТИ - УС 63 ОТ 07.06.2007</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР "ОБЩЕСТВЕН ТРЕЗОР"</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ДЕЛОВОДНА ИНФОРМАЦИОННА СИСТЕМА</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТРИРАНЕ НА ДЕПОЗИТИ И РЕЗЕРВНИ КЛЮЧОВЕ В ОБЩЕСТВЕНИЯ ТРЕЗОР</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2012-02-03</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">АРХИВ НА БНБ - ДОКУМЕНТИ И ОПИСИ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ЛИЧНИ ДАННИ ЗА КЛИЕНТИТЕ НА БНБ И ТЕХНИТЕ ПЪЛНОМОЩНИЦИ В КАСОВО ПОДРАЗДЕЛЕНИЕ НА БНБ ГР. БУРГАС</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2012-02-02</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР СЪС СПЕСИМЕНИ НА ЛИЦАТА, ПРЕДСТАВЛЯВАЩИ БАНКИ И НБФИ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ЛИЧНИ ДАННИ ЗА КЛИЕНТИ НА БНБ И ТЕХНИТЕ ПЪЛНОМОЩНИЦИ В КАСОВО ПОДРАЗДЕЛЕНИЕ НА БНБ ГР. СОФИЯ - КВ. ОВЧА КУПЕЛ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2012-02-02</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">АВТОМАТИЗИРАНА ИНФОРМАЦИОННА СИСТЕМА "СДЕЛКИ С ДЦК С ФИЗИЧЕСКИ ЛИЦА" (АИС)</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР ЧОВЕШКИ РЕСУРСИ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ДОПУСК В СГРАДИТЕ НА БНБ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ЛИЧНИ ДАННИ НА КЛИЕНТИ НА БНБ В ДИРЕКЦИЯ "ГЛАВНО СЧЕТОВОДСТВО"</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ЛИЧНИ ДАННИ НА КЛИЕНТИТЕ НА БНБ - ДИРЕКЦИЯ "ЕМИСИОННО-КАСОВА" И ТЕХНИТЕ ПЪЛНОМОЩНИЦИ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ЦЕНТРАЛЕН КРЕДИТЕН РЕГИСТЪР НА БНБ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ЕЛЕКТРОННА СИСТЕМА ЗА РЕГИСТРИРАНЕ И ОБСЛУЖВАНЕ НА ТЪРГОВИЯТА С ДЦК (ЕСРОТ)</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР НА ОСОБЕНИТЕ ЗАЛОЗИ ВЪРХУ ДЦК (РОЗ)</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_TO_15</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">АДЦК</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">до 15</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР С ЛИЧНИ ДАННИ ВЪВ ВРЪЗКА С ДОСТЪП ДО КЛАСИФИЦИРАНА ИНФОРМАЦИЯ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР ЗА ПРИЕТИ БАНКНОТИ ЗА ОТЛОЖЕНА ЗАМЯНА</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР ЗА ЗАДЪРЖАНИ БАНКНОТИ И МОНЕТИ - НЕИСТИНСКИ ИЛИ ПРЕПРАВЕНИ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР ЗА ВЪЗПРОИЗВОДСТВО НА БЪЛГАРСКИ БАНКНОТИ И МОНЕТИ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР ЗА ЗАДЪРЖАНИ БАНКНОТИ И МОНЕТИ НА ОСНОВАНИЕ ЧЛ19,АЛ3,4,ЧЛ 20 АЛ.3 ОТ НАРЕДБА 18</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР НА ЛИЧНИ ДАННИ ЗА АКЦИОНЕРИТЕ НА КРЕДИТНИТЕ ИНСТИТУЦИИ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР НА ЛИЧНИ ДАННИ, СЪБИРАНИ ПРИ НАДЗОРНИ ИНСПЕКЦИИ В КРЕДИТНИ ИНСТИТУЦИИ И ФИНАНСОВИ ИНСТИТУЦИИ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР НА ЛИЧНИ ДАННИ, СЪБИРАНИ ПРИ РЕГИСТРИРАНЕ НА ФИНАНСОВА ИНСТИТУЦИЯ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ЛИЧНИ ДАННИ, СЪБИРАНИ ПО ВРЕМЕ НА ИНСПЕКЦИИ НА МЯСТО</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР С ЛИЧНИТЕ ДАННИ НА КРЕДИТОПОЛУЧАТЕЛИ ФИЗИЧЕСКИ ЛИЦА</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2012-02-02</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ЛИЧНИ ДАННИ НА КРЕДИТОПОЛУЧАТЕЛИ, СВЪРЗАНИ ЛИЦА ПО ГОЛЯМА ИЛИ ВЪТРЕШНА ЕКСПОЗИЦИЯ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2012-02-02</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР НА ЛИЧНИТЕ ДАННИ ЗА ОТКРИТИ ПРОИЗВОДСТВА ПО ИЗДАВАНЕ НА ЛИЦЕНЗ, РАЗРЕШЕНИЕ ИЛИ ОДОБРЕНИЕ ПО ЗКИ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР НА ЛИЧНИ ДАННИ, СЪБИРАНИ ПО ОТКРИТО ПРОИЗВОДСТВО ЗА ОДОБРЕНИЕ ПО ЧЛ.11 АЛ.3 ЗКИ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР НА ФИНАНСОВИТЕ КРЕДИТИ МЕЖДУ МЕСТНИ И ЧУЖДЕСТРАННИ ЛИЦА</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР ЗА ПРЕВОДИ И ПЛАЩАНИЯ МЕЖДУ МЕСТНИ И ЧУЖДЕСТРАННИ ЛИЦА</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР НА ПРЕДОСТАВЕНИТЕ КРЕДИТИ ЧРЕЗ ОТКРИВАНЕ НА БАНКОВИ СМЕТКИ В ЧУЖБИНА</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР НА ВЗЕМАНИЯТА И ЗАДЪЛЖЕНИЯТА НА МЕСТНИТЕ ФИЗИЧЕСКИ ЛИЦА КЪМ ЧУЖДЕСТРАННИ ЛИЦА</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР НА ПРЕКИТЕ ИНВЕСТИЦИИ В ЧУЖБИНА</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР НА НЕИСТИНСКИ И ПРЕПРАВЕНИ БАНКНОТИ И МОНЕТИ В ДИРЕКЦИЯ "ЕМИСИОННО-КАСОВА" - БЕДБИЛС</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ЛИЧНИ ДАННИ НА ПОЧИВАЩИТЕ И СЛУЖИТЕЛИТЕ В ПОЧИВНА БАЗА "ИГЛИКА" ГР. СМОЛЯН</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ЛИЧНИ ДАННИ НА ПОЧИВАЩИТЕ В ПОЧИВНА БАЗА ГР. ПРИМОРСКО</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">ЛИЧНИ ДАННИ НА ПОЧИВАЩИТЕ И СЛУЖИТЕЛИТЕ В ПБ "РАЛИЦА" ГР. ВАРНА</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР СТИПЕНДИАНТИ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР С ЛИЧНИ ДАННИ, СЪБИРАНИ ВЪВ ВРЪЗКА С ОБЩЕСТВЕНИ ПОРЪЧКИ В БНБ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+  <PDSRegisters>
+    <IndividualsCount xmlns="http://egov.bg/RegiX/KZLD/Common">PERSON_COUNT_ABOVE_100</IndividualsCount>
+    <RegisterName xmlns="http://egov.bg/RegiX/KZLD/Common">РЕГИСТЪР СТАЖАНТИ</RegisterName>
+    <UpdateDate xmlns="http://egov.bg/RegiX/KZLD/Common">2013-11-26</UpdateDate>
+    <IndividualsCountText xmlns="http://egov.bg/RegiX/KZLD/Common">над 100</IndividualsCountText>
+  </PDSRegisters>
+</RegisteredAdministratorByIDResponse>

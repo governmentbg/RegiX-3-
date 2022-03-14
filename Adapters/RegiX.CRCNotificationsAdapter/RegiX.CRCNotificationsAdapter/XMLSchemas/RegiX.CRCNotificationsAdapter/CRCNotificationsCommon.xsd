@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/Notifications" targetNamespace="http://egov.bg/RegiX/CRC/Notifications" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="SettlementType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="Town" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>гр./с.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Name" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Municipality" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Община</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Region" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Област</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="NetworkTerritorialScopeType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="EstimatedActivityStartDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предполагаема дата на
+започване на дейност</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Settlement" type="SettlementType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Населено място</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ContactPersonDataType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="ContactPersonName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Лице за контакт</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PhoneNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Телефон</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Еmail" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>E-mail адрес</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PhoneNumberCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Тел. код</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CompanyDataType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="CompanyName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CompanyType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Тип</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EIK" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ЕИК</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="HeadquartersAddress" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Седалище и адресна управление</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ContactPersonData" type="ContactPersonDataType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни на лица за контакти</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NetworksAndServicesData" type="NetworkDataType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Информация за мрежи и услуги</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServiceDataType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="ServiceDescription" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Описание на услугите</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ServiceStatus" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Статус</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TerritorialScope" type="NetworkTerritorialScopeType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Териториален обхват на услугите</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RightsOriginStartDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на възникване на правата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RightsOriginEndDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на прекратяване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="NetworkDataType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="Description" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Описание на мрежата/ услугата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TerritorialScope" type="NetworkTerritorialScopeType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Териториален обхват на мрежите / услугите</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RightsOriginStartDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на възникване на правата - от дата </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RightsOriginEndDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на прекратяване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Type" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Тип  - мрежа/услуга (net/service)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="NetworksDataType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="NetworkData" type="NetworkDataType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Информация за мрежа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServicesDataType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="ServiceData" type="ServiceDataType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Информация за услуга</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

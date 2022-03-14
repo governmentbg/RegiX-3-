@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <description>$description$</description>
+    <dependencies>
+      <dependency id="RegiX.Adapters.Mocks" version="1.0.43"/>
+      <dependency id="RegiX.PropertyRegAdapter" version="$(Major).$(Minor).$(Patch)"/>
+    </dependencies>
+    <contentFiles>
+      <files include="any/any/XMLData/$title$/GetEntityInfo/*.xml" buildAction="Content" copyToOutput="true" flatten="false" />
+      <files include="any/any/XMLData/$title$/GetEntityInfoV2/*.xml" buildAction="Content" copyToOutput="true" flatten="false" />
+      <files include="any/any/XMLData/$title$/GetPersonInfo/*.xml" buildAction="Content" copyToOutput="true" flatten="false" />
+      <files include="any/any/XMLData/$title$/GetPersonInfoV2/*.xml" buildAction="Content" copyToOutput="true" flatten="false" />
+      <files include="any/any/XMLData/$title$/GetPropertyInfo/*.xml" buildAction="Content" copyToOutput="true" flatten="false" />
+      <files include="any/any/XMLData/$title$/GetPropertyInfoV2/*.xml" buildAction="Content" copyToOutput="true" flatten="false" />
+      <files include="any/any/XMLData/$title$/GetSites/*.xml" buildAction="Content" copyToOutput="true" flatten="false" />
+      <files include="any/any/XMLData/$title$/PropertySearch/*.xml" buildAction="Content" copyToOutput="true" flatten="false" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="XMLData\$title$\GetEntityInfo\*.xml" target="contentFiles\any\any\XMLData\$title$\GetEntityInfo" />
+    <file src="XMLData\$title$\GetEntityInfoV2\*.xml" target="contentFiles\any\any\XMLData\$title$\GetEntityInfoV2" />
+    <file src="XMLData\$title$\GetPersonInfo\*.xml" target="contentFiles\any\any\XMLData\$title$\GetPersonInfo" />
+    <file src="XMLData\$title$\GetPersonInfoV2\*.xml" target="contentFiles\any\any\XMLData\$title$\GetPersonInfoV2" />
+    <file src="XMLData\$title$\GetPropertyInfo\*.xml" target="contentFiles\any\any\XMLData\$title$\GetPropertyInfo" />
+    <file src="XMLData\$title$\GetPropertyInfoV2\*.xml" target="contentFiles\any\any\XMLData\$title$\GetPropertyInfoV2" />
+    <file src="XMLData\$title$\GetSites\*.xml" target="contentFiles\any\any\XMLData\$title$\GetSites" />
+    <file src="XMLData\$title$\PropertySearch\*.xml" target="contentFiles\any\any\XMLData\$title$\PropertySearch" />
+  </files>
+</package>

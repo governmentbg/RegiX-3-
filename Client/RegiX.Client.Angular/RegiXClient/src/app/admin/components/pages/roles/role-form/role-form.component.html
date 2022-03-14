@@ -1,0 +1,154 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <div *ngIf="isDataLoading">
+      <div>
+        <igx-circular-bar
+          [animate]="true"
+          [indeterminate]="true"
+          [textVisibility]="true"
+        ></igx-circular-bar>
+      </div>
+    </div>
+    <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isDataLoaded && !isDataLoading"
+    >
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="name"
+              type="text"
+              formControlName="name"
+              tlFormGroupRef
+            />
+            <label igxLabel for="name">Име</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <ng-template ngxPermissionsOnly="GLOBAL_ADMIN">
+        <div
+          class="input-group"
+          igxLayout
+          igxLayoutDir="row"
+          formGroupName="authority"
+        >
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group>
+              <input
+                class="form-input"
+                igxInput
+                name="displayName"
+                type="text"
+                formControlName="displayName"
+                tlFormGroupRef
+                [disabled]="true"
+              />
+              <label igxLabel for="displayName">Администрация</label>
+            </igx-input-group>
+          </tl-form-group>
+          <button
+            igxButton="icon"
+            (click)="showAdministraions()"
+            [disabled]="this.isShowForm()"
+          >
+            <igx-icon>account_balance</igx-icon>
+          </button>
+        </div>
+      </ng-template>
+
+      <div igxLayout igxLayoutDir="row">
+        <igx-select
+          igxFlex
+          #selectType
+          class="form-group-wrapper"
+          name="roleType"
+          formControlName="roleType"
+          tlFormGroupRef
+          [disabled]="isShowForm()"
+        >
+          <igx-select-item
+            *ngFor="let roleType of roleTypes"
+            [value]="roleType.value"
+          >
+            {{ roleType.name }}
+          </igx-select-item>
+          <label igxLabel for="authority">Тип на роля</label>
+        </igx-select>
+        <button
+          igxButton
+          igxFlex
+          title="Изчисти"
+          class="select-clear-button"
+          [disabled]="isShowForm()"
+          (click)="setToNull(selectType, 'roleType')"
+        >
+          <igx-icon>clear</igx-icon>
+        </button>
+      </div>
+        <div class="tabs-wrapper">
+          <igx-tabs>
+            <igx-tabs-group label="Услуги" class="roles-wrapper">
+              <div class="roles-wrapper">
+                <app-roles-to-report
+                  *ngIf="isShowForm()"
+                  [formType]="currentAction"
+                  [objectId]="formObject.id"
+                  [sourceTable]="ROLES_TABLE"
+                ></app-roles-to-report>
+                <app-reports-select-global-admin
+                  #roleOperations
+                  [formGroup]="formGroup"
+                  [administrationId]="this.administrationId"
+                  [sourceTable]="ROLES_TABLE"
+                  [isCreateForm]="isCreateForm()"
+                  *ngIf="!isShowForm()"
+                >
+                </app-reports-select-global-admin>
+              </div>
+            </igx-tabs-group>
+            <igx-tabs-group label="Потребители" class="roles-wrapper">
+              <div class="roles-wrapper">
+                <app-user-to-roles
+                  *ngIf="isShowForm()"
+                  [formType]="currentAction"
+                  [objectId]="formObject.id"
+                  [sourceTable]="ROLES_TABLE"
+                ></app-user-to-roles>
+                <app-users-select-global-admin
+                  #roleUsers
+                  [sourceTable]="ROLES_TABLE"
+                  [formGroup]="formGroup"
+                  [administrationId]="this.administrationId"
+                  *ngIf="!isShowForm()"
+                >
+                </app-users-select-global-admin>
+              </div>
+            </igx-tabs-group>
+          </igx-tabs>
+        </div>
+    </form>
+  </div>
+</tl-basic-form>
+
+<igx-dialog
+  #administraionsFilterDialog
+  title="Администрации"
+  [closeOnOutsideSelect]="true"
+>
+  <div style="height: 90vh; width: 95vw; overflow: auto;">
+    <app-administrations-filter
+      #administrationsFilter
+      (selectedValues)="administraionSelected($event)"
+    >
+    </app-administrations-filter>
+  </div>
+</igx-dialog>

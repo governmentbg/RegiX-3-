@@ -1,0 +1,48 @@
+<div class="table-title-wrapper">
+  <app-title-bar [title]="routes.ADAPTERS.title"> </app-title-bar>
+  <igx-linear-bar
+    *ngIf="isDataLoading && !isDataLoaded"
+    [indeterminate]="true"
+  ></igx-linear-bar>
+  <div *ngIf="!isDataLoading && isDataLoaded">
+    <igx-grid
+      [height]="null"
+      width="100%"
+      [clipboardOptions]="{ copyHeaders: false}"
+      [displayDensity]="'cosy'"
+      [data]="adapters"
+      [paging]="true"
+      [allowFiltering]="true"
+    >
+      <igx-column field="Name" [sortable]="true" header="Име"></igx-column>
+      <igx-column
+        field="Version"
+        [sortable]="true"
+        header="Версия"
+      ></igx-column>
+
+      <igx-column
+        header="Действия"
+        [sortable]="false"
+        width="150px"
+        [filterable]="false"
+      >
+        <ng-template igxCell let-cell="cell">
+          <div
+            igxLayout
+            igxLayoutDir="row"
+            igxLayoutJustify="center"
+            class="action-buttons-wrapper"
+          >
+          <tl-reference-button
+          [routeReference]="this.routes.ADAPTERS_VIEW"
+          [routeArguments]="{':ADAPTER_NAME': cell.rowData.Name}"
+          buttonType="action-button"
+        >
+        </tl-reference-button>
+          </div>
+        </ng-template>
+      </igx-column>
+    </igx-grid>
+  </div>
+</div>

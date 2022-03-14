@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/MVR/SendInfoForEstiAccomodationPlace/MvrAccomodationPlaceRequest" targetNamespace="http://egov.bg/RegiX/MVR/SendInfoForEstiAccomodationPlace/MvrAccomodationPlaceRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="AddressType">
+		<xs:sequence>
+			<xs:element name="Id" type="xs:long">
+				<xs:annotation>
+					<xs:documentation>Уникален идентификатор на адрес</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CountryCode">
+				<xs:annotation>
+					<xs:documentation>Държава, в която се намира адреса - 2-letter ISO country code</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="2"/>
+						<xs:maxLength value="2"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="EKATTE" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>EKATTE код на населено място</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="5"/>
+						<xs:maxLength value="5"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="PostCode" type="string10_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Пощенски код</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CityArea" type="string500_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на район в градовете с районно деление от Единния класификатор на административно-териториалните и териториалните единици (ЕКАТТЕ)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="District" type="string500_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на жилищен комплекс или квартал в рамките на населено място</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="StreetType" type="string10_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Тип на улица, булевард или площад</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="StreetName" type="string500_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на улица, булевард или площад</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="StreetNumber" type="string10_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на улица, булевард или площад</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BuildingNumber" type="string50_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на сграда</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Entrance" type="string10_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вход в сграда</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Floor" type="string10_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Етаж в сграда</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Apartment" type="string10_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Апартамент, офис, ателие или друг самостоятелен обект от сграда</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Description" type="string500_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Описание на адрес</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="string10_type">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="10"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="string500_type">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="500"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="string50_type">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="50"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="MvrAccomodationPlaceRequestType">
+		<xs:sequence>
+			<xs:element name="Id" type="xs:long">
+				<xs:annotation>
+					<xs:documentation>Уникален идентификатор на МН</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="UIN" type="string500_type">
+				<xs:annotation>
+					<xs:documentation>Идентификатор (УИН) на МН</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Name" type="string500_type">
+				<xs:annotation>
+					<xs:documentation>Наименование на МН</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AccomodationPlaceTypeCode" type="string50_type">
+				<xs:annotation>
+					<xs:documentation>Тип на място за настаняване: Хотел, Семеен хотел, мотел...</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AccomodationPlaceSubTypeCode" type="string50_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Подтип на МН</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Class" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Клас на МН: (А, Б)</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="1"/>
+						<xs:enumeration value="А"/>
+						<xs:enumeration value="Б"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Category" type="string50_type">
+				<xs:annotation>
+					<xs:documentation>Категория на МН</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Capacity" type="xs:integer" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Капацитет</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Rooms" type="xs:integer" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Брой стаи</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Beds" type="xs:integer" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Брой легла</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Address" type="AddressType">
+				<xs:annotation>
+					<xs:documentation>Адрес на МН</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Phone" type="string50_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Телефон за връзка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Email" type="string500_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Мейл</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="WebSite" type="string500_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Уеб сайт</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CategorySertificateNumber" type="string50_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на удостоверението за определяне на категория</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CategorySertificateDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на удостоверението за определяне на категория</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CategoryValidityPeriod" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Срок на валидност на удостоверението за категоризация</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IssueOrderNumber" type="string50_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Заповед за издаване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IssueOrderDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на заповед за издаване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IssueChangeNumber" type="string50_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Заповед за промяна</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IssueChangeDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на заповед за промяна</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IssueCancelNumber" type="string50_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Заповед за прекратяване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IssueCancelDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на заповед за прекратяване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CertificateBlockingDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на временно спиране действието на удостоверението</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CertificateBlockingPeriod" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Срок, за който се спира действието на удостоверението</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Description" type="string500_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Описание, забележки</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IsActive" type="xs:boolean" default="true">
+				<xs:annotation>
+					<xs:documentation>Активно ли е МН-то</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="LidoNumber" type="string50_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ЕГН, ЛНЧ, ЕИК или БУЛСТАТ на ЛИДО</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="LidoNames" type="string500_type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на ЛИДО</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="LidoType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Tип на ЛИДО: P - физическо, L - юридическо лице</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="1"/>
+						<xs:enumeration value="P"/>
+						<xs:enumeration value="L"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="MvrAccomodationPlaceRequest" type="MvrAccomodationPlaceRequestType"/>
+</xs:schema>

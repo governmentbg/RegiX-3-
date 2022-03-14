@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="61885ab2-d62c-424b-9c99-1b5d13aad908" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>true</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://source.gravis.bg/egov/services/mro-ba?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="mro-ba.xsd" MetadataType="Schema" ID="db479037-f6ac-4ae5-897c-cb0824036b39" SourceId="1" SourceUrl="https://source.gravis.bg/egov/services/mro-ba?xsd=1" />
+    <MetadataFile FileName="MROBAServiceImplService.wsdl" MetadataType="Wsdl" ID="693a3461-684f-42bd-a380-0a723c805e1c" SourceId="1" SourceUrl="https://source.gravis.bg/egov/services/mro-ba?wsdl" />
+    <MetadataFile FileName="mro-ba.wsdl" MetadataType="Wsdl" ID="3ac8b0df-2c73-4b6d-aab1-cbc37c364a7e" SourceId="1" SourceUrl="https://source.gravis.bg/egov/services/mro-ba?wsdl=1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

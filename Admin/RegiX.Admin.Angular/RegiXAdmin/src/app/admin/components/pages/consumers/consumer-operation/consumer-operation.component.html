@@ -1,0 +1,206 @@
+<div class="table-wrapper">
+  <app-title-bar [title]="pageTitle">
+    <div igxLayout igxLayoutDir="row">
+      <!-- <button
+        *ngIf="this.filter && !this.isIDFilter && !this.isFilterFieldFromData"
+        type="button"
+        class="table-button"
+        igxButton="raised"
+        (click)="prepareForCreate()"
+        title="Добави администрация"
+        igxFlex
+      >
+      <igx-icon igxPrefix class="button-with-icon">add</igx-icon>
+        Добави операция
+      </button>-->
+      <tl-reference-button
+        [routeReference]="this.routes.AUDIT"
+        [routeArguments]="{  ':TABLE_NAME': this.CERTIFICATE_OPERATION_ACCESS}"
+        buttonType="raised"
+        title="Одит"
+      >
+      </tl-reference-button>
+    </div>
+  </app-title-bar>
+
+  <igx-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    (onSortingDone)="sortingDone($event)"
+    (onFilteringDone)="filteringDone($event)"
+    (onSelection)="cellSelection($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+    <igx-column
+      field="adapterOperation"
+      width="20%"
+      header="Операция"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value?.name" class="text-ellipsis">{{
+          cell.value?.name
+        }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="adapterOperation"
+      width="20%"
+      header="Описание на операцията"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value?.description" class="text-ellipsis">{{
+          cell.value?.description
+        }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="consumerCertificate"
+      header="Сертификат"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value?.name" class="text-ellipsis">{{
+          cell.value?.name
+        }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="hasAccess"
+      header="Има достъп"
+      width="140px"
+      [sortable]="true"
+      [dataType]="'boolean'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          class="width-100"
+          igxLayout
+          igxLayoutDir="column"
+          igxLayoutItemAlign="center"
+        >
+          <igx-checkbox disabled="true" [checked]="cell.value === true" igxFlex>
+          </igx-checkbox>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="updatedBy"
+      width="10%"
+      header="Потребител"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="updatedOn"
+      header="Променено на"
+      width="10%"
+      [sortable]="true"
+      [dataType]="'date'"
+      [formatter]="this.dateFormatService.formatDate"
+    >
+    </igx-column>
+
+    <igx-column
+      header="Действия"
+      [sortable]="false"
+      width="150px"
+      [filterable]="false"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          igxLayout
+          igxLayoutDir="row"
+          igxLayoutJustify="center"
+          class="action-buttons-wrapper"
+        >
+        <tl-reference-button
+          [routeReference]="this.routes.CERTIFICATE_OPERATION_SHOW"
+          [routeArguments]="{ ':ID': cell.rowData.id + '' }"
+          buttonType="action-button"
+        >
+        </tl-reference-button>
+        <button
+            type="button"
+            [igxToggleAction]="showDropdown"
+            [igxDropDownItemNavigation]="showDropdown"
+            type="button"
+            title="Покажи"
+            igxButton="icon"
+            class="table-action-button"
+          >
+            <igx-icon>more_vert</igx-icon>
+          </button>
+          <igx-drop-down
+            #showDropdown
+            (onSelection)="onShowMenuSelected($event)"
+            [width]="'200px'"
+          >
+            <tl-reference-button
+              [routeReference]="this.routes.CERTIFICATE_OPERATION_ACCESS_EDIT"
+              [routeArguments]="{
+                ':ID': cell.rowData.adapterOperation.id + '',
+                ':CertificeteId': cell.rowData.consumerCertificate.id + ''
+              }"
+              buttonType="drop-down"
+              title="Редактиране на достъп"
+            >
+            </tl-reference-button>
+            <tl-reference-button
+              [routeReference]="
+                this.routes.CERTIFICATE_OPERATION_ELEMENTS_ACCESS_FILTER
+              "
+              [routeArguments]="{
+                ':FILTER_FIELD': cell.rowData.consumerCertificate.id.toString()
+              }"
+              buttonType="drop-down"
+              title="Достъп до елементи"
+            >
+            </tl-reference-button>
+          </igx-drop-down>
+          <button
+            type="button"
+            igxRipple
+            title="Редактирай"
+            igxButton="icon"
+            class="table-action-button"
+            (click)="prepareForEdit(cell.rowData, cell)"
+          >
+            <igx-icon>create</igx-icon>
+          </button>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-grid>
+      <div class="tl-paginator">
+        <tl-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+  </igx-grid>
+</div>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://stages.reg35.webservices.government.bg/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="REG35ServiceImplService" targetNamespace="http://stages.reg35.webservices.government.bg/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <import namespace="http://egov.bg/RegiX/IAOS/REG35" location="https://source.gravis.bg:443/egov/services/reg35-stages?wsdl=1" />
+  <types />
+  <binding xmlns:ns1="http://egov.bg/RegiX/IAOS/REG35" name="REG35ServiceImplPortBinding" type="ns1:REG35Service">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="getLicenses">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="WebServiceException">
+        <soap:fault use="literal" name="WebServiceException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getStagesByAuthNum">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="WebServiceException">
+        <soap:fault use="literal" name="WebServiceException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getStagesValidityPeriod">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="WebServiceException">
+        <soap:fault use="literal" name="WebServiceException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getAllowedWasteCode">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="WebServiceException">
+        <soap:fault use="literal" name="WebServiceException" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="REG35ServiceImplService">
+    <port name="REG35ServiceImplPort" binding="tns:REG35ServiceImplPortBinding">
+      <soap:address location="https://source.gravis.bg:443/egov/services/reg35-stages" />
+    </port>
+  </service>
+</definitions>

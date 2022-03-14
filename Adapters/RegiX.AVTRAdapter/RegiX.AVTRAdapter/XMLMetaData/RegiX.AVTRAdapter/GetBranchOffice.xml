@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.AVTRAdapter.APIService.ITRAPI.GetBranchOffice</OperationName>
+  <Code>GetBranchOffice</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>GetBranchOfficeRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/AV/TR/GetBranchOfficeRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за актуално състояние на клон на търговско дружество</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>UIC</ParameterName>
+        <ParameterLabel>ЕИК</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

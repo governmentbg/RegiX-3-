@@ -1,0 +1,26 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.GraoBRAdapter.APIService.IBRAPI.MaritalStatusSpouseChildrenSearch</OperationName>
+  <Code>MaritalStatusSpouseChildrenSearch</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>MaritalStatusSpouseChildrenRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/GRAO/BR/MaritalStatusSpouseChildrenRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за семейно положение, съпруг/а и деца</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>EGN</ParameterName>
+        <ParameterLabel>ЕГН</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <IdentifierType>1</IdentifierType>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

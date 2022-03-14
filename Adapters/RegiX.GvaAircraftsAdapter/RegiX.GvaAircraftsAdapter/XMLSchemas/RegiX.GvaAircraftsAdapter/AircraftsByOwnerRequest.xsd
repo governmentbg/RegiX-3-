@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://egov.bg/RegiX/GVA" xmlns="http://egov.bg/RegiX/GVA/AircraftsByOwnerRequest" targetNamespace="http://egov.bg/RegiX/GVA/AircraftsByOwnerRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="AircraftsByOwnerType">
+		<xs:annotation>
+			<xs:documentation>Входни параметри на справка по ЕИК/БУЛСТАТ/ЕГН/ЛНЧ за вписани на името на лицето въздухоплавателни средства</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="OwnerID" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Идентификатор на собственик на въздухоплавателно средство - ЕИК/БУЛСТАТ/ЕГН/ЛНЧ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DateFrom" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата от</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DateTo" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата до</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="AircraftsByOwnerRequest" type="AircraftsByOwnerType">
+		<xs:annotation>
+			<xs:documentation>Справка по ЕИК/БУЛСТАТ/ЕГН/ЛНЧ за вписани на името на лицето въздухоплавателни средства - заявка</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

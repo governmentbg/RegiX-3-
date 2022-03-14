@@ -1,0 +1,35 @@
+.home-wrapper {
+  width: 100%;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+.chip-wrapper{
+  padding: 0.5rem;
+}
+
+igx-chip {
+  margin-top: 0.4rem;
+  margin-right: 0.4rem;
+}
+tl-card{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  max-width: 30rem;
+  display: flex;
+  align-items: flex-start;
+}
+.search-form{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 1rem;
+}
+.favourites-container{
+  padding: 1rem;
+}
+.no-favourites-found{
+ padding: 1rem;
+}
+.material-icons {
+  display: inline-block;
+}

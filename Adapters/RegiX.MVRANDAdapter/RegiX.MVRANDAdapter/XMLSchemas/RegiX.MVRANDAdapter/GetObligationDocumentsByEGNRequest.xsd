@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/MVR/ObligationDocumentsByEGN/GetObligationDocumentsByEGNRequest" targetNamespace="http://egov.bg/RegiX/MVR/ObligationDocumentsByEGN/GetObligationDocumentsByEGNRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetObligationDocumentsByEGNRequest" type="GetObligationDocumentsByEGNRequestType">
+		<xs:annotation>
+			<xs:documentation>Входни параметри на справка за Проверка за налични неплатени документи в АИС АНД на дадено лице </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="GetObligationDocumentsByEGNRequestType">
+		<xs:sequence>
+			<xs:element name="EGN" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>ЕГН на водач, за чиито документи ще бъде изведена информация</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

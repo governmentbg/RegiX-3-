@@ -1,0 +1,8 @@
+<SubjectOwnedCategoriesResponse xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters/SubjectOwnedCategoriesResponse">
+  <OwnedCategories>
+    <OwnedCategorie>
+      <CategoryName>name</CategoryName>
+      <DateOwned>2015-08-21</DateOwned>
+    </OwnedCategorie>
+  </OwnedCategories>
+</SubjectOwnedCategoriesResponse>

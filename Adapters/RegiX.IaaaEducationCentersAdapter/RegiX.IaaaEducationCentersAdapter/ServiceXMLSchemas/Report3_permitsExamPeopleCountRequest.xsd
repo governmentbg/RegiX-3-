@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:redu="http://www.demax.bg/egov/redu" targetNamespace="http://www.demax.bg/egov/redu" elementFormDefault="qualified" version="1.0">
+	<xs:element name="permitsExamPeopleCountRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="identNumber" type="xs:string" minOccurs="0"/>
+				<xs:element name="dateFrom" type="xs:date" minOccurs="0"/>
+				<xs:element name="dateTo" type="xs:date" minOccurs="0"/>
+				<xs:element name="context" type="xs:string" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

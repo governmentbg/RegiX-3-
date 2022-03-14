@@ -1,0 +1,136 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.ASPFosterParentsAdapter.APIService.IASPFosterParentsAPI.SendRequestForFosterParents</OperationName>
+  <Code>SendRequestForFosterParents</Code>
+  <ControllerName>AspMtspAPI</ControllerName>
+  <Resource>AspFosterParentsRequest</Resource>
+  <RequestObjectName>AspFosterParentsRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/ASP/SendRequestForFosterParents/AspFosterParentsRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Заявка за извличане на данни за физически лица(родител/дете) от ИИС на АСП относно наличие на вписване в Регистъра на приемните семейства, Регистъра на децата в риск, регистрирано решение на ТЕЛК и данни за участие в проект за период</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Header</ParameterName>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>Complex</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>StartDate</ParameterName>
+            <ParameterLabel>Начална дата</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>0</OrderNumber>
+            <ParameterType>
+              <Type>Date</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>StartDateSpecified</ParameterName>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <OrderNumber>0</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>EndDate</ParameterName>
+            <ParameterLabel>Крайна дата</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>1</OrderNumber>
+            <ParameterType>
+              <Type>Date</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>EndDateSpecified</ParameterName>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>false</IsXmlElement>
+            <OrderNumber>1</OrderNumber>
+            <ParameterType>
+              <Type>bool</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>RequestSize</ParameterName>
+            <ParameterLabel>Брой редове в запитването</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>2</OrderNumber>
+            <ParameterType>
+              <Type>int</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>IsunCode</ParameterName>
+            <ParameterLabel>Kод на проекта, за който се иска информация за договор</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>3</OrderNumber>
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+      </ChildParamteters>
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Data</ParameterName>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>Complex</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>DataItem</ParameterName>
+            <ParameterLabel>Данни за дете/приемен родител</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>0</OrderNumber>
+            <ParameterType>
+              <Type>Complex</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters />
+        </Parameter>
+      </ChildParamteters>
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

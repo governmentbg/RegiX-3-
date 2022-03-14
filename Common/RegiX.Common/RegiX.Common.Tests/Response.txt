@@ -1,0 +1,24 @@
+﻿<a:CommonSignedResponseOfMarriageRequestTypeMarriageResponseTypeasgCx5T2 xmlns:a="http://schemas.datacontract.org/2004/07/TechnoLogica.RegiX.Common.TransportObject" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<a:_x003C_Data_x003E_k__BackingField>
+<a:DataID>data</a:DataID>
+<a:_x003C_Matrix_x003E_k__BackingField i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/TechnoLogica.RegiX.Common.ObjectMapping"></a:_x003C_Matrix_x003E_k__BackingField>
+<a:_x003C_Request_x003E_k__BackingField xmlns:b="http://schemas.datacontract.org/2004/07/TechnoLogica.RegiX.GraoBRAdapter">
+<b:eGNField>123123</b:eGNField>
+</a:_x003C_Request_x003E_k__BackingField>
+<a:_x003C_Response_x003E_k__BackingField xmlns:b="http://schemas.datacontract.org/2004/07/TechnoLogica.RegiX.GraoBRAdapter">
+<b:divorceCaseNumberField i:nil="true"></b:divorceCaseNumberField>
+<b:divorceDateField>0001-01-01T00:00:00</b:divorceDateField>
+<b:divorceDateFieldSpecified>false</b:divorceDateFieldSpecified>
+<b:marriageCountryCodeField i:nil="true"></b:marriageCountryCodeField>
+<b:marriageCountryField i:nil="true"></b:marriageCountryField>
+<b:marriageDateField>0001-01-01T00:00:00</b:marriageDateField>
+<b:marriageDateFieldSpecified>false</b:marriageDateFieldSpecified>
+<b:marriageLicenceDateField>0001-01-01T00:00:00</b:marriageLicenceDateField>
+<b:marriageLicenceDateFieldSpecified>false</b:marriageLicenceDateFieldSpecified>
+<b:marriageLicenceNumberField i:nil="true"></b:marriageLicenceNumberField>
+<b:marriagePlaceCodeField i:nil="true"></b:marriagePlaceCodeField>
+<b:marriagePlaceField i:nil="true"></b:marriagePlaceField>
+</a:_x003C_Response_x003E_k__BackingField>
+</a:_x003C_Data_x003E_k__BackingField>
+<a:_x003C_Signature_x003E_k__BackingField i:nil="true"></a:_x003C_Signature_x003E_k__BackingField>
+</a:CommonSignedResponseOfMarriageRequestTypeMarriageResponseTypeasgCx5T2>

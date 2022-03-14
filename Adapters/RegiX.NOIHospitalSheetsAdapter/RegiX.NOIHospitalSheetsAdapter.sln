@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.NOIHospitalSheetsAdapter", "RegiX.NOIHospitalSheetsAdapter\RegiX.NOIHospitalSheetsAdapter.csproj", "{034AA1A2-6921-4915-B425-D1333ECBE422}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{270A36E0-E362-45DF-BBF4-4696C0CC8286}"
+	ProjectSection(SolutionItems) = preProject
+		azure-devops.yaml = azure-devops.yaml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.NOIHospitalSheetsAdapter.Mocks", "RegiX.NOIHospitalSheetsAdapter.Mocks\RegiX.NOIHospitalSheetsAdapter.Mocks.csproj", "{2E790144-7782-4ED9-A90E-C3CC30AA9598}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegiX.NOIHospitalSheetsAdapter.Tests", "RegiX.NOIHospitalSheetsAdapter.Tests\RegiX.NOIHospitalSheetsAdapter.Tests.csproj", "{4FA78928-555E-4E65-BA93-0FFCD1882E67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{034AA1A2-6921-4915-B425-D1333ECBE422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034AA1A2-6921-4915-B425-D1333ECBE422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034AA1A2-6921-4915-B425-D1333ECBE422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034AA1A2-6921-4915-B425-D1333ECBE422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E790144-7782-4ED9-A90E-C3CC30AA9598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E790144-7782-4ED9-A90E-C3CC30AA9598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E790144-7782-4ED9-A90E-C3CC30AA9598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E790144-7782-4ED9-A90E-C3CC30AA9598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA78928-555E-4E65-BA93-0FFCD1882E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA78928-555E-4E65-BA93-0FFCD1882E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA78928-555E-4E65-BA93-0FFCD1882E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA78928-555E-4E65-BA93-0FFCD1882E67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7370E9CE-2170-4CA6-8A2F-0AF30DB877A5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+<REG35_Stages_By_Auth_Num_Response xmlns="http://egov.bg/RegiX/IAOS/REG35/StagesByAuthNumResponse">
+  <Authorization>
+    <AuthType>ИНД</AuthType>
+    <State>16</State>
+    <Stage>
+      <StageAddress>гр.Крън ул.Стойне Манолов 24</StageAddress>
+      <StageNum>842154587</StageNum>
+      <Waste>
+        <WasteCode xmlns="">123</WasteCode>
+        <WasteType xmlns="">Пластмаса</WasteType>
+      </Waste>
+    </Stage>
+  </Authorization>
+</REG35_Stages_By_Auth_Num_Response>

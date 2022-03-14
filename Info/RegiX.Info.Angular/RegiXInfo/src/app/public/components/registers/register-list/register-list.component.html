@@ -1,0 +1,70 @@
+<igx-linear-bar
+*ngIf="isDataLoading"
+[indeterminate]="true"
+></igx-linear-bar>
+<div
+  class="registers-wrapper"
+  igxLayout
+  igxLayoutDir="column"
+  *ngIf="isDataLoaded && !isDataLoading"
+>
+  <div class="alert" *ngIf="!registriesReference || registriesReference.length === 0">
+    <span>Няма намерени регистри</span>
+  </div>
+  <tl-card *ngIf="filtered"
+    class="register-card"
+    [routeReference]="routes.ADMINISTRATIONS"
+    [title]="administrationName"
+    [subTitle]="'Приложен е филтър по администрация'"
+    [actions]="filterActions">
+  </tl-card>
+  <tl-card
+    class="register-card"
+    *ngFor="let register of registriesReference"
+    [routeReference]="routes.REGISTRIES"
+    [title]="register.Name"
+    [subTitle]="'Регистър'"
+    [cardContent]="adapterChip"
+    [displayDensity]="'comfortable'"
+  >
+    <ng-template #adapterChip>
+      <div class="operations-wrapper" *ngFor="let adapter of register.Adapters">
+        <div class="adapter-chip-wrapper">
+          <igx-chip
+            [title]="adapter.Name"
+            [igxToggleAction]="registryDropdown"
+            [overlaySettings]="overlaySettings"
+            [igxDropDownItemNavigation]="registryDropdown"
+          >
+            <igx-icon igxPrefix>developer_board</igx-icon>
+            {{ adapter.Name }}
+          </igx-chip>
+          <igx-chip
+            class="version-chip"
+            [title]="'v. ' + adapter.Version"
+          >
+          <igx-icon igxPrefix>info</igx-icon>v. {{ adapter.Version }}
+          </igx-chip>
+          <igx-drop-down
+            #registryDropdown
+            (onSelection)="onRegistryMenuSelected($event, adapter)"
+            [width]="'200px'"
+          >
+            <igx-drop-down-item [value]="ADAPTER_SAMPLE_DATA">
+              <i class="fa fa-archive" aria-hidden="true"></i>&nbsp;Примерни
+              данни
+            </igx-drop-down-item>
+            <igx-drop-down-item [value]="ADAPTER_XML_SHEME_DATA">
+              <i class="fa fa-archive" aria-hidden="true"></i>&nbsp;XML схеми
+            </igx-drop-down-item>
+          </igx-drop-down>
+        </div>
+        <tl-reference-list
+          [displayDensity]="'comfortable'"
+          [listItems]="adapter.Operations"
+        >
+        </tl-reference-list>
+      </div>
+    </ng-template>
+  </tl-card>
+</div>

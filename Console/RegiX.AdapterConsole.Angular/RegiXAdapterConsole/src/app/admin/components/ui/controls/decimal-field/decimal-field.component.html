@@ -1,0 +1,15 @@
+<div class="input-group" *ngIf="isControlReady" [formGroup]="formGroup">
+  <tl-form-group class="form-group-wrapper">
+    <igx-input-group>
+      <input
+        class="form-input"
+        igxInput
+        [name]="parameterName"
+        type="text"
+        [formControlName]="parameterName"
+        tlFormGroupRef
+      />
+      <label igxLabel [for]="parameterName">{{ parameterLabel }}</label>
+    </igx-input-group>
+  </tl-form-group>
+</div>

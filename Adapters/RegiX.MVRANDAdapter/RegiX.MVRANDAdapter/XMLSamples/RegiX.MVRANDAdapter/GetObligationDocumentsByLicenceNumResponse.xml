@@ -1,0 +1,21 @@
+<GetObligationDocumentsByLicenceNumResponse xmlns="http://egov.bg/RegiX/MVR/ObligationDocumentsByLicenceNum/GetObligationDocumentsByLicenceNumResponse" xmlns:common="http://egov.bg/RegiX/MVR/Common">
+	<Status>0</Status>
+	<CustomerType>person</CustomerType>
+	<UserPID>26256</UserPID>
+	<ObligationDocuments>
+		<ObligationDocument>
+			<common:DocumentType>ACT</common:DocumentType>
+			<common:DocumentSeries>K</common:DocumentSeries>
+			<common:DocumentNumber>654645</common:DocumentNumber>
+			<common:InitialAmount>70</common:InitialAmount>
+			<common:Discount>0</common:Discount>
+			<common:TotalAmount>70</common:TotalAmount>
+			<common:IBAN>BG18RZBB91550123456789</common:IBAN>
+			<common:BIC>RFB215</common:BIC>
+			<common:PaymentReason>asd</common:PaymentReason>
+			<common:CreateDate>20.01.2019</common:CreateDate>
+			<common:IsMainDocument>true</common:IsMainDocument>
+			<common:IsServed>true</common:IsServed>
+		</ObligationDocument>
+	</ObligationDocuments>
+</GetObligationDocumentsByLicenceNumResponse>

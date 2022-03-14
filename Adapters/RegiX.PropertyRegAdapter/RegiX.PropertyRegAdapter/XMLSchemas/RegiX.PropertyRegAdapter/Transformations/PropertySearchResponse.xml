@@ -1,0 +1,221 @@
+ <PropertySearchResponse xmlns="http://egov.bg/RegiX/AV/PropertyReg/PropertySearchResponse">
+              <PropertyDetailList>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>07002203700000019915</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Каварна</RegistryAgency>
+                  <SiteID>037</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Поземлен имот</PropertyType>
+                  <DistrictName>ДОБРИЧ</DistrictName>
+                  <MunicipalityName>КАВАРНА</MunicipalityName>
+                  <TerritorialUnitName>гр.Каварна</TerritorialUnitName>
+                  <Remark>||42</Remark>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>10002608000000227092</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Русе</RegistryAgency>
+                  <SiteID>080</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Самостоятелен обект в сграда</PropertyType>
+                  <DistrictName>РУСЕ</DistrictName>
+                  <MunicipalityName>РУСЕ</MunicipalityName>
+                  <TerritorialUnitName>гр.Русе</TerritorialUnitName>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>10002607100000227098</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Пазарджик</RegistryAgency>
+                  <SiteID>071</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Поземлен имот</PropertyType>
+                  <DistrictName>ПАЗАРДЖИК</DistrictName>
+                  <MunicipalityName>ПАЗАРДЖИК</MunicipalityName>
+                  <TerritorialUnitName>гр.Пазарджик</TerritorialUnitName>
+                  <StreetName>ul</StreetName>
+                  <Remark>zab</Remark>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>10002602600000227100</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Царево</RegistryAgency>
+                  <SiteID>026</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Поземлен имот</PropertyType>
+                  <DistrictName>БУРГАС</DistrictName>
+                  <MunicipalityName>ЦАРЕВО</MunicipalityName>
+                  <TerritorialUnitName>гр.Царево</TerritorialUnitName>
+                  <Remark>ПРИ РАВНИ КВОТИ В СЪСОБСТВЕНОСТТА И СТАВАТ СОБСТВЕНИЦИ НА ДВОР - ГОРСКО СТОПАНСТВО С ПЛОЩ ОТ 1,050 ДКА ИМ.№056015 ПО ПЛАНА НА ГР.ПРИМОРСКО МЕСТ."ПЯСЪКА".</Remark>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>10002605000000227102</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Павликени</RegistryAgency>
+                  <SiteID>050</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Поземлен имот</PropertyType>
+                  <DistrictName>ВЕЛИКО ТЪРНОВО</DistrictName>
+                  <MunicipalityName>ПАВЛИКЕНИ</MunicipalityName>
+                  <TerritorialUnitName>гр.Павликени</TerritorialUnitName>
+                  <Remark>ДВОРНО МЯСТО ОТ 225 КВ.М. , УПИ ХV-1046 В КВ. 90 ЗАЕДНО С ЖИЛИЩНА СГРАДА И ПЛЕВЯ ГР.БЯЛА ЧЕРКВА</Remark>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>10002608800000227107</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Търговище</RegistryAgency>
+                  <SiteID>088</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Сграда</PropertyType>
+                  <DistrictName>ТЪРГОВИЩЕ</DistrictName>
+                  <MunicipalityName>ТЪРГОВИЩЕ</MunicipalityName>
+                  <TerritorialUnitName>гр.Търговище</TerritorialUnitName>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>10002609500000227108</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Харманли</RegistryAgency>
+                  <SiteID>095</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Поземлен имот</PropertyType>
+                  <DistrictName>БЛАГОЕВГРАД</DistrictName>
+                  <MunicipalityName>БАНСКО</MunicipalityName>
+                  <TerritorialUnitName>с.Гостун</TerritorialUnitName>
+                  <Remark>УПИ №3609, ПЛОЩ ОТ 1000 КВ.М, КВ. 6 ПО ПУП НА ХАРМАНЛИ, НЕЗАСТРОЕН</Remark>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>10002603000000227111</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Варна</RegistryAgency>
+                  <SiteID>030</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Поземлен имот</PropertyType>
+                  <DistrictName>ВАРНА</DistrictName>
+                  <MunicipalityName>АКСАКОВО</MunicipalityName>
+                  <TerritorialUnitName>с.Климентово</TerritorialUnitName>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>10002601100000227129</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Благоевград</RegistryAgency>
+                  <SiteID>011</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Самостоятелен обект в сграда</PropertyType>
+                  <DistrictName>БЛАГОЕВГРАД</DistrictName>
+                  <MunicipalityName>БЛАГОЕВГРАД</MunicipalityName>
+                  <TerritorialUnitName>гр.Благоевград</TerritorialUnitName>
+                  <Remark>аалалааааа</Remark>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>09002200100000020260</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <OldLotNumber>20042</OldLotNumber>
+                  <RegistryAgency>Служба по вписванията - София</RegistryAgency>
+                  <SiteID>001</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Поземлен имот</PropertyType>
+                  <DistrictName>СОФИЯ-СТОЛИЧНА</DistrictName>
+                  <MunicipalityName>СТОЛИЧНА</MunicipalityName>
+                  <TerritorialUnitName>гр.Банкя</TerritorialUnitName>
+                  <Remark>Описание: ПОЗЕМЛЕН ИМОТ - НИВА; Начин на трайно ползване: НИВА; Тип на имота: Земеделски; Стара имотна партида: 20042; </Remark>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>10002605800000227238</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Плевен</RegistryAgency>
+                  <SiteID>058</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <CadastreNumber>56722.667.332</CadastreNumber>
+                  <PropertyType>Поземлен имот</PropertyType>
+                  <DistrictName>ПЛЕВЕН</DistrictName>
+                  <MunicipalityName>ПЛЕВЕН</MunicipalityName>
+                  <TerritorialUnitName>гр.Плевен</TerritorialUnitName>
+                  <StreetName>Долюмсуза</StreetName>
+                  <Remark>Имот 10194</Remark>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>10002607200000227274</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Велинград</RegistryAgency>
+                  <SiteID>072</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Поземлен имот</PropertyType>
+                  <DistrictName>ПАЗАРДЖИК</DistrictName>
+                  <MunicipalityName>ВЕЛИНГРАД</MunicipalityName>
+                  <TerritorialUnitName>гр.Велинград</TerritorialUnitName>
+                  <Remark>ни</Remark>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>08002202500000000251</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Поморие</RegistryAgency>
+                  <SiteID>025</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Поземлен имот</PropertyType>
+                  <Remark>МАГАЗИН ЗА ХРАНИТЕЛНИ СТОКИ  НА ПЛОЩ ОТ 101,23 КВ.М. НА ПЪРВИ ЕТАЖ ОТ ЧЕТИРИЕТАЖНА ЖИЛИЩНА СГРАДА В ПАРЦЕЛ Х-919,920 И 921 В КВ.73 ПО ПЛАНА ГР.ПОМОРИЕ,УЛ."ЕКЗАРХ ЙОСИФ" № 20</Remark>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>08002208700000008018</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Кубрат</RegistryAgency>
+                  <SiteID>087</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Поземлен имот</PropertyType>
+                  <Remark>АПАРТАМЕНТ В КУБРАТ НА УЛ."СТАРА ПЛАНИНА",БЛ.1,ЕТ.1,КВ.74 ОТ 75.65 КВ.М.ВЕДНО С ИЗБА №1</Remark>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>08002209700000014746</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Свиленград</RegistryAgency>
+                  <SiteID>097</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Поземлен имот</PropertyType>
+                  <Remark>НИВА ОТ  3.184 ДКА ,6 КАТЕГ. В М. КУРТОВ БАИР , ИМОТ № 522021 , ПО ПЛАНА ЗА ЗЕМЕРАЗД. НА ЗЕМЛ. НА ГР. ЛЮБИМЕЦ,ЕКАТТЕ 44570.</Remark>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>08002203500000000199</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Тервел</RegistryAgency>
+                  <SiteID>035</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Поземлен имот</PropertyType>
+                  <Remark>НИВА С ПЛОЩ 19.999ДКА, ИМОТ № 035037 В ЗЕМЛ.НА С.ЧЕСТИМЕНСКО, ОБЩ.ТЕРВЕЛ</Remark>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>08002210300000000282</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Ямбол</RegistryAgency>
+                  <SiteID>103</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Поземлен имот</PropertyType>
+                  <Remark>4/6 ИД.Ч. ОТ АП.19 ЕТ.4 ВХ.Б УЛ."РАКОВСКИ" № 30 ОТ 68.80 КВ.М.</Remark>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>08002201800000007327</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Перник</RegistryAgency>
+                  <SiteID>018</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Поземлен имот</PropertyType>
+                  <Remark>ЗЕМ. ЗЕМЯ ОТ ДЪРЖАВЕН ФОНД ЗЕМЕДЕЛИЕ ОТ 475.056 ДКА ПЕРНИК ИМОТ №000032</Remark>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>08002204300000074364</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Видин</RegistryAgency>
+                  <SiteID>043</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Поземлен имот</PropertyType>
+                  <Remark>НИВА ОТ 2,818ДКА КАТ.V МЕСТН."СВ.ПЕТЪР" ИМОТ № 031008 С.ДРУЖБА</Remark>
+                </PropertyDetail>
+                <PropertyDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+                  <PropertyID>08002209400000000736</PropertyID>
+                  <LotNumber>1</LotNumber>
+                  <RegistryAgency>Служба по вписванията - Хасково</RegistryAgency>
+                  <SiteID>094</SiteID>
+                  <SiteStartDate>2010-07-09</SiteStartDate>
+                  <PropertyType>Поземлен имот</PropertyType>
+                  <Remark>ЖИЛИЩНА СГРАДА НА 38 КВ.М. ПЛ.№ 7978 ВЪРХУ ДЪРЖАВНА ЗЕМЯ НА УЛ. ЯСТРЕБ 12 ПО ПЛАНА НА ГР. ХАСКОВО</Remark>
+                </PropertyDetail>
+              </PropertyDetailList>
+            </PropertySearchResponse>

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.AdapterConsole.AutoMapper</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="API.Services" Version="3.1.2" />
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.AdapterConsole.DataContracts\RegiX.AdapterConsole.DataContracts.csproj" />
+    <ProjectReference Include="..\RegiX.AdapterConsole.Infrastructure\RegiX.AdapterConsole.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

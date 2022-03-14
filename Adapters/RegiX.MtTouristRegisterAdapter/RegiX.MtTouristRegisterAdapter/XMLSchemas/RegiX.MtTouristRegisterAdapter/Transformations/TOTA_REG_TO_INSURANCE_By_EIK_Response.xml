@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TOInsuranceByEIKResponse xsi:schemaLocation="http://egov.bg/RegiX/MT/TOInsuranceByEIKResponse TOTA_REG_TO_INSURANCE_By_EIK_Response.xsd" xmlns="http://egov.bg/RegiX/MT/TOInsuranceByEIKResponse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Insurance>
+		<EIK>String</EIK>
+		<RegNum>String</RegNum>
+		<InsuranceCompanyName>String</InsuranceCompanyName>
+		<InsurancePolicyNum>String</InsurancePolicyNum>
+		<InsuranceIssuedDate>1967-08-13</InsuranceIssuedDate>
+		<InsuranceEndDate>1967-08-13</InsuranceEndDate>
+	</Insurance>
+	<Insurance>
+		<EIK>String</EIK>
+		<RegNum>String</RegNum>
+		<InsuranceCompanyName>String</InsuranceCompanyName>
+		<InsurancePolicyNum>String</InsurancePolicyNum>
+		<InsuranceIssuedDate>1967-08-13</InsuranceIssuedDate>
+		<InsuranceEndDate>1967-08-13</InsuranceEndDate>
+	</Insurance>
+	<Insurance>
+		<EIK>String</EIK>
+		<RegNum>String</RegNum>
+		<InsuranceCompanyName>String</InsuranceCompanyName>
+		<InsurancePolicyNum>String</InsurancePolicyNum>
+		<InsuranceIssuedDate>1967-08-13</InsuranceIssuedDate>
+		<InsuranceEndDate>1967-08-13</InsuranceEndDate>
+	</Insurance>
+</TOInsuranceByEIKResponse>

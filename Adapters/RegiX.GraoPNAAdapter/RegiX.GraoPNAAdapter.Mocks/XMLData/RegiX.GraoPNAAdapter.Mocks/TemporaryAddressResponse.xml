@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<TemporaryAddressResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/PNA/TemporaryAddressResponse">
+	<DistrictCode>22</DistrictCode>
+	<DistrictName>СОФИЯ</DistrictName>
+	<MunicipalityCode>46</MunicipalityCode>
+	<MunicipalityName>СТОЛИЧНА</MunicipalityName>
+	<SettlementCode>68134</SettlementCode>
+	<SettlementName>ГР.СОФИЯ</SettlementName>
+	<CityAreaCode>00</CityAreaCode>
+	<LocationCode>03527</LocationCode>
+	<LocationName>УЛ.ВРЪХ МАНЧО</LocationName>
+	<BuildingNumber>005Б</BuildingNumber>
+	<Entrance>А</Entrance>
+	<Floor>01</Floor>
+	<Apartment>145</Apartment>
+	<FromDate>2014-11-26</FromDate>
+</TemporaryAddressResponse>

@@ -1,0 +1,46 @@
+<ng-template
+  *ngFor="let drawerItem of drawerItems"
+  [ngxPermissionsOnly]="drawerItem.permissions"
+>
+  <igx-divider *ngIf="drawerItem.type === DrawerTypes.Divider"></igx-divider>
+  <span
+    *ngIf="drawerItem.type === DrawerTypes.Naivgation"
+    igxDrawerItem
+    [routerLink]="drawerItem.routerLink"
+    [routerLinkActive]="drawerItem.routerLinkActive"
+    [routerLinkActiveOptions]="drawerItem.routerLinkActiveOptions"
+    [title]="(drawerItem.tooltip) ? drawerItem.tooltip : drawerItem.text" 
+    igxRipple
+  >
+    <igx-icon *ngIf="drawerItem.icon" fontSet="material">{{ drawerItem.icon }}</igx-icon>
+    <span>{{ drawerItem.text }}</span>
+  </span>
+  <span
+    *ngIf="drawerItem.type === DrawerTypes.Header"
+    igxDrawerItem
+    [isHeader]="true"
+  >
+    <span>{{ drawerItem.text }}</span>
+  </span>
+  <span
+    *ngIf="
+      drawerItem.type === DrawerTypes.Loadable && drawerItem.loaded === false
+    "
+    igxDrawerItem
+    [isHeader]="true"
+  >
+    <div class="empty-data-wrapper">
+      <igx-linear-bar
+        [indeterminate]="true"
+        [textVisibility]="false"
+      ></igx-linear-bar>
+    </div>
+  </span>
+  <tl-drawer-item
+    *ngIf="
+      drawerItem.type === DrawerTypes.Loadable && drawerItem.loaded === true
+    "
+    [drawerItems]="drawerItem.children"
+  >
+  </tl-drawer-item>
+</ng-template>

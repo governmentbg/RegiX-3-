@@ -1,0 +1,213 @@
+  <ActualStateResponse xmlns="http://egov.bg/RegiX/AV/TR/ActualStateResponse">
+	<Status>Нова партида</Status>
+	<UIC>201593308</UIC>
+	<Company>СЪГЛАСИЕ</Company>
+	<LegalForm>
+		<LegalFormAbbr xmlns="http://egov.bg/RegiX/AV/TR">Кооперация</LegalFormAbbr>
+		<LegalFormName xmlns="http://egov.bg/RegiX/AV/TR">Кооперация</LegalFormName>
+	</LegalForm>
+	<Transliteration>SAGLASIE</Transliteration>
+	<Seat>
+		<Address xmlns="http://egov.bg/RegiX/AV/TR">
+			<CountryCode>БЪГЛАРИЯ</CountryCode>
+			<Country>БЪГЛАРИЯ</Country>
+			<IsForeign>true</IsForeign>
+			<DistrictEkatte>123465</DistrictEkatte>
+			<District>Софиа</District>
+			<MunicipalityEkatte>12313</MunicipalityEkatte>
+			<Municipality>София</Municipality>
+			<SettlementEKATTE>2121</SettlementEKATTE>
+			<Settlement>гр. София</Settlement>
+			<Area>район София</Area>
+			<AreaEkatte>658</AreaEkatte>
+			<PostCode>658</PostCode>
+			<HousingEstate>123</HousingEstate>
+			<Block>658</Block>
+			<Entrance>А</Entrance>
+			<Floor>658</Floor>
+			<Apartment>658</Apartment>
+		</Address>
+		<Contacts xmlns="http://egov.bg/RegiX/AV/TR">
+			<Phone>+ 658 658 658 658</Phone>
+			<Fax>+ 658 658 658</Fax>
+			<EMail>saglasie@saglasie.com</EMail>
+			<URL>www.rpw_saglasie_koop.com</URL>
+		</Contacts>
+	</Seat>
+	<SeatForCorrespondence>
+		<CountryCode xmlns="http://egov.bg/RegiX/AV/TR">Бъглария</CountryCode>
+		<Country xmlns="http://egov.bg/RegiX/AV/TR">България</Country>
+		<IsForeign xmlns="http://egov.bg/RegiX/AV/TR">false</IsForeign>
+		<DistrictEkatte xmlns="http://egov.bg/RegiX/AV/TR">11343</DistrictEkatte>
+		<District xmlns="http://egov.bg/RegiX/AV/TR">София</District>
+		<MunicipalityEkatte xmlns="http://egov.bg/RegiX/AV/TR">123454</MunicipalityEkatte>
+		<Municipality xmlns="http://egov.bg/RegiX/AV/TR">София</Municipality>
+		<SettlementEKATTE xmlns="http://egov.bg/RegiX/AV/TR">824</SettlementEKATTE>
+		<Settlement xmlns="http://egov.bg/RegiX/AV/TR">гр. София</Settlement>
+		<Area xmlns="http://egov.bg/RegiX/AV/TR">София</Area>
+		<AreaEkatte xmlns="http://egov.bg/RegiX/AV/TR">824</AreaEkatte>
+		<PostCode xmlns="http://egov.bg/RegiX/AV/TR">824</PostCode>
+		<HousingEstate xmlns="http://egov.bg/RegiX/AV/TR">454</HousingEstate>
+		<Block xmlns="http://egov.bg/RegiX/AV/TR">824</Block>
+		<Entrance xmlns="http://egov.bg/RegiX/AV/TR">А</Entrance>
+		<Floor xmlns="http://egov.bg/RegiX/AV/TR">824</Floor>
+		<Apartment xmlns="http://egov.bg/RegiX/AV/TR">824</Apartment>
+	</SeatForCorrespondence>
+	<SubjectOfActivity>
+		<Subject xmlns="http://egov.bg/RegiX/AV/TR">ПРОИЗВОДСТВО НА ХЛЕБНО И ФУРАЖНО ЗЪРНО, ТЕХНИЧЕСКИ, ЕНЕРГИЙНИ И ФУРАЖНИ КУЛТУРИ, ПЛОДОВЕ И ЗЕЛЕНЧУЦИ ВЪРХУ АРЕНДУВАНИ ЗЕМИ, ЗЕМИ ПОД НАЕМ И ПРЕДОСТАВЕНИТЕ ЗА СЪВМЕСТНА ОБРАБОТКА ЗЕМЯ, ТЯХНАТА ПРЕРАБОТКА И РЕАЛИЗАЦИЯ. СПОМАГАТЕЛНАТА ДЕЙНОСТ ПО ОТНОШЕНИЕ НА ПРОИЗВОДСТВОТО И РЕАЛИЗАЦИЯТА НА ХЛЯБ, ОБРАБОТКА НА ФУРАЖИ НА СВОИТЕ ЧЛЕНОВЕ, ИЗКУПУВАНЕ НА ЖИВОТИНСКА ПРОДУКЦИЯ НА КОМИСИОННИ НАЧЕЛА И СТРОИТЕЛНИ И ТЪРГОВСКИ УСЛУГИ, ПРИГОТОВЛЯВАНЕ НА ХРАНИ КУХНЯ-МАЙКА. ИЗВЪРШВАНЕ НА КОМПЛЕКСНИ УСЛУГИ НА СТОПАНСТВАТА НА СВОИТЕ ЧЛЕНОВЕ ЧРЕЗ ВЪЗЛАГАНЕ  ЧРЕЗ ДОГОВОР ОТ ЗЕМЕДЕЛСКИТЕ СТОПАНИ. КООПЕРАЦИЯТА ОРГАНИЗИРА И ОСЪЩЕСТВЯВА ПРОМИШЛЕНИ И ДРУГИ ДЕЙНОСТИ РАЗРЕШЕНИ ОТ ЗАКОНА, С ЦЕЛ ПО-ПЪЛНОТО ИЗПОЛЗВАНЕ НА МАТЕРИАЛИТЕ, ТРУДОВИ И ФИНАНСОВИ РЕСУРСИ.</Subject>
+		<IsBank xmlns="http://egov.bg/RegiX/AV/TR">false</IsBank>
+		<IsInsurer xmlns="http://egov.bg/RegiX/AV/TR">false</IsInsurer>
+	</SubjectOfActivity>
+	<SubjectOfActivityNKID />
+	<AddemptionOfTraderSeatChange>
+		<Address xmlns="http://egov.bg/RegiX/AV/TR" />
+		<Contacts xmlns="http://egov.bg/RegiX/AV/TR" />
+	</AddemptionOfTraderSeatChange>
+	<Funds />
+	<Shares />
+	<MinimumAmount />
+	<DepositedFunds />
+	<NonMonetaryDeposits />
+	<BoardOfDirectorsMandate />
+	<AdministrativeBoardMandate />
+	<BoardOfManagersMandate />
+	<BoardOfManagers2Mandate />
+	<LeadingBoardMandate />
+	<SupervisingBoardMandate />
+	<SupervisingBoard2Mandate />
+	<ControllingBoardMandate>
+		<Type xmlns="http://egov.bg/RegiX/AV/TR">ЧЕТИРИ ГОДИНИ ОТ ВПИСВАНЕТО В АГЕНЦИЯ ПО ВПИСВАНИЯТА</Type>
+	</ControllingBoardMandate>
+	<Details>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Управителен съвет</FieldName>
+			<FieldCode>13</FieldCode>
+			<FieldOrder>00130</FieldOrder>
+			<Subject>
+				<Indent>6128564822</Indent>
+				<Name>ИВАН ХРИСТОВ БЕНЧЕВ</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Подгласници в управителния  съвет</FieldName>
+			<FieldCode>13а</FieldCode>
+			<FieldOrder>00131</FieldOrder>
+			<Subject>
+				<Indent>5504085566</Indent>
+				<Name>РУМЕН ЦАНОВ ЙОЛОВ</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Председател</FieldName>
+			<FieldCode>9</FieldCode>
+			<FieldOrder>00090</FieldOrder>
+			<Subject>
+				<Indent>8345525846</Indent>
+				<Name>ТОШО ГЕОРГИЕВ ЦВЯТКОВ</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Управителен съвет</FieldName>
+			<FieldCode>13</FieldCode>
+			<FieldOrder>00130</FieldOrder>
+			<Subject>
+				<Indent>7343067144</Indent>
+				<Name>НЕТО ДИМИТРОВ НЕТОВ</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Управителен съвет</FieldName>
+			<FieldCode>13</FieldCode>
+			<FieldOrder>00130</FieldOrder>
+			<Subject>
+				<Indent>5071226388</Indent>
+				<Name>ИВАН ПЕТРОВ КОНОВ</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Управителен съвет</FieldName>
+			<FieldCode>13</FieldCode>
+			<FieldOrder>00130</FieldOrder>
+			<Subject>
+				<Indent>8345525846</Indent>
+				<Name>ТОШО ГЕОРГИЕВ ЦВЯТКОВ</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Управителен съвет</FieldName>
+			<FieldCode>13</FieldCode>
+			<FieldOrder>00130</FieldOrder>
+			<Subject>
+				<Indent>6905048865</Indent>
+				<Name>ВАСИЛ АТАНАСОВ ВАСИЛЕВ</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Управителен съвет</FieldName>
+			<FieldCode>13</FieldCode>
+			<FieldOrder>00130</FieldOrder>
+			<Subject>
+				<Indent>7506084428</Indent>
+				<Name>ИВАН ХРИСТОВ ЗЛАТАНОВ</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Подгласници в управителния  съвет</FieldName>
+			<FieldCode>13а</FieldCode>
+			<FieldOrder>00131</FieldOrder>
+			<Subject>
+				<Indent>4607162264</Indent>
+				<Name>ИВАЙЛО СТЕФАНОВ СИМЕОНОВ</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Управителен съвет</FieldName>
+			<FieldCode>13</FieldCode>
+			<FieldOrder>00130</FieldOrder>
+			<Subject>
+				<Indent>6419559812</Indent>
+				<Name>РАДКА ТОДОРОВА ИВАНОВА</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Контролен съвет</FieldName>
+			<FieldCode>15</FieldCode>
+			<FieldOrder>00150</FieldOrder>
+			<Subject>
+				<Indent>7301016317</Indent>
+				<Name>НАДКА БОРИСОВА МИТЕВА</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Контролен съвет</FieldName>
+			<FieldCode>15</FieldCode>
+			<FieldOrder>00150</FieldOrder>
+			<Subject>
+				<Indent>5181599266</Indent>
+				<Name>ДАВИД АНГЕЛОВ СТАНЧЕВ</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Контролен съвет</FieldName>
+			<FieldCode>15</FieldCode>
+			<FieldOrder>00150</FieldOrder>
+			<Subject>
+				<Indent>3311116347</Indent>
+				<Name>ИВАН ГЕОРГИЕВ СТАЙКОВ</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+	</Details>
+</ActualStateResponse>

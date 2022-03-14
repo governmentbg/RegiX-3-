@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PenalProvisionUnpaidFeeRequest xsi:schemaLocation="http://egov.bg/RegiX/GIT/RNP/PenalProvisionUnpaidFeeRequest PenalProvisionUnpaidFeeRequest.xsd" xmlns="http://egov.bg/RegiX/GIT/RNP/PenalProvisionUnpaidFeeRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">	<IntruderIdentifier>String</IntruderIdentifier>
+		<DateFrom>1967-08-13</DateFrom>
+		<DateTo>1967-08-13</DateTo>
+</PenalProvisionUnpaidFeeRequest>

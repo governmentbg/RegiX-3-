@@ -1,0 +1,30 @@
+.regix-logo {
+  margin-bottom: 1rem;
+}
+@media (max-width: 36rem) {
+  .regix-logo {
+    max-width: 10rem;
+    margin-bottom: 1rem;
+  }
+}
+.inner-wrapper {
+  width: 70%;
+  align-self: center;
+}
+.buttons-wrapper {
+  width: 100%;
+  padding: 0rem;
+  margin-bottom: 1rem;
+}
+.login-button {
+  margin-left: 2px;
+  font-size: 12pt;
+  padding: 15px;
+}
+
+.login-right {
+  padding: 1rem;
+  height: 100%;
+  width: 100%;
+  object-fit: contain
+}

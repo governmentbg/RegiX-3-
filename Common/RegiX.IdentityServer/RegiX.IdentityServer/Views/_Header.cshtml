@@ -1,0 +1,29 @@
+﻿@{
+    string projectText = "Надграждане на хоризонталните и централни системи на електронното управление във връзка с \"Единния модел за заявяване, заплащане и предоставяне на електронни административни услуги\" по процедура BG05SFOP001-1.004 \"Надграждане на хоризонталните и централни системи за електронното управление\" по Оперативна програма \"Добро управление\"";
+}
+<div class="egov-header">
+    <div class="egov-identity">
+        <div class="egov-identity-gerb">
+            <div>
+                <img class="gerb" src="~/logo-gerb.png">
+            </div>
+            <div class="gerb-text">
+                <h6 class="rb-text">Република България</h6>
+                <h6 class="daeu-text">Държавна агенция „Електронно управление”</h6>
+            </div>
+        </div>
+        <div class="eu-text">
+            <span class="eu-text-span">@projectText</span>
+        </div>
+        <img class="eu-logo" src="~/eu.png" [title]="projectText">
+    </div>
+    <div class="egov-identity-small">
+        <div class="egov-identity-gerb">
+            <img class="gerb" src="~/logo-small.gif">
+            <div class="gerb-text" igxLayout igxLayoutDir="col" igxLayoutJustify="center">
+                <h6 class="daeu-text">ДA „Електронно управление”</h6>
+            </div>
+        </div>
+        <img class="eu-logo" src="~/eu.png" title="@projectText">
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<SearchByIdentifierResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierResponse">
+  <MaxAllowedResults>50</MaxAllowedResults>
+  <TotalResults>1</TotalResults>
+  <ExecutedCalls>
+    <ApiServiceCallID>57908</ApiServiceCallID>
+    <StartTime>2016-07-20T16:22:20.797</StartTime>
+    <ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+    <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+    <Consumer>Консуматор за тестване от egp03-rclip</Consumer>
+    <ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+    <Producer>Имотен регистър</Producer>
+    <ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+  </ExecutedCalls>
+</SearchByIdentifierResponse>

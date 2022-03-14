@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="RegiX Info - Междурегистров обмен на справочна и удостоверителна информация.Тук се намира информация кои държавни администрации са присъединили регистри към системата.">
+    <title>RegiXInfo</title>
+    <base href="/"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- generics -->
+    <link rel="icon" href="assets/icons/icon-32x32.png" sizes="32x32">
+    <link rel="icon" href="assets/icons/icon-128x128.png" sizes="128x128">
+    <link rel="icon" href="assets/icons/icon-192x192.png" sizes="192x192">
+
+    <!-- Android -->
+    <link rel="shortcut icon" href="assets/icons/icon-196x196.png" sizes="196x196">
+
+    <!-- iOS -->
+    <link rel="apple-touch-icon" href="assets/icons/icon-152x152.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="assets/icons/icon-167x167.png" sizes="167x167">
+    <link rel="apple-touch-icon" href="assets/icons/icon-180x180.png" sizes="180x180">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet"/>
+    <style type="text/css">
+      body, html {
+        height: 100%;
+        overflow: hidden; /* Hide scrollbars */
+      }
+      .app-loading {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+
+      .app-loading .spinner {
+        height: 200px;
+        width: 200px;
+        animation: rotate 2s linear infinite;
+        transform-origin: center center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+
+      .app-loading .spinner .path {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+        animation: dash 1.5s ease-in-out infinite;
+        stroke-linecap: round;
+        stroke: #ddd;
+      }
+
+      @keyframes rotate {
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes dash {
+        0% {
+          stroke-dasharray: 1, 200;
+          stroke-dashoffset: 0;
+        }
+        50% {
+          stroke-dasharray: 89, 200;
+          stroke-dashoffset: -35px;
+        }
+        100% {
+          stroke-dasharray: 89, 200;
+          stroke-dashoffset: -124px;
+        }
+      }
+    </style>
+    <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#014F86">
+</head>
+  <body class="igx-typography app-background">
+    <app-root>
+      <div class="app-loading">
+        <div class="logo"></div>
+        <svg class="spinner" viewBox="25 25 50 50">
+          <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"></circle>
+        </svg>
+      </div></app-root>
+    <noscript>Please enable JavaScript to continue using this application.</noscript>
+</body>
+</html>

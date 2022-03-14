@@ -1,0 +1,114 @@
+﻿<?xml version="1.0"?>
+<RelationsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/NBD/RelationsResponse">
+  <PersonRelations>
+    <RelationCode xmlns="http://egov.bg/RegiX/GRAO/NBD">Баща</RelationCode>
+    <EGN xmlns="http://egov.bg/RegiX/GRAO/NBD">3308251420</EGN>
+    <BirthDate xmlns="http://egov.bg/RegiX/GRAO/NBD">1933-08-25</BirthDate>
+    <FirstName xmlns="http://egov.bg/RegiX/GRAO/NBD">Иван</FirstName>
+    <SurName xmlns="http://egov.bg/RegiX/GRAO/NBD">Иванов</SurName>
+    <FamilyName xmlns="http://egov.bg/RegiX/GRAO/NBD">Иванов</FamilyName>
+    <Gender xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <GenderCode>1</GenderCode>
+      <GenderName>Мъж</GenderName>
+    </Gender>
+    <Nationality xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <NationalityCode>BG</NationalityCode>
+      <NationalityName>България</NationalityName>
+      <NationalityCode2>US</NationalityCode2>
+      <NationalityName2>САЩ</NationalityName2>
+    </Nationality>
+    <DeathDate xmlns="http://egov.bg/RegiX/GRAO/NBD">1989-01-01</DeathDate>
+  </PersonRelations>
+  <PersonRelations>
+    <RelationCode xmlns="http://egov.bg/RegiX/GRAO/NBD">Майка</RelationCode>
+    <EGN xmlns="http://egov.bg/RegiX/GRAO/NBD">33040316678</EGN>
+    <BirthDate xmlns="http://egov.bg/RegiX/GRAO/NBD">1933-01-11</BirthDate>
+    <FirstName xmlns="http://egov.bg/RegiX/GRAO/NBD">Женя</FirstName>
+    <SurName xmlns="http://egov.bg/RegiX/GRAO/NBD">Данова</SurName>
+    <FamilyName xmlns="http://egov.bg/RegiX/GRAO/NBD">Иванова</FamilyName>
+    <Gender xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <GenderCode>2</GenderCode>
+      <GenderName>Жена</GenderName>
+    </Gender>
+    <Nationality xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <NationalityCode>BG</NationalityCode>
+      <NationalityName>България</NationalityName>
+      <NationalityCode2/>
+      <NationalityName2/>
+    </Nationality>
+    <DeathDate xmlns="http://egov.bg/RegiX/GRAO/NBD">2005-01-05</DeathDate>
+  </PersonRelations>
+  <PersonRelations>
+    <RelationCode xmlns="http://egov.bg/RegiX/GRAO/NBD">Брат</RelationCode>
+    <EGN xmlns="http://egov.bg/RegiX/GRAO/NBD">4408251420</EGN>
+    <BirthDate xmlns="http://egov.bg/RegiX/GRAO/NBD">1944-08-25</BirthDate>
+    <FirstName xmlns="http://egov.bg/RegiX/GRAO/NBD">Георги</FirstName>
+    <SurName xmlns="http://egov.bg/RegiX/GRAO/NBD">Иванов</SurName>
+    <FamilyName xmlns="http://egov.bg/RegiX/GRAO/NBD">Иванов</FamilyName>
+    <Gender xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <GenderCode>1</GenderCode>
+      <GenderName>Мъж</GenderName>
+    </Gender>
+    <Nationality xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <NationalityCode>BG</NationalityCode>
+      <NationalityName>България</NationalityName>
+      <NationalityCode2>US</NationalityCode2>
+      <NationalityName2>САЩ</NationalityName2>
+    </Nationality>
+    <DeathDate xmlns="http://egov.bg/RegiX/GRAO/NBD">1955-01-01</DeathDate>
+  </PersonRelations>
+  <PersonRelations>
+    <RelationCode xmlns="http://egov.bg/RegiX/GRAO/NBD">Син</RelationCode>
+    <EGN xmlns="http://egov.bg/RegiX/GRAO/NBD">6608251420</EGN>
+    <BirthDate xmlns="http://egov.bg/RegiX/GRAO/NBD">1966-08-25</BirthDate>
+    <FirstName xmlns="http://egov.bg/RegiX/GRAO/NBD">Жеко</FirstName>
+    <SurName xmlns="http://egov.bg/RegiX/GRAO/NBD">Иванов</SurName>
+    <FamilyName xmlns="http://egov.bg/RegiX/GRAO/NBD">Иванов</FamilyName>
+    <Gender xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <GenderCode>1</GenderCode>
+      <GenderName>Мъж</GenderName>
+    </Gender>
+    <Nationality xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <NationalityCode>BG</NationalityCode>
+      <NationalityName>България</NationalityName>
+      <NationalityCode2>US</NationalityCode2>
+      <NationalityName2>САЩ</NationalityName2>
+    </Nationality>
+  </PersonRelations>
+  <PersonRelations>
+    <RelationCode xmlns="http://egov.bg/RegiX/GRAO/NBD">Син</RelationCode>
+    <EGN xmlns="http://egov.bg/RegiX/GRAO/NBD">7708251420</EGN>
+    <BirthDate xmlns="http://egov.bg/RegiX/GRAO/NBD">1977-08-25</BirthDate>
+    <FirstName xmlns="http://egov.bg/RegiX/GRAO/NBD">Вълчо</FirstName>
+    <SurName xmlns="http://egov.bg/RegiX/GRAO/NBD">Иванов</SurName>
+    <FamilyName xmlns="http://egov.bg/RegiX/GRAO/NBD">Иванов</FamilyName>
+    <Gender xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <GenderCode>1</GenderCode>
+      <GenderName>Мъж</GenderName>
+    </Gender>
+    <Nationality xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <NationalityCode>BG</NationalityCode>
+      <NationalityName>България</NationalityName>
+      <NationalityCode2>US</NationalityCode2>
+      <NationalityName2>САЩ</NationalityName2>
+    </Nationality>
+  </PersonRelations>
+  <PersonRelations>
+    <RelationCode xmlns="http://egov.bg/RegiX/GRAO/NBD">Син</RelationCode>
+    <EGN xmlns="http://egov.bg/RegiX/GRAO/NBD">8808251420</EGN>
+    <BirthDate xmlns="http://egov.bg/RegiX/GRAO/NBD">1988-08-25</BirthDate>
+    <FirstName xmlns="http://egov.bg/RegiX/GRAO/NBD">Мартин</FirstName>
+    <SurName xmlns="http://egov.bg/RegiX/GRAO/NBD">Иванов</SurName>
+    <FamilyName xmlns="http://egov.bg/RegiX/GRAO/NBD">Иванов</FamilyName>
+    <Gender xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <GenderCode>1</GenderCode>
+      <GenderName>Мъж</GenderName>
+    </Gender>
+    <Nationality xmlns="http://egov.bg/RegiX/GRAO/NBD">
+      <NationalityCode>BG</NationalityCode>
+      <NationalityName>България</NationalityName>
+      <NationalityCode2>US</NationalityCode2>
+      <NationalityName2>САЩ</NationalityName2>
+    </Nationality>
+  </PersonRelations>
+</RelationsResponse>

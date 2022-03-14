@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://nelk.indexbg.bg/" xmlns:ns1="http://ws.indexbg.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns3="http://schemas.xmlsoap.org/soap/http" name="CheckService" targetNamespace="http://nelk.indexbg.bg/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://ws.indexbg.com/" location="CheckServiceSchema.xsd" />
+  <wsdl:types />
+  <wsdl:binding name="CheckServiceSoapBinding" type="ns1:CheckService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="listErPeriod">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="listErPeriod">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="listErPeriodResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="WSFault">
+        <soap:fault use="literal" name="WSFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getEr">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getEr">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getErResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="WSFault">
+        <soap:fault use="literal" name="WSFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getErAll">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getErAll">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getErAllResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="WSFault">
+        <soap:fault use="literal" name="WSFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="version">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="version">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="versionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CheckService">
+    <wsdl:port name="CheckServiceImplPort" binding="tns:CheckServiceSoapBinding">
+      <soap:address location="http://IDN-ILGEORGIEV:8080/NelkServices/CheckService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

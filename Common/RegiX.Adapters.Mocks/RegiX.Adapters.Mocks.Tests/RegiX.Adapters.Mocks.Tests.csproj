@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <RootNamespace>TechnoLogica.RegiX.Adapters.Mocks.Tests</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="XMLData\Custom.response.xml" />
+    <None Remove="XMLData\IDummyTestAdapterServiceNETCore.Augmented.response.xml" />
+    <None Remove="XMLData\IDummyTestAdapterServiceNETCore.ExampleOperation.response.xml" />
+    <None Remove="XMLData\IDummyTestAdapterServiceNETCore.ExampleOperation2.response.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="XMLData\RegiX.Adapters.Mocks.Tests\Custom.response.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLData\RegiX.Adapters.Mocks.Tests\IDummyTestAdapterServiceNETCore.Augmented.response.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLData\RegiX.Adapters.Mocks.Tests\IDummyTestAdapterServiceNETCore.ExampleOperation2.response.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLData\RegiX.Adapters.Mocks.Tests\IDummyTestAdapterServiceNETCore.ExampleOperation.response.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.3.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.3.2" />
+    <PackageReference Include="RegiX.GraoNBDAdapter" Version="1.0.17" />
+    <PackageReference Include="RegiX.GraoNBDAdapter.Mock" Version="1.0.17" />
+    <PackageReference Include="RegiX.MVRBDSAdapter" Version="1.0.9" />
+    <PackageReference Include="RegiX.Processors.PDFResponseProcessor" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.Adapters.Mocks.Tests2\RegiX.Adapters.Mocks.Tests2.csproj" />
+    <ProjectReference Include="..\RegiX.Adapters.Mocks\RegiX.Adapters.Mocks.csproj" />
+  </ItemGroup>
+
+</Project>

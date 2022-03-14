@@ -1,0 +1,79 @@
+resources:
+- repo: self
+queue:
+  name: RegiX
+steps:
+- powershell: |
+    # Matches ###PAT### string.
+    $regex = "(##PAT##)"
+    # File contents to be replaced
+    $fileName = "$(Build.Repository.LocalPath)\RegiXAdapterConsole\.npmrc"
+    # Iterates through all the file's lines
+    $tmp = Get-Content $fileName | `
+    foreach `
+    { `
+        [regex]::replace($_,$regex, "$(npmrc.pat)") `
+    }
+    # Update the .npmrc PAT token
+    Set-Content $fileName $tmp
+  displayName: 'Replace PAT in .npmrc'
+- powershell: |
+   # Matches https://localhost:5001 string.
+   $regex = "(https://localhost:5001)"
+   # File contents to be replaced
+   $fileName = "$(Build.Repository.LocalPath)\RegiXAdapterConsole\src\assets\auth.clientConfiguration.json"
+   # Iterates through all the file's lines
+   $tmp = Get-Content $fileName | `
+   foreach `
+   { `
+       [regex]::replace($_,$regex, "https://regix2-adapters.regix.tlogica.com:8091/RegiX.IdentityServer") `
+   }
+   # Update the file's content to the one containing the changed Patch version
+   Set-Content $fileName $tmp
+  displayName: 'Replace identityserver in clientConfiguration'
+- powershell: |
+   # Matches http://localhost:4200/ string.
+   $regex = "(http://localhost:4200/)"
+   # File contents to be replaced
+   $fileName = "$(Build.Repository.LocalPath)\RegiXAdapterConsole\src\assets\auth.clientConfiguration.json"
+   # Iterates through all the file's lines
+   $tmp = Get-Content $fileName | `
+   foreach `
+   { `
+       [regex]::replace($_,$regex, "https://172.16.69.13:8091/RegiX.AdapterConsole.Angular/") `
+   }
+   # Update the file's content to the one containing the changed Patch version
+   Set-Content $fileName $tmp
+  displayName: 'Replace localhost in clientConfiguration'
+#- task: PowerShell@2
+#  inputs:
+#    targetType: 'inline'
+#    script: 'Set-Content -Path "$(Build.Repository.LocalPath)\RegiXAdapterConsole\src\assets\config.properties.json" -Value "{ ""serviceUrl"": ""https://172.16.69.13:8091/RegiX.AdapterConsole.API"" }"'    
+# MISSING TASK IN AZURE-DEVOPS (In our installation)
+# - task: FileTransform@1
+#   inputs:
+#     folderPath: '$(Build.Repository.LocalPath)\RegiXInfo\dist\RegiXInfo\assets'
+#     targetFiles: 'config.properties.json'
+- task: Npm@1
+  displayName: 'npm install'
+  inputs:
+    workingDir: '$(Build.Repository.LocalPath)\RegiXAdapterConsole'
+    command: 'install'
+- task: Npm@1
+  displayName: 'npm set version'
+  inputs:
+    workingDir: '$(Build.Repository.LocalPath)\RegiXAdapterConsole'
+    command: 'custom'
+    customCommand: 'version 1.$(Build.BuildNumber) --allow-same-version'
+- task: Npm@1
+  displayName: 'npm build'
+  inputs:
+    workingDir: '$(Build.Repository.LocalPath)\RegiXAdapterConsole'
+    command: 'custom'
+    customCommand: 'run real-prod'
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: RegiX.AdapterConsole.Angular'
+  inputs:
+    artifactName: 'RegiX.AdapterConsole.Angular'
+    PathtoPublish: '$(Build.Repository.LocalPath)\RegiXAdapterConsole\dist\RegiXAdapterConsole'
+

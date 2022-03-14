@@ -1,0 +1,60 @@
+<div *ngIf="isDataLoading">
+    <div>
+      <igx-circular-bar
+        [animate]="true"
+        [indeterminate]="true"
+        [textVisibility]="true"
+      ></igx-circular-bar>
+    </div>
+</div>
+<div class="roles-table-wrapper">
+  <tl-linear-progress [visible]="this.service.isLoading"></tl-linear-progress>
+  <igx-grid
+    #grid
+    [data]="items$"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    [rowSelectable]="true"
+    (onRowSelectionChange)="onRowClickChange($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+    [hidden]="!isDataLoaded && isDataLoading"
+  >
+    <igx-column
+      field="name"
+      header="Име"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="userName"
+      header="Потребителско име"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-api>
+      <div class="igx-paginator">
+        <tl-grid-pager
+          [page]="0"
+          [perPage]="15"
+          [totalCount]="items$.length"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+  </igx-grid>
+</div>

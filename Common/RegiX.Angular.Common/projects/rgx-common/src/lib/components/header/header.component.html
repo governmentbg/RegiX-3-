@@ -1,0 +1,26 @@
+<div id="app-header">
+    <div class="egov-identity" igxLayout igxLayoutDir="row">
+      <div igxFlex igxFlexGrow="10" igxLayout igxLayoutDir="row">
+          <img alt="Герб на Република България" class="gerb" src="assets/logo-gerb.png">
+          <div class="gerb-text" igxLayout igxLayoutDir="col" igxLayoutJustify="center">
+              <h6>Република България</h6>
+              <h6 class="daeu-text">Държавна агенция „Електронно управление”</h6>
+          </div>
+      </div>
+      <div class="eu-text">
+        <span>
+          {{projectText}}
+        </span>
+      </div>
+      <img alt="Флаг на ЕС/Лого на Оперативна програма &quot;Добро управление&quot;" class="eu-logo" src="assets/eu.png" [title]="projectText">
+    </div>
+    <div class="egov-identity-small" igxLayout igxLayoutDir="row">
+      <div igxFlex igxFlexGrow="10" igxLayout igxLayoutDir="row">
+          <img alt="Герб на Република България" class="gerb" src="assets/logo-small.gif">
+          <div class="gerb-text" igxLayout igxLayoutDir="col" igxLayoutJustify="center">
+            <h6 class="daeu-text">ДA „Електронно управление”</h6>
+          </div>
+      </div>
+      <img alt="Флаг на ЕС/Лого на Оперативна програма &quot;Добро управление&quot;" class="eu-logo" src="assets/eu.png" [title]="projectText">
+    </div>
+  </div>

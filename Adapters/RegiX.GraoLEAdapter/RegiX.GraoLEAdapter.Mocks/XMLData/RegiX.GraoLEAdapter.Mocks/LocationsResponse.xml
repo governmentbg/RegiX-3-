@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<LocationsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/LE/LocationsResponse">
+  <Locations>
+    <SettlementPlaceCode xmlns="http://egov.bg/RegiX/GRAO/LE">BG001</SettlementPlaceCode>
+    <SettlementPlaceName xmlns="http://egov.bg/RegiX/GRAO/LE">София</SettlementPlaceName>
+    <LocationCode xmlns="http://egov.bg/RegiX/GRAO/LE">13082</LocationCode>
+    <LocationName xmlns="http://egov.bg/RegiX/GRAO/LE">УЛ.БОР</LocationName>
+  </Locations>
+</LocationsResponse>

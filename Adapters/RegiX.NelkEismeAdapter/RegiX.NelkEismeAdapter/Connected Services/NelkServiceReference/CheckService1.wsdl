@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://ws.indexbg.com/" xmlns:ns2="http://pnr.indexbg.bg/" name="CheckService" targetNamespace="http://ws.indexbg.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="http://ws.indexbg.com/" xmlns:ns1="http://jaxb.dev.java.net/array" elementFormDefault="unqualified" targetNamespace="http://ws.indexbg.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="http://jaxb.dev.java.net/array" />
+      <xs:element name="getEr" type="tns:getEr" />
+      <xs:element name="getErAll" type="tns:getErAll" />
+      <xs:element name="getErAllResponse" type="tns:getErAllResponse" />
+      <xs:element name="getErResponse" type="tns:getErResponse" />
+      <xs:element name="listErPeriod" type="tns:listErPeriod" />
+      <xs:element name="listErPeriodResponse" type="tns:listErPeriodResponse" />
+      <xs:element name="version" type="tns:version" />
+      <xs:element name="versionResponse" type="tns:versionResponse" />
+      <xs:complexType name="listErPeriod">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="dateFrom" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="dateTo" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="info" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="listErPeriodResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="ns1:anyTypeArray" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="myServiceFault">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="faultCode" type="xs:long" />
+          <xs:element minOccurs="0" name="faultString" type="xs:string" />
+          <xs:element minOccurs="0" name="message" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getEr">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="egnLnch" type="xs:string" />
+          <xs:element minOccurs="0" name="info" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getErResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:ekspertizaWsObject" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ekspertizaWsObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="anotDoc" type="xs:string" />
+          <xs:element minOccurs="0" name="constataciq" type="xs:string" />
+          <xs:element minOccurs="0" name="dateDoc" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="datePoluchavane" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="docDataIzd" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="docDataIzdNas" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="docDataValid" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="docDataValidNas" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="docIzdadenOt" type="xs:string" />
+          <xs:element minOccurs="0" name="docIzdadenOtNas" type="xs:string" />
+          <xs:element minOccurs="0" name="docNomer" type="xs:string" />
+          <xs:element minOccurs="0" name="docNomerNas" type="xs:string" />
+          <xs:element minOccurs="0" name="egnLnch" type="xs:string" />
+          <xs:element minOccurs="0" name="egnNas" type="xs:string" />
+          <xs:element minOccurs="0" name="erDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="erDateObj" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="erInstanciaObj" type="xs:string" />
+          <xs:element minOccurs="0" name="erInstanciaObjCode" type="xs:string" />
+          <xs:element minOccurs="0" name="erNomObj" type="xs:long" />
+          <xs:element minOccurs="0" name="erReshenieObj" type="xs:string" />
+          <xs:element minOccurs="0" name="imena" type="xs:string" />
+          <xs:element minOccurs="0" name="imenaNas" type="xs:string" />
+          <xs:element minOccurs="0" name="iniciatorCode" type="xs:string" />
+          <xs:element minOccurs="0" name="iniciatorText" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="invalidnostList" nillable="true" type="tns:ekspertizaInvalidnostWsObject" />
+          <xs:element minOccurs="0" name="irKomisia" type="xs:string" />
+          <xs:element minOccurs="0" name="irKomisiaCode" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="komisiaList" nillable="true" type="tns:ekspertizaSustavKomWsObject" />
+          <xs:element minOccurs="0" name="lnchNas" type="xs:string" />
+          <xs:element minOccurs="0" name="myasto" type="xs:string" />
+          <xs:element minOccurs="0" name="myastoCode" type="xs:string" />
+          <xs:element minOccurs="0" name="nachinReshenie" type="xs:string" />
+          <xs:element minOccurs="0" name="nachinReshenieCode" type="xs:string" />
+          <xs:element minOccurs="0" name="nastAdres" type="xs:string" />
+          <xs:element minOccurs="0" name="nastAdresNas" type="xs:string" />
+          <xs:element minOccurs="0" name="nastNasMestoEKATTE" type="xs:long" />
+          <xs:element minOccurs="0" name="nastOblastEKATTE" type="xs:string" />
+          <xs:element minOccurs="0" name="nastObshtinaEKATTE" type="xs:string" />
+          <xs:element minOccurs="0" name="nomerZasedanie" type="xs:long" />
+          <xs:element minOccurs="0" name="objBolnichniListove" type="xs:string" />
+          <xs:element minOccurs="0" name="ocenkaRabCode" type="xs:string" />
+          <xs:element minOccurs="0" name="ocenkaRabText" type="xs:string" />
+          <xs:element minOccurs="0" name="osnovanie" type="xs:string" />
+          <xs:element minOccurs="0" name="ozMkbCode" type="xs:string" />
+          <xs:element minOccurs="0" name="ozText" type="xs:string" />
+          <xs:element minOccurs="0" name="postAdres" type="xs:string" />
+          <xs:element minOccurs="0" name="postAdresNas" type="xs:string" />
+          <xs:element minOccurs="0" name="postNasMestoEKATTE" type="xs:long" />
+          <xs:element minOccurs="0" name="postOblastEKATTE" type="xs:string" />
+          <xs:element minOccurs="0" name="postObshtinaEKATTE" type="xs:string" />
+          <xs:element minOccurs="0" name="preporaki" type="xs:string" />
+          <xs:element minOccurs="0" name="profesia" type="xs:string" />
+          <xs:element minOccurs="0" name="protivopokazania" type="xs:string" />
+          <xs:element minOccurs="0" name="pzMkbCode" type="xs:string" />
+          <xs:element minOccurs="0" name="pzText" type="xs:string" />
+          <xs:element minOccurs="0" name="regNumEr" type="xs:long" />
+          <xs:element minOccurs="0" name="reshenieNelkCode" type="xs:string" />
+          <xs:element minOccurs="0" name="reshenieNelkText" type="xs:string" />
+          <xs:element minOccurs="0" name="rnDoc" type="xs:string" />
+          <xs:element minOccurs="0" name="sastoyanieEkspCode" type="xs:string" />
+          <xs:element minOccurs="0" name="sastoyanieEkspText" type="xs:string" />
+          <xs:element minOccurs="0" name="srokChujdaPomosht" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="srokInvalidnost" type="xs:string" />
+          <xs:element minOccurs="0" name="srokInvalidnostCode" type="xs:string" />
+          <xs:element minOccurs="0" name="srokInvalidnostDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="status" type="xs:long" />
+          <xs:element minOccurs="0" name="tipSlujitel" type="xs:long" />
+          <xs:element minOccurs="0" name="trudovaZaetost" type="xs:string" />
+          <xs:element minOccurs="0" name="trudovaZaetostCode" type="xs:string" />
+          <xs:element minOccurs="0" name="tzMkbCode" type="xs:string" />
+          <xs:element minOccurs="0" name="tzText" type="xs:string" />
+          <xs:element minOccurs="0" name="vdMkbCode" type="xs:string" />
+          <xs:element minOccurs="0" name="vdText" type="xs:string" />
+          <xs:element minOccurs="0" name="viMkbCode" type="xs:string" />
+          <xs:element minOccurs="0" name="vid" type="xs:string" />
+          <xs:element minOccurs="0" name="vidCode" type="xs:string" />
+          <xs:element minOccurs="0" name="vidDoc" type="xs:string" />
+          <xs:element minOccurs="0" name="voennaInvlidnost" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ekspertizaInvalidnostWsObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="dateInval" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="invalidnost" type="xs:string" />
+          <xs:element minOccurs="0" name="vidInval" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ekspertizaSustavKomWsObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="dlajnost" type="xs:string" />
+          <xs:element minOccurs="0" name="imenaLekar" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getErAll">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="egnLnch" type="xs:string" />
+          <xs:element minOccurs="0" name="info" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getErAllResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:ekspertizaWsObject" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="version">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="versionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+    <xs:schema targetNamespace="http://jaxb.dev.java.net/array" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:complexType name="anyTypeArray" final="#all">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="item" nillable="true" type="xs:anyType" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+    <xsd:schema xmlns:tns="http://pnr.indexbg.bg/" xmlns:ns0="http://ws.indexbg.com/" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://pnr.indexbg.bg/">
+      <xsd:element name="MyServiceFault" nillable="true" type="ns0:myServiceFault" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="getEr">
+    <wsdl:part name="parameters" element="ns1:getEr" />
+  </wsdl:message>
+  <wsdl:message name="getErAll">
+    <wsdl:part name="parameters" element="ns1:getErAll" />
+  </wsdl:message>
+  <wsdl:message name="WSFault">
+    <wsdl:part name="WSFault" element="ns2:MyServiceFault" />
+  </wsdl:message>
+  <wsdl:message name="version">
+    <wsdl:part name="parameters" element="ns1:version" />
+  </wsdl:message>
+  <wsdl:message name="listErPeriod">
+    <wsdl:part name="parameters" element="ns1:listErPeriod" />
+  </wsdl:message>
+  <wsdl:message name="listErPeriodResponse">
+    <wsdl:part name="parameters" element="ns1:listErPeriodResponse" />
+  </wsdl:message>
+  <wsdl:message name="getErResponse">
+    <wsdl:part name="parameters" element="ns1:getErResponse" />
+  </wsdl:message>
+  <wsdl:message name="versionResponse">
+    <wsdl:part name="parameters" element="ns1:versionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getErAllResponse">
+    <wsdl:part name="parameters" element="ns1:getErAllResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CheckService">
+    <wsdl:operation name="listErPeriod">
+      <wsdl:input name="listErPeriod" message="ns1:listErPeriod" />
+      <wsdl:output name="listErPeriodResponse" message="ns1:listErPeriodResponse" />
+      <wsdl:fault name="WSFault" message="ns1:WSFault" />
+    </wsdl:operation>
+    <wsdl:operation name="getEr">
+      <wsdl:input name="getEr" message="ns1:getEr" />
+      <wsdl:output name="getErResponse" message="ns1:getErResponse" />
+      <wsdl:fault name="WSFault" message="ns1:WSFault" />
+    </wsdl:operation>
+    <wsdl:operation name="getErAll">
+      <wsdl:input name="getErAll" message="ns1:getErAll" />
+      <wsdl:output name="getErAllResponse" message="ns1:getErAllResponse" />
+      <wsdl:fault name="WSFault" message="ns1:WSFault" />
+    </wsdl:operation>
+    <wsdl:operation name="version">
+      <wsdl:input name="version" message="ns1:version" />
+      <wsdl:output name="versionResponse" message="ns1:versionResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

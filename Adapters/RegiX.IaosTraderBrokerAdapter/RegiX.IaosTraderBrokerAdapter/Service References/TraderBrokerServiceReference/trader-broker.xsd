@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://egov.bg/RegiX/IAOS/TraderBroker" targetNamespace="http://egov.bg/RegiX/IAOS/TraderBroker" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="TRADER_BROKER_Validity_Check_Request" type="tns:TRADER_BROKER_Validity_Check_Request" />
+  <xs:element name="TRADER_BROKER_Validity_Check_Response" type="tns:tbValidityCheck" />
+  <xs:element name="TRADER_BROKER_Waste_Codes_By_EIK_Request" type="tns:TRADER_BROKER_Waste_Codes_By_EIK_Request" />
+  <xs:element name="TRADER_BROKER_Waste_Codes_By_EIK_Response" type="tns:tbWasteCodesByEIK" />
+  <xs:element name="WebServiceException" type="tns:WebServiceException" />
+  <xs:element name="getValidityCheckResponse" type="tns:getValidityCheckResponse" />
+  <xs:element name="getWasteCodesByEIKResponse" type="tns:getWasteCodesByEIKResponse" />
+  <xs:complexType name="TRADER_BROKER_Validity_Check_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="EIK" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getValidityCheckResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:TRADER_BROKER_Validity_Check_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="tbValidityCheck">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="Authorization" type="tns:AuthorizationValidityCheck" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthorizationValidityCheck">
+    <xs:sequence>
+      <xs:element form="qualified" name="AuthNum" type="xs:string" />
+      <xs:element form="qualified" name="AuthType" type="xs:string" />
+      <xs:element form="qualified" name="CompanyName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="DistName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="FirstName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="LastName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="MidName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="PopName" type="xs:string" />
+      <xs:element form="qualified" name="State" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="TerName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="WebServiceException">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TRADER_BROKER_Waste_Codes_By_EIK_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="EIK" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getWasteCodesByEIKResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:TRADER_BROKER_Waste_Codes_By_EIK_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="tbWasteCodesByEIK">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="Authorization" type="tns:AuthorizationWasteCodes" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthorizationWasteCodes">
+    <xs:sequence>
+      <xs:element form="qualified" name="AuthNum" type="xs:string" />
+      <xs:element form="qualified" name="AuthType" type="xs:string" />
+      <xs:element form="qualified" name="CompanyName" type="xs:string" />
+      <xs:element form="qualified" name="State" type="xs:string" />
+      <xs:element maxOccurs="unbounded" form="qualified" name="WasteCode" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

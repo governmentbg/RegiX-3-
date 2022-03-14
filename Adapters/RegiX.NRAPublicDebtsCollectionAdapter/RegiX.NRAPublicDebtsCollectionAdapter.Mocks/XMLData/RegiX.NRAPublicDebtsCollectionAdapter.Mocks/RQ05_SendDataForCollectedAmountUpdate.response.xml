@@ -1,0 +1,12 @@
+<SendDataForCollectedAmountUpdateResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Response>
+		<Status xmlns="http://egov.bg/RegiX/NRA/Collections">1</Status>
+		<DateProcessed xmlns="http://egov.bg/RegiX/NRA/Collections">2020-04-07</DateProcessed>
+		<NRAPaymentID xmlns="http://egov.bg/RegiX/NRA/Collections">0</NRAPaymentID>
+		<Errors xmlns="http://egov.bg/RegiX/NRA/Collections">
+			<Code>E0010</Code>
+			<Code>E0103</Code>
+			<Code>L0101</Code>
+		</Errors>
+	</Response>
+</SendDataForCollectedAmountUpdateResponse>

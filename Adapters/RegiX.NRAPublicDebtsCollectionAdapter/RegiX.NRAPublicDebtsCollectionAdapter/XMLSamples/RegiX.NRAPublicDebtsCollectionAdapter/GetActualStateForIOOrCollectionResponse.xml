@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetActualStateForIOOrCollectionResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <Result>
+      <IO>
+        <TitulID>1111111110</TitulID>
+        <EIK>3076130069</EIK>
+        <EIKType>LNC</EIKType>
+        <Name>ÐÅÇÀ ÇÎÃÐÀÁ ÀËÈÇÀÒÅ</Name>
+        <DocumentType>ÍÏ</DocumentType>
+        <DocumentNo>626/14</DocumentNo>
+        <DocumentSeries>12</DocumentSeries>
+        <IssueDate>2015-01-21</IssueDate>
+        <EnforcementDate>2015-03-22</EnforcementDate>
+      </IO>
+      <Collection>
+        <CollectibleID>123456</CollectibleID>
+        <BeneficiaryCode>3</BeneficiaryCode>
+        <DepartmentCode>694</DepartmentCode>
+        <BeneficiaryEIK>0006275970270</BeneficiaryEIK>
+        <BeneficiaryName>ÒÄ Þæíà ìîðñêà</BeneficiaryName>
+        <CollectibleType>ÃË</CollectibleType>
+        <UnforcedPaymentDate>2015-03-22</UnforcedPaymentDate>
+        <DateProcessed>2020-03-31</DateProcessed>
+        <OutstandingPrincipalAmountInterest>0</OutstandingPrincipalAmountInterest>
+        <OutstandingInterestAmount>0</OutstandingInterestAmount>
+        <OutstandingNRAInterestAmount>0</OutstandingNRAInterestAmount>
+        <OutstandingPrincipalAmountNoInterest>1000</OutstandingPrincipalAmountNoInterest>
+        <Currency>BGN</Currency>
+        <NRACollectibleStage>0</NRACollectibleStage>
+        <NRACollectibleStatus>0</NRACollectibleStatus>
+      </Collection>
+      <Errors />
+    </Result>
+    <Result>
+      <IO>
+        <TitulID>1111111110</TitulID>
+        <EIK>3076130069</EIK>
+        <EIKType>LNC</EIKType>
+        <Name>ÐÅÇÀ ÇÎÃÐÀÁ ÀËÈÇÀÒÅ</Name>
+        <DocumentType>ÍÏ</DocumentType>
+        <DocumentNo>626/14</DocumentNo>
+        <DocumentSeries>12</DocumentSeries>
+        <IssueDate>2015-01-21</IssueDate>
+        <EnforcementDate>2015-03-22</EnforcementDate>
+      </IO>
+      <Collection>
+        <CollectibleID>654321</CollectibleID>
+        <BeneficiaryCode>3</BeneficiaryCode>
+        <DepartmentCode>694</DepartmentCode>
+        <BeneficiaryEIK>0006275970270</BeneficiaryEIK>
+        <BeneficiaryName>ÒÄ Þæíà ìîðñêà</BeneficiaryName>
+        <CollectibleType>ÃË</CollectibleType>
+        <UnforcedPaymentDate>2015-03-22</UnforcedPaymentDate>
+        <DateProcessed>2020-03-31</DateProcessed>
+        <OutstandingPrincipalAmountInterest>0</OutstandingPrincipalAmountInterest>
+        <OutstandingInterestAmount>0</OutstandingInterestAmount>
+        <OutstandingNRAInterestAmount>0</OutstandingNRAInterestAmount>
+        <OutstandingPrincipalAmountNoInterest>0</OutstandingPrincipalAmountNoInterest>
+        <Currency>BGN</Currency>
+        <NRACollectibleStage>0</NRACollectibleStage>
+        <NRACollectibleStatus>0</NRACollectibleStatus>
+        <NRACancelDate>2016-02-19</NRACancelDate>
+      </Collection>
+      <Errors />
+    </Result>
+  </Results>
+</GetActualStateForIOOrCollectionResponse>

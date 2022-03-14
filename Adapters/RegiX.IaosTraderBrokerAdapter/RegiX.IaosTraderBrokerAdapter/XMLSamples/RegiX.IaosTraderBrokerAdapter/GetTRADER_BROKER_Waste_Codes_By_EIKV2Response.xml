@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRADER_BROKER_Waste_Codes_By_EIK_ResponseV2 xsi:schemaLocation="http://egov.bg/RegiX/IAOS/TraderBroker/WasteCodesByEIKResponseV2 TRADER_BROKER_Waste_Codes_By_EIK_ResponseV2.xsd" xmlns="http://egov.bg/RegiX/IAOS/TraderBroker/WasteCodesByEIKResponseV2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Authorization>
+		<AuthNum>String</AuthNum>
+		<AuthType>B</AuthType>
+		<CompanyName>String</CompanyName>
+		<State>00</State>
+		<WasteOperationCodes>
+			<WasteOperationCode>
+				<WasteOperation>String</WasteOperation>
+				<WasteOperationsCode>
+					<WasteCode>String</WasteCode>
+					<WasteCode>String</WasteCode>
+				</WasteOperationsCode>
+			</WasteOperationCode>
+			<WasteOperationCode>
+				<WasteOperation>String</WasteOperation>
+				<WasteOperationsCode>
+					<WasteCode>String</WasteCode>
+					<WasteCode>String</WasteCode>
+				</WasteOperationsCode>
+			</WasteOperationCode>
+		</WasteOperationCodes>
+	</Authorization>
+</TRADER_BROKER_Waste_Codes_By_EIK_ResponseV2>

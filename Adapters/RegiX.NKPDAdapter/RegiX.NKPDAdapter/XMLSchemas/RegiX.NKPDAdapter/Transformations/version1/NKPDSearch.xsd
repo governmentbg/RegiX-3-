@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+   <xs:element name="AllNKPDSearch">
+    <xs:annotation>
+      <xs:documentation>Търсене на целия класификатор НКПД</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+    <xs:element name="ValidDate" type="xs:date">
+      <xs:annotation>
+        <xs:documentation>Дата на валидност</xs:documentation>
+      </xs:annotation>
+    </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+ 
+  <xs:simpleType name="CodeType">
+    <xs:annotation>
+      <xs:documentation>Код</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />      
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="NameType">
+    <xs:annotation>
+      <xs:documentation>Наименование</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="NKPDDataSearch">
+    <xs:annotation>
+      <xs:documentation>Търсене на данни от класификатор НКПД по зададени критерии</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ValidDate" type="xs:date">
+          <xs:annotation>
+            <xs:documentation>Дата на валидност</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element name="Code" type="CodeType" minOccurs="0">
+          <xs:annotation>
+            <xs:documentation>Код</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element name="Name" type="NameType" minOccurs="0">
+          <xs:annotation>
+            <xs:documentation>Наименование</xs:documentation>
+          </xs:annotation>
+        </xs:element>       
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,4 @@
+<MarriageCertificateRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/MarriageCertificate/MarriageCertificateRequest">
+				<Egn>8506258485</Egn>
+				<SearchDate xsi:type="xsd:dateTime">2012-12-12T00:00:00</SearchDate>
+			</MarriageCertificateRequest>

@@ -1,0 +1,42 @@
+variables:
+  BuildConfiguration: release
+resources:
+- repo: self
+queue:
+  name: RegiX
+steps:
+- task: VisualStudioTestPlatformInstaller@1
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/*.sln'
+    feedsToUse: 'select'
+    vstsFeed: 'RegiX'
+- task: MSBuild@1
+  displayName: 'Build'
+  inputs:
+    configuration: '$(BuildConfiguration)' 
+    solution: '**/*.sln' 
+- task: MSBuild@1
+  displayName: 'Publish project RegiX.CoreServices/RegiX.CoreServices.proj'
+  inputs:
+    project: '$(Build.Repository.LocalPath)\RegiX.CoreServices\RegiX.CoreServices.csproj'
+    msbuildArguments: '/p:DeployOnBuild=true /p:PublishProfile="$(Build.Repository.LocalPath)\RegiX.CoreServices\Properties\PublishProfiles\FolderProfile.pubxml"'
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+        $productVersion = Get-Item $(Build.Repository.LocalPath)\RegiX.CoreServices\bin\Release\Publish\bin\RegiX.CoreServices.dll |Select-Object -ExpandProperty VersionInfo|Select-Object -ExpandProperty ProductVersion
+        Remove-Item $(Build.Repository.LocalPath)\RegiX.CoreServices\bin\Release\Publish\*.ver
+        New-Item -Path $(Build.Repository.LocalPath)\RegiX.CoreServices\bin\Release\Publish -Name "$productVersion.ver"   
+# Remove Informix dll (requires installation of specific driver)
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+        Remove-Item $(Build.Repository.LocalPath)\RegiX.CoreServices\bin\Release\Publish\bin\IBM.Data.Informix.dll
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
+  inputs:
+    artifactName: 'RegiX.CoreServices' 
+    PathtoPublish: '$(Build.Repository.LocalPath)\RegiX.CoreServices\bin\Release\Publish'

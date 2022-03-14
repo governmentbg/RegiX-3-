@@ -1,0 +1,167 @@
+<!-- Loading animation start -->
+<div class="report-content-wrapper" *ngIf="isDataLoading">
+  <div>
+    <igx-circular-bar
+      [animate]="true"
+      [indeterminate]="true"
+      [textVisibility]="true"
+    ></igx-circular-bar>
+  </div>
+</div>
+<!-- Loading animation end -->
+
+<tl-wrapping-card
+  *ngIf="!isDataLoading && isDataLoaded"
+  [title]="this.operationCall?.adapterOperationName"
+  [icon]="'receipt'"
+  [subTitle]="isShowForm? 'Преглед': 'Редакция'"
+>
+  <!-- Form start -->
+  <tl-wrapping-card [title]="'Заявка'" [icon]="'send'">
+    <div class="form-content">
+      <form [formGroup]="formGroup">
+        <app-parameters-control
+          [formGroup]="formGroup"
+          [operationParameters]="operationParameters"
+          [isDisabled]="true"
+        ></app-parameters-control>
+      </form>
+    </div>
+  </tl-wrapping-card>
+  <!-- Form end -->
+
+  <!-- Response operation-call -->
+  <!-- <app-title-bar [title]="pageTitleResponse"> </app-title-bar> -->
+
+  <!-- Form start -->
+  <form [formGroup]="formGroupResponse" (submit)="onSubmit($event)">
+    <tl-wrapping-card [title]="'Отговор'" [icon]="'reply'">
+      <div class="form-content">
+        <app-parameters-control
+          [formGroup]="formGroupResponse"
+          [operationParameters]="operationParametersResponse"
+          [isDisabled]="isShowForm"
+        ></app-parameters-control>
+      </div>
+    </tl-wrapping-card>
+    <tl-wrapping-card [title]="'Служебна информация'" [icon]="'assignment'">
+      <div class="form-content">
+        <!-- Name field -->
+        <div class="input-group" [hidden]="!isShowForm">
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group>
+              <input
+                class="form-input"
+                igxInput
+                name="assignedToName"
+                type="text"
+                formControlName="assignedToName"
+                tlFormGroupRef
+              />
+              <label igxLabel for="assignedToName">Зададено на</label>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+
+        <div
+          class="form-group"
+          *ngIf="!isShowForm"
+          igxLayout
+          igxLayoutDir="row"
+        >
+          <igx-select
+            #selectType
+            igxFlex
+            class="form-group-wrapper"
+            name="users"
+            formControlName="assignedToName"
+            tlFormGroupRef
+            [disabled]="!isAdmin"
+          >
+            <igx-select-item
+              *ngFor="let user of users"
+              [value]="user"
+              [selected]="user.id === operationCall.assignedTo?.id"
+            >
+              {{ user.displayName }}
+            </igx-select-item>
+            <label igxLabel for="assignedToName">Зададено на</label>
+          </igx-select>
+          <button
+            type="button"
+            igxButton
+            igxFlex
+            [disabled]="!isAdmin"
+            title="Изчисти"
+            class="select-clear-button"
+            (click)="setToNull(selectType, 'assignedToName')"
+          >
+            <igx-icon>clear</igx-icon>
+          </button>
+        </div>
+
+        <!-- startTime field -->
+        <div class="input-group">
+          <igx-date-picker
+            igxFlex
+            formControlName="startTime"
+            class="date-picker"
+            label="Дата на получаване"
+            locale="bg-BG"
+          >
+          </igx-date-picker>
+        </div>
+      </div>
+    </tl-wrapping-card>
+    <div class="error" *ngIf="errorMessage">{{ errorMessage }}</div>
+
+    <!-- Buttons  -->
+    <div
+      class="buttons-wrapper"
+      igxLayout
+      igxLayoutDir="row"
+      igxLayoutJustify="flex-end"
+    >
+      <!-- <button
+          type="button"
+          class="table-button"
+          igxButton="raised"
+          (click)="onCancel()"
+          title="Назад"
+        >
+          Назад
+        </button> -->
+      <button
+        type="button"
+        class="table-button"
+        igxButton="raised"
+        (click)="onClear()"
+        [disabled]="!isFormTouched() || isShowForm"
+        title="Изчисти"
+      >
+        Изчисти
+      </button>
+      <button
+        type="button"
+        class="table-button"
+        igxButton="raised"
+        (click)="onSave($event)"
+        [disabled]="!isFormValid() || isShowForm"
+        title="Запази"
+      >
+        Запази
+      </button>
+      <button
+        type="button"
+        class="table-button"
+        igxButton="raised"
+        (click)="onSubmit($event)"
+        [disabled]="!isFormValid() || isShowForm"
+        title="Изпрати"
+      >
+        Изпрати
+      </button>
+    </div>
+  </form>
+  <!-- Form end -->
+</tl-wrapping-card>

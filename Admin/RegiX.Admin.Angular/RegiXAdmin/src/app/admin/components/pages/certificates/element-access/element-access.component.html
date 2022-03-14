@@ -1,0 +1,84 @@
+<tl-wrapping-card
+  [title]="routes.CERTIFICATE_OPERATION_ELEMENTS_ACCESS.title"
+  [icon]="routes.CERTIFICATE_OPERATION_ELEMENTS_ACCESS.icon"
+  [subTitle]="subtitle"
+  [actions]="[
+    {
+      reference: this.routes.AUDIT,
+      args: { ':TABLE_NAME': this.CONSUMER_ROLE_ELEMENT_ACCESS }
+    },
+    { reference: excelExportAll }
+  ]"
+>
+  <tl-linear-progress
+    [visible]="this.remoteService.isLoading"
+  ></tl-linear-progress>
+  <igx-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    (onSortingDone)="sortingDone($event)"
+    (onFilteringDone)="filteringDone($event)"
+    (onSelection)="cellSelection($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+    <igx-column
+      field="registerObjectElement"
+      width="20%"
+      header="Елемент"
+      [sortable]="true"
+      [dataType]="'string'"
+      [formatter]="displayValueService.formatDisplayValue"
+      [filters]="displayValueFilteringOperand"
+    >
+
+    </igx-column>
+
+    <igx-column
+      field="consumerCertificate"
+      header="Сертификат"
+      [sortable]="true"
+      [dataType]="'string'"
+      [formatter]="displayValueService.formatDisplayValue"
+      [filters]="displayValueFilteringOperand"
+    >
+    </igx-column>
+
+    <igx-column
+      field="hasAccess"
+      width="130px"
+      header="Има достъп"
+      [sortable]="true"
+      [dataType]="'boolean'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          class="width-100"
+          igxLayout
+          igxLayoutDir="column"
+          igxLayoutItemAlign="center"
+        >
+          <igx-checkbox disabled="true" [checked]="cell.value === true" igxFlex>
+          </igx-checkbox>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-grid>
+      <div class="tl-paginator">
+        <tl-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+  </igx-grid>
+</tl-wrapping-card>

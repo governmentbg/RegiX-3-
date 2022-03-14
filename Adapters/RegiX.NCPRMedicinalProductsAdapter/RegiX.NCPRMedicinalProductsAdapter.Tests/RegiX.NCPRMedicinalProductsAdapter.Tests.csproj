@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <RootNamespace>TechnoLogica.RegiX.NCPRMedicinalProductsAdapter.Tests</RootNamespace>
+
+    <Authors>Miroslav Marinov</Authors>
+
+    <Company>TechnoLogica</Company>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.7" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.7" />
+    <PackageReference Include="coverlet.collector" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="RegiX.Adapters.TestUtils" Version="1.0.57" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.NCPRMedicinalProductsAdapter.Mocks\RegiX.NCPRMedicinalProductsAdapter.Mocks.csproj" />
+    <ProjectReference Include="..\RegiX.NCPRMedicinalProductsAdapter\RegiX.NCPRMedicinalProductsAdapter.csproj" />
+  </ItemGroup>
+
+</Project>

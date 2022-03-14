@@ -1,0 +1,506 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="./SearchByIdentifierResponse.Faulted.xslt"?>
+<SearchByIdentifierResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierResponse">
+	<MaxAllowedResults>50</MaxAllowedResults>
+	<TotalResults>68</TotalResults>
+	<ExecutedCalls>
+		<ApiServiceCallID>3445545</ApiServiceCallID>
+		<StartTime>2018-04-26T12:29:18.33</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>Търговски закон- чл. 137, чл. 147, чл. 219, чл. 221;-ПРУПДТДДУК-чл. 8, чл. 9, чл. 11, чл. 12, чл. 14 Във връзка с: 1. Предоставяне на имоти за управление по реда на ЗДС и ППЗДС; изготвяне на правни становища по казуси, съдебни дела, изпълнителни дела; 2. Издаване на сертификат за клас инвестиция или приоритетен инвестиционен проект по реда на Закона за насърчаване на инвестициите (ЗНИ) - проверка на информацията за местоположението на инвестиционния проект по чл. 4, ал. 1 (във вр. със секция ІІ, раздел 8 от Приложение № 1 към чл. 4, ал. 1) и чл. 6а, ал. 4 от Правилника за прилагане на ЗНИ.3. Предоставяне на насърчителна мярка по реда на чл. 22а от ЗНИ - проверка на актуални данни за имот.</LawReason>
+		<Consumer>МИ - Консумратор на данни от RegiX</Consumer>
+		<ConsumerAdministration>Министерство на икономиката</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>3445526</ApiServiceCallID>
+		<StartTime>2019-04-01T12:27:02.517</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>Търговски закон- чл. 137, чл. 147, чл. 219, чл. 221;-ПРУПДТДДУК-чл. 8, чл. 9, чл. 11, чл. 12, чл. 14 Във връзка с: 1. Предоставяне на имоти за управление по реда на ЗДС и ППЗДС; изготвяне на правни становища по казуси, съдебни дела, изпълнителни дела; 2. Издаване на сертификат за клас инвестиция или приоритетен инвестиционен проект по реда на Закона за насърчаване на инвестициите (ЗНИ) - проверка на информацията за местоположението на инвестиционния проект по чл. 4, ал. 1 (във вр. със секция ІІ, раздел 8 от Приложение № 1 към чл. 4, ал. 1) и чл. 6а, ал. 4 от Правилника за прилагане на ЗНИ.3. Предоставяне на насърчителна мярка по реда на чл. 22а от ЗНИ - проверка на актуални данни за имот.</LawReason>
+		<Consumer>МИ - Консумратор на данни от RegiX</Consumer>
+		<ConsumerAdministration>Министерство на икономиката</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>3445514</ApiServiceCallID>
+		<StartTime>2018-04-26T12:24:44.59</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>Търговски закон- чл. 137, чл. 147, чл. 219, чл. 221;-ПРУПДТДДУК-чл. 8, чл. 9, чл. 11, чл. 12, чл. 14 Във връзка с: 1. Предоставяне на имоти за управление по реда на ЗДС и ППЗДС; изготвяне на правни становища по казуси, съдебни дела, изпълнителни дела; 2. Издаване на сертификат за клас инвестиция или приоритетен инвестиционен проект по реда на Закона за насърчаване на инвестициите (ЗНИ) - проверка на информацията за местоположението на инвестиционния проект по чл. 4, ал. 1 (във вр. със секция ІІ, раздел 8 от Приложение № 1 към чл. 4, ал. 1) и чл. 6а, ал. 4 от Правилника за прилагане на ЗНИ.3. Предоставяне на насърчителна мярка по реда на чл. 22а от ЗНИ - проверка на актуални данни за имот.</LawReason>
+		<Consumer>МИ - Консумратор на данни от RegiX</Consumer>
+		<ConsumerAdministration>Министерство на икономиката</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>3445482</ApiServiceCallID>
+		<StartTime>2018-04-26T12:21:03.88</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>Търговски закон- чл. 137, чл. 147, чл. 219, чл. 221;-ПРУПДТДДУК-чл. 8, чл. 9, чл. 11, чл. 12, чл. 14 Във връзка с: 1. Предоставяне на имоти за управление по реда на ЗДС и ППЗДС; изготвяне на правни становища по казуси, съдебни дела, изпълнителни дела; 2. Издаване на сертификат за клас инвестиция или приоритетен инвестиционен проект по реда на Закона за насърчаване на инвестициите (ЗНИ) - проверка на информацията за местоположението на инвестиционния проект по чл. 4, ал. 1 (във вр. със секция ІІ, раздел 8 от Приложение № 1 към чл. 4, ал. 1) и чл. 6а, ал. 4 от Правилника за прилагане на ЗНИ.3. Предоставяне на насърчителна мярка по реда на чл. 22а от ЗНИ - проверка на актуални данни за имот.</LawReason>
+		<Consumer>МИ - Консумратор на данни от RegiX</Consumer>
+		<ConsumerAdministration>Министерство на икономиката</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>3445405</ApiServiceCallID>
+		<StartTime>2018-04-26T12:13:24.98</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>Търговски закон- чл. 137, чл. 147, чл. 219, чл. 221;-ПРУПДТДДУК-чл. 8, чл. 9, чл. 11, чл. 12, чл. 14 Във връзка с: 1. Предоставяне на имоти за управление по реда на ЗДС и ППЗДС; изготвяне на правни становища по казуси, съдебни дела, изпълнителни дела; 2. Издаване на сертификат за клас инвестиция или приоритетен инвестиционен проект по реда на Закона за насърчаване на инвестициите (ЗНИ) - проверка на информацията за местоположението на инвестиционния проект по чл. 4, ал. 1 (във вр. със секция ІІ, раздел 8 от Приложение № 1 към чл. 4, ал. 1) и чл. 6а, ал. 4 от Правилника за прилагане на ЗНИ.3. Предоставяне на насърчителна мярка по реда на чл. 22а от ЗНИ - проверка на актуални данни за имот.</LawReason>
+		<Consumer>МИ - Консумратор на данни от RegiX</Consumer>
+		<ConsumerAdministration>Министерство на икономиката</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>3445333</ApiServiceCallID>
+		<StartTime>2018-04-26T12:08:44.257</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>Търговски закон- чл. 137, чл. 147, чл. 219, чл. 221;-ПРУПДТДДУК-чл. 8, чл. 9, чл. 11, чл. 12, чл. 14 Във връзка с: 1. Предоставяне на имоти за управление по реда на ЗДС и ППЗДС; изготвяне на правни становища по казуси, съдебни дела, изпълнителни дела; 2. Издаване на сертификат за клас инвестиция или приоритетен инвестиционен проект по реда на Закона за насърчаване на инвестициите (ЗНИ) - проверка на информацията за местоположението на инвестиционния проект по чл. 4, ал. 1 (във вр. със секция ІІ, раздел 8 от Приложение № 1 към чл. 4, ал. 1) и чл. 6а, ал. 4 от Правилника за прилагане на ЗНИ.3. Предоставяне на насърчителна мярка по реда на чл. 22а от ЗНИ - проверка на актуални данни за имот.</LawReason>
+		<Consumer>МИ - Консумратор на данни от RegiX</Consumer>
+		<ConsumerAdministration>Министерство на икономиката</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>3445277</ApiServiceCallID>
+		<StartTime>2018-04-26T12:01:42.33</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>Търговски закон- чл. 137, чл. 147, чл. 219, чл. 221;-ПРУПДТДДУК-чл. 8, чл. 9, чл. 11, чл. 12, чл. 14 Във връзка с: 1. Предоставяне на имоти за управление по реда на ЗДС и ППЗДС; изготвяне на правни становища по казуси, съдебни дела, изпълнителни дела; 2. Издаване на сертификат за клас инвестиция или приоритетен инвестиционен проект по реда на Закона за насърчаване на инвестициите (ЗНИ) - проверка на информацията за местоположението на инвестиционния проект по чл. 4, ал. 1 (във вр. със секция ІІ, раздел 8 от Приложение № 1 към чл. 4, ал. 1) и чл. 6а, ал. 4 от Правилника за прилагане на ЗНИ.3. Предоставяне на насърчителна мярка по реда на чл. 22а от ЗНИ - проверка на актуални данни за имот.</LawReason>
+		<Consumer>МИ - Консумратор на данни от RegiX</Consumer>
+		<ConsumerAdministration>Министерство на икономиката</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>3445156</ApiServiceCallID>
+		<StartTime>2018-04-26T11:51:35.18</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>Търговски закон- чл. 137, чл. 147, чл. 219, чл. 221;-ПРУПДТДДУК-чл. 8, чл. 9, чл. 11, чл. 12, чл. 14 Във връзка с: 1. Предоставяне на имоти за управление по реда на ЗДС и ППЗДС; изготвяне на правни становища по казуси, съдебни дела, изпълнителни дела; 2. Издаване на сертификат за клас инвестиция или приоритетен инвестиционен проект по реда на Закона за насърчаване на инвестициите (ЗНИ) - проверка на информацията за местоположението на инвестиционния проект по чл. 4, ал. 1 (във вр. със секция ІІ, раздел 8 от Приложение № 1 към чл. 4, ал. 1) и чл. 6а, ал. 4 от Правилника за прилагане на ЗНИ.3. Предоставяне на насърчителна мярка по реда на чл. 22а от ЗНИ - проверка на актуални данни за имот.</LawReason>
+		<Consumer>МИ - Консумратор на данни от RegiX</Consumer>
+		<ConsumerAdministration>Министерство на икономиката</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>3441838</ApiServiceCallID>
+		<StartTime>2018-04-25T16:39:32.573</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>- чл. 4 от ЗМДТ и чл. 12 от ДОПК;- чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;- чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и кадастралните регистри;- чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма.</LawReason>
+		<Consumer>Община Димитровград</Consumer>
+		<ConsumerAdministration>Община Димитровград</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>3360133</ApiServiceCallID>
+		<StartTime>2018-04-20T08:37:16.583</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>- чл. 4 от ЗМДТ и чл. 12 от ДОПК;- чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;- чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и кадастралните регистри;- чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма.</LawReason>
+		<Consumer>Община Димитровград</Consumer>
+		<ConsumerAdministration>Община Димитровград</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>3354058</ApiServiceCallID>
+		<StartTime>2018-04-19T10:35:18.783</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>- чл. 4 от ЗМДТ и чл. 12 от ДОПК;- чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;- чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и кадастралните регистри;- чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма.</LawReason>
+		<Consumer>Община Димитровград</Consumer>
+		<ConsumerAdministration>Община Димитровград</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>3350361</ApiServiceCallID>
+		<StartTime>2018-04-18T14:24:56.837</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>- чл. 4 от ЗМДТ и чл. 12 от ДОПК;- чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;- чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и кадастралните регистри;- чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма.</LawReason>
+		<Consumer>Община Димитровград</Consumer>
+		<ConsumerAdministration>Община Димитровград</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>3309345</ApiServiceCallID>
+		<StartTime>2018-04-13T09:05:45.197</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>3144767</ApiServiceCallID>
+		<StartTime>2018-03-26T11:39:02.463</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>3103815</ApiServiceCallID>
+		<StartTime>2018-03-23T09:08:08.12</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2917299</ApiServiceCallID>
+		<StartTime>2018-03-07T09:44:28.487</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2627805</ApiServiceCallID>
+		<StartTime>2018-02-02T08:32:48.28</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2627781</ApiServiceCallID>
+		<StartTime>2018-02-02T08:23:33.183</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2580980</ApiServiceCallID>
+		<StartTime>2018-01-30T15:56:34.747</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+		<Consumer>Консуматор за тестване от egp03-rclip</Consumer>
+		<ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2579706</ApiServiceCallID>
+		<StartTime>2018-01-30T15:17:34.233</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+		<Consumer>Консуматор за тестване от egp03-rclip</Consumer>
+		<ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2574816</ApiServiceCallID>
+		<StartTime>2018-01-30T12:44:31.843</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+		<Consumer>Консуматор за тестване от egp03-rclip</Consumer>
+		<ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2574620</ApiServiceCallID>
+		<StartTime>2018-01-30T12:37:52.72</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+		<Consumer>Консуматор за тестване от egp03-rclip</Consumer>
+		<ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2572746</ApiServiceCallID>
+		<StartTime>2018-01-30T11:42:46.377</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+		<Consumer>Консуматор за тестване от egp03-rclip</Consumer>
+		<ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2528558</ApiServiceCallID>
+		<StartTime>2018-01-27T12:36:47.917</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+		<Consumer>Консуматор за тестване от egp03-rclip</Consumer>
+		<ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2528551</ApiServiceCallID>
+		<StartTime>2018-01-27T12:31:27.77</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+		<Consumer>Консуматор за тестване от egp03-rclip</Consumer>
+		<ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2528543</ApiServiceCallID>
+		<StartTime>2018-01-27T12:29:08.793</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+		<Consumer>Консуматор за тестване от egp03-rclip</Consumer>
+		<ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2528506</ApiServiceCallID>
+		<StartTime>2018-01-27T12:16:43.957</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+		<Consumer>Консуматор за тестване от egp03-rclip</Consumer>
+		<ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2528395</ApiServiceCallID>
+		<StartTime>2018-01-27T11:22:02.967</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+		<Consumer>Консуматор за тестване от egp03-rclip</Consumer>
+		<ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2528393</ApiServiceCallID>
+		<StartTime>2018-01-27T11:21:39.817</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+		<Consumer>Консуматор за тестване от egp03-rclip</Consumer>
+		<ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2528369</ApiServiceCallID>
+		<StartTime>2018-01-27T11:10:26.32</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+		<Consumer>Консуматор за тестване от egp03-rclip</Consumer>
+		<ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2528302</ApiServiceCallID>
+		<StartTime>2018-01-27T10:33:42.413</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+		<Consumer>Консуматор за тестване от egp03-rclip</Consumer>
+		<ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2480557</ApiServiceCallID>
+		<StartTime>2018-01-25T09:46:22.253</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2398808</ApiServiceCallID>
+		<StartTime>2018-01-12T14:50:50.81</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+		<Consumer>Консуматор за тестване от egp03-rclip</Consumer>
+		<ConsumerAdministration>Държавна агенция "Електронно Управление"</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2261987</ApiServiceCallID>
+		<StartTime>2017-12-08T11:21:22.767</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2229553</ApiServiceCallID>
+		<StartTime>2017-12-01T14:17:39.4</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2058125</ApiServiceCallID>
+		<StartTime>2017-10-20T08:30:25.953</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2058096</ApiServiceCallID>
+		<StartTime>2017-10-20T08:24:25.727</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>2001134</ApiServiceCallID>
+		<StartTime>2017-10-04T08:44:22.647</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>1992721</ApiServiceCallID>
+		<StartTime>2017-10-03T15:55:17.337</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>1992673</ApiServiceCallID>
+		<StartTime>2017-10-03T15:51:52.837</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>1992010</ApiServiceCallID>
+		<StartTime>2017-10-03T14:38:27.693</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>1991982</ApiServiceCallID>
+		<StartTime>2017-10-03T14:34:07.423</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>1991946</ApiServiceCallID>
+		<StartTime>2017-10-03T14:30:00.683</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>1991914</ApiServiceCallID>
+		<StartTime>2017-10-03T14:25:26.47</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>1991885</ApiServiceCallID>
+		<StartTime>2017-10-03T14:22:57.443</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>1862363</ApiServiceCallID>
+		<StartTime>2017-08-30T09:35:14.443</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>1577140</ApiServiceCallID>
+		<StartTime>2017-07-19T14:35:52.167</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>1577135</ApiServiceCallID>
+		<StartTime>2017-07-19T14:35:19.677</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>1147139</ApiServiceCallID>
+		<StartTime>2017-05-31T11:09:25.497</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+	<ExecutedCalls>
+		<ApiServiceCallID>950085</ApiServiceCallID>
+		<StartTime>2017-05-11T13:03:55.86</StartTime>
+		<ReportName>Изпълнява услуга по извличане на справка по персонална партида на юридическо лице</ReportName>
+		<LawReason>чл. 4 от ЗМДТ и чл. 12 от ДОПК;-чл. 13а, ал. 1 и ал. 2 от ППЗСПЗЗ;-§4К, ал. 8 от ЗСПЗЗ;-чл.31, чл. 32, чл. 33, чл. 34 от Наредба № 3 от 28.04.2015 г. за съдържанието, създаването и поддържането на кадастралните карти и казадстралните регистри;-чл. 18, ал. 1 от ЗМДТ, във връзка с подаване на Декларация по чл. 14 от ЗМДТ;- чл. 10, ал.3 от Закона за туризма;</LawReason>
+		<Consumer>Община Троян</Consumer>
+		<ConsumerAdministration>Община Троян</ConsumerAdministration>
+		<Producer>Имотен регистър</Producer>
+		<ProducerAdministration>Агенция по вписванията</ProducerAdministration>
+	</ExecutedCalls>
+</SearchByIdentifierResponse>

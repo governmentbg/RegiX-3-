@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<JobSeekerHistoryRegistrationsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AZ/JobSeekerHistoryRegistrationsResponse">
+  <JobSeekerPersonData>
+    <PersonalID xmlns="http://egov.bg/RegiX/AZ">124124</PersonalID>
+    <FirstName xmlns="http://egov.bg/RegiX/AZ">Stoya</FirstName>
+    <MiddleName xmlns="http://egov.bg/RegiX/AZ">Jordanov</MiddleName>
+    <LastName xmlns="http://egov.bg/RegiX/AZ">Edrev</LastName>
+    <RegistrationNumber xmlns="http://egov.bg/RegiX/AZ">123545</RegistrationNumber>
+    <RegistrationDate xmlns="http://egov.bg/RegiX/AZ">2015-09-25</RegistrationDate>
+    <RegistrationDBT xmlns="http://egov.bg/RegiX/AZ">ДБТ - Пловдив - Марица</RegistrationDBT>
+    <RegistrationStatus xmlns="http://egov.bg/RegiX/AZ">прекратена</RegistrationStatus>
+  </JobSeekerPersonData>
+  <HistoryOfRegistrations>
+    <HistoryOfRegistration>
+      <Activity>прекратяване</Activity>
+      <RegistrationNumber>3244</RegistrationNumber>
+      <RegistrationGroup>безработно</RegistrationGroup>
+      <RegistrationDate>2015-09-25</RegistrationDate>
+      <Reason>Неявяване по график</Reason>
+      <RegistrationDBT>ДБТ - Пловдив - Марица</RegistrationDBT>
+    </HistoryOfRegistration>
+    <HistoryOfRegistration>
+      <Activity>прекратяване</Activity>
+      <RegistrationNumber>5345</RegistrationNumber>
+      <RegistrationGroup>безработно</RegistrationGroup>
+      <RegistrationDate>2015-09-25</RegistrationDate>
+      <Reason>Неявяване по график</Reason>
+      <RegistrationDBT>ДБТ - Пловдив - Марица</RegistrationDBT>
+    </HistoryOfRegistration>
+  </HistoryOfRegistrations>
+</JobSeekerHistoryRegistrationsResponse>

@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.PvUmAdapter.APIService.IPvUmAPI.GetREG_UM_Reg_Number</OperationName>
+  <Code>GetREG_UM_Reg_Number</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>getUtilityModelByRegNum</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/PatentDepartment/UM/RegNumberRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка по номер на полезен модел</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>RegNum</ParameterName>
+        <ParameterLabel>Регистрационен номер на полезен модел</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

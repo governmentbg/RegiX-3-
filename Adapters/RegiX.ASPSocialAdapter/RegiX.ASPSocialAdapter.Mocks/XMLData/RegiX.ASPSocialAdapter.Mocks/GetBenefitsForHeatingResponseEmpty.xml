@@ -1,0 +1,15 @@
+﻿<GetBenefitsForHeatingResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/ASP/BenefitsForHeating/GetBenefitsForHeatingResponse">
+	<CurrentTime>2016-08-29T11:41:34.4857068+03:00</CurrentTime>
+	<PersonData>
+		<FirstName xmlns="http://egov.bg/RegiX/ASP/Common">Петър</FirstName>
+		<MiddleName xmlns="http://egov.bg/RegiX/ASP/Common">Иванов</MiddleName>
+		<LastName xmlns="http://egov.bg/RegiX/ASP/Common">Георгиев</LastName>
+		<BirthDatе xmlns="http://egov.bg/RegiX/ASP/Common">1982-09-22</BirthDatе>
+		<Gender xmlns="http://egov.bg/RegiX/ASP/Common">
+			<GenderName>Мъж</GenderName>
+			<GenderCode>M</GenderCode>
+		</Gender>
+		<Identifier xmlns="http://egov.bg/RegiX/ASP/Common">8201010101</Identifier>
+		<IdentifierType xmlns="http://egov.bg/RegiX/ASP/Common">EGN</IdentifierType>
+	</PersonData>
+</GetBenefitsForHeatingResponse>

@@ -1,0 +1,17 @@
+<igx-chips-area>
+  <igx-chip
+    class="breadcrumb-style"
+    *ngFor="let b of breadcrumbs"
+    [removable]="b.filter"
+    [removeIcon]="filterIcon"
+    (onRemove)="removeFilter($event, b)"
+    [title]="b.name"
+    [routerLink]="b.url"
+    [disabled]="b.isDisabled">
+    <igx-icon igxPrefix *ngIf="b.icon">{{b.icon}}</igx-icon>
+    <span>{{b.name}}</span>
+  </igx-chip>
+</igx-chips-area>
+<ng-template #filterIcon >
+    <igx-icon  >filter_list</igx-icon>
+</ng-template>

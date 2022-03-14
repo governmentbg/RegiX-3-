@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.NCPRMedicinalProductsAdapter.Mocks</RootNamespace>
+    <Authors>Miroslav Marinov</Authors>
+    <Description>NCPRMedicinalProductsAdapter.Mocks</Description>
+    <Company>TechnoLogica</Company>
+	<Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+	<Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="XMLData\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.NCPRMedicinalProductsAdapter\RegiX.NCPRMedicinalProductsAdapter.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="XMLData\RegiX.NCPRMedicinalProductsAdapter.Mocks\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.Adapters.Mocks" Version="1.0.42" />
+  </ItemGroup>
+</Project>

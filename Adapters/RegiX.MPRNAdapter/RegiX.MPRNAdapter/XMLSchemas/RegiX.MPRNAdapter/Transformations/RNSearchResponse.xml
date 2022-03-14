@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<RNSearchResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/MP/RNSearchResponse">
+  <Cases>
+    <CaseInfo>
+      <Number>787</Number>
+      <Year>2009</Year>
+      <Date>2009-05-26T00:00:00</Date>
+      <Court>110</Court>
+      <CourtName>Софийски градски съд</CourtName>
+      <LastUpdate>2012-08-04T10:40:09</LastUpdate>
+    </CaseInfo>
+    <SideInfo>
+      <Name>БУЛГАРГЕОМИН ЕАД</Name>
+      <IsPerson>true</IsPerson>
+      <EGN>121126170</EGN>
+      <Involvement>9037</Involvement>
+      <InvolvementText>Ответник</InvolvementText>
+      <LastUpdate>2012-08-04T10:40:11</LastUpdate>
+    </SideInfo>
+    <LastUpdated>2013-02-21</LastUpdated>
+  </Cases>
+  <Cases>
+    <CaseInfo>
+      <Number>1352</Number>
+      <Year>2006</Year>
+      <Date>2006-08-02T00:00:00</Date>
+      <Court>110</Court>
+      <CourtName>Софийски градски съд</CourtName>
+      <LastUpdate>2012-01-03T14:55:04</LastUpdate>
+    </CaseInfo>
+    <SideInfo>
+      <Name>БУЛГАРГЕОМИН ЕАД</Name>
+      <IsPerson>false</IsPerson>
+      <Bulstat>121126170</Bulstat>
+      <Involvement>9037</Involvement>
+      <InvolvementText>Ответник</InvolvementText>
+      <LastUpdate>2012-01-03T14:55:06</LastUpdate>
+    </SideInfo>
+    <LastUpdated>2014-02-21</LastUpdated>
+  </Cases>
+  <Cases>
+    <CaseInfo>
+      <Number>499</Number>
+      <Year>2000</Year>
+      <Date>2000-05-10T00:00:00</Date>
+      <Court>110</Court>
+      <CourtName>Софийски градски съд</CourtName>
+      <LastUpdate>2011-12-21T15:28:17</LastUpdate>
+    </CaseInfo>
+    <SideInfo>
+      <Name>БУЛГАРГЕОМИН ЕАД</Name>
+      <IsPerson>false</IsPerson>
+      <Bulstat>121126170</Bulstat>
+      <Involvement>9037</Involvement>
+      <InvolvementText>Ответник</InvolvementText>
+      <LastUpdate>2011-12-21T15:28:17</LastUpdate>
+    </SideInfo>
+    <LastUpdated>2015-02-21</LastUpdated>
+  </Cases>
+  <Cases>
+    <CaseInfo>
+      <Number>997</Number>
+      <Year>1999</Year>
+      <Date>1999-12-10T00:00:00</Date>
+      <Court>110</Court>
+      <CourtName>Софийски градски съд</CourtName>
+      <LastUpdate>2011-12-21T14:10:57</LastUpdate>
+    </CaseInfo>
+    <SideInfo>
+      <Name>БУЛГАРГЕОМИН ЕАД</Name>
+      <IsPerson>false</IsPerson>
+      <Bulstat>121126170</Bulstat>
+      <Involvement>9037</Involvement>
+      <InvolvementText>Ответник</InvolvementText>
+      <LastUpdate>2011-12-21T14:10:57</LastUpdate>
+    </SideInfo>
+    <LastUpdated>2016-02-21</LastUpdated>
+  </Cases>
+  <Cases>
+    <CaseInfo>
+      <Number>921</Number>
+      <Year>2002</Year>
+      <Date>2002-08-09T00:00:00</Date>
+      <Court>110</Court>
+      <CourtName>Софийски градски съд</CourtName>
+      <LastUpdate>2011-12-12T23:10:14</LastUpdate>
+    </CaseInfo>
+    <SideInfo>
+      <Name>БУЛГАРГЕОМИН ЕАД</Name>
+      <IsPerson>false</IsPerson>
+      <Bulstat>121126170</Bulstat>
+      <Involvement>9037</Involvement>
+      <InvolvementText>Ответник</InvolvementText>
+      <LastUpdate>2011-12-12T23:10:14</LastUpdate>
+    </SideInfo>
+    <LastUpdated>2017-02-21</LastUpdated>
+  </Cases>
+  <Cases>
+    <CaseInfo>
+      <Number>335</Number>
+      <Year>2005</Year>
+      <Date>2005-03-11T00:00:00</Date>
+      <Court>110</Court>
+      <CourtName>Софийски градски съд</CourtName>
+      <LastUpdate>2011-12-12T23:07:56</LastUpdate>
+    </CaseInfo>
+    <SideInfo>
+      <Name>БУЛГАРГЕОМИН ЕАД</Name>
+      <IsPerson>false</IsPerson>
+      <Bulstat>121126170</Bulstat>
+      <Involvement>9047</Involvement>
+      <InvolvementText>Длъжник</InvolvementText>
+      <LastUpdate>2011-12-12T23:07:56</LastUpdate>
+    </SideInfo>
+    <LastUpdated>2018-02-21</LastUpdated>
+  </Cases>
+</RNSearchResponse>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://egov.bg/RegiX/NRA/Collections" xmlns="http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForCollectionAdditionToIORequest" targetNamespace="http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForCollectionAdditionToIORequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/NRA/Collections" schemaLocation="NRACollectionCommon.xsd"/>
+	<xs:element name="SendDataForCollectionAdditionToIORequest" type="SendDataForCollectionAdditionToIORequestType">
+		<xs:annotation>
+			<xs:documentation>Входни параметри на операция "Предаване на информация за добавяне на ново вземане/вземания за събиране към вече подадено изпълнително основание (ИО)"</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="IOCollectionAdditionType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="ActIssurerID">
+				<xs:annotation>
+					<xs:documentation>ID на взискател/актосъставител</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:long">
+						<xs:minInclusive value="2"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="SubdivisionID">
+				<xs:annotation>
+					<xs:documentation>ID на подразделение </xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:long">
+						<xs:minInclusive value="1"/>
+						<xs:maxInclusive value="9999"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="TitulID">
+				<xs:annotation>
+					<xs:documentation>ID на ИО</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:long">
+						<xs:minInclusive value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="SubdivisionEIK">
+				<xs:annotation>
+					<xs:documentation>Идентификатор на взискател/актосъставител </xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="9"/>
+						<xs:maxLength value="13"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SendDataForCollectionAdditionToIORequestType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="IO" type="IOCollectionAdditionType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Изпълнително основание (ИО)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Collection" type="common:CollectionType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вземане</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

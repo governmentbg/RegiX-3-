@@ -1,0 +1,362 @@
+<igx-card style="margin-top: 1rem; margin-left: 1rem; margin-right: 1rem;">
+  <igx-card-header>
+    <igx-avatar icon="filter_list" roundShape="true" size="small"> </igx-avatar>
+    <h3 igxCardHeaderTitle>Филтър</h3>
+    <igx-checkbox
+    style="min-width: 13rem; padding-top: 0.1rem;"
+    [checked]="includeElements"
+    (change)="includeElementsChanged($event)">
+      Включи елементи
+    </igx-checkbox>
+  </igx-card-header>
+  <igx-card-content>
+    <div style="padding-bottom: 1rem;">
+      <form class="left-form-group" [formGroup]="formGroupAdministrations">
+        <div igxLayout igxLayoutDir="col">
+          <h3 class="igx-card-header__subtitle">
+            Първични администратори на данни
+          </h3>
+          <div
+            *ngFor="let controlKey of formGroupAdministrationsKeysArray"
+            igxFlex
+            igxLayout
+            igxLayoutDir="row"
+          >
+          <ng-container>
+            <app-form-group class="form-group-wrapper" >
+              <igx-input-group [displayDensity]="'compact'">
+                <input
+                  class="form-input"
+                  igxInput
+                  [name]="controlKey"
+                  type="text"
+                  [formControlName]="controlKey"
+                  appFormGroupRef
+                />
+                <label igxLabel [for]="controlKey">{{
+                  this.formGroupAdministrationsKeys[controlKey].title
+                }}</label>
+              </igx-input-group>
+            </app-form-group>
+            <button
+              igxButton="icon"
+              (click)="openPrimaryAdministraionsForm()"
+              title="Филтър по първичен администратор на данни"
+            >
+              <igx-icon>{{
+                this.formGroupAdministrationsKeys[controlKey].icon
+              }}</igx-icon>
+            </button>
+          </ng-container>
+          </div>
+        </div>
+      </form>
+      <form class="right-form-group" [formGroup]="formGroupConsumers">
+        <h3 class="igx-card-header__subtitle">Консуматори</h3>
+        <div igxLayout igxLayoutDir="col">
+          <div
+            *ngFor="let controlKey of formGroupConsumersKeysArray"
+            igxFlex
+            igxLayout
+            igxLayoutDir="row"
+          >
+            <app-form-group class="form-group-wrapper">
+              <igx-input-group [displayDensity]="'compact'">
+                <input
+                  class="form-input"
+                  igxInput
+                  [name]="controlKey"
+                  type="text"
+                  [formControlName]="controlKey"
+                  appFormGroupRef
+                />
+                <label igxLabel [for]="controlKey">{{
+                  this.formGroupConsumersKeys[controlKey].title
+                }}</label>
+              </igx-input-group>
+            </app-form-group>
+            <button
+              igxButton="icon"
+              (click)="openConsumersFilterForm()"
+              title="Филтър по консуматор"
+            >
+              <igx-icon>{{
+                this.formGroupConsumersKeys[controlKey].icon
+              }}</igx-icon>
+            </button>
+          </div>
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group
+              [displayDensity]="'compact'">
+              <input
+                class="form-input"
+                igxInput
+                [name]="'consumerDescription'"
+                type="text"
+                [formControlName]="'consumerDescription'"
+                tlFormGroupRef
+              />
+              <label igxLabel [for]="'consumerDescription'">Описание</label>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+      </form>
+    </div>
+  </igx-card-content>
+  <igx-card-actions>
+    <button
+      *ngIf="
+        this.formGroupAdministrations.dirty || this.formGroupConsumers.dirty
+      "
+      igxButton
+      igxButtonType="raised"
+      (click)="clearFilters()"
+    >
+      <igx-icon>clear</igx-icon>
+      Изчисти
+    </button>
+  </igx-card-actions>
+</igx-card>
+
+<button
+  class="floating-action-button"
+  igxButton="fab"
+  (click)="runReport()"
+  title="Търсене"
+>
+  <igx-icon>search</igx-icon>
+</button>
+<tl-wrapping-card
+  [title]="accessReportRoute.title"
+  [icon]="accessReportRoute.icon"
+  [actions]="[{ reference: excelExportAll } ]"
+>
+  <tl-linear-progress [visible]="this.service.isLoading"></tl-linear-progress>
+  <igx-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [displayDensity]="'cosy'"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+  >
+    <igx-column
+      field="consumerName"
+      header="Консуматор"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+    <igx-column
+      field="consumerDescription"
+      header="Консуматор описание"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="consumerCertificate"
+      header="Сертификат"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+    <igx-column
+      field="certificateThumbprint"
+      header="Thumbprint"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+    <igx-column
+      field="certificateIsActive"
+      header="Активен сертификат"
+      width="140px"
+      [sortable]="true"
+      [dataType]="'boolean'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          class="width-100"
+          igxLayout
+          igxLayoutDir="column"
+          igxLayoutItemAlign="center"
+        >
+          <igx-checkbox disabled="true" [checked]="cell.value === true" igxFlex>
+          </igx-checkbox>
+        </div>
+      </ng-template>
+    </igx-column>
+    <igx-column
+      field="registerName"
+      header="Регистър"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+    <igx-column
+      field="adapterName"
+      header="Адаптер"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="operationNameEn"
+      header="Операция"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="operationName"
+      header="Описание"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      [hidden]="!includeElements"
+      field="elementName"
+      header="Елемент"
+      [sortable]="false"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="updatedBy"
+      header="Потребител"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+    <igx-column
+      field="updatedOn"
+      header="Променено на"
+      [sortable]="true"
+      [dataType]="'string'"
+      [formatter]="this.dateFormatService.formatDate"
+    >
+    </igx-column>
+
+    <igx-column
+      header="Действия"
+      [sortable]="false"
+      width="120px"
+      [filterable]="false"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          igxLayout
+          igxLayoutDir="row"
+          igxLayoutJustify="center"
+          class="action-buttons-wrapper"
+        >
+          <tl-reference-button
+            [routeReference]="this.routes.REGISTER_SHOW"
+            [routeArguments]="{ ':ID': cell.rowData.registerId + '' }"
+            buttonType="action-button"
+            icon="dashboard"
+            title="Регистър"
+          >
+          </tl-reference-button>
+          <tl-reference-button
+            [routeReference]="this.routes.ADAPTER_SHOW"
+            [routeArguments]="{ ':ID': cell.rowData.adapterId + '' }"
+            buttonType="action-button"
+            icon="developer_board"
+            title="Адаптер"
+          >
+          </tl-reference-button>
+          <tl-reference-button
+            [routeReference]="this.routes.CONSUMER_SHOW"
+            [routeArguments]="{ ':ID': cell.rowData.consumerId + '' }"
+            buttonType="action-button"
+            icon="dns"
+            title="Консуматор"
+          >
+          </tl-reference-button>
+        </div>
+      </ng-template>
+    </igx-column>
+    <ng-template #pager let-api>
+      <div class="tl-paginator">
+        <tl-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+  </igx-grid>
+</tl-wrapping-card>
+
+<igx-dialog
+  #primaryAdministrationsFilter
+  title="Филтър по първичен администратор на данни"
+  [closeOnOutsideSelect]="true"
+>
+  <div style="height: 90vh; width: 95vw; overflow: auto;">
+    <app-element-filter *ngIf="this.includeElements; else operationFilterWithElementsElse"
+      #operationFilter
+      (selectedValues)="operationSelected($event)"
+    ></app-element-filter>
+    <ng-template #operationFilterWithElementsElse>
+      <app-operation-filter
+      #operationFilterWithElements
+      (selectedValues)="operationSelected($event)"
+    ></app-operation-filter>
+    </ng-template>
+  </div>
+</igx-dialog>
+
+<igx-dialog
+  #consumersFilter
+  title="Филтър по консуматори"
+  [closeOnOutsideSelect]="true"
+>
+  <div style="height: 90vh; width: 95vw; overflow: auto;">
+    <app-certificate-filter
+      #consumerFilterComponent
+      (selectedValues)="consumerSelected($event)"
+    ></app-certificate-filter>
+  </div>
+</igx-dialog>

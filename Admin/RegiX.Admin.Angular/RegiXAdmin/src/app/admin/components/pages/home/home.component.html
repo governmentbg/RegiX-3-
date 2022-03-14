@@ -1,0 +1,39 @@
+<div
+  class="home-wrapper"
+  igxLayout
+  igxLayoutDir="row"
+  igxLayoutWrap="wrap"
+  igxLayoutItemAlign="stretch"
+  igxLayoutJustify="center"
+>
+  <tl-card
+    *ngxPermissionsOnly="this.routes.ADMINISTRATIONS.permissions"
+    [routeReference]="this.routes.ADMINISTRATIONS"
+    [displayDensity]="'comfortable'"
+    [listItems]="primaryAdministrations"
+  >
+  </tl-card>
+  <tl-card
+    *ngxPermissionsOnly="this.routes.SETTINGS.permissions"
+    [routeReference]="this.routes.SETTINGS"
+    [displayDensity]="'comfortable'"
+    [listItems]="settings"
+  >
+  </tl-card>
+  <tl-card
+    *ngxPermissionsOnly="this.routes.CONSUMERS.permissions"
+    [routeReference]="this.routes.CONSUMERS"
+    [displayDensity]="'comfortable'"
+    [listItems]="consumers"
+  >
+  </tl-card>
+  <tl-card
+    *ngxPermissionsOnly="this.routes.CONSUMER_PROFILES.permissions"
+    [routeReference]="this.routes.CONSUMER_PROFILES"
+    [displayDensity]="'comfortable'"
+    [listItems]="consumersProfiles"
+    [title]="'Заявки от консуматори'"
+    [icon]= "'text_snippet'"
+  >
+  </tl-card>
+</div>

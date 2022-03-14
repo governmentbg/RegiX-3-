@@ -1,0 +1,88 @@
+﻿<ExpertDecisionsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NELK/EISME">
+  <ExpertDecisionDocument>
+    <RegistrationNumber>240</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionDescr>Общи заболявания към МИ - МВР</CommissionDescr>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>д-р М. Христова - Славчева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>д-р Ц.Томова - Велчева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>д-р Д. Бояджиев</Name>
+    </CommisionMember>
+    <PersonNames>ИВАЙЛО ДИМИТРОВ ЙОВЧЕВ</PersonNames>
+    <PersonIdentifier>7001195147</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>640827248</DocumentNumber>
+      <IssueDate>2010-08-26T00:00:00+03:00</IssueDate>
+      <IssuePlace>МВР Разград</IssuePlace>
+      <ValidDate>2020-08-26T00:00:00+03:00</ValidDate>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>,гр. Разград ул. Бели Лом 37 вх. Б, ет.1, ап.15</AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>,null,гр. Разград ул. Бели Лом 37 вх. Б, ет.1, ап.15</AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </TemporaryAddress>
+    <Employment>работи-професия</Employment>
+    <EmploymentCode>1</EmploymentCode>
+    <Profession>ДС</Profession>
+    <ConditionText>работоспособен</ConditionText>
+    <ConditionCode>1</ConditionCode>
+    <ExpertiseType>освидетелстване</ExpertiseType>
+    <ExpertiseTypeCode>1</ExpertiseTypeCode>
+    <ExpertiseDecisionMaking>След преглед</ExpertiseDecisionMaking>
+    <ExpertiseDecisionMakingCode>2</ExpertiseDecisionMakingCode>
+    <ExpertisePlace>ТЕЛК</ExpertisePlace>
+    <ExpertisePlaceCode>1</ExpertisePlaceCode>
+    <EmployabilityAssessment>95% т. н. р. без чужда помощ</EmployabilityAssessment>
+    <EmployabilityAssessmentCode>5</EmployabilityAssessmentCode>
+    <DurationDisabilityDate>2019-05-01T00:00:00+03:00</DurationDisabilityDate>
+    <DurationDisability>2 години</DurationDisability>
+    <DurationDisabilityCode>2</DurationDisabilityCode>
+    <DisabilityReason>
+      <Date>2017-05-09T00:00:00+03:00</Date>
+      <Percent>95тнрбчп</Percent>
+      <Type>Общо заболяване</Type>
+    </DisabilityReason>
+    <Diagnosis>Злокачествено новообразувание на дебелото черво (колон)</Diagnosis>
+    <DiagnosisCode>C18</DiagnosisCode>
+    <GeneralIllness>Злокачествено новообразувание (карцином) на сигмата (pT3N0M0 G2). Състояние след лапароскопска резекция на сигмата с десцендо-ректо анастомоза и ексцизия на чернодробна киста от 4b сегмент (22.082016 г.). Състояние след  ПХТ.</GeneralIllness>
+    <GeneralIllnessCode>C18</GeneralIllnessCode>
+    <ContradictionWorkingConditions>Тежък физически труд, покриване на нормативи за физическа подготовка, работа в среда с йонизиращи лъчения, канцерогенни и токсични вещества. </ContradictionWorkingConditions>
+    <ArgumentsAndObservations>
+      АНАМНЕЗА: На 22.08.2017 г. била извършена лапароскопска резекция на сигмата с десцендо-ректо анастомоза и ексцизия на чернодробна киста от 4b сегмент по повод на злокачествено новообразувание (карцином) на сигмата. Провел осем курса АПХТ. Подлежи на динамично наблюдение и диспансерно проследяване.
+      ОБЕКТИВНО: Добро общо състояние. Кожа и видими лигавици - нормално оцветени. ПМТ - добре изразена. ПЛВ - не се опипват увеличени. ДС: Чисто везикуларно дишане, без хрипове. ССС: РСД - 72 уд/мин., АН 120/80. Корем с меки стени, неболезнен. Първично заздравели оперативни цикатрикси от лапароскопски достъп. Черен дроб и слезка не се палпират увеличени. СР - отрицателно двустранно.
+
+      Приложение: Епикризи, консултации, рентгенографии, протокол на ЛКК, КТ, ПХ и др.
+      ХИСТОЛОГИЧЕН РЕЗУЛТАТ: Б16-20106/31.08.2016г. Умерено диференциран аденокарцином с огнищно разязвяне в гнойно-некротични промени, дълбока инфилтрация на стената огнищно и в серозата, туморни емболи в лимфатици. Изследвани 10 броя лимфни възли без метастази. Черен дроб - бистра билиарна киста.
+      МОТИВИ: Малигненият дебелочревен тумор (карцином) на сигмата (pT3N0M0 G2) с извършена на 22.082016 г. лапароскопска резекция на сигмата с десцендо-ректо анастомоза, след проведена АПХТ, обуславя в първите две години 95% т.н.р. по ч. VІІІ, р. VІ, т. 2.3.1
+
+      Общо - 95% т.н.р. без чужда помощ.
+
+      ТЕЛК МВР определя  95% т.н.р. без чужда помощ  за срок от две години и реши: Годен за служба в МВР като ДС  - директор на ОД МВР, със спазване на противопоказаните условия на труд, отразени в т. 14 на ЕР.
+
+      Забавянето на ЕР не е по вина на освидетелстваното лице, което се е намирало в отпуск по болест.
+    </ArgumentsAndObservations>
+    <Appeal>
+      <StakeholdersCode>Лицето</StakeholdersCode>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+</ExpertDecisionsResponse>

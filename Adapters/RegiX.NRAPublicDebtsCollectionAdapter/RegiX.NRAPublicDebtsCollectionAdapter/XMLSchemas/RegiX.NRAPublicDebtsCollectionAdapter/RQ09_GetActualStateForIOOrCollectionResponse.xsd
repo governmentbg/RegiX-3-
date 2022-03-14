@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://egov.bg/RegiX/NRA/Collections" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/NRA/Collections" schemaLocation="NRACollectionCommon.xsd"/>
+	<xs:element name="GetActualStateForIOOrCollectionResponse" type="GetActualStateForIOOrCollectionResponseType">
+		<xs:annotation>
+			<xs:documentation>Отговор от НАП към взискател/актосъставител</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="IOActualStateType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="TitulID" type="xs:long" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ID на ИО</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EIK" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор на длъжник</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EIKType" type="common:EIKTypeEnumeration" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Тип идентификатор на длъжник</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Name" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование/ имена на длъжник</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид на документа – изпълнително основание</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentNo" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на документ – изпълнително основание</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentSeries" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Серия на документ – изпълнително основание</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IssueDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на издаване на документ – изпълнително основание</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EnforcementDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на влизане в сила на документа – изпълнително основание</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CollectionsType"/>
+	<xs:complexType name="GetActualStateForIOOrCollectionResponseType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="Results" type="ResultsType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ActualStateCollectionType">
+		<xs:complexContent>
+			<xs:extension base="CollectionsType">
+				<xs:sequence minOccurs="0">
+					<xs:element name="CollectibleID" type="xs:long" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>ID на вземане </xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="BeneficiaryCode" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Код на взискател / получател</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:long">
+								<xs:minInclusive value="2"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="DepartmentCode" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Код на поделение на взискател/ получател</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:long">
+								<xs:minInclusive value="1"/>
+								<xs:maxInclusive value="9999"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="BeneficiaryEIK" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Идентификатор на взискател / получател</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:minLength value="9"/>
+								<xs:maxLength value="13"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="BeneficiaryName" type="xs:string" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Наименование на взискател / получател </xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="CollectibleType" type="xs:string" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Вид задължение (вземане)</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="PeriodFrom" type="xs:date" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Период от</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="PeriodTo" type="xs:date" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Период до</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="UnforcedPaymentDate" type="xs:date" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Срок за доброволно плащане</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="DateProcessed" type="xs:date" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Дата на предявяване в НАП</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="OutstandingPrincipalAmountInterest" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Остатък от главница, на която се начислява лихва.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:decimal">
+								<xs:minInclusive value="0"/>
+								<xs:totalDigits value="18"/>
+								<xs:fractionDigits value="2"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="OutstandingInterestAmount" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Остатък от лихва, начислена при взискател/актосъставител</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:decimal">
+								<xs:minInclusive value="0"/>
+								<xs:totalDigits value="18"/>
+								<xs:fractionDigits value="2"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="OutstandingNRAInterestAmount" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Остатък от лихва, начислена в НАП</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:decimal">
+								<xs:minInclusive value="0"/>
+								<xs:totalDigits value="18"/>
+								<xs:fractionDigits value="2"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="OutstandingPrincipalAmountNoInterest" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Остатък от главница, на която не се начислява лихва.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:decimal">
+								<xs:minInclusive value="0"/>
+								<xs:totalDigits value="18"/>
+								<xs:fractionDigits value="2"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="Currency" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Валута</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:minLength value="3"/>
+								<xs:maxLength value="3"/>
+								<xs:pattern value="[A-Z][A-Z][A-Z]"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="AppealStatus" type="xs:int" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Статус на обжалване</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="AppealDate" type="xs:date" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Дата на начало на обжалване</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="NRACollectibleStage" type="xs:int" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Етап на производството</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="NRADeedNoAndYear" type="xs:string" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Номер/година на изпълнително дело</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="NRACollectibleStatus" type="xs:int" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Статус на вземането</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="NRACancelDate" type="xs:date" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Дата на прекратяване</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ResultType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="IO" type="IOActualStateType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Изпълнително основание (ИО)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Collection" type="ActualStateCollectionType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вземане</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Errors" type="common:ErrorsType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Грешки, ако има</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ResultsType">
+		<xs:sequence>
+			<xs:element name="Result" type="ResultType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

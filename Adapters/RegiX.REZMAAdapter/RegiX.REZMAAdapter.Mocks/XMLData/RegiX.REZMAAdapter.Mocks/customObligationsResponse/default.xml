@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<CustomsObligationsResponse xmlns="http://egov.bg/RegiX/AM/REZMA/CustomsObligationsResponse">
+  <UIN>6708045011</UIN>
+  <Name>Бранимир Петров Войнович</Name>
+  <Obligations xmlns="http://egov.bg/RegiX/AM/REZMA/CustomsObligationsResponse">
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG001</CodeMU>
+      <MU>ТМУ БУРГАС</MU>
+      <Document>Документ</Document>
+      <DocumentNumber>N124-54</DocumentNumber>
+      <TypeObligation>данък</TypeObligation>
+      <PayingDocument>86</PayingDocument>
+      <PayingDate>2002-09-13</PayingDate>
+      <PayingAmount>200.00</PayingAmount>
+      <PayingTotal>200.00</PayingTotal>
+      <Difference>200.00</Difference>
+      <Status>Има задължение</Status>
+    </Obligation>
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG001222</CodeMU>
+      <MU>ТМУ БУРГАС222</MU>
+      <Document>Документ</Document>
+      <DocumentNumber>N124-54</DocumentNumber>
+      <TypeObligation>данък22</TypeObligation>
+      <PayingDocument>86</PayingDocument>
+      <PayingDate>2002-09-13</PayingDate>
+      <PayingAmount>200.00</PayingAmount>
+      <PayingTotal>200.00</PayingTotal>
+      <Difference>200.00</Difference>
+      <Status>Има задължение</Status>
+    </Obligation>
+  </Obligations>
+</CustomsObligationsResponse>

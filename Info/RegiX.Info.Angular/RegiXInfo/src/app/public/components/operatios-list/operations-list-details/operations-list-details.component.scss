@@ -1,0 +1,31 @@
+.title{
+  font-size: x-large;
+}
+.table-title-wrapper {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .register-button{
+    margin-top: 10px;
+  }
+
+  .register-wrapper{
+    margin: 1rem;
+  }
+
+  .igx-card{
+    margin:1rem;
+  }
+
+  @media (min-width: 56rem){
+    .operation-request{
+      width: 50%;
+      float: left;
+    }
+    .operation-response{
+      width: 50%;
+      float: right;
+    }
+  }

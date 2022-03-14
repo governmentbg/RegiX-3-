@@ -1,0 +1,66 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.GraoLEAdapter.APIService.ILEAPI.LocationsSearch</OperationName>
+  <Code>LocationsSearch</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>LocationsRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/GRAO/LE/LocationsRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за локализационни единици</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>StartDate</ParameterName>
+        <ParameterLabel>Начална дата</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>EndDate</ParameterName>
+        <ParameterLabel>Крайна дата</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>ActualizationType</ParameterName>
+        <ParameterLabel>Вид актуализационен запис (ДПА, ИПА и КПА)</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>ActualizationType</Type>
+          <EnumValues>
+            <EnumValue>
+              <Value>ДПА</Value>
+              <DisplayText>ДПА</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>ИПА</Value>
+              <DisplayText>ИПА</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>КПА</Value>
+              <DisplayText>КПА</DisplayText>
+            </EnumValue>
+          </EnumValues>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

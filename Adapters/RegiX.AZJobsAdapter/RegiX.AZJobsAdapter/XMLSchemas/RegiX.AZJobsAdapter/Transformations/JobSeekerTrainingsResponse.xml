@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<JobSeekerTrainingsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AZ/JobSeekerTrainingsResponse">
+  <JobSeekerPersonData>
+    <PersonalID xmlns="http://egov.bg/RegiX/AZ">213</PersonalID>
+    <FirstName xmlns="http://egov.bg/RegiX/AZ">Lilyana</FirstName>
+    <MiddleName xmlns="http://egov.bg/RegiX/AZ">Ivanova</MiddleName>
+    <LastName xmlns="http://egov.bg/RegiX/AZ">Petkova</LastName>
+    <RegistrationNumber xmlns="http://egov.bg/RegiX/AZ">234</RegistrationNumber>
+    <RegistrationDate xmlns="http://egov.bg/RegiX/AZ">2015-05-05</RegistrationDate>
+    <RegistrationDBT xmlns="http://egov.bg/RegiX/AZ">Агенция по заетостта</RegistrationDBT>
+    <RegistrationStatus xmlns="http://egov.bg/RegiX/AZ">Активен</RegistrationStatus>
+  </JobSeekerPersonData>
+  <Trainings>
+    <Training>
+      <RegistrationNumber>234</RegistrationNumber>
+      <TrainingType>редовно</TrainingType>
+      <Measure>друго</Measure>
+      <TrainingName>дистанционното</TrainingName>
+      <DateFrom>2015-05-05</DateFrom>
+      <DateTo>2015-08-08</DateTo>
+      <Result>Завършил с удостоверение</Result>
+    </Training>
+    <Training>
+      <RegistrationNumber>2434</RegistrationNumber>
+      <TrainingType>задочно</TrainingType>
+      <Measure>друго</Measure>
+      <TrainingName>дистанционно</TrainingName>
+      <DateFrom>2015-07-07</DateFrom>
+      <DateTo>2015-08-08</DateTo>
+      <Result>Завършил с удостоверение</Result>
+    </Training>
+  </Trainings>
+</JobSeekerTrainingsResponse>

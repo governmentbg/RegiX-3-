@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<SearchByIdentifierResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierResponse">
+      <MaxAllowedResults xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierResponse">50</MaxAllowedResults>
+      <TotalResults xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierResponse">4</TotalResults>
+      <ExecutedCalls xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierResponse">
+        <ApiServiceCallID>13467148</ApiServiceCallID>
+        <StartTime>2018-07-11T09:47:43.81+03:00</StartTime>
+        <ReportName>Справка за родственост</ReportName>
+        <LawReason>\u0417\u0430 \u0446\u0435\u043B\u0438\u0442\u0435 \u043D\u0430 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\u0442\u0430 \u0438 \u0442\u0435\u0441\u0442\u0432\u0430\u043D\u0435\u0442\u043E \u043D\u0430 RegiX.</LawReason>
+        <Consumer>МВнР-Национална Визова Информационна Система (НВИС)</Consumer>
+        <ConsumerAdministration>Министерство на външните работи</ConsumerAdministration>
+        <Producer>Национална база данни "Население"</Producer>
+        <ProducerAdministration>Министерство на регионалното развитие и благоустройството</ProducerAdministration>
+      </ExecutedCalls>
+      <ExecutedCalls xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierResponse">
+        <ApiServiceCallID>13467147</ApiServiceCallID>
+        <StartTime>2018-07-11T09:47:43.717+03:00</StartTime>
+        <ReportName>Справка за семейно положение, съпруг/а и деца</ReportName>
+        <LawReason>\u0417\u0430 \u0446\u0435\u043B\u0438\u0442\u0435 \u043D\u0430 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\u0442\u0430 \u0438 \u0442\u0435\u0441\u0442\u0432\u0430\u043D\u0435\u0442\u043E \u043D\u0430 RegiX.</LawReason>
+        <Consumer>МВнР-Национална Визова Информационна Система (НВИС)</Consumer>
+        <ConsumerAdministration>Министерство на външните работи</ConsumerAdministration>
+        <Producer>НБД "Население" - данни за семейно положение</Producer>
+        <ProducerAdministration>Министерство на регионалното развитие и благоустройството</ProducerAdministration>
+      </ExecutedCalls>
+      <ExecutedCalls xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierResponse">
+        <ApiServiceCallID>13467146</ApiServiceCallID>
+        <StartTime>2018-07-11T09:47:43.6230163+03:00</StartTime>
+        <ReportName>Справка за постоянен адрес</ReportName>
+        <LawReason>\u0417\u0430 \u0446\u0435\u043B\u0438\u0442\u0435 \u043D\u0430 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\u0442\u0430 \u0438 \u0442\u0435\u0441\u0442\u0432\u0430\u043D\u0435\u0442\u043E \u043D\u0430 RegiX.</LawReason>
+        <Consumer>МВнР-Национална Визова Информационна Система (НВИС)</Consumer>
+        <ConsumerAdministration>Министерство на външните работи</ConsumerAdministration>
+        <Producer>Класификатор на настоящите и постоянните адреси</Producer>
+        <ProducerAdministration>Министерство на регионалното развитие и благоустройството</ProducerAdministration>
+      </ExecutedCalls>
+      <ExecutedCalls xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierResponse">
+        <ApiServiceCallID>13467145</ApiServiceCallID>
+        <StartTime>2018-07-11T09:47:43.53+03:00</StartTime>
+        <ReportName>Справка за физическо лице</ReportName>
+        <LawReason>\u0417\u0430 \u0446\u0435\u043B\u0438\u0442\u0435 \u043D\u0430 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\u0442\u0430 \u0438 \u0442\u0435\u0441\u0442\u0432\u0430\u043D\u0435\u0442\u043E \u043D\u0430 RegiX.</LawReason>
+        <Consumer>МВнР-Национална Визова Информационна Система (НВИС)</Consumer>
+        <ConsumerAdministration>Министерство на външните работи</ConsumerAdministration>
+        <Producer>Национална база данни "Население"</Producer>
+        <ProducerAdministration>Министерство на регионалното развитие и благоустройството</ProducerAdministration>
+      </ExecutedCalls>
+</SearchByIdentifierResponse>

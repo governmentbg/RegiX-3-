@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/MarriageCertificate/MarriageCertificateResponse" targetNamespace="http://egov.bg/RegiX/GRAO/MarriageCertificate/MarriageCertificateResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="BgCityType">
+		<xs:annotation>
+			<xs:documentation>Данни за населено място</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="DistrictCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на област</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DistrictName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Област</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MunicipalityCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на община</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MunicipalityName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Обшина</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CityCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на населено място</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CityName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Населено място</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PersonData">
+		<xs:annotation>
+			<xs:documentation>Данни за лице, сключило граждански брак</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="FirstName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Собствено име</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MiddleName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Бащино име</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="LastName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Фамилно име преди брака</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PostMarriageLastName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Фамилно име след брака</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Egn" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ЕГН</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BirthDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на раждане</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MarriageDataType">
+		<xs:annotation>
+			<xs:documentation>Данни за граждански брак</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="MarriageDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на сключване на гражданския брак</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MarriagePlace" type="BgCityType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на място на сключване на гражданския брак</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ForeignMarriageCity" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на място в чужбина</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MarriageActDataType">
+		<xs:annotation>
+			<xs:documentation>Данни за акт за сключен граждански брак</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="FullActNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на акт за сключен граждански брак</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ActDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на акта</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ActPlace" type="BgCityType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Описание на място, където е съставен акта</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MarriageCertificateResponseType">
+		<xs:annotation>
+			<xs:documentation>Удостоверение за сключен граждански брак</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ManData" type="PersonData" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни за мъжа, сключил граждански брак</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="WomanData" type="PersonData" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни за жената, сключила граждански брак</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MarriageData" type="MarriageDataType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни за сключеният брак</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MarriageActData" type="MarriageActDataType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни на акта за брак</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SignatureInvalidated" type="xs:boolean" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дали електронния подпис на акта за брак е нарушен</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ReportDate" type="xs:dateTime" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на изготвяне на справката</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="MarriageCertificateResponse" type="MarriageCertificateResponseType">
+		<xs:annotation>
+			<xs:documentation>Справка за сключен граждански брак</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

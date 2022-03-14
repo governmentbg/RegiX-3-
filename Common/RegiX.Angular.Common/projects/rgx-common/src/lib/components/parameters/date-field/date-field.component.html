@@ -1,0 +1,31 @@
+<div
+  class="input-group"
+  *ngIf="isControlReady"
+  [formGroup]="formGroup"
+  igxLayout
+>
+  <tl-form-group class="form-group-wrapper">
+    <igx-date-picker
+      #selectType
+      igxFlex
+      [formControlName]="parameterName"
+      tlFormGroupRef
+      cancelButtonLabel="Затвори"
+      [label]="parameterLabel"
+      locale="bg-BG"
+      [weekStart]="WEEKDAYS.MONDAY"
+    >
+    </igx-date-picker>
+  </tl-form-group>
+  <button
+    igxButton
+    type="button"
+    igxFlex
+    title="Изчисти"
+    class="select-clear-button"
+    type="button"
+    (click)="setToNull(selectType, this.parameterName)"
+  >
+    <igx-icon>clear</igx-icon>
+  </button>
+</div>

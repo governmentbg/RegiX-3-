@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/Mt/SendInfoForAccomodationPlace/AccomodationPlaceResponse" targetNamespace="http://egov.bg/RegiX/Mt/SendInfoForAccomodationPlace/AccomodationPlaceResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="AccomodationPlaceResponseType">
+		<xs:sequence>
+			<xs:element name="ResponseCode" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>1 - успешно добавен запис, 2 - успешно променен запис</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="AccomodationPlaceResponse" type="AccomodationPlaceResponseType"/>
+</xs:schema>

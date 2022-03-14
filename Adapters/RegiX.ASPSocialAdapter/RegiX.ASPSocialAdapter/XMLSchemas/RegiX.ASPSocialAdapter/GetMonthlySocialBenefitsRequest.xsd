@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://egov.bg/RegiX/ASP/Common" xmlns="http://egov.bg/RegiX/ASP/MonthlyBenefits/GetMonthlySocialBenefitsRequest" targetNamespace="http://egov.bg/RegiX/ASP/MonthlyBenefits/GetMonthlySocialBenefitsRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/ASP/Common" schemaLocation="ASPCommon.xsd"/>
+	<xs:element name="GetMonthlySocialBenefitsRequest">
+		<xs:annotation>
+			<xs:documentation>Входни данни на справка по ЕГН/ЛНЧ за отпуснати помощи по чл. 9 от ППЗСП</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PersonData" type="common:PersonRequestType" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Данни за лицето</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

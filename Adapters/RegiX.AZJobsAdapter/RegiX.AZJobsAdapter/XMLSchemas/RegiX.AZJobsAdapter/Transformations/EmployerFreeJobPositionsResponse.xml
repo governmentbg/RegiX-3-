@@ -1,0 +1,57 @@
+﻿<?xml version="1.0"?>
+<EmployerFreeJobPositionsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AZ/EmployerFreeJobPositionsResponse">
+  <EmployerData>
+    <EntityID xmlns="http://egov.bg/RegiX/AZ">122541245</EntityID>
+    <EntityName xmlns="http://egov.bg/RegiX/AZ">Technologica</EntityName>
+  </EmployerData>
+  <FreeJobPositions>
+    <FreeJobPosition>
+      <JobPosition>Software Engineer</JobPosition>
+      <DateFrom>2015-08-08</DateFrom>
+      <DateTo>2015-10-10</DateTo>
+      <AnnouncedFreeJobsCount>3</AnnouncedFreeJobsCount>
+      <JobSeekersDirectedCount>6</JobSeekersDirectedCount>
+      <VacantJobsCount>2</VacantJobsCount>
+      <Minucipality>Sofia</Minucipality>
+      <Area>Sofia</Area>
+      <Town>Sofia</Town>
+      <District>Sofia</District>
+      <Address>st.Red Wall 46th</Address>
+      <EducationRequirements>Master</EducationRequirements>
+      <LanguageSkillsRequirements>english</LanguageSkillsRequirements>
+      <ComputerSkillsRequirements>no</ComputerSkillsRequirements>
+    </FreeJobPosition>
+    <FreeJobPosition>
+      <JobPosition>Software Engineer</JobPosition>
+      <DateFrom>2015-06-06</DateFrom>
+      <DateTo>2015-12-12</DateTo>
+      <AnnouncedFreeJobsCount>4</AnnouncedFreeJobsCount>
+      <JobSeekersDirectedCount>8</JobSeekersDirectedCount>
+      <VacantJobsCount>4</VacantJobsCount>
+      <Minucipality>Sliven</Minucipality>
+      <Area>Sliven</Area>
+      <Town>Sliven</Town>
+      <District>Sliven</District>
+      <Address>st.Saint Patrick 34th</Address>
+      <EducationRequirements>Master</EducationRequirements>
+      <LanguageSkillsRequirements>Spanish</LanguageSkillsRequirements>
+      <ComputerSkillsRequirements>Sql</ComputerSkillsRequirements>
+    </FreeJobPosition>
+    <FreeJobPosition>
+      <JobPosition>Software Engineer</JobPosition>
+      <DateFrom>2015-03-06</DateFrom>
+      <DateTo>2015-12-10</DateTo>
+      <AnnouncedFreeJobsCount>4</AnnouncedFreeJobsCount>
+      <JobSeekersDirectedCount>6</JobSeekersDirectedCount>
+      <VacantJobsCount>3</VacantJobsCount>
+      <Minucipality>Burgas</Minucipality>
+      <Area>Burgas</Area>
+      <Town>Burgas</Town>
+      <District>Burgas</District>
+      <Address>st.Gladstone 53</Address>
+      <EducationRequirements>Master</EducationRequirements>
+      <LanguageSkillsRequirements>English</LanguageSkillsRequirements>
+      <ComputerSkillsRequirements>sql</ComputerSkillsRequirements>
+    </FreeJobPosition>
+  </FreeJobPositions>
+</EmployerFreeJobPositionsResponse>

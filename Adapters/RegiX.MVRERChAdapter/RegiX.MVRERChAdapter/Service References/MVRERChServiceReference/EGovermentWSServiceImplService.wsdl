@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://server.intg.ict.mvr.bg/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://www.ict.mvr.bg/integration/service/" name="EGovermentWSServiceImplService" targetNamespace="http://server.intg.ict.mvr.bg/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://www.ict.mvr.bg/integration/service/" location="http://10.252.10.26:9010/eg/bc/service/?wsdl=IntSyncPortType.wsdl" />
+  <wsdl:types />
+  <wsdl:binding name="EGovermentWSServiceImplServiceSoapBinding" type="ns1:IntSyncPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Call">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="Call">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CallResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EGovermentWSServiceImplService">
+    <wsdl:port name="EGovermentWSServiceImplPort" binding="tns:EGovermentWSServiceImplServiceSoapBinding">
+      <soap:address location="http://10.252.10.26:9010/eg/bc/service/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

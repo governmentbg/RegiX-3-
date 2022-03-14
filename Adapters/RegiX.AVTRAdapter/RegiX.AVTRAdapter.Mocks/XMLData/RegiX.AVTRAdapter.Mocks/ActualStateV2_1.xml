@@ -1,0 +1,239 @@
+     <ActualStateResponseV2 xmlns="http://egov.bg/RegiX/AV/TR/ActualStateResponseV2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <Deed>
+                <DeedStatus>L</DeedStatus>
+                <CompanyName>ЗЕМЕДЕЛСКА КООПЕРАЦИЯ ЗА ПРОИЗВОДСТВО И УСЛУГИ "КОПРИВЕЦ"</CompanyName>
+                <GUID>07787eb23d4149d995c0e629c04b1152</GUID>
+                <UIC>827105001</UIC>
+                <LegalForm>K</LegalForm>
+                <CaseNo>3760</CaseNo>
+                <CaseYear>1992</CaseYear>
+                <CourtNo>450</CourtNo>
+                <Records>
+                  <Record>
+                    <RecordData>
+                      <UIC uic="827105001" IsNew="true">
+                        <CompanyControl>ЗЕМЕДЕЛСКА КООПЕРАЦИЯ ЗА ПРОИЗВОДСТВО И УСЛУГИ "КОПРИВЕЦ"</CompanyControl>
+                        <BulstatDeed>
+                          <Deed>3760</Deed>
+                          <Year>1992</Year>
+                          <CourtCode>450</CourtCode>
+                        </BulstatDeed>
+                      </UIC>
+                    </RecordData>
+                    <RecordId>707335</RecordId>
+                    <IncomingId>127709</IncomingId>
+                    <FieldIdent>00010</FieldIdent>
+                    <MainField>
+                      <GroupId>45</GroupId>
+                      <GroupName>Идентификация</GroupName>
+                      <SectionId>414</SectionId>
+                      <SectionName>Обща информация</SectionName>
+                      <MainFieldIdent>00010</MainFieldIdent>
+                      <MainFieldCode>1</MainFieldCode>
+                      <MainFieldName>ЕИК/ПИК</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080401123247</FieldEntryNumber>
+                    <FieldActionDate>2008-04-01T12:32:47</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Company>ЗЕМЕДЕЛСКА КООПЕРАЦИЯ ЗА ПРОИЗВОДСТВО И УСЛУГИ "КОПРИВЕЦ" - в ликвидация</Company>
+                    </RecordData>
+                    <RecordId>707336</RecordId>
+                    <IncomingId>127709</IncomingId>
+                    <FieldIdent>00020</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00020</MainFieldIdent>
+                      <MainFieldCode>2</MainFieldCode>
+                      <MainFieldName>Фирма</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080401123247</FieldEntryNumber>
+                    <FieldActionDate>2008-04-01T12:32:47</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <LegalForm Text="Кооперация" Code="7" />
+                    </RecordData>
+                    <RecordId>707339</RecordId>
+                    <IncomingId>127709</IncomingId>
+                    <FieldIdent>00030</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00030</MainFieldIdent>
+                      <MainFieldCode>3</MainFieldCode>
+                      <MainFieldName>Правна форма</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080401123247</FieldEntryNumber>
+                    <FieldActionDate>2008-04-01T12:32:47</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Seat>
+                        <Address>
+                          <CountryID>1</CountryID>
+                          <CountryCode>BGR</CountryCode>
+                          <Country>БЪЛГАРИЯ</Country>
+                          <IsForeign>false</IsForeign>
+                          <DistrictID>47</DistrictID>
+                          <DistrictEkatte>RSE</DistrictEkatte>
+                          <District>Русе</District>
+                          <Municipalityid>39</Municipalityid>
+                          <MunicipalityEkatte>RSE04</MunicipalityEkatte>
+                          <Municipality>Бяла</Municipality>
+                          <SettlementID>1744</SettlementID>
+                          <SettlementEKATTE>38529</SettlementEKATTE>
+                          <Settlement>с. Копривец</Settlement>
+                          <AreaID xsi:nil="true" />
+                          <Area />
+                          <AreaEkatte />
+                          <PostCode>7120</PostCode>
+                          <ForeignPlace />
+                          <HousingEstate />
+                          <Street>ВЪЗРАЖДАНЕ</Street>
+                          <StreetNumber>37</StreetNumber>
+                          <Block />
+                          <Entrance />
+                          <Floor />
+                          <Apartment />
+                        </Address>
+                        <Contacts>
+                          <Phone>2203</Phone>
+                          <Fax />
+                          <EMail />
+                          <URL />
+                        </Contacts>
+                      </Seat>
+                    </RecordData>
+                    <RecordId>707337</RecordId>
+                    <IncomingId>127709</IncomingId>
+                    <FieldIdent>00050</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00050</MainFieldIdent>
+                      <MainFieldCode>5</MainFieldCode>
+                      <MainFieldName>Седалище и адрес на управление</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080401123247</FieldEntryNumber>
+                    <FieldActionDate>2008-04-01T12:32:47</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <SubjectOfActivity>ПPOИЗBOДCTBO   HA   ЗEMEДEЛCKA  ПPOДУKЦИЯ  BЬPXУ  APEHДУBAHИ  /HAETИ/   ЗEMИ,   A  CЬЩO  И  HA  ЖИBOTИHCKA  ПPOДУKЦИЯ,  TЯXHATA  ПPEPAБOTKA  И  PEAЛИЗAЦИЯ;  ИЗBЬPШBAHE  HA  ПPOИЗBOДCTBEHИ УCЛУГИ  /MEXAHИЗИPAHИ,  AГPOXИMИЧECKИ, TPAHCПOPTHИ, CTPOИTEЛHИ, TЬPГOBCKИ  И  ДPУГИ/, KOИTO MOГAT ДA БЬДAT EДИHИЧHИ ИЛИ KOMПЛEKCHИ, KAKTO HA  CTOПAHCTBATA  HA HEЙHИTE ЧЛEHOBE, TAKA И HA ФEPMEPИ, APEHДATOPИ И  ДPУГИ   ЗEMEДEЛCKИ   ПPOИЗBOДИTEЛИ;   KOOПEPAЦИЯTA  OPГAHИЗИPA  И  OCЬЩECTBЯBA  ПPOMИШЛEHИ, CTPAHИЧHИ И ДPУГИ ДEЙHOCTИ, PAЗPEШEHИ OT  ЗAKOHA,  C ЦEЛ ПO - ПЬЛHOTO ИЗПOЛЗBAHE HA MATEPИAЛHИTE, TPУДOBИTE  И  ФИHAHCOBИTE  PECУPCИ, OTKPИBAHE HA PAБOTHИ MECTA И УBEЛИЧABAHE  ДOXOДИTE  HA ЧЛEHOBETE KOOПEPATOPИ; OCЬЩECTBЯBA CAMOCTOЯTEЛHO ИЛИ  B   CДPУЖEHИE   C   ДPУГИ   OPГAHИЗAЦИИ   И   ЛИЦA,   BЬTPEШHA  И  BЬHШHOTЬPГOBCKA  ДEЙHOCT  CЬC ЗEMEДEЛCKИ И ДPУГИ, HEЗAБPAHEHИ CЬC  ЗAKOH CTOKИ, B T.Ч. И HA KOMИCИOHHИ HAЧAЛA.</SubjectOfActivity>
+                    </RecordData>
+                    <RecordId>707338</RecordId>
+                    <IncomingId>127709</IncomingId>
+                    <FieldIdent>00060</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00060</MainFieldIdent>
+                      <MainFieldCode>6</MainFieldCode>
+                      <MainFieldName>Предмет на дейност</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080401123247</FieldEntryNumber>
+                    <FieldActionDate>2008-04-01T12:32:47</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <ChairMan>
+                        <Person IsForeignTraderText="0">
+                          <Indent>2121212120</Indent>
+                          <Name>КОСТАДИН ИЛИЕВ КОСТАДИНОВ</Name>
+                          <IndentType>EGN</IndentType>
+                        </Person>
+                      </ChairMan>
+                    </RecordData>
+                    <RecordId>707482</RecordId>
+                    <IncomingId>127709</IncomingId>
+                    <FieldIdent>00090</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00090</MainFieldIdent>
+                      <MainFieldCode>9</MainFieldCode>
+                      <MainFieldName>Председател</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080401123247</FieldEntryNumber>
+                    <FieldActionDate>2008-04-01T12:32:47</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <AddemptionOfTrader>1</AddemptionOfTrader>
+                    </RecordData>
+                    <RecordId>149270364</RecordId>
+                    <IncomingId>22233663</IncomingId>
+                    <FieldIdent>00270</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00270</MainFieldIdent>
+                      <MainFieldCode>27</MainFieldCode>
+                      <MainFieldName>Заличаване на търговеца</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20161221094621</FieldEntryNumber>
+                    <FieldActionDate>2016-12-21T09:46:21</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <TermsOfLiquidation>30.09.2008</TermsOfLiquidation>
+                    </RecordData>
+                    <RecordId>707992</RecordId>
+                    <IncomingId>127809</IncomingId>
+                    <FieldIdent>05010</FieldIdent>
+                    <MainField>
+                      <GroupId>38</GroupId>
+                      <GroupName>Производство по ликвидация</GroupName>
+                      <SectionId>7</SectionId>
+                      <SectionName>Ликвидация</SectionName>
+                      <MainFieldIdent>05010</MainFieldIdent>
+                      <MainFieldCode>501</MainFieldCode>
+                      <MainFieldName>Срок на ликвидацията</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080401124121</FieldEntryNumber>
+                    <FieldActionDate>2008-04-01T12:41:21</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Liquidator>
+                        <Subject IsForeignTraderText="0">
+                          <Indent>2121212120</Indent>
+                          <Name>КОСТАДИН ИЛИЕВ КОСТАДИНОВ</Name>
+                          <IndentType>EGN</IndentType>
+                        </Subject>
+                      </Liquidator>
+                    </RecordData>
+                    <RecordId>1268916</RecordId>
+                    <IncomingId>127809</IncomingId>
+                    <FieldIdent>050200</FieldIdent>
+                    <MainField>
+                      <GroupId>38</GroupId>
+                      <GroupName>Производство по ликвидация</GroupName>
+                      <SectionId>7</SectionId>
+                      <SectionName>Ликвидация</SectionName>
+                      <MainFieldIdent>05020</MainFieldIdent>
+                      <MainFieldCode>502</MainFieldCode>
+                      <MainFieldName>Ликвидатори</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080401124121</FieldEntryNumber>
+                    <FieldActionDate>2008-04-01T12:41:21</FieldActionDate>
+                  </Record>
+                </Records>
+              </Deed>
+              <DataValidForDate>2017-06-05T10:32:44.7578357+03:00</DataValidForDate>
+            </ActualStateResponseV2>

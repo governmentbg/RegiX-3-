@@ -1,0 +1,39 @@
+<div class="card-wrapper">
+  <tl-reference-button
+    *ngIf="fabAction && isPresent"
+    class="floating-action-button"
+    [routeReference]="fabAction"
+    [routeArguments]="fabArguments"
+    buttonType="fab"
+  >
+  </tl-reference-button>
+  <igx-card>
+    <igx-card-header>
+      <igx-avatar
+        *ngIf="this.icon"
+        [icon]="this.icon"
+        roundShape="true"
+        size="small"
+      >
+      </igx-avatar>
+      <h3 igxCardHeaderTitle>{{ title }}</h3>
+      <h5 *ngIf="subTitle" igxCardHeaderSubtitle>{{ subTitle }}</h5>
+      <ng-template [ngTemplateOutlet]="cardHeaderContent"></ng-template>
+    </igx-card-header>
+
+    <igx-card-content>
+      <ng-content></ng-content>
+    </igx-card-content>
+
+    <igx-card-actions>
+      <ng-template [ngTemplateOutlet]="cardActions"></ng-template>
+      <tl-reference-button
+        *ngFor="let action of actions"
+        [routeReference]="action.reference"
+        [routeArguments]="action.args"
+        [buttonType]="''"
+      >
+      </tl-reference-button>
+    </igx-card-actions>
+  </igx-card>
+</div>

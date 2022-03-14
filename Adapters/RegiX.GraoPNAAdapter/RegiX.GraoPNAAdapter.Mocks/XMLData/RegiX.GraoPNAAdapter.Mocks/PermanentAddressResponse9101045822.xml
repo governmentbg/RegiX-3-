@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<PermanentAddressResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/PNA/PermanentAddressResponse">
+	<DistrictCode>SF</DistrictCode>
+	<DistrictName>София (столица)</DistrictName>
+	<MunicipalityCode>SF</MunicipalityCode>
+	<MunicipalityName>Столична</MunicipalityName>
+	<SettlementCode>BG001</SettlementCode>
+	<SettlementName>гр. София</SettlementName>
+	<CityAreaCode>SL</CityAreaCode>
+	<CityArea/>
+	<LocationCode/>
+	<LocationName>Ул. Русалка</LocationName>
+	<BuildingNumber>26</BuildingNumber>
+	<Entrance>А</Entrance>
+	<Floor>4</Floor>
+	<Apartment>12</Apartment>
+	<FromDate>2005-03-12</FromDate>
+</PermanentAddressResponse>
+

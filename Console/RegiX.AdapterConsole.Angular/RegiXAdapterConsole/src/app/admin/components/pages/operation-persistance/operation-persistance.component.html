@@ -1,0 +1,98 @@
+<tl-wrapping-card
+  [title]="routes.OPERATION_PERSISTANCE.title"
+  [icon]="routes.OPERATION_PERSISTANCE.icon"
+>
+  <tl-linear-progress
+    [visible]="this.remoteService.isLoading"
+  ></tl-linear-progress>
+
+  <igx-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    (onSortingDone)="sortingDone($event)"
+    (onFilteringDone)="filteringDone($event)"
+    (onSelection)="cellSelection($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+    <igx-column
+      field="adapterOperationName"
+      header="Услуга"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+        <igx-column
+      header="Действия"
+      [sortable]="false"
+      width="150px"
+      [filterable]="false"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          igxLayout
+          igxLayoutDir="row"
+          igxLayoutJustify="center"
+          class="action-buttons-wrapper"
+        >
+        <tl-reference-button
+          [routeReference]="this.routes.RETURNED_CALL_BY_CALL_ID"
+          [routeArguments]="{ ':API_CALL_ID': cell.rowData.apiServiceCallId }"
+          buttonType="action-button"
+        >
+        </tl-reference-button>
+        <button
+          type="button"
+          title="Изтегляне"
+          igxButton="icon"
+          (click)="downloadContent(cell.rowData)"
+        >
+          <igx-icon>
+            cloud_download
+          </igx-icon>
+        </button>
+        <button
+          type="button"
+          title="Качване"
+          igxButton="icon"
+          (click)="uploadContent(cell.rowData)"
+        >
+          <igx-icon>
+            cloud_upload
+          </igx-icon>
+        </button>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-grid>
+      <div class="tl-paginator">
+        <tl-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+  </igx-grid>
+</tl-wrapping-card>
+
+
+<input
+id="fileChooserInput"
+type="file"
+accept=".xml"
+style="visibility:hidden"
+(change)="onFileSelectionChange()"
+/>

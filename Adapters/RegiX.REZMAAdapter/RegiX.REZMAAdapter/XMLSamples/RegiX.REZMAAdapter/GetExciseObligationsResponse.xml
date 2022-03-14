@@ -1,0 +1,51 @@
+<ExciseObligationsResponse xmlns="http://egov.bg/RegiX/AM/REZMA/ExciseObligationsResponse">
+  <UIN>123456789</UIN>
+  <Name>Technologica</Name>
+  <Obligations>
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG001</CodeMU>
+      <MU>BG001</MU>
+      <Document>ДОКумент</Document>
+      <DocumentNumber>NoдоКУМЕНТ</DocumentNumber>
+      <CreationDate>2001-01-20</CreationDate>
+      <TypeObligation>АКЦИЗ ПРИ СДЕЛКИ В СТРАНАТА {22 02 00}</TypeObligation>
+      <ObligationAmount>1111111.01</ObligationAmount>
+      <PayingDocument>ДОКУМЕНТ ПОГАСЯВАНЕ</PayingDocument>
+      <PayingDate>2001-01-20</PayingDate>
+      <PayingAmount>100000000000000000.01</PayingAmount>
+      <PayingTotal>200.00</PayingTotal>
+      <Difference>10.00</Difference>
+      <Status>има задължение</Status>
+    </Obligation>
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG001</CodeMU>
+      <MU>BG005</MU>
+      <Document>ДОКумент</Document>
+      <DocumentNumber>NoдоКУМЕНТ</DocumentNumber>
+      <CreationDate>2001-01-20</CreationDate>
+      <TypeObligation>АКЦИЗ ПРИ ВНОС {22 03 00}</TypeObligation>
+      <ObligationAmount>100.00</ObligationAmount>
+      <PayingDocument>ДОКУМЕНТ ПОГАСЯВАНЕ</PayingDocument>
+      <PayingDate>2001-01-20</PayingDate>
+      <PayingAmount>100.00</PayingAmount>
+      <PayingTotal>200.00</PayingTotal>
+      <Difference>10.00</Difference>
+      <Status>има задължение</Status>
+    </Obligation>
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG001</CodeMU>
+      <MU>BG005</MU>
+      <Document>ДОКумент</Document>
+      <DocumentNumber>NoдоКУМЕНТ</DocumentNumber>
+      <CreationDate>2001-01-20</CreationDate>
+      <TypeObligation>ГЛОБИ, НЕУСТОЙКИ {22 50 00}</TypeObligation>
+      <ObligationAmount>100.00</ObligationAmount>
+      <PayingDocument>ДОКУМЕНТ ПОГАСЯВАНЕ</PayingDocument>
+      <PayingDate>2001-01-20</PayingDate>
+      <PayingAmount>100.00</PayingAmount>
+      <PayingTotal>200.00</PayingTotal>
+      <Difference>10.00</Difference>
+      <Status>има задължение</Status>
+    </Obligation>
+  </Obligations>
+</ExciseObligationsResponse>

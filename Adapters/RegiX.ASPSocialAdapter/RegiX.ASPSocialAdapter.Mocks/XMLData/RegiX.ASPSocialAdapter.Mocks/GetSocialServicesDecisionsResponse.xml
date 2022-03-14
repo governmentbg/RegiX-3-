@@ -1,0 +1,79 @@
+﻿<GetSocialServicesDecisionsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/ASP/SocialServices/GetSocialServicesDecisionsResponse">
+	<CurrentTime>2016-08-29T11:41:34.584976+03:00</CurrentTime>
+	<PersonData>
+		<FirstName xmlns="http://egov.bg/RegiX/ASP/Common">Иван</FirstName>
+		<MiddleName xmlns="http://egov.bg/RegiX/ASP/Common">Петров</MiddleName>
+		<LastName xmlns="http://egov.bg/RegiX/ASP/Common">Димитров</LastName>
+		<BirthDatе xmlns="http://egov.bg/RegiX/ASP/Common">1960-08-20</BirthDatе>
+		<Gender xmlns="http://egov.bg/RegiX/ASP/Common">
+			<GenderName>Мъж</GenderName>
+			<GenderCode>M</GenderCode>
+		</Gender>
+		<Identifier xmlns="http://egov.bg/RegiX/ASP/Common">9202020202</Identifier>
+		<IdentifierType xmlns="http://egov.bg/RegiX/ASP/Common">EGN</IdentifierType>
+	</PersonData>
+	<SocialServicesData>
+		<Details xmlns="http://egov.bg/RegiX/ASP/Common">
+			<DecisionNumber>СУ/D-EH/1</DecisionNumber>
+			<Date>2014-02-20</Date>
+			<OrganizationUnitCode>D_C_M</OrganizationUnitCode>
+			<OrganizationUnitName>Дирекция "Социално подпомагане"- Младост</OrganizationUnitName>
+		</Details>
+		<SocialServiceCode xmlns="http://egov.bg/RegiX/ASP/Common">DV3</SocialServiceCode>
+		<SocialServiceName xmlns="http://egov.bg/RegiX/ASP/Common">Дом за възрастни хора с умствена изостаналост</SocialServiceName>
+		<CityEkatteCode xmlns="http://egov.bg/RegiX/ASP/Common">68134</CityEkatteCode>
+		<CityName xmlns="http://egov.bg/RegiX/ASP/Common">гр. СОФИЯ</CityName>
+		<Address xmlns="http://egov.bg/RegiX/ASP/Common">ж.к. Младост-3, бл 309, вх.А</Address>
+		<IsResidentType xmlns="http://egov.bg/RegiX/ASP/Common">true</IsResidentType>
+		<SocialServiceTypeCode xmlns="http://egov.bg/RegiX/ASP/Common">SIN</SocialServiceTypeCode>
+		<SocialServiceType xmlns="http://egov.bg/RegiX/ASP/Common">Специализирана институция</SocialServiceType>
+	</SocialServicesData>
+	<SocialServicesData>
+		<Details xmlns="http://egov.bg/RegiX/ASP/Common">
+			<DecisionNumber>СУ/D-EH/4</DecisionNumber>
+			<Date>2014-03-23</Date>
+			<OrganizationUnitCode>D_EH</OrganizationUnitCode>
+			<OrganizationUnitName>Дирекция "Социално подпомагане"- Плевен</OrganizationUnitName>
+		</Details>
+		<SocialServiceCode xmlns="http://egov.bg/RegiX/ASP/Common">DC2</SocialServiceCode>
+		<SocialServiceName xmlns="http://egov.bg/RegiX/ASP/Common">Дневен център за възрастни хора с увреждания</SocialServiceName>
+		<CityEkatteCode xmlns="http://egov.bg/RegiX/ASP/Common">56722</CityEkatteCode>
+		<CityName xmlns="http://egov.bg/RegiX/ASP/Common">гр. ПЛЕВЕН</CityName>
+		<Address xmlns="http://egov.bg/RegiX/ASP/Common">ул. Крайна № 755</Address>
+		<IsResidentType xmlns="http://egov.bg/RegiX/ASP/Common">false</IsResidentType>
+		<SocialServiceTypeCode xmlns="http://egov.bg/RegiX/ASP/Common">SUO</SocialServiceTypeCode>
+		<SocialServiceType xmlns="http://egov.bg/RegiX/ASP/Common">Социална услуга в общността</SocialServiceType>
+	</SocialServicesData>
+	<SocialServicesData>
+		<Details xmlns="http://egov.bg/RegiX/ASP/Common">
+			<DecisionNumber>СУ/ASP/1</DecisionNumber>
+			<Date>2014-07-24</Date>
+			<OrganizationUnitCode>D_PA</OrganizationUnitCode>
+			<OrganizationUnitName>Дирекция "Социално подпомагане"- Пазарджик</OrganizationUnitName>
+		</Details>
+		<SocialServiceCode xmlns="http://egov.bg/RegiX/ASP/Common">DC3</SocialServiceCode>
+		<SocialServiceName xmlns="http://egov.bg/RegiX/ASP/Common">Дневен център за деца и възрастни хора с увреждания</SocialServiceName>
+		<CityEkatteCode xmlns="http://egov.bg/RegiX/ASP/Common">02717</CityEkatteCode>
+		<CityName xmlns="http://egov.bg/RegiX/ASP/Common">с. БАНЯ</CityName>
+		<Address xmlns="http://egov.bg/RegiX/ASP/Common">Площад на авиацията № 16</Address>
+		<IsResidentType xmlns="http://egov.bg/RegiX/ASP/Common">false</IsResidentType>
+		<SocialServiceTypeCode xmlns="http://egov.bg/RegiX/ASP/Common">SUO</SocialServiceTypeCode>
+		<SocialServiceType xmlns="http://egov.bg/RegiX/ASP/Common">Социална услуга в общността</SocialServiceType>
+	</SocialServicesData>
+	<SocialServicesData>
+		<Details xmlns="http://egov.bg/RegiX/ASP/Common">
+			<DecisionNumber>СУ/D-CO-ET/8</DecisionNumber>
+			<Date>2015-05-25</Date>
+			<OrganizationUnitCode>D_CO_ET</OrganizationUnitCode>
+			<OrganizationUnitName>Дирекция "Социално подпомагане"- Етрополе</OrganizationUnitName>
+		</Details>
+		<SocialServiceCode xmlns="http://egov.bg/RegiX/ASP/Common">DV5</SocialServiceCode>
+		<SocialServiceName xmlns="http://egov.bg/RegiX/ASP/Common">Дом за възрастни хора със сетивни нарушения</SocialServiceName>
+		<CityEkatteCode xmlns="http://egov.bg/RegiX/ASP/Common">27632</CityEkatteCode>
+		<CityName xmlns="http://egov.bg/RegiX/ASP/Common">гр. ЕТРОПОЛЕ</CityName>
+		<Address xmlns="http://egov.bg/RegiX/ASP/Common">ул. Кокиче 16</Address>
+		<IsResidentType xmlns="http://egov.bg/RegiX/ASP/Common">false</IsResidentType>
+		<SocialServiceTypeCode xmlns="http://egov.bg/RegiX/ASP/Common">SIN</SocialServiceTypeCode>
+		<SocialServiceType xmlns="http://egov.bg/RegiX/ASP/Common">Специализирана институция</SocialServiceType>
+	</SocialServicesData>
+</GetSocialServicesDecisionsResponse>

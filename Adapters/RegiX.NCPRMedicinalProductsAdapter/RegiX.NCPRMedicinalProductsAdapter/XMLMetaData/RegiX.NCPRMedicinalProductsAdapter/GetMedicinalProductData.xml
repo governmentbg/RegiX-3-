@@ -1,0 +1,26 @@
+﻿<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.NCPRMedicinalProductsAdapter.APIService.INCPRMedicinalProductsAPI.GetMedicinalProductData</OperationName>
+  <Code>GetMedicinalProductData</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>GetMedinicalProductDataRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/NCPR/MedicinalProducts/GetMedinicalProductDataRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за Извличане на пълната информация за лекарствен продукт</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>MedicinalProductIdentifier</ParameterName>
+        <ParameterLabel>Уникален идентификатор на лекарствен продукт</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <!--<IdentifierType>3</IdentifierType>-->
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

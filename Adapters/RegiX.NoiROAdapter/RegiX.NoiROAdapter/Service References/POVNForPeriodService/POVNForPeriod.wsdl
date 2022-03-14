@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.nssi.bg/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.nssi.bg/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.nssi.bg/">
+      <s:element name="GetPOVNForPeriod">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="egn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="flag_egn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="per_date1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="per_date2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPOVNForPeriodResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPOVNForPeriodResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetPOVNForPeriodSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPOVNForPeriod" />
+  </wsdl:message>
+  <wsdl:message name="GetPOVNForPeriodSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPOVNForPeriodResponse" />
+  </wsdl:message>
+  <wsdl:portType name="POVNForPeriodSoap">
+    <wsdl:operation name="GetPOVNForPeriod">
+      <wsdl:input message="tns:GetPOVNForPeriodSoapIn" />
+      <wsdl:output message="tns:GetPOVNForPeriodSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="POVNForPeriodSoap" type="tns:POVNForPeriodSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPOVNForPeriod">
+      <soap:operation soapAction="http://www.nssi.bg/GetPOVNForPeriod" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="POVNForPeriodSoap12" type="tns:POVNForPeriodSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPOVNForPeriod">
+      <soap12:operation soapAction="http://www.nssi.bg/GetPOVNForPeriod" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="POVNForPeriod">
+    <wsdl:port name="POVNForPeriodSoap" binding="tns:POVNForPeriodSoap">
+      <soap:address location="http://egov.ad.tlogica.com/MockRegisters/NOI_POVNPeriod/POVNForPeriod.asmx" />
+    </wsdl:port>
+    <wsdl:port name="POVNForPeriodSoap12" binding="tns:POVNForPeriodSoap12">
+      <soap12:address location="http://egov.ad.tlogica.com/MockRegisters/NOI_POVNPeriod/POVNForPeriod.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

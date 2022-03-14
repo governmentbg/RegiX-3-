@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetCompanyInfoRequest xmlns="http://egov.bg/RegiX/CRC/SignificantEnterprises/GetCompanyInfoRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CompanyName>String</CompanyName>
+  <CompanyType>String</CompanyType>
+  <EIK>String</EIK>
+</GetCompanyInfoRequest>

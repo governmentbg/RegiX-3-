@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://egov.bg/RegiX/NRA/Collections"  xmlns="http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForNewIOAndCollectionRequest" targetNamespace="http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForNewIOAndCollectionRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/NRA/Collections" schemaLocation="NRACollectionCommon.xsd"/>
+	<xs:element name="SendDataForNewIOAndCollectionRequest" type="SendDataForNewIOAndCollectionRequestType">
+		<xs:annotation>
+			<xs:documentation>Входни данни на операция "Предаване на информация за ново изпълнително основание (ИО) и вземане/вземания за събиране от взискател/актосъставител към Национална агенция за приходите (НАП)"</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="NewIOAndCollectionType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="ActIssurerID" type="xs:long">
+				<xs:annotation>
+					<xs:documentation>ID на взискател/актосъставител</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SubdivisionID" type="xs:long">
+				<xs:annotation>
+					<xs:documentation>ID на подразделение </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SubdivisionEIK" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Идентификатор на взискател/актосъставител </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TitulID" type="xs:long">
+				<xs:annotation>
+					<xs:documentation>ID на ИО</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EIK" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Идентификатор на длъжник</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EIKType" type="common:EIKTypeEnumeration">
+				<xs:annotation>
+					<xs:documentation>Тип идентификатор на длъжник</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentType" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Вид на документа – изпълнително основание</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentNo">
+				<xs:annotation>
+					<xs:documentation>Номер на документ – изпълнително основание</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="DocumentSeries" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Серия на документ – изпълнително основание</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IssueDate" type="xs:date">
+				<xs:annotation>
+					<xs:documentation>Дата на издаване на документ – изпълнително основание</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EnforcementDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на влизане в сила на документа – изпълнително основание</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EnforceInAdvance" type="xs:boolean">
+				<xs:annotation>
+					<xs:documentation>Акт подлежащ на предварително изпълнение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DeedType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид дело от номенклатура</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DeedID" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на дело</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DeedYear" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Година на дело</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:unsignedInt"/>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SendDataForNewIOAndCollectionRequestType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="IO" type="NewIOAndCollectionType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Изпълнително основание (ИО)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Collections" type="CollectionsNewIOType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вземане</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CollectionsNewIOType">
+		<xs:sequence>
+			<xs:element name="Collection" type="common:CollectionType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

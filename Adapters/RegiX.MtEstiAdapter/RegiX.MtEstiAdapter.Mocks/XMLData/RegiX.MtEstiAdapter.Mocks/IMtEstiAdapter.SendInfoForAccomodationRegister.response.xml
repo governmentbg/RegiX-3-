@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AccomodationRegisterResponse xmlns="http://egov.bg/RegiX/Mt/SendInfoForAccomodationRegister/AccomodationRegisterResponse">
+  <ResponseCode>1</ResponseCode>
+  <RegistrationId>1</RegistrationId>
+</AccomodationRegisterResponse>

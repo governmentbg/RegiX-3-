@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.PvPatentsAdapter.APIService.IPvPatentsAPI.GetREG_PATENT_Patent_Name</OperationName>
+  <Code>GetREG_PATENT_Patent_Name</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>getPatentsByName</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/PatentDepartment/Patents/PatentNameRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за патенти по наименование</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>PatentName</ParameterName>
+        <ParameterLabel>Име на патент</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

@@ -1,0 +1,40 @@
+﻿<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.MVRANDAdapter.APIService.IMVRANDAPI.GetObligationDocumentsByLicenceNum</OperationName>
+  <Code>GetObligationDocumentsByLicenceNum</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>GetObligationDocumentsByLicenceNumRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/MVR/ObligationDocumentsByLicenceNum/GetObligationDocumentsByLicenceNumRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Проверка за налични неплатени документи в АИС АНД по номер на СУМПС и ЕГН</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>EGN</ParameterName>
+        <ParameterLabel>ЕГН на водач, за чиито документи ще бъде изведена информация</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <IdentifierType>1</IdentifierType>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>LicenceNum</ParameterName>
+        <ParameterLabel>Номер на СУМПС на водач</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

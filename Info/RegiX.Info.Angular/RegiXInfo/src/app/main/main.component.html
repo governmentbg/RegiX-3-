@@ -1,0 +1,69 @@
+<rgx-divided
+  [leftContent]="login"
+  [rightContent]="logo"
+  [applicationName]="applicationName"
+>
+  <ng-template #login>
+      <div  class="inner-wrapper" igxLayout igxLayoutDir="column" igxLayoutItemAlign="center">
+        <div class="buttons-wrapper" igxLayout igxLayoutDir="row">
+          <button
+            igxFlex
+            type="button"
+            class="login-button"
+            igxButton="raised"
+            routerLink="/public"
+            title="Вход"
+          >
+            <igx-icon >info</igx-icon>&nbsp;Информация
+          </button>
+        </div>
+        <div class="buttons-wrapper">
+          <igx-divider></igx-divider>
+        </div>
+        <div class="buttons-wrapper" igxLayout igxLayoutDir="row">
+          <button
+            igxFlex
+            type="button"
+            class="login-button"
+            igxButton="raised"
+            routerLink="/consumer"
+            title="Вход"
+          >
+            <igx-icon>login</igx-icon>&nbsp;Вход
+          </button>
+        </div>
+        <div class="buttons-wrapper" igxLayout igxLayoutDir="row">
+          <button
+            igxFlex
+            type="button"
+            class="login-button"
+            igxButton="raised"
+            title="Регистрация на консуматор"
+            [routerLink]="'/public/consumers/consumer-registration'"
+          >
+            <igx-icon>dns</igx-icon>&nbsp;Регистрация на консуматор
+          </button>
+        </div>
+        <div class="buttons-wrapper" igxLayout igxLayoutDir="row">
+          <button
+            igxFlex
+            type="button"
+            class="login-button"
+            igxButton="raised"
+            title="Вход"
+            [routerLink]="'/public/consumers/consumer-user-registration'"
+          >
+            <igx-icon>person</igx-icon>&nbsp;Регистрация на представител
+          </button>
+        </div>
+      </div>
+  </ng-template>
+  <ng-template #logo>
+    <img
+      class="login-right"
+      src="assets/RegiXInfo.png"
+      alt="RegiX"
+    />
+  </ng-template>
+</rgx-divided>
+<rgx-version [version]="version"></rgx-version>

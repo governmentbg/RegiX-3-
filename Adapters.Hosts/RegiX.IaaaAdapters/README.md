@@ -1,0 +1,3 @@
+Install-Package RegiX.RTSAdapter
+Install-Package RegiX.IaaaEducationCentersAdapter
+Install-Package RegiX.IaaaVehicleInspectionsAdapter

@@ -1,0 +1,2 @@
+Install-Package RegiX.NRAEmploymentContractsAdapter
+Install-Package RegiX.NRAObligatedPersonsAdapter

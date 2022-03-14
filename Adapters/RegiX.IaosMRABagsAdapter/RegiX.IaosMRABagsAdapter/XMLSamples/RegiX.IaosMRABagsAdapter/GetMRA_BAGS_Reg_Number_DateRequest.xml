@@ -1,0 +1,4 @@
+<MRO_BAGS_Reg_Number_Date_Request xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://egov.bg/RegiX/IAOS/MROBags/RegNumberDateRequest">
+  <DateTime>2015-11-19</DateTime>
+  <EIK>131147842</EIK>
+</MRO_BAGS_Reg_Number_Date_Request>

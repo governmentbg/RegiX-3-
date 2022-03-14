@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.IaosMROOilAdapter.APIService.IIaosMROOilAPI.GetMRO_OIL_Execution_Type</OperationName>
+  <Code>GetMRO_OIL_Execution_Type</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>MRO_OIL_Execution_Type_Request</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/IAOS/MROOil/ExecutionTypeRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за начин на изпълнение на задълженията</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>EIK</ParameterName>
+        <ParameterLabel>Единен идентификационен код (ЕИК)</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

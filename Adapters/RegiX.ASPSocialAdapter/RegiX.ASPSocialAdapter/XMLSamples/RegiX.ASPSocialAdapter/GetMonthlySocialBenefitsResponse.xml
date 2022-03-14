@@ -1,0 +1,27 @@
+<GetMonthlySocialBenefitsResponse xmlns="http://egov.bg/RegiX/ASP/MonthlyBenefits/GetMonthlySocialBenefitsResponse">
+  <CurrentTime>2018-04-12T14:26:46.3743642+03:00</CurrentTime>
+  <PersonData>
+    <FirstName xmlns="http://egov.bg/RegiX/ASP/Common">Иван</FirstName>
+    <MiddleName xmlns="http://egov.bg/RegiX/ASP/Common">Иванов</MiddleName>
+    <LastName xmlns="http://egov.bg/RegiX/ASP/Common">Иванов</LastName>
+    <BirthDatе xmlns="http://egov.bg/RegiX/ASP/Common">1981-12-24</BirthDatе>
+    <Gender xmlns="http://egov.bg/RegiX/ASP/Common">
+      <GenderName>Мъж</GenderName>
+      <GenderCode>M</GenderCode>
+    </Gender>
+    <Identifier xmlns="http://egov.bg/RegiX/ASP/Common">9901010101</Identifier>
+    <IdentifierType xmlns="http://egov.bg/RegiX/ASP/Common">EGN</IdentifierType>
+  </PersonData>
+  <DecisionData>
+    <Details xmlns="http://egov.bg/RegiX/ASP/Common">
+      <DecisionNumber>D_C_LL/zsp2761-05/03.12.2013</DecisionNumber>
+      <Date>2016-03-06</Date>
+      <OrganizationUnitCode>D_C_LL</OrganizationUnitCode>
+      <OrganizationUnitName>Дирекция "Социално подпомагане"- Люлин</OrganizationUnitName>
+    </Details>
+    <RequestEndDate xmlns="http://egov.bg/RegiX/ASP/Common">2013-12-06</RequestEndDate>
+    <IsArchivedRequest xmlns="http://egov.bg/RegiX/ASP/Common">true</IsArchivedRequest>
+    <LegalGroundCode xmlns="http://egov.bg/RegiX/ASP/Common">ZSP05</LegalGroundCode>
+    <LegalGroundName xmlns="http://egov.bg/RegiX/ASP/Common">ППЗСП-чл. 9 Месечна социална помощ за допълване на доходите</LegalGroundName>
+  </DecisionData>
+</GetMonthlySocialBenefitsResponse>

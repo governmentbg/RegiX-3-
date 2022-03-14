@@ -1,0 +1,56 @@
+<div class="content-wrap" id="content-wrapper">
+  <igx-nav-drawer
+    id="navigation"
+    [isOpen]="drawerState.open"
+    [(pin)]="drawerState.pin"
+    (opening)="drawerState.open = true"
+    (closing)="drawerState.open = false"
+  >
+    <ng-template igxDrawer>
+      <nav>
+        <tl-drawer-item [drawerItems]="this.drawerItems"> </tl-drawer-item>
+      </nav>
+    </ng-template>
+  </igx-nav-drawer>
+  <main>
+    <div id="app-header">
+      <ng-template [ngTemplateOutlet]="headerContent"></ng-template>
+      <igx-navbar
+        [title]="applicationTitle"
+        actionButtonIcon="menu"
+        (onAction)="toggleDrawer()"
+      >
+        <ng-template [ngTemplateOutlet]="navBarContent"></ng-template>
+      </igx-navbar>
+      <div
+        class="breadcrumbs-wrapper"
+        igxLayout
+        igxLayoutJustify="space-between"
+      >
+        <div igxLayout igxLayoutDir="row">
+          <tl-breadcrumbs
+            [defaultBaseSegment]="defaultBaseSegment"
+          ></tl-breadcrumbs>
+        </div>
+      </div>
+    </div>
+    <ng-template [ngTemplateOutlet]="mainContent"></ng-template>
+  </main>
+</div>
+
+<igx-toast
+  #toast
+  message="{{ toastMessage }}"
+  [position]="toastPosition"
+></igx-toast>
+
+<!-- <div
+  id="scroll-top-wrapper"
+  (click)="scrollTop()"
+  title="Върни най-горе"
+  class="scroll-top-wrapper"
+>
+  <span class="scroll-top-inner">
+    <igx-icon>arrow_upward</igx-icon>
+  </span>
+</div> -->

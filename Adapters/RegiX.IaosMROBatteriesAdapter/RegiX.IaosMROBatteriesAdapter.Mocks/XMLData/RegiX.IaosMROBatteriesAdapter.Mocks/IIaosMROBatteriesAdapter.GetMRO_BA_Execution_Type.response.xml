@@ -1,0 +1,9 @@
+<MRO_BA_Execution_Type_Response xmlns="http://egov.bg/RegiX/IAOS/MROBatteries/ExecutionTypeResponse">
+  <Authorization>
+    <AuthNum>1593578426</AuthNum>
+    <CompanyName>Техно Логика</CompanyName>
+    <MroFulfillment>3</MroFulfillment>
+    <RecOrgNum>14587364</RecOrgNum>
+    <UonName>ТехноЛогика</UonName>
+  </Authorization>
+</MRO_BA_Execution_Type_Response>

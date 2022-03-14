@@ -1,0 +1,34 @@
+<igx-linear-bar
+  *ngIf="this.isDataLoading"
+  [indeterminate]="this.isDataLoading" >
+</igx-linear-bar>
+<div
+  class="registers-wrapper"
+  igxLayout
+  igxLayoutDir="column"
+  *ngIf="isDataLoaded && !isDataLoading"
+>
+  <div class="alert" *ngIf="!authorities || authorities.length === 0">
+    <span>Няма намерени администрации</span>
+  </div>
+
+  <tl-card
+    *ngIf="this.administrationId && this.administrationId !== '-'"
+    icon="filter_list"
+    displayDensity="comfortable"
+    [permissions]="clientPermissions.ALL"
+    title="Филтър"
+    subTitle="Приложен е филтър по администрация"
+  >
+  </tl-card>
+  <tl-card
+    *ngFor="let authority of authorities"
+    [routeReference]="administrationRoute"
+    [permissions]="clientPermissions.ALL"
+    [displayDensity]="'comfortable'"
+    [title]="authority.displayName"
+    subTitle="Регистри на администрация"
+    [listItems]="registries[authority.id]"
+  >
+  </tl-card>
+</div>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$authors$</authors>
+    <owners>$authors$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>TechnoLogica 2020</copyright>
+    <dependencies>
+      <dependency id="IdentityServer4.EntityFramework" version="4.1.1"/>
+      <dependency id="IdentityServer4.KeyManagement.EntityFramework" version="2.1.0"/>
+      <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="3.1.9"/>
+      <dependency id="Microsoft.Extensions.Caching.SqlServer" version="3.1.9"/>
+      <dependency id="TechnoLogica.Authentication.Common" version="1.0.38"/>
+      <dependency id="TechnoLogica.Common" version="1.0.4"/>
+    </dependencies>
+  </metadata>
+</package>

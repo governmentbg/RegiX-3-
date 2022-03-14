@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <RootNamespace>TechnoLogica.RegiX.Adapters.Mocks.Tests2</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.Adapters.Mocks\RegiX.Adapters.Mocks.csproj" />
+  </ItemGroup>
+
+</Project>

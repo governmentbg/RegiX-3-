@@ -1,0 +1,499 @@
+﻿<ExpertDecisionsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NELK/EISME">
+  <ExpertDecisionDocument>
+    <RegistrationNumber>1438</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionDescr>общи заболявания към V МБАЛ</CommissionDescr>
+    <CommissionCode>2217</CommissionCode>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>Д-р Боряна Холевич</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Ваня Симова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Соня Костадинова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Анна Стоева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Невена Нишанджиева-Ангелова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Татяна Яшина</Name>
+    </CommisionMember>
+    <PersonNames>ЛИЛИЯ СЛАВЧЕВА ИЛИЕВА</PersonNames>
+    <PersonIdentifier>7807253297</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>643485768</DocumentNumber>
+      <IssueDate>2011-11-10T00:00:00+02:00</IssueDate>
+      <IssuePlace> МВР-София</IssuePlace>
+      <ValidDate>2021-11-10T00:00:00+02:00</ValidDate>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>,жк. Сухата река </AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>,null,жк. Сухата река </AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </TemporaryAddress>
+    <EmploymentCode>0</EmploymentCode>
+    <ConditionCode>0</ConditionCode>
+    <ExpertiseType>частична</ExpertiseType>
+    <ExpertiseTypeCode>3</ExpertiseTypeCode>
+    <ExpertiseDecisionMaking>По документи</ExpertiseDecisionMaking>
+    <ExpertiseDecisionMakingCode>1</ExpertiseDecisionMakingCode>
+    <ExpertisePlace>ТЕЛК</ExpertisePlace>
+    <ExpertisePlaceCode>1</ExpertisePlaceCode>
+    <EmployabilityAssessmentCode>0</EmployabilityAssessmentCode>
+    <AppealedHospitalSheets>б.л. №2960260 серия Е-2015г. </AppealedHospitalSheets>
+    <DurationDisabilityCode>0</DurationDisabilityCode>
+    <Diagnosis>Вирусна инфекция, неуточнена</Diagnosis>
+    <DiagnosisCode>B34.9</DiagnosisCode>
+    <ArgumentsAndObservations>
+      МОТИВИ: В отговор на писмо на НОИ-ТП София област  ТЕЛК при V МБАЛ, след като се запозна с представената медицинска документация /лицето беше призовано с писмо с обр.разписка, но не се яви/
+
+      Р   Е    Ш    И:
+
+      Б.Л.  №2960260 серия Е-2015г. за три дни домашно лечение /26.10.2016 до 28.10.2016г.вкл./ с Дг.: "Вирусна инфекция, неуточнена" е издаден в нарушение на чл.6 ал.5 от НМЕ/2010г.
+
+      ТЕЛК НЕ ОДОБРЯВА  б.л. №2960260 серия Е-2015г.
+
+
+    </ArgumentsAndObservations>
+    <Appeal>
+      <StakeholdersCode>Лицето</StakeholdersCode>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>1437</RegistrationNumber>
+    <MeetingNumber>95</MeetingNumber>
+    <RegistrationDate>2016-05-26T00:00:00+03:00</RegistrationDate>
+    <CommissionDescr>общи заболявания към V МБАЛ</CommissionDescr>
+    <CommissionCode>2217</CommissionCode>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>Д-р Боряна Холевич</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Ваня Симова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Соня Костадинова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Анна Стоева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Невена Нишанджиева-Ангелова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Татяна Яшина</Name>
+    </CommisionMember>
+    <PersonNames>ЛИЛИЯ СЛАВЧЕВА ИЛИЕВА</PersonNames>
+    <PersonIdentifier>7807253297</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>643485768</DocumentNumber>
+      <IssueDate>2011-11-10T00:00:00+02:00</IssueDate>
+      <IssuePlace> МВР-София</IssuePlace>
+      <ValidDate>2021-11-10T00:00:00+02:00</ValidDate>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>,жк. Сухата река </AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>,null,жк. Сухата река </AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </TemporaryAddress>
+    <EmploymentCode>0</EmploymentCode>
+    <ConditionCode>0</ConditionCode>
+    <ExpertiseType>частична</ExpertiseType>
+    <ExpertiseTypeCode>3</ExpertiseTypeCode>
+    <ExpertiseDecisionMaking>По документи</ExpertiseDecisionMaking>
+    <ExpertiseDecisionMakingCode>1</ExpertiseDecisionMakingCode>
+    <ExpertisePlace>ТЕЛК</ExpertisePlace>
+    <ExpertisePlaceCode>1</ExpertisePlaceCode>
+    <EmployabilityAssessmentCode>0</EmployabilityAssessmentCode>
+    <AppealedHospitalSheets>Б.л. № 20154256505 /04.02.16г.</AppealedHospitalSheets>
+    <DurationDisabilityCode>0</DurationDisabilityCode>
+    <Diagnosis>Други форми на затлъстяване</Diagnosis>
+    <DiagnosisCode>E66.8</DiagnosisCode>
+    <ArgumentsAndObservations>
+      МОТИВИ: В отговор на писмо на НОИ-ТП София област  по повод обжалван болничен лист № 20154256505/04.02.16г , ТЕЛК призова редовно лицето: ЛИДИЯ СЛАВЧЕВА ИЛИЕВА . Същото не се яви. След  изискване на мед.документация от здравното заведение издало болничният лист ,ТЕЛК
+
+      Р   Е    Ш    И:
+
+      Горепосоченият болничен лист е издаден в пълно съответствие с обективното състояние на лицето към момента на издаването. За периода на вр.неработоспособност е било на стационарно лечение.
+      Болничен лист №  20154256505  да се счита за  ВАЛИДЕН
+    </ArgumentsAndObservations>
+    <Appeal>
+      <StakeholdersCode>Лицето</StakeholdersCode>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>4196</RegistrationNumber>
+    <MeetingNumber>219</MeetingNumber>
+    <RegistrationDate>2015-12-16T00:00:00+02:00</RegistrationDate>
+    <CommissionDescr>общи заболявания към V МБАЛ</CommissionDescr>
+    <CommissionCode>2217</CommissionCode>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>Д-р Боряна Холевич</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Ваня Симова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Соня Костадинова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Анна Стоева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Невена Нишанджиева-Ангелова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Татяна Яшина</Name>
+    </CommisionMember>
+    <PersonNames>ЛИЛИЯ СЛАВЧЕВА ИЛИЕВА</PersonNames>
+    <PersonIdentifier>7807253297</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>643485768</DocumentNumber>
+      <IssueDate>2011-11-10T00:00:00+02:00</IssueDate>
+      <IssuePlace> МВР-София</IssuePlace>
+      <ValidDate>2021-11-10T00:00:00+02:00</ValidDate>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>,жк. Сухата река </AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>,null,жк. Сухата река </AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </TemporaryAddress>
+    <Employment>работи-професия</Employment>
+    <EmploymentCode>1</EmploymentCode>
+    <Profession>Администратор склад</Profession>
+    <ConditionCode>0</ConditionCode>
+    <ExpertiseType>частична</ExpertiseType>
+    <ExpertiseTypeCode>3</ExpertiseTypeCode>
+    <ExpertiseDecisionMaking>След преглед</ExpertiseDecisionMaking>
+    <ExpertiseDecisionMakingCode>2</ExpertiseDecisionMakingCode>
+    <ExpertisePlace>ТЕЛК</ExpertisePlace>
+    <ExpertisePlaceCode>1</ExpertisePlaceCode>
+    <EmployabilityAssessmentCode>0</EmployabilityAssessmentCode>
+    <AppealedHospitalSheets>Б.л № 0849996 серия Е 2014</AppealedHospitalSheets>
+    <DurationDisabilityCode>0</DurationDisabilityCode>
+    <WorkAccident>Счупване на костите на подбедрицата, включително и на глезена</WorkAccident>
+    <WorkAccidentCode>S82</WorkAccidentCode>
+    <ArgumentsAndObservations>
+      МОТИВИ: В отговор на писмо на НОИ-ТП София град по повод обжалван болничен лист № 0849996 серия Е 2014 , след запознаване с мед.документацията и обективното състояние на лицето, ТЕЛК
+
+      Р   Е    Ш    И:
+
+      Горепосоченият болничен лист е издаден в пълно съответствие с обективното състояние на лицето към момента на издаването, поради което да се счита за  ВАЛИДЕН
+    </ArgumentsAndObservations>
+    <Appeal>
+      <StakeholdersCode>Лицето</StakeholdersCode>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>1344</RegistrationNumber>
+    <MeetingNumber>66</MeetingNumber>
+    <RegistrationDate>2015-04-08T00:00:00+03:00</RegistrationDate>
+    <CommissionDescr>общи заболявания към V МБАЛ</CommissionDescr>
+    <CommissionCode>2217</CommissionCode>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>Д-р Боряна Холевич</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Ваня Симова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Соня Костадинова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Анна Стоева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Невена Нишанджиева-Ангелова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Татяна Яшина</Name>
+    </CommisionMember>
+    <PersonNames>ЛИЛИЯ СЛАВЧЕВА ИЛИЕВА</PersonNames>
+    <PersonIdentifier>7807253297</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>643485768</DocumentNumber>
+      <IssueDate>2011-11-10T00:00:00+02:00</IssueDate>
+      <IssuePlace> МВР-София</IssuePlace>
+      <ValidDate>2021-11-10T00:00:00+02:00</ValidDate>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>,жк. Сухата река </AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>,null,жк. Сухата река </AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </TemporaryAddress>
+    <Employment>работи-професия</Employment>
+    <EmploymentCode>1</EmploymentCode>
+    <Profession>Администратор склад</Profession>
+    <ConditionText>вр. неработоспособен-09.03.15г</ConditionText>
+    <ConditionCode>2</ConditionCode>
+    <ExpertiseType>освидетелстване</ExpertiseType>
+    <ExpertiseTypeCode>1</ExpertiseTypeCode>
+    <ExpertiseDecisionMaking>След преглед</ExpertiseDecisionMaking>
+    <ExpertiseDecisionMakingCode>2</ExpertiseDecisionMakingCode>
+    <ExpertisePlace>ТЕЛК</ExpertisePlace>
+    <ExpertisePlaceCode>1</ExpertisePlaceCode>
+    <EmployabilityAssessment>временно неработоспособен</EmployabilityAssessment>
+    <EmployabilityAssessmentCode>2</EmployabilityAssessmentCode>
+    <DurationDisabilityCode>0</DurationDisabilityCode>
+    <WorkAccident>Счупване на горния край на тибията.С-ние след ф-ра на латерален кондил на лява тибиа.С-ние след кръвна репозиция ,метална остеосинтеза и автоостеопластика.</WorkAccident>
+    <WorkAccidentCode>S82.1</WorkAccidentCode>
+    <ArgumentsAndObservations>
+      АНАМНЕЗА: След последното освид. оплакванията на лицето персистират !
+      ОБЕКТИВНО: Соматичен статус за възрастта
+      Добре зараснал цикатрикс след извършената остеосинтеза. Болезнени и ограничени движения в ЛКС
+      МОТИВИ: Състоняието е  нестабилизирано и обуславя продължаване на вр.неработоспособност
+      ПРИЛОЖЕНИЕ: Мед.п-л, Рентген, Ортопед, Сл.бележка, ПХ
+    </ArgumentsAndObservations>
+    <Appeal>
+      <StakeholdersCode>Лицето</StakeholdersCode>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>804</RegistrationNumber>
+    <MeetingNumber>41</MeetingNumber>
+    <RegistrationDate>2015-03-04T00:00:00+02:00</RegistrationDate>
+    <CommissionDescr>общи заболявания към V МБАЛ</CommissionDescr>
+    <CommissionCode>2217</CommissionCode>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>Д-р Боряна Холевич</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Ваня Симова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Соня Костадинова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Анна Стоева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Невена Нишанджиева-Ангелова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Татяна Яшина</Name>
+    </CommisionMember>
+    <PersonNames>ЛИЛИЯ СЛАВЧЕВА ИЛИЕВА</PersonNames>
+    <PersonIdentifier>7807253297</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>643485768</DocumentNumber>
+      <IssueDate>2011-11-10T00:00:00+02:00</IssueDate>
+      <IssuePlace> МВР-София</IssuePlace>
+      <ValidDate>2021-11-10T00:00:00+02:00</ValidDate>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>,жк. Сухата река </AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>,null,жк. Сухата река </AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </TemporaryAddress>
+    <Employment>работи-професия</Employment>
+    <EmploymentCode>1</EmploymentCode>
+    <Profession>Администратор склад</Profession>
+    <ConditionText>вр. неработоспособен-08.01.15г</ConditionText>
+    <ConditionCode>2</ConditionCode>
+    <ExpertiseType>освидетелстване</ExpertiseType>
+    <ExpertiseTypeCode>1</ExpertiseTypeCode>
+    <ExpertiseDecisionMaking>След преглед</ExpertiseDecisionMaking>
+    <ExpertiseDecisionMakingCode>2</ExpertiseDecisionMakingCode>
+    <ExpertisePlace>ТЕЛК</ExpertisePlace>
+    <ExpertisePlaceCode>1</ExpertisePlaceCode>
+    <EmployabilityAssessment>временно неработоспособен</EmployabilityAssessment>
+    <EmployabilityAssessmentCode>2</EmployabilityAssessmentCode>
+    <DurationDisabilityCode>0</DurationDisabilityCode>
+    <WorkAccident>
+      Счупване на горния край на тибията (голям пищял)
+      С-ние след ф-ра  на латерален кондил на лява тибиа. С-ние след кръвна репозиция, метална остеосинтеза  и автоостеопластика.
+    </WorkAccident>
+    <WorkAccidentCode>S82.1</WorkAccidentCode>
+    <ArgumentsAndObservations>
+      АНАМНЕЗА: След последното освид. оплакванията на лицето персистират !
+      ОБЕКТИВНО: Соматичен статус за възрастта
+      Добре зараснал цикатрикс след извършената остеосинтеза. Болезнени и ограничени движения в ЛКС
+      МОТИВИ: Състоняието е  нестабилизирано и обуславя продължаване на вр.неработоспособност
+      ПРИЛОЖЕНИЕ: Мед.п-л, Сл.белжка, ПХ,  Епикриза, Рентген, Ортопед
+    </ArgumentsAndObservations>
+    <Appeal>
+      <StakeholdersCode>Лицето</StakeholdersCode>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>3979</RegistrationNumber>
+    <MeetingNumber>215</MeetingNumber>
+    <RegistrationDate>2014-12-17T00:00:00+02:00</RegistrationDate>
+    <CommissionDescr>общи заболявания към V МБАЛ</CommissionDescr>
+    <CommissionCode>2217</CommissionCode>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>Д-р Боряна Холевич</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Ваня Симова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Соня Костадинова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Анна Стоева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Невена Нишанджиева-Ангелова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Татяна Яшина</Name>
+    </CommisionMember>
+    <PersonNames>ЛИЛИЯ СЛАВЧЕВА ИЛИЕВА</PersonNames>
+    <PersonIdentifier>7807253297</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>643485768</DocumentNumber>
+      <IssueDate>2011-11-10T00:00:00+02:00</IssueDate>
+      <IssuePlace> МВР-София</IssuePlace>
+      <ValidDate>2021-11-10T00:00:00+02:00</ValidDate>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>,жк. Сухата река </AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>,null,жк. Сухата река </AddressDescription>
+      <DistrictEKATTE>SF</DistrictEKATTE>
+    </TemporaryAddress>
+    <Employment>работи-професия</Employment>
+    <EmploymentCode>1</EmploymentCode>
+    <Profession>Администратор склад</Profession>
+    <ConditionText>вр. неработоспособен-09.11.14г.</ConditionText>
+    <ConditionCode>2</ConditionCode>
+    <ExpertiseType>освидетелстване</ExpertiseType>
+    <ExpertiseTypeCode>1</ExpertiseTypeCode>
+    <ExpertiseDecisionMaking>След преглед</ExpertiseDecisionMaking>
+    <ExpertiseDecisionMakingCode>2</ExpertiseDecisionMakingCode>
+    <ExpertisePlace>ТЕЛК</ExpertisePlace>
+    <ExpertisePlaceCode>1</ExpertisePlaceCode>
+    <EmployabilityAssessment>временно неработоспособен</EmployabilityAssessment>
+    <EmployabilityAssessmentCode>2</EmployabilityAssessmentCode>
+    <DurationDisabilityCode>0</DurationDisabilityCode>
+    <WorkAccident>
+      Счупване на горния край на тибията (голям пищял)
+      С-ние след ф-ра на латерален кондил на лява тибиа. С-ние след кръвна репозиция , метална остеосинтеза и автоостеопластика-16.05.14г
+    </WorkAccident>
+    <WorkAccidentCode>S82.1</WorkAccidentCode>
+    <ArgumentsAndObservations>
+      АНАМНЕЗА: Касае се за жена получил на 14.05.14 при трудова злополука ф-ра на латерален кондил на лява тибиа. Лекуван оперативно
+      Провежда рехабилитация
+      ОБЕКТИВНО: Соматичен статус за възрастта
+      Добре зараснал цикатрикс след извършената остеосинтеза. Болезнени и ограничени движения в ЛКС
+      МОТИВИ: Състоняието е  нестабилизирано и обуславя продължаване на вр.неработоспособност
+      ПРИЛОЖЕНИЕ: Мед. п-л, Разпореждане на НОИ,Декларация за трудова злополука, Епикриза, Рентген, Ортопед, ПХ
+    </ArgumentsAndObservations>
+    <Appeal>
+      <StakeholdersCode>Лицето</StakeholdersCode>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+</ExpertDecisionsResponse>

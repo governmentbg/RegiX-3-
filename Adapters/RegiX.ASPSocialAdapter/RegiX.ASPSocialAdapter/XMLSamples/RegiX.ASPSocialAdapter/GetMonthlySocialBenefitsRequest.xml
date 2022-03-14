@@ -1,0 +1,6 @@
+<GetMonthlySocialBenefitsRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://egov.bg/RegiX/ASP/MonthlyBenefits/GetMonthlySocialBenefitsRequest">
+  <PersonData>
+    <IdentifierType xmlns="http://egov.bg/RegiX/ASP/Common">EGN</IdentifierType>
+    <Identifier xmlns="http://egov.bg/RegiX/ASP/Common">134612344623632</Identifier>
+  </PersonData>
+</GetMonthlySocialBenefitsRequest>

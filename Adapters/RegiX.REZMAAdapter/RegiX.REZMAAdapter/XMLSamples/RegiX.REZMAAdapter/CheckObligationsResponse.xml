@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CheckObligationsResponse xmlns="http://egov.bg/RegiX/AM/REZMA/CheckObligationsResponse">
+  <UIN>UIN1</UIN>
+  <Name>Name1</Name>
+  <Status>има задължение</Status>
+  <ReportDate>1900-01-01T01:01:01+02:00</ReportDate>
+</CheckObligationsResponse>

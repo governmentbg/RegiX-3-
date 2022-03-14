@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/Mt/SendInfoForAccomodationRegister/AccomodationRegisterResponse" targetNamespace="http://egov.bg/RegiX/Mt/SendInfoForAccomodationRegister/AccomodationRegisterResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="AccomodationRegisterResponseType">
+		<xs:sequence>
+			<xs:element name="ResponseCode" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>1 - успешно добавенa регистрация, 2 - успешно променена, 3 - успешно отказана</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegistrationId" type="xs:long">
+				<xs:annotation>
+					<xs:documentation>Уникален идентификатор на регистрация (Primary key)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="AccomodationRegisterResponse" type="AccomodationRegisterResponseType"/>
+</xs:schema>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/IOORGeoPosition/GetCompanyInfoResponse" targetNamespace="http://egov.bg/RegiX/CRC/IOORGeoPosition/GetCompanyInfoResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetCompanyInfoResponse" type="GetCompanyInfoResponseType">
+		<xs:annotation>
+			<xs:documentation>Разултат от изпълнението на "Справка за предприятие"</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="ContactPersonDataType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="ContactPersonName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Лице за контакт</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PhoneNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Телефон</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Еmail" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>E-mail адрес</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Address" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Адрес</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CompanyType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="CompanyName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предприятие</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Type" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EIK" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ЕИК</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="HeadquartersAddress" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Седалище и адрес на управление</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="WebPageAddress" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Интернет страница</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ContactPersonData" type="ContactPersonDataType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни на лица за контакти</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NetworkType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид мрежа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ServiceType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид услуга</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PermissionNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Разрешение №
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IssueDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>От дата
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="StartDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Начална дата
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EndDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Крайна дата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="FrequencyRange" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Честотна лента/обхват</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Status" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Статус</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TerminationDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на прекратяване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CompaniesType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="Company" type="CompanyType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни за предприятие</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GetCompanyInfoResponseType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="Companies" type="CompaniesType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни за предприятия</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

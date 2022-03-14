@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/MVR/SendInfoForTouristRegister/TouristRegisterRequest" targetNamespace="http://egov.bg/RegiX/MVR/SendInfoForTouristRegister/TouristRegisterRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="PersonType">
+		<xs:sequence>
+			<xs:element name="FirstName" type="PersonNameType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MiddleName" type="PersonNameType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Презиме</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="FamilyName" type="PersonNameType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Фамилия</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Sex" type="GenderType">
+				<xs:annotation>
+					<xs:documentation>Пол</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BirthDate" type="xs:date">
+				<xs:annotation>
+					<xs:documentation>Дата на раждане</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Egn" type="IdentityNumberType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ЕГН</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ForeignNumber" type="IdentityNumberType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ЛНЧ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IdentityDocumentTypeCode" type="DocType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Тип на документ за самоличност ICA - лична карта, PAS - паспорт, DRL - Шофьорска книжка </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IdentityDocumentNumber" type="StringLength50Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на документ за самоличност</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IdentityDocumentCountryCode" type="CountryCodeType">
+				<xs:annotation>
+					<xs:documentation>Държава издала документ за самоличност - 2-letter ISO country code</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RegistrationType">
+		<xs:sequence>
+			<xs:element name="RegistrationDate" type="xs:date">
+				<xs:annotation>
+					<xs:documentation>Дата на регистрация</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegistrationUID" type="String500Type">
+				<xs:annotation>
+					<xs:documentation>Уникален номер на регистрация на нощувки</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CheckInDate" type="xs:date">
+				<xs:annotation>
+					<xs:documentation>Дата на пристигане</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CheckOutDate" type="xs:date">
+				<xs:annotation>
+					<xs:documentation>Дата на отпътуване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NightsCount" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>Брой нощувки</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Floor" type="String10Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Етаж</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Room" type="String10Type">
+				<xs:annotation>
+					<xs:documentation>Стая</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TouristPackage" type="xs:boolean">
+				<xs:annotation>
+					<xs:documentation>Туристически пакет</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AveragePrice" type="xs:decimal">
+				<xs:annotation>
+					<xs:documentation>Средна цена на нощувка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IsCanceled" type="xs:boolean" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Анулирана ли е нощувката</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="DocType">
+		<xs:annotation>
+			<xs:documentation>Тип на документ за самоличност: ICA - лична карта, PAS - паспорт, DRL - Шофьорска книжка</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="String10Type">
+			<xs:enumeration value="ICA"/>
+			<xs:enumeration value="PAS"/>
+			<xs:enumeration value="DRL"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="PersonNameType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="500"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="CountryCodeType">
+		<xs:restriction base="xs:string">
+			<xs:length value="2"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StringLength50Type">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="50"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="GenderType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="M"/>
+			<xs:enumeration value="F"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="String10Type">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="10"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="String500Type">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="100"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IdentityNumberType">
+		<xs:restriction base="xs:string">
+			<xs:length value="10"/>
+			<xs:pattern value="\d{10}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="TouristRegisterRequestType">
+		<xs:sequence>
+			<xs:element name="AccomodationPlaceUIN" type="String500Type">
+				<xs:annotation>
+					<xs:documentation>Идентификатор (УИН) на място за настаняване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Person" type="PersonType">
+				<xs:annotation>
+					<xs:documentation>Данни за лицето</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Registration" type="RegistrationType">
+				<xs:annotation>
+					<xs:documentation>Данни за регистрация</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="TouristRegisterRequest" type="TouristRegisterRequestType"/>
+</xs:schema>

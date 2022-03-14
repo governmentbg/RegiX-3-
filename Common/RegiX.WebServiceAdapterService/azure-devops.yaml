@@ -1,0 +1,70 @@
+variables:
+  Major: '1'
+  Minor: '0'
+  Patch: '43'
+  BuildConfiguration: release
+resources:
+- repo: self
+queue:
+  name: RegiX
+steps:
+- powershell: |
+    # Matches AssemblyVersion("1.0.0.0") string.
+    $regex = "(AssemblyVersion\(`"1.0.0.0`"\))"
+    # File contents to be replaced
+    $fileName = "$(Build.Repository.LocalPath)\RegiX.WebServiceAdapterService\Properties\AssemblyInfo.cs"
+    # Iterates through all the file's lines
+    $tmp = Get-Content $fileName | `
+    foreach `
+    { `
+        [regex]::replace($_,$regex, "AssemblyVersion(`"$(Major).$(Minor).$(Patch).0`")") `
+    }
+    # Update the AssemblyInfo.cs file
+    Set-Content $fileName $tmp
+  displayName: 'Replace AssemblyVersion'
+- task: VisualStudioTestPlatformInstaller@1
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/*.sln'
+    feedsToUse: 'select'
+    vstsFeed: 'RegiX'
+- task: MSBuild@1
+  displayName: 'Build'
+  inputs:
+    configuration: '$(BuildConfiguration)' 
+    solution: '**/*.sln' 
+- task: VSTest@2
+  inputs:    
+    codeCoverageEnabled: True
+    vsTestVersion: 'toolsInstaller'
+    testAssemblyVer2: |
+     **\$(BuildConfiguration)\*test*.dll
+     **\$(BuildConfiguration)\**\*test*.dll
+     !**\*Microsoft.VisualStudio.TestPlatform*
+     !**\obj\**
+- task: NuGetCommand@2
+  displayName: 'NuGet pack (prerelease)'
+  condition: eq(variables['BuildConfiguration'], 'debug')
+  inputs:
+    command: pack
+    packagesToPack: 'RegiX.WebServiceAdapterService/RegiX.WebServiceAdapterService.csproj'
+    versioningScheme: 'byPrereleaseNumber' # Options: off, byPrereleaseNumber, byEnvVar, byBuildNumber
+    majorVersion: '$(Major)'
+    minorVersion: '$(Minor)'
+    patchVersion: '$(Patch)'
+    packDestination: '$(Build.ArtifactStagingDirectory)'
+- task: PowerShell@2
+  displayName: 'NuGet pack (release)'
+  condition: eq(variables['BuildConfiguration'], 'release')
+  inputs:
+    targetType: inline
+    script: nuget pack 'RegiX.WebServiceAdapterService/RegiX.WebServiceAdapterService.csproj' -Version '$(Major).$(Minor).$(Patch)' -OutputDirectory '$(Build.ArtifactStagingDirectory)' -Properties Configuration=Release
+- task: NuGetCommand@2
+  displayName: 'NuGet push'
+  inputs:
+    command: push
+    publishVstsFeed: 'RegiX'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg' # Required when command == Push
+
+

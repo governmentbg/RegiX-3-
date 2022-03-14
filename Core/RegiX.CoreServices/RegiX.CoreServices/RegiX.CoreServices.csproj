@@ -1,0 +1,510 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{24E7F0D6-B0A0-4BF3-B963-40ECC64A2D70}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TechnoLogica.RegiX.CoreServices</RootNamespace>
+    <AssemblyName>RegiX.CoreServices</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <TargetFrameworkProfile />
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="AdapterDataService.svc" />
+    <Content Include="RegiXEntryPoint.svc" />
+    <Content Include="RegiXEntryPointV2.svc" />
+    <Content Include="RegiXMetaDataService.svc" />
+    <Content Include="RegiXReceiveResult.svc" />
+    <Content Include="RegiXService.svc" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BinDirectoryLocator.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="AdapterDataService.svc.cs">
+      <DependentUpon>AdapterDataService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="RegiXEntryPoint.svc.cs">
+      <DependentUpon>RegiXEntryPoint.svc</DependentUpon>
+    </Compile>
+    <Compile Include="RegiXEntryPointV2.svc.cs">
+      <DependentUpon>RegiXEntryPointV2.svc</DependentUpon>
+    </Compile>
+    <Compile Include="RegiXMetaDataService.svc.cs">
+      <DependentUpon>RegiXMetaDataService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="RegiXReceiveResult.svc.cs">
+      <DependentUpon>RegiXReceiveResult.svc</DependentUpon>
+    </Compile>
+    <Compile Include="RegiXService.svc.cs">
+      <DependentUpon>RegiXService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="StringResources.Designer.cs">
+      <DependentUpon>StringResources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XMLMetaData\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLSamples\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLSchemas\*\*.xsd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XMLSchemas\*\*\*.xslt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Dockerfile" />
+    <None Include=".dockerignore">
+      <DependentUpon>Dockerfile</DependentUpon>
+    </None>
+    <Content Include="libman.json" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="StringResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="RegiX.Adapters.Common">
+      <Version>1.0.70</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.ASPFosterParentsAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.ASPSocialAdapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.AVBulstat2Adapter">
+      <Version>1.0.34</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.AVTRAdapter">
+      <Version>1.0.28</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.AZJobsAdapter">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.BABHZhSAdapter">
+      <Version>1.0.31</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.ChNTsAdapter">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.Common">
+      <Version>1.0.47</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.Core">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.Core.AdapterClientNETCore">
+      <Version>1.0.12</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.Core.AdapterClientWCF">
+      <Version>1.0.10</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.Core.Data.Interfaces">
+      <Version>1.0.13</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.Core.Interfaces">
+      <Version>1.0.25</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.Core.Metadata">
+      <Version>1.0.35</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.Core.STSIntegration">
+      <Version>1.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.CPCProcurementDossierAdapter">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.CRCAdapter">
+      <Version>1.0.5</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.CRCIOORAdapter">
+      <Version>1.0.7</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.CRCIOORGeoPositionAdapter">
+      <Version>1.0.6</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.CRCIOORNumbersAdapter">
+      <Version>1.0.7</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.CRCNonUniversalPostalServicesAdapter">
+      <Version>1.0.6</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.CRCNotificationsAdapter">
+      <Version>1.0.7</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.CRCNumbersAdapter">
+      <Version>1.0.6</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.CRCPostalServicesAdapter">
+      <Version>1.0.7</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.CRCSignificantEnterprisesAdapter">
+      <Version>1.0.7</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.CRCSubscribersAdapter">
+      <Version>1.0.7</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.CRCTransferredRightsAdapter">
+      <Version>1.0.5</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.CROZAdapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.DaeuReportsAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.DataAccess">
+      <Version>1.0.20</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.FirebirdSqlAdapterService">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GitActualDeclarationAdapter">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GitExplosivesAdapter">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GitPenalProvisionsAdapter">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoBRAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoCivilStatusActsAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoCommon">
+      <Version>1.0.23</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoLEAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoNBDAdapter">
+      <Version>1.0.37</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoNMAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GraoPNAAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.GvaAircraftsAdapter">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaaaEducationCentersAdapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaaaVehicleInspectionsAdapter">
+      <Version>1.0.31</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IAMASeafarersAdapter">
+      <Version>1.0.28</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IAMAVesselsAdapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosMRABagsAdapter">
+      <Version>1.0.31</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosMROBatteriesAdapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosMROElectricityAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosMROOilAdapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosMROTyresAdapter">
+      <Version>1.0.31</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosREG35Adapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosRegister67ZOUAdapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosREGProtectedAreasAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.IaosTraderBrokerAdapter">
+      <Version>1.0.31</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.InformixConnection">
+      <Version>1.0.34</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.LegacyCore">
+      <Version>1.0.10</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.LogstashLogger">
+      <Version>1.0.12</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MFANotariesAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MonChildSchoolStudentsAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MonStudentsAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MPNPOAdapter">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MPRNAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MtEstiAdapter">
+      <Version>1.0.32</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MtspSimevAdapter">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MtTouristRegisterAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MVRANDAdapter">
+      <Version>1.0.19</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MVRBDSAdapter">
+      <Version>1.0.32</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MVRERChAdapter">
+      <Version>1.0.28</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MVRMPSAdapter">
+      <Version>1.0.32</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MVRTouristRegisterAdapter">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MySqlAdapterService">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.MZHPastureAdapter">
+      <Version>1.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NapooStudentDocumentsAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NCPRMedicinalProductsAdapter">
+      <Version>1.0.17</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NelkEismeAdapter">
+      <Version>1.0.33</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NHIFAdapter">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NKPDAdapter">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NOIHospitalSheetsAdapter">
+      <Version>1.0.13</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NoiROAdapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NoiRPAdapter">
+      <Version>1.0.32</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NpgsqlAdapterService">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NRAEmploymentContractsAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.NRAObligatedPersonsAdapter">
+      <Version>1.0.30</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.OracleAdapterService">
+      <Version>1.0.31</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PDVOAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PropertyRegAdapter">
+      <Version>1.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PvDesignAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PVGeoAdapter">
+      <Version>1.0.28</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PvMarksAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PvPatentsAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PvSpcAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.PvUmAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.RDSOAdapter">
+      <Version>1.0.27</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.REZMAAdapter">
+      <Version>1.0.28</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.RTSAdapter">
+      <Version>1.0.24</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.SQLServerAdapterService">
+      <Version>1.0.28</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.WebServiceAdapterService">
+      <Version>1.0.43</Version>
+    </PackageReference>
+    <PackageReference Include="RegiX.ZADSAdapter">
+      <Version>1.0.38</Version>
+    </PackageReference>
+    <PackageReference Include="WcfCustom">
+      <Version>1.0.2</Version>
+    </PackageReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55784</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55784/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

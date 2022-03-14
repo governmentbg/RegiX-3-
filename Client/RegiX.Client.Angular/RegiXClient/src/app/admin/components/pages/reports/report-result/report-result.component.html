@@ -1,0 +1,17 @@
+
+<div *ngIf="this.result">
+  <div *ngIf="this.result.hasError" class="alert alert-info">
+    <ng-container *ngIf="this.result?.error?.includes('http://tempuri.org/IAdapterService/Execute'); else error">
+      Преносим документен формат все още не се поддържа за избраната услуга.
+    </ng-container>
+    <ng-template #error>
+      {{this.result.error}}
+    </ng-template>
+  </div>
+  <div *ngIf="!this.result.hasError">
+    <igx-divider></igx-divider>
+    <app-report-result-display *ngIf="this.result.response || this.result.responsePdf"  [html]="this.result.response" [pdf]="this.result.responsePdf"></app-report-result-display>
+    <igx-divider></igx-divider>
+    <app-report-result-display  [html]="this.result.request"></app-report-result-display>
+  </div>
+</div>

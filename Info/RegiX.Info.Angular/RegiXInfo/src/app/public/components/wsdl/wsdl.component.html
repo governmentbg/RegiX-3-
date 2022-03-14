@@ -1,0 +1,8 @@
+<div class="agency-data-holder">
+  <h4>WSDL</h4>
+  <div class="wsdl-wrapper" *ngIf="text !== null">
+    <div>
+      <pre><code class="scheme-detail xsd-background" [highlight]="text" (highlighted)="onHighlight($event)"></code></pre>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.PvDesignAdapter.APIService.IPvDesignAPI.GetREG_DESIGN_Name</OperationName>
+  <Code>GetREG_DESIGN_Name</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>GetDesignsByName</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/PatentDepartment/Design/NameRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за дизайни по наименование</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>DSName</ParameterName>
+        <ParameterLabel>Име на промишлен дизайн</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a574afaa-98d6-43c7-bbc1-f6dc882b7ca7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://source.gravis.bg/egov/services/mro-bags?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="mro-bags.xsd" MetadataType="Schema" ID="8ab364be-37ee-443d-ac99-32ab029b1803" SourceId="1" SourceUrl="https://source.gravis.bg/egov/services/mro-bags?xsd=1" />
+    <MetadataFile FileName="mro-bags.wsdl" MetadataType="Wsdl" ID="f92c1ff1-d6b8-4e0a-829d-51117bf081d1" SourceId="1" SourceUrl="https://source.gravis.bg/egov/services/mro-bags?wsdl=1" />
+    <MetadataFile FileName="MROBagsServiceImplService.wsdl" MetadataType="Wsdl" ID="e2988c30-298d-4cca-94d2-f2f8bfa93786" SourceId="1" SourceUrl="https://source.gravis.bg/egov/services/mro-bags?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

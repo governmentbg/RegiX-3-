@@ -1,0 +1,71 @@
+<div class="wrapper" igxLayout igxLayoutDir="column">
+  <ng-container *ngFor="let section of filterSections">
+    <tl-card
+      class="tl-card"
+      [title]="section.sectionName"
+      [icon]="section.sectionIcon"
+      [subTitle]="section.selectedName"
+      [listItems]="section.list"
+      [actions]="section.actions"
+      [permissions]="[]"
+      [listLoading]="section.isLoading"
+      [cardHeaderContent]="cardHeaderContent"
+      [cardActions]="cardActionsPager"
+      [displayDensity]="displayDensity"
+    >
+      <ng-template #cardHeaderContent>
+        <!--button
+          *ngIf="allowAdd && !section.selectedId && !section.addFormVisible"
+          igxButton="icon"
+
+          title="Нов"
+          (click)="section.add()"
+        >
+          <igx-icon>
+            add
+          </igx-icon>
+        </button-->
+        <form *ngIf="section.allowFiltering && !section.selectedId">
+          <igx-input-group type="search" [displayDensity]="'compact'">
+            <input
+              #input
+              igxInput
+              placeholder="Търсене"
+              (keyup)="section.filterChanged(input.value)"
+            />
+            <igx-prefix>
+              <igx-icon>search</igx-icon>
+            </igx-prefix>
+            <igx-suffix
+              *ngIf="input.value.length > 0"
+              (click)="section.clearSearchInput(input)"
+            >
+              <igx-icon>clear</igx-icon>
+            </igx-suffix>
+          </igx-input-group>
+        </form>
+        <button
+          *ngIf="section.anyLevelChoice && section.selectedId"
+          igxButton="icon"
+
+          title="Избор"
+          (click)="section.check()"
+        >
+          <igx-icon>
+            check
+          </igx-icon>
+        </button>
+      </ng-template>
+      <ng-template #cardActionsPager>
+        <div class="tl-paginator" *ngIf="!section.isLoading && !section.selectedId && section.oDataQueryEnabled === true">
+          <tl-grid-pager
+          [(perPage)]="section.perPage"
+          [totalCount]="section.total"
+          [page]="section.index"
+          (pagerChange)="section.pagerChange($event)">
+          </tl-grid-pager>
+        </div>
+      </ng-template>
+    </tl-card>
+  </ng-container>
+</div>

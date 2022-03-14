@@ -1,0 +1,26 @@
+<tl-layout
+  #layout
+  [navBarContent]="navBarContent"
+  [mainContent]="mainContent"
+  [applicationTitle]="applicationTitle"
+  [headerContent]="headerContent"
+  [drawerItems]="this.drawerItems">
+  <ng-template #headerContent>
+    <rgx-header></rgx-header>
+  </ng-template>
+  <ng-template #navBarContent>
+    <button
+      type="button"
+      title="Помощ"
+      class="help-button"
+      igxButton="outlined"
+      (click)="navigateToHelp()"
+    >
+      <igx-icon>help</igx-icon>
+    </button>
+    <app-logged-user></app-logged-user>
+  </ng-template>
+    <ng-template #mainContent>
+    <router-outlet></router-outlet>
+    </ng-template>
+</tl-layout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/ASP/SendRequestForFosterParents/AspFosterParentsRequest" targetNamespace="http://egov.bg/RegiX/ASP/SendRequestForFosterParents/AspFosterParentsRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="IdentTypeType">
+		<xs:annotation>
+			<xs:documentation>Тип на идентификатора ЕГН/ЛНЧ</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:nonNegativeInteger">
+			<xs:enumeration value="1">
+				<xs:annotation>
+					<xs:documentation>ЕГН</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2">
+				<xs:annotation>
+					<xs:documentation>ЛНЧ</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="AspHeader">
+		<xs:sequence>
+			<xs:element name="StartDate" type="xs:date">
+				<xs:annotation>
+					<xs:documentation>Начална дата (включително)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EndDate" type="xs:date">
+				<xs:annotation>
+					<xs:documentation>Крайна дата (включително)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RequestSize" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>Брой редове в запитването</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IsunCode" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Kод на проекта, за който се иска информация за договор</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AspDataItem">
+		<xs:sequence>
+			<xs:element name="Row" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>Номер на ред</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IdentTypeParent" type="IdentTypeType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Тип на идентификатора на лице "Приемен родител" (1- ЕГН, 2 - ЛНЧ)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IdentificatorParent" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор на лице "Приемен родител"</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IdentTypeChild" type="IdentTypeType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Тип на идентификатора на лице "Настанено дете" (1- ЕГН, 2 - ЛНЧ)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IdentificatorChild" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор на лице "Настанено дете"</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AspData">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="DataItem" type="AspDataItem">
+				<xs:annotation>
+					<xs:documentation>Данни за дете/приемен родител</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AspFosterParentsRequest">
+		<xs:sequence>
+			<xs:element name="Header" type="AspHeader">
+				<xs:annotation>
+					<xs:documentation>Заглавна част на запитването</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Data" type="AspData">
+				<xs:annotation>
+					<xs:documentation>Детайли на запитването</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="AspFosterParentsRequest" type="AspFosterParentsRequest">
+		<xs:annotation>
+			<xs:documentation>Заявка за извличане на данни за физически лица(родител/дете) от ИИС на АСП относно наличие на вписване в Регистъра на приемните семейства, Регистъра на децата в риск, регистрирано решение на ТЕЛК и данни за участие в проект за период</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

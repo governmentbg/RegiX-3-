@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://ws.nvms.indexbg.com/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ReportWSService" targetNamespace="http://ws.nvms.indexbg.com/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="ReportWSService_xsd_1.xsd" namespace="http://ws.nvms.indexbg.com/" />
+    </xsd:schema>
+  </types>
+  <message name="getVersion">
+    <part name="parameters" element="tns:getVersion" />
+  </message>
+  <message name="getVersionResponse">
+    <part name="parameters" element="tns:getVersionResponse" />
+  </message>
+  <message name="getSpravkaZemProizv">
+    <part name="parameters" element="tns:getSpravkaZemProizv" />
+  </message>
+  <message name="getSpravkaZemProizvResponse">
+    <part name="parameters" element="tns:getSpravkaZemProizvResponse" />
+  </message>
+  <message name="WSFault">
+    <part name="fault" element="tns:WebServiceException" />
+  </message>
+  <message name="getSpravkaJivotni">
+    <part name="parameters" element="tns:getSpravkaJivotni" />
+  </message>
+  <message name="getSpravkaJivotniResponse">
+    <part name="parameters" element="tns:getSpravkaJivotniResponse" />
+  </message>
+  <message name="getSpravkaMps">
+    <part name="parameters" element="tns:getSpravkaMps" />
+  </message>
+  <message name="getSpravkaMpsResponse">
+    <part name="parameters" element="tns:getSpravkaMpsResponse" />
+  </message>
+  <message name="getSpravkaZemProizvAllOez">
+    <part name="parameters" element="tns:getSpravkaZemProizvAllOez" />
+  </message>
+  <message name="getSpravkaZemProizvAllOezResponse">
+    <part name="parameters" element="tns:getSpravkaZemProizvAllOezResponse" />
+  </message>
+  <portType name="ReportWS">
+    <operation name="getVersion">
+      <input message="tns:getVersion" />
+      <output message="tns:getVersionResponse" />
+    </operation>
+    <operation name="getSpravkaZemProizv">
+      <input message="tns:getSpravkaZemProizv" />
+      <output message="tns:getSpravkaZemProizvResponse" />
+      <fault name="WSFault" message="tns:WSFault" />
+    </operation>
+    <operation name="getSpravkaJivotni">
+      <input message="tns:getSpravkaJivotni" />
+      <output message="tns:getSpravkaJivotniResponse" />
+      <fault name="WSFault" message="tns:WSFault" />
+    </operation>
+    <operation name="getSpravkaMps">
+      <input message="tns:getSpravkaMps" />
+      <output message="tns:getSpravkaMpsResponse" />
+      <fault name="WSFault" message="tns:WSFault" />
+    </operation>
+    <operation name="getSpravkaZemProizvAllOez">
+      <input message="tns:getSpravkaZemProizvAllOez" />
+      <output message="tns:getSpravkaZemProizvAllOezResponse" />
+      <fault name="WSFault" message="tns:WSFault" />
+    </operation>
+  </portType>
+  <binding name="ReportWSPortBinding" type="tns:ReportWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="getVersion">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getSpravkaZemProizv">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="WSFault">
+        <soap:fault use="literal" name="WSFault" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getSpravkaJivotni">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="WSFault">
+        <soap:fault use="literal" name="WSFault" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getSpravkaMps">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="WSFault">
+        <soap:fault use="literal" name="WSFault" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getSpravkaZemProizvAllOez">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="WSFault">
+        <soap:fault use="literal" name="WSFault" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="ReportWSService">
+    <port name="ReportWSPort" binding="tns:ReportWSPortBinding">
+      <soap:address location="http://192.168.100.214:80/Animals/ReportWSService" />
+    </port>
+  </service>
+</definitions>

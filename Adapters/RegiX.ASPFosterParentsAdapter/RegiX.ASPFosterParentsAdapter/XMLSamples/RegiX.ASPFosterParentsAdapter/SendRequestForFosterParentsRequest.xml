@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AspFosterParentsRequest xmlns="http://egov.bg/RegiX/ASP/SendRequestForFosterParents/AspFosterParentsRequest">
+  <Header>
+    <StartDate>1900-01-01</StartDate>
+    <EndDate>1900-01-01</EndDate>
+    <RequestSize>1</RequestSize>
+    <IsunCode>IsunCode1</IsunCode>
+  </Header>
+  <Data>
+    <DataItem>
+      <Row>1</Row>
+      <IdentTypeParent>1</IdentTypeParent>
+      <IdentificatorParent>IdentificatorParent1</IdentificatorParent>
+      <IdentTypeChild>1</IdentTypeChild>
+      <IdentificatorChild>IdentificatorChild1</IdentificatorChild>
+    </DataItem>
+    <DataItem>
+      <Row>-2147483647</Row>
+      <IdentTypeParent>2</IdentTypeParent>
+      <IdentificatorParent>IdentificatorParent2</IdentificatorParent>
+      <IdentTypeChild>2</IdentTypeChild>
+      <IdentificatorChild>IdentificatorChild2</IdentificatorChild>
+    </DataItem>
+    <DataItem>
+      <Row>2147483647</Row>
+      <IdentTypeParent>1</IdentTypeParent>
+      <IdentificatorParent>IdentificatorParent3</IdentificatorParent>
+      <IdentTypeChild>1</IdentTypeChild>
+      <IdentificatorChild>IdentificatorChild3</IdentificatorChild>
+    </DataItem>
+  </Data>
+</AspFosterParentsRequest>

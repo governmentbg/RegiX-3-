@@ -1,0 +1,54 @@
+resources:
+- repo: self
+queue:
+  name: RegiX
+steps:
+- powershell: |
+    # Matches REGIX_PAT string.
+    $regex = "(REGIX_PAT)"
+    # File contents to be replaced
+    $fileName = "$(Build.Repository.LocalPath)\projects\rgx-common\.npmrc"
+    # Iterates through all the file's lines
+    $tmp = Get-Content $fileName | `
+    foreach `
+    { `
+        [regex]::replace($_,$regex, "$(npmrc.pat_regix)") `
+    }
+    # Update the .npmrc PAT token
+    Set-Content $fileName $tmp
+  displayName: 'Replace REGIX_PAT in .npmrc'
+- powershell: |
+    # Matches INFRAGISTICS_PAT string.
+    $regex = "(INFRAGISTICS_PAT)"
+    # File contents to be replaced
+    $fileName = "$(Build.Repository.LocalPath)\projects\rgx-common\.npmrc"
+    # Iterates through all the file's lines
+    $tmp = Get-Content $fileName | `
+    foreach `
+    { `
+        [regex]::replace($_,$regex, "$(npmrc.pat_igx)") `
+    }
+    # Update the .npmrc PAT token
+    Set-Content $fileName $tmp
+  displayName: 'Replace INFRAGISTICS_PAT in .npmrc'
+- task: Npm@1
+  displayName: 'npm install'
+  inputs:
+    command: 'install'
+    workingDir: '$(Build.Repository.LocalPath)'
+- task: Npm@1
+  displayName: 'npm install'
+  inputs:
+    command: 'install'
+    workingDir: '$(Build.Repository.LocalPath)\projects\rgx-common'
+- task: Npm@1
+  displayName: 'npm build'
+  inputs:
+    command: 'custom'
+    customCommand: 'run rgx-common'
+    workingDir: '$(Build.Repository.LocalPath)'
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: rgx-common'
+  inputs:
+    PathtoPublish: '$(Build.Repository.LocalPath)\dist\rgx-common'
+    ArtifactName: rgx-common

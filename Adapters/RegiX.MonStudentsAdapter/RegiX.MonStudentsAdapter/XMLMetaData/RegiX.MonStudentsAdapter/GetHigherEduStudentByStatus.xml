@@ -1,0 +1,49 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.MonStudentsAdapter.APIService.IMonStudentsAPI.GetHigherEduStudentByStatus</OperationName>
+  <Code>GetHigherEduStudentByStatus</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>HigherEduStudentByStatusRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/MON/HigherEdu/HigherEduStudentByStatusRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за всички студенти или докторанти със статус "действащ" и "отчислен с право на защита", по подаден идентификатор</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>StudentIdentifier</ParameterName>
+        <ParameterLabel>ЕГН/ЛНЧ/Друг вид идентификатор</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <IdentifierType>7</IdentifierType>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>StudentStatus</ParameterName>
+        <ParameterLabel>Статус на студент /докторант</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>StatusType</Type>
+          <EnumValues>
+            <EnumValue>
+              <Value>active</Value>
+              <DisplayText>Действащ</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>graduationright</Value>
+              <DisplayText>Отчислен с право на защита</DisplayText>
+            </EnumValue>
+          </EnumValues>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

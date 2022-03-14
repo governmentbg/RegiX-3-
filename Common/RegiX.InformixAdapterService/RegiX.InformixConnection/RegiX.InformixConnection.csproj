@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.InformixConnection</RootNamespace>
+    <Authors>Dimitar Mitev</Authors>
+    <Company>TechnoLogica</Company>
+    <Description>Common service for Informix adapters</Description>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.Adapters.Common" Version="1.0.70" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="IBM.Data.Informix">
+      <HintPath>IBM.Data.Informix.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="IBM.Data.Informix.dll">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

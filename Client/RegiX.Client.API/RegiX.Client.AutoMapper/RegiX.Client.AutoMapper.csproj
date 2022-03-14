@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.Client.AutoMapper</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="API.Services" Version="3.1.11" />
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.Client.API.DataContracts\RegiX.Client.API.DataContracts.csproj" />
+    <ProjectReference Include="..\RegiX.Client.API.Infrastructure\RegiX.Client.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

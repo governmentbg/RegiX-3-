@@ -1,0 +1,167 @@
+<!--RQ05-->
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.NRAPublicDebtsCollectionAdapter.APIService.INRAPublicDebtsCollectionAPI.SendDataForCollectedAmountUpdate</OperationName>
+  <Code>SendDataForCollectedAmountUpdate</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>SendDataForCollectedAmountUpdateRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForCollectedAmountUpdateRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Предаване на информация за отразяване на събрана сума по вземане при взискател/актосъставител</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Payment</ParameterName>
+        <ParameterLabel>Плащане</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>Complex</Type>
+          <EnumValues/>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>ActIssurerID</ParameterName>
+            <ParameterLabel>ID на взискател/актосъставител</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>1</OrderNumber>
+
+            <ParameterType>
+              <Type>long</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SubdivisionID</ParameterName>
+            <ParameterLabel>ID на подразделение</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>2</OrderNumber>
+
+            <ParameterType>
+              <Type>long</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>CollectibleID</ParameterName>
+            <ParameterLabel>ID на вземане</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>3</OrderNumber>
+
+            <ParameterType>
+              <Type>long</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>SubdivisionEIK</ParameterName>
+            <ParameterLabel>Идентификатор на взискател/актосъставител</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>4</OrderNumber>
+
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>PaymentDate</ParameterName>
+            <ParameterLabel>ID на вземане</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>5</OrderNumber>
+
+            <ParameterType>
+              <Type>Date</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>TotalAmount</ParameterName>
+            <ParameterLabel>Общо разпределена сума за вземането</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>6</OrderNumber>
+
+            <ParameterType>
+              <Type>decimal</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>PrincipalAmountPaid</ParameterName>
+            <ParameterLabel>Платена сума по главница</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>7</OrderNumber>
+
+            <ParameterType>
+              <Type>decimal</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>InterestAmountPaid</ParameterName>
+            <ParameterLabel>Платена сума по лихва</ParameterLabel>
+            <IsRequired>false</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>8</OrderNumber>
+
+            <ParameterType>
+              <Type>decimal</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>Currency</ParameterName>
+            <ParameterLabel>Валута</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>9</OrderNumber>
+
+            <ParameterType>
+              <Type>string</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>OutstandingAmount</ParameterName>
+            <ParameterLabel>Остатък по вземане за събиране при взискател/актосъставител</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>10</OrderNumber>
+
+            <ParameterType>
+              <Type>decimal</Type>
+              <EnumValues/>
+            </ParameterType>
+          </ParameterInfo>
+        </Parameter>
+      </ChildParamteters>
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

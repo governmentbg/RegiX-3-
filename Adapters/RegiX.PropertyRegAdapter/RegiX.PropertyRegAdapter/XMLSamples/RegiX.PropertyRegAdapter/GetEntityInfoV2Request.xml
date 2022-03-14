@@ -1,0 +1,6 @@
+<EntityInfoV2Request xsi:schemaLocation="http://egov.bg/RegiX/AV/PropertyReg/EntityInfoV2Request EntityInfoV2Request.xsd" xmlns="http://egov.bg/RegiX/AV/PropertyReg/EntityInfoV2Request" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<EIK>String</EIK>
+	<DateFrom>2001-12-17T09:30:47.0Z</DateFrom>
+	<DateTo>2001-12-17T09:30:47.0Z</DateTo>
+	<SiteID>String</SiteID>
+</EntityInfoV2Request>

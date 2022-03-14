@@ -1,0 +1,10 @@
+<REG35_Stages_Validity_Period_Response xmlns="http://egov.bg/RegiX/IAOS/REG35/StagesValidityPeriodResponse">
+  <Authorization>
+    <AuthType>ИНД</AuthType>
+    <State>16</State>
+    <Waste>
+      <WasteCode xmlns="">434</WasteCode>
+      <WasteType xmlns="">Пластмаса</WasteType>
+    </Waste>
+  </Authorization>
+</REG35_Stages_Validity_Period_Response>

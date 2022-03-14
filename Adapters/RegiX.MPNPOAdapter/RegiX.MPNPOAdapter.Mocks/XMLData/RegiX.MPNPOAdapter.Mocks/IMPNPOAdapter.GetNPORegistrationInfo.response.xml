@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<NPODetailsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/MP/NPODetailsResponse">
+  <RegistrationNumber>1</RegistrationNumber>
+  <Name>Test</Name>
+  <OrgForm>Test</OrgForm>
+  <ContactInfo>088565223</ContactInfo>
+  <NationalityCode>100</NationalityCode>
+  <Nationality>Българска</Nationality>
+  <BoardMembers>
+    <BoardMember>
+      <Name>fdsafasf</Name>
+      <DateFrom>2015-01-01</DateFrom>
+    </BoardMember>
+  </BoardMembers>
+</NPODetailsResponse>

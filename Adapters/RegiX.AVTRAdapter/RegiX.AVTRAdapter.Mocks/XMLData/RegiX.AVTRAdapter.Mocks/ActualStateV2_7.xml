@@ -1,0 +1,514 @@
+<ActualStateResponseV2 xmlns="http://egov.bg/RegiX/AV/TR/ActualStateResponseV2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <Deed>
+                <DeedStatus>E</DeedStatus>
+                <CompanyName>ЛИДЛ БЪЛГАРИЯ ЕООД ЕНД КО</CompanyName>
+                <GUID>dd91776ec7e64a41be0dd0476f4f6854</GUID>
+                <UIC>131071587</UIC>
+                <LegalForm>KD</LegalForm>
+                <CaseNo>3810</CaseNo>
+                <CaseYear>2003</CaseYear>
+                <CourtNo>110</CourtNo>
+                <Records>
+                  <Record>
+                    <RecordData>
+                      <UIC uic="131071587" IsNew="true">
+                        <CompanyControl>ЛИДЛ БЪЛГАРИЯ ЕООД ЕНД КО</CompanyControl>
+                        <BulstatDeed>
+                          <Deed>3810</Deed>
+                          <Year>2003</Year>
+                          <CourtCode>110</CourtCode>
+                        </BulstatDeed>
+                      </UIC>
+                    </RecordData>
+                    <RecordId>436458</RecordId>
+                    <IncomingId>79169</IncomingId>
+                    <FieldIdent>00010</FieldIdent>
+                    <MainField>
+                      <GroupId>45</GroupId>
+                      <GroupName>Идентификация</GroupName>
+                      <SectionId>414</SectionId>
+                      <SectionName>Обща информация</SectionName>
+                      <MainFieldIdent>00010</MainFieldIdent>
+                      <MainFieldCode>1</MainFieldCode>
+                      <MainFieldName>ЕИК/ПИК</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080228101039</FieldEntryNumber>
+                    <FieldActionDate>2008-02-28T10:10:39</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Company>ЛИДЛ БЪЛГАРИЯ ЕООД ЕНД КО</Company>
+                    </RecordData>
+                    <RecordId>436459</RecordId>
+                    <IncomingId>79169</IncomingId>
+                    <FieldIdent>00020</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00020</MainFieldIdent>
+                      <MainFieldCode>2</MainFieldCode>
+                      <MainFieldName>Фирма</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080228101039</FieldEntryNumber>
+                    <FieldActionDate>2008-02-28T10:10:39</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <LegalForm Text="Командитно дружество" Code="3" />
+                    </RecordData>
+                    <RecordId>436462</RecordId>
+                    <IncomingId>79169</IncomingId>
+                    <FieldIdent>00030</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00030</MainFieldIdent>
+                      <MainFieldCode>3</MainFieldCode>
+                      <MainFieldName>Правна форма</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080228101039</FieldEntryNumber>
+                    <FieldActionDate>2008-02-28T10:10:39</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Transliteration>LIDL BULGARIA EOOD END KO</Transliteration>
+                    </RecordData>
+                    <RecordId>436671</RecordId>
+                    <IncomingId>79169</IncomingId>
+                    <FieldIdent>00040</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00040</MainFieldIdent>
+                      <MainFieldCode>4</MainFieldCode>
+                      <MainFieldName>Изписване на чужд език</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080228101039</FieldEntryNumber>
+                    <FieldActionDate>2008-02-28T10:10:39</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Seat>
+                        <Address>
+                          <CountryID>1</CountryID>
+                          <CountryCode>BGR</CountryCode>
+                          <Country>БЪЛГАРИЯ</Country>
+                          <IsForeign>false</IsForeign>
+                          <DistrictID>51</DistrictID>
+                          <DistrictEkatte>SFO</DistrictEkatte>
+                          <District>София</District>
+                          <Municipalityid>87</Municipalityid>
+                          <MunicipalityEkatte>SFO17</MunicipalityEkatte>
+                          <Municipality>Елин Пелин</Municipality>
+                          <SettlementID>3198</SettlementID>
+                          <SettlementEKATTE>61248</SettlementEKATTE>
+                          <Settlement>с. Равно поле</Settlement>
+                          <AreaID xsi:nil="true" />
+                          <Area />
+                          <AreaEkatte />
+                          <PostCode>2129</PostCode>
+                          <ForeignPlace />
+                          <HousingEstate>-</HousingEstate>
+                          <Street>ул. "3-ти Март"</Street>
+                          <StreetNumber>1</StreetNumber>
+                          <Block>-</Block>
+                          <Entrance>-</Entrance>
+                          <Floor>-</Floor>
+                          <Apartment>-</Apartment>
+                        </Address>
+                        <Contacts>
+                          <Phone>8026600</Phone>
+                          <Fax>8026610</Fax>
+                          <EMail>info@lidl.bg</EMail>
+                          <URL />
+                        </Contacts>
+                      </Seat>
+                    </RecordData>
+                    <RecordId>436460</RecordId>
+                    <IncomingId>4449407</IncomingId>
+                    <FieldIdent>00050</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00050</MainFieldIdent>
+                      <MainFieldCode>5</MainFieldCode>
+                      <MainFieldName>Седалище и адрес на управление</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20100707083946</FieldEntryNumber>
+                    <FieldActionDate>2010-07-07T08:39:46</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <SubjectOfActivity IsBank="false" IsBankText="" IsInsurer="false" IsInsurerText="">търговия на дребно със стоки за широко потребление, които са допуснати до обществения пазар, между които индустриални и хранителни стоки, управление и участие в други предприятия, които осъществяват дейност в горепосочените отрасли, и свързаните с тях сделки, както и всяка друга дейност, незабранена от българското законодателство.</SubjectOfActivity>
+                    </RecordData>
+                    <RecordId>436461</RecordId>
+                    <IncomingId>13005929</IncomingId>
+                    <FieldIdent>00060</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00060</MainFieldIdent>
+                      <MainFieldCode>6</MainFieldCode>
+                      <MainFieldName>Предмет на дейност</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20131008144049</FieldEntryNumber>
+                    <FieldActionDate>2013-10-08T14:40:49</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <AssignedManager>
+                        <Subject IsForeignTraderText="0">
+                          <Indent>130993772</Indent>
+                          <Name>"ЛИДЛ БЪЛГАРИЯ" ЕООД</Name>
+                          <IndentType>UIC</IndentType>
+                        </Subject>
+                      </AssignedManager>
+                    </RecordData>
+                    <RecordId>437250</RecordId>
+                    <IncomingId>79169</IncomingId>
+                    <FieldIdent>000710</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00071</MainFieldIdent>
+                      <MainFieldCode>7а</MainFieldCode>
+                      <MainFieldName>Лица, на които е възложено управлението</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080228101039</FieldEntryNumber>
+                    <FieldActionDate>2008-02-28T10:10:39</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Representative101>
+                        <Subject CompetentAuthorityForRegistration="" RegistrationNumber="" IsForeignTraderText="0">
+                          <Indent>130993772</Indent>
+                          <Name>"ЛИДЛ БЪЛГАРИЯ" ЕООД</Name>
+                          <IndentType>UIC</IndentType>
+                          <CountryID>1</CountryID>
+                          <CountryName>БЪЛГАРИЯ</CountryName>
+                        </Subject>
+                      </Representative101>
+                    </RecordData>
+                    <RecordId>43983707</RecordId>
+                    <IncomingId>16342450</IncomingId>
+                    <FieldIdent>001010</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00101</MainFieldIdent>
+                      <MainFieldCode>10</MainFieldCode>
+                      <MainFieldName>Представители</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20150203162456</FieldEntryNumber>
+                    <FieldActionDate>2015-02-03T16:24:56</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <WayOfRepresentation jointly="0" severally="0" otherWay="1">От неограничено отговорния съдружник "ЛИДЛ БЪЛГАРИЯ" ЕООД, ЕИК/ПИК 130993772 чрез двама от неговите управители или чрез един негов управител и един негов прокурист.</WayOfRepresentation>
+                    </RecordData>
+                    <RecordId>5577759</RecordId>
+                    <IncomingId>16342450</IncomingId>
+                    <FieldIdent>00110</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00110</MainFieldIdent>
+                      <MainFieldCode>11</MainFieldCode>
+                      <MainFieldName>Начин на представляване</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20150203162456</FieldEntryNumber>
+                    <FieldActionDate>2015-02-03T16:24:56</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <UnlimitedLiabilityPartner>
+                        <Subject IsForeignTraderText="0">
+                          <Indent>130993772</Indent>
+                          <Name>ЛИДЛ БЪЛГАРИЯ</Name>
+                          <IndentType>UIC</IndentType>
+                          <CountryID xsi:nil="true" />
+                          <CountryName />
+                        </Subject>
+                        <Address>
+                          <CountryID>1</CountryID>
+                          <CountryCode>BGR</CountryCode>
+                          <Country>БЪЛГАРИЯ</Country>
+                          <IsForeign>false</IsForeign>
+                          <DistrictID>51</DistrictID>
+                          <DistrictEkatte>SFO</DistrictEkatte>
+                          <District>София</District>
+                          <Municipalityid>87</Municipalityid>
+                          <MunicipalityEkatte>SFO17</MunicipalityEkatte>
+                          <Municipality>Елин Пелин</Municipality>
+                          <SettlementID>3198</SettlementID>
+                          <SettlementEKATTE>61248</SettlementEKATTE>
+                          <Settlement>с. Равно поле</Settlement>
+                          <AreaID xsi:nil="true" />
+                          <Area />
+                          <AreaEkatte />
+                          <PostCode>2129</PostCode>
+                          <ForeignPlace />
+                          <HousingEstate>-</HousingEstate>
+                          <Street>ул. "3-ти Март"</Street>
+                          <StreetNumber>1</StreetNumber>
+                          <Block>-</Block>
+                          <Entrance>-</Entrance>
+                          <Floor>-</Floor>
+                          <Apartment>-</Apartment>
+                        </Address>
+                      </UnlimitedLiabilityPartner>
+                    </RecordData>
+                    <RecordId>15687575</RecordId>
+                    <IncomingId>4706835</IncomingId>
+                    <FieldIdent>002000</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00200</MainFieldIdent>
+                      <MainFieldCode>20</MainFieldCode>
+                      <MainFieldName>Неограничено отговорни съдружници</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20100716190113</FieldEntryNumber>
+                    <FieldActionDate>2010-07-16T19:01:13</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <LimitedLiabilityPartner>
+                        <Subject IsForeignTraderText="1">
+                          <Indent>724689</Indent>
+                          <Name>Лидл България ГмбХ, РАЙОНЕН СЪД НА ЩУТГАРТ</Name>
+                          <IndentType>Undefined</IndentType>
+                        </Subject>
+                        <Address>
+                          <CountryID>83</CountryID>
+                          <CountryCode>DEU</CountryCode>
+                          <Country>ГЕРМАНИЯ</Country>
+                          <IsForeign>true</IsForeign>
+                          <DistrictID xsi:nil="true" />
+                          <DistrictEkatte />
+                          <District />
+                          <Municipalityid xsi:nil="true" />
+                          <MunicipalityEkatte />
+                          <Municipality />
+                          <SettlementID xsi:nil="true" />
+                          <SettlementEKATTE />
+                          <Settlement />
+                          <AreaID xsi:nil="true" />
+                          <Area />
+                          <AreaEkatte />
+                          <PostCode />
+                          <ForeignPlace>НЕКАРСУЛМ</ForeignPlace>
+                          <HousingEstate />
+                          <Street />
+                          <StreetNumber />
+                          <Block />
+                          <Entrance />
+                          <Floor />
+                          <Apartment />
+                        </Address>
+                      </LimitedLiabilityPartner>
+                    </RecordData>
+                    <RecordId>1916953</RecordId>
+                    <IncomingId>303080</IncomingId>
+                    <FieldIdent>002100</FieldIdent>
+                    <MainField>
+                      <GroupId>415</GroupId>
+                      <GroupName>Основни обстоятелства</GroupName>
+                      <SectionId>1</SectionId>
+                      <SectionName>Общ статус</SectionName>
+                      <MainFieldIdent>00210</MainFieldIdent>
+                      <MainFieldCode>21</MainFieldCode>
+                      <MainFieldName>Ограничено отговорни съдружници</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20080517161956</FieldEntryNumber>
+                    <FieldActionDate>2008-05-17T16:19:56</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <EraseProcura>1</EraseProcura>
+                    </RecordData>
+                    <RecordId>37952131</RecordId>
+                    <IncomingId>13349763</IncomingId>
+                    <FieldIdent>00440</FieldIdent>
+                    <MainField>
+                      <GroupId>17</GroupId>
+                      <GroupName>Прокура</GroupName>
+                      <SectionId>2</SectionId>
+                      <SectionName>Прокура</SectionName>
+                      <MainFieldIdent>00440</MainFieldIdent>
+                      <MainFieldCode>44</MainFieldCode>
+                      <MainFieldName>Заличаване на прокура</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20131129110928</FieldEntryNumber>
+                    <FieldActionDate>2013-11-29T11:09:28</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <FormOfTransforming701 Influx="1" Fusion="0" Division="0" Separation="0" ChangeLegalForm="0" TransferringProperty="0" />
+                    </RecordData>
+                    <RecordId>25309476</RecordId>
+                    <IncomingId>7920399</IncomingId>
+                    <FieldIdent>07010</FieldIdent>
+                    <MainField>
+                      <GroupId>40</GroupId>
+                      <GroupName>Преобразуване </GroupName>
+                      <SectionId>9</SectionId>
+                      <SectionName>Преобразуване</SectionName>
+                      <MainFieldIdent>07010</MainFieldIdent>
+                      <MainFieldCode>701</MainFieldCode>
+                      <MainFieldName>Форма на преобразуване</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20111026151349</FieldEntryNumber>
+                    <FieldActionDate>2011-10-26T15:13:49</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <FormOfTransforming701 Influx="1" Fusion="0" Division="0" Separation="0" ChangeLegalForm="0" TransferringProperty="0" ConversionOfBulgarianEuropeanCompanyIntoBulgarianPLC="0" ConversionOfBulgarianPLCIntoBulgarianEuropeanCompany="0" />
+                    </RecordData>
+                    <RecordId>32251991</RecordId>
+                    <IncomingId>10579623</IncomingId>
+                    <FieldIdent>07010</FieldIdent>
+                    <MainField>
+                      <GroupId>40</GroupId>
+                      <GroupName>Преобразуване </GroupName>
+                      <SectionId>9</SectionId>
+                      <SectionName>Преобразуване</SectionName>
+                      <MainFieldIdent>07010</MainFieldIdent>
+                      <MainFieldCode>701</MainFieldCode>
+                      <MainFieldName>Форма на преобразуване</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20121112150043</FieldEntryNumber>
+                    <FieldActionDate>2012-11-12T15:00:43</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <TransformingCompany>
+                        <Subject IsForeignTraderText="0">
+                          <Indent>175108375</Indent>
+                          <Name>Дискаунт Супермаркети България ЕООД и Ко.</Name>
+                          <IndentType>UIC</IndentType>
+                          <CountryID xsi:nil="true" />
+                          <CountryName />
+                        </Subject>
+                      </TransformingCompany>
+                    </RecordData>
+                    <RecordId>25309477</RecordId>
+                    <IncomingId>7920399</IncomingId>
+                    <FieldIdent>070200</FieldIdent>
+                    <MainField>
+                      <GroupId>40</GroupId>
+                      <GroupName>Преобразуване </GroupName>
+                      <SectionId>9</SectionId>
+                      <SectionName>Преобразуване</SectionName>
+                      <MainFieldIdent>07020</MainFieldIdent>
+                      <MainFieldCode>702</MainFieldCode>
+                      <MainFieldName>Преобразуващо се дружество</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20111026151349</FieldEntryNumber>
+                    <FieldActionDate>2011-10-26T15:13:49</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <TransformingCompany>
+                        <Subject CompetentAuthorityForRegistration="" RegistrationNumber="" IsForeignTraderText="0">
+                          <Indent>175135707</Indent>
+                          <Name>Недвижимости Лидл България ЕООД и Ко.</Name>
+                          <IndentType>UIC</IndentType>
+                          <CountryID xsi:nil="true" />
+                          <CountryName />
+                        </Subject>
+                      </TransformingCompany>
+                    </RecordData>
+                    <RecordId>32251992</RecordId>
+                    <IncomingId>10579623</IncomingId>
+                    <FieldIdent>070200</FieldIdent>
+                    <MainField>
+                      <GroupId>40</GroupId>
+                      <GroupName>Преобразуване </GroupName>
+                      <SectionId>9</SectionId>
+                      <SectionName>Преобразуване</SectionName>
+                      <MainFieldIdent>07020</MainFieldIdent>
+                      <MainFieldCode>702</MainFieldCode>
+                      <MainFieldName>Преобразуващо се дружество</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20121112150043</FieldEntryNumber>
+                    <FieldActionDate>2012-11-12T15:00:43</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Successor703>
+                        <Subject IsForeignTraderText="0">
+                          <Indent>131071587</Indent>
+                          <Name>ЛИДЛ БЪЛГАРИЯ ЕООД ЕНД КО</Name>
+                          <IndentType>UIC</IndentType>
+                          <CountryID xsi:nil="true" />
+                          <CountryName />
+                        </Subject>
+                        <legalForm>3</legalForm>
+                      </Successor703>
+                    </RecordData>
+                    <RecordId>25309478</RecordId>
+                    <IncomingId>7920399</IncomingId>
+                    <FieldIdent>070300</FieldIdent>
+                    <MainField>
+                      <GroupId>40</GroupId>
+                      <GroupName>Преобразуване </GroupName>
+                      <SectionId>9</SectionId>
+                      <SectionName>Преобразуване</SectionName>
+                      <MainFieldIdent>07030</MainFieldIdent>
+                      <MainFieldCode>703</MainFieldCode>
+                      <MainFieldName>Правоприемник</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20111026151349</FieldEntryNumber>
+                    <FieldActionDate>2011-10-26T15:13:49</FieldActionDate>
+                  </Record>
+                  <Record>
+                    <RecordData>
+                      <Successor703>
+                        <Subject CompetentAuthorityForRegistration="" RegistrationNumber="" IsForeignTraderText="0">
+                          <Indent>131071587</Indent>
+                          <Name>ЛИДЛ БЪЛГАРИЯ ЕООД ЕНД КО</Name>
+                          <IndentType>UIC</IndentType>
+                          <CountryID xsi:nil="true" />
+                          <CountryName />
+                        </Subject>
+                        <legalForm>3</legalForm>
+                      </Successor703>
+                    </RecordData>
+                    <RecordId>32251993</RecordId>
+                    <IncomingId>10579623</IncomingId>
+                    <FieldIdent>070300</FieldIdent>
+                    <MainField>
+                      <GroupId>40</GroupId>
+                      <GroupName>Преобразуване </GroupName>
+                      <SectionId>9</SectionId>
+                      <SectionName>Преобразуване</SectionName>
+                      <MainFieldIdent>07030</MainFieldIdent>
+                      <MainFieldCode>703</MainFieldCode>
+                      <MainFieldName>Правоприемник</MainFieldName>
+                    </MainField>
+                    <FieldEntryNumber>20121112150043</FieldEntryNumber>
+                    <FieldActionDate>2012-11-12T15:00:43</FieldActionDate>
+                  </Record>
+                </Records>
+              </Deed>
+              <DataValidForDate>2017-06-05T14:46:39.5567237+03:00</DataValidForDate>
+            </ActualStateResponseV2>

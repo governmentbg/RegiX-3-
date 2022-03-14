@@ -1,0 +1,235 @@
+﻿<?xml version="1.0"?>
+<PermitInstructorsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters/PermitInstructorsResponse">
+  <Permits>
+    <Permit>
+      <Number>3794</Number>
+      <IssueDate>2015-02-11</IssueDate>
+      <ValidTo>2020-02-11</ValidTo>
+      <CompanyFullName>"ПАРАЛЕЛ 888" ЕООД</CompanyFullName>
+      <CompanyIdentNumber>202571811</CompanyIdentNumber>
+      <Instructors>
+        <Instructor>
+          <SubjectFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ДЕЯН НИКОЛОВ ЖЕЙНОВ</SubjectFullName>
+          <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">6002270984</SubjectIdentNumber>
+          <LastQualificationCertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2104</LastQualificationCertificateNumber>
+          <LastQualificationCertificateIssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1983-06-01</LastQualificationCertificateIssueDate>
+          <LastQualificationCertificateIssuedBy xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ИУУПП-ЯМБОЛ</LastQualificationCertificateIssuedBy>
+          <LastDrivingLicenceCertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0209</LastDrivingLicenceCertificateNumber>
+          <LastDrivingLicenceCertificateIssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2012-02-26</LastDrivingLicenceCertificateIssueDate>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">AM</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">Ткт</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">D</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">D1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">D+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A2</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C1+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">D1+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B (78)</LastDrivingLicenceCertificateCategories>
+          <ExamModuleNames xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">
+            <ExamModuleName>Безопасност на движението</ExamModuleName>
+            <ExamModuleName>Общо устройство на МПС</ExamModuleName>
+            <ExamModuleName>Ремаркета и системи за прикачване</ExamModuleName>
+            <ExamModuleName>ПО Управление на МПС</ExamModuleName>
+          </ExamModuleNames>
+        </Instructor>
+        <Instructor>
+          <SubjectFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ТОДОР ЙОВЧЕВ ИВАНОВ</SubjectFullName>
+          <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">6609270967</SubjectIdentNumber>
+          <LastQualificationCertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1207</LastQualificationCertificateNumber>
+          <LastQualificationCertificateIssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1991-06-01</LastQualificationCertificateIssueDate>
+          <LastQualificationCertificateIssuedBy xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ПВИ-ЯМБОЛ</LastQualificationCertificateIssuedBy>
+          <LastDrivingLicenceCertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0210</LastDrivingLicenceCertificateNumber>
+          <LastDrivingLicenceCertificateIssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2012-02-26</LastDrivingLicenceCertificateIssueDate>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">AM</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">Ткт</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">D</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">D1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">D+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A2</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C1+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">D1+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B (78)</LastDrivingLicenceCertificateCategories>
+          <ExamModuleNames xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">
+            <ExamModuleName>Безопасност на движението</ExamModuleName>
+            <ExamModuleName>Общо устройство на МПС</ExamModuleName>
+            <ExamModuleName>Ремаркета и системи за прикачване</ExamModuleName>
+            <ExamModuleName>ПО Управление на МПС</ExamModuleName>
+          </ExamModuleNames>
+        </Instructor>
+        <Instructor>
+          <SubjectFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">КРИСТИНА ДЕЯНОВА ЖЕЙНОВА-ПРОДАНОВА</SubjectFullName>
+          <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">8501010979</SubjectIdentNumber>
+          <LastQualificationCertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">7281</LastQualificationCertificateNumber>
+          <LastQualificationCertificateIssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2008-09-30</LastQualificationCertificateIssueDate>
+          <LastQualificationCertificateIssuedBy xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ИУ - ВАРНА</LastQualificationCertificateIssuedBy>
+          <LastDrivingLicenceCertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0237</LastDrivingLicenceCertificateNumber>
+          <LastDrivingLicenceCertificateIssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2012-02-26</LastDrivingLicenceCertificateIssueDate>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">AM</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">Ткт</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A2</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C1+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B (78)</LastDrivingLicenceCertificateCategories>
+          <ExamModuleNames xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">
+            <ExamModuleName>Безопасност на движението</ExamModuleName>
+            <ExamModuleName>Превоз на товари</ExamModuleName>
+            <ExamModuleName>Общо устройство на МПС</ExamModuleName>
+            <ExamModuleName>Превоз на пътници</ExamModuleName>
+            <ExamModuleName>Ремаркета и системи за прикачване</ExamModuleName>
+            <ExamModuleName>ПО Управление на МПС</ExamModuleName>
+          </ExamModuleNames>
+        </Instructor>
+        <Instructor>
+          <SubjectFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">МИРОСЛАВ ДИМИТРОВ НИКОЛОВ</SubjectFullName>
+          <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">7103051100</SubjectIdentNumber>
+          <LastQualificationCertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">3536/077</LastQualificationCertificateNumber>
+          <LastQualificationCertificateIssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2011-11-15</LastQualificationCertificateIssueDate>
+          <LastQualificationCertificateIssuedBy xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ТУ-СОФИЯ</LastQualificationCertificateIssuedBy>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">AM</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">Ткт</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A2</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C1+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B (78)</LastDrivingLicenceCertificateCategories>
+          <ExamModuleNames xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">
+            <ExamModuleName>Безопасност на движението</ExamModuleName>
+            <ExamModuleName>Превоз на товари</ExamModuleName>
+            <ExamModuleName>Общо устройство на МПС</ExamModuleName>
+            <ExamModuleName>Превоз на пътници</ExamModuleName>
+            <ExamModuleName>Ремаркета и системи за прикачване</ExamModuleName>
+            <ExamModuleName>ПО Управление на МПС</ExamModuleName>
+          </ExamModuleNames>
+        </Instructor>
+      </Instructors>
+    </Permit>
+    <Permit>
+      <Number>3515</Number>
+      <IssueDate>2013-06-04</IssueDate>
+      <ValidTo>2018-06-04</ValidTo>
+      <CompanyFullName>"ПАРАЛЕЛ 888" ЕООД</CompanyFullName>
+      <CompanyIdentNumber>202571811</CompanyIdentNumber>
+      <Instructors>
+        <Instructor>
+          <SubjectFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ДЕЯН НИКОЛОВ ЖЕЙНОВ</SubjectFullName>
+          <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">6002270984</SubjectIdentNumber>
+          <LastQualificationCertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2104</LastQualificationCertificateNumber>
+          <LastQualificationCertificateIssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">1983-06-01</LastQualificationCertificateIssueDate>
+          <LastQualificationCertificateIssuedBy xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ИУУПП-ЯМБОЛ</LastQualificationCertificateIssuedBy>
+          <LastDrivingLicenceCertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0209</LastDrivingLicenceCertificateNumber>
+          <LastDrivingLicenceCertificateIssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2012-02-26</LastDrivingLicenceCertificateIssueDate>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">AM</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">Ткт</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">D</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">D1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">D+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A2</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C1+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">D1+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B (78)</LastDrivingLicenceCertificateCategories>
+          <ExamModuleNames xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">
+            <ExamModuleName>Безопасност на движението</ExamModuleName>
+            <ExamModuleName>Общо устройство на МПС</ExamModuleName>
+            <ExamModuleName>Ремаркета и системи за прикачване</ExamModuleName>
+            <ExamModuleName>ПО Управление на МПС</ExamModuleName>
+          </ExamModuleNames>
+        </Instructor>
+        <Instructor>
+          <SubjectFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">КРИСТИНА ДЕЯНОВА ЖЕЙНОВА-ПРОДАНОВА</SubjectFullName>
+          <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">8501010979</SubjectIdentNumber>
+          <LastQualificationCertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">7281</LastQualificationCertificateNumber>
+          <LastQualificationCertificateIssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2008-09-30</LastQualificationCertificateIssueDate>
+          <LastQualificationCertificateIssuedBy xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ИУ - ВАРНА</LastQualificationCertificateIssuedBy>
+          <LastDrivingLicenceCertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">0237</LastDrivingLicenceCertificateNumber>
+          <LastDrivingLicenceCertificateIssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2012-02-26</LastDrivingLicenceCertificateIssueDate>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">AM</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">Ткт</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A2</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C1+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B (78)</LastDrivingLicenceCertificateCategories>
+          <ExamModuleNames xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">
+            <ExamModuleName>Безопасност на движението</ExamModuleName>
+            <ExamModuleName>Превоз на товари</ExamModuleName>
+            <ExamModuleName>Общо устройство на МПС</ExamModuleName>
+            <ExamModuleName>Превоз на пътници</ExamModuleName>
+            <ExamModuleName>Ремаркета и системи за прикачване</ExamModuleName>
+            <ExamModuleName>ПО Управление на МПС</ExamModuleName>
+          </ExamModuleNames>
+        </Instructor>
+        <Instructor>
+          <SubjectFullName xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">МИРОСЛАВ ДИМИТРОВ НИКОЛОВ</SubjectFullName>
+          <SubjectIdentNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">7103051100</SubjectIdentNumber>
+          <LastQualificationCertificateNumber xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">3536/077</LastQualificationCertificateNumber>
+          <LastQualificationCertificateIssueDate xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">2011-11-15</LastQualificationCertificateIssueDate>
+          <LastQualificationCertificateIssuedBy xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">ТУ-СОФИЯ</LastQualificationCertificateIssuedBy>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">AM</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">Ткт</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C1</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">A2</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">C1+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B+E</LastDrivingLicenceCertificateCategories>
+          <LastDrivingLicenceCertificateCategories xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">B (78)</LastDrivingLicenceCertificateCategories>
+          <ExamModuleNames xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters">
+            <ExamModuleName>Безопасност на движението</ExamModuleName>
+            <ExamModuleName>Превоз на товари</ExamModuleName>
+            <ExamModuleName>Общо устройство на МПС</ExamModuleName>
+            <ExamModuleName>Превоз на пътници</ExamModuleName>
+            <ExamModuleName>Ремаркета и системи за прикачване</ExamModuleName>
+            <ExamModuleName>ПО Управление на МПС</ExamModuleName>
+          </ExamModuleNames>
+        </Instructor>
+      </Instructors>
+    </Permit>
+  </Permits>
+</PermitInstructorsResponse>

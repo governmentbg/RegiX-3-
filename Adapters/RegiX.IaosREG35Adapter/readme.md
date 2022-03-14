@@ -1,0 +1,1 @@
+# RegiX.IaosREG35Adapter

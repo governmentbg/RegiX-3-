@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://egov.bg/RegiX/NRA/Collections" xmlns="http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForCollectionProceedingsTerminationRequest" targetNamespace="http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForCollectionProceedingsTerminationRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/NRA/Collections" schemaLocation="NRACollectionCommon.xsd"/>
+	<xs:element name="SendDataForCollectionProceedingsTerminationRequest" type="SendDataForCollectionProceedingsTerminationRequestType">
+		<xs:annotation>
+			<xs:documentation>Входни параметри на операция "Предаване на информация за прекратяване на производство по събиране на вземане при взискател/актосъставител"</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="CollectionProceedingsType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="ActIssurerID">
+				<xs:annotation>
+					<xs:documentation>ID на взискател/актосъставител</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:long">
+						<xs:minInclusive value="2"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="SubdivisionID">
+				<xs:annotation>
+					<xs:documentation>ID на подразделение </xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:long">
+						<xs:minInclusive value="1"/>
+						<xs:maxInclusive value="9999"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="CollectibleID">
+				<xs:annotation>
+					<xs:documentation>ID на вземане </xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:long">
+						<xs:minInclusive value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="SubdivisionEIK">
+				<xs:annotation>
+					<xs:documentation>Идентификатор на взискател/актосъставител </xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="9"/>
+						<xs:maxLength value="13"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="CancelDocNo" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на искане за прекратяване на производство по събиране на вземане</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="CancelDocDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на искане за прекратяване на производство по събиране на вземане</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CancelDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на прекратяване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CollectibleReason" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Статус на вземането при взискател/актосъставител</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="JointLiabilityEIK" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор на солидарен длъжник </xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="9"/>
+						<xs:maxLength value="13"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="JointLiabilityEIKType" type="common:EIKTypeEnumeration" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Тип идентификатор на солидарен длъжник</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SendDataForCollectionProceedingsTerminationRequestType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="Collection" type="CollectionProceedingsType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

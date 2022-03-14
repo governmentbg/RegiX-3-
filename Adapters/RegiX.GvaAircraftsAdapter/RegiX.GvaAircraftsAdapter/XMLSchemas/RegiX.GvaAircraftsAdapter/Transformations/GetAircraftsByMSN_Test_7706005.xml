@@ -1,0 +1,200 @@
+﻿<?xml version="1.0"?>
+<AircraftsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GVA/AircraftsResponse">
+  <Aircraft>
+    <Producer>
+      <Name>МАП, СССР</Name>
+      <NameEn>Ministry of Aviation Industry, USSR</NameEn>
+      <CountryCode>SU</CountryCode>
+      <CountryName>СССР</CountryName>
+    </Producer>
+    <AirCategory />
+    <ICAO>KA26</ICAO>
+    <BGModelName>Камов Ка-26</BGModelName>
+    <ENModelName>Kamov Ka-26</ENModelName>
+    <MSNSerialNumber>7706005</MSNSerialNumber>
+    <Registrations>
+      <Registration>
+        <ActNumber>1783</ActNumber>
+        <RegistrationNumber>1783</RegistrationNumber>
+        <RegistrationDate>2003-11-19</RegistrationDate>
+        <RegistrationMark>LZ-6066</RegistrationMark>
+        <IsLastRegistration>true</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber>45-01-40</DocNumber>
+          <DocDate>2007-01-30</DocDate>
+          <Description>Заповед за служебно отписване от Регистър ВС</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo>
+          <DeregistrationDate>2007-01-30</DeregistrationDate>
+          <DeregistrationReason>Заповед</DeregistrationReason>
+          <DeregistrationDescription>Заповед за служебно отписване от Регистър ВС</DeregistrationDescription>
+        </DeregistrationInfo>
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>816088508</Identifier>
+              <Name>“Балкан Агро Авиация” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>816088508</Identifier>
+              <Name>“Балкан Агро Авиация” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>1225</ActNumber>
+        <RegistrationNumber>1225</RegistrationNumber>
+        <RegistrationDate>1998-05-25</RegistrationDate>
+        <RegistrationMark>LZ-6066</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber />
+          <Description>Сключване на договор за лизинг</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo>
+          <DeregistrationDate>2000-04-25</DeregistrationDate>
+          <DeregistrationDescription>Сключване на договор за лизинг</DeregistrationDescription>
+        </DeregistrationInfo>
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>816088508</Identifier>
+              <Name>“Балкан Агро Авиация” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>816088508</Identifier>
+              <Name>“Балкан Агро Авиация” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>1140</ActNumber>
+        <RegistrationNumber>1140</RegistrationNumber>
+        <RegistrationDate>1997-04-23</RegistrationDate>
+        <RegistrationMark>LZ-6066</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber />
+          <Description>Отдаване под наем в Р.Румъния</Description>
+        </RegistrationDocument>
+        <DeregistrationInfo>
+          <DeregistrationDate>1997-03-23</DeregistrationDate>
+          <DeregistrationDescription>Отдаване под наем в Р.Румъния</DeregistrationDescription>
+        </DeregistrationInfo>
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>816088508</Identifier>
+              <Name>“Балкан Агро Авиация” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Identifier>816088508</Identifier>
+              <Name>“Балкан Агро Авиация” ООД</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+      <Registration>
+        <ActNumber>617</ActNumber>
+        <RegistrationNumber>617</RegistrationNumber>
+        <RegistrationDate>1977-06-02</RegistrationDate>
+        <RegistrationMark>LZ-6066</RegistrationMark>
+        <IsLastRegistration>false</IsLastRegistration>
+        <RegistrationStatus>
+          <IsActiveRegistration>false</IsActiveRegistration>
+          <StatusCode>2</StatusCode>
+          <StatusName>Отписан</StatusName>
+        </RegistrationStatus>
+        <RegistrationDocument>
+          <DocNumber />
+          <Description />
+        </RegistrationDocument>
+        <DeregistrationInfo />
+        <LeasingInfo>
+          <DocNumber />
+          <Agreement />
+          <Lessor>
+            <Person />
+            <Entity />
+          </Lessor>
+        </LeasingInfo>
+        <Operators>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>ДСО “БГА” - СД “ССА”</Name>
+            </Entity>
+          </EntitiesList>
+        </Operators>
+        <Owners>
+          <PersonList />
+          <EntitiesList>
+            <Entity>
+              <Name>ДСО “БГА” - СД “ССА”</Name>
+            </Entity>
+          </EntitiesList>
+        </Owners>
+      </Registration>
+    </Registrations>
+    <Debts />
+  </Aircraft>
+</AircraftsResponse>

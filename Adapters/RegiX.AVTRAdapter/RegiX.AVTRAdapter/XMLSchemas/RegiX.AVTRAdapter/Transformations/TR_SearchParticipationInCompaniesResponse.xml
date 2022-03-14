@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<SearchParticipationInCompaniesResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AV/TR/SearchParticipationInCompaniesResponse">
+  <IsFound>true</IsFound>
+  <PersonInformation>
+    <Indent xmlns="">5805126324</Indent>
+    <Name xmlns="">Огнян Георгиев Траянов</Name>
+    <IndentType xmlns="">EGN</IndentType>
+  </PersonInformation>
+  <CompanyParticipation>
+    <Company xmlns="">
+      <EIK>201593301</EIK>
+      <CompanyName>ТехноЛогика</CompanyName>
+      <LegalForm>Еднолично акционерно дружество</LegalForm>
+      <Fields>
+        <Field>Представители</Field>
+        <Field>Едноличен собственик на капитала</Field>
+        <Field>Съвет на директорите</Field>
+      </Fields>
+    </Company>
+  </CompanyParticipation>
+</SearchParticipationInCompaniesResponse>

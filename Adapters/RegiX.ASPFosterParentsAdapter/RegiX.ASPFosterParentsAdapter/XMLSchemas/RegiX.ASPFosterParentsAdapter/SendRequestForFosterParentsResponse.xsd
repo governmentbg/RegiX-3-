@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/ASP/SendRequestForFosterParents/AspFosterParentsResponse" targetNamespace="http://egov.bg/RegiX/ASP/SendRequestForFosterParents/AspFosterParentsResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="AspFosterParentsResponse">
+		<xs:sequence>
+			<xs:element name="RequestNumber" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>Номер на приетото запитване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Error" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Описание на грешка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="AspFosterParentsResponse" type="AspFosterParentsResponse">
+		<xs:annotation>
+			<xs:documentation>Резултат от заявка за извличане на данни за физически лица(родител/дете) от ИИС на АСП относно наличие на вписване в Регистъра на приемните семейства, Регистъра на децата в риск, регистрирано решение на ТЕЛК и данни за участие в проект за период</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

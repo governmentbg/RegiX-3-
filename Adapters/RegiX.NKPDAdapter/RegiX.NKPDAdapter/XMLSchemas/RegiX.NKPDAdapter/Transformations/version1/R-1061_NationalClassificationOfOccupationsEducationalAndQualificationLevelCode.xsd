@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema targetNamespace="http://ereg.egov.bg/value/R-1061" xmlns="http://ereg.egov.bg/value/R-1061" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xsd:simpleType name="NationalClassificationOfOccupationsEducationalAndQualificationLevelCode">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="bg">Код на образователно и квалификационно ниво от национална класификация на професиите и длъжностите в Република България национална класификация на професиите и длъжностите в Република България (НКПД)</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="\d{1}" />
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>

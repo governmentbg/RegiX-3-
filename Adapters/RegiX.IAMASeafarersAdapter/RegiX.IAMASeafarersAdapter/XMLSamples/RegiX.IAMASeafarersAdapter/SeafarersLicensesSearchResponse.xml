@@ -1,0 +1,36 @@
+<SeafarersLicensesResponse xmlns="http://egov.bg/RegiX/IAMA/SeafarersLicensesResponse">
+              <Name>Иван</Name>
+              <Surname>Иванов</Surname>
+              <FamilyName>Иванов</FamilyName>
+              <EGN>88564566947</EGN>
+              <Certificates>
+                <Certificate>
+                  <IssueDate>2010-05-07T00:00:00</IssueDate>
+                  <ValidDate>2050-07-06T00:00:00</ValidDate>
+                  <CertificateType>Kапитан далечно плаване на кораб от 500 БТ до 3000 БТ</CertificateType>
+                  <UniqueNumber>ABW1234454365AD</UniqueNumber>
+                  <Id>156785</Id>
+                  <Qualification>
+                    <StringElement>Kапитан</StringElement>
+                    <StringElement>Главен механик на кораб с КСУ над 3000 kW</StringElement>
+                  </Qualification>
+                  <Duty>
+                    <StringElement>Kапитан</StringElement>
+                    <StringElement>Главен механик на кораб с КСУ над 3000 kW</StringElement>
+                  </Duty>
+                </Certificate>
+                <Certificate>
+                  <IssueDate>2011-06-07T00:00:00</IssueDate>
+                  <ValidDate>2020-09-06T00:00:00</ValidDate>
+                  <CertificateType>Kорабен радиооператор</CertificateType>
+                  <UniqueNumber>A7853365AD</UniqueNumber>
+                  <Id>156785</Id>
+                  <Qualification>
+                    <StringElement>Kорабен радиооператор</StringElement>
+                  </Qualification>
+                  <Duty>
+                    <StringElement>Kорабен радиооператор</StringElement>
+                  </Duty>
+                </Certificate>
+              </Certificates>
+            </SeafarersLicensesResponse>

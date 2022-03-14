@@ -1,0 +1,8 @@
+<REG35_Allowed_Waste_Codes_Response xmlns="http://egov.bg/RegiX/IAOS/REG35/AllowedWasteCodesResponse">
+  <Stage>
+    <StageAddress>гр.София ул.Иван Селимински 5</StageAddress>
+    <State>16</State>
+    <WasteCode>34234234</WasteCode>
+    <WasteCode>66543242</WasteCode>
+  </Stage>
+</REG35_Allowed_Waste_Codes_Response>

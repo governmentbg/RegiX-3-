@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<Farmer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/MZH/FarmerSearchResponse">
+  <AdministrativeData>
+    <Entity xmlns="http://egov.bg/RegiX/MZH" />
+    <Person xmlns="http://egov.bg/RegiX/MZH">
+      <Name>Иван</Name>
+      <Surname>Иванов</Surname>
+      <Family>Иванов</Family>
+    </Person>
+    <ActiveRegistration xmlns="http://egov.bg/RegiX/MZH" />
+    <CancelledRegistration xmlns="http://egov.bg/RegiX/MZH" />
+  </AdministrativeData>
+  <Lands />
+  <Crops />
+  <Animals />
+</Farmer>

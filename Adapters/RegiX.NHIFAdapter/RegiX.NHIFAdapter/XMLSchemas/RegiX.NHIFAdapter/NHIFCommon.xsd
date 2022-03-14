@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NHIF/NHIFCommon" targetNamespace="http://egov.bg/RegiX/NHIF/NHIFCommon" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="IdentifierType">
+		<xs:annotation>
+			<xs:documentation>Тип на идентификатор</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="LNCh"/>
+			<xs:enumeration value="EGN"/>
+			<!--ЛНЧ (личен номер на чужденец)-->
+			<!--ЕГН-->
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="Identifier">
+		<xs:sequence>
+			<xs:element name="IdentifierType" type="IdentifierType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AmbulatoryListType">
+		<xs:sequence>
+			<xs:element name="AmbulatoryListNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>АЛ.No, Номер на амбулаторен лист</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AmbulatoryListDate" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>АЛ - дата, Дата на амбулаторен лист</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MSPType">
+		<xs:sequence>
+			<xs:element name="MSPCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>РЗИ № на лечебно заведение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MSPName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на лечебно заведение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MSPTypeHosp">
+		<xs:sequence>
+			<xs:element name="MSPCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>РЗИ № на лечебно заведение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MSPName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на лечебно заведение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MSPTypeDent">
+		<xs:sequence>
+			<xs:element name="MSPCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>РЗИ № на лечебно заведение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MSPName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на лечебно заведение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MSPTypeClinicalProcedures">
+		<xs:sequence>
+			<xs:element name="MSPCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>РЗИ № на лечебно заведение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MSPName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на лечебно заведение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MSPTypeDrugs">
+		<xs:sequence>
+			<xs:element name="MSPCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>РЗИ № на лечебно заведение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MSPName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на лечебно заведение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MSPTypeHospDrugs">
+		<xs:sequence>
+			<xs:element name="MSPCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>РЗИ № на лечебно заведение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MSPName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на лечебно заведение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ClinicalPathHosp">
+		<xs:sequence>
+			<xs:element name="ClinicalPathCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на клинична пътека</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ClinicalPathName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на клинична пътека</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ClinicalPathHospDrugs">
+		<xs:sequence>
+			<xs:element name="ClinicalPathCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на клинична пътека</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ClinicalPathName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на клинична пътека</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ClinicalProcedureType">
+		<xs:sequence>
+			<xs:element name="ClinicalProcedureCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на клинична процедура</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ClinicalProcedureName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на клинична процедура</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="LabMSPType">
+		<xs:sequence>
+			<xs:element name="MSPCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>РЗИ № на лечебно заведение, издало направление за МДД</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MSPName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на лечебно заведение, издало направление за МДД</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PractitionerType">
+		<xs:sequence>
+			<xs:element name="UINNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>УИН на лекар</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име лекар</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerSpecialityCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на специалност на лекар</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerSpecialityName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на специалност на лекар</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MedicalTreatmentsPractitionerType">
+		<xs:sequence>
+			<xs:element name="PractitionerUIN" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>УИН на лекар</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerNames" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име лекар</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ReportExamsPractitionerType">
+		<xs:sequence>
+			<xs:element name="UINNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>УИН на лекар</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име лекар</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerSpecialityCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на специалност на лекар</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerSpecialityName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на специалност на лекар</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DentPractitionerType">
+		<xs:sequence>
+			<xs:element name="UINNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ЛПК на лекар по дентална медицина</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име лекар по дентална медицина</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerSpecialityCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на специалност на лекар по дентална медицина</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerSpecialityName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на специалност на лекар по дентална медицина</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DentDeputyPractitionerType">
+		<xs:sequence>
+			<xs:element name="UINNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ЛПК на заместващ лекар по дентална медицина, извършил дейността</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на заместващ лекар по дентална медицина, извършил дейността</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerSpecialityCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на специалност на заместващ лекар</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerSpecialityName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на специалност на заместващ лекар </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="LaboratoryPractitionerType">
+		<xs:sequence>
+			<xs:element name="UINNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>УИН на лекар</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име лекар</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerSpecialityCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на специалност на лекар</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PractitionerSpecialityName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на специалност на лекар</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MainICDType">
+		<xs:sequence>
+			<xs:element name="MainICDCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на диагноза по МКБ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MainICDName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на диагноза по МКБ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AttachedICDType">
+		<xs:sequence>
+			<xs:element name="AttachedICDCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на свързана диагноза по МКБ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AttachedICDName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на свързана диагноза по МКБ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ReportExamsICDType">
+		<xs:sequence>
+			<xs:element name="MainICD" type="MainICDType" minOccurs="0"/>
+			<xs:element name="AttachedICD" type="AttachedICDType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PatientRecordsICDType">
+		<xs:sequence>
+			<xs:element name="ICDCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на диагноза по МКБ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ICDName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на диагноза по МКБ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ClinicalProceduresICDType">
+		<xs:sequence>
+			<xs:element name="ICDClinicalManipulationCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на процедура</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ICDClinicalManipulationName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование на прцедура</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="HospICDType">
+		<xs:sequence>
+			<xs:element name="MainICD" type="HospMainICDType" minOccurs="0"/>
+			<xs:element name="AttachedICD1" type="HospAttachedICD1Type" minOccurs="0"/>
+			<xs:element name="AttachedICD2" type="HospAttachedICD2Type" minOccurs="0"/>
+			<xs:element name="AttachedICD3" type="HospAttachedICD3Type" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="HospMainICDType">
+		<xs:sequence>
+			<xs:element name="ICDName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на диагноза по МКБ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ICDCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на диагноза по МКБ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="HospAttachedICD1Type">
+		<xs:sequence>
+			<xs:element name="AttachedICD1Code" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>МКБ Код на придружаваща диагноза 1</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AttachedICD1Name" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на придружаваща диагноза 1</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="HospAttachedICD2Type">
+		<xs:sequence>
+			<xs:element name="AttachedICD2Code" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>МКБ Код на придружаваща диагноза 2</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AttachedICD2Name" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на придружаваща диагноза 2</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="HospAttachedICD3Type">
+		<xs:sequence>
+			<xs:element name="AttachedICD3Code" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>МКБ Код на придружаваща диагноза 3</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AttachedICD3Name" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>МКБ Код на придружаваща диагноза 3</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MedicalSupplyTypeDrugs">
+		<xs:sequence>
+			<xs:element name="MedicalSupplyCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>НЗОК Код на лекарство</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MedicalSupplyName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на лекарство</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MedicalSupplyHospDrugsType">
+		<xs:sequence>
+			<xs:element name="MedicalSupplyCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>НЗОК Код на лекарство</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MedicalSupplyName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на лекарство</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

@@ -1,0 +1,59 @@
+variables:
+  Major: '1'
+  Minor: '0'
+  Patch: '6'
+  BuildConfiguration: release
+resources:
+- repo: self
+queue:
+  name: RegiX
+steps:
+- task: VisualStudioTestPlatformInstaller@1
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/*.sln'
+    feedsToUse: 'select'
+    vstsFeed: 'TechnoLogica.Common'
+- task: DotNetCoreCLI@2
+  displayName: 'dotnet build'
+  inputs:
+    arguments: '--configuration $(BuildConfiguration)' 
+- task: VSTest@2
+  inputs:    
+    codeCoverageEnabled: True
+    vsTestVersion: 'toolsInstaller'
+    testAssemblyVer2: |
+     **\$(BuildConfiguration)\*test*.dll
+     **\$(BuildConfiguration)\**\*test*.dll
+     !**\*Microsoft.VisualStudio.TestPlatform*
+     !**\obj\**
+- task: NuGetCommand@2
+  displayName: 'NuGet pack (prerelease)'
+  condition: eq(variables['BuildConfiguration'], 'debug')
+  inputs:
+    command: pack
+    packagesToPack: 'TechnoLogica.IdentityServer.SQLOperationalStore/TechnoLogica.IdentityServer.SQLOperationalStore.csproj'
+    versioningScheme: 'byPrereleaseNumber' # Options: off, byPrereleaseNumber, byEnvVar, byBuildNumber
+    majorVersion: '$(Major)'
+    minorVersion: '$(Minor)'
+    patchVersion: '$(Patch)'
+    packDestination: '$(Build.ArtifactStagingDirectory)'
+- task: NuGetCommand@2
+  displayName: 'NuGet pack (release)'
+  condition: eq(variables['BuildConfiguration'], 'release')
+  inputs:
+    command: pack
+    packagesToPack: 'TechnoLogica.IdentityServer.SQLOperationalStore/TechnoLogica.IdentityServer.SQLOperationalStore.csproj'
+    majorVersion: '$(Major)'
+    minorVersion: '$(Minor)'
+    patchVersion: '$(Patch)'
+    packDestination: '$(Build.ArtifactStagingDirectory)'
+- task: NuGetCommand@2
+  displayName: 'NuGet push'
+  inputs:
+    command: push
+    publishVstsFeed: 'TechnoLogica.Common'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg' # Required when command == Push
+
+

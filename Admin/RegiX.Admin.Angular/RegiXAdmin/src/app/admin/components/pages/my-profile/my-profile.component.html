@@ -1,0 +1,130 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <div *ngIf="isDataLoading">
+      <div>
+        <igx-circular-bar
+          [animate]="true"
+          [indeterminate]="true"
+          [textVisibility]="true"
+        ></igx-circular-bar>
+      </div>
+    </div>
+    <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isDataLoaded && !isDataLoading"
+    >
+      <div class="input-groups">
+        <div class="input-group">
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group>
+              <input
+                class="form-input"
+                igxInput
+                name="name"
+                type="text"
+                formControlName="name"
+                tlFormGroupRef
+              />
+              <label igxLabel for="name">Име</label>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+
+        <div class="input-group">
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group>
+              <input
+                class="form-input"
+                igxInput
+                name="userName"
+                type="text"
+                formControlName="userName"
+                tlFormGroupRef
+              />
+              <label igxLabel for="userName">Потребителско име</label>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+
+        <div class="input-group">
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group>
+              <input
+                class="form-input"
+                igxInput
+                name="email"
+                type="text"
+                formControlName="email"
+                tlFormGroupRef
+              />
+              <label igxLabel for="email">Email</label>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+
+        <div
+          class="input-group"
+          igxLayout
+          igxLayoutDir="row"
+          formGroupName="usersEauth"
+        >
+          <tl-form-group class="form-group-wrapper">
+            <igx-input-group>
+              <input
+                #identifier
+                class="form-input"
+                igxInput
+                name="identifier"
+                type="text"
+                formControlName="identifier"
+                tlFormGroupRef
+              />
+              <label igxLabel for="identifier">Идентификатор</label>
+            </igx-input-group>
+          </tl-form-group>
+        </div>
+
+        <div
+          class="input-group form-group-wrapper"
+          igxLayout
+          igxLayoutDir="row"
+          formGroupName="usersEauth"
+        >
+
+            <igx-select
+              #selectType
+              igxFlex
+              [(ngModel)]="this.formObject.usersEauth.identifierType"
+              class="form-group-wrapper"
+              name="identifierType"
+              formControlName="identifierType"
+              tlFormGroupRef
+            >
+              <igx-select-item
+                *ngFor="let identifierType of this.identifierTypeEnum"
+                [value]="identifierType.name"
+              >
+                {{ identifierType.displayName }}
+              </igx-select-item>
+              <label igxLabel for="identifierType">Тип идентификатор</label>
+            </igx-select>
+            <button
+              igxButton
+              igxFlex
+              title="Изчисти"
+              class="select-clear-button"
+              (click)="setToNull(selectType, 'identifierType')"
+            >
+              <igx-icon>clear</igx-icon>
+            </button>
+        </div>
+
+      </div>
+    </form>
+  </div></tl-basic-form
+>

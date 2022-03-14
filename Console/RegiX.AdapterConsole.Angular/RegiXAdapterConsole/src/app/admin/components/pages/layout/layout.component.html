@@ -1,0 +1,16 @@
+<tl-layout
+  [navBarContent]="navBarContent"
+  [mainContent]="mainContent"
+  [applicationTitle]="applicationTitle"
+  [headerContent]="headerContent"
+  [drawerItems]="this.drawerItems">
+  <ng-template #headerContent>
+    <rgx-header></rgx-header>
+  </ng-template>
+  <ng-template #navBarContent>
+    <app-logged-user></app-logged-user>
+  </ng-template>
+    <ng-template #mainContent>
+    <router-outlet></router-outlet>
+    </ng-template>
+</tl-layout>

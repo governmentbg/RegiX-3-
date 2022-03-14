@@ -1,0 +1,9 @@
+<SendDataForCollectionAppealToIOResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Response>
+		<Status xmlns="http://egov.bg/RegiX/NRA/Collections">1</Status>
+		<DateProcessed xmlns="http://egov.bg/RegiX/NRA/Collections">2020-03-30</DateProcessed>
+		<Errors xmlns="http://egov.bg/RegiX/NRA/Collections">
+			<Code>E0010</Code>
+		</Errors>
+	</Response>
+</SendDataForCollectionAppealToIOResponse>

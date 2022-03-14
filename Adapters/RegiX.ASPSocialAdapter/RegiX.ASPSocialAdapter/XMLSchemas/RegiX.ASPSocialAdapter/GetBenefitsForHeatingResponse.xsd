@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://egov.bg/RegiX/ASP/Common" xmlns="http://egov.bg/RegiX/ASP/BenefitsForHeating/GetBenefitsForHeatingResponse" targetNamespace="http://egov.bg/RegiX/ASP/BenefitsForHeating/GetBenefitsForHeatingResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/ASP/Common" schemaLocation="ASPCommon.xsd"/>
+	<xs:complexType name="GetBenefitsForHeatingResponseType">
+		<xs:annotation>
+			<xs:documentation>Резултат от справка по ЕГН/ЛНЧ за отпуснати помощи за отопление по Наредба РД-07-5</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="CurrentTime" type="xs:dateTime" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Време на извършване на справката</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PersonData" type="common:PersonDataType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни за лицето</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DecisionData" type="common:DecisionBenefitsType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Данни за заповед</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="GetBenefitsForHeatingResponse" type="GetBenefitsForHeatingResponseType"/>
+</xs:schema>

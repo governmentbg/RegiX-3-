@@ -1,0 +1,120 @@
+ <ActualStateResponse xmlns="http://egov.bg/RegiX/AV/TR/ActualStateResponse">
+	<Status>Пререгистрирана закрита партида</Status>
+	<UIC>201593304</UIC>
+	<Company>ТЕСТ БЪЛГАРИЯ ЕООД ЕНД КО</Company>
+	<LegalForm>
+		<LegalFormAbbr xmlns="http://egov.bg/RegiX/AV/TR">КД</LegalFormAbbr>
+		<LegalFormName xmlns="http://egov.bg/RegiX/AV/TR">Командитно дружество</LegalFormName>
+	</LegalForm>
+	<Transliteration>TEST BULGARIA EOOD END KO</Transliteration>
+	<Seat>
+		<Address xmlns="http://egov.bg/RegiX/AV/TR">
+			<CountryCode>BGR</CountryCode>
+			<Country>БЪЛГАРИЯ</Country>
+			<IsForeign>false</IsForeign>
+			<DistrictEkatte>SOF</DistrictEkatte>
+			<District>София (столица)</District>
+			<MunicipalityEkatte>SOF46</MunicipalityEkatte>
+			<Municipality>Тест</Municipality>
+			<SettlementEKATTE>68134</SettlementEKATTE>
+			<Settlement>гр. София</Settlement>
+			<Area>р-н Тест</Area>
+			<AreaEkatte>68134-08</AreaEkatte>
+			<PostCode>1000</PostCode>
+			<HousingEstate>Тест</HousingEstate>
+			<Block>40</Block>
+			<Entrance>В</Entrance>
+			<Floor>2</Floor>
+			<Apartment>2</Apartment>
+		</Address>
+		<Contacts xmlns="http://egov.bg/RegiX/AV/TR">
+			<Phone>+ 359 8 88 112</Phone>
+			<Fax>+ 359 2 222 11 00</Fax>
+			<EMail>office@test-ko.com</EMail>
+			<URL>www.test-ko.com</URL>
+		</Contacts>
+	</Seat>
+	<SeatForCorrespondence>
+		<CountryCode xmlns="http://egov.bg/RegiX/AV/TR">BGR</CountryCode>
+		<Country xmlns="http://egov.bg/RegiX/AV/TR">БЪЛГАРИЯ</Country>
+		<IsForeign xmlns="http://egov.bg/RegiX/AV/TR">false</IsForeign>
+		<DistrictEkatte xmlns="http://egov.bg/RegiX/AV/TR">SOF</DistrictEkatte>
+		<District xmlns="http://egov.bg/RegiX/AV/TR">София (столица)</District>
+		<MunicipalityEkatte xmlns="http://egov.bg/RegiX/AV/TR">SOF46</MunicipalityEkatte>
+		<Municipality xmlns="http://egov.bg/RegiX/AV/TR">Столична</Municipality>
+		<SettlementEKATTE xmlns="http://egov.bg/RegiX/AV/TR">68134</SettlementEKATTE>
+		<Settlement xmlns="http://egov.bg/RegiX/AV/TR">гр. София</Settlement>
+		<Area xmlns="http://egov.bg/RegiX/AV/TR">р-н Тест</Area>
+		<AreaEkatte xmlns="http://egov.bg/RegiX/AV/TR">68134-09</AreaEkatte>
+		<PostCode xmlns="http://egov.bg/RegiX/AV/TR">1421</PostCode>
+		<Street xmlns="http://egov.bg/RegiX/AV/TR">"Тест Тест"</Street>
+		<StreetNumber xmlns="http://egov.bg/RegiX/AV/TR">566</StreetNumber>
+	</SeatForCorrespondence>
+	<SubjectOfActivity>
+		<Subject xmlns="http://egov.bg/RegiX/AV/TR">търговия на дребно със стоки за широко потребление, които са допуснати до обществения пазар, между които индустриални и хранителни стоки, управление и участие в други предприятия, които осъществяват дейност в горепосочените отрасли, и свързаните с тях сделки, както и всяка друга дейност, незабранена от българското законодателство.</Subject>
+		<IsBank xmlns="http://egov.bg/RegiX/AV/TR">false</IsBank>
+		<IsInsurer xmlns="http://egov.bg/RegiX/AV/TR">false</IsInsurer>
+	</SubjectOfActivity>
+	<SubjectOfActivityNKID />
+	<WayOfRepresentation>От неограничено отговорния съдружник "ТЕСТ БЪЛГАРИЯ" ЕООД чрез двама от неговите управители или чрез един негов управител и един негов прокурист.</WayOfRepresentation>
+	<AddemptionOfTraderSeatChange>
+		<Address xmlns="http://egov.bg/RegiX/AV/TR" />
+		<Contacts xmlns="http://egov.bg/RegiX/AV/TR" />
+	</AddemptionOfTraderSeatChange>
+	<Funds />
+	<Shares />
+	<MinimumAmount />
+	<DepositedFunds />
+	<NonMonetaryDeposits />
+	<BoardOfDirectorsMandate />
+	<AdministrativeBoardMandate />
+	<BoardOfManagersMandate />
+	<BoardOfManagers2Mandate />
+	<LeadingBoardMandate />
+	<SupervisingBoardMandate />
+	<SupervisingBoard2Mandate />
+	<ControllingBoardMandate />
+	<Details>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Неограничено отговорни съдружници</FieldName>
+			<FieldCode>20</FieldCode>
+			<FieldOrder>00200</FieldOrder>
+			<Subject>
+				<Indent>130993700</Indent>
+				<Name>ТЕСТ БЪЛГАРИЯ</Name>
+				<IndentType>UIC</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Лица, на които е възложено управлението</FieldName>
+			<FieldCode>7а</FieldCode>
+			<FieldOrder>00071</FieldOrder>
+			<Subject>
+				<Indent>130993700</Indent>
+				<Name>"ТЕСТ БЪЛГАРИЯ" ЕООД</Name>
+				<IndentType>UIC</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Ограничено отговорни съдружници</FieldName>
+			<FieldCode>21</FieldCode>
+			<FieldOrder>00210</FieldOrder>
+			<Subject>
+				<Indent>НRB 724689</Indent>
+				<Name>Тест България, РАЙОНЕН СЪД НА ЩУТГАРТ</Name>
+				<IndentType>EGN</IndentType>
+			</Subject>
+		</Detail>
+		<Detail xmlns="http://egov.bg/RegiX/AV/TR">
+			<FieldName>Представители</FieldName>
+			<FieldCode>10</FieldCode>
+			<FieldOrder>00101</FieldOrder>
+			<Subject>
+				<Indent>130993700</Indent>
+				<Name>"ТЕСТ БЪЛГАРИЯ" ЕООД</Name>
+				<IndentType>UIC</IndentType>
+			</Subject>
+		</Detail>
+	</Details>
+  <LiquidationOrInsolvency>В ликвидация</LiquidationOrInsolvency>
+</ActualStateResponse>

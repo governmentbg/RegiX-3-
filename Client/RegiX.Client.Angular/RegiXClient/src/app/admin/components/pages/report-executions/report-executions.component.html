@@ -1,0 +1,176 @@
+<tl-wrapping-card
+  [title]="routes.REPORT_EXECUTIONS.title"
+  [icon]="routes.REPORT_EXECUTIONS.icon"
+  [actions]="[{ reference: excelExportAll }]"
+>
+  <tl-linear-progress
+    [visible]="this.remoteService.isLoading"
+  ></tl-linear-progress>
+  <igx-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    (onSortingDone)="sortingDone($event)"
+    (onFilteringDone)="filteringDone($event)"
+    (onSelection)="cellSelection($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+
+    <ng-template [ngxPermissionsOnly]="globalAdmin">
+      <igx-column
+        field="authority"
+        header="Администрация"
+        [sortable]="true"
+        width="150px"
+        [dataType]="'string'"
+        [formatter]="displayValueService.formatDisplayValue"
+        [filters]="displayValueFilteringOperand"
+      >
+      </igx-column>
+    </ng-template>
+
+    <ng-template [ngxPermissionsOnly]="adminRoles">
+      <igx-column
+        field="user"
+        header="Потребител"
+        width="150px"
+        [sortable]="true"
+        [dataType]="'string'"
+        [filters]="displayValueFilteringOperand"
+        [formatter]="displayValueService.formatDisplayValue"
+      >
+      </igx-column>
+    </ng-template>
+
+    <igx-column
+      field="report"
+      header="Услуга"
+      [sortable]="true"
+      [dataType]="'string'"
+      [filters]="displayValueFilteringOperand"
+      [formatter]="displayValueService.formatDisplayValue"
+    >
+    </igx-column>
+
+    <ng-template [ngxPermissionsOnly]="adminRoles">
+      <igx-column
+        field="apiServiceCallId"
+        header="Номер на извикване"
+        [sortable]="true"
+        [dataType]="'number'"
+      >
+      </igx-column>
+    </ng-template>
+
+    <ng-template [ngxPermissionsOnly]="adminRoles">
+      <igx-column
+        field="contextEmployeeAdditionalId"
+        header="Допълнителен идентификатор на служител"
+        [sortable]="true"
+        [dataType]="'string'"
+      >
+      </igx-column>
+    </ng-template>
+
+    <ng-template [ngxPermissionsExcept]="['PUBLIC']">
+      <igx-column
+        field="contextServiceType"
+        header="Вид на услугата"
+        [sortable]="true"
+        [dataType]="'string'"
+      >
+      </igx-column>
+    </ng-template>
+
+    <ng-template [ngxPermissionsExcept]="['PUBLIC']">
+      <igx-column
+        field="contextServiceURI"
+        header="Номер на преписка"
+        [sortable]="true"
+        [dataType]="'string'"
+      >
+      </igx-column>
+    </ng-template>
+
+    <ng-template [ngxPermissionsExcept]="['PUBLIC']">
+      <igx-column
+        field="contextLawReason"
+        header="Правно основание"
+        [sortable]="true"
+        [dataType]="'string'"
+      >
+      </igx-column>
+    </ng-template>
+
+    <igx-column
+      field="hasError"
+      header="Грешка"
+      [sortable]="true"
+      [dataType]="'boolean'"
+      width="115px"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          class="width-100"
+          igxLayout
+          igxLayoutDir="column"
+          igxLayoutItemAlign="center"
+        >
+          <igx-checkbox disabled="true" [checked]="cell.value === true" igxFlex>
+          </igx-checkbox>
+        </div>
+      </ng-template>
+    </igx-column>
+
+
+    <igx-column
+      field="reportExecutionTime"
+      header="Дата на изпълнение"
+      [sortable]="true"
+      width="150px"
+      [dataType]="'date'"
+      [formatter]="this.dateFormatService.formatDate"
+    >
+    </igx-column>
+
+    <igx-column
+      header="Действия"
+      [sortable]="false"
+      width="120px"
+      [filterable]="false"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          igxLayout
+          igxLayoutDir="row"
+          igxLayoutJustify="center"
+          class="action-buttons-wrapper"
+        >
+          <tl-reference-button
+            [routeReference]="this.routes.REPORT_EXECUTION_VIEW"
+            [routeArguments]="{ ':ID': cell.rowData.id + '' }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-grid>
+      <div class="tl-paginator">
+        <app-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></app-grid-pager>
+      </div>
+    </ng-template>
+  </igx-grid>
+</tl-wrapping-card>

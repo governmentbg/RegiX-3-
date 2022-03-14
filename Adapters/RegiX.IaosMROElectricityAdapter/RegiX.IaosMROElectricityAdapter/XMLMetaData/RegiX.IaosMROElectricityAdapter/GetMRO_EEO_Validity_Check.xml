@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.IaosMROElectricityAdapter.APIService.IIaosMROElectricityAPI.GetMRO_EEO_Validity_Check</OperationName>
+  <Code>GetMRO_EEO_Validity_Check</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>MRO_EEO_Validity_Check_Request</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/IAOS/MROElectricity/ValidityCheckRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за валидност по ЕИК</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>EIK</ParameterName>
+        <ParameterLabel>ЕИК</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

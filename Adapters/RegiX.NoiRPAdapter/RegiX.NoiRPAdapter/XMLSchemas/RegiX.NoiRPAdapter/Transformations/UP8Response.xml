@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<UP8Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NOI/RP/UP8Response">
+  <Title>Справка за доход от пенсия/и и добавка/и</Title>
+  <ForDate>2013-02-01</ForDate>
+  <TerritorialDivisionNOI>КЮСТЕНДИЛ</TerritorialDivisionNOI>
+  <Identifier>4804172895</Identifier>
+  <Names>
+    <Name xmlns="http://egov.bg/RegiX/NOI/RP">ВАСИЛ</Name>
+    <Surname xmlns="http://egov.bg/RegiX/NOI/RP">ГЕОРГИЕВ</Surname>
+    <FamilyName xmlns="http://egov.bg/RegiX/NOI/RP">ПАВЛОВ</FamilyName>
+  </Names>
+  <PensionerStatus>Активен пенсионер</PensionerStatus>
+  <ContentText>В уверение на това, че лицето за периода от м.януари 2012г. до м.декември 2012г. е получило следните суми от пенсии и добавки:</ContentText>
+  <PensionPayments>
+    <PensionPayment xmlns="http://egov.bg/RegiX/NOI/RP">
+      <Month>01.01.2012г.</Month>
+      <TotalAmount>203.09</TotalAmount>
+      <PensionAmount>203.09</PensionAmount>
+      <AdditionForAssistance>0.00</AdditionForAssistance>
+      <OtherAddition>0.00</OtherAddition>
+    </PensionPayment>
+    <PensionPayment xmlns="http://egov.bg/RegiX/NOI/RP">
+      <Month>01.02.2012г.</Month>
+      <TotalAmount>203.09</TotalAmount>
+      <PensionAmount>203.09</PensionAmount>
+      <AdditionForAssistance>0.00</AdditionForAssistance>
+      <OtherAddition>0.00</OtherAddition>
+    </PensionPayment>
+    <PensionPayment xmlns="http://egov.bg/RegiX/NOI/RP">
+      <Month>01.03.2012г.</Month>
+      <TotalAmount>203.09</TotalAmount>
+      <PensionAmount>203.09</PensionAmount>
+      <AdditionForAssistance>0.00</AdditionForAssistance>
+      <OtherAddition>0.00</OtherAddition>
+    </PensionPayment>
+    <PensionPayment xmlns="http://egov.bg/RegiX/NOI/RP">
+      <Month>01.04.2012г.</Month>
+      <TotalAmount>203.09</TotalAmount>
+      <PensionAmount>203.09</PensionAmount>
+      <AdditionForAssistance>0.00</AdditionForAssistance>
+      <OtherAddition>0.00</OtherAddition>
+    </PensionPayment>
+    <PensionPayment xmlns="http://egov.bg/RegiX/NOI/RP">
+      <Month>01.05.2012г.</Month>
+      <TotalAmount>203.09</TotalAmount>
+      <PensionAmount>203.09</PensionAmount>
+      <AdditionForAssistance>0.00</AdditionForAssistance>
+      <OtherAddition>0.00</OtherAddition>
+    </PensionPayment>
+    <PensionPayment xmlns="http://egov.bg/RegiX/NOI/RP">
+      <Month>01.06.2012г.</Month>
+      <TotalAmount>203.09</TotalAmount>
+      <PensionAmount>203.09</PensionAmount>
+      <AdditionForAssistance>0.00</AdditionForAssistance>
+      <OtherAddition>0.00</OtherAddition>
+    </PensionPayment>
+    <PensionPayment xmlns="http://egov.bg/RegiX/NOI/RP">
+      <Month>01.07.2012г.</Month>
+      <TotalAmount>203.09</TotalAmount>
+      <PensionAmount>203.09</PensionAmount>
+      <AdditionForAssistance>0.00</AdditionForAssistance>
+      <OtherAddition>0.00</OtherAddition>
+    </PensionPayment>
+    <PensionPayment xmlns="http://egov.bg/RegiX/NOI/RP">
+      <Month>01.08.2012г.</Month>
+      <TotalAmount>203.09</TotalAmount>
+      <PensionAmount>203.09</PensionAmount>
+      <AdditionForAssistance>0.00</AdditionForAssistance>
+      <OtherAddition>0.00</OtherAddition>
+    </PensionPayment>
+    <PensionPayment xmlns="http://egov.bg/RegiX/NOI/RP">
+      <Month>01.09.2012г.</Month>
+      <TotalAmount>203.09</TotalAmount>
+      <PensionAmount>203.09</PensionAmount>
+      <AdditionForAssistance>0.00</AdditionForAssistance>
+      <OtherAddition>0.00</OtherAddition>
+    </PensionPayment>
+    <PensionPayment xmlns="http://egov.bg/RegiX/NOI/RP">
+      <Month>01.10.2012г.</Month>
+      <TotalAmount>203.09</TotalAmount>
+      <PensionAmount>203.09</PensionAmount>
+      <AdditionForAssistance>0.00</AdditionForAssistance>
+      <OtherAddition>0.00</OtherAddition>
+    </PensionPayment>
+    <PensionPayment xmlns="http://egov.bg/RegiX/NOI/RP">
+      <Month>01.11.2012г.</Month>
+      <TotalAmount>203.09</TotalAmount>
+      <PensionAmount>203.09</PensionAmount>
+      <AdditionForAssistance>0.00</AdditionForAssistance>
+      <OtherAddition>0.00</OtherAddition>
+    </PensionPayment>
+    <PensionPayment xmlns="http://egov.bg/RegiX/NOI/RP">
+      <Month>01.12.2012г.</Month>
+      <TotalAmount>203.09</TotalAmount>
+      <PensionAmount>203.09</PensionAmount>
+      <AdditionForAssistance>0.00</AdditionForAssistance>
+      <OtherAddition>0.00</OtherAddition>
+    </PensionPayment>
+  </PensionPayments>
+</UP8Response>

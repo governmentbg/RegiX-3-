@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/PostalServices/GetUniversalOperatorsInfoResponse" targetNamespace="http://egov.bg/RegiX/CRC/PostalServices/GetUniversalOperatorsInfoResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetUniversalOperatorsInfoResponse" type="GetUniversalOperatorsInfoResponseType">
+		<xs:annotation>
+			<xs:documentation>Резултат от изпълнението на Справка за универсални оператори</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="ProvidedPostalServicesType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="TransferServices" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предоставяни услуги за парични преводи ("Да" и "Не)"</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AdditionalServices" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предоставяни допълнителни услуги ("Да" и "Не)"</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ParcelServices" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предоставяни услуги - колети("Да" и "Не)"</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ShippingServices" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предоставяни услуги - пратки ("Да" и "Не)"</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="LicenseType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="LicenseNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на лицензия</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="LicenseDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="StartOfActionDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Начална дата на действие</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EndOfActionDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Крайна дата на действие</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ProvidedPostalServices" type="ProvidedPostalServicesType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предоставяни услуги от обхвата на УПУ
+и услугата Пощенски парични преводи</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TerritorialScope" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Териториален обхват</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Remark" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Забележка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="OperatorInfoType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="LicenseHolder" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Титуляр на лицензия</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Type" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="HeadquartersAddress" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Седалище и адрес на управление</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="URI" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>УРИ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="License" type="LicenseType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни за лицензия</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="OperatorsInfoType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="OperatorInfo" type="OperatorInfoType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Данни за оператор</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GetUniversalOperatorsInfoResponseType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="OperatorsInfo" type="OperatorsInfoType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Списък с оператори</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

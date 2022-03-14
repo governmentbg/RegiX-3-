@@ -1,0 +1,6 @@
+Install-Package RegiX.GraoNBDAdapter
+Install-Package RegiX.GraoBRAdapter
+Install-Package RegiX.GraoCivilStatusActsAdapter
+Install-Package RegiX.GraoLEAdapter
+Install-Package RegiX.GraoNMAdapter
+Install-Package RegiX.GraoPNAAdapter

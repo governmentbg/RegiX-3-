@@ -1,0 +1,170 @@
+<tl-wrapping-card
+  [title]="routes.USERS.title"
+  [icon]="routes.USERS.icon"
+  [actions]="[{ reference: excelExportAll }]">
+  <tl-linear-progress
+    [visible]="this.remoteService.isLoading"
+  ></tl-linear-progress>
+  <igx-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    (onSortingDone)="sortingDone($event)"
+    (onFilteringDone)="filteringDone($event)"
+    (onSelection)="cellSelection($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+    <igx-column
+      field="userName"
+      header="Потребителско име"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="name"
+      header="Име"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="email"
+      header="Email"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="position"
+      header="Позиция"
+      [sortable]="true"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span [title]="cell.value" class="text-ellipsis">{{ cell.value }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="userRoles"
+      header="Роли"
+      [sortable]="true"
+      [dataType]="'string'"
+      [filterable] = "false"
+      [formatter]="formatRoles"
+    >
+    </igx-column>
+
+    <ng-template [ngxPermissionsOnly]="['GLOBAL_ADMIN']">
+      <igx-column
+      field="authority"
+      header="Администрация"
+      [sortable]="true"
+      [dataType]="'string'"
+      [formatter]="displayValueService.formatDisplayValue"
+      [filters]="displayValueFilteringOperand"
+    >
+    </igx-column>
+    </ng-template>
+
+    <igx-column
+      field="isActive"
+      header="Активен"
+      width="120px"
+      [sortable]="true"
+      [dataType]="'boolean'"
+    >
+    <ng-template igxCell let-cell="cell">
+      <div
+        class="width-100"
+        igxLayout
+        igxLayoutDir="column"
+        igxLayoutItemAlign="center"
+      >
+        <igx-checkbox disabled="true" [checked]="cell.value === true" igxFlex>
+        </igx-checkbox>
+      </div>
+    </ng-template>
+    </igx-column>
+
+    <igx-column
+      header="Действия"
+      [sortable]="false"
+      width="150px"
+      [filterable]="false"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          igxLayout
+          igxLayoutDir="row"
+          igxLayoutJustify="center"
+          class="action-buttons-wrapper"
+        >
+          <tl-reference-button
+            [routeReference]="this.routes.USER_VIEW"
+            [routeArguments]="{ ':ID': cell.rowData.id + '' }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+          <tl-reference-button
+            [routeReference]="this.routes.USER_EDIT"
+            [routeArguments]="{ ':ID': cell.rowData.id + '' }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+          <button
+            type="button"
+            title="Изтрий"
+            igxButton="icon"
+            class="table-action-button"
+            (click)="prepareForDelete(cell.rowData)"
+          >
+            <igx-icon>delete</igx-icon>
+          </button>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-grid>
+      <div class="tl-paginator">
+        <tl-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+
+  </igx-grid>
+</tl-wrapping-card>
+
+<igx-dialog
+  #dialog
+  title="Изтриване на потребител?"
+  message="Сигурни ли сте, че искате да изтриете избрания потребител?"
+>
+  <div igxDialogActions class="dialog-container dialog-actions">
+    <button igxButton (click)="onDeleteCanceled()">НЕ</button>
+    <button igxButton="raised" (click)="onDeleteConfirmed()">ДА</button>
+  </div>
+</igx-dialog>

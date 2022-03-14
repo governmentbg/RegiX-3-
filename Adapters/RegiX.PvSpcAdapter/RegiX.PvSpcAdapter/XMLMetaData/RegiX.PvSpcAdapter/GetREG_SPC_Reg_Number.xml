@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.PvSpcAdapter.APIService.IPvSpcAPI.GetREG_SPC_Reg_Number</OperationName>
+  <Code>GetREG_SPC_Reg_Number</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>getSPCByAppNum</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/PatentDepartment/SPC/RegNumberRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за SPC по патент</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>AppNum</ParameterName>
+        <ParameterLabel>Номер на сертификат за допълнителна закрила</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

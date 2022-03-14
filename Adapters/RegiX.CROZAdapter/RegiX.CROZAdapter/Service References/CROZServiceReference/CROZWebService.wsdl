@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://croz.tlogica.com/ws/" name="CROZWebService" targetNamespace="http://croz.tlogica.com/ws/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema">
+      <xsd:import schemaLocation="http://croz-dev-xp:8080/CROZV2/CROZService?xsd=2" namespace="http://croz.tlogica.com/ws/types/" />
+      <xsd:import schemaLocation="http://croz-dev-xp:8080/CROZV2/CROZService?xsd=1" namespace="http://croz.tlogica.com/ws/" />
+    </xsd:schema>
+  </types>
+  <message name="executeRequest">
+    <part name="parameters" element="tns:executeRequest" />
+  </message>
+  <message name="executeResponse">
+    <part name="parameters" element="tns:executeResponse" />
+  </message>
+  <message name="getCreditorsInfoRequest">
+    <part name="parameters" element="tns:getCreditorsInfoRequest" />
+  </message>
+  <message name="getCreditorsInfoResponse">
+    <part name="parameters" element="tns:getCreditorsInfoResponse" />
+  </message>
+  <message name="getDebtorInfoRequest">
+    <part name="parameters" element="tns:getDebtorInfoRequest" />
+  </message>
+  <message name="getDebtorInfoResponse">
+    <part name="parameters" element="tns:getDebtorInfoResponse" />
+  </message>
+  <message name="getAmendmentInfoRequest">
+    <part name="parameters" element="tns:getAmendmentInfoRequest" />
+  </message>
+  <message name="getAmendmentInfoResponse">
+    <part name="parameters" element="tns:getAmendmentInfoResponse" />
+  </message>
+  <message name="getDealInfoRequest">
+    <part name="parameters" element="tns:getDealInfoRequest" />
+  </message>
+  <message name="getDealInfoResponse">
+    <part name="parameters" element="tns:getDealInfoResponse" />
+  </message>
+  <message name="searchByParticipNameRequest">
+    <part name="parameters" element="tns:searchByParticipNameRequest" />
+  </message>
+  <message name="searchByParticipNameResponse">
+    <part name="parameters" element="tns:searchByParticipNameResponse" />
+  </message>
+  <message name="searchByParticipCodeRequest">
+    <part name="parameters" element="tns:searchByParticipCodeRequest" />
+  </message>
+  <message name="searchByParticipCodeResponse">
+    <part name="parameters" element="tns:searchByParticipCodeResponse" />
+  </message>
+  <message name="searchByDealNumberRequest">
+    <part name="parameters" element="tns:searchByDealNumberRequest" />
+  </message>
+  <message name="searchByDealNumberResponse">
+    <part name="parameters" element="tns:searchByDealNumberResponse" />
+  </message>
+  <message name="searchByParticipNameCodeRequest">
+    <part name="parameters" element="tns:searchByParticipNameCodeRequest" />
+  </message>
+  <message name="searchByParticipNameCodeResponse">
+    <part name="parameters" element="tns:searchByParticipNameCodeResponse" />
+  </message>
+  <message name="searchByParticipantRequest">
+    <part name="parameters" element="tns:searchByParticipantRequest" />
+  </message>
+  <message name="searchByParticipantResponse">
+    <part name="parameters" element="tns:searchByParticipantResponse" />
+  </message>
+  <message name="getOAInfoRequest">
+    <part name="parameters" element="tns:getOAInfoRequest" />
+  </message>
+  <message name="getOAInfoResponse">
+    <part name="parameters" element="tns:getOAInfoResponse" />
+  </message>
+  <message name="synchronizationDateRequest">
+    <part name="parameters" element="tns:synchronizationDateRequest" />
+  </message>
+  <message name="synchronizationDateResponse">
+    <part name="parameters" element="tns:synchronizationDateResponse" />
+  </message>
+  <message name="getModeRequest">
+    <part name="parameters" element="tns:getModeRequest" />
+  </message>
+  <message name="getModeResponse">
+    <part name="parameters" element="tns:getModeResponse" />
+  </message>
+  <message name="getConsignmentParticipantsInfoRequest">
+    <part name="parameters" element="tns:getConsignmentParticipantsInfoRequest" />
+  </message>
+  <message name="getConsignmentParticipantsInfoResponse">
+    <part name="parameters" element="tns:getConsignmentParticipantsInfoResponse" />
+  </message>
+  <message name="getEraseEntryInfoRequest">
+    <part name="parameters" element="tns:getEraseEntryInfoRequest" />
+  </message>
+  <message name="getEraseEntryInfoResponse">
+    <part name="parameters" element="tns:getEraseEntryInfoResponse" />
+  </message>
+  <message name="getLeftExecutionInfoRequest">
+    <part name="parameters" element="tns:getLeftExecutionInfoRequest" />
+  </message>
+  <message name="getLeftExecutionInfoResponse">
+    <part name="parameters" element="tns:getLeftExecutionInfoResponse" />
+  </message>
+  <message name="getProceedExecutionInfoRequest">
+    <part name="parameters" element="tns:getProceedExecutionInfoRequest" />
+  </message>
+  <message name="getProceedExecutionInfoResponse">
+    <part name="parameters" element="tns:getProceedExecutionInfoResponse" />
+  </message>
+  <message name="getNewManagerInfoRequest">
+    <part name="parameters" element="tns:getNewManagerInfoRequest" />
+  </message>
+  <message name="getNewManagerInfoResponse">
+    <part name="parameters" element="tns:getNewManagerInfoResponse" />
+  </message>
+  <message name="getConsignmentInfoRequest">
+    <part name="parameters" element="tns:getConsignmentInfoRequest" />
+  </message>
+  <message name="getConsignmentInfoResponse">
+    <part name="parameters" element="tns:getConsignmentInfoResponse" />
+  </message>
+  <portType name="CROZWebService">
+    <operation name="execute">
+      <input message="tns:executeRequest" />
+      <output message="tns:executeResponse" />
+    </operation>
+    <operation name="getCreditorsInfo">
+      <input message="tns:getCreditorsInfoRequest" />
+      <output message="tns:getCreditorsInfoResponse" />
+    </operation>
+    <operation name="getDebtorInfo">
+      <input message="tns:getDebtorInfoRequest" />
+      <output message="tns:getDebtorInfoResponse" />
+    </operation>
+    <operation name="getAmendmentInfo">
+      <input message="tns:getAmendmentInfoRequest" />
+      <output message="tns:getAmendmentInfoResponse" />
+    </operation>
+    <operation name="getDealInfo">
+      <input message="tns:getDealInfoRequest" />
+      <output message="tns:getDealInfoResponse" />
+    </operation>
+    <operation name="searchByParticipName">
+      <input message="tns:searchByParticipNameRequest" />
+      <output message="tns:searchByParticipNameResponse" />
+    </operation>
+    <operation name="searchByParticipCode">
+      <input message="tns:searchByParticipCodeRequest" />
+      <output message="tns:searchByParticipCodeResponse" />
+    </operation>
+    <operation name="searchByDealNumber">
+      <input message="tns:searchByDealNumberRequest" />
+      <output message="tns:searchByDealNumberResponse" />
+    </operation>
+    <operation name="searchByParticipNameCode">
+      <input message="tns:searchByParticipNameCodeRequest" />
+      <output message="tns:searchByParticipNameCodeResponse" />
+    </operation>
+    <operation name="searchByParticipant">
+      <input message="tns:searchByParticipantRequest" />
+      <output message="tns:searchByParticipantResponse" />
+    </operation>
+    <operation name="getOAInfo">
+      <input message="tns:getOAInfoRequest" />
+      <output message="tns:getOAInfoResponse" />
+    </operation>
+    <operation name="synchronizationDate">
+      <input message="tns:synchronizationDateRequest" />
+      <output message="tns:synchronizationDateResponse" />
+    </operation>
+    <operation name="getMode">
+      <input message="tns:getModeRequest" />
+      <output message="tns:getModeResponse" />
+    </operation>
+    <operation name="getConsignmentParticipantsInfo">
+      <input message="tns:getConsignmentParticipantsInfoRequest" />
+      <output message="tns:getConsignmentParticipantsInfoResponse" />
+    </operation>
+    <operation name="getEraseEntryInfo">
+      <input message="tns:getEraseEntryInfoRequest" />
+      <output message="tns:getEraseEntryInfoResponse" />
+    </operation>
+    <operation name="getLeftExecutionInfo">
+      <input message="tns:getLeftExecutionInfoRequest" />
+      <output message="tns:getLeftExecutionInfoResponse" />
+    </operation>
+    <operation name="getProceedExecutionInfo">
+      <input message="tns:getProceedExecutionInfoRequest" />
+      <output message="tns:getProceedExecutionInfoResponse" />
+    </operation>
+    <operation name="getNewManagerInfo">
+      <input message="tns:getNewManagerInfoRequest" />
+      <output message="tns:getNewManagerInfoResponse" />
+    </operation>
+    <operation name="getConsignmentInfo">
+      <input message="tns:getConsignmentInfoRequest" />
+      <output message="tns:getConsignmentInfoResponse" />
+    </operation>
+  </portType>
+  <binding name="CROZWebServicePortBinding" type="tns:CROZWebService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="execute">
+      <soap:operation soapAction="http://croz.tlogica.com//execute" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCreditorsInfo">
+      <soap:operation soapAction="http://croz.tlogica.com//getCreditorsInfo" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getDebtorInfo">
+      <soap:operation soapAction="http://croz.tlogica.com//getDebtorInfo" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getAmendmentInfo">
+      <soap:operation soapAction="http://croz.tlogica.com//getAmendmentInfo" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getDealInfo">
+      <soap:operation soapAction="http://croz.tlogica.com//getDealInfo" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="searchByParticipName">
+      <soap:operation soapAction="http://croz.tlogica.com//searchByParticipName" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="searchByParticipCode">
+      <soap:operation soapAction="http://croz.tlogica.com//searchByParticipCode" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="searchByDealNumber">
+      <soap:operation soapAction="http://croz.tlogica.com//searchByDealNumber" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="searchByParticipNameCode">
+      <soap:operation soapAction="http://croz.tlogica.com//searchByParticipNameCode" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="searchByParticipant">
+      <soap:operation soapAction="http://croz.tlogica.com//searchByParticipant" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getOAInfo">
+      <soap:operation soapAction="http://croz.tlogica.com//getOAInfo" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="synchronizationDate">
+      <soap:operation soapAction="http://croz.tlogica.com//synchronizationDate" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getMode">
+      <soap:operation soapAction="http://croz.tlogica.com//getMode" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getConsignmentParticipantsInfo">
+      <soap:operation soapAction="http://croz.tlogica.com//getConsignmentParticipantsInfo" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getEraseEntryInfo">
+      <soap:operation soapAction="http://croz.tlogica.com//getEraseEntryInfo" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getLeftExecutionInfo">
+      <soap:operation soapAction="http://croz.tlogica.com//getLeftExecutionInfo" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getProceedExecutionInfo">
+      <soap:operation soapAction="http://croz.tlogica.com//getProceedExecutionInfo" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getNewManagerInfo">
+      <soap:operation soapAction="http://croz.tlogica.com//getNewManagerInfo" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getConsignmentInfo">
+      <soap:operation soapAction="http://croz.tlogica.com//getConsignmentInfo" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="CROZService">
+    <port name="WebServices" binding="tns:CROZWebServicePortBinding">
+      <soap:address location="http://croz-dev-xp:8080/CROZV2/CROZService" />
+    </port>
+  </service>
+</definitions>

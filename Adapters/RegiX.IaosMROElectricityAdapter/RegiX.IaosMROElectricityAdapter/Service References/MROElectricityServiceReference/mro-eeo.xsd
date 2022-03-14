@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://egov.bg/RegiX/IAOS/MROEEO" targetNamespace="http://egov.bg/RegiX/IAOS/MROEEO" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="MRO_EEO_Equipment_Category_Request" type="tns:MRO_EEO_Equipment_Category_Request" />
+  <xs:element name="MRO_EEO_Equipment_Category_Response" type="tns:mroeeoEquipmentCategory" />
+  <xs:element name="MRO_EEO_Execution_Type_Request" type="tns:MRO_EEO_Execution_Type_Request" />
+  <xs:element name="MRO_EEO_Execution_Type_Response" type="tns:mroeeoExecutionType" />
+  <xs:element name="MRO_EEO_Trade_Marks_Request" type="tns:MRO_EEO_Trade_Marks_Request" />
+  <xs:element name="MRO_EEO_Trade_Marks_Response" type="tns:mroeeoTradeMarks" />
+  <xs:element name="MRO_EEO_Validity_Check_Request" type="tns:MRO_EEO_Validity_Check_Request" />
+  <xs:element name="MRO_EEO_Validity_Check_Response" type="tns:mroeeoValidityCheck" />
+  <xs:element name="WebServiceException" type="tns:WebServiceException" />
+  <xs:element name="getEquipmentCategoryResponse" type="tns:getEquipmentCategoryResponse" />
+  <xs:element name="getExecutionTypeResponse" type="tns:getExecutionTypeResponse" />
+  <xs:element name="getTradeMarksResponse" type="tns:getTradeMarksResponse" />
+  <xs:element name="getValidityCheckResponse" type="tns:getValidityCheckResponse" />
+  <xs:complexType name="MRO_EEO_Equipment_Category_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="EIK" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getEquipmentCategoryResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:MRO_EEO_Equipment_Category_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="mroeeoEquipmentCategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="Authorization" type="tns:Authorization" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Authorization">
+    <xs:sequence>
+      <xs:element form="qualified" name="AuthNum" type="xs:string" />
+      <xs:element form="qualified" name="CompanyName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" form="qualified" name="EEOCategory" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="WebServiceException">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="MRO_EEO_Trade_Marks_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="AuthNum" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getTradeMarksResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:MRO_EEO_Trade_Marks_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="mroeeoTradeMarks">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Authorization" type="tns:AuthorizationTradeMarks" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthorizationTradeMarks">
+    <xs:sequence>
+      <xs:element form="qualified" name="CompanyName" type="xs:string" />
+      <xs:element form="qualified" name="EIK" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" form="qualified" name="TradeMark" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="MRO_EEO_Validity_Check_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="EIK" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getValidityCheckResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:MRO_EEO_Validity_Check_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="mroeeoValidityCheck">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="Authorization" type="tns:AuthorizationValidityCheck" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthorizationValidityCheck">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="Address" type="xs:string" />
+      <xs:element form="qualified" name="AuthNum" type="xs:string" />
+      <xs:element form="qualified" name="CompanyName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="DistName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="FirstName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="LastName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="MidName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="PopName" type="xs:string" />
+      <xs:element form="qualified" name="State" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="TerName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="MRO_EEO_Execution_Type_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="EIK" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getExecutionTypeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:MRO_EEO_Execution_Type_Response" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="mroeeoExecutionType">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="Authorization" type="tns:AuthorizationExecutionType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthorizationExecutionType">
+    <xs:sequence>
+      <xs:element form="qualified" name="AuthNum" type="xs:string" />
+      <xs:element form="qualified" name="CompanyName" type="xs:string" />
+      <xs:element form="qualified" name="MroFulfillment" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="RecOrgNum" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="UonName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

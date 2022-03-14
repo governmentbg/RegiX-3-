@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<MarriageResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/BR/MarriageResponse">
+  <MarriageLicenceDate>2002-08-24</MarriageLicenceDate>
+  <MarriageLicenceNumber>0168</MarriageLicenceNumber>
+  <MarriageDate>2002-08-22</MarriageDate>
+  <MarriagePlaceCode>10447</MarriagePlaceCode>
+  <MarriagePlace>	СОФИЯ 02 рн КРАСНО СЕЛО</MarriagePlace>
+  <MarriageCountry>България</MarriageCountry>
+  <DivorceCaseNumber>591/</DivorceCaseNumber>
+  <DivorceDate>2008-06-19</DivorceDate>
+</MarriageResponse>

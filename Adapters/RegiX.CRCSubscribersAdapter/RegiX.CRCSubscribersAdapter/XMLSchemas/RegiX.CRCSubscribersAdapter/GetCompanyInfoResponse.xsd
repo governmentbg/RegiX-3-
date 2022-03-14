@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/Subscribers/GetCompanyInfoResponse" targetNamespace="http://egov.bg/RegiX/CRC/Subscribers/GetCompanyInfoResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetCompanyInfoResponse" type="GetCompanyInfoResponseType">
+		<xs:annotation>
+			<xs:documentation>Резултат от изпълнение на "Справка за предприятие"</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="DeclaredSubscribersCountType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="FixedTelephoneService" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Фиксирана
+телефонна
+услуга</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ChooseOperatorService" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Достъп до
+обществена
+телефонна услуга
+чрез услугата „избор
+на оператор”
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MobileTelephoneService" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Мобилна гласова
+телефонна услуга,
+предоставяна чрез мобилни
+наземни мрежи по стандарт
+GSM, UMTS, LTE</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="LocationalInternetAccess" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Достъп до
+интернет в
+определено
+местоположение
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MobileInternetAccess" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Мобилен
+достъп до
+интернет
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DataTransferAndInternetAccess" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Услуги за пренос на
+данни и достъп до
+интернет на дребно с
+гарантирано качество
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RadioAndTVProgramsDistribution" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Радио и телевизия</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GetCompanyInfoResponseType">
+		<xs:sequence>
+			<xs:element name="CompaniesData" type="CompaniesDataType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CompanyDataType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="CompanyName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предприятие</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CompanyType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид на предприятието</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EIK" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ЕИК</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PublicMessagesActivityDeclared" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Декларирана дейност по
+предоставяне на
+обществени електронни
+съобщения през 2019 г.
+(да/не)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="InfoProvided" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предоставена информация (да/не)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DeclaredSubscribersCount" type="DeclaredSubscribersCountType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Деклариран брой абонати към 31.12.2019 г.
+съгласно предоставяните от предприятието услуги на дребно
+(вкл. пакетни и предплатени услуги)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CompaniesDataType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="CompanyData" type="CompanyDataType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

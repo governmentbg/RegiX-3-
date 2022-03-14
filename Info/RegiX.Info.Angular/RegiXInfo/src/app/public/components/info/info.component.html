@@ -1,0 +1,40 @@
+<div class="agency-data-holder">
+  <!-- <igx-navbar title="{{ title }}"></igx-navbar> -->
+  <h4>{{ title }}</h4>
+  <!-- <igx-card> -->
+
+  <!-- <igx-card-content> -->
+  <div class="info-wrapepr">
+    <igx-circular-bar
+      *ngIf="isDataLoading"
+      [animate]="true"
+      [indeterminate]="true"
+      [textVisibility]="true"
+    ></igx-circular-bar>
+
+    <div *ngIf="isDataLoaded && !isDataLoading">
+      <table class="table table-bordered table-hover table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Администрация</th>
+            <th scope="col">Регистри</th>
+            <th scope="col">Адаптери</th>
+            <th scope="col">Операции</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let detail of agencyDetails">
+            <td>
+              <a (click)="selectCell(detail.Acronym)" class="text-primary">{{detail.Acronym}} - {{ detail.Name}}</a>
+            </td>
+            <td>{{ detail.RegistersCount }}</td>
+            <td>{{ detail.AdaptersCount }}</td>
+            <td>{{ detail.OperationsCount }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!-- </igx-card-content>
+  </igx-card> -->
+</div>

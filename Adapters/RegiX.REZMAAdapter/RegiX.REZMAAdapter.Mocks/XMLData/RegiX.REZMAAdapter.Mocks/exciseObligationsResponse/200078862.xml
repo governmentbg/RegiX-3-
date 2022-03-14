@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExciseObligationsResponse xmlns="http://egov.bg/RegiX/AM/REZMA/ExciseObligationsResponse" >
+  <UIN>200078862</UIN>
+  <Name>ЕООД</Name>
+  <Obligations>
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG003000</CodeMU>
+      <MU>ТМУ Враца</MU>
+	  <Document>НАКАЗАТЕЛНО ПОСТАНОВЛЕНИЕ</Document>
+	  <DocumentNumber>N124-54</DocumentNumber>
+	  <CreationDate>2004-09-13</CreationDate>
+      <TypeObligation>ГЛОБИ, НЕУСТОЙКИ</TypeObligation>
+      <PayingDocument>86</PayingDocument>
+      <PayingDate>2006-09-13</PayingDate>
+      <PayingAmount>200.00</PayingAmount>
+      <PayingTotal>200.00</PayingTotal>
+      <Difference>200.00</Difference>
+      <Status>Има задължение</Status>
+    </Obligation>
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG001000</CodeMU>
+      <MU>ТМУ Враца</MU>
+	  <Document>НАКАЗАТЕЛНО ПОСТАНОВЛЕНИЕ</Document>
+      <DocumentNumber>N124-54</DocumentNumber>
+	  <CreationDate>2004-09-13</CreationDate>
+      <TypeObligation>ГЛОБИ, НЕУСТОЙКИ</TypeObligation>
+      <PayingDocument>87</PayingDocument>
+      <PayingDate>2006-09-13</PayingDate>
+      <PayingAmount>350.00</PayingAmount>
+      <PayingTotal>100.00</PayingTotal>
+      <Difference>250.00</Difference>
+      <Status>Има задължение</Status>
+    </Obligation>
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG002000</CodeMU>
+      <MU>ТМУ Враца</MU>
+	   <Document>НАКАЗАТЕЛНО ПОСТАНОВЛЕНИЕ</Document>
+      <DocumentNumber>N124-54</DocumentNumber>
+	  <CreationDate>2004-09-13</CreationDate>
+      <TypeObligation>ГЛОБИ, НЕУСТОЙКИ</TypeObligation>
+      <PayingDocument>87</PayingDocument>
+      <PayingDate>2006-09-13</PayingDate>
+      <PayingAmount>350.00</PayingAmount>
+      <PayingTotal>100.00</PayingTotal>
+      <Difference>250.00</Difference>
+      <Status>Има задължение</Status>
+    </Obligation>
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG004000</CodeMU>
+      <MU>ТМУ Враца</MU>
+	  <Document>НАКАЗАТЕЛНО ПОСТАНОВЛЕНИЕ</Document>
+      <DocumentNumber>N124-54</DocumentNumber>
+	  <CreationDate>2004-09-13</CreationDate>
+      <TypeObligation>ГЛОБИ, НЕУСТОЙКИ</TypeObligation>
+      <PayingDocument>87</PayingDocument>
+      <PayingDate>2006-09-13</PayingDate>
+      <PayingAmount>350.00</PayingAmount>
+      <PayingTotal>100.00</PayingTotal>
+      <Difference>250.00</Difference>
+      <Status>Има задължение</Status>
+    </Obligation>
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG004200</CodeMU>
+      <MU>ТМУ Враца</MU>
+	  <Document>НАКАЗАТЕЛНО ПОСТАНОВЛЕНИЕ</Document>
+      <DocumentNumber>N124-54</DocumentNumber>
+	  <CreationDate>2004-09-13</CreationDate>
+      <TypeObligation>ГЛОБИ, НЕУСТОЙКИ</TypeObligation>
+      <PayingDocument>87</PayingDocument>
+      <PayingDate>2006-09-13</PayingDate>
+      <PayingAmount>350.00</PayingAmount>
+      <PayingTotal>100.00</PayingTotal>
+      <Difference>250.00</Difference>
+      <Status>Има задължение</Status>
+    </Obligation>
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG005100</CodeMU>
+      <MU>ТМУ Враца</MU>
+	  <Document>НАКАЗАТЕЛНО ПОСТАНОВЛЕНИЕ</Document>
+      <DocumentNumber>N124-54</DocumentNumber>
+	  <CreationDate>2004-09-13</CreationDate>
+      <TypeObligation>ГЛОБИ, НЕУСТОЙКИ</TypeObligation>
+      <PayingDocument>87</PayingDocument>
+      <PayingDate>2006-09-13</PayingDate>
+      <PayingAmount>350.00</PayingAmount>
+      <PayingTotal>100.00</PayingTotal>
+      <Difference>250.00</Difference>
+      <Status>Има задължение</Status>
+    </Obligation>
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG005700</CodeMU>
+      <MU>ТМУ Враца</MU>
+	  <Document>НАКАЗАТЕЛНО ПОСТАНОВЛЕНИЕ</Document>
+      <DocumentNumber>N124-54</DocumentNumber>
+	  <CreationDate>2004-09-13</CreationDate>
+      <TypeObligation>ГЛОБИ, НЕУСТОЙКИ</TypeObligation>
+      <PayingDocument>87</PayingDocument>
+      <PayingDate>2006-09-13</PayingDate>
+      <PayingAmount>350.00</PayingAmount>
+      <PayingTotal>100.00</PayingTotal>
+      <Difference>250.00</Difference>
+      <Status>Има задължение</Status>
+    </Obligation>
+    <Obligation xmlns="http://egov.bg/RegiX/AM/REZMA">
+      <CodeMU>BG009999</CodeMU>
+      <MU>ТМУ Враца</MU>
+	  <Document>НАКАЗАТЕЛНО ПОСТАНОВЛЕНИЕ</Document>
+      <DocumentNumber>N124-54</DocumentNumber>
+	  <CreationDate>2004-09-13</CreationDate>
+      <TypeObligation>ГЛОБИ, НЕУСТОЙКИ</TypeObligation>
+      <PayingDocument>87</PayingDocument>
+      <PayingDate>2006-09-13</PayingDate>
+      <PayingAmount>350.00</PayingAmount>
+      <PayingTotal>100.00</PayingTotal>
+      <Difference>250.00</Difference>
+      <Status>Има задължение</Status>
+    </Obligation>
+	</Obligations>
+</ExciseObligationsResponse>

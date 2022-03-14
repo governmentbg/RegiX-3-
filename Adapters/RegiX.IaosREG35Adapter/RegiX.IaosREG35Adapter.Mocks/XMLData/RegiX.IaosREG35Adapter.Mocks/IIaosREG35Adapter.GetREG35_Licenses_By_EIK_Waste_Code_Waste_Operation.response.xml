@@ -1,0 +1,14 @@
+<REG35_Licenses_By_EIK_Waste_Code_Waste_Operation_Response xmlns="http://egov.bg/RegiX/IAOS/REG35/LicensesByEIKWasteCodeWasteOperationResponse">
+  <Authorization>
+    <AuthNum>854754254</AuthNum>
+    <AuthType>ИНД</AuthType>
+    <Stage>
+      <StageAddress>гр.Севлиево ул.Г.Груев 6</StageAddress>
+      <StageNum>5236985475</StageNum>
+      <Waste>
+        <WasteCode xmlns="">546561165745</WasteCode>
+        <WasteType xmlns="">Пластмаса</WasteType>
+      </Waste>
+    </Stage>
+  </Authorization>
+</REG35_Licenses_By_EIK_Waste_Code_Waste_Operation_Response>

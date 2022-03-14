@@ -1,0 +1,163 @@
+<tl-basic-form
+  [title]="operationName+ ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <form [formGroup]="formGroup" (submit)="onSubmit($event)">
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="id"
+              type="text"
+              formControlName="id"
+              tlFormGroupRef
+            />
+            <label igxLabel for="id">Идентификатор</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="adapterOperationName"
+              type="text"
+              formControlName="adapterOperationName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="adapterOperationName"
+              >Операция на адаптер</label
+            >
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="apiServiceCallName"
+              type="text"
+              formControlName="apiServiceCallName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="apiServiceCallName"
+              >Операция на интерфейс</label
+            >
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="apiServiceOperationsName"
+              type="text"
+              formControlName="apiServiceOperationsName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="apiServiceOperationsName">Операции</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div
+        class="input-group"
+        igxLayout
+        igxLayoutDir="row"
+        formGroupName="apiServiceConsumer"
+      >
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="displayName"
+              type="text"
+              formControlName="displayName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="displayName">Консуматор</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div
+      class="input-group"
+      igxLayout
+      igxLayoutDir="row"
+      formGroupName="consumerCertificate"
+    >
+      <tl-form-group class="form-group-wrapper">
+        <igx-input-group>
+          <input
+            class="form-input"
+            igxInput
+            name="displayName"
+            type="text"
+            formControlName="displayName"
+            tlFormGroupRef
+          />
+          <label igxLabel for="displayName">Сертификат на консуматор</label>
+        </igx-input-group>
+      </tl-form-group>
+    </div>
+
+    <div
+      class="input-group"
+      igxLayout
+      igxLayoutDir="row"
+      formGroupName="administration"
+    >
+      <tl-form-group class="form-group-wrapper">
+        <igx-input-group>
+          <input
+            class="form-input"
+            igxInput
+            name="displayName"
+            type="text"
+            formControlName="displayName"
+            tlFormGroupRef
+          />
+          <label igxLabel for="displayName">Администрация на консуматор</label>
+        </igx-input-group>
+      </tl-form-group>
+    </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <label for="errorMessage" class="errorsLabel">Грешка</label>
+          <textarea
+            name="errorMessage"
+            formControlName="errorMessage"
+            rows="10"
+            tlFormGroupRef
+          ></textarea>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <label for="errorContent" class="errorsLabel">Съдържание</label>
+          <textarea
+            name="errorContent"
+            formControlName="errorContent"
+            rows="10"
+            tlFormGroupRef
+          ></textarea>
+        </tl-form-group>
+      </div>
+    </form>
+  </div>
+</tl-basic-form>

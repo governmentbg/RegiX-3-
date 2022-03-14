@@ -1,0 +1,102 @@
+﻿<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.NCPRMedicinalProductsAdapter.APIService.INCPRMedicinalProductsAPI.ListMedicinalProducts</OperationName>
+  <Code>ListMedicinalProducts</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>ListMedicinalProductsRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/NCPR/MedicinalProducts/ListMedicinalProductsRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за Търсене на лекарствени продукти в регистрите</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>RegisterCode</ParameterName>
+        <ParameterLabel>Идентификатор на запис от базата данни</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <!--<IdentifierType>3</IdentifierType>-->
+        <ParameterType>
+          <Type>RegisterCodeType</Type>
+          <EnumValues>
+            <EnumValue>
+              <Value>PDL_APPENDIX_1</Value>
+              <DisplayText>PDL_APPENDIX_1</DisplayText>
+              <!--<IdentifierType>2</IdentifierType>-->
+            </EnumValue>
+            <EnumValue>
+              <Value>PDL_APPENDIX_2</Value>
+              <DisplayText>PDL_APPENDIX_2</DisplayText>
+              <!--<IdentifierType>1</IdentifierType>-->
+            </EnumValue>
+            <EnumValue>
+              <Value>PDL_APPENDIX_3</Value>
+              <DisplayText>PDL_APPENDIX_3</DisplayText>
+              <!--<IdentifierType>1</IdentifierType>-->
+            </EnumValue>
+            <EnumValue>
+              <Value>PDL_APPENDIX_4</Value>
+              <DisplayText>PDL_APPENDIX_4</DisplayText>
+              <!--<IdentifierType>1</IdentifierType>-->
+            </EnumValue>
+            <EnumValue>
+              <Value>CEILING_PRICES</Value>
+              <DisplayText>CEILING_PRICES</DisplayText>
+              <!--<IdentifierType>1</IdentifierType>-->
+            </EnumValue>
+            <EnumValue>
+              <Value>MAX_PRICES</Value>
+              <DisplayText>MAX_PRICES</DisplayText>
+              <!--<IdentifierType>1</IdentifierType>-->
+            </EnumValue>
+          </EnumValues>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>ATCCode</ParameterName>
+        <ParameterLabel>ATC Код</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <!--<IdentifierType>3</IdentifierType>-->
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>MedicinalProductName</ParameterName>
+        <ParameterLabel>Наименование на ЛП</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <!--<IdentifierType>3</IdentifierType>-->
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>INNCode</ParameterName>
+        <ParameterLabel>INN</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>3</OrderNumber>
+        <!--<IdentifierType>3</IdentifierType>-->
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

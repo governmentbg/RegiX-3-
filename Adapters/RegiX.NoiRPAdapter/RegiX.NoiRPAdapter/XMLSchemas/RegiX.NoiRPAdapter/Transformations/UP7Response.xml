@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<UP7Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NOI/RP/UP7Response">
+  <Title>Справка за размер и вид на пенсия/и и добавка/и</Title>
+  <ForDate>2013-02-01</ForDate>
+  <TerritorialDivisionNOI>КЮСТЕНДИЛ</TerritorialDivisionNOI>
+  <Identifier>4804172895</Identifier>
+  <Names>
+    <Name xmlns="http://egov.bg/RegiX/NOI/RP">ВАСИЛ</Name>
+    <Surname xmlns="http://egov.bg/RegiX/NOI/RP">ГЕОРГИЕВ</Surname>
+    <FamilyName xmlns="http://egov.bg/RegiX/NOI/RP">ПАВЛОВ</FamilyName>
+  </Names>
+  <PensionerStatus>Активен пенсионер</PensionerStatus>
+  <ReceivingAmountNumbers>203.09</ReceivingAmountNumbers>
+  <ContentText>В уверение на това, че лицето получава:</ContentText>
+  <Pensions>
+    <Pension xmlns="http://egov.bg/RegiX/NOI/RP">
+      <PensionType>ЛИЧНА ПЕНСИЯ ЗА ОСИГУРИТЕЛЕН СТАЖ И ВЪЗРАСТ по чл.68 КСО, безсрочна, в размер на</PensionType>
+      <PensionAmount>175.35</PensionAmount>
+    </Pension>
+    <Pension xmlns="http://egov.bg/RegiX/NOI/RP">
+      <PensionType>ЛИЧНА СОЦИАЛНА ПЕНСИЯ ЗА ИНВАЛИДНОСТ по чл.90 КСО, безсрочна, в размер на</PensionType>
+      <PensionAmount>27.74</PensionAmount>
+    </Pension>
+  </Pensions>
+  <AdditionAndReductionAmounts >
+  <AdditionAndReductionAmount xmlns="http://egov.bg/RegiX/NOI/RP">
+  <TypeName>Върху пенсията е начислена удружка за надвзета пенсия в размер на</TypeName>
+  <Value>80.08</Value>
+  </AdditionAndReductionAmount>
+  </AdditionAndReductionAmounts>
+</UP7Response>

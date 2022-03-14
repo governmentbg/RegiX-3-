@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.SecureBlackBoxSigner.NetCore</RootNamespace>
+    <Description>Signer implementing xades XML signing with timestamp</Description>
+    <Company>TechnoLogica</Company>
+    <Authors>Dimitar Mitev</Authors>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.BaseSigner" Version="1.0.14" />
+    <PackageReference Include="SecureBlackbox.NetCore" Version="16.0.330" />
+  </ItemGroup>
+
+</Project>

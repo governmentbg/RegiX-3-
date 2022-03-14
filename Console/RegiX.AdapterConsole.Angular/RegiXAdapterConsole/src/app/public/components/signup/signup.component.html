@@ -1,0 +1,140 @@
+<rgx-divided
+  [leftContent]="login"
+  [rightContent]="logo"
+  [applicationName]="applicationName"
+>
+  <ng-template #login>
+    <div class="inner-wrapper">
+      <h4 class="login-title">Регистрация</h4>
+
+      <div class="report-content-wrapper" *ngIf="isDataLoading">
+        <div>
+          <igx-circular-bar
+            [animate]="true"
+            [indeterminate]="true"
+            [textVisibility]="true"
+          ></igx-circular-bar>
+        </div>
+      </div>
+
+      <div>
+        <form [formGroup]="signupForm" (submit)="onSubmit($event)">
+          <div class="input-group">
+            <app-form-group class="form-group-wrapper">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="name"
+                  type="text"
+                  formControlName="name"
+                  appFormGroupRef
+                />
+                <label igxLabel for="name">Име</label>
+              </igx-input-group>
+            </app-form-group>
+          </div>
+
+          <div class="input-group">
+            <app-form-group class="form-group-wrapper">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="userName"
+                  type="text"
+                  formControlName="userName"
+                  appFormGroupRef
+                />
+                <label igxLabel for="userName">Потребителско име</label>
+              </igx-input-group>
+            </app-form-group>
+          </div>
+
+          <div class="input-group">
+            <app-form-group class="form-group-wrapper">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="email"
+                  type="email"
+                  formControlName="email"
+                  appFormGroupRef
+                />
+                <label igxLabel for="email">Email</label>
+              </igx-input-group>
+            </app-form-group>
+          </div>
+
+          <div class="input-group">
+            <app-form-group class="form-group-wrapper">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="password"
+                  type="password"
+                  formControlName="password"
+                  appFormGroupRef
+                />
+                <label igxLabel for="password">Парола</label>
+              </igx-input-group>
+            </app-form-group>
+          </div>
+
+          <div class="input-group">
+            <app-form-group class="form-group-wrapper">
+              <igx-input-group>
+                <input
+                  class="form-input"
+                  igxInput
+                  name="confirmPassword"
+                  type="password"
+                  formControlName="confirmPassword"
+                  appFormGroupRef
+                />
+                <label igxLabel for="confirmPassword"
+                  >Потвърди парола</label
+                >
+              </igx-input-group>
+            </app-form-group>
+          </div>
+
+          <!-- Buttons  -->
+          <div class="buttons-wrapper">
+            <button
+              type="button"
+              class="table-button"
+              igxButton="raised"
+              (click)="onCancel()"
+              title="Назад"
+            >
+              Назад
+            </button>
+            <button
+              type="button"
+              class="table-button"
+              igxButton="raised"
+              (click)="onSubmit($event)"
+              [disabled]="!isFormValid()"
+              title="Създай профил"
+            >
+            Създай профил
+            </button>
+          </div>
+
+          <div class="error" *ngIf="errorMessage">{{ errorMessage }}</div>
+        </form>
+      </div>
+    </div>
+  </ng-template>
+  <ng-template #logo>
+    <img
+      class="login-right"
+      src="assets/RegiXConsole.png"
+      alt="RegiX"
+    />
+  </ng-template>
+</rgx-divided>
+

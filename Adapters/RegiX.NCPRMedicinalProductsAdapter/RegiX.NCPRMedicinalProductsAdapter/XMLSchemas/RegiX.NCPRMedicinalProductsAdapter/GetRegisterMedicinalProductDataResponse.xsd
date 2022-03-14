@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://egov.bg/RegiX/NCPR/Common" xmlns="http://egov.bg/RegiX/NCPR/MedicinalProducts/GetRegisterMedicinalProductDataResponse" targetNamespace="http://egov.bg/RegiX/NCPR/MedicinalProducts/GetRegisterMedicinalProductDataResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/NCPR/Common" schemaLocation="NCPRCommon.xsd"/>
+	<xs:element name="GetRegisterMedicinalProductDataResponse" type="GetRegisterMedicinalProductDataResponseType">
+		<xs:annotation>
+			<xs:documentation>Резултат от изпълнението на справка по Извличане на детайли за лекарствен продукт в конкретен регистър</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="GetRegisterMedicinalProductDataResponseType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="MedicinalProductData" type="common:MedicinalProductData" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

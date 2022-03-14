@@ -1,0 +1,39 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.IaosREGProtectedAreasAdapter.APIService.IIaosREGProtectedAreasAPI.GetREG_PAPZ_Protected_Area_Size</OperationName>
+  <Code>GetREG_PAPZ_Protected_Area_Size</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>REG_PAPZ_Protected_Area_Size_Request</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/IAOS/REGPapz/ProtectedAreaSizeRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за площ на защитена територия/зона</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>AreaCode</ParameterName>
+        <ParameterLabel>Код на територията</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>AreaType</ParameterName>
+        <ParameterLabel>Тип на територията</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

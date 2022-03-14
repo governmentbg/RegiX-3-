@@ -1,0 +1,27 @@
+<UP7NewResponse xmlns="http://egov.bg/RegiX/NOI/RP/UP7NewResponse" xmlns:common="http://egov.bg/RegiX/NOI/RP">
+  <Title>УП-7</Title>
+  <ForDate>1967-08-13</ForDate>
+  <TerritorialDivisionNOI>String</TerritorialDivisionNOI>
+  <Identifier>1111111110</Identifier>
+  <Names>
+    <common:Name>Иван</common:Name>
+    <common:Surname>Иванов</common:Surname>
+    <common:FamilyName>Иванов</common:FamilyName>
+  </Names>
+  <PensionerStatus>String</PensionerStatus>
+  <ReceivingAmountNumbers>0.0</ReceivingAmountNumbers>
+  <DateOfDeath>2001-12-17T09:30:47.0Z</DateOfDeath>
+  <ContentText>String</ContentText>
+  <Pensions>
+    <common:Pension>
+      <common:PensionType>String</common:PensionType>
+      <common:PensionAmount>0.0</common:PensionAmount>
+    </common:Pension>
+  </Pensions>
+  <AdditionAndReductionAmounts>
+    <common:AdditionAndReductionAmount>
+      <common:TypeName>String</common:TypeName>
+      <common:Value>0.0</common:Value>
+    </common:AdditionAndReductionAmount>
+  </AdditionAndReductionAmounts>
+</UP7NewResponse>

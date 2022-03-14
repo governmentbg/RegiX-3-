@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<POVNPOBResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NOI/RO/POVNPOBResponse">
+    <IdentifierType></IdentifierType>
+  <PaymentData>
+    </PaymentData>
+  <Error>0</Error>
+  <MissingData >Kokoko</MissingData>
+</POVNPOBResponse>

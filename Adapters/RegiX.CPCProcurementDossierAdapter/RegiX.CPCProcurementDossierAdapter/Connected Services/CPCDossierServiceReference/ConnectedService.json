@@ -1,0 +1,51 @@
+﻿{
+  "ProviderId": "Microsoft.VisualStudio.ConnectedService.Wcf",
+  "Version": "15.0.31022.994",
+  "GettingStartedDocument": {
+    "Uri": "https://go.microsoft.com/fwlink/?linkid=858517"
+  },
+  "ExtendedData": {
+    "inputs": [
+      "http://reg.cpc.bg:8080/cpc-ws/services/DossierService?wsdl"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, CPCDossierServiceReference"
+    ],
+    "references": [
+      "FastMember.Signed, {FastMember.Signed, 1.5.0}",
+      "log4net, {log4net, 2.0.12}",
+      "Microsoft.CSharp, {Microsoft.CSharp, 4.5.0}",
+      "Newtonsoft.Json, {Newtonsoft.Json, 12.0.3}",
+      "RegiX.Adapters.Common, {RegiX.Adapters.Common, 1.0.67}",
+      "RegiX.Common, {RegiX.Common, 1.0.45}",
+      "RegiX.WebServiceAdapterService, {RegiX.WebServiceAdapterService, 1.0.39}",
+      "System.ComponentModel.Composition, {System.ComponentModel.Composition, 5.0.0}",
+      "System.Configuration.ConfigurationManager, {System.Configuration.ConfigurationManager, 5.0.0}",
+      "System.Data.Common, {System.Data.Common, 4.3.0}",
+      "System.IO, {System.IO, 4.3.0}",
+      "System.Numerics.Vectors, {System.Numerics.Vectors, 4.5.0}",
+      "System.Reflection, {System.Reflection, 4.3.0}",
+      "System.Reflection.DispatchProxy, {System.Reflection.DispatchProxy, 4.7.1}",
+      "System.Reflection.Emit, {System.Reflection.Emit, 4.3.0}",
+      "System.Reflection.Emit.ILGeneration, {System.Reflection.Emit.ILGeneration, 4.3.0}",
+      "System.Reflection.Emit.Lightweight, {System.Reflection.Emit.Lightweight, 4.3.0}",
+      "System.Reflection.Primitives, {System.Reflection.Primitives, 4.3.0}",
+      "System.Runtime, {System.Runtime, 4.3.0}",
+      "System.Security.AccessControl, {System.Security.AccessControl, 5.0.0}",
+      "System.Security.Cryptography.Xml, {System.Security.Cryptography.Xml, 4.7.0}",
+      "System.Security.Permissions, {System.Security.Permissions, 5.0.0}",
+      "System.Security.Principal.Windows, {System.Security.Principal.Windows, 5.0.0}",
+      "System.ServiceModel, {System.ServiceModel.Primitives, 4.8.0}",
+      "System.ServiceModel.Http, {System.ServiceModel.Http, 4.8.0}",
+      "System.ServiceModel.Primitives, {System.ServiceModel.Primitives, 4.8.0}",
+      "System.Text.Encoding, {System.Text.Encoding, 4.3.0}",
+      "System.Threading.Tasks, {System.Threading.Tasks, 4.3.0}"
+    ],
+    "targetFramework": "netstandard2.0",
+    "typeReuseMode": "All"
+  }
+}

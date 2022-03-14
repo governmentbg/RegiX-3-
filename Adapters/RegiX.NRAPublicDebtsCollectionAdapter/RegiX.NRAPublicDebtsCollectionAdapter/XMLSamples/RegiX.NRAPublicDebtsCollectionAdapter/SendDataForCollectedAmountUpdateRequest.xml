@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SendDataForCollectedAmountUpdateRequest xmlns="http://egov.bg/RegiX/NRA/PublicDebtsCollection/SendDataForCollectedAmountUpdateRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Payment>
+    <ActIssurerID>2</ActIssurerID>
+    <SubdivisionID>1</SubdivisionID>
+    <CollectibleID>1</CollectibleID>
+    <SubdivisionEIK>aaaaaaaaa</SubdivisionEIK>
+    <PaymentDate>1967-08-13</PaymentDate>
+    <TotalAmount>0</TotalAmount>
+    <PrincipalAmountPaid>0</PrincipalAmountPaid>
+    <InterestAmountPaid>0</InterestAmountPaid>
+    <Currency>AAA</Currency>
+    <OutstandingAmount>0</OutstandingAmount>
+  </Payment>
+</SendDataForCollectedAmountUpdateRequest>

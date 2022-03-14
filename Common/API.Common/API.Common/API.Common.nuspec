@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$authors$</authors>
+    <owners>$authors$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <dependencies>
+      <dependency id="AutoMapper.Extensions.Microsoft.DependencyInjection" version="5.0.1" />
+      <dependency id="IdentityServer4.AccessTokenValidation" version="3.0.1" />
+      <dependency id="Microsoft.AspNetCore.Diagnostics" version="2.2.0" />
+      <dependency id="Microsoft.AspNetCore.HttpsPolicy" version="2.2.0" />
+      <dependency id="Microsoft.AspNetCore.Mvc.Versioning" version="4.1.1" />
+      <dependency id="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" version="4.1.1" />
+      <dependency id="Microsoft.AspNetCore.Mvc.NewtonsoftJson" version="3.1.10" />
+      <dependency id="Microsoft.AspNetCore.OData.Versioning.ApiExplorer" version="4.1.1" />
+      <dependency id="Microsoft.AspNetCore.OData" version="7.3.0" />
+      <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="3.1.10" />
+      <dependency id="Microsoft.Extensions.Configuration.Binder" version="3.1.10" />
+      <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="3.1.10" />   
+      <dependency id="Microsoft.Extensions.Logging.Console" version="3.1.10" />
+      <dependency id="Microsoft.Extensions.Logging.Debug" version="3.1.10" />
+      <dependency id="Microsoft.Extensions.Options.ConfigurationExtensions" version="3.1.10" />
+      <dependency id="Microsoft.Extensions.PlatformAbstractions" version="1.1.0" />
+      <dependency id="Microsoft.Net.Http.Headers" version="2.2.8" />
+      <dependency id="API.Services" version="3.1.11" />
+      <dependency id="Scrutor" version="3.1.0" />      
+      <dependency id="Swashbuckle.AspNetCore.Newtonsoft" version="5.0.0" />
+      <dependency id="Swashbuckle.AspNetCore.SwaggerGen" version="5.0.0" />
+      <dependency id="Swashbuckle.AspNetCore.SwaggerUi" version="5.0.0" />
+      <dependency id="System.ComponentModel.Composition" version="4.7.0"/>
+      <dependency id="TechnoLogica.Common.DataProtection" version="1.0.0"/>
+    </dependencies>    
+  </metadata>
+</package>

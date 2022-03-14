@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<PastureMeadowLandResponse xmlns="http://egov.bg/RegiX/MZH/PastureMeadowLandResponse">
+	<BeneficiaryIdentifier>110530998    </BeneficiaryIdentifier>
+	<BeneficiaryName>ЕТ "НЕЛИ СТОЙКОВА"                 </BeneficiaryName>
+	<BeneficiaryType>Юридическо лице</BeneficiaryType>
+	<PastureLands>
+		<PastureLand>
+			<District>ЛОВЕЧ</District>
+			<Municipality>ТРОЯН</Municipality>
+			<Territory> СТАРО СЕЛО                    </Territory>
+			<Acreage>523.703</Acreage>
+			<ReportDate>2015-10-07</ReportDate>
+		</PastureLand>
+	</PastureLands>
+</PastureMeadowLandResponse>

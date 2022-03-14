@@ -1,0 +1,1337 @@
+<?xml version="1.0"?>
+<NomenclaturesResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://marad.bg/">
+  <ShipTypeNomenclature>
+    <Nomenclature>
+      <Id>2</Id>
+      <Name>бункеровчик</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>3</Id>
+      <Name>моторна лодка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>4</Id>
+      <Name>моторна яхта</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>5</Id>
+      <Name>гребна лодка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>6</Id>
+      <Name>моторен катер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>7</Id>
+      <Name>ветроходна яхта</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>8</Id>
+      <Name>лодка на въздушна възглавница</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>9</Id>
+      <Name>лодка на подводни криле</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>10</Id>
+      <Name>надуваема лодка с твърд корпус</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>11</Id>
+      <Name>надуваема лодка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>12</Id>
+      <Name>джет</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>13</Id>
+      <Name>ветроходна лодка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>14</Id>
+      <Name>моторен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>15</Id>
+      <Name>моторно ветроходна яхта</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>16</Id>
+      <Name>нефтен танкер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>17</Id>
+      <Name>кораб за насипни товари</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>18</Id>
+      <Name>танкер химикаловоз</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>19</Id>
+      <Name>газовоз</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>20</Id>
+      <Name>други товарни, извън изброените</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>21</Id>
+      <Name>пътнически</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>22</Id>
+      <Name>ро-ро пътнически</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>23</Id>
+      <Name>високостни</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>24</Id>
+      <Name>други нетоварни кораби</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>25</Id>
+      <Name>Плаващ док</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>26</Id>
+      <Name>Плаващ док</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>27</Id>
+      <Name>ро-ро товарен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>28</Id>
+      <Name>товарен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>29</Id>
+      <Name>танкер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>30</Id>
+      <Name>лодка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>31</Id>
+      <Name>самоходен  товарен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>32</Id>
+      <Name>баржа</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>33</Id>
+      <Name>баржа</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>34</Id>
+      <Name>тласкач</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>35</Id>
+      <Name>тласкач</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>36</Id>
+      <Name>самоходен танкер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>37</Id>
+      <Name>схотоварен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>38</Id>
+      <Name>сухотоварен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>39</Id>
+      <Name>влекач</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>40</Id>
+      <Name>тласкач - влекач</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>41</Id>
+      <Name>открит катамаран-платформа</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>42</Id>
+      <Name>самоходен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>43</Id>
+      <Name>баржа канален тип</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>44</Id>
+      <Name>лихтер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>45</Id>
+      <Name>високоскоростен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>46</Id>
+      <Name>плаващо съоръжение</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>47</Id>
+      <Name>работно плаващо средство</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>48</Id>
+      <Name>кораб за спорт и развлечение</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>49</Id>
+      <Name>шлеп</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>50</Id>
+      <Name>дддд</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>51</Id>
+      <Name>самоходна многокофена дълбачка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>52</Id>
+      <Name>самоходен кран</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>53</Id>
+      <Name>несамоходен плаващ кран</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>54</Id>
+      <Name>ферибот</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>55</Id>
+      <Name>спасителен - влекач</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>56</Id>
+      <Name>спасителен - влекач</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>57</Id>
+      <Name>Ферибот ( ferry/roro )</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>58</Id>
+      <Name>морски самоходен драгажен шалан</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>59</Id>
+      <Name>скутер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>60</Id>
+      <Name>рудовоз</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>61</Id>
+      <Name>плаваща кораборемонтна работилница</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>62</Id>
+      <Name>лоцмански катер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>63</Id>
+      <Name>смукат.нагнет.дълбачка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>64</Id>
+      <Name>научно-изследователски</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>65</Id>
+      <Name>учебна моторно - ветроходна яхта</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>66</Id>
+      <Name>пристанищен влекач</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>67</Id>
+      <Name>самоходен 100 тонен плаващ кран</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>68</Id>
+      <Name>несамоходна смукачка за драгажни работи</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>69</Id>
+      <Name>бункеровчик</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>70</Id>
+      <Name>самоходен плаващ кран</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>71</Id>
+      <Name>плаваща несамоходна помпена станция</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>72</Id>
+      <Name>несамоходен сал</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>73</Id>
+      <Name>риболовен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>74</Id>
+      <Name>моторен влекач</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>75</Id>
+      <Name>катамаран</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>76</Id>
+      <Name>РО-РО-пътнически</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>77</Id>
+      <Name>несамоходна смукателна дълбачка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>78</Id>
+      <Name>многокофена несамоходна дълбачка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>79</Id>
+      <Name>несамоходен плаващ понтон</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>80</Id>
+      <Name>моторно ветроходен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>81</Id>
+      <Name>Несамоходна Платформа</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>82</Id>
+      <Name>CHAPARRAL 235</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>83</Id>
+      <Name>самоходен шалан</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>84</Id>
+      <Name>риболовна лодка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>85</Id>
+      <Name>Плаващо претоварно устройство</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>86</Id>
+      <Name>плаващо  съоръжение</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>87</Id>
+      <Name>нефтосъбирач</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>88</Id>
+      <Name>РАБОТНО  ПЛАВАТЕЛНО  СРЕДСТВО</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>89</Id>
+      <Name>мауна</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>90</Id>
+      <Name>несамоходна сухотоварна баржа</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>91</Id>
+      <Name>глисер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>92</Id>
+      <Name>яхта</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>93</Id>
+      <Name>тримаран</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>94</Id>
+      <Name>паралайнер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>95</Id>
+      <Name>хидро делта планер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>96</Id>
+      <Name>хидро делта планер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>97</Id>
+      <Name>Плаващо техническо средство</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>98</Id>
+      <Name>извънбордов</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>99</Id>
+      <Name>стационарен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>100</Id>
+      <Name>плаващо съоръжение</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>101</Id>
+      <Name>несамоходна плаваща база</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>102</Id>
+      <Name>катер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>103</Id>
+      <Name>WAV</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>104</Id>
+      <Name>пътнически на подводни криле</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>105</Id>
+      <Name>понтонна  двойка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>106</Id>
+      <Name>шалан</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>107</Id>
+      <Name>специализиран кораб за драгажни дейности</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>108</Id>
+      <Name>самоходна фериботна  платфома</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>109</Id>
+      <Name>несамоходна  смукачка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>110</Id>
+      <Name>смукачка - несамоходна</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>111</Id>
+      <Name>въглевоз</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>112</Id>
+      <Name>самоходен  земснаряд</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>113</Id>
+      <Name>земснаряд - смукачка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>114</Id>
+      <Name>моторна дълбачка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>115</Id>
+      <Name>плаващ 100 тонен кран</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>116</Id>
+      <Name>еднотрюмен "Плашкоут"</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>117</Id>
+      <Name>несамоходна хербетова понтонна двойка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>118</Id>
+      <Name>Плава грайферен багер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>119</Id>
+      <Name>несамоходна плаваща помпенна станция</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>120</Id>
+      <Name>бонозаградител</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>121</Id>
+      <Name>Плавбаза</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>122</Id>
+      <Name>Дълбачка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>123</Id>
+      <Name>смукачка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>124</Id>
+      <Name>несамоходен драгажен шалан</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>125</Id>
+      <Name>комета</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>126</Id>
+      <Name>несамоходен танкер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>127</Id>
+      <Name>хладилен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>128</Id>
+      <Name>РО - РО  сухотоварен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>129</Id>
+      <Name>плаваща учебна база</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>130</Id>
+      <Name>гемия</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>131</Id>
+      <Name>учебен буксир</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>132</Id>
+      <Name>спасителен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>133</Id>
+      <Name>водолазен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>134</Id>
+      <Name>напоителна  помпена станция</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>135</Id>
+      <Name>кораб за инспекционна подръжка и ремонт</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>136</Id>
+      <Name>двойка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>137</Id>
+      <Name>самоходна фериботна платформа</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>138</Id>
+      <Name>танк</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>139</Id>
+      <Name>складова база на диз. гориво</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>140</Id>
+      <Name>ветроходен катамаран</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>141</Id>
+      <Name>бързоходна лодка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>142</Id>
+      <Name>Съдоподемна  двойка / 911010 - 911011/</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>143</Id>
+      <Name>Шлеп - магазия</Name>
+    </Nomenclature>
+  </ShipTypeNomenclature>
+  <ShipSubTypeNomenclature>
+    <Nomenclature>
+      <Id>2</Id>
+      <Name>събиране на сантинни води</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>3</Id>
+      <Name>танкер бункеровчик</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>4</Id>
+      <Name>траулер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>5</Id>
+      <Name>ферибот</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>6</Id>
+      <Name>моторна яхта</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>7</Id>
+      <Name>моторна яхта, категория С</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>8</Id>
+      <Name>моторна лодка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>9</Id>
+      <Name>моторна яхта категория В</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>10</Id>
+      <Name>несамоходна електрическа смукачка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>11</Id>
+      <Name>газовоз</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>12</Id>
+      <Name>хранителни масла</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>13</Id>
+      <Name>нефтен танкер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>14</Id>
+      <Name>химикаловоз</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>15</Id>
+      <Name>насипни товари</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>16</Id>
+      <Name>контейнеровоз</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>17</Id>
+      <Name>самоходна баржа</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>18</Id>
+      <Name>несамоходна баржа</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>19</Id>
+      <Name>хладилен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>20</Id>
+      <Name>корабна работилница</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>21</Id>
+      <Name>за превоз на автомобили</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>22</Id>
+      <Name>платформа</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>23</Id>
+      <Name>влекач</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>24</Id>
+      <Name>спасителен влекач</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>25</Id>
+      <Name>учебен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>26</Id>
+      <Name>моторна яхта категория А</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>27</Id>
+      <Name>моторна яхта категория D</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>28</Id>
+      <Name>несамоходен понтон</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>29</Id>
+      <Name>-</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>30</Id>
+      <Name>самоходен товарен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>31</Id>
+      <Name>несамоходна сухотоварна баржа</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>32</Id>
+      <Name>влекач снабдител</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>33</Id>
+      <Name>многоцелеви сухотоварен корар</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>34</Id>
+      <Name>многоцелеви сухотоварен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>35</Id>
+      <Name>несамоходна  танк-баржа</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>36</Id>
+      <Name>Ро - Ро баржа</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>37</Id>
+      <Name>самоходен танкер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>38</Id>
+      <Name>несамоходна танк - баржа</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>39</Id>
+      <Name>танк - лихтер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>40</Id>
+      <Name>обикновен лихтер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>41</Id>
+      <Name>лихтер за морски превоз</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>42</Id>
+      <Name>пътнически платноход</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>43</Id>
+      <Name>пътнически кораб за дневно пътуване</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>44</Id>
+      <Name>кораб с кабини</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>45</Id>
+      <Name>гребна лодка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>46</Id>
+      <Name>моторно ветроходна яхта</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>47</Id>
+      <Name>ветроходна яхта</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>48</Id>
+      <Name>моторен катер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>49</Id>
+      <Name>моторна лодка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>50</Id>
+      <Name>надуваема лодка с твърд корпус</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>51</Id>
+      <Name>надуваема лодка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>52</Id>
+      <Name>риболовен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>53</Id>
+      <Name>джет</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>54</Id>
+      <Name>ветроходна лодка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>55</Id>
+      <Name>Ветроходна яхта категория А</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>56</Id>
+      <Name>Ветроходна яхта категория В</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>57</Id>
+      <Name>Ветроходна яхта категория D</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>58</Id>
+      <Name>Риболовен Сейнер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>59</Id>
+      <Name>катамаран</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>60</Id>
+      <Name>тримаран</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>61</Id>
+      <Name>ветроходна яхта категория С</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>62</Id>
+      <Name>ветроходна яхта категория С</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>63</Id>
+      <Name>самоходна многокофена дълбачка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>64</Id>
+      <Name>самоходен плаващ кран</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>65</Id>
+      <Name>несамоходен плаващ кран</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>66</Id>
+      <Name>ферибот</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>67</Id>
+      <Name>моторна лодка категория С</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>68</Id>
+      <Name>моторен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>69</Id>
+      <Name>скутер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>70</Id>
+      <Name>RIB</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>71</Id>
+      <Name>несамоходен плаващ док</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>72</Id>
+      <Name>Несамоходна плаваща платформа</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>73</Id>
+      <Name>Моторна лодка, категория В</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>74</Id>
+      <Name>моторна лодка, категория В</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>75</Id>
+      <Name>генерални товари</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>76</Id>
+      <Name>AZIMUT 75</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>77</Id>
+      <Name>Плаващ бар, ресторант</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>78</Id>
+      <Name>AZIMUT 75</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>79</Id>
+      <Name>AZIMUT 86</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>80</Id>
+      <Name>динамично поддъжан на подводни криле</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>81</Id>
+      <Name>моторно ветроходен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>82</Id>
+      <Name>Несамоходна Платформа</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>83</Id>
+      <Name>несамоходна тласкаема секция</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>84</Id>
+      <Name>бонозаграител</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>85</Id>
+      <Name>нефтосъбирач</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>86</Id>
+      <Name>Моторна лодка категория С</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>87</Id>
+      <Name>Моторна лодка категория D </Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>88</Id>
+      <Name>самоходен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>89</Id>
+      <Name>Моторноветроходна яхта</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>90</Id>
+      <Name>самоходен драгажен шалан</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>91</Id>
+      <Name>служебен катер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>92</Id>
+      <Name>несамоходен екипажен шлеп за тласкане и влачене </Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>93</Id>
+      <Name>Самоходен  сухотоварен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>94</Id>
+      <Name>джет</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>95</Id>
+      <Name>РО - РО самоходен сухотоварен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>96</Id>
+      <Name>Претоварна установка за втечненгаз пропан - бутан</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>97</Id>
+      <Name>Тип 2 PG</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>98</Id>
+      <Name>Плаващо  съоръжение - кран</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>99</Id>
+      <Name>Мотомауна</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>100</Id>
+      <Name>Кораб с кабини</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>101</Id>
+      <Name>Ххидрографен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>102</Id>
+      <Name>хидрографен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>103</Id>
+      <Name>несамоходна  дълбачка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>104</Id>
+      <Name>бункерен  шлеп</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>105</Id>
+      <Name>мауна</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>106</Id>
+      <Name>паралайнер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>107</Id>
+      <Name>хидро делта планер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>108</Id>
+      <Name>Земснаряд</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>109</Id>
+      <Name>плав.претоварна установка за прет. на нефтопродукт</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>110</Id>
+      <Name>пътнически</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>111</Id>
+      <Name>несамоходен  шалан</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>112</Id>
+      <Name>несамоходен открит секционен шлеп</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>113</Id>
+      <Name>несамоходен  сухотоварен  шалан</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>114</Id>
+      <Name>смукачка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>115</Id>
+      <Name>сухотоварен  безекипажен секционен шлеп</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>116</Id>
+      <Name>открит  секционен  шлеп</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>117</Id>
+      <Name>сухотоварен  несамоходен шлеп/въглевоз/</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>118</Id>
+      <Name>несамоходен сухотоварен открит шлеп/въглевоз/</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>119</Id>
+      <Name>несамоходен  драгажен шалан</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>120</Id>
+      <Name>Транспортно хладилен кораб</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>121</Id>
+      <Name>речен  несамоходен въглевоз</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>122</Id>
+      <Name>секционен открит безекипажен несамоходен шлеп</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>123</Id>
+      <Name>сухотоварен несамоходен открит безекипажен шлеп</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>124</Id>
+      <Name>несамоходна плаваща работилница</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>125</Id>
+      <Name>сухотоварен несамоходен шлеп</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>126</Id>
+      <Name>научно изследователски</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>127</Id>
+      <Name>КТЩ</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>128</Id>
+      <Name>маневрен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>129</Id>
+      <Name>самоходна наливна баржа</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>130</Id>
+      <Name>Танкер-продуктовоз</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>131</Id>
+      <Name>Танкер за суров нефт</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>132</Id>
+      <Name>несамоходна бранвахтна  плавбаза</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>133</Id>
+      <Name>несамоходна  дълбачка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>134</Id>
+      <Name>сухотоварна несамоходна двойка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>135</Id>
+      <Name>понтонен хербертов - шалан</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>136</Id>
+      <Name>открит сухотоварен секционен шлип</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>137</Id>
+      <Name>Учебен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>138</Id>
+      <Name>сухотоварен  несамоходен шалан</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>139</Id>
+      <Name>комета</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>140</Id>
+      <Name>несамоходен наливен танкер</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>141</Id>
+      <Name>лесовоз</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>142</Id>
+      <Name>въглевоз</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>143</Id>
+      <Name>парен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>144</Id>
+      <Name>несамоходен сухотоварен ошкрит секционен шлеп</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>145</Id>
+      <Name>несамоходен сухотоварен открит секционен шлеп</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>146</Id>
+      <Name>есамоходен сухотоварен шлеп</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>147</Id>
+      <Name>несамоходен сухотоварен шлеп</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>148</Id>
+      <Name>парен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>149</Id>
+      <Name>шалан  за инертни  материали</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>150</Id>
+      <Name>шалан за инертни материали</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>151</Id>
+      <Name>водолазен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>152</Id>
+      <Name>водолазен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>153</Id>
+      <Name>сухотоварен  шлеп /въглевоз/</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>154</Id>
+      <Name>несамоходен сухотоварен шлеп - въглевоз</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>155</Id>
+      <Name>хербетова  понтонна двойка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>156</Id>
+      <Name>дълбачка КДБ - 500 Б несамохадна</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>157</Id>
+      <Name>несамоходен  шалан за инертни материали</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>158</Id>
+      <Name>сухотоварен  шлеп</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>159</Id>
+      <Name>моторна  сухотоварна  гемия</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>160</Id>
+      <Name>сухотоварна  понтонна двойка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>161</Id>
+      <Name>несамоходна сухотоварна двойка/платформа/</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>162</Id>
+      <Name>моторна  дълбачка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>163</Id>
+      <Name>гемия несамоходна</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>164</Id>
+      <Name>сухотоварна  несамоходна  гемия</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>165</Id>
+      <Name>сухотоварна  двойка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>166</Id>
+      <Name>самоходна  фериботна платформа</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>167</Id>
+      <Name>несамоходен петроналивин плавателен съд</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>168</Id>
+      <Name>открит  сухотоварен  секционен  шлеп</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>169</Id>
+      <Name>несамоходен наливен танк</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>170</Id>
+      <Name>нефтоналивен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>171</Id>
+      <Name>сухотоварна гемия</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>172</Id>
+      <Name>несамоходна  гемия</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>173</Id>
+      <Name>моторна  гемия</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>174</Id>
+      <Name>сухотоварен отворен</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>175</Id>
+      <Name>ветроходна  гемия</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>176</Id>
+      <Name>шалан  открит</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>177</Id>
+      <Name>хидро-технически</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>178</Id>
+      <Name>ветроходен катамаран</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>179</Id>
+      <Name>бързоходна лодка</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>180</Id>
+      <Name>ХЕРБРТОВА  ПОНТОННА  ДВОЙКА - ПЛАВАЩ КРАН</Name>
+    </Nomenclature>
+  </ShipSubTypeNomenclature>
+  <EngineFuelNomenclature>
+    <Nomenclature>
+      <Id>2</Id>
+      <Name>Нафта</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>3</Id>
+      <Name>бензин</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>4</Id>
+      <Name>Дизел</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>5</Id>
+      <Name>газьол</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>6</Id>
+      <Name>тежко дизелово гориво</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>7</Id>
+      <Name>IFO-180</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>8</Id>
+      <Name>MDO</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>9</Id>
+      <Name>HFO</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>10</Id>
+      <Name>MGO</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>11</Id>
+      <Name>IFO 160</Name>
+    </Nomenclature>
+    <Nomenclature>
+      <Id>12</Id>
+      <Name>двутактова смес</Name>
+    </Nomenclature>
+  </EngineFuelNomenclature>
+</NomenclaturesResponse>

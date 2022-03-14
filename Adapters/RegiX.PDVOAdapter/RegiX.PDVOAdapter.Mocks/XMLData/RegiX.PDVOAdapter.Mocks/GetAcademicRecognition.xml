@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<AcademicRecognitionResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://egov.bg/RegiX/NACID/PDVO/AcademicRecognitionResponse">
+  <InternalAppNum>06-00-354</InternalAppNum>
+  <InternalAppDate>2015-11-20</InternalAppDate>
+  <AcademicRecognitionStatus>Признато</AcademicRecognitionStatus>
+  <RecognitionRefusal></RecognitionRefusal>
+  <FirstName>ТАМ</FirstName>
+  <MiddleName></MiddleName>
+  <LastName>СМИТ</LastName>
+  <IdentificatorType>3</IdentificatorType>
+  <IdentificatorTypeName>личен документ</IdentificatorTypeName>
+  <Identificator>28.10.1970</Identificator>
+  <RecognizedEduLevel>Магистър</RecognizedEduLevel>
+  <RecognizedProfQualName>North Carolina State University</RecognizedProfQualName>
+  <UniversityOriginalName>Щатски университет на Северна Каролина</UniversityOriginalName>
+  <UniversityNameCyrillic>наименование на университета на Български</UniversityNameCyrillic>
+  <CountryNameCyrillic>САЩ</CountryNameCyrillic>
+  <SettlementAbroadName>град</SettlementAbroadName>
+  <AddressDescriptionAbroad>адрес</AddressDescriptionAbroad>
+  <CertificateNums>
+    <CertificateNum>354-142/20.01.2016</CertificateNum>
+  </CertificateNums>
+  <RecognizedSpecialities>
+    <RecognizedSpecialityName>Училищна администрация</RecognizedSpecialityName>
+  </RecognizedSpecialities>
+</AcademicRecognitionResponse>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0"?>
+<RegistrationInfoByOwnerResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/IAMA/RegistrationInfoByOwnerResponse">
+  <VesselInfo>
+    <RegistrationData xmlns="http://egov.bg/RegiX/IAMA">
+      <ShipName>Nov korab</ShipName>
+      <ShipNameLatin />
+      <RegistrationPort>fdafa3</RegistrationPort>
+      <RegistrationNumber>2fdeafda</RegistrationNumber>
+      <Tom>3</Tom>
+      <Page>13333a</Page>
+      <Type>sfeasfa</Type>
+      <Status>Active</Status>
+    </RegistrationData>
+    <Owners xmlns="http://egov.bg/RegiX/IAMA">
+      <Owner>
+        <IsCompany>true</IsCompany>
+        <Company>
+          <CompanyName>Technologica</CompanyName>
+          <EIK>349280912834230</EIK>
+        </Company>
+        <ImoNumber>23213</ImoNumber>
+        <IsUser>true</IsUser>
+        <Address>address</Address>
+      </Owner>
+    </Owners>
+    <MainFeatures xmlns="http://egov.bg/RegiX/IAMA">
+      <BT>0.1</BT>
+      <NT>44.22</NT>
+      <MaxLength>0.1</MaxLength>
+      <MaxWidth>3.22</MaxWidth>
+      <Waterplane>333</Waterplane>
+      <ShipboardHeight>4</ShipboardHeight>
+      <Deadweight>3.22</Deadweight>
+      <NumberOfEngines>3</NumberOfEngines>
+      <EnginesFuel>343</EnginesFuel>
+      <SumEnginePower>34234.33</SumEnginePower>
+      <Engines>
+        <Engine>
+          <SystemModification>fdajkf;ak</SystemModification>
+          <EngineNumber>324</EngineNumber>
+          <Power>343</Power>
+          <Type>type</Type>
+        </Engine>
+      </Engines>
+      <BodyNumber>5465f4fa6f4a</BodyNumber>
+    </MainFeatures>
+  </VesselInfo>
+</RegistrationInfoByOwnerResponse>

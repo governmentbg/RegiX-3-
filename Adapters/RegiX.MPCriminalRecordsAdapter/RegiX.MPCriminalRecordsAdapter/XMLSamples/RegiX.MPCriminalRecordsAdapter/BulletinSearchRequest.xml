@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BulletinSearchRequest xmlns="http://egov.bg/RegiX/MP/BulletinSearchRequest">
+  <EGN>EGN1</EGN>
+</BulletinSearchRequest>

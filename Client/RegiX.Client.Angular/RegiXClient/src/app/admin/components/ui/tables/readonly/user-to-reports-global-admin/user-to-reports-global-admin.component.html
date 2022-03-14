@@ -1,0 +1,51 @@
+<div class="roles-table-wrapper">
+    <tl-linear-progress [visible]="this.service.isLoading"></tl-linear-progress>
+    <igx-grid
+      #grid
+      [data]="items$ | async"
+      [paging]="true"
+      [height]="null"
+      width="100%"
+      [clipboardOptions]="{ copyHeaders: false}"
+      [displayDensity]="'cosy'"
+      (onSortingDone)="sortingDone($event)"
+      (onFilteringDone)="filteringDone($event)"
+      (onSelection)="cellSelection($event)"
+      [paginationTemplate]="pager"
+      [allowFiltering]="true"
+      [primaryKey]="'id'"
+    >
+      <igx-column
+        field="report"
+        header="Услуга"
+        [sortable]="true"
+        [dataType]="'string'"
+        [formatter]="displayValueService.formatDisplayValue"
+        [filters]="displayValueFilteringOperand"
+      >
+      </igx-column>
+
+      <igx-column
+        field="user"
+        header="Потребител"
+        width="200px"
+        [sortable]="true"
+        [dataType]="'string'"
+        [formatter]="displayValueService.formatDisplayValue"
+        [filters]="displayValueFilteringOperand"
+      >
+      </igx-column>
+
+      <ng-template #pager let-grid>
+        <div class="tl-paginator">
+          <tl-grid-pager
+            [page]="remoteService.pagerParams.page"
+            [perPage]="remoteService.pagerParams.perPage"
+            [totalCount]="remoteService.pagerParams.totalCount"
+            (pagerChange)="pagerChange($event)"
+          ></tl-grid-pager>
+        </div>
+      </ng-template>
+
+    </igx-grid>
+  </div>

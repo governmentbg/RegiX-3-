@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://egov.bg/RegiX/IAOS/TraderBroker" targetNamespace="http://egov.bg/RegiX/IAOS/TraderBroker" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="https://source.gravis.bg:443/egov/services/trader-broker?xsd=1" namespace="http://egov.bg/RegiX/IAOS/TraderBroker" />
+    </xsd:schema>
+  </types>
+  <message name="getWasteCodesByEIK">
+    <part name="parameters" element="tns:TRADER_BROKER_Waste_Codes_By_EIK_Request" />
+  </message>
+  <message name="getWasteCodesByEIKResponse">
+    <part name="parameters" element="tns:getWasteCodesByEIKResponse" />
+  </message>
+  <message name="WebServiceException">
+    <part name="fault" element="tns:WebServiceException" />
+  </message>
+  <message name="getValidityCheck">
+    <part name="parameters" element="tns:TRADER_BROKER_Validity_Check_Request" />
+  </message>
+  <message name="getValidityCheckResponse">
+    <part name="parameters" element="tns:getValidityCheckResponse" />
+  </message>
+  <portType name="TraderBrokerService">
+    <operation name="getWasteCodesByEIK">
+      <input xmlns:ns1="http://www.w3.org/2007/05/addressing/metadata" ns1:Action="http://egov.bg/RegiX/IAOS/TraderBroker/TraderBrokerService/getWasteCodesByEIKRequest" message="tns:getWasteCodesByEIK" />
+      <output xmlns:ns2="http://www.w3.org/2007/05/addressing/metadata" ns2:Action="http://egov.bg/RegiX/IAOS/TraderBroker/TraderBrokerService/getWasteCodesByEIKResponse" message="tns:getWasteCodesByEIKResponse" />
+      <fault xmlns:ns3="http://www.w3.org/2007/05/addressing/metadata" ns3:Action="http://egov.bg/RegiX/IAOS/TraderBroker/TraderBrokerService/getWasteCodesByEIK/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+    <operation name="getValidityCheck">
+      <input xmlns:ns4="http://www.w3.org/2007/05/addressing/metadata" ns4:Action="http://egov.bg/RegiX/IAOS/TraderBroker/TraderBrokerService/getValidityCheckRequest" message="tns:getValidityCheck" />
+      <output xmlns:ns5="http://www.w3.org/2007/05/addressing/metadata" ns5:Action="http://egov.bg/RegiX/IAOS/TraderBroker/TraderBrokerService/getValidityCheckResponse" message="tns:getValidityCheckResponse" />
+      <fault xmlns:ns6="http://www.w3.org/2007/05/addressing/metadata" ns6:Action="http://egov.bg/RegiX/IAOS/TraderBroker/TraderBrokerService/getValidityCheck/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+  </portType>
+</definitions>

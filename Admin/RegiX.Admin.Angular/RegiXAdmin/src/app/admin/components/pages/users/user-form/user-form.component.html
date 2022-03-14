@@ -1,0 +1,110 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <div *ngIf="isDataLoading">
+      <div>
+        <igx-circular-bar
+          [animate]="true"
+          [indeterminate]="true"
+          [textVisibility]="true"
+        ></igx-circular-bar>
+      </div>
+    </div>
+
+    <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isDataLoaded && !isDataLoading && isCreateForm()"
+    >
+      <igx-input-group class="input-group">
+        <input
+          igxInput
+          class="form-input"
+          name="name"
+          type="text"
+          formControlName="name"
+        />
+        <label igxLabel for="name">Име</label>
+      </igx-input-group>
+      <igx-input-group class="input-group">
+        <input
+          class="form-input"
+          igxInput
+          name="userName"
+          type="text"
+          formControlName="userName"
+        />
+        <label igxLabel for="userName">Потребителско име</label>
+      </igx-input-group>
+
+      <igx-input-group class="input-group">
+        <input
+          class="form-input"
+          igxInput
+          name="email"
+          type="text"
+          formControlName="email"
+        />
+        <label igxLabel for="email">E-mail</label>
+      </igx-input-group>
+
+      <div
+        class="input-group"
+        igxLayout
+        igxLayoutDir="row"
+        formGroupName="administration"
+      >
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="displayName"
+              type="text"
+              formControlName="displayName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="displayName">Администрация</label>
+          </igx-input-group>
+        </tl-form-group>
+        <button igxButton="icon" (click)="showAdministraions()" [disabled]="this.isShowForm()">
+          <igx-icon>account_balance</igx-icon>
+        </button>
+      </div>
+      <igx-checkbox
+        class="input-group"
+        formControlName="isAdmin"
+        name="isAdmin"
+        [disabled]="hasValue('administration')"
+        (onSelection)="isAdminChanged($event)"
+        >
+        Глобален администратор
+      </igx-checkbox>
+      <igx-checkbox
+        class="input-group"
+        formControlName="active"
+        name="active"
+        >
+        Активен
+      </igx-checkbox>
+    </form>
+
+  </div>
+</tl-basic-form>
+
+<igx-dialog
+  #administraionsFilterDialog
+  title="Администрации"
+  [closeOnOutsideSelect]="true"
+>
+  <div style="height: 90vh; width: 95vw; overflow: auto;">
+    <app-administrations-filter
+      #administrationsFilter
+      (selectedValues)="administraionSelected($event)"
+    >
+    </app-administrations-filter>
+  </div>
+</igx-dialog>

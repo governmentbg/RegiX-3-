@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://egov.bg/RegiX/IAOS/REGPapz" targetNamespace="http://egov.bg/RegiX/IAOS/REGPapz" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="REG_PAPZ_Protected_Area_Category_Request" type="tns:REG_PAPZ_Protected_Area_Category_Request" />
+  <xs:element name="REG_PAPZ_Protected_Area_Category_Responce" type="tns:papzProtectedAreaCategory" />
+  <xs:element name="REG_PAPZ_Protected_Area_Location_Request" type="tns:REG_PAPZ_Protected_Area_Location_Request" />
+  <xs:element name="REG_PAPZ_Protected_Area_Location_Responce" type="tns:papzProtectedAreaLocation" />
+  <xs:element name="REG_PAPZ_Protected_Area_Size_Request" type="tns:REG_PAPZ_Protected_Area_Size_Request" />
+  <xs:element name="REG_PAPZ_Protected_Area_Size_Responce" type="tns:papzProtectedAreaSize" />
+  <xs:element name="WebServiceException" type="tns:WebServiceException" />
+  <xs:element name="getProtectedAreaCategoryResponse" type="tns:getProtectedAreaCategoryResponse" />
+  <xs:element name="getProtectedAreaLocationResponse" type="tns:getProtectedAreaLocationResponse" />
+  <xs:element name="getProtectedAreaSizeResponse" type="tns:getProtectedAreaSizeResponse" />
+  <xs:complexType name="REG_PAPZ_Protected_Area_Size_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="AreaCode" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="AreaType" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getProtectedAreaSizeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:REG_PAPZ_Protected_Area_Size_Responce" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="papzProtectedAreaSize">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="ProtectedAreaSize" type="tns:PAPZProtectedAreaSizeType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PAPZProtectedAreaSizeType">
+    <xs:sequence>
+      <xs:element form="qualified" name="AreaName" type="xs:string" />
+      <xs:element form="qualified" name="AreaSize" type="xs:string" />
+      <xs:element form="qualified" name="DistName" type="xs:string" />
+      <xs:element form="qualified" name="PopName" type="xs:string" />
+      <xs:element form="qualified" name="TerName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="WebServiceException">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="REG_PAPZ_Protected_Area_Category_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="AreaType" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="CategoryName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getProtectedAreaCategoryResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="REG_PAPZ_Protected_Area_Category_Response" type="tns:papzProtectedAreaCategory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="papzProtectedAreaCategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" form="qualified" name="ProtectedArea" type="tns:ProtectedAreaType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ProtectedAreaType">
+    <xs:sequence>
+      <xs:element form="qualified" name="AreaCode" type="xs:string" />
+      <xs:element form="qualified" name="AreaName" type="xs:string" />
+      <xs:element form="qualified" name="DistName" type="xs:string" />
+      <xs:element form="qualified" name="PopName" type="xs:string" />
+      <xs:element form="qualified" name="RegimeDescription" type="xs:string" />
+      <xs:element form="qualified" name="RegimeNumber" type="xs:string" />
+      <xs:element form="qualified" name="TerName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="REG_PAPZ_Protected_Area_Location_Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="qualified" name="DistName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="PopName" type="xs:string" />
+      <xs:element minOccurs="0" form="qualified" name="TerName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getProtectedAreaLocationResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tns:REG_PAPZ_Protected_Area_Location_Responce" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="papzProtectedAreaLocation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" form="qualified" name="ProtectedAreaLocation" type="tns:ProtectedAreaLocationType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ProtectedAreaLocationType">
+    <xs:sequence>
+      <xs:element form="qualified" name="AreaCode" type="xs:string" />
+      <xs:element form="qualified" name="AreaName" type="xs:string" />
+      <xs:element form="qualified" name="AreaSize" type="xs:string" />
+      <xs:element form="qualified" name="AreaType" type="xs:string" />
+      <xs:element form="qualified" name="Riosv" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

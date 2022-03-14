@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns="http://croz.tlogica.com/ws/types/" elementFormDefault="qualified" targetNamespace="http://croz.tlogica.com/ws/types/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:complexType name="OA">
+    <xsd:sequence>
+      <xsd:element name="regId" type="xsd:string" />
+      <xsd:element name="sheet" type="xsd:int" />
+      <xsd:element name="sheet_type" type="xsd:int" />
+      <xsd:element minOccurs="0" maxOccurs="2" name="img_side" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="OAArray">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="oas" type="OA" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="datesArray">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="dates" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="participantName">
+    <xsd:sequence>
+      <xsd:element name="name1" type="xsd:string" />
+      <xsd:element name="name2" type="xsd:string" />
+      <xsd:element name="name3" type="xsd:string" />
+      <xsd:element name="company" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="participant">
+    <xsd:sequence>
+      <xsd:element name="particip_id" type="xsd:int" />
+      <xsd:element name="particip_id_code" type="xsd:string" />
+      <xsd:element name="name" type="participantName" />
+      <xsd:element name="full_name" type="xsd:string" />
+      <xsd:element name="city" type="xsd:string" />
+      <xsd:element name="address" type="xsd:string" />
+      <xsd:element name="zip" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="participantsArray">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="participant" type="participant" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="changeType">
+    <xsd:sequence>
+      <xsd:element name="prop1" type="xsd:string" />
+      <xsd:element name="prop2" type="xsd:string" />
+      <xsd:element name="prop3" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="entry">
+    <xsd:sequence>
+      <xsd:element name="regId" type="xsd:string" />
+      <xsd:element name="status" type="xsd:string" />
+      <xsd:element name="description" type="xsd:string" />
+      <xsd:element name="reg_date" type="xsd:string" />
+      <xsd:element name="reg_time" type="xsd:string" />
+      <xsd:element name="page_numbers" type="xsd:int" />
+      <xsd:element name="expire_date" type="xsd:string" />
+      <xsd:element name="scanned" type="xsd:string" />
+      <xsd:element name="creditors" type="participantsArray" />
+      <xsd:element name="debtors" type="participantsArray" />
+      <xsd:element name="rejected" type="xsd:string" />
+      <xsd:element name="archived" type="xsd:string" />
+      <xsd:element name="oa_pole17" type="OAArray" />
+      <xsd:element name="oa_extraPages" type="OAArray" />
+      <xsd:element name="parent" type="xsd:string" />
+      <xsd:element name="opis_header" type="xsd:string" />
+      <xsd:element minOccurs="0" name="retId" type="xsd:string" />
+      <xsd:element minOccurs="0" name="pledgeOnClaim" type="xsd:string" />
+      <xsd:element minOccurs="0" name="distrainSecuredClaims" type="distrainSecuredClaimArray" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="entriesArray">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="entries" type="entry" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="amendment">
+    <xsd:sequence>
+      <xsd:element name="entry" type="entry" />
+      <xsd:element name="changeType" type="changeType" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="amendmentsArray">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="amendments" type="amendment" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="deal">
+    <xsd:sequence>
+      <xsd:element name="entry" type="entry" />
+      <xsd:element name="amendments" type="amendmentsArray" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="dealsArray">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="deals" type="deal" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="consignCreditor">
+    <xsd:sequence>
+      <xsd:element name="participant" type="participant" />
+      <xsd:element name="proceedexecutionDates" type="datesArray" />
+      <xsd:element name="leftExecutionDates" type="datesArray" />
+      <xsd:element name="eraseExecutionDates" type="datesArray" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="distrainSecuredClaimArray">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="distrainSecuredClaim" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="pledgeOnClaimArray">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="pledgeOnClaim" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="consignCreditorsArray">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="consignCreditors" type="consignCreditor" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="consignEntry">
+    <xsd:sequence>
+      <xsd:element name="regId" type="xsd:string" />
+      <xsd:element name="status" type="xsd:string" />
+      <xsd:element name="description" type="xsd:string" />
+      <xsd:element name="reg_date" type="xsd:string" />
+      <xsd:element name="reg_time" type="xsd:string" />
+      <xsd:element name="page_numbers" type="xsd:int" />
+      <xsd:element name="expire_date" type="xsd:string" />
+      <xsd:element name="scanned" type="xsd:string" />
+      <xsd:element name="creditors" type="consignCreditorsArray" />
+      <xsd:element name="rejected" type="xsd:string" />
+      <xsd:element name="archived" type="xsd:string" />
+      <xsd:element name="oa_pole17" type="OAArray" />
+      <xsd:element name="newManagerDates" type="datesArray" />
+      <xsd:element name="amd_numbers" type="xsd:int" />
+      <xsd:element name="opis_header" type="xsd:string" />
+      <xsd:element minOccurs="0" name="retId" type="xsd:string" />
+      <xsd:element minOccurs="0" name="pledgeOnClaim" type="xsd:string" />
+      <xsd:element minOccurs="0" name="distrainSecuredClaims" type="distrainSecuredClaimArray" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="consignEntriesArray">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="consignEntries" type="consignEntry" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="consignment">
+    <xsd:sequence>
+      <xsd:element name="consignment_number" type="xsd:string" />
+      <xsd:element name="consignmentParticipants" type="participantsArray" />
+      <xsd:element name="consignEntries" type="consignEntriesArray" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="consignmentsArray">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="consignments" type="consignment" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="property">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:string">
+        <xsd:attribute name="name" type="xsd:string" use="required" />
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="securityInfo">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="p" type="property" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="map">
+    <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+      <xsd:element name="entry">
+        <xsd:complexType>
+          <xsd:attribute name="name" type="xsd:string" />
+          <xsd:attribute name="value" type="xsd:string" />
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:simpleType name="callType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="select" />
+      <xsd:enumeration value="function" />
+      <xsd:enumeration value="procedure" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="table">
+    <xsd:sequence>
+      <xsd:element maxOccurs="unbounded" name="tr">
+        <xsd:complexType>
+          <xsd:choice>
+            <xsd:element maxOccurs="unbounded" name="th" type="xsd:string" />
+            <xsd:element maxOccurs="unbounded" name="td" type="xsd:string" />
+          </xsd:choice>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

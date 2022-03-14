@@ -1,0 +1,2 @@
+Install-Package RegiX.IAMASeafarersAdapter
+Install-Package RegiX.IAMAVesselsAdapter

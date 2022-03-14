@@ -1,0 +1,138 @@
+﻿<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.MFANotariesAdapter.APIService.IMFANotariesAPI.SendNotaryDocuments</OperationName>
+  <Code>SendNotaryDocuments</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>SendNotaryDocumentsRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/MFA/Notaries/SendNotaryDocumentsRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Изпращане на документи от нотариус</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>AuthenticationNumber</ParameterName>
+        <ParameterLabel>Номер на заверка от регистъра</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>ConsulCode</ParameterName>
+        <ParameterLabel>Идентификатор (код) на консулска служба</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>AuthenticationType</ParameterName>
+        <ParameterLabel>Тип на заверка</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>AuthenticationType</Type>
+          <EnumValues>
+            <EnumValue>
+              <Value>DateContentSignature</Value>
+              <DisplayText>Дата, съдържание и подписи на документи, удостоверени от консулските служби</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>CorrectnessOfStatements</Value>
+              <DisplayText>Вярност на преписи и извлечения на документи, удостоверени от консулските служби</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>NotarialWill</Value>
+              <DisplayText>Нотариални завещания, съставени пред консулските служби</DisplayText>
+            </EnumValue>
+          </EnumValues>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>AuthenticationDate</ParameterName>
+        <ParameterLabel>Дата на заверка</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>3</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Documents</ParameterName>
+        <ParameterLabel>Документи</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>4</OrderNumber>
+        <ParameterType>
+          <Type>Array</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters>
+        <Parameter>
+          <ParameterInfo>
+            <ParameterName>Document</ParameterName>
+            <ParameterLabel>Документ</ParameterLabel>
+            <IsRequired>true</IsRequired>
+            <IsXmlElement>true</IsXmlElement>
+            <OrderNumber>5</OrderNumber>
+            <ParameterType>
+              <Type>Complex</Type>
+              <EnumValues />
+            </ParameterType>
+          </ParameterInfo>
+          <ChildParamteters>
+            <Parameter>
+              <ParameterInfo>
+                <ParameterName>FileName</ParameterName>
+                <ParameterLabel>Наименование на файл</ParameterLabel>
+                <IsRequired>true</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>6</OrderNumber>
+                <ParameterType>
+                  <Type>string</Type>
+                  <EnumValues />
+                </ParameterType>
+              </ParameterInfo>
+              <ChildParamteters />
+            </Parameter>
+            <Parameter>
+              <ParameterInfo>
+                <ParameterName>Content</ParameterName>
+                <ParameterLabel>Файл</ParameterLabel>
+                <IsRequired>true</IsRequired>
+                <IsXmlElement>true</IsXmlElement>
+                <OrderNumber>7</OrderNumber>
+                <ParameterType>
+                  <Type>File</Type>
+                  <EnumValues />
+                </ParameterType>
+              </ParameterInfo>
+              <ChildParamteters />
+            </Parameter>
+          </ChildParamteters>
+        </Parameter>
+      </ChildParamteters>
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

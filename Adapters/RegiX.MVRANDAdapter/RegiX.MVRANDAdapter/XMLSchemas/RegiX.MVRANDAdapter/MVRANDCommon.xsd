@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/MVR/Common" targetNamespace="http://egov.bg/RegiX/MVR/Common" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="ObligationDocumentType">
+		<xs:sequence>
+			<xs:element name="DocumentType" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Тип документ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentSeries" type="xs:string" nillable="true">
+				<xs:annotation>
+					<xs:documentation>Серия</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentNumber" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Номер на документ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="InitialAmount" type="xs:double">
+				<xs:annotation>
+					<xs:documentation>Дължима сума</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Discount" type="xs:double">
+				<xs:annotation>
+					<xs:documentation>Процент отстъпка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TotalAmount" type="xs:double">
+				<xs:annotation>
+					<xs:documentation>Сума за плащане (BGN)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IBAN" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>IBAN на получателя</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BIC" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>BIC на получателя</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PaymentReason" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Основание за плащане</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CreateDate" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на издаване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IsMainDocument" type="xs:boolean"/>
+			<xs:element name="IsServed" type="xs:boolean" nillable="true">
+				<xs:annotation>
+					<xs:documentation>Идентификатор за връчен документ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

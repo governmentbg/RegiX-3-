@@ -1,0 +1,124 @@
+﻿<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.DaeuReportsAdapter.APIService.IDaeuReportsAPI.SearchByIdentifier</OperationName>
+  <Code>SearchByIdentifier</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>SearchByIdentifierRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/DaeuReports/SearchByIdentifierRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Персонална справка на физическо лице за достъп до лични данни по идентификатор и период</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>IdentifierType</ParameterName>
+        <ParameterLabel>Тип на идентификатор</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <IdentifierType>7</IdentifierType>
+        <ParameterType>
+          <Type>IdentifierType</Type>
+          <EnumValues>
+            <EnumValue>
+              <Value>Bulstat</Value>
+              <DisplayText>БУЛСТАТ</DisplayText>
+              <IdentifierType>4</IdentifierType>
+            </EnumValue>
+            <EnumValue>
+              <Value>EGN</Value>
+              <DisplayText>ЕГН</DisplayText>
+              <IdentifierType>1</IdentifierType>
+            </EnumValue>
+            <EnumValue>
+              <Value>EIK</Value>
+              <DisplayText>EIK</DisplayText>
+              <IdentifierType>4</IdentifierType>
+            </EnumValue>
+            <EnumValue>
+              <Value>LNC</Value>
+              <DisplayText>ЛНЧ</DisplayText>
+              <IdentifierType>2</IdentifierType>
+            </EnumValue>
+            <EnumValue>
+              <Value>SystemNo</Value>
+              <DisplayText>Сл. номер</DisplayText>
+            </EnumValue>
+            <EnumValue>
+              <Value>BulstatCL</Value>
+              <DisplayText>БУЛСТАТ(СЛ)</DisplayText>
+            </EnumValue>
+          </EnumValues>
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>Identifier</ParameterName>
+        <ParameterLabel>Идентификатор</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <IdentifierType>7</IdentifierType>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>DateFrom</ParameterName>
+        <ParameterLabel>От дата</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>2</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>DateFromSpecified</ParameterName>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>false</IsXmlElement>
+        <OrderNumber>4</OrderNumber>
+        <ParameterType>
+          <Type>bool</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>DateTo</ParameterName>
+        <ParameterLabel>До дата</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>3</OrderNumber>
+        <ParameterType>
+          <Type>Date</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>DateToSpecified</ParameterName>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>false</IsXmlElement>
+        <OrderNumber>5</OrderNumber>
+        <ParameterType>
+          <Type>bool</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

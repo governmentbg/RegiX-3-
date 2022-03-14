@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<ValidPersonResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/NBD/ValidPersonResponse">
+  <FirstName>Ружа</FirstName>
+  <SurName>Жекова</SurName>
+  <FamilyName>Колева</FamilyName>
+  <BirthDate>1944-04-03</BirthDate>
+</ValidPersonResponse>

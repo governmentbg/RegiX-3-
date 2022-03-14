@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.IAMAVesselsAdapter.APIService.IVesselsAPI.RegistrationSearchByOwner</OperationName>
+  <Code>RegistrationSearchByOwner</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>ShipsByOwnerRequest</RequestObjectName>
+  <Namespace>http://marad.bg/</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за регистрация на кораб по данни на собственик</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>egn</ParameterName>
+        <ParameterLabel>Първите 6 символа на идентификатора, като справката връща всички резултати, за които полето ЕИК, ЕГН, БУЛСТАТ, ЛНЧ съдържа тези 6 символа</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

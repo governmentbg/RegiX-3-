@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<TemporaryAddressResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/PNA/TemporaryAddressResponse">
+  <DistrictCode>SF</DistrictCode>
+  <DistrictName>Пловдив</DistrictName>
+  <MunicipalityCode>SF</MunicipalityCode>
+  <MunicipalityName>Пловдив</MunicipalityName>
+  <SettlementCode>BG001</SettlementCode>
+  <SettlementName>гр. Пловдив</SettlementName>
+  <CityAreaCode>SL</CityAreaCode>
+  <CityArea/>
+  <LocationCode/>
+  <LocationName>бул. България</LocationName>
+  <BuildingNumber>100</BuildingNumber>
+  <Entrance>3</Entrance>
+  <Floor>4</Floor>
+  <Apartment>10</Apartment>
+  <FromDate>2005-03-12</FromDate>
+</TemporaryAddressResponse>

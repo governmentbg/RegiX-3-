@@ -1,0 +1,638 @@
+﻿<ExpertDecisionsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NELK/EISME">
+  <ExpertDecisionDocument>
+    <RegistrationNumber>1434</RegistrationNumber>
+    <MeetingNumber>81</MeetingNumber>
+    <RegistrationDate>2017-05-09T00:00:00+03:00</RegistrationDate>
+    <CommissionDescr>общи заболявания към V МБАЛ</CommissionDescr>
+    <CommissionCode>2217</CommissionCode>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>Д-р Боряна Холевич</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Ваня Симова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Соня Костадинова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Анна Стоева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Невена Нишанджиева-Ангелова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Татяна Яшина</Name>
+    </CommisionMember>
+    <PersonNames>МАРТИН МАКОВ ЯНКОВ</PersonNames>
+    <PersonIdentifier>6006306880</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>null</DocumentNumber>
+      <IssuePlace>null</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>София (столица),ГР. СОФИЯ, БОТЕВГРАДСКО ШОСЕ №164</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>София (столица),null,ГР. СОФИЯ, БОТЕВГРАДСКО ШОСЕ №164</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </TemporaryAddress>
+    <Employment>не работи</Employment>
+    <EmploymentCode>3</EmploymentCode>
+    <ConditionText>78% т. н. р.</ConditionText>
+    <ConditionCode>6</ConditionCode>
+    <ExpertiseType>преосвидетелстване</ExpertiseType>
+    <ExpertiseTypeCode>2</ExpertiseTypeCode>
+    <ExpertiseDecisionMaking>След преглед</ExpertiseDecisionMaking>
+    <ExpertiseDecisionMakingCode>2</ExpertiseDecisionMakingCode>
+    <ExpertisePlace>ТЕЛК</ExpertisePlace>
+    <ExpertisePlaceCode>1</ExpertisePlaceCode>
+    <EmployabilityAssessment>74% т. н. р.</EmployabilityAssessment>
+    <EmployabilityAssessmentCode>6</EmployabilityAssessmentCode>
+    <DurationDisabilityDate>2020-05-01T00:00:00+03:00</DurationDisabilityDate>
+    <DurationDisability>3 години</DurationDisability>
+    <DurationDisabilityCode>3</DurationDisabilityCode>
+    <DisabilityReason>
+      <Date>2005-08-06T00:00:00+03:00</Date>
+      <Percent>74 </Percent>
+      <Type>Общо заболяване</Type>
+    </DisabilityReason>
+    <Diagnosis>Рецидивиращо депресивно разстройство, сегашен епизод - умерено тежък</Diagnosis>
+    <DiagnosisCode>F33.1</DiagnosisCode>
+    <GeneralIllness>Рецидивиращо депресивно разстройство, сегашен епизод - умерено тежък.ЗД - ІІ тип.НИЗТ.КСДС- диабетна ПНП.ИБС.Преживян МИ.Двуклонова коронарна болест.ПКИ и степен Х 1 ЛАД /2008г/.ПКИ на ОМ 1/2012 г/.Стенокардия ІІ-ІІІ ФК.АХ-ІІІ ст.ЛК систолна и диастолна дисфункция.Умерена МиИ.БАХ в покой.СН-ІІ-ІІІ ст.МСБ Кортикална атрофия-нискостепенна хидроцефалия.Комбиниран отоневрологичен синдром-вестибуларна декомпенсация.Цервикална и лумбална остеохондроза.</GeneralIllness>
+    <ContradictionWorkingConditions>тежък физ. труд, нервно- психично пренапрежение и нощен труд.</ContradictionWorkingConditions>
+    <ArgumentsAndObservations>
+      АНАМНЕЗА: Обр:Средно техн.ОТС-27 год. Женен с две деца.
+      От 2000 год. с оплаквания от депресивния кръг,лекуван амб.Състоянието през 2006 год. починал сина му при злополука,при което състоянието му се влошило.Многократно е хосп. в ЦПЗ София град  по повод депресивни епизоди.През 2010 год. е лекуван 4 -пъти,2013 год.-3 пъти,2015 год.-1 път.,2016 год. - 2 пъти с  депресивна с.ка.По настояшем процидивното лечение е Сетинин-200мг.,Тритико-150мг,Лексотан и Диазепан при нужда.Оплакванията от подтиснатост,безсъние,"буца в гърдите" продължават.
+      Анамнеза за сърдечно заболяване подробно в предишно ЕР.
+      Пациент с анамнеза за дългогодишна АХ, системно контролирана. След психически стрес от около  9 г. е с клиника на АП.Нова хоспитализация през м. 01 .2014 Г.с акцелерация на оплакванията.Припроведеното инвазивно изследване се установява запазен резултат от предишната процедура. Остава на медикам.лечение и стриктен контрол на РФ. С пристъпи от замаяност, световъртеж, залитане при промяна в положението на главата и тялото. С болки в шиен и лумбален гръбнак с ирадиация към крайниците и изтръпване на същите.
+      ОБЕКТИВНО: Психичен статус:Психомоторно леко вътрешно напрегнат,ориентиран всестранно,със съзнание за "неизличимо депресивно заболяване".Емоционално-дистимно угнетен,разплаква се.Воля-умерено хипобуличен.Апсихотичен.Мисловен процес-леко забавен по темп,обстоятелствен,в съдържанието-депресивни интерпретации.Памет и интелект-болестно леко инхибирани.
+      Вез. дишане без хрипове. РСД. Ясни сърдечни тонове. Сч 72 уд./мин. Систоличен шум на върха. АН 140/90мм. Черен дроб на ребрена дъга. Сук. рен. отр. Крайници без отоци. ЧМН -б.о.Двигателни функции-без парези и парализи.Болезнено ограничена вентрална и странична инклинация.СНР -дифузна хипоруфлуксия.Походка - несигурна,при Ромберг-залита в неопределена посока,без латерелизационна сетивност-дистална хипестезия.
+
+      МОТИВИ: Персистиращата тревожно-депресивна симптоматика,астения и инсомията при РДР обуславя 50% ТНР ч.2,р.4,т.2 от НМЕ/2010 год.
+      ЗД - ІІ тип.НИЗТ.КСДС- диабетна ПНП -30% ч.9,р.1,т.2
+      .ИБС.Преживян МИ.Двуклонова коронарна болест.ПКИ и степен Х 1 ЛАД /2008г/.ПКИ на ОМ 1/2012 г/.Стенокардия ІІ-ІІІ ФК.АХ-ІІІ ст.ЛК систолна и диастолна дисфункция.Умерена МиИ.БАХ в покой.СН-ІІ-ІІІ ст.-50% ч.4,р.1,т.2
+      МСБКортикална атрофия-нискостепенна хидроцефалия.Комбиниран отоневрологичен синдром-вестибуларна декомпенсация.Цервикална и лумбална остеохондроза-40% ч.7,т.3.2
+      По съвкупност 74% ТНР
+      Закъснението  не е по причина на лицето.
+      Лицето декларира, че към настоящия момент не работи.
+
+
+
+
+    </ArgumentsAndObservations>
+    <Appeal>
+      <StakeholdersCode>Лицето</StakeholdersCode>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>1283</RegistrationNumber>
+    <MeetingNumber>59</MeetingNumber>
+    <RegistrationDate>2014-04-15T00:00:00+03:00</RegistrationDate>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>Д-р Боряна Холевич</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Ваня Симова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Соня Костадинова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Анна Стоева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Невена Нишанджиева-Ангелова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Татяна Яшина</Name>
+    </CommisionMember>
+    <PersonNames>МАРТИН МАКОВ ЯНКОВ</PersonNames>
+    <PersonIdentifier>6006306880</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>null</DocumentNumber>
+      <IssuePlace>null</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>София (столица),ГР. СОФИЯ, БОТЕВГРАДСКО ШОСЕ №164</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>София (столица),null,ГР. СОФИЯ, БОТЕВГРАДСКО ШОСЕ №164</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </TemporaryAddress>
+    <EmploymentCode>0</EmploymentCode>
+    <ConditionCode>0</ConditionCode>
+    <ExpertiseType>преосвидетелстване</ExpertiseType>
+    <ExpertiseTypeCode>2</ExpertiseTypeCode>
+    <ExpertiseDecisionMaking>След преглед</ExpertiseDecisionMaking>
+    <ExpertiseDecisionMakingCode>2</ExpertiseDecisionMakingCode>
+    <ExpertisePlaceCode>0</ExpertisePlaceCode>
+    <EmployabilityAssessment>78% т. н. р.</EmployabilityAssessment>
+    <EmployabilityAssessmentCode>6</EmployabilityAssessmentCode>
+    <DurationDisabilityDate>2017-04-01T00:00:00+03:00</DurationDisabilityDate>
+    <DurationDisability>3 години</DurationDisability>
+    <DurationDisabilityCode>3</DurationDisabilityCode>
+    <DisabilityReason>
+      <Date>2005-08-06T00:00:00+03:00</Date>
+      <Percent>74 </Percent>
+      <Type>Общо заболяване</Type>
+    </DisabilityReason>
+    <Diagnosis>Рецидивиращо депресивно разстройство, сегашен епизод - умерено тежък</Diagnosis>
+    <DiagnosisCode>F33.1</DiagnosisCode>
+    <GeneralIllness>ИБС. Преживян МИ. Микроваскуларна болест. съст.след ПКИ и стент на ЛАД /2008г/. Съст.след ПКИ на ОМ 1/2012г/. САП-ІІІ ФК. АХ-ІІІст. ЛК диастолна дисфункция. СН ІІ-ІІІ ФК. ЗД-ІІтип-НИЗТ-лош гликемичен контрол. КСДС-диабетна полиневропатия. Хрон.калк. пиелонефрит. МСБ.ХНМК в бас. на ВБС. Цервикална /С5-С6ІС7/ и лумбална /Л4-Л5-Ес1/ остеохондроза. Комбиниран отоневрологичен синдром-вестибуларна декомпенсация.Десностраннао пирамидна с-ка.</GeneralIllness>
+    <ArgumentsAndObservations />
+    <Appeal>
+      <StakeholdersCode>Лицето</StakeholdersCode>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>749</RegistrationNumber>
+    <MeetingNumber>44</MeetingNumber>
+    <RegistrationDate>2014-03-11T00:00:00+02:00</RegistrationDate>
+    <CommissionDescr>общи заболявания към V МБАЛ</CommissionDescr>
+    <CommissionCode>2217</CommissionCode>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>Д-р Боряна Холевич</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Ваня Симова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Соня Костадинова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Анна Стоева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Невена Нишанджиева-Ангелова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Татяна Яшина</Name>
+    </CommisionMember>
+    <PersonNames>МАРТИН МАКОВ ЯНКОВ</PersonNames>
+    <PersonIdentifier>6006306880</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>null</DocumentNumber>
+      <IssuePlace>null</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>София (столица),ГР. СОФИЯ, БОТЕВГРАДСКО ШОСЕ №164</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>София (столица),null,ГР. СОФИЯ, БОТЕВГРАДСКО ШОСЕ №164</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </TemporaryAddress>
+    <Employment>не работи</Employment>
+    <EmploymentCode>3</EmploymentCode>
+    <ConditionText>68 % т. н. р.</ConditionText>
+    <ConditionCode>7</ConditionCode>
+    <ExpertiseType>консултация</ExpertiseType>
+    <ExpertiseTypeCode>4</ExpertiseTypeCode>
+    <ExpertiseDecisionMaking>След преглед</ExpertiseDecisionMaking>
+    <ExpertiseDecisionMakingCode>2</ExpertiseDecisionMakingCode>
+    <ExpertisePlace>ТЕЛК</ExpertisePlace>
+    <ExpertisePlaceCode>1</ExpertisePlaceCode>
+    <EmployabilityAssessmentCode>0</EmployabilityAssessmentCode>
+    <DurationDisabilityCode>0</DurationDisabilityCode>
+    <DisabilityReason>
+      <Date>2005-08-06T00:00:00+03:00</Date>
+      <Percent>74 </Percent>
+      <Type>Общо заболяване</Type>
+    </DisabilityReason>
+    <Diagnosis>Рецидивиращо депресивно разстройство</Diagnosis>
+    <DiagnosisCode>F33</DiagnosisCode>
+    <GeneralIllness>
+      ИБС.Преживян МИ.Микроваскуларна болест.Съст.след ПКИ и стент на ЛАД/2008г./.Съст.след ПКИ на ОМ 1 /2012  г./ .САП- ІІІ ФК. АХ-ІІІ ст.ЛК диастолна дисфункция.СН ІІ-ІІІ ФК.ЗД - ІІ тип-НИЗТ-лош гликемичен контрол.КСДС- диаб.полиневропатия.Хроничен калкулозен пиелонефрит.Рецидивиращо депресивно разстройство,сегашен епизод - умерено тежък.МСБ.ХНМК в бас. на ВБС.Цервикална/С5-С6-С7/ и лумбална /L4-L5-S1/ остеохондроза.Комбиниран отоневрологичен синдром-вестибуларна декомпенсация. Десностранна пирамидна симптоматика.
+
+    </GeneralIllness>
+    <ContradictionWorkingConditions>тежък физ. труд, нервно- психично пренапрежение и нощен труд.</ContradictionWorkingConditions>
+    <ArgumentsAndObservations>
+      АНАМНЕЗА: Пациент с анамнеза за дългогодишна АХ, системно контролирана. След психически стрес от около  6 г. е с клиника на АП. По повод нестабилитет е осъществена СКАГ преди шест години, светъл период от около 1 г. През 2008 г. поставен стент на ЛАД. Персистират оплаквания от обща уморяемост. По повод засилили се задух и гръдна болка с акцелерация по честота и праг на физ. усилие е хоспитализиран през м.12.2010 г. в кардиологично отделение.През 2012 г.хоспитализиран с клиника на НАП.Проведена СКАГ при която се установява проходим стент на ЛАД и 80% стеноза на грацилен ОМ1. Ехокардиографски е установена гранична левокамерна систолна дисфункция. На този етап е оставен на консервативна терапия.Нова хоспитализация през м. 01 .2014 Г.с акцелерация на оплакванията.Припроведеното инвазивно изследване се установява запазен резултат от предишната процедура. Остава на медикам.лечение и стриктен контрол на РФ. С пристъпи от замаяност, световъртеж, залитане при промяна в положението на главата и тялото. С болки в шиен и лумбален гръбнак с ирадиация към крайниците и изтръпване на същите.
+      ОБЕКТИВНО: Вез. дишане без хрипове. РСД. Ясни сърдечни тонове. Сч 67 уд./мин. Систоличен шум на върха. АН 145/80. Черен дроб на ребрена дъга. Сук. рен. отр. Крайници без отоци. ЧМН леко изгладена НЛГ в ляво.Двигателни функции-без парези и парализи.СНР- Д по голям от Л,РРЗ,снижени коремни рефлекси в десно.Хофман и  Трьомнер /+/ десно.Координация: Ромберг залита на десно и назад, хоризонтален нистагъм при поглед на дясно.НПП-дизметрия.
+
+      За окончателно ЕР се насочва към СТЕЛК-Психиатрични заболявания.
+      МОТИВИ: ИБС.Преживян МИ.Микроваскуларна болест.Съст.след ПКИ и стент на ЛАД /2008 г./. Съст.след ПКИ на ОМ1/2012 г./.САП-ІІІ ФК.АХ - ІІІ ст. ЛК диастолна дисфункция.СН ІІ-ІІІ ФК - 50 % ч.4 р.1 т.2
+      ЗД - ІІ-тип-НИЗТ-лош гликемичен контрол.КСДС - диаб.полиневропатия - 30 % ч.9 р.1 т.1.2
+      Комбиниран отоневрологичен синдром,вестибуларна декомпенсация при ХНМК в бас. на ВБС - 40 % ч.VІІ т.3.2
+      Дясностранна пирамидна симптоматика - 10% ч.VІІ т.2.9 + 10% за доминантен крайник.
+
+
+
+
+
+    </ArgumentsAndObservations>
+    <Appeal>
+      <StakeholdersCode>Лицето</StakeholdersCode>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>295</RegistrationNumber>
+    <MeetingNumber>28</MeetingNumber>
+    <RegistrationDate>2011-02-10T00:00:00+02:00</RegistrationDate>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>Д-р Боряна Холевич</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Ваня Симова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Соня Костадинова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Анна Стоева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Невена Нишанджиева-Ангелова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Татяна Яшина</Name>
+    </CommisionMember>
+    <PersonNames>МАРТИН МАКОВ ЯНКОВ</PersonNames>
+    <PersonIdentifier>6006306880</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>null</DocumentNumber>
+      <IssuePlace>null</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>София (столица),ГР. СОФИЯ, БОТЕВГРАДСКО ШОСЕ №164</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>София (столица),null,ГР. СОФИЯ, БОТЕВГРАДСКО ШОСЕ №164</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </TemporaryAddress>
+    <ConditionText>62% тр. нам. раб.</ConditionText>
+    <ExpertiseDecisionMakingCode>0</ExpertiseDecisionMakingCode>
+    <EmployabilityAssessment>68% тр. нам. раб.</EmployabilityAssessment>
+    <DurationDisabilityDate>2014-02-01T00:00:00+02:00</DurationDisabilityDate>
+    <DisabilityReason>
+      <Date>2005-08-06T00:00:00+03:00</Date>
+      <Percent>74 </Percent>
+      <Type>Общо заболяване</Type>
+    </DisabilityReason>
+    <Diagnosis>Рецидивиращо депресивно разстройство</Diagnosis>
+    <DiagnosisCode>F33</DiagnosisCode>
+    <GeneralIllness>Рецидивиращо депресивно разстройство, сегашен епизод- умерено тежък. ИБС. САП- ІІ- ІІІ ФК. Двуклонова коронарна болест. Състояние след РСI и стентиране на ЛАД /2008 г./ СН- ІІ ФК. АХ- ІІІ ст. Хиперт. сърце. Шийна и лумбална остеохондроза с дископатни промени на нива С5- С7 и Л4- Ес1- радикулопатия. Периферен отоневрологичен с-м в стадий на декомпенсация.</GeneralIllness>
+    <ContradictionWorkingConditions>тежък физ. труд, нервно- психично пренапрежение и нощен труд.</ContradictionWorkingConditions>
+    <ArgumentsAndObservations>
+      АНАМНЕЗА: Пациент с анамнеза за дългогодишна АХ, системно контролирана. След психически стрес от около 3 г. е с клиника на АП. По повод нестабилитет е осъществена СКАГ преди три години, светъл период от около 1 г. През 2008 г. поставен стент на ЛАД. Персистират оплаквания от обща уморяемост. По повод засилили се задух и гръдна болка с акцелерация по честота и праг на физ. усилие е хоспитализиран през м.12.2010 г. в кардиологично отделение. Ехокардиографски е установена гранична левокамерна систолна дисфункция. На този етап е оставен на консервативна терапия. С пристъпи от замаяност, световъртеж, залитане при промяна в положението на главата и тялото. С болки в шиен и лумбален гръбнак с ирадиация към крайниците и изтръпване на същите.
+      ОБЕКТИВНО: Вез. дишане без хрипове. РСД. Глуховати сърдечни тонове. Сч 70 уд./мин. Систоличен шум на върха. АН 150/100. Черен дроб на ребрена дъга. Сук. рен. отр. Крайници без отоци. Вертебрален синдром. Ромберг- нестабилен.
+      МОТИВИ: СТЕЛК по психични заболявания определя-   50%  ч 2  р 4  т 2
+      ИБС. САП- ІІ- ІІІ ФК. Двуклонова коронарна болест. Състояние след РСI и стентиране на ЛАД /2008 г./ СН- ІІ ФК. АХ- ІІІ ст. Хиперт. сърце-   50% ч 4 р 1 т 2
+      Шийна и лумбална остеохондроза с дископатни промени на нива С5- С7 и Л4- Ес1- радикулопатия-   10%  ч 1  р 4  т 4.1
+      Периферен отоневрологичен с-м в стадий на декомпенсация-   30%  ч 7  т 3.2
+
+      По съвкупност-  68%  тр. нам. раб.
+      ПРИЛОЖЕНИЕ: Експертна консултация от СТЕЛК- Психични заболявания, Катетеризационен протокол, ЕКГ, Епикризи, ВЕТ, Кардиолог, Ехо КГ, Офталмолог, Ортопед, Параклиника, Отоневрологично изследване,ЕМГ, Рьо графии, Невролог, Отоневролог.
+    </ArgumentsAndObservations>
+    <Appeal>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>2806</RegistrationNumber>
+    <MeetingNumber>172</MeetingNumber>
+    <RegistrationDate>2010-12-13T00:00:00+02:00</RegistrationDate>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>Д-р Боряна Холевич</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Ваня Симова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Соня Костадинова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Анна Стоева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Невена Нишанджиева-Ангелова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Татяна Яшина</Name>
+    </CommisionMember>
+    <PersonNames>МАРТИН МАКОВ ЯНКОВ</PersonNames>
+    <PersonIdentifier>6006306880</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>null</DocumentNumber>
+      <IssuePlace>null</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>София (столица),ГР. СОФИЯ, БОТЕВГРАДСКО ШОСЕ №164</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>София (столица),null,ГР. СОФИЯ, БОТЕВГРАДСКО ШОСЕ №164</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </TemporaryAddress>
+    <EmploymentCode>0</EmploymentCode>
+    <ConditionCode>0</ConditionCode>
+    <ExpertisePlaceCode>0</ExpertisePlaceCode>
+    <EmployabilityAssessmentCode>0</EmployabilityAssessmentCode>
+    <DurationDisabilityCode>0</DurationDisabilityCode>
+    <DisabilityReason>
+      <Date>2005-08-06T00:00:00+03:00</Date>
+      <Percent>74 </Percent>
+      <Type>Общо заболяване</Type>
+    </DisabilityReason>
+    <Diagnosis>Рецидивиращо депресивно разстройство, сегашен епизод - умерено тежък.</Diagnosis>
+    <DiagnosisCode>F33.1</DiagnosisCode>
+    <ArgumentsAndObservations />
+    <Appeal>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>2335</RegistrationNumber>
+    <MeetingNumber>150</MeetingNumber>
+    <RegistrationDate>2008-11-17T00:00:00+02:00</RegistrationDate>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>Д-р Боряна Холевич</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Ваня Симова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Соня Костадинова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Анна Стоева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Невена Нишанджиева-Ангелова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Татяна Яшина</Name>
+    </CommisionMember>
+    <PersonNames>МАРТИН МАКОВ ЯНКОВ</PersonNames>
+    <PersonIdentifier>6006306880</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>null</DocumentNumber>
+      <IssuePlace>null</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>София (столица),ГР. СОФИЯ, БОТЕВГРАДСКО ШОСЕ №164</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>София (столица),null,ГР. СОФИЯ, БОТЕВГРАДСКО ШОСЕ №164</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </TemporaryAddress>
+    <ConditionText>60% тр. нам. раб.</ConditionText>
+    <ExpertiseDecisionMakingCode>0</ExpertiseDecisionMakingCode>
+    <EmployabilityAssessment>62% тр. нам. раб.</EmployabilityAssessment>
+    <DurationDisabilityDate>2010-11-01T00:00:00+02:00</DurationDisabilityDate>
+    <DisabilityReason>
+      <Date>2005-08-06T00:00:00+03:00</Date>
+      <Percent>74 </Percent>
+      <Type>Общо заболяване</Type>
+    </DisabilityReason>
+    <Diagnosis>Рецидивиращо депресивно разстройство</Diagnosis>
+    <DiagnosisCode>F33</DiagnosisCode>
+    <GeneralIllness>    Рецидивиращо        депресивно  разстройство    .Дискова   болест   Л5-С1  .АХ  ІІІ  ст  ,умерена    ст. Хипертонично   сърце.   ИБС  .Едноклонова     коронарна     болест  . Състояние  след    РТСІ   и   стентиране  на  ЛАД.</GeneralIllness>
+    <ContradictionWorkingConditions>Труд   със   значително психофизическо   натоварване.</ContradictionWorkingConditions>
+    <ArgumentsAndObservations>
+      МОТИВИ:   Консултация   СТЕЛК    по   психични  заболявания   - 50%    по  ч. 2  р. 4  т. 2
+      Дискова     болест  Л5-С1   ,с лек   двигателен   дефицит   -  10 %  по  ч. 1 р. 4  т.4.1
+      Проведено  стентиране     на  ЛАД     по  повод   сигнификатна  стеноза   със стенокардна   симтоматика  - 50%   по   ч. 4 р. 1 т.2
+
+      ОБЩО     ТРАЙНО    НАМАЛЕНА  РАБОТОСПОСОБНОСТ   -  62% съгласно НМЕР  2005 г
+      СИ-   ЗА ДВЕ  ГОДИНИ
+    </ArgumentsAndObservations>
+    <Appeal>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>90</RegistrationNumber>
+    <MeetingNumber>7</MeetingNumber>
+    <RegistrationDate>2008-01-16T00:00:00+02:00</RegistrationDate>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>Д-р Боряна Холевич</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Ваня Симова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Соня Костадинова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Анна Стоева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Невена Нишанджиева-Ангелова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Татяна Яшина</Name>
+    </CommisionMember>
+    <PersonNames>МАРТИН МАКОВ ЯНКОВ</PersonNames>
+    <PersonIdentifier>6006306880</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>null</DocumentNumber>
+      <IssuePlace>null</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>София (столица),ГР. СОФИЯ, БОТЕВГРАДСКО ШОСЕ №164</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>София (столица),null,ГР. СОФИЯ, БОТЕВГРАДСКО ШОСЕ №164</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </TemporaryAddress>
+    <ConditionText>50% тр. нам. раб.</ConditionText>
+    <ExpertiseDecisionMakingCode>0</ExpertiseDecisionMakingCode>
+    <EmployabilityAssessment>60% тр. нам. раб.</EmployabilityAssessment>
+    <DurationDisabilityDate>2011-01-01T00:00:00+02:00</DurationDisabilityDate>
+    <DisabilityReason>
+      <Date>2005-08-06T00:00:00+03:00</Date>
+      <Percent>74 </Percent>
+      <Type>Общо заболяване</Type>
+    </DisabilityReason>
+    <Diagnosis>Рецидивиращо депресивно разстройство</Diagnosis>
+    <DiagnosisCode>F33</DiagnosisCode>
+    <GeneralIllness>Рецидивиращо депресивно разстройство. Дискова болест ЕЛ5-ЕС1. АХ ІІІ ст. умерена ст. Хипертонично сърце. ИБС. Стабилна стенокердия І фк.</GeneralIllness>
+    <ContradictionWorkingConditions>Труд със значително психофизическо натоварване.</ContradictionWorkingConditions>
+    <ArgumentsAndObservations>
+      МОТИВИ: Консултация СТЕЛК по псих. заболявания   50% по ч.2 р.4 т.2
+      Дискова болест ЕЛ5-ЕС1 , с лек двигателен дефицит.  ч.1 р.4 т.4.1  -10%
+      Неоптимално контролирана АХ с ЛКХ и стенокардна симптоматика без данни за сигнификантни стенози от СКАГ.  ч.4 р.6 т.3 по аналогия с ч. 4 р.1 т.2  -40%
+
+      ОБЩО ТРАЙНО НАМАЛЕНА РАБОТОСПОСОБНОСТ  60% съгласно НМЕР от 2005 г.
+
+      СРОК ЗА ТРИ ГОДИНИ
+    </ArgumentsAndObservations>
+    <Appeal>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+  <ExpertDecisionDocument>
+    <RegistrationNumber>2750</RegistrationNumber>
+    <MeetingNumber>176</MeetingNumber>
+    <RegistrationDate>2007-12-13T00:00:00+02:00</RegistrationDate>
+    <CommisionMember>
+      <Position>Председател</Position>
+      <Name>Д-р Боряна Холевич</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Ваня Симова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Соня Костадинова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Анна Стоева</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Невена Нишанджиева-Ангелова</Name>
+    </CommisionMember>
+    <CommisionMember>
+      <Position>Лекар</Position>
+      <Name>Д-р Татяна Яшина</Name>
+    </CommisionMember>
+    <PersonNames>МАРТИН МАКОВ ЯНКОВ</PersonNames>
+    <PersonIdentifier>6006306880</PersonIdentifier>
+    <IdentityDocument>
+      <DocumentNumber>null</DocumentNumber>
+      <IssuePlace>null</IssuePlace>
+    </IdentityDocument>
+    <PermanentAddress>
+      <AddressDescription>София (столица),ГР. СОФИЯ, БОТЕВГРАДСКО ШОСЕ №164</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </PermanentAddress>
+    <TemporaryAddress>
+      <AddressDescription>София (столица),null,ГР. СОФИЯ, БОТЕВГРАДСКО ШОСЕ №164</AddressDescription>
+      <DistrictEKATTE>SOF</DistrictEKATTE>
+    </TemporaryAddress>
+    <EmploymentCode>0</EmploymentCode>
+    <ConditionCode>0</ConditionCode>
+    <ExpertisePlaceCode>0</ExpertisePlaceCode>
+    <EmployabilityAssessmentCode>0</EmployabilityAssessmentCode>
+    <DurationDisabilityCode>0</DurationDisabilityCode>
+    <DisabilityReason>
+      <Date>2005-08-06T00:00:00+03:00</Date>
+      <Percent>74 </Percent>
+      <Type>Общо заболяване</Type>
+    </DisabilityReason>
+    <GeneralIllness>Рецидивиращо депресивно разстройство</GeneralIllness>
+    <GeneralIllnessCode>F33</GeneralIllnessCode>
+    <ArgumentsAndObservations />
+    <Appeal>
+      <DecisionCode>0</DecisionCode>
+    </Appeal>
+    <Parent>
+      <IdentityDocument />
+    </Parent>
+    <AdditionalData>
+      <EmployeeType>9854</EmployeeType>
+      <Status>9845</Status>
+    </AdditionalData>
+    <InitiateDocument />
+  </ExpertDecisionDocument>
+</ExpertDecisionsResponse>

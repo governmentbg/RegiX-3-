@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://egov.bg/RegiX/NCPR/Common" xmlns="http://egov.bg/RegiX/NCPR/MedicinalProducts/ListDeletedMedicinalProductsResponse" targetNamespace="http://egov.bg/RegiX/NCPR/MedicinalProducts/ListDeletedMedicinalProductsResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/NCPR/Common" schemaLocation="NCPRCommon.xsd"/>
+	<xs:element name="ListDeletedMedicinalProductsResponse" type="ListDeletedMedicinalProductsResponseType">
+		<xs:annotation>
+			<xs:documentation>Резултат от изпълнение на справка по	Търсене на заличени лекарствени продукти в регистрите</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="ListDeletedMedicinalProductsResponseType">
+		<xs:sequence>
+			<xs:element name="ResultsCount" type="xs:int" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Общ брой записи</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MedicinalProducts" type="common:MedicinalProductsType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Списък с Лекарствени продукти</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

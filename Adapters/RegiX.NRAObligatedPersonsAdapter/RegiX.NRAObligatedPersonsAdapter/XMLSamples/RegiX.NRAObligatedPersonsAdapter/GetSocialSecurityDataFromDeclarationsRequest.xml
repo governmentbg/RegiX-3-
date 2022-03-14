@@ -1,0 +1,9 @@
+<GetSocialSecurityDataFromDeclarationsRequest xmlns="http://egov.bg/RegiX/NRA/SocialSecurityDataFromDeclarations/Request">
+	<PersonIdentifier>aaaaaaaaaa</PersonIdentifier>
+	<PersonIdentifierType>NOT_SPECIFIED</PersonIdentifierType>
+	<InsurerIdentificator>aaaaaaaaaaaaa</InsurerIdentificator>
+	<MonthFrom>--12</MonthFrom>
+	<YearFrom>2001</YearFrom>
+	<MonthTo>--12</MonthTo>
+	<YearTo>2001</YearTo>
+</GetSocialSecurityDataFromDeclarationsRequest>

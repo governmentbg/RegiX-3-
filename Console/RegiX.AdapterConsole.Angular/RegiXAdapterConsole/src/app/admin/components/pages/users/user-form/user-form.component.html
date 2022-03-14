@@ -1,0 +1,85 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <div *ngIf="isDataLoading">
+      <div>
+        <igx-circular-bar
+          [animate]="true"
+          [indeterminate]="true"
+          [textVisibility]="true"
+        ></igx-circular-bar>
+      </div>
+    </div>
+    <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isDataLoaded && !isDataLoading"
+    >
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="name"
+              type="text"
+              formControlName="name"
+              tlFormGroupRef
+            />
+            <label igxLabel for="name">Име</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="userName"
+              type="text"
+              formControlName="userName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="userName">Потребителско име</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <igx-checkbox
+        class="input-group"
+        formControlName="isActive"
+        name="active"
+        [disabled]="isShowForm()"
+      >
+        Активен
+      </igx-checkbox>
+
+      <div class="tabs-wrapper">
+        <igx-tabs>
+          <igx-tabs-group label="Роли">
+            <div class="roles-wrapper">
+              <app-user-to-roles
+                #roles
+                [formGroup]="formGroup"
+                [isShowForm]="isShowForm()"
+              >
+              </app-user-to-roles>
+            </div>
+          </igx-tabs-group>
+          <igx-tabs-group label="Услуги" *ngIf="isShowForm()">
+            <div class="roles-wrapper">
+              <app-user-to-reports
+                *ngIf="isShowForm()"
+              ></app-user-to-reports>
+            </div>
+          </igx-tabs-group>
+        </igx-tabs>
+      </div>
+    </form>
+  </div>
+</tl-basic-form>

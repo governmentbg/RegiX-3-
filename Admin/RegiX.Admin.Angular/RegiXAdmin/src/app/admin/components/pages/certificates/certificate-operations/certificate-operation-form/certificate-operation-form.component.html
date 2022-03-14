@@ -1,0 +1,103 @@
+<tl-basic-form
+  [title]="operationName + ' ' + objectName"
+  [baseForm]="this"
+  *ngIf="formGroup"
+>
+  <div>
+    <form
+      [formGroup]="formGroup"
+      (submit)="onSubmit($event)"
+      *ngIf="isShowForm()"
+    >
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="adapterOperationName"
+              type="text"
+              formControlName="adapterOperationName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="adapterOperationName">Операция</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="adapterOperationDescription"
+              type="text"
+              formControlName="adapterOperationDescription"
+              tlFormGroupRef
+            />
+            <label igxLabel for="adapterOperationDescription">Описание на oперация</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="consumerCertificateName"
+              type="text"
+              formControlName="consumerCertificateName"
+              tlFormGroupRef
+            />
+            <label igxLabel for="consumerCertificateName">Сертификат</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="consumerCertificateDescription"
+              type="text"
+              formControlName="consumerCertificateDescription"
+              tlFormGroupRef
+            />
+            <label igxLabel for="consumerCertificateDescription">Описание на сертификат</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+      <igx-checkbox
+        class="input-group"
+        formControlName="hasAccess"
+        disabled="true"
+        name="hasAccess"
+      >
+        Има достъп
+      </igx-checkbox>
+
+      <div class="input-group">
+        <tl-form-group class="form-group-wrapper">
+          <igx-input-group>
+            <input
+              class="form-input"
+              igxInput
+              name="editComment"
+              type="text"
+              formControlName="editComment"
+              tlFormGroupRef
+            />
+            <label igxLabel for="editComment">Коментар</label>
+          </igx-input-group>
+        </tl-form-group>
+      </div>
+
+    </form>
+  </div>
+</tl-basic-form>

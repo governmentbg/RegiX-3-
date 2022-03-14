@@ -1,0 +1,56 @@
+<div [ngSwitch]="this.buttonType">
+  <div *ngSwitchCase="'drop-down'">
+    <div *ngxPermissionsOnly="this.permissions">
+      <igx-drop-down-item (click)="onClick()">
+        <igx-icon class="button-with-icon" *ngIf="this.icon"
+          >{{ this.icon }}
+        </igx-icon>
+        {{ this.showTitile() ? this.title : '' }}
+      </igx-drop-down-item>
+    </div>
+  </div>
+  <div *ngSwitchCase="'item-list'">
+    <div *ngxPermissionsOnly="this.permissions">
+      <igx-list-item
+        igxRipple
+        igxListAction
+        igxlist
+        igxRippleTarget=".igx-list__item-content"
+        #item
+        class="link"
+        (click)="onClick()"
+        >
+        <igx-icon  *ngIf="this.icon" igxListThumbnail>{{this.icon}}</igx-icon>
+        <span
+          igxListLineTitle>
+          {{ this.showTitile() ? this.title : '' }}</span>
+        </igx-list-item>
+      </div>
+  </div>
+  <ng-template *ngSwitchDefault [ngxPermissionsOnly]="this.permissions">
+    <button
+      [title]="this.title"
+      [igxButton]="this.IgxButtonType"
+      igxRipple
+      [class]="this.ButtonClass"
+      [disabled]="this.isDisabled"
+      (click)="onClick()"
+    >
+      <igx-icon
+        *ngIf="this.icon && this.buttonType && this.buttonType === 'raised'"
+        igxPrefix
+        class="button-with-icon"
+        >{{ this.icon }}</igx-icon
+      >
+      <igx-icon
+        *ngIf="this.icon && this.buttonType && this.buttonType !== 'raised'"
+        >{{ this.icon }}</igx-icon
+      >
+      <igx-icon
+        *ngIf="this.icon && !this.buttonType"
+        >{{ this.icon }}</igx-icon
+      >
+      {{ this.showTitile() ? this.title : '' }}
+    </button>
+  </ng-template>
+</div>

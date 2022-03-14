@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<SubjectOwnedCategoriesResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/Iaaa/EducationCenters/SubjectOwnedCategoriesResponse">
+  <OwnedCategories>
+    <OwnedCategorie>
+      <CategoryName>AM</CategoryName>
+      <DateOwned>2014-04-07</DateOwned>
+    </OwnedCategorie>
+    <OwnedCategorie>
+      <CategoryName>A</CategoryName>
+      <DateOwned>2014-04-07</DateOwned>
+    </OwnedCategorie>
+    <OwnedCategorie>
+      <CategoryName>B</CategoryName>
+      <DateOwned>2008-07-03</DateOwned>
+    </OwnedCategorie>
+    <OwnedCategorie>
+      <CategoryName>A2</CategoryName>
+      <DateOwned>2014-04-07</DateOwned>
+    </OwnedCategorie>
+    <OwnedCategorie>
+      <CategoryName>Ткт</CategoryName>
+      <DateOwned>2008-07-08</DateOwned>
+    </OwnedCategorie>
+    <OwnedCategorie>
+      <CategoryName>A1</CategoryName>
+      <DateOwned>2014-04-07</DateOwned>
+    </OwnedCategorie>
+    <OwnedCategorie>
+      <CategoryName>B1</CategoryName>
+      <DateOwned>2008-07-03</DateOwned>
+    </OwnedCategorie>
+    <OwnedCategorie>
+      <CategoryName>B (78)</CategoryName>
+      <DateOwned>2008-07-03</DateOwned>
+    </OwnedCategorie>
+  </OwnedCategories>
+</SubjectOwnedCategoriesResponse>

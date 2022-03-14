@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<MarriageResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GRAO/BR/MarriageResponse">
+  <MarriageLicenceDate>1991-01-11</MarriageLicenceDate>
+  <MarriageLicenceNumber>123</MarriageLicenceNumber>
+  <MarriageDate>1991-01-10</MarriageDate>
+  <MarriagePlaceCode>BG001</MarriagePlaceCode>
+  <MarriagePlace>София</MarriagePlace>
+  <MarriageCountryCode>BG</MarriageCountryCode>
+  <MarriageCountry>България</MarriageCountry>
+  <DivorceCaseNumber>123</DivorceCaseNumber>
+  <DivorceDate>1999-01-10</DivorceDate>
+</MarriageResponse>

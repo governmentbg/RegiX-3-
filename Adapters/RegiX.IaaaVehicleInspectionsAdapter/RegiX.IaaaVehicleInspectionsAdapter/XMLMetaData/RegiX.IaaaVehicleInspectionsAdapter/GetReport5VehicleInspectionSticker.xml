@@ -1,0 +1,39 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.IaaaVehicleInspectionsAdapter.APIService.IIaaaVehicleInspectionsAPI.GetReport5VehicleInspectionSticker</OperationName>
+  <Code>GetReport5VehicleInspectionSticker</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>VehicleInspectionStickerRequest</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/Iaaa/VehicleInspections/VehicleInspectionStickerRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за проверка на автентичност на стикер за технически преглед.</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>RegNumber</ParameterName>
+        <ParameterLabel>Регистрационне номер на търсеното ППС</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>StickerNumber</ParameterName>
+        <ParameterLabel>Номер стикер търсен в справката</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>int</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

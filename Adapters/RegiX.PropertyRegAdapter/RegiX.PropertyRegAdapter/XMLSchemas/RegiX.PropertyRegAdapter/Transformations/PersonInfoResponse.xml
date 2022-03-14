@@ -1,0 +1,124 @@
+  <PropertyInfoResponse xmlns="http://egov.bg/RegiX/AV/PropertyReg/PropertyInfoResponse">
+        <DateFrom>2018-01-29T15:31:00</DateFrom>
+        <DateTo>2018-01-31T15:31:00</DateTo>
+        <PropertyData>Самостоятелен обект в сграда, площ по док. - 68.150 кв. м., гр.София, обл. СОФИЯ-СТОЛИЧНА, общ. СТОЛИЧНА, гр.София</PropertyData>
+        <LotType>Файлова</LotType>
+        <LotNumber>789</LotNumber>
+        <DateOpened>2016-08-06T00:00:00</DateOpened>
+        <CadastreNumber>x11</CadastreNumber>
+        <PropertyActDetailList>
+          <PropertyActDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+            <Sequence>2</Sequence>
+            <Act>
+              <IncomingRegistrationNumber>45</IncomingRegistrationNumber>
+              <IncomingRegistrationDate>2011-04-18T00:00:00</IncomingRegistrationDate>
+              <DoubleRegisterNumber>21</DoubleRegisterNumber>
+              <RegistrationDate>2011-04-18T00:00:00</RegistrationDate>
+              <BookTypeName>ПРЕХВЪРЛЯНИЯ</BookTypeName>
+              <ActTypeName>Акт за общинска собственост</ActTypeName>
+              <Volume>1</Volume>
+              <Page>5</Page>
+              <ActYear>2011</ActYear>
+              <ConnectedActs>№ от входящ рег. 478, Дата от входящ рег.05.08.2012, Двойно входящ номер:250, Дата:05.08.2012г., Том:1, Номер:3;</ConnectedActs>
+              <LeftSide>
+                <Side>Ипотекарен длъжник - ЕИК / БУЛСТАТ 1234567890 ДАРИК ИМОТИ БЪЛГАРИЯ
+                </Side>
+                <Side>Ипотекарен длъжник - ЕИК / БУЛСТАТ 1234567890 ДАРИК ИМОТИ БЪЛГАРИЯ
+                </Side>
+                <Side>Ипотекарен длъжник - ЕИК / БУЛСТАТ 1234567890 ДАРИК ИМОТИ БЪЛГАРИЯ
+                </Side>
+              </LeftSide>
+              <RightSide>
+                <Side>Васил Благоев - купувач
+                </Side>
+              </RightSide>
+            </Act>
+          </PropertyActDetail>
+          <PropertyActDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+            <Sequence>11</Sequence>
+            <Act>
+              <IncomingRegistrationNumber>26</IncomingRegistrationNumber>
+              <IncomingRegistrationDate>2011-02-25T00:00:00</IncomingRegistrationDate>
+              <DoubleRegisterNumber>85</DoubleRegisterNumber>
+              <RegistrationDate>2011-02-25T00:00:00</RegistrationDate>
+              <BookTypeName>ВПИСВАНИЯ</BookTypeName>
+              <ActTypeName>Частично заличаване на обща възбрана от адм. орган</ActTypeName>
+              <Volume>1</Volume>
+              <Page>5</Page>
+              <ActYear>2011</ActYear>
+              <Condition>1 </Condition>
+              <ConnectedActs />
+              <LeftSide>
+                <Side>Купувач(Частна собственост)ЕГН 1234567890 Ивайло Стефанов Петров
+                </Side>
+                <Side>ОТЧУЖДИТЕЛ - СЪДИЯ ИЗПЪЛНИТЕЛ
+                </Side>
+                <Side>ПРИЕМАТЕЛ - ЕИК / БУЛСТАТ 1234567890 ДАРИК ИМОТИ БЪЛГАРИЯ АД
+                </Side>
+              </LeftSide>
+              <RightSide>
+                <Side>Купувач(Частна собственост)ЕГН 1234567890 Ивайло Стефанов Петров
+                </Side>
+                <Side>Ипотекарен длъжник - ЕИК / БУЛСТАТ 124023026 ДАРИК ИМОТИ БЪЛГАРИЯ
+                </Side>
+              </RightSide>
+            </Act>
+            <LotPart>Б,В,Д,</LotPart>
+          </PropertyActDetail>
+          <PropertyActDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+            <Sequence>12</Sequence>
+            <Act>
+              <IncomingRegistrationNumber>48</IncomingRegistrationNumber>
+              <IncomingRegistrationDate>2011-08-16T00:00:00</IncomingRegistrationDate>
+              <DoubleRegisterNumber>244</DoubleRegisterNumber>
+              <RegistrationDate>2011-08-16T00:00:00</RegistrationDate>
+              <BookTypeName>ПРЕХВЪРЛЯНИЯ</BookTypeName>
+              <ActTypeName>Покупко-продажба на недвижим имот с н.а.</ActTypeName>
+              <Volume>1</Volume>
+              <Page>5</Page>
+              <ActYear>2011</ActYear>
+              <ConnectedActs>№ от входящ рег. 478, Дата от входящ рег.05.08.2012, Двойно входящ номер:250, Дата:05.08.2012г., Том:1, Номер:3;</ConnectedActs>
+              <LeftSide>
+                <Side>ОТЧУЖДИТЕЛ - СЪДИЯ ИЗПЪЛНИТЕЛ
+                </Side>
+                <Side>ПРИЕМАТЕЛ - ЕИК / БУЛСТАТ 1234567890 ДАРИК ИМОТИ БЪЛГАРИЯ АД\n
+                </Side>
+              </LeftSide>
+              <RightSide>
+                <Side>Ипотекарен длъжник - ЕИК / БУЛСТАТ 1234568790 ДАРИК ИМОТИ БЪЛГАРИЯ
+                </Side>
+              </RightSide>
+            </Act>
+            <LotPart>Б,</LotPart>
+            <ListBookNumber>6</ListBookNumber>
+            <ListBookDate>2011-08-16T00:00:00</ListBookDate>
+          </PropertyActDetail>
+          <PropertyActDetail xmlns="http://egov.bg/RegiX/AV/PropertyReg">
+            <Sequence>6</Sequence>
+            <Act>
+              <IncomingRegistrationNumber>600</IncomingRegistrationNumber>
+              <IncomingRegistrationDate>2010-12-06T00:00:00</IncomingRegistrationDate>
+              <DoubleRegisterNumber>283</DoubleRegisterNumber>
+              <RegistrationDate>2010-12-06T00:00:00</RegistrationDate>
+              <BookTypeName>ДОГОВОРНИ ИПОТЕКИ</BookTypeName>
+              <ActTypeName>Договор за цесия</ActTypeName>
+              <Volume>1</Volume>
+              <Page>5</Page>
+              <ActYear>2010</ActYear>
+              <ConnectedActs>№ от входящ рег. 478, Дата от входящ рег.05.08.2012, Двойно входящ номер:250, Дата:05.08.2012г., Том:1, Номер:3;</ConnectedActs>
+              <LeftSide>
+                <Side>Петър Иванов - продавач
+                </Side>
+              </LeftSide>
+              <RightSide>
+                <Side>Васил Благоев - купувач
+                </Side>
+              </RightSide>
+            </Act>
+            <LotPart>Г,</LotPart>
+          </PropertyActDetail>
+        </PropertyActDetailList>
+        <RegistryAgency>Служба по вписванията - София</RegistryAgency>
+        <SiteID>01</SiteID>
+        <SiteStartDate>2004-07-09</SiteStartDate>
+      </PropertyInfoResponse>

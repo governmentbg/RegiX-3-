@@ -1,0 +1,21 @@
+<RoutesSearch xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://egov.bg/RegiX/MTITC/Rts">
+  <ForwardFirstStopMunicipality>Столична</ForwardFirstStopMunicipality>
+  <BackwardFirstStopMunicipality>Долна Баня</BackwardFirstStopMunicipality>
+  <ForwardTime>00:00:00.0000000+03:00</ForwardTime>
+  <BackwardTime>00:00:00.0000000+03:00</BackwardTime>
+  <Seasonal>
+    <IsSeasonal>false</IsSeasonal>
+  </Seasonal>
+  <Schedule>
+    <IsDaily>false</IsDaily>
+    <Monday>false</Monday>
+    <Tuesday>false</Tuesday>
+    <Wednesday>false</Wednesday>
+    <Thursday>false</Thursday>
+    <Friday>false</Friday>
+    <Saturday>false</Saturday>
+    <Sunday>false</Sunday>
+    <BeforeHoliday>false</BeforeHoliday>
+    <Holiday>false</Holiday>
+  </Schedule>
+</RoutesSearch>

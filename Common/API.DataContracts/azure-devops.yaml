@@ -1,0 +1,53 @@
+variables:
+  Major: '3'
+  Minor: '1'
+  Patch: '2'
+  BuildConfiguration: release
+resources:
+- repo: self
+queue:
+  name: RegiX
+steps:
+- task: VisualStudioTestPlatformInstaller@1
+- task: DotNetCoreCLI@2
+  displayName: 'dotnet build'
+  inputs:
+    arguments: '--configuration $(BuildConfiguration)' 
+- task: VSTest@2
+  inputs:    
+    codeCoverageEnabled: True
+    vsTestVersion: 'toolsInstaller'
+    testAssemblyVer2: |
+     **\$(BuildConfiguration)\*test*.dll
+     **\$(BuildConfiguration)\**\*test*.dll
+     !**\*Microsoft.VisualStudio.TestPlatform*
+     !**\obj\**
+- task: NuGetCommand@2
+  displayName: 'NuGet pack (prerelease)'
+  condition: eq(variables['BuildConfiguration'], 'debug')
+  inputs:
+    command: pack
+    packagesToPack: 'API.DataContracts/API.DataContracts.csproj'
+    versioningScheme: 'byPrereleaseNumber' # Options: off, byPrereleaseNumber, byEnvVar, byBuildNumber
+    majorVersion: '$(Major)'
+    minorVersion: '$(Minor)'
+    patchVersion: '$(Patch)'
+    packDestination: '$(Build.ArtifactStagingDirectory)'
+- task: NuGetCommand@2
+  displayName: 'NuGet pack (release)'
+  condition: eq(variables['BuildConfiguration'], 'release')
+  inputs:
+    command: pack
+    packagesToPack: 'API.DataContracts/API.DataContracts.csproj'
+    majorVersion: '$(Major)'
+    minorVersion: '$(Minor)'
+    patchVersion: '$(Patch)'
+    packDestination: '$(Build.ArtifactStagingDirectory)'
+- task: NuGetCommand@2
+  displayName: 'NuGet push'
+  inputs:
+    command: push
+    publishVstsFeed: 'TechnoLogica.Common'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg' # Required when command == Push
+
+

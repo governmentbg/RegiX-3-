@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/CRC/CRCFindAllRequest" targetNamespace="http://egov.bg/RegiX/CRC/CRCFindAllRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="CRCFindAllRequestType">
+		<xs:annotation>
+			<xs:documentation>Справка за измервания по период</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="DateFrom" type="xs:date">
+				<xs:annotation>
+					<xs:documentation>От дата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DateTo" type="xs:date">
+				<xs:annotation>
+					<xs:documentation>До дата</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="CRCFindAllRequest" type="CRCFindAllRequestType">
+		<xs:annotation>
+			<xs:documentation>Справка за измервания по период</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,49 @@
+<igx-tabs>
+  <igx-tabs-group label="Всички услуги" #all>
+    <app-registers (favouritesChanged)="favouritesChanged($event)">
+    </app-registers>
+  </igx-tabs-group>
+  <igx-tabs-group label="Предпочитани услуги" class="favourites-container" #favourites>
+    <div igxLayout>
+    <igx-card igxFlex>
+      <igx-card-header>
+        <igx-avatar
+          [icon]="this.allRoutes.FAVOURITES.icon"
+          roundShape="true"
+          size="small"
+        >
+        </igx-avatar>
+        <h3 igxCardHeaderTitle>{{this.allRoutes.FAVOURITES.title}}</h3>
+      </igx-card-header>
+      <igx-card-content>
+        <igx-linear-bar *ngIf="this.isDataLoading" [indeterminate]="true"></igx-linear-bar>
+        <div igxLayout igxLayoutDir="col">
+        <tl-reference-list
+          igxFlex
+          *ngIf="(this.favouriteReports && !this.isDataLoading)"
+          displayDensity="comfortable"
+          [listItems]="this.favouriteReports"
+        >
+        </tl-reference-list>
+        <div class="no-favourites-found">
+          <div *ngIf="((!this.favouriteReports || this.favouriteReports.length === 0) && !this.isDataLoading)">
+            <b >Не са намерени предпочитани услуги.</b>
+          </div>
+          Може да добавите услуга като отбележите желаната такава с бутона <igx-icon>star_border</igx-icon> разположен вдясно на техните имена или като отбележите своите предпочитания <a href="/admin/favouriteReports">тук</a>.<br/>
+          Добавени услуги в предпочитани се изобразявт с <igx-icon>star</igx-icon>. Могат да бъдат премахнати от предпочитани с натискане на този бутон.
+        </div>
+
+        </div>
+      </igx-card-content>
+    </igx-card>
+    </div>
+  </igx-tabs-group>
+  <igx-tabs-group label="Извършени услуги" #history>
+    <app-report-executions *ngIf="history.isSelected">
+    </app-report-executions>
+  </igx-tabs-group>
+  <igx-tabs-group label="Чакащи услуги" #asyncRequests>
+    <app-async-reports *ngIf="asyncRequests.isSelected">
+    </app-async-reports>
+  </igx-tabs-group>
+</igx-tabs>

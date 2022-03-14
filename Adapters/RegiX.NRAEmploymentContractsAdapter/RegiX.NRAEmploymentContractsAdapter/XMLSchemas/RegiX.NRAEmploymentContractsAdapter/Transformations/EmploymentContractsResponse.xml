@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmploymentContractsResponse xsi:schemaLocation="http://egov.bg/RegiX/NRA/EmploymentContracts/Response EmploymentContractsResponse.xsd" xmlns="http://egov.bg/RegiX/NRA/EmploymentContracts/Response" xmlns:common="http://egov.bg/RegiX/NRA/EmploymentContracts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Identity>
+		<common:ID>aaaaaa</common:ID>
+		<common:TYPE>Bulstat</common:TYPE>
+	</Identity>
+	<EContracts>
+		<common:EContract>
+			<common:ContractorBulstat>123456789</common:ContractorBulstat>
+			<common:ContractorName>ContractorName</common:ContractorName>
+			<common:IndividualEIK>8812457896</common:IndividualEIK>
+			<common:IndividualNames>Individual Names</common:IndividualNames>
+			<common:StartDate>1967-08-13</common:StartDate>
+			<common:LastAmendDate>1967-08-13</common:LastAmendDate>
+			<common:EndDate>1967-08-13</common:EndDate>
+			<common:Reason>01</common:Reason>
+			<common:TimeLimit>1967-08-13</common:TimeLimit>
+			<common:EcoCode>EcoCode</common:EcoCode>
+			<common:ProfessionCode>ProfessionCode</common:ProfessionCode>
+			
+      <common:ProfessionName>ProfessionName</common:ProfessionName>
+      <common:EKATTECode>EKATTECode</common:EKATTECode>
+		</common:EContract>
+	</EContracts>
+	<Status>
+		<common:Code>0</common:Code>
+		<common:Message>String</common:Message>
+	</Status>
+  <ContractsFilter>All</ContractsFilter>
+  <ReportDate>2001-12-17T09:30:47.0Z</ReportDate>
+</EmploymentContractsResponse>

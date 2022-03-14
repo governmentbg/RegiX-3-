@@ -1,0 +1,25 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.PvDesignAdapter.APIService.IPvDesignAPI.GetREG_DESIGN_Reg_Number</OperationName>
+  <Code>GetREG_DESIGN_Reg_Number</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>GetDesignByRegNum</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/PatentDepartment/Design/RegNumberRequest</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка по номер на дизайн</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>RegNum</ParameterName>
+        <ParameterLabel>Регистрационен номер</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

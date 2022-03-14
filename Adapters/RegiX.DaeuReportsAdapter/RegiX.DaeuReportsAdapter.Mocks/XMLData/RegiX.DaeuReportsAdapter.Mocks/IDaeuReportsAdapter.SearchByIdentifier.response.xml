@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SearchByIdentifierResponse xmlns="http://egov.bg/RegiX/DaeuReports/SearchByIdentifierResponse">
+  <MaxAllowedResults>50</MaxAllowedResults>
+  <TotalResults>3</TotalResults>
+  <ExecutedCalls>
+    <ApiServiceCallID>1</ApiServiceCallID>
+    <StartTime>2018-01-03T01:01:01+02:00</StartTime>
+    <ReportName>ReportName1</ReportName>
+    <LawReason>LawReason1</LawReason>
+    <Consumer>Consumer1</Consumer>
+    <ConsumerAdministration>ConsumerAdministration1</ConsumerAdministration>
+    <Producer>Producer1</Producer>
+    <ProducerAdministration>ProducerAdministration1</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>2</ApiServiceCallID>
+    <StartTime>2018-02-03T01:01:01+02:00</StartTime>
+    <ReportName>ReportName2</ReportName>
+    <LawReason>LawReason2</LawReason>
+    <Consumer>Consumer2</Consumer>
+    <ConsumerAdministration>ConsumerAdministration2</ConsumerAdministration>
+    <Producer>Producer2</Producer>
+    <ProducerAdministration>ProducerAdministration2</ProducerAdministration>
+  </ExecutedCalls>
+  <ExecutedCalls>
+    <ApiServiceCallID>3</ApiServiceCallID>
+    <StartTime>2018-04-03T01:01:01+02:00</StartTime>
+    <ReportName>ReportName3</ReportName>
+    <LawReason>LawReason3</LawReason>
+    <Consumer>Consumer3</Consumer>
+    <ConsumerAdministration>ConsumerAdministration3</ConsumerAdministration>
+    <Producer>Producer3</Producer>
+    <ProducerAdministration>ProducerAdministration3</ProducerAdministration>
+  </ExecutedCalls>
+</SearchByIdentifierResponse>

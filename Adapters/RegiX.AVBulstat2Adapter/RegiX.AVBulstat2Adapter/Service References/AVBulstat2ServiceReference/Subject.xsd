@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:T3="http://www.bulstat.bg/NomenclatureEntry" xmlns:tns="http://www.bulstat.bg/Subject" xmlns:T22="http://www.bulstat.bg/LegalEntity" xmlns:T18="http://www.bulstat.bg/Event" xmlns:E="http://www.bulstat.bg/Entry" xmlns:T25="http://www.bulstat.bg/UIC" xmlns:T8="http://www.bulstat.bg/Address" xmlns:T23="http://www.bulstat.bg/NaturalPerson" xmlns:T28="http://www.bulstat.bg/Communication" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.bulstat.bg/Subject" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="Entry.xsd" namespace="http://www.bulstat.bg/Entry" />
+  <xs:import schemaLocation="LegalEntity.xsd" namespace="http://www.bulstat.bg/LegalEntity" />
+  <xs:import schemaLocation="NaturalPerson.xsd" namespace="http://www.bulstat.bg/NaturalPerson" />
+  <xs:import schemaLocation="NomenclatureEntry.xsd" namespace="http://www.bulstat.bg/NomenclatureEntry" />
+  <xs:import schemaLocation="Event.xsd" namespace="http://www.bulstat.bg/Event" />
+  <xs:import schemaLocation="UIC.xsd" namespace="http://www.bulstat.bg/UIC" />
+  <xs:import schemaLocation="Communication.xsd" namespace="http://www.bulstat.bg/Communication" />
+  <xs:import schemaLocation="Address.xsd" namespace="http://www.bulstat.bg/Address" />
+  <xs:complexType name="Subject">
+    <xs:annotation>
+      <xs:documentation>Субект</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="E:Entry">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="UIC" type="T25:UIC">
+            <xs:annotation>
+              <xs:documentation>Код по БУЛСТАТ
+							</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="1" maxOccurs="1" name="SubjectType" type="T3:NomenclatureEntry">
+            <xs:annotation>
+              <xs:documentation>Вид на субект (НФЛ, ФЗЛ, Държава, Неизвестен)
+							</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="0" maxOccurs="1" name="LegalEntitySubject" type="T22:LegalEntity">
+            <xs:annotation>
+              <xs:documentation>Нефизическо лице
+							</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="0" maxOccurs="1" name="NaturalPersonSubject" type="T23:NaturalPerson">
+            <xs:annotation>
+              <xs:documentation>Физическо лице
+							</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="0" maxOccurs="1" name="CountrySubject" type="T3:NomenclatureEntry">
+            <xs:annotation>
+              <xs:documentation>Държава
+							</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Communications" type="T28:Communication">
+            <xs:annotation>
+              <xs:documentation>Комуникации</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Addresses" type="T8:Address">
+            <xs:annotation>
+              <xs:documentation>Адреси</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="0" maxOccurs="1" name="Remark">
+            <xs:annotation>
+              <xs:documentation>Забележки
+							</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:maxLength value="255" />
+                <xs:minLength value="1" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>

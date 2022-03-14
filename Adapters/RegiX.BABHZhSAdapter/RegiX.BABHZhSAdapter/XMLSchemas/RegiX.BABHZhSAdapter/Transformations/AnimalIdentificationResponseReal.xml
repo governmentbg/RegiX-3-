@@ -1,0 +1,52 @@
+<AnimalIdentificationResponse xmlns="http://egov.bg/RegiX/BABH/BABHZhS/AnimalIdentificationResponse">
+        <AnimalIdentification>
+          <IdentificationDataList>
+            <Type>ушна марка за ДПЖ</Type>
+            <Number>BG09D0036689</Number>
+            <Status>изгубен</Status>
+            <Foreign>Не</Foreign>
+          </IdentificationDataList>
+          <IdentificationDataList>
+            <Type>ушна марка за ДПЖ</Type>
+            <Number>BGD301405314</Number>
+            <Status>изгубен</Status>
+            <Foreign>Не</Foreign>
+          </IdentificationDataList>
+          <IdentificationDataList>
+            <Type>електронна ушна марка</Type>
+            <Number>100001000231141</Number>
+            <Status>излязъл от употреба</Status>
+            <Foreign>Не</Foreign>
+          </IdentificationDataList>
+          <IdentificationDataList>
+            <Type>електронна ушна марка</Type>
+            <Number>100037000162809</Number>
+            <Status>в употреба</Status>
+            <Foreign>Не</Foreign>
+          </IdentificationDataList>
+          <AnimalProfile>
+            <Type>овца</Type>
+            <Nationality>България</Nationality>
+            <Breed>Среднородопска</Breed>
+            <Sex>Женско</Sex>
+            <Color>Бял</Color>
+            <BirthDate>2005-02-02T00:00:00</BirthDate>
+          </AnimalProfile>
+          <AnimalPassport>
+            <IssueDate>2014-02-20T00:00:00</IssueDate>
+          </AnimalPassport>
+          <AnimalStatus />
+          <AnimalResidence>
+            <OEZNumber>"Б.К.С.Р. СИНАПОВИ" ЕООД</OEZNumber>
+            <District>Кърджали</District>
+            <Municipality>Момчилград</Municipality>
+            <Settlement>Балабаново</Settlement>
+            <DateFrom>2007-03-30T00:00:00</DateFrom>
+          </AnimalResidence>
+          <AnimalOwner>
+            <OwnerNames>" Б.К.С.Р. СИНАПОВИ " ЕООД</OwnerNames>
+            <OwnerIdentifier>200826117</OwnerIdentifier>
+            <OwnerDate>2013-05-02T00:00:00</OwnerDate>
+          </AnimalOwner>
+        </AnimalIdentification>
+      </AnimalIdentificationResponse>

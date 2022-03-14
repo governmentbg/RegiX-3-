@@ -1,0 +1,120 @@
+<tl-wrapping-card
+  [title]="routes.CONSUMER_ACCESS_REQUESTS.title"
+  [icon]="routes.CONSUMER_ACCESS_REQUESTS.icon"
+  [subTitle]="subtitle"
+  [actions]="[
+  {
+    reference: this.routes.AUDIT,
+    args: { ':TABLE_NAME': this.CONSUMER_ACCESS_REQUESTS }
+  },
+  { reference: excelExportAll }
+]"
+>
+  <tl-linear-progress
+    [visible]="this.remoteService.isLoading"
+  ></tl-linear-progress>
+  <igx-grid
+    #grid
+    [data]="items$ | async"
+    [paging]="true"
+    [height]="null"
+    width="100%"
+    [clipboardOptions]="{ copyHeaders: false}"
+    [displayDensity]="'cosy'"
+    (onSortingDone)="sortingDone($event)"
+    (onFilteringDone)="filteringDone($event)"
+    (onSelection)="cellSelection($event)"
+    [paginationTemplate]="pager"
+    [allowFiltering]="true"
+    [primaryKey]="'id'"
+  >
+    <igx-column
+      field="adapterOperation"
+      header="Операция"
+      [sortable]="true"
+      [filterable]="true"
+      [dataType]="'string'"
+      [formatter]="displayValueService.formatDisplayValue"
+      [filters]="displayValueFilteringOperand"
+    >
+    </igx-column>
+
+    <igx-column
+      field="status"
+      header="Статус"
+      [sortable]="true"
+      [filterable]="false"
+      [dataType]="'string'"
+    >
+      <ng-template igxCell let-cell="cell">
+        <span title="Статус" class="text-ellipsis">{{
+          Status[+cell.value]
+        }}</span>
+      </ng-template>
+    </igx-column>
+
+    <igx-column
+      field="consumerSystemCertificate"
+      header="Сертификат"
+      [sortable]="true"
+      [filterable]="false"
+      [dataType]="'string'"
+      [formatter]="displayValueService.formatDisplayValue"
+      [filters]="displayValueFilteringOperand"
+    >
+    </igx-column>
+
+    <igx-column
+      field="consumerRequest"
+      header="Заявка"
+      [sortable]="true"
+      [filterable]="false"
+      [dataType]="'string'"
+      [formatter]="displayValueService.formatDisplayValue"
+      [filters]="displayValueFilteringOperand"
+    >
+    </igx-column>
+
+    <igx-column
+      header="Действия"
+      [sortable]="false"
+      width="15%"
+      [filterable]="false"
+    >
+      <ng-template igxCell let-cell="cell">
+        <div
+          igxLayout
+          igxLayoutDir="row"
+          igxLayoutJustify="center"
+          class="action-buttons-wrapper"
+        >
+          <tl-reference-button
+            [routeReference]="this.routes.CONSUMER_ACCESS_REQUESTS_SHOW"
+            [routeArguments]="{ ':ID': cell.rowData.id }"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+          <tl-reference-button
+            [routeReference]="this.routes.CONSUMER_ACCESS_REQUESTS_EDIT"
+            [routeArguments]="{ ':ID': cell.rowData.id }"
+            [isDisabled]="!(((cell.rowData.status != 2 && cell.rowData.status != 4)
+            &&  ((cell.rowData.status == 3 && currentUserRole == 'ADMIN') ? false : true)))"
+            buttonType="action-button"
+          >
+          </tl-reference-button>
+        </div>
+      </ng-template>
+    </igx-column>
+
+    <ng-template #pager let-grid>
+      <div class="tl-paginator">
+        <tl-grid-pager
+          [page]="remoteService.pagerParams.page"
+          [perPage]="remoteService.pagerParams.perPage"
+          [totalCount]="remoteService.pagerParams.totalCount"
+          (pagerChange)="pagerChange($event)"
+        ></tl-grid-pager>
+      </div>
+    </ng-template>
+  </igx-grid>
+</tl-wrapping-card>

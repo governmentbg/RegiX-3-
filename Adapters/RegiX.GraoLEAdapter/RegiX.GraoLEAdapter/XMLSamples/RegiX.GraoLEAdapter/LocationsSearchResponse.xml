@@ -1,0 +1,8 @@
+<LocationsResponse xmlns="http://egov.bg/RegiX/GRAO/LE/LocationsResponse">
+  <Locations>
+    <SettlementPlaceCode xmlns="http://egov.bg/RegiX/GRAO/LE">BG999</SettlementPlaceCode>
+    <SettlementPlaceName xmlns="http://egov.bg/RegiX/GRAO/LE">Шумен</SettlementPlaceName>
+    <LocationCode xmlns="http://egov.bg/RegiX/GRAO/LE">23523</LocationCode>
+    <LocationName xmlns="http://egov.bg/RegiX/GRAO/LE">УЛ.ФАР</LocationName>
+  </Locations>
+</LocationsResponse>

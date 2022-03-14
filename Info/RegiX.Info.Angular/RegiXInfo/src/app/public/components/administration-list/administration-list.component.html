@@ -1,0 +1,21 @@
+<div class="table-title-wrapper">
+  <igx-linear-bar
+    *ngIf="isDataLoading && !isDataLoaded"
+    [indeterminate]="true"
+  ></igx-linear-bar>
+  <div
+    class="page-wrapper"
+    igxLayout
+    igxLayoutDir="column"
+    *ngIf="isDataLoaded && !isDataLoading"
+  >
+    <tl-card
+      [routeReference]="routes.ADMINISTRATIONS"
+      [title]="'Първични администратори на данни'"
+      [subTitle]="'Администрации'"
+      [listItems]="administrations"
+      [displayDensity]="'comfortable'"
+    >
+    </tl-card>
+  </div>
+</div>

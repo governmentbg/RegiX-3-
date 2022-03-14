@@ -1,0 +1,30 @@
+<GetSocialSecurityDataFromDeclarationsResponse>
+	<SocialSecurityDataFromDeclarations>
+		<SocialSecurityDataFromDeclaration>
+			<DeclarationType>String</DeclarationType>
+			<PersonIdentifier>String</PersonIdentifier>
+			<PersonLastNameAndInitials>String</PersonLastNameAndInitials>
+			<InsurerIdentifier>String</InsurerIdentifier>
+			<InsurerName>String</InsurerName>
+			<InsurerAdress>String</InsurerAdress>
+			<Month>String</Month>
+			<Year>String</Year>
+			<PersonType>String</PersonType>
+			<TotalInsuredDays>String</TotalInsuredDays>
+			<DaysWorked>String</DaysWorked>
+			<LawEstablishedWorkHours>String</LawEstablishedWorkHours>
+			<DailyAgreedWorkHours>String</DailyAgreedWorkHours>
+			<SocialSecurityIncome>String</SocialSecurityIncome>
+			<GVRSFundFlag>String</GVRSFundFlag>
+			<CorrectionCode>String</CorrectionCode>
+			<SubmissionDate>2001-12-17T09:30:47.0Z</SubmissionDate>
+			<RequestPersonIdentifier>String</RequestPersonIdentifier>
+			<RequestPersonIdentifierType>NOT_SPECIFIED</RequestPersonIdentifierType>
+			<RequestInsurerIdentificator>aaaaaaaaaaaaa</RequestInsurerIdentificator>
+			<RequestMonthFrom>0</RequestMonthFrom>
+			<RequestYearFrom>0</RequestYearFrom>
+			<RequestMonthTo>0</RequestMonthTo>
+			<RequestYearTo>0</RequestYearTo>
+		</SocialSecurityDataFromDeclaration>
+	</SocialSecurityDataFromDeclarations>
+</GetSocialSecurityDataFromDeclarationsResponse>

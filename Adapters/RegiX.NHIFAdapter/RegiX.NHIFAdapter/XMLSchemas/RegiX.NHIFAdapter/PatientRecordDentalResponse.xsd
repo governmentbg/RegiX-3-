@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/NHIF/Response" xmlns:common="http://egov.bg/RegiX/NHIF/NHIFCommon" targetNamespace="http://egov.bg/RegiX/NHIF/Response" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/NHIF/NHIFCommon" schemaLocation="NHIFCommon.xsd"/>
+	<xs:element name="PatientRecordDentalResponse">
+		<xs:annotation>
+			<xs:documentation>Справка за извършената стоматологична дейност на пациент</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PatientRecordDentals" type="PatientRecordDentalsType" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="DentalActivityType">
+		<xs:sequence>
+			<xs:element name="ActivityDate" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на дейността</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DentalActivityCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на дейността</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DentalActivityName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на дейността</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PatientRecordDentalType">
+		<xs:sequence>
+			<xs:element name="PatientIdentificator" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификарор на пациент</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BranchName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>РЗОК име</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MSP" type="common:MSPTypeDent" minOccurs="0"/>
+			<xs:element name="Practitioner" type="common:DentPractitionerType" minOccurs="0"/>
+			<xs:element name="DeputyPractitioner" type="common:DentDeputyPractitionerType" minOccurs="0"/>
+			<xs:element name="AmbulatoryListNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>АЛ.No, Номер на амбулаторен лист </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DentalActivity" type="DentalActivityType" minOccurs="0"/>
+			<xs:element name="ToothCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на зъб</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Price" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Реимбурсна стойност, платена от НЗОК</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PatientRecordDentalsType">
+		<xs:sequence>
+			<xs:element name="PatientRecordDental" type="PatientRecordDentalType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

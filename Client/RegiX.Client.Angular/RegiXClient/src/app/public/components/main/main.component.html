@@ -1,0 +1,53 @@
+<rgx-divided
+  [leftContent]="login"
+  [rightContent]="logo"
+  [applicationName]="applicationName"
+>
+  <ng-template #login>
+    <div
+      class="inner-wrapper"
+      igxLayout
+      igxLayoutDir="column"
+      igxLayoutItemAlign="center"
+    >
+      <!-- <img class="regix-logo" src="assets/RegiXLogo.png" alt="RegiX Logo"> -->
+      <div class="buttons-wrapper" igxLayout igxLayoutDir="row">
+        <button
+          igxFlex
+          type="button"
+          class="login-button"
+          igxButton="raised"
+          (click)="onLogin($event)"
+          title="Вход"
+        >
+          <igx-icon>login</igx-icon>&nbsp;Вход
+        </button>
+      </div>
+      <div
+        class="buttons-wrapper"
+        igxLayout
+        igxLayoutDir="row"
+        *ngIf="!registrationHidden"
+      >
+        <button
+          igxFlex
+          type="button"
+          class="login-button"
+          igxButton="raised"
+          (click)="onRegister()"
+          title="Вход"
+        >
+          <igx-icon>person</igx-icon>&nbsp;Регистрация
+        </button>
+      </div>
+    </div>
+  </ng-template>
+  <ng-template #logo>
+    <img
+      class="login-right"
+      src="assets/RegiXClient.png"
+      alt="RegiX"
+    />
+  </ng-template>
+</rgx-divided>
+<rgx-version [version]="version"></rgx-version>

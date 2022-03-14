@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://www.bulstat.bg/WSException" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.bulstat.bg/WSException" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="WSException" type="tns:WSException" />
+  <xs:complexType name="WSException">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="applicationMessage" type="xs:string" />
+      <xs:element minOccurs="0" name="errorCode" type="tns:errCode" />
+      <xs:element minOccurs="0" name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="errCode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="EXT_WS_ERROR" />
+      <xs:enumeration value="INVALID_INPUT" />
+      <xs:enumeration value="RESOURCE_NOT_FOUND" />
+      <xs:enumeration value="SYSTEM_ERROR" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

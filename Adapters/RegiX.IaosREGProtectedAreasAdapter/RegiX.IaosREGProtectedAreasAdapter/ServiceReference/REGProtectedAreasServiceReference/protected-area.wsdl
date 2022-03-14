@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://egov.bg/RegiX/IAOS/REGPapz" targetNamespace="http://egov.bg/RegiX/IAOS/REGPapz" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="https://source.gravis.bg:443/egov/services/protected-area?xsd=1" namespace="http://egov.bg/RegiX/IAOS/REGPapz" />
+    </xsd:schema>
+  </types>
+  <message name="getProtectedAreaLocation">
+    <part name="parameters" element="tns:REG_PAPZ_Protected_Area_Location_Request" />
+  </message>
+  <message name="getProtectedAreaLocationResponse">
+    <part name="parameters" element="tns:getProtectedAreaLocationResponse" />
+  </message>
+  <message name="WebServiceException">
+    <part name="fault" element="tns:WebServiceException" />
+  </message>
+  <message name="getProtectedAreaCategory">
+    <part name="parameters" element="tns:REG_PAPZ_Protected_Area_Category_Request" />
+  </message>
+  <message name="getProtectedAreaCategoryResponse">
+    <part name="parameters" element="tns:getProtectedAreaCategoryResponse" />
+  </message>
+  <message name="getProtectedAreaSize">
+    <part name="parameters" element="tns:REG_PAPZ_Protected_Area_Size_Request" />
+  </message>
+  <message name="getProtectedAreaSizeResponse">
+    <part name="parameters" element="tns:getProtectedAreaSizeResponse" />
+  </message>
+  <portType name="REGPapzService">
+    <operation name="getProtectedAreaLocation">
+      <input xmlns:ns1="http://www.w3.org/2007/05/addressing/metadata" ns1:Action="http://egov.bg/RegiX/IAOS/REGPapz/REGPapzService/getProtectedAreaLocationRequest" message="tns:getProtectedAreaLocation" />
+      <output xmlns:ns2="http://www.w3.org/2007/05/addressing/metadata" ns2:Action="http://egov.bg/RegiX/IAOS/REGPapz/REGPapzService/getProtectedAreaLocationResponse" message="tns:getProtectedAreaLocationResponse" />
+      <fault xmlns:ns3="http://www.w3.org/2007/05/addressing/metadata" ns3:Action="http://egov.bg/RegiX/IAOS/REGPapz/REGPapzService/getProtectedAreaLocation/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+    <operation name="getProtectedAreaCategory">
+      <input xmlns:ns4="http://www.w3.org/2007/05/addressing/metadata" ns4:Action="http://egov.bg/RegiX/IAOS/REGPapz/REGPapzService/getProtectedAreaCategoryRequest" message="tns:getProtectedAreaCategory" />
+      <output xmlns:ns5="http://www.w3.org/2007/05/addressing/metadata" ns5:Action="http://egov.bg/RegiX/IAOS/REGPapz/REGPapzService/getProtectedAreaCategoryResponse" message="tns:getProtectedAreaCategoryResponse" />
+      <fault xmlns:ns6="http://www.w3.org/2007/05/addressing/metadata" ns6:Action="http://egov.bg/RegiX/IAOS/REGPapz/REGPapzService/getProtectedAreaCategory/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+    <operation name="getProtectedAreaSize">
+      <input xmlns:ns7="http://www.w3.org/2007/05/addressing/metadata" ns7:Action="http://egov.bg/RegiX/IAOS/REGPapz/REGPapzService/getProtectedAreaSizeRequest" message="tns:getProtectedAreaSize" />
+      <output xmlns:ns8="http://www.w3.org/2007/05/addressing/metadata" ns8:Action="http://egov.bg/RegiX/IAOS/REGPapz/REGPapzService/getProtectedAreaSizeResponse" message="tns:getProtectedAreaSizeResponse" />
+      <fault xmlns:ns9="http://www.w3.org/2007/05/addressing/metadata" ns9:Action="http://egov.bg/RegiX/IAOS/REGPapz/REGPapzService/getProtectedAreaSize/Fault/WebServiceException" name="WebServiceException" message="tns:WebServiceException" />
+    </operation>
+  </portType>
+</definitions>

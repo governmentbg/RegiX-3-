@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="93b145c7-7e82-4547-a9bb-6cc2588b12e3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://croz-dev-xp:8080/CROZV2/CROZService?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CROZWebService.wsdl" MetadataType="Wsdl" ID="ab637a5e-1af9-4b64-a552-d1b277e7fd1b" SourceId="1" SourceUrl="http://croz-dev-xp:8080/CROZV2/CROZService?wsdl" />
+    <MetadataFile FileName="CROZService.xsd" MetadataType="Schema" ID="50cc6200-b9d2-4bff-b575-b44f1239a510" SourceId="1" SourceUrl="http://croz-dev-xp:8080/CROZV2/CROZService?xsd=1" />
+    <MetadataFile FileName="CROZService1.xsd" MetadataType="Schema" ID="f93f2132-c8f6-4385-9174-0e0ce074f90e" SourceId="1" SourceUrl="http://croz-dev-xp:8080/CROZV2/CROZService?xsd=2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

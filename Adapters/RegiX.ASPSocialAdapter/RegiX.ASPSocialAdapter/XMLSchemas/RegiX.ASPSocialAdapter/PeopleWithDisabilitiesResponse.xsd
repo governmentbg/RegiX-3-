@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:element name="PeopleWithDisabilitiesResponse" type="PeopleWithDisabilitiesResponseType"/>
+  
+  <xs:complexType name="PeopleWithDisabilitiesResponseType">
+    <xs:annotation>
+      <xs:documentation>Изпращане на данни от ИИС АСП, в отговор на запитване от АХУ</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="Header" type="HeaderType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Заглавна част на отговора</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Data" type="DataType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Детайли на отговора</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+	<xs:complexType name="HeaderType">
+		<xs:sequence>
+			<xs:element name="RequestNumber" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на запитването в АСП</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:totalDigits value="10"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Size" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Общ брой редове в отговора</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:totalDigits value="4"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="PaymentMonth" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Месец, в който сумата е включена във ведомост (1-во число на месеца)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PersonName" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Име на лицето с увреждания</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="240"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ISType">
+		<xs:annotation>
+			<xs:documentation>Интеграционни добавки</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Row" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на ред</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:totalDigits value="4"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="GroundName" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид на отпусната интеграционна добавка</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="150"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Amount" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Размер на отпуснатата сума за месеца в поле 3 на заглавната част (може да е празно, ако няма за месеца!)</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:decimal">
+						<xs:totalDigits value="10"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="OtherType">
+		<xs:sequence>
+			<xs:element name="Row" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на ред</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:totalDigits value="4"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="GroundName" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид на отпуснатата помощ</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="150"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Amount" nillable="false" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Размер на отпуснатата сума за месеца в поле 3 на заглавната част</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:decimal">
+						<xs:totalDigits value="10"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="АuxType">
+		<xs:sequence>
+			<xs:element name="Row" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на ред</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:totalDigits value="4"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="PSName" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид на ПСПСМИ</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="200"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="EndDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Експлоатационен срок изтича на</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="VignetteType">
+		<xs:sequence>
+			<xs:element name="EndDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Срок на предоставен винетен стикер</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="BDZType">
+		<xs:annotation>
+			<xs:documentation>Удостоверение за пътуване с БДЖ</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="EndDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Срок на издадено удостоверение за пътуване с БДЖ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SocialServicesType">
+		<xs:sequence>
+			<xs:element name="Row" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на ред</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:totalDigits value="4"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид на социалната услуга</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="250"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="OrderNo" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>№ на заповед</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="30"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="OrderDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на заповед</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ErrorType">
+		<xs:sequence>
+			<xs:element name="ErrorCode" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Код на грешката</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="3"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ErrorText" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид на социалната услуга</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="250"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DataType">
+		<xs:sequence>
+			<xs:element name="IS" type="ISType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+          <xs:documentation>Интеграционни добавки</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Other" type="OtherType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Други плащания</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Aux" type="АuxType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>ПСПСМИ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Vignette" type="VignetteType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Винетни стикери</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BDZ" type="BDZType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Удостоверение за пътуване с БДЖ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SS" type="SocialServicesType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Социални услуги</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Error" type="ErrorType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Грешки</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

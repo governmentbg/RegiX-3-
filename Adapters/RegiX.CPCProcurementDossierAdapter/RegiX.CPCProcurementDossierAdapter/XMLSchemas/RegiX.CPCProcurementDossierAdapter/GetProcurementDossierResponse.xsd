@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetProcurementDossierResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ResultMessage" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>Информационно съобщение</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="ResultStatus">
+					<xs:annotation>
+						<xs:documentation>Статус на резултата</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="OK"/>
+							<xs:enumeration value="INVALID_INPUT"/>
+							<xs:enumeration value="NO_DATA_FOUND"/>
+							<xs:enumeration value="ERROR"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="ProcurementDossiers" type="ProcurementDossiersType"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="ProcurementDossierType">
+		<xs:sequence>
+			<xs:element name="ProcurementNumber" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Уникален номер на поръчка в РОП
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ProceedingsNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Номер на производство</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ProceedingsStartDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на образуване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ProceedingsCloseDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на приключване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="LegalBase" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Правно основание</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ProceedingsType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Вид производство</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ProceedingsSubsections" type="ProceedingsSubsectionsType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предмети/подпредмети</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Initiators" type="InitiatorsType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Инициатор(и)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Defendants" type="DefendantsType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Ответник(ници)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="UnitedProceedings" type="UnitedProceedingsType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Обединена с производство</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="InterimMeasures" type="xs:boolean" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Искане за временни мерки</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ImposedInterimMeasures" type="ImposedInterimMeasuresType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Има ли наложени временни мерки</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CurrentStatus" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Текущ статус</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DossierPublishDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на публикуване</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="LastDecisionPublishDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Дата на публикуване на последното решение
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ImposedPenalties" type="ImposedPenaltiesType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наложени санкции</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DossierLink" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Връзка към портала на КЗК</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegisterID" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Входящ номер на жалба</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProcurementDossiersType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="ProcurementDossier" type="ProcurementDossierType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProceedingsSubsectionsType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="ProceedingSubsection" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Предмет/подпредмет</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DefendantsType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="Defendant" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Ответник</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="InitiatorsType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="Initiator" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Инициатор</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="UnitedProceedingsType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="UnitedProceeding" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ImposedInterimMeasuresType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="ImposedInterimMeasure" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наложена временна мярка</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ImposedPenaltiesType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="ImposedPenalty" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наложена санкция</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

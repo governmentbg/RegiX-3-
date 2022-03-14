@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>First release</releaseNotes>
+    <dependencies>
+      <dependency id="RegiX.Adapters.Common" version="1.0.70" />
+      <dependency id="System.Threading.Tasks.Dataflow" version="5.0.0" />
+    </dependencies>
+  </metadata>
+</package>

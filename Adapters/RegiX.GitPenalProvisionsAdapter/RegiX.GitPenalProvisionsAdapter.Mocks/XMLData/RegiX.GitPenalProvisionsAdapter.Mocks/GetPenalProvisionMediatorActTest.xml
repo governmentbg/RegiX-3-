@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<PenalProvisionMediatorActResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/GIT/RNP/PenalProvisionMediatorActResponse">
+  <PenalProvisions>
+    <PenalProvisionNumber xmlns="http://egov.bg/RegiX/GIT/RNP">451</PenalProvisionNumber>
+    <Intruder xmlns="http://egov.bg/RegiX/GIT/RNP">
+      <Name>Ivan Ivanov Georgiev</Name>
+      <Identifier>9002045860</Identifier>
+    </Intruder>
+    <IssueDate xmlns="http://egov.bg/RegiX/GIT/RNP">2015-05-05</IssueDate>
+    <SanctionType xmlns="http://egov.bg/RegiX/GIT/RNP">Cash</SanctionType>
+    <DocumentIssuer xmlns="http://egov.bg/RegiX/GIT/RNP">Ne</DocumentIssuer>
+    <SanctionSizeChanged xmlns="http://egov.bg/RegiX/GIT/RNP">Ne</SanctionSizeChanged>
+    <SanctionSize xmlns="http://egov.bg/RegiX/GIT/RNP">1000</SanctionSize>
+    <SanctionSizeText xmlns="http://egov.bg/RegiX/GIT/RNP">hilqda leva</SanctionSizeText>
+    <ViolationPart xmlns="http://egov.bg/RegiX/GIT/RNP">Piyanstvo</ViolationPart>
+    <ViolationChapter xmlns="http://egov.bg/RegiX/GIT/RNP">narushitel</ViolationChapter>
+    <ViolationSection xmlns="http://egov.bg/RegiX/GIT/RNP">katastrofa</ViolationSection>
+    <ViolationText xmlns="http://egov.bg/RegiX/GIT/RNP">predpostavka za katastrofa</ViolationText>
+    <PenalProvisionEnforcementDate xmlns="http://egov.bg/RegiX/GIT/RNP">2015-09-09</PenalProvisionEnforcementDate>
+  </PenalProvisions>
+  <PenalProvisions>
+    <PenalProvisionNumber xmlns="http://egov.bg/RegiX/GIT/RNP">234</PenalProvisionNumber>
+    <Intruder xmlns="http://egov.bg/RegiX/GIT/RNP">
+      <Name>Georgi Ivanov Petrov</Name>
+      <Identifier>9002045860</Identifier>
+    </Intruder>
+    <IssueDate xmlns="http://egov.bg/RegiX/GIT/RNP">2015-06-06</IssueDate>
+    <SanctionType xmlns="http://egov.bg/RegiX/GIT/RNP">Cash</SanctionType>
+    <DocumentIssuer xmlns="http://egov.bg/RegiX/GIT/RNP">Da</DocumentIssuer>
+    <SanctionSizeChanged xmlns="http://egov.bg/RegiX/GIT/RNP">Ne</SanctionSizeChanged>
+    <SanctionSize xmlns="http://egov.bg/RegiX/GIT/RNP">1000</SanctionSize>
+    <SanctionSizeText xmlns="http://egov.bg/RegiX/GIT/RNP">hilqda leva</SanctionSizeText>
+    <ViolationPart xmlns="http://egov.bg/RegiX/GIT/RNP">Piyanstvo</ViolationPart>
+    <ViolationChapter xmlns="http://egov.bg/RegiX/GIT/RNP">narushitel</ViolationChapter>
+    <ViolationSection xmlns="http://egov.bg/RegiX/GIT/RNP">obidi</ViolationSection>
+    <ViolationText xmlns="http://egov.bg/RegiX/GIT/RNP">zakana</ViolationText>
+    <PenalProvisionEnforcementDate xmlns="http://egov.bg/RegiX/GIT/RNP">2015-12-12</PenalProvisionEnforcementDate>
+  </PenalProvisions>
+</PenalProvisionMediatorActResponse>

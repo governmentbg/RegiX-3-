@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TechnoLogica.RegiX.NRAPublicDebtsCollectionAdapter.Mocks</RootNamespace>
+    <Authors>Miroslav Marinov</Authors>
+    <Company>TechnoLogica</Company>
+    <Description>Mocks for NRAPublicDebtsCollectionAdapter</Description>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(Major)$(Minor)$(Patch)' != '' ">$(Major).$(Minor).$(Patch).0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="XMLData\*\*.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RegiX.Adapters.Mocks" Version="1.0.43" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.NRAPublicDebtsCollectionAdapter\RegiX.NRAPublicDebtsCollectionAdapter.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="XMLData\RegiX.NRAPublicDebtsCollectionAdapter.Mocks\RQ09_GetActualStateForIOOrCollection.response.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="XMLData\RegiX.NRAPublicDebtsCollectionAdapter.Mocks\RQ05_SendDataForCollectedAmountUpdate.response.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="XMLData\RegiX.NRAPublicDebtsCollectionAdapter.Mocks\RQ02_SendDataForCollectionAdditionToIO.response.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="XMLData\RegiX.NRAPublicDebtsCollectionAdapter.Mocks\RQ04_SendDataForCollectionAppealToIO.response.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="XMLData\RegiX.NRAPublicDebtsCollectionAdapter.Mocks\RQ03_SendDataForCollectionDataCorrection.response.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="XMLData\RegiX.NRAPublicDebtsCollectionAdapter.Mocks\RQ06_SendDataForCollectionProceedings.response.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="XMLData\RegiX.NRAPublicDebtsCollectionAdapter.Mocks\RQ01_SendDataForNewIOAndCollection.response.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+
+</Project>

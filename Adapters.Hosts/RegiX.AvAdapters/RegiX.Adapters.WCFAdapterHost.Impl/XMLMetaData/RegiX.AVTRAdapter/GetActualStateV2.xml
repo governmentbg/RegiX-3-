@@ -1,0 +1,39 @@
+<AdapterOperation xmlns="http://egov.bg/RegiX/RegiXClientMetadata">
+  <OperationName>TechnoLogica.RegiX.AVTRAdapter.APIService.ITRAPI.GetActualStateV2</OperationName>
+  <Code>GetActualStateV2</Code>
+  <ControllerName>APIS</ControllerName>
+  <RequestObjectName>ActualStateRequestV2</RequestObjectName>
+  <Namespace>http://egov.bg/RegiX/AV/TR/ActualStateRequestV2</Namespace>
+  <IsActive>true</IsActive>
+  <DisplayOperationName>Справка за актуално състояние за всички вписани обстоятелства</DisplayOperationName>
+  <Parameters>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>UIC</ParameterName>
+        <ParameterLabel>ЕИК</ParameterLabel>
+        <IsRequired>true</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>0</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+    <Parameter>
+      <ParameterInfo>
+        <ParameterName>FieldList</ParameterName>
+        <ParameterLabel>Списък с полета(с разделител "," напр: 001, 00020)</ParameterLabel>
+        <IsRequired>false</IsRequired>
+        <IsXmlElement>true</IsXmlElement>
+        <OrderNumber>1</OrderNumber>
+        <ParameterType>
+          <Type>string</Type>
+          <EnumValues />
+        </ParameterType>
+      </ParameterInfo>
+      <ChildParamteters />
+    </Parameter>
+  </Parameters>
+</AdapterOperation>

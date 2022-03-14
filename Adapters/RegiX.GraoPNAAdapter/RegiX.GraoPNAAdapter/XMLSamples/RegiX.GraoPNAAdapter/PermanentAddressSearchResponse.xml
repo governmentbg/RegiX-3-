@@ -1,0 +1,16 @@
+<PermanentAddressResponse xmlns="http://egov.bg/RegiX/GRAO/PNA/PermanentAddressResponse">
+  <DistrictCode>SF</DistrictCode>
+  <DistrictName>София град</DistrictName>
+  <MunicipalityCode>SF</MunicipalityCode>
+  <MunicipalityName>София град</MunicipalityName>
+  <SettlementCode>BG001</SettlementCode>
+  <SettlementName>София</SettlementName>
+  <CityAreaCode>SL</CityAreaCode>
+  <CityArea>Слатина</CityArea>
+  <LocationCode />
+  <BuildingNumber>33</BuildingNumber>
+  <Entrance>A</Entrance>
+  <Floor>4</Floor>
+  <Apartment>23</Apartment>
+  <FromDate>2005-03-12</FromDate>
+</PermanentAddressResponse>

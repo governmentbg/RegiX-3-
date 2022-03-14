@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://egov.bg/RegiX/MVR/Common" xmlns="http://egov.bg/RegiX/MVR/ObligationDocumentsByEGN/GetObligationDocumentsByEGNResponse" targetNamespace="http://egov.bg/RegiX/MVR/ObligationDocumentsByEGN/GetObligationDocumentsByEGNResponse" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://egov.bg/RegiX/MVR/Common" schemaLocation="MVRANDCommon.xsd"/>
+	<xs:element name="GetObligationDocumentsByEGNResponse" type="GetObligationDocumentsByEGNResponseType">
+		<xs:annotation>
+			<xs:documentation>Oтговор на справката Проверка за налични неплатени документи в АИС АНД на дадено лице</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="GetObligationDocumentsByEGNResponseType">
+		<xs:sequence>
+			<xs:element name="Status" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>•SUCCESS(0) -Успешно отразено плащане
+•FAIL(1) - 	Неуспешно отразено плащане
+•INVALID_DATA(2) -Невалидни данни
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CustomerType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Тип на задълженото лице. Физическо  лице или Фирма (person/company)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="UserPID" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>ЕГН/ЛНЧ/ЛН на задълженото лице
+ЕИК/Булстат.
+За ЕГН/ЛНЧ/ЛН в явен вид само първите 6 позиции, а останалите маскирани
+За Чужденци, ЕИК/Булстат за фирми – може изцяло в явен вид.
+</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ObligationDocuments" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="ObligationDocument" type="common:ObligationDocumentType" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

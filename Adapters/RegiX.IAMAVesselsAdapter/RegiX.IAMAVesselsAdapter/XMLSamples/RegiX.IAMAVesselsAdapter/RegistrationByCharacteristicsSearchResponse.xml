@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ShipsResponse xmlns="http://marad.bg/">
+  <Ships>
+    <GovReportShip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    <GovReportShip>
+      <RegistrationInfo>
+        <ShipName>ShipName1</ShipName>
+        <ShipNameLatin>ShipNameLatin1</ShipNameLatin>
+        <RegistrationPort>RegistrationPort1</RegistrationPort>
+        <RegistrationNumber>RegistrationNumber1</RegistrationNumber>
+        <Tom>Tom1</Tom>
+        <Page>Page1</Page>
+        <Type>Type1</Type>
+        <Status>Active</Status>
+      </RegistrationInfo>
+      <OwnersInfo>
+        <ShipOwner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <ShipOwner>
+          <Firm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+          <Name>Name1</Name>
+          <SurName>SurName1</SurName>
+          <FamilyName>FamilyName1</FamilyName>
+          <BulstatEGN>BulstatEGN1</BulstatEGN>
+          <Address>Address1</Address>
+          <ImoNumber>ImoNumber1</ImoNumber>
+          <IsUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        </ShipOwner>
+        <ShipOwner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+      </OwnersInfo>
+      <Characteristics>
+        <BT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <NT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <MaxLength xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <MaxWidth xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <Waterplane xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <Displacement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <ShipboardHeight xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <DW xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <NumberOfEngines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        <EnginesFuel>EnginesFuel1</EnginesFuel>
+        <Engines>
+          <Engine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+          <Engine>
+            <SystemModification>SystemModification1</SystemModification>
+            <EngineNumber>EngineNumber1</EngineNumber>
+            <Power xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+            <EnginteType>EnginteType1</EnginteType>
+          </Engine>
+          <Engine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        </Engines>
+        <SumEnginePower>1</SumEnginePower>
+        <BodyNumber>BodyNumber1</BodyNumber>
+      </Characteristics>
+    </GovReportShip>
+    <GovReportShip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+  </Ships>
+</ShipsResponse>

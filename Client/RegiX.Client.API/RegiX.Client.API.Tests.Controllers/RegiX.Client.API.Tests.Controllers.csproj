@@ -1,0 +1,109 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <RootNamespace>TechnoLogica.RegiX.Client.API.Tests.Controllers</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.Development.json" />
+    <None Remove="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.Development.json">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="appsettings.json">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="2.2.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
+    <PackageReference Include="Moq" Version="4.13.1" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.3.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.3.2" />
+    <PackageReference Include="RegiX.ASPFosterParentsAdapter" Version="1.0.3" />
+    <PackageReference Include="RegiX.ASPSocialAdapter" Version="1.0.3" />
+    <PackageReference Include="RegiX.ChNTsAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.CROZAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.GitActualDeclarationAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.GitExplosivesAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.GitPenalProvisionsAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.GraoCivilStatusActsAdapter" Version="1.0.3" />
+    <PackageReference Include="RegiX.GraoCommon" Version="1.0.11" />
+    <PackageReference Include="RegiX.GraoNMAdapter" Version="1.0.4" />
+    <PackageReference Include="RegiX.GvaAircraftsAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.IaaaEducationCentersAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.IaaaVehicleInspectionsAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.IAMASeafarersAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.IAMAVesselsAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.IaosMROBatteriesAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.IaosMROElectricityAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.IaosMROOilAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.IaosMROTyresAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.IaosREG35Adapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.IaosRegister67ZOUAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.IaosREGProtectedAreasAdapter" Version="1.0.3" />
+    <PackageReference Include="RegiX.IaosTraderBrokerAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.KzldAdministratorsAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.KzldDeniedAdministratorsAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.KzldExemptAdministratorsAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.MonChildSchoolStudentsAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.MonStudentsAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.MPNPOAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.MPRNAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.MtEstiAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.MtspSimevAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.MtTouristRegisterAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.MVRBDSAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.MVRERChAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.MVRMPSAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.MVRTouristRegisterAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.MZHPastureAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.NapooStudentDocumentsAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.NelkEismeAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.NHIFAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.NKPDAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.NoiROAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.NoiRPAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.NRAEmploymentContractsAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.PDVOAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.PvSpcAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.RTSAdapter" Version="1.0.2" />
+    <PackageReference Include="RegiX.ZADSAdapter" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RegiX.Client.API.DataContracts\RegiX.Client.API.DataContracts.csproj" />
+    <ProjectReference Include="..\RegiX.Client.API\RegiX.Client.API.csproj" />
+    <ProjectReference Include="..\RegiX.Client.IoC.Configuration\RegiX.Client.IoC.Configuration.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Playlists\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DAEUOperationMetaData.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="GetPensionIncomeAmountReport.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="GetPensionTypeAndAmountReport.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="SendNotaryDocuments.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

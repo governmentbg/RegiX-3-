@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<JobSeekerHistoryRegistrationsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/AZ/JobSeekerHistoryRegistrationsResponse">
+  <JobSeekerPersonData>
+    <PersonalID xmlns="http://egov.bg/RegiX/AZ">124124</PersonalID>
+    <FirstName xmlns="http://egov.bg/RegiX/AZ">Stoyan</FirstName>
+    <MiddleName xmlns="http://egov.bg/RegiX/AZ">Jordanov</MiddleName>
+    <LastName xmlns="http://egov.bg/RegiX/AZ">Edrev</LastName>
+    <RegistrationNumber xmlns="http://egov.bg/RegiX/AZ">123545</RegistrationNumber>
+    <RegistrationDate xmlns="http://egov.bg/RegiX/AZ">2015-04-04</RegistrationDate>
+    <RegistrationDBT xmlns="http://egov.bg/RegiX/AZ">Агенция по заетостта</RegistrationDBT>
+    <RegistrationStatus xmlns="http://egov.bg/RegiX/AZ">валиден</RegistrationStatus>
+  </JobSeekerPersonData>
+  <HistoryOfRegistrations>
+    <HistoryOfRegistration>
+      <Activity>регистрация</Activity>
+      <RegistrationNumber>3244</RegistrationNumber>
+      <RegistrationGroup>потребителска</RegistrationGroup>
+      <RegistrationDate>2015-04-04</RegistrationDate>
+      <Reason>банкрут</Reason>
+      <RegistrationDBT>Агенция по заетостта</RegistrationDBT>
+    </HistoryOfRegistration>
+    <HistoryOfRegistration>
+      <Activity>регистрация</Activity>
+      <RegistrationNumber>5345</RegistrationNumber>
+      <RegistrationGroup>потребителска</RegistrationGroup>
+      <RegistrationDate>2015-04-04</RegistrationDate>
+      <Reason>no reason</Reason>
+      <RegistrationDBT>Агенция по заетостта</RegistrationDBT>
+    </HistoryOfRegistration>
+  </HistoryOfRegistrations>
+</JobSeekerHistoryRegistrationsResponse>

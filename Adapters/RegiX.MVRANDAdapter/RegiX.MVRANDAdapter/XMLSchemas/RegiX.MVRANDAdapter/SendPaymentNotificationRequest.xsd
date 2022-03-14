@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://egov.bg/RegiX/MVR/PaymentNotification/SendPaymentNotificationRequest" targetNamespace="http://egov.bg/RegiX/MVR/PaymentNotification/SendPaymentNotificationRequest" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="SendPaymentNotificationRequest" type="SendPaymentNotificationRequestType">
+		<xs:annotation>
+			<xs:documentation>Входни данни на операцията Отразяване на онлайн плащане в АИС АНД </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="SendPaymentNotificationRequestType">
+		<xs:sequence>
+			<xs:element name="TransactionNumber" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Уникален номер на транзакцията от ePay</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentType" type="SendNotificationDocumentType">
+				<xs:annotation>
+					<xs:documentation>Тип документ.
+Документ от тип АУАН, Фиш, НП</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentSeries" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Серия на документ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocumentNumber" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Номер на документ</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PaymentAmount" type="xs:double">
+				<xs:annotation>
+					<xs:documentation>Платена сума, BGN</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PaymentDate" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation>Дата/час на плащането</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PayerPin" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Идентификатор на наредител (ЕГН/ЛНЧ/ЕИК) </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PayerType" type="SendNotificationPayerType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Тип на наредител  - (P) „Физическо лице“
+(L) „Юридическо лице“
+ </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SystemId" type="xs:int" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Стойност от номенклатура "Информационни системи"</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AdministrationName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Структура/администрация
+ </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="SendNotificationDocumentType">
+		<xs:annotation>
+			<xs:documentation>Тип документ</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="TICKET"/>
+			<xs:enumeration value="PENAL_DECREE"/>
+			<xs:enumeration value="AGREEMENT"/>
+			<!--ФИШ-->
+			<!--Наказателно постановление-->
+			<!--Съгласуване-->
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="SendNotificationPayerType">
+		<xs:annotation>
+			<xs:documentation>Тип на наредител</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="P"/>
+			<xs:enumeration value="L"/>
+			<!--Физическо лице-->
+			<!--Юридическо лице-->
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
